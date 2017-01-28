@@ -7,6 +7,7 @@ install:
 - go get -u -v github.com/kardianos/govendor
 - go get -u -v github.com/spf13/hugo
 - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
+- gem install dpl -v 1.8.30
 script:
 - cd $HOME/gopath/src/github.com/marcacohen/mcohen.io && hugo
 deploy:
