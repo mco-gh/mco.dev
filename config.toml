@@ -4,23 +4,13 @@ baseurl = "http://mcohen.io/"
 
 [params]
   title = "Marc Cohen"
-  description = 'Technology, music, books, and more.'
+  description = 'Technology, music, books, and stuff.'
   logo = "fa-code"
   copyright = "2017, Marc A. Cohen"
 
 [[params.social]]
   medium = "twitter"
   icon = "twitter"
-  link = "#"
-
-[[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "#"
-
-[[params.social]]
-  medium = "instagram"
-  icon = "instagram"
   link = "#"
 
 [[params.social]]
