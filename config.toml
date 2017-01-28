@@ -1,7 +1,6 @@
 languageCode = "en-us"
 title = "Dimension"
 baseurl = "http://example.org/"
-theme = "dimension"
 
 [params]
   title = "Dimension"
