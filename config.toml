@@ -1,13 +1,12 @@
 languageCode = "en-us"
-title = "Dimension"
-baseurl = "http://example.org/"
+title = "Marc Cohen"
+baseurl = "http://mcohen.io/"
 
 [params]
-  title = "Dimension"
-  description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
-  logo = "fa-diamond"
-  copyright = "Untitled"
+  title = "Marc Cohen"
+  description = 'Technology, music, books, and more.'
+  logo = "fa-code"
+  copyright = "2017, Marc A. Cohen"
 
 [[params.social]]
   medium = "twitter"
