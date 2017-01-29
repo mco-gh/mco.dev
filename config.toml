@@ -1,19 +1,8 @@
 languageCode = "en-us"
 title = "Marc Cohen"
-baseurl = "http://mcohen.io/"
+baseurl = "https://mcohen.io/"
 
 [params]
   title = "Marc Cohen"
-  description = 'Old dog learning new tricks'
   logo = "fa-code"
   copyright = "2017, Marc A. Cohen"
-
-[[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
-
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "#"
