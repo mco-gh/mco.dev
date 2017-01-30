@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/marcacohen/mcohen.io.svg?branch=master)](https://travis-ci.org/marcacohen/mcohen.io)
 
 This is the source repo for my personal blog,
-[mcohen.io](http://mcohen.io).
+[mcohen.io](https://www.mcohen.io).
 It's based on Seth MacLeod's [Dimension theme for Hugo](https://github.com/sethmacleod/dimension).
 
 ## License

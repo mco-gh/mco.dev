@@ -1,8 +1,7 @@
 languageCode = "en-us"
 title = "Marc Cohen"
-baseurl = "https://mcohen.io/"
+baseurl = "https://www.mcohen.io/"
 
 [params]
   title = "Marc Cohen"
   logo = "fa-code"
-  copyright = "2017, Marc A. Cohen"
