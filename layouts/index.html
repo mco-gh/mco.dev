@@ -13,6 +13,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 		<link rel="stylesheet" type="text/css" href="/css/books.css" />
+		<link href="css/ytv.css" type="text/css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 		<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />	
@@ -72,8 +73,7 @@
 						<!-- books -->
 							<article id="blog">
 								<h2 class="major">Blog</h2>
-								<span class="image main"><img src="/img/london.jpg" alt="" /></span>
-								<span class="image main"><img src="blog.jpg" alt="" /></span>
+								<span class="image main"><img src="/img/blog.jpg" alt="" /></span>
 								{{ partial "article-list" . }}						
 							</article>
 
@@ -201,7 +201,8 @@
 						<!-- music -->
 							<article id="music">
 								<h2 class="major">Music</h2>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5" frameborder="0" allowfullscreen></iframe>
+								<div id="musicplayer"></div>
+								<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5" frameborder="0" allowfullscreen></iframe>-->
 							</article>
 
 						<!-- About -->
@@ -251,16 +252,23 @@ films (especially documentaries), books, teaching, puzzles, and chess.										
 			<script src="/js/skel.min.js"></script>
 			<script src="/js/util.js"></script>
 			<script src="/js/main.js"></script>
+			<script src="js/ytv.js" type="text/javascript"></script>
 			<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
   			<script type="text/javascript">
 				$(document).ready(function(){
-				$('.books').slick({ 
-					//lazyload: 'ondemand','
-					centerMode: true,
-					centerPadding: '50px',
-					infinite: true, 
-					slidesToShow: 2,
-					slidesToScroll: 1
+					$('.books').slick({ 
+						//lazyload: 'ondemand','
+						centerMode: true,
+						centerPadding: '50px',
+						infinite: true, 
+						slidesToShow: 2,
+						slidesToScroll: 1
+					});
+					var controller = new YTV('musicplayer', {
+						user: 'marcacohen',
+						playlist: 'PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5',
+						responsive: true
+					});
 				});
   		</script>
 	</body>
