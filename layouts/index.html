@@ -202,7 +202,6 @@
 							<article id="music">
 								<h2 class="major">Music</h2>
 								<div id="musicplayer"></div>
-								<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5" frameborder="0" allowfullscreen></iframe>-->
 							</article>
 
 						<!-- About -->
@@ -267,7 +266,13 @@ films (especially documentaries), books, teaching, puzzles, and chess.										
 					var controller = new YTV('musicplayer', {
 						user: 'marcacohen',
 						playlist: 'PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5',
-						responsive: true
+						responsive: true,
+						shuffleList: true,
+						controls: true,
+						annotations: true,
+						playerTheme: 'light',
+						listTheme: 'light'
+						//wmode: 'window'
 					});
 				});
   		</script>
