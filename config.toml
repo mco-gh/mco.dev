@@ -1,7 +1,14 @@
 languageCode = "en-us"
+defaultContentLanguage = "en-us"
 title = "Marc Cohen"
 baseurl = "https://www.mcohen.io/"
+disqusShortname = "marcacohen"
 
 [params]
   title = "Marc Cohen"
   logo = "fa-code"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
