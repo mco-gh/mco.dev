@@ -62,41 +62,8 @@
 						<!-- books -->
 							<article id="books">
 								<h2 class="major">Books</h2>
-								<div class="component">
-									<ul class="align">
-										<!-- Book 1 -->
-										<li>
-											<figure class='book'>        
-												<!-- Front -->        
-												<ul class='hardcover_front'>
-													<li>
-														<img src="https://images-na.ssl-images-amazon.com/images/I/51TtWX6%2B0GL.jpg" alt="" width="100%" height="100%">
-														<span class="ribbon bestseller">Nº1</span>
-													</li>
-													<li></li>
-												</ul>        
-												<!-- Pages -->        
-												<ul class='page'>
-													<li></li>
-													<li>
-														<a class="btn" href="#">Buy</a>
-													</li>
-													<li></li>
-												</ul>        
-												<!-- Back -->        
-												<ul class='hardcover_back'>
-													<li></li>
-												</ul>
-												<ul class='book_spine'>
-													<li></li>
-												</ul>
-												<figcaption>
-													<h1>To Kill A Mockingbird</h1>
-													<span>By Harper Lee</span>
-												</figcaption>
-											</figure>
-										</li>  
-									</article>
+								{{ partial "books" }}
+							</article>
 
 						<!-- music -->
 							<article id="music">
@@ -116,7 +83,7 @@
 					</div>
 
 				<!-- Footer -->
-					{{ partial "footer" }}
+				{{ partial "footer" }}
 
 			</div>
 
