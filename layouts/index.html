@@ -36,24 +36,7 @@
 						<div class="content">
 							<div class="inner icons">
 								<h1>{{ .Site.Params.title | safeHTML }}</h1>
-								<a href="https://twitter.com/marcacohen" class="nbb">
-								    <span class="icon fa-twitter"></span>
-								</a>&nbsp;&nbsp;
-								<a href="https://github.com/marcacohen" class="nbb">
-									<span class="icon fa-github-square"></span>
-								</a>&nbsp;&nbsp;
-								<a href="https://medium.com/@marcacohen" class="nbb">
-									<span class="icon fa-medium"></span>
-								</a>&nbsp;&nbsp;
-								<a href="https://linkedin.com/in/marccohen3" class="nbb">
-									<span class="icon fa-linkedin-square"></span>
-								</a>&nbsp;&nbsp;
-								<a href="mailto:mco@google.com" class="nbb">
-									<span class="icon fa-envelope-o"></span>
-								</a>&nbsp;&nbsp;
-								<a href="https://www.mcohen.io/rss" class="nbb">
-									<span class="icon fa-rss"></span>
-								</a>&nbsp;&nbsp;
+								{{ partial "social" }}							
 								<p>"I am not young enough to know everything" - Oscar Wilde</p>
 							</div>
 						</div>
@@ -79,122 +62,120 @@
 						<!-- books -->
 							<article id="books">
 								<h2 class="major">Books</h2>
-<!-- -->
-<div class="component">
-  <ul class="align">
-    <!-- Book 1 -->
-    <li>
-      <figure class='book'>        
-        <!-- Front -->        
-        <ul class='hardcover_front'>
-          <li>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51TtWX6%2B0GL.jpg" alt="" width="100%" height="100%">
-            <span class="ribbon bestseller">Nº1</span>
-          </li>
-          <li></li>
-        </ul>        
-        <!-- Pages -->        
-        <ul class='page'>
-          <li></li>
-          <li>
-            <a class="btn" href="#">Buy</a>
-          </li>
-          <li></li>
-          <li></li>
-        </ul>        
-        <!-- Back -->        
-        <ul class='hardcover_back'>
-          <li></li>
-        </ul>
-        <ul class='book_spine'>
-          <li></li>
-        </ul>
-        <figcaption>
-          <h1>To Kill A Mockingbird</h1>
-          <span>By Harper Lee</span>
-        </figcaption>
-      </figure>
-    </li>  
-    <!-- Book 2 -->
-    <li>
-      <figure class='book'>        
-        <!-- Front -->        
-        <ul class='hardcover_front'>
-          <li>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51FhJXhhK6L._SX329_BO1,204,203,200_.jpg" alt="" width="100%" height="100%">
-            <span class="ribbon new">NEW</span>
-          </li>
-          <li></li>
-        </ul>        
-        <!-- Pages -->        
-        <ul class='page'>
-          <li></li>
-          <li>
-            <a class="btn" href="#">Download</a>
-          </li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>        
-        <!-- Back -->        
-        <ul class='hardcover_back'>
-          <li></li>
-          <li></li>
-        </ul>
-        <ul class='book_spine'>
-          <li></li>
-          <li></li>
-        </ul>
-        <figcaption>
-          <h1>Algorithms to Live By</h1>
-          <span>By Brian Christian and Tom Griffiths</span>
-        </figcaption>
-      </figure>
-    </li>  
-    <!-- Book 3 -->
-    <li>
-      <figure class='book'>       
-        <!-- Front -->        
-        <ul class='hardcover_front'>
-          <li>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51IMyYHnd6L._AC_US320_FMwebp_QL65_.jpg" alt="" width="100%" height="100%">
-          </li>
-          <li></li>
-        </ul>        
-        <!-- Pages -->        
-        <ul class='page'>
-          <li></li>
-          <li>
-            <a class="btn" href="#">Download</a>
-          </li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>        
-        <!-- Back -->        
-        <ul class='hardcover_back'>
-          <li></li>
-          <li></li>
-        </ul>
-        <ul class='book_spine'>
-          <li></li>
-          <li></li>
-        </ul>
-        <figcaption>
-          <h1>Travels With Charley</h1>
-          <span>By John Steinbeck</span>
-        </figcaption>
-      </figure>
-    </li>
-  </ul>  
-</div>
-<!-- -->
+								<div class="component">
+									<ul class="align">
+										<!-- Book 1 -->
+										<li>
+											<figure class='book'>        
+												<!-- Front -->        
+												<ul class='hardcover_front'>
+													<li>
+														<img src="https://images-na.ssl-images-amazon.com/images/I/51TtWX6%2B0GL.jpg" alt="" width="100%" height="100%">
+														<span class="ribbon bestseller">Nº1</span>
+													</li>
+													<li></li>
+												</ul>        
+												<!-- Pages -->        
+												<ul class='page'>
+													<li></li>
+													<li>
+														<a class="btn" href="#">Buy</a>
+													</li>
+													<li></li>
+												</ul>        
+												<!-- Back -->        
+												<ul class='hardcover_back'>
+													<li></li>
+												</ul>
+												<ul class='book_spine'>
+													<li></li>
+												</ul>
+												<figcaption>
+													<h1>To Kill A Mockingbird</h1>
+													<span>By Harper Lee</span>
+												</figcaption>
+											</figure>
+										</li>  
+										<!-- Book 2 -->
+										<li>
+											<figure class='book'>        
+												<!-- Front -->        
+												<ul class='hardcover_front'>
+													<li>
+														<img src="https://images-na.ssl-images-amazon.com/images/I/51FhJXhhK6L._SX329_BO1,204,203,200_.jpg" alt="" width="100%" height="100%">
+														<span class="ribbon new">NEW</span>
+													</li>
+													<li></li>
+												</ul>        
+												<!-- Pages -->        
+												<ul class='page'>
+													<li></li>
+													<li>
+														<a class="btn" href="#">Download</a>
+													</li>
+													<li></li>
+													<li></li>
+													<li></li>
+												</ul>        
+												<!-- Back -->        
+												<ul class='hardcover_back'>
+													<li></li>
+													<li></li>
+												</ul>
+												<ul class='book_spine'>
+													<li></li>
+													<li></li>
+												</ul>
+												<figcaption>
+													<h1>Algorithms to Live By</h1>
+													<span>By Brian Christian and Tom Griffiths</span>
+												</figcaption>
+											</figure>
+										</li>  
+										<!-- Book 3 -->
+										<li>
+											<figure class='book'>       
+												<!-- Front -->        
+												<ul class='hardcover_front'>
+													<li>
+														<img src="https://images-na.ssl-images-amazon.com/images/I/51IMyYHnd6L._AC_US320_FMwebp_QL65_.jpg" alt="" width="100%" height="100%">
+													</li>
+													<li></li>
+												</ul>        
+												<!-- Pages -->        
+												<ul class='page'>
+													<li></li>
+													<li>
+														<a class="btn" href="#">Download</a>
+													</li>
+													<li></li>
+													<li></li>
+													<li></li>
+												</ul>        
+												<!-- Back -->        
+												<ul class='hardcover_back'>
+													<li></li>
+													<li></li>
+												</ul>
+												<ul class='book_spine'>
+													<li></li>
+													<li></li>
+												</ul>
+												<figcaption>
+													<h1>Travels With Charley</h1>
+													<span>By John Steinbeck</span>
+												</figcaption>
+											</figure>
+										</li>
+									</ul>  
+								</div>
 							</article>
 
 						<!-- music -->
 							<article id="music">
 								<h2 class="major">Music</h2>
 								<div id="musicplayer"></div>
+								<br>
 							</article>
 
 						<!-- About -->

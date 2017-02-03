@@ -3,10 +3,13 @@ defaultContentLanguage = "en-us"
 title = "Marc Cohen"
 baseurl = "https://www.mcohen.io/"
 disqusShortname = "marcacohen"
+themesDir = "themes"
+theme = "hugo-minimalist-theme"
 
 [params]
   title = "Marc Cohen"
   logo = "fa-code"
+  site_author = "Marc Cohen"
 
 [taxonomies]
   tag = "tags"

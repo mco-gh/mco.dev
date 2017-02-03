@@ -4,7 +4,7 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-tags = ["cloud"]
+tags = ["cloud", "golang"]
 date = "2017-01-05T21:24:58Z"
 title = "gcslock - Serializing Computations at Planet Scope"
 +++
