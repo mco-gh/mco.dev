@@ -1,7 +1,7 @@
 <h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
 
 <footer class="post-info">{{ .Site.Data.l10n.article.posted_on }} 
-    <span class="post-meta"><time datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "2006.01.02" }}</time>
+    <span class="post-meta"><time datetime="{{ .Date.Format "01/02/2006" }}">{{ .Date.Format "01/02/2006" }}</time>
         {{ if isset .Params "tags" }}
             {{ if gt (len .Params.tags) 0 }}&middot; {{ .Site.Data.l10n.article.tagged_in }}
                 {{ range $i, $v := .Params.tags }}

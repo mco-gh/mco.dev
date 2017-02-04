@@ -3,6 +3,7 @@ defaultContentLanguage = "en-us"
 title = "Marc Cohen"
 baseurl = "https://www.mcohen.io/"
 disqusShortname = "https-www-mcohen-io"
+paginate = 5
 
 [params]
   title = "Marc Cohen"

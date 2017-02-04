@@ -1,0 +1,11 @@
+[articles]
+    read_more = "Read more"
+    words = "words"
+    readingtime = "minute read"
+    share = "Share"
+    comments = "Comments"
+
+[pagination]
+    next = "Next"
+    previous = "Previous"
+    
