@@ -1,125 +1,83 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>{{ .Title }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
-		<link rel="stylesheet" type="text/css" href="/css/books.css" />
-		<link href="css/ytv.css" type="text/css" rel="stylesheet" />
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
-		<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />	
-		<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+		{{ partial "stylesheets" }}
 	</head>
 	<body>
-
 		<!-- Wrapper -->
-			<div id="wrapper">
-					<a href="https://www.mcohen.io" class="upper-left">
-						<img src="img/logo.png" height="50" />
-					</a>  
+		<div id="wrapper">
+			<a href="/" class="upper-left">
+				<img src="img/logo.png" height="50" />
+			</a>  
 
-				<!-- Header -->
-					<header id="header">
-						<a href="https://www.mcohen.io" class="nbb">
-						<div class="logo">
-							<span class="icon {{ .Site.Params.logo }}"></span>
-						</div></a>
-						<div class="content">
-							<div class="inner icons">
-								<h1>{{ .Site.Params.title | safeHTML }}</h1>
-								{{ partial "social" }}							
-								<p>"I am not young enough to know everything" - Oscar Wilde</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#blog">Blog</a></li>
-								<li><a href="#books">Books</a></li>
-								<li><a href="#music">Music</a></li>
-								<li><a href="#about">About</a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- books -->
-							<article id="blog">
-								<h2 class="major">Blog</h2>
-								{{ partial "article-list" . }}						
-							</article>
-
-						<!-- books -->
-							<article id="books">
-								<h2 class="major">Books</h2>
-								{{ partial "books" }}
-							</article>
-
-						<!-- music -->
-							<article id="music">
-								<h2 class="major">Music</h2>
-								<div id="musicplayer"></div>
-								<br>
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="/img/london.jpg" alt="" /></span>
-						  		<img src="/img/mco.jpg" alt="" height="150" class="me" />
-								{{ partial "about" }}
-							</article>
-
+			<!-- Header -->
+			<header id="header">
+				<a href="/" class="nbb">
+				<div class="logo">
+					<span class="icon {{ .Site.Params.logo }}"></span>
+				</div></a>
+				<div class="content">
+					<div class="inner icons">
+						<h1>{{ .Site.Params.title | safeHTML }}</h1>
+						{{ partial "social" }}							
+						<p>"I am not young enough to know everything" - Oscar Wilde</p>
 					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#books">Books</a></li>
+						<li><a href="#music">Music</a></li>
+						<li><a href="#about">About</a></li>
+					</ul>
+				</nav>
+			</header>
 
-				<!-- Footer -->
-				{{ partial "footer" }}
+			<!-- Main -->
+			<div id="main">
 
+				<!-- books -->
+				<article id="blog">
+					<h2 class="major">Blog</h2>
+					{{ partial "article-list" . }}						
+				</article>
+
+				<!-- books -->
+				<article id="books">
+					<h2 class="major">Books</h2>
+					{{ partial "books" }}
+				</article>
+
+				<!-- music -->
+				<article id="music">
+					<h2 class="major">Music</h2>
+					<div id="musicplayer"></div>
+					<br>
+				</article>
+
+				<!-- About -->
+				<article id="about">
+					<h2 class="major">About</h2>
+					<span class="image main"><img src="/img/london.jpg" alt="" /></span>
+					<img src="/img/mco.jpg" alt="" height="150" class="me" />
+					{{ partial "about" }}
+				</article>
 			</div>
 
+			<!-- Footer -->
+			{{ partial "footer" }}
+			
+		</div>
+
 		<!-- BG -->
-			<div id="bg"></div>
+		<div id="bg"></div>
 
 		<!-- Scripts -->
-			<script src="/js/jquery.min.js"></script>
-			<script src="/js/skel.min.js"></script>
-			<script src="/js/util.js"></script>
-			<script src="/js/main.js"></script>
-			<script src="js/ytv.js" type="text/javascript"></script>
-			<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-  			<script type="text/javascript">
-				$(document).ready(function(){
-					$('.books').slick({ 
-						//lazyload: 'ondemand','
-						centerMode: true,
-						centerPadding: '50px',
-						infinite: true, 
-						slidesToShow: 2,
-						slidesToScroll: 1
-					});
-					var controller = new YTV('musicplayer', {
-						user: 'marcacohen',
-						playlist: 'PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5',
-						responsive: true,
-						shuffleList: true,
-						controls: true,
-						annotations: true,
-						playerTheme: 'light',
-						listTheme: 'light'
-						//wmode: 'window'
-					});
-					url = "https://www.goodreads.com/review/list/24854520.xml?key=3ehugZDq2NeF6mdiMrydQ&v=2&shelf=recommended";
-				});
-  		</script>
+		{{ partial "javascript" }}
+	
 	</body>
 </html>

@@ -1,19 +1,30 @@
+
+<head>
+    <title>{{ .Title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    {{ partial "stylesheets" }}
+</head>
+
 {{ partial "header" . }}
 
-<div class="container clearfix">
-    <main role="main" class="content">
-        <article class="post">
-            <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
-            {{ partial "article-header" . }}
-            {{ .Content}}
-            {{ partial "article-share" . }}
-        </article>
-        <div class="comments">
-            <h3>{{ .Site.Data.l10n.comments.comments }}</h3>
-            {{ template "_internal/disqus.html" . }}
-        </div>
-    </main>
-    {{ partial "author" . }}
+<div id="wrapper">
+    <div class="container clearfix bg">
+        <main role="main" class="content">
+            <article class="post">
+                <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
+                {{ partial "article-header" . }}
+                {{ .Content}}
+                {{ partial "article-share" . }}
+            </article>
+        </main>
+        {{ partial "author" . }}
+        <br>
+        {{ partial "disqus.html" . }}
+    </div>
 </div>
+<!--<div id="bg"></div>-->
 
 {{ partial "footer" . }}
+
+<!-- {{ partial "javascript" }} -->
