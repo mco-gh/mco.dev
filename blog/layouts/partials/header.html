@@ -68,8 +68,8 @@
     {{ else }}
     
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="{{ .Site.BaseURL }}img/mco.jpg" />
-        <meta property="og:image" content="{{ .Site.BaseURL }}img/mco.jpg" />
+        <meta name="twitter:image" content="/img/mco.jpg" />
+        <meta property="og:image" content="/img/mco.jpg" />
         
         {{ if .IsPage }}
         
@@ -119,7 +119,7 @@
     </head>
     <body>
         <header id="header">
-            <a id="logo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}img/mco.jpg" alt="{{ .Site.Title }}" /></a>
+            <a id="logo" href="{{ .Site.BaseURL }}"><img src="/img/mco.jpg" alt="{{ .Site.Title }}" /></a>
             <h1><a href="{{.Site.BaseURL}}">{{.Site.Title}}</a></h1>
 
             {{ partial "follow.html" . }}
