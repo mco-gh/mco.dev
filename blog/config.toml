@@ -1,0 +1,21 @@
+baseurl = "https://mcohen.io/"
+languageCode = "en-us"
+title = "Marc Cohen"
+paginate = 10
+googleAnalytics = ""
+publishDir = "../public/blog"
+
+[params]
+    twitter = "marcacohen"
+    description = "Marc Cohen's Personal Blog"
+    email = "mco@google.com"
+    hostname = "mcohen.io"
+
+[permalinks]
+    post = "/:year/:title/"
+    addendum = "/addendum/:year/:title/"
+
+[author]
+    name = "Marc Cohen"
+    twitter = "marcacohen"
+    email = "mco@google.com"
