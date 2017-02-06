@@ -1,4 +1,4 @@
-baseurl = "https://mcohen.io/"
+baseurl = "https://mcohen.io/blog/"
 languageCode = "en-us"
 title = "Marc Cohen"
 paginate = 10
