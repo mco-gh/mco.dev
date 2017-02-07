@@ -1,6 +1,0 @@
-
-{{ partial "article-header" . }}
-<p>
-    {{ printf "%s" .Summary | markdownify }}&hellip;<br>
-    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Site.Data.l10n.articles.read_more }} <font size="+3">&raquo;</font></a>
-</p>
