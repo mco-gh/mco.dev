@@ -16,7 +16,7 @@
     "url": "{{ .Site.BaseURL }}",
     "about": "{{ .Site.Params.description }}",
     "name": "{{ .Site.Title }}",
-    "image": "{{ .Site.BaseURL }}mco.jpg",
+    "image": "{{ .Site.BaseURL }}img/mco.jpg",
     "headline": "{{ .Title }}",
     "educationalUse": "research",
     "author": {
@@ -25,7 +25,7 @@
     "dateModified": "{{ .Site.LastChange | dateFormat "2006-01-02" }}",
     "potentialAction": {
     	 "@type": "SearchAction",
-    	 "target": "{{ .Site.BaseURL }}search/?q={search_term_string}",
+    	 "target": "{{ .Site.BaseURL }}blog/search/?q={search_term_string}",
     	 "query-input": "required name=search_term_string"
     }
 }

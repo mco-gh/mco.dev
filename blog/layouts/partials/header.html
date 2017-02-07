@@ -45,7 +45,7 @@
         <meta property="og:type" content="article" />
         <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" />
         <meta property="og:article:section" content="{{ if .Section }}{{ .Section }}{{ else }}{{ .Type }}{{ end }}" />
-        <meta property="og:article:author" content="{{ .Site.BaseURL }}about/" />
+        <meta property="og:article:author" content="{{ .Site.BaseURL }}#about" />
         
         <script type="application/ld+json">
             { 
@@ -98,7 +98,7 @@
         <meta name="theme-color" content="#2c3e50">
         {{ .Hugo.Generator }}
 
-        <link href="{{ .Site.BaseURL }}post/index.xml" rel="alternate" type="application/rss+xml" title="RSS &middot; {{ .Site.Title }}" />
+        <link href="{{ .Site.BaseURL }}blog/post/index.xml" rel="alternate" type="application/rss+xml" title="RSS &middot; {{ .Site.Title }}" />
     
     {{ partial "criticalpath.html" . }}
     </head>
