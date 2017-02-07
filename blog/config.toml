@@ -1,4 +1,4 @@
-baseurl = "https://www.mcohen.io/"
+BaseURL = "https://www.mcohen.io/"
 languageCode = "en-us"
 title = "Marc Cohen"
 paginate = 10
@@ -12,8 +12,8 @@ publishDir = "../public/blog"
     hostname = "mcohen.io"
 
 [permalinks]
-    post = "/blog/:year/:title/"
-    addendum = "/blog/addendum/:year/:title/"
+    post = "/:year/:title/"
+    addendum = "/addendum/:year/:title/"
 
 [author]
     name = "Marc Cohen"

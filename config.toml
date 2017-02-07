@@ -1,7 +1,7 @@
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Marc Cohen"
-baseurl = "https://www.mcohen.io/"
+BaseURL = "https://www.mcohen.io/"
 disqusShortname = "https-www-mcohen-io"
 paginate = 10
 
