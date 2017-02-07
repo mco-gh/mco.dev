@@ -6,7 +6,7 @@ description = "this is an article"
 categories = ["cloud"]
 tags = ["cloud"]
 date = "2017-01-05T21:24:58Z"
-title = "blah blah blah"
+title = "Test Post"
 +++
 
 # gcslock
