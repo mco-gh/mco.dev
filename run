@@ -1,0 +1,7 @@
+rm -rf public
+hugo
+cd blog
+hugo
+cd ../public
+python -m SimpleHTTPServer
+
