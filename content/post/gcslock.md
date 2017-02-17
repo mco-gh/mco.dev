@@ -125,7 +125,7 @@ an associated timeout then these calls are equivalent to the Lock/Unlock methods
 (i.e. they wait indefinitely to acquire/release the mutex). Here's an example 
 use of locking/unlocking with a timeout context:
 
-```go
+``` go
 // Instantiate mutex and setup a context with 100ms timeout.
 m, err := gcslock.New(nil, bucket, object)
 if err != nil {
@@ -153,7 +153,7 @@ You can also use this technique via the command line using the gsutil
 command, which enables serialization of shell scripts running anywhere.
 The `gcslock.sh` file defines two functions, which give the ability to
 globally lock shell script logic like this:
-```sh
+``` go
 source gcslock.sh
 lock mybucket
 echo "protected logic"
