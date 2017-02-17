@@ -10,6 +10,5 @@ install:
   - npm install -g firebase-tools
 script:
   - cd $HOME/gopath/src/github.com/marcacohen/mcohen.io && hugo
-  - cd $HOME/gopath/src/github.com/marcacohen/mcohen.io/blog && hugo
 after_success:
   - firebase deploy --token=${FIREBASE_API_TOKEN}
