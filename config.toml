@@ -4,6 +4,8 @@ title = "Marc Cohen"
 paginate = 10
 googleAnalytics = ""
 DisqusShortname = "https-www-mcohen-io"
+PygmentsCodeFences = true
+PygmentsStyle = "fruity"
 
 [params]
     twitter = "marcacohen"

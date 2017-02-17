@@ -6,14 +6,11 @@ description = ""
 categories = []
 tags = ["cloud", "golang"]
 date = "2017-01-05T21:24:58Z"
-title = "gcslock - Serializing Computations at Planet Scope"
+title = "gcslock - Cloud Scope Synchronization"
 +++
 
-# gcslock
-
 **gcslock** is a scalable, distributed mutex that can be used to serialize
-computations anywhere on the global internet. (Disclaimer: The author works
-for Google but this is not an official Google product.)
+computations anywhere on the global internet.
 
 ## What is this?
 
@@ -105,7 +102,7 @@ The godoc document can be found [here](https://godoc.org/github.com/marcacohen/g
 1. Enable object versioning in your bucket using the command `gsutil versioning set on gs://your-bucket-name`.
 1. In your Go code, import `github.com/marcacohen/gcslock` and use it as follows:
 
-```go
+``` go
 m, err := gcslock.New(nil, bucket, object)
 if err != nil {
   log.Fatal(err)
