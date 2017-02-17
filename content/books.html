@@ -1,0 +1,20 @@
++++
+title = "Books"
+description = "Some of my favorite Books"
++++
+
+<div id="bookshelf"></div>
+<span class="image main"><img src="/img/lib.jpg" alt="" /></span>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#bookshelf').slick({ 
+            //lazyload: 'ondemand','
+            centerMode: true,
+            centerPadding: '50px',
+            infinite: true, 
+            slidesToShow: 2,
+            slidesToScroll: 1
+        });
+        url = "https://www.goodreads.com/review/list/24854520.xml?key=3ehugZDq2NeF6mdiMrydQ&v=2&shelf=recommended";
+    });
+</script>

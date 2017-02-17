@@ -1,16 +1,20 @@
-languageCode = "en-us"
-defaultContentLanguage = "en-us"
-title = "Marc Cohen"
 BaseURL = "https://www.mcohen.io/"
-disqusShortname = "https-www-mcohen-io"
+languageCode = "en-us"
+title = "Marc Cohen"
 paginate = 10
+googleAnalytics = ""
 
 [params]
-  title = "Marc Cohen"
-  logo = "fa-code"
-  site_author = "Marc Cohen"
+    twitter = "marcacohen"
+    description = "Marc Cohen's Personal Blog"
+    email = "mco@google.com"
+    hostname = "mcohen.io"
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  archive = "archives"
+[permalinks]
+    post = "/:year/:title/"
+    addendum = "/addendum/:year/:title/"
+
+[author]
+    name = "Marc Cohen"
+    twitter = "marcacohen"
+    email = "mco@google.com"

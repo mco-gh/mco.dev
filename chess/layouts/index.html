@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>{{ .Title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		{{ partial "stylesheets" }}
+	</head>
+	<body>
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<a href="/" class="upper-left">
+				<img src="img/logo.png" height="50" />
+			</a>  
+
+			<!-- Header -->
+			<header id="header">
+				<a href="/" class="nbb">
+				<div class="logo">
+					<span class="icon {{ .Site.Params.logo }}"></span>
+				</div></a>
+				<div class="content">
+					<div class="inner icons">
+						<h1>{{ .Site.Params.title | safeHTML }}</h1>
+						{{ partial "social" }}							
+						<p>"I am not young enough to know everything" - Oscar Wilde</p>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="/blog">Blog</a></li>
+						<li><a href="#books">Books</a></li>
+						<li><a href="#music">Music</a></li>
+						<li><a href="#about">About</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+			<div id="main">
+				<!-- books -->
+				<article id="books">
+					<h2 class="major">Books</h2>
+					{{ partial "books" }}
+				</article>
+
+				<!-- music -->
+				<article id="music">
+					<h2 class="major">Music</h2>
+					<div id="musicplayer"></div>
+					<br>
+				</article>
+
+				<!-- About -->
+				<article id="about">
+					<h2 class="major">About</h2>
+					<span class="image main"><img src="/img/london.jpg" alt="" /></span>
+					<img src="/img/mco.jpg" alt="" height="150" class="me" />
+					{{ partial "about" }}
+				</article>
+			</div>
+
+			<!-- Footer -->
+			{{ partial "footer" }}
+			
+		</div>
+
+		<!-- BG -->
+		<div id="bg"></div>
+
+		<!-- Scripts -->
+		{{ partial "javascript" }}
+	
+	</body>
+</html>

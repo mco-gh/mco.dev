@@ -1,0 +1,30 @@
+<script src="/js/jquery.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
+<script src="js/ytv.js" type="text/javascript"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.books').slick({ 
+            //lazyload: 'ondemand','
+            centerMode: true,
+            centerPadding: '50px',
+            infinite: true, 
+            slidesToShow: 2,
+            slidesToScroll: 1
+        });
+        var controller = new YTV('musicplayer', {
+            user: 'marcacohen',
+            playlist: 'PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5',
+            responsive: true,
+            shuffleList: true,
+            controls: true,
+            annotations: true,
+            playerTheme: 'light',
+            listTheme: 'light'
+            //wmode: 'window'
+        });
+        url = "https://www.goodreads.com/review/list/24854520.xml?key=3ehugZDq2NeF6mdiMrydQ&v=2&shelf=recommended";
+    });
+</script>
