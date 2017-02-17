@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 		<main id="content">
-            <img src="/img/london.jpg" alt="" />
+            <img class="homeimg" src="/img/london.jpg" alt="" />
+            <br>
 {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 
     {{ range $index, $page := .Paginator.Pages }}
