@@ -5,7 +5,7 @@ paginate = 10
 googleAnalytics = ""
 DisqusShortname = "https-www-mcohen-io"
 PygmentsCodeFences = true
-PygmentsStyle = "fruity"
+PygmentsStyle = "monokai"
 
 [params]
     twitter = "marcacohen"
