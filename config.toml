@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Marc Cohen"
 paginate = 10
 googleAnalytics = ""
+DisqusShortname = "https-www-mcohen-io"
 
 [params]
     twitter = "marcacohen"

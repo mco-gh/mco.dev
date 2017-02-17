@@ -1,5 +1,6 @@
 <div class="container clearfix">
    <main role="main" class="content">
+        <img src="/img/chess.jpg" alt="" />
         {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
         {{ range $paginator.Pages }}
             {{ .Render "summary" }}
