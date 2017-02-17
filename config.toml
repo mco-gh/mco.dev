@@ -19,3 +19,12 @@ DisqusShortname = "https-www-mcohen-io"
     name = "Marc Cohen"
     twitter = "marcacohen"
     email = "mco@google.com"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[indexes]
+    tag = "tags"
+    topic = "topics"
