@@ -11,13 +11,16 @@ description = ""
     $(document).ready(function(){
         var controller = new YTV('musicplayer', {
             user: 'marcacohen',
+            browsePlaylists: true,
+            fullScreen: true,
             playlist: 'PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5',
             responsive: true,
             shuffleList: true,
             controls: true,
             annotations: true,
             playerTheme: 'light',
-            listTheme: 'light'
+            listTheme: 'dark',
+            accent: '#1F2A48'
             //wmode: 'window'
         });
     });
