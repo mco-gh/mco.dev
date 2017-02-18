@@ -4,16 +4,50 @@ description = "Some of my favorite Books"
 +++
 
 <div id="bookshelf"></div>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('#bookshelf').slick({ 
-            //lazyload: 'ondemand','
-            centerMode: true,
-            centerPadding: '50px',
-            infinite: true, 
-            slidesToShow: 2,
-            slidesToScroll: 1
-        });
-        url = "https://www.goodreads.com/review/list/24854520.xml?key=3ehugZDq2NeF6mdiMrydQ&v=2&shelf=recommended";
-    });
+      <style type="text/css" media="screen">
+        .gr_grid_container {
+          /* customize grid container div here. eg: width: 500px; */
+        }
+
+        .gr_grid_book_container {
+          /* customize book cover container div here */
+          float: left;
+          width: 98px;
+          height: 160px;
+          padding: 0px 0px;
+          overflow: hidden;
+        }
+      </style>
+      <div id="gr_grid_widget_1487448423">
+        <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
+            <h2>
+    </h2>
+  <div class="gr_grid_container">
+    <div class="gr_grid_book_container"><a title="59 Seconds: Think a Little, Change a Lot" href="https://www.goodreads.com/book/show/10100782-59-seconds"><img alt="59 Seconds: Think a Little, Change a Lot" border="0" src="https://images.gr-assets.com/books/1328303150m/10100782.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="About a Boy" href="https://www.goodreads.com/book/show/4271.About_a_Boy"><img alt="About a Boy" border="0" src="https://images.gr-assets.com/books/1382004144m/4271.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Algorithms to Live By: The Computer Science of Human Decisions" href="https://www.goodreads.com/book/show/29632790-algorithms-to-live-by"><img alt="Algorithms to Live By: The Computer Science of Human Decisions" border="0" src="https://images.gr-assets.com/books/1459125293m/29632790.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="American Buffalo" href="https://www.goodreads.com/book/show/24487787-american-buffalo"><img alt="American Buffalo" border="0" src="https://images.gr-assets.com/books/1421202020m/24487787.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Bayes Theorem: A Visual Introduction For Beginners" href="https://www.goodreads.com/book/show/32488786-bayes-theorem"><img alt="Bayes Theorem: A Visual Introduction For Beginners" border="0" src="https://images.gr-assets.com/books/1475774709m/32488786.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Big Bang: The Origin of the Universe" href="https://www.goodreads.com/book/show/131304.Big_Bang"><img alt="Big Bang: The Origin of the Universe" border="0" src="https://images.gr-assets.com/books/1440656279m/131304.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Blackout: Remembering the Things I Drank to Forget" href="https://www.goodreads.com/book/show/25447386-blackout"><img alt="Blackout: Remembering the Things I Drank to Forget" border="0" src="https://images.gr-assets.com/books/1435545582m/25447386.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Cartoon Guide to Statistics" href="https://www.goodreads.com/book/show/24896994-cartoon-guide-to-statistics"><img alt="Cartoon Guide to Statistics" border="0" src="https://images.gr-assets.com/books/1436013728m/24896994.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Catcher in the Rye" href="https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye"><img alt="The Catcher in the Rye" border="0" src="https://images.gr-assets.com/books/1398034300m/5107.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Checklist Manifesto: How to Get Things Right" href="https://www.goodreads.com/book/show/7796228-the-checklist-manifesto"><img alt="The Checklist Manifesto: How to Get Things Right" border="0" src="https://images.gr-assets.com/books/1448611979m/7796228.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Confessions of a Public Speaker" href="https://www.goodreads.com/book/show/10023211-confessions-of-a-public-speaker"><img alt="Confessions of a Public Speaker" border="0" src="https://images.gr-assets.com/books/1409053193m/10023211.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Curious Incident of the Dog in the Night-Time" href="https://www.goodreads.com/book/show/1618.The_Curious_Incident_of_the_Dog_in_the_Night_Time"><img alt="The Curious Incident of the Dog in the Night-Time" border="0" src="https://images.gr-assets.com/books/1479863624m/1618.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="D Is for Digital: What a Well-Informed Person Should Know about Computers and Communications" href="https://www.goodreads.com/book/show/12933654-d-is-for-digital"><img alt="D Is for Digital: What a Well-Informed Person Should Know about Computers and Communications" border="0" src="https://images.gr-assets.com/books/1348072555m/12933654.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Daily Show: An Oral History" href="https://www.goodreads.com/book/show/31211759-the-daily-show"><img alt="The Daily Show: An Oral History" border="0" src="https://images.gr-assets.com/books/1479408953m/31211759.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Devil in the White City: Murder, Magic, and Madness at the Fair That Changed America" href="https://www.goodreads.com/book/show/21996.The_Devil_in_the_White_City"><img alt="The Devil in the White City: Murder, Magic, and Madness at the Fair That Changed America" border="0" src="https://images.gr-assets.com/books/1312066724m/21996.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Diary of a Young Girl" href="https://www.goodreads.com/book/show/48855.The_Diary_of_a_Young_Girl"><img alt="The Diary of a Young Girl" border="0" src="https://images.gr-assets.com/books/1358276407m/48855.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Different Seasons" href="https://www.goodreads.com/book/show/11569.Different_Seasons"><img alt="Different Seasons" border="0" src="https://images.gr-assets.com/books/1443591456m/11569.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Electric Kool-Aid Acid Test" href="https://www.goodreads.com/book/show/7442.The_Electric_Kool_Aid_Acid_Test"><img alt="The Electric Kool-Aid Acid Test" border="0" src="https://images.gr-assets.com/books/1388205477m/7442.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Every Move Must Have a Purpose: Strategies from Chess for Business and Life" href="https://www.goodreads.com/book/show/85215.Every_Move_Must_Have_a_Purpose"><img alt="Every Move Must Have a Purpose: Strategies from Chess for Business and Life" border="0" src="https://images.gr-assets.com/books/1348933793m/85215.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Fatal Vision" href="https://www.goodreads.com/book/show/333907.Fatal_Vision"><img alt="Fatal Vision" border="0" src="https://images.gr-assets.com/books/1348382354m/333907.jpg" /></a></div>
+    <br style="clear: both"/><br/><a class="gr_grid_branding" style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both" href="https://www.goodreads.com/user/show/24854520-marc-cohen">Marc Cohen's favorite books »</a>
+  <noscript><br/>Share <a href="/">book reviews</a> and ratings with Marc, and even join a <a href="/group">book club</a> on Goodreads.</noscript>
+  </div>
+    <a style="text-decoration: none;" href="https://www.goodreads.com/review/list/24854520-marc-cohen?shelf=recommended&utm_medium=api&utm_source=grid_widget">[Visit this bookshelf on Goodreads]</a>
+      </div>
+
+
 </script>
