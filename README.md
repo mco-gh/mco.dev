@@ -4,7 +4,7 @@
 
 This is the source repo for my personal blog,
 [mcohen.io](https://www.mcohen.io).
-It's based on Seth MacLeod's [Dimension theme for Hugo](https://github.com/sethmacleod/dimension).
+It's based on [Samuel Debruyn's site](https://chipsncookies.com/).
 
 I work for Google but the opinions expressed here are my own and don't necessarily represent the views of my employer.
 
