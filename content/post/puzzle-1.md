@@ -6,7 +6,7 @@ description = ""
 categories = []
 tags = ["puzzle"]
 date = "2017-01-05T21:24:58Z"
-title = "Puzzle - An Unusual Paragraph"
+title = "Puzzle: An Unusual Paragraph"
 +++
 
 How quickly can you find out what is unusual about this
