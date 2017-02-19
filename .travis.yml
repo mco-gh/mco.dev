@@ -11,4 +11,4 @@ install:
 script:
   - cd $HOME/gopath/src/github.com/marcacohen/mcohen.io && hugo
 after_success:
-  - firebase deploy --debug --token=${FIREBASE_API_TOKEN}
+  - firebase deploy --token=${FIREBASE_API_TOKEN}
