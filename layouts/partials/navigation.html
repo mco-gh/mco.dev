@@ -1,5 +1,17 @@
+<script>
+document.addEventListener("DOMContentLoaded", function(event) { 
+    url = window.location.href;
+    host = window.location.host
+    tab = url.toString().split(host)[1].slice(1, -1);
+    if (tab == "") {
+        tab = "blog";
+    }
+    elem = document.getElementById(tab);
+    elem.classList.add('active');
+});
+</script>
 
-<h6><a href="{{ .Site.BaseURL }}">Blog</a></h6>
-<h6><a href="{{ .Site.BaseURL }}music">Music</a></h6>
-<h6><a href="{{ .Site.BaseURL }}books">Books</a></h6>
-<h6><a rel="prerender" href="{{ .Site.BaseURL }}about">About</a></h6>
+<h6><a id="blog"  href="{{ .Site.BaseURL }}">Blog</a></h6>
+<h6><a id="music" href="{{ .Site.BaseURL }}music">Music</a></h6>
+<h6><a id="books" href="{{ .Site.BaseURL }}books">Books</a></h6>
+<h6><a id="about" rel="prerender" href="{{ .Site.BaseURL }}about">About</a></h6>

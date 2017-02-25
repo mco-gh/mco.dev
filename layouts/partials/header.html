@@ -105,11 +105,13 @@
         <header id="header" class="bg">
             <a id="logo" href="{{ .Site.BaseURL }}"><img src="/img/mco.jpg" alt="{{ .Site.Title }}" /></a>
             <h1><a href="{{.Site.BaseURL}}">{{.Site.Title}}</a></h1>
-
             {{ partial "follow.html" . }}
+<blockquote class="header">
+<h7>"I am not young enough to know everything"<br>- Oscar Wilde</h7>
+</blockquote>
             {{ partial "navigation.html" . }}
             {{ partial "tags.html" . }}
             {{ partial "search.html" . }}
             
-        </header>
-    </body>
+	    </header>
+	    </body>
