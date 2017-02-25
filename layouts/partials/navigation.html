@@ -6,8 +6,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     if (tab == "") {
         tab = "blog";
     }
+    alert("active tab: " + tab);
     elem = document.getElementById(tab);
-    elem.classList.add('active');
+    if (elem) {
+        elem.classList.add('active');
+    }
 });
 </script>
 
