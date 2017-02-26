@@ -1,14 +1,14 @@
 {{ partial "header.html" . }}
-		<main id="content">
-            <img src="img/london.jpg">
-{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+<main id="content">
+  <img src="/img/london.jpg">
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 
-    {{ range $index, $page := .Paginator.Pages }}
-        {{ .Render "li" }}
-    {{ end }}
+  {{ range $index, $page := .Paginator.Pages }}
+    {{ .Render "li" }}
+  {{ end }}
 
-    	{{ partial "pagination.html" $paginator }}
-		</main>
+  {{ partial "pagination.html" $paginator }}
+</main>
 
 <script type="application/ld+json">
 { 
