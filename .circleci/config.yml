@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/mcohen.io
     docker:
-      - image: jojomi/hugo:latest
+      - image: publysher/hugo:latest
     steps:
       - checkout
       - run: echo "hello world"
