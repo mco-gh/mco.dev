@@ -3,13 +3,8 @@ jobs:
   build:
     working_directory: ~/build
     docker:
-      - image: sunyi00/centos-golang-nodejs-python
+      - image: marcacohen/hugo-image
     steps:
       - checkout
-      - run: pip install Pygments
-      - run: go get -u -v github.com/kardianos/govendor
-      - run: go get -u -v github.com/spf13/hugo
-      - run: cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
-      - run: npm install -g firebase-tools
       - run: hugo
       - run: firebase deploy --token=${FIREBASE_TOKEN}
