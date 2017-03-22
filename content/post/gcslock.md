@@ -6,7 +6,7 @@ description = ""
 categories = []
 tags = ["cloud", "golang"]
 date = "2017-01-05T21:24:58Z"
-title = "gcslock - Cloud Scope Synchronization"
+title = "gcslock - Cloud Scope Synchronization (test)"
 +++
 
 **gcslock** is a scalable, distributed mutex that can be used to serialize
