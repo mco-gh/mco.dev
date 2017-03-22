@@ -1,0 +1,10 @@
+
+<img src="/img/london.jpg">
+
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+
+{{ range $index, $page := .Paginator.Pages }}
+  {{ .Render "li" }}
+{{ end }}
+
+{{ partial "pagination.html" $paginator }}
