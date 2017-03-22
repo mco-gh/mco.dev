@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/build
     docker:
-      - image: onepill/golang-python
+      - image: sunyi00/centos-golang-nodejs-python
     steps:
       - checkout
       - run: pip install Pygments
