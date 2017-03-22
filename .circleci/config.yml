@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/cci-demo-go-primary:0.0.2
     steps:
-      - run: checkout
+      - checkout
       - run: sudo pip install Pygments
       - run: go get -u -v github.com/kardianos/govendor
       - run: go get -u -v github.com/spf13/hugo
