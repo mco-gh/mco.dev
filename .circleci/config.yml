@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/mcohen.io
     docker:
-      - image: publysher/hugo:latest
+      - image: andthensome/alpine-hugo-git-bash
     steps:
       - checkout
       - run: echo "hello world"
