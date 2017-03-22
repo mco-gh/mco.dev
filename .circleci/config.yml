@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/build
     docker:
-      - image: circleci/cci-demo-go-primary:0.0.2
+      - image: onepill/golang-python
     steps:
       - checkout
       - run: pip install Pygments
