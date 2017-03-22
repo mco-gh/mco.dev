@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/build
     docker:
-      - image: marcacohen/hugo-image
+      - image: docker.io/marcacohen/hugo-image
     steps:
       - checkout
       - run: hugo
