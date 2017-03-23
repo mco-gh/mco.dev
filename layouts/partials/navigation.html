@@ -3,14 +3,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
     url = window.location.href;
     host = window.location.host
     tab = url.toString().split(host)[1].slice(1, -1);
-    if (tab == "") {
-        tab = "blog";
+    tags = tab.split('/')
+    if (tags.length > 1) {
+        activate(tags[1]);
+        tab = 'tags';
+    } else if (tab == "") {
+        tab = 'blog';
     }
-    elem = document.getElementById(tab);
-    if (elem) {
-        elem.classList.add('active');
-    }
+    activate(tab);
 });
+
+function activate(id) {
+    if (id) {
+        elem = document.getElementById(id);
+        if (elem) {
+            elem.classList.add('active');
+        }
+    }
+}
 </script>
 
 <h6><a id="blog"  href="{{ .Site.BaseURL }}">Blog</a></h6>
