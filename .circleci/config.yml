@@ -7,4 +7,5 @@ jobs:
     steps:
       - checkout
       - run: hugo
+      - run: cd public && sw-precache
       - run: firebase deploy --token=${FIREBASE_TOKEN}
