@@ -6,7 +6,7 @@ description = ""
 categories = []
 tags = ["web"]
 date = "2017-01-05T21:24:58Z"
-title = "Blogging in the Future"
+title = "State of the Art Blogging in 2017"
 draft = true
 +++
 
