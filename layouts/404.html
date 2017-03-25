@@ -3,14 +3,14 @@
 <main id="content">
 
     <h1 class="post-title">Oops...</h1>
-    <p>This page mysteriously disappeared. So uhm… I only see 3 options for you:</p>
-     <ol>
-       <li>Check the URL you entered in the address bar and correct it if necessary.</li>
-       <li><a id="mailerror" href="mailto:{{ .Site.Params.email }}?subject=404%20on%20website&body=This%20page%20on%20your%20website%20seems%20to%20be%20missing%3A%20">Email</a> me to let me know this link isn’t working.</li>
-       <li>Enjoy this picture of a funny dog.</li>
-     </ol>
+    <p>
+        This page doesn't appear to exist. Please check the URL you entered in the address bar and correct it if necessary.</li>
+        or <a id="mailerror" href="mailto:{{ .Site.Params.email }}?subject=404%20on%20website&body=This%20page%20on%20your%20website%20seems%20to%20be%20missing%3A%20">Email</a>
+        me to let me know this link isn’t working.</li>
+     </p>
+     In the meantime, here are some screaming goats...
      <p style="text-align: center;">
-         <img style="width: 200px;" src="{{ .Site.BaseURL }}img/dog.png" alt="funny dog" />
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/nlYlNF30bVg?autoplay=1" frameborder="0" allowfullscreen></iframe>
      </p>
 
 </main>
