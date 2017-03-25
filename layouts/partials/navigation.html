@@ -1,17 +1,16 @@
 <script>
-document.addEventListener("DOMContentLoaded", function(event) { 
-    url = window.location.href;
-    host = window.location.host
-    tab = url.toString().split(host)[1].slice(1, -1);
-    tags = tab.split('/')
-    if (tags.length > 1) {
-        activate(tags[1]);
-        tab = 'tags';
+document.addEventListener("DOMContentLoaded", highlight);
+
+function highlight(event) { 
+    tokens = window.location.pathname.split('/');
+    tab = tokens[1];
+    if (tab == 'tags') {
+        activate(tags[2]);
     } else if (tab == "") {
         tab = 'blog';
     }
     activate(tab);
-});
+};
 
 function activate(id) {
     if (id) {
@@ -21,11 +20,43 @@ function activate(id) {
         }
     }
 }
+
+function deactivate(id) {
+    if (id) {
+        elem = document.getElementById(id);
+        if (elem) {
+            elem.classList.remove('active');
+        }
+    }
+}
+
+function select(obj) {
+    tokens = window.location.pathname.split('/');
+    if (tokens.length > 3) {
+        return true;
+    }
+    contentList = ['blog', 'music', 'books', 'about']
+    for (i = 0; i < contentList.length; i++) {
+        id = contentList[i];
+        deactivate(id);
+        elem = document.getElementById(id + '-content');
+        elem.style.display = 'none';
+    }
+    id = obj.getAttribute('id');
+    activate(id);
+    elem = document.getElementById(id + '-content');
+    elem.style.display = 'block';
+    return false;
+}
 </script>
 
-<h6><a id="blog"  href="{{ .Site.BaseURL }}">Blog</a></h6>
-<h6><a id="music" href="{{ .Site.BaseURL }}music">Music</a></h6>
-<h6><a id="books" href="{{ .Site.BaseURL }}books">Books</a></h6>
-<h6><a id="about" rel="prerender" href="{{ .Site.BaseURL }}about">About</a></h6>
+<!-- <h6><a id="blog"  href="{{ .Site.BaseURL }}">Blog</a></h6> -->
+<!-- <h6><a id="music" href="{{ .Site.BaseURL }}music">Music</a></h6> -->
+<!-- <h6><a id="books" href="{{ .Site.BaseURL }}books">Books</a></h6> -->
+<!-- <h6><a id="about" rel="prerender" href="{{ .Site.BaseURL }}about">About</a></h6> -->
+<h6><a id="blog"  href="{{ .Site.BaseURL }}"      rel="prerender" onclick="return select(this)">Blog</a></h6>
+<h6><a id="music" href="{{ .Site.BaseURL }}music" rel="prerender" onclick="return select(this)">Music</a></h6>
+<h6><a id="books" href="{{ .Site.BaseURL }}books" rel="prerender" onclick="return select(this)">Books</a></h6>
+<h6><a id="about" href="{{ .Site.BaseURL }}about" rel="prerender" onclick="return select(this)">About</a></h6>
 
 <a href="/"><img class="fixed-logo" src="/img/logo.png"></a>
