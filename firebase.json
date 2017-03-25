@@ -4,9 +4,12 @@
   },
   "hosting": {
     "public": "public",
-    "rewrites": [ {
-      "source": "**",
-      "destination": "/index.html"
-    } ]
+    "rewrites": [ 
+      { "source": "/",       "destination": "/index.html" }, 
+      { "source": "/blog",   "destination": "/index.html" }, 
+      { "source": "/music",  "destination": "/index.html" }, 
+      { "source": "/books",  "destination": "/index.html" }, 
+      { "source": "/tags/*", "destination": "/index.html" } 
+    ]
   }
 }
