@@ -38,7 +38,12 @@
         
         <meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
         <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
-        <script async src="/js/service-worker-registration.js"></script>
+        <script src="/js/service-worker-registration.js"></script>
+        <script src="/js/foutbgone.js"></script>
+        <script>
+            const foutBGone = new FoutBGone();
+            foutBGone.hideFOUT('asap');
+        </script>
 
     {{ if and (.IsPage) (ne .Title "About me") }}
     
