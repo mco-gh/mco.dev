@@ -2,7 +2,7 @@
 <section id="main">
   <div>
     <ul id="list">
-      {{ range where .Site.Pages "Type" "blog" }}
+      {{ range .Data.Pages }}
           {{ .Render "summary"}}
       {{ end }}
     </ul>
