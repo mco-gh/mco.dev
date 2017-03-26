@@ -5,7 +5,7 @@ menu = ""
 description = ""
 categories = []
 tags = ["puzzle"]
-date = "2017-01-05T21:24:58Z"
+date = "2017-03-26"
 title = "An Unusual Paragraph"
 +++
 
