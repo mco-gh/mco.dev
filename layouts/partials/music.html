@@ -1,25 +1,25 @@
-<img src="/img/concert.jpg">
-<br><br>
-
-<div id="musicplayer" style="height: 350px"></div>
 <link href="/css/ytv.css" type="text/css" rel="stylesheet" />
 <script src="/js/jquery.min.js"></script>
 <script src="/js/ytv.js" type="text/javascript"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        var controller = new YTV('musicplayer', {
-            user: 'marcacohen',
-            browsePlaylists: true,
-            fullScreen: true,
-            playlist: 'PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5',
-            responsive: true,
-            shuffleList: true,
-            controls: true,
-            annotations: true,
-            playerTheme: 'light',
-            listTheme: 'dark',
-            accent: '#1F2A48'
-            //wmode: 'window'
-        });
-    });
+  $(document).ready(function(){
+      var controller = new YTV('musicplayer', {
+          user: 'marcacohen',
+          browsePlaylists: true,
+          fullScreen: true,
+          playlist: 'PLF1FUgRdsX53Fwk14WA1iqXDenu4tE7x5',
+          responsive: true,
+          shuffleList: true,
+          controls: true,
+          annotations: true,
+          playerTheme: 'light',
+          listTheme: 'dark',
+          accent: '#1F2A48'
+          //wmode: 'window'
+      });
+  });
 </script>
+
+<img src="/img/concert.jpg">
+<br><br>
+<div id="musicplayer" style="height: 350px"></div>

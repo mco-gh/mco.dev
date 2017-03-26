@@ -1,22 +1,33 @@
 <script>
+
+contentList = ['blog', 'music', 'books', 'about'];
+
+function baseName(str) {
+   var base = new String(str).substring(str.lastIndexOf('/') + 1); 
+   if(base.lastIndexOf(".") != -1)       
+       base = base.substring(0, base.lastIndexOf("."));
+   return base;
+}
+
 document.addEventListener("DOMContentLoaded", highlight);
 
 function highlight(event) { 
     tokens = window.location.pathname.split('/');
-    tab = tokens[1];
-    if (tab == 'tags') {
-        activate(tags[2]);
-    } else if (tab == "") {
-        tab = 'blog';
+    if (tokens[1] == 'tags') {
+        activate('tags/' + tokens[2]);
+    } else if (tokens[1] == "") {
+        activate('blog');
+    } else if (contentList.includes(tokens[1])) {
+        activate(tokens[1]);
     }
-    activate(tab);
-};
+}
 
 function activate(id) {
     if (id) {
-        elem = document.getElementById(id);
+        elem = document.getElementById(baseName(id));
         if (elem) {
             elem.classList.add('active');
+            history.pushState('', id, '/' + id);
         }
     }
 }
@@ -31,29 +42,24 @@ function deactivate(id) {
 }
 
 function select(obj) {
-    tokens = window.location.pathname.split('/');
-    if (tokens.length > 3) {
+    src = window.location.pathname.substring(1);
+    if (!contentList.includes(src)) {
         return true;
     }
-    contentList = ['blog', 'music', 'books', 'about']
+    selectedId = obj.getAttribute('id');
     for (i = 0; i < contentList.length; i++) {
         id = contentList[i];
         deactivate(id);
         elem = document.getElementById(id + '-content');
         elem.style.display = 'none';
     }
-    id = obj.getAttribute('id');
-    activate(id);
-    elem = document.getElementById(id + '-content');
+    activate(selectedId);
+    elem = document.getElementById(selectedId + '-content');
     elem.style.display = 'block';
     return false;
 }
 </script>
 
-<!-- <h6><a id="blog"  href="{{ .Site.BaseURL }}">Blog</a></h6> -->
-<!-- <h6><a id="music" href="{{ .Site.BaseURL }}music">Music</a></h6> -->
-<!-- <h6><a id="books" href="{{ .Site.BaseURL }}books">Books</a></h6> -->
-<!-- <h6><a id="about" rel="prerender" href="{{ .Site.BaseURL }}about">About</a></h6> -->
 <h6><a id="blog"  href="{{ .Site.BaseURL }}"      rel="prerender" onclick="return select(this)">Blog</a></h6>
 <h6><a id="music" href="{{ .Site.BaseURL }}music" rel="prerender" onclick="return select(this)">Music</a></h6>
 <h6><a id="books" href="{{ .Site.BaseURL }}books" rel="prerender" onclick="return select(this)">Books</a></h6>

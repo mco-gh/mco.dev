@@ -1,7 +1,5 @@
-
 <img src="/img/london.jpg">
-
-{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
 
 {{ range $index, $page := .Paginator.Pages }}
   {{ .Render "li" }}

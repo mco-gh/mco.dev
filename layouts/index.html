@@ -1,18 +1,10 @@
 {{ partial "header.html" . }}
+
 <main id="content">
-  <div id="blog-content">
-    <img src="/img/london.jpg">
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-
-    {{ range $index, $page := .Paginator.Pages }}
-      {{ .Render "li" }}
-    {{ end }}
-
-    {{ partial "pagination.html" $paginator }}
-  </div>
-  <div id="music-content" style="display:none"> {{ partial "music.html" . }} </div>
-  <div id="books-content" style="display:none"> {{ partial "books.html" . }} </div>
-  <div id="about-content" style="display:none"> {{ partial "about.html" . }} </div>
+  <div id="blog-content"  style="display:block"> {{ partial "blog.html"  . }} </div>
+  <div id="music-content" style="display:none">  {{ partial "music.html" . }} </div>
+  <div id="books-content" style="display:none">  {{ partial "books.html" . }} </div>
+  <div id="about-content" style="display:none">  {{ partial "about.html" . }} </div>
 </main>
 
 <script type="application/ld+json">

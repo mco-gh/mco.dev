@@ -1,6 +1,9 @@
 +++
-title = "Books I like..."
-description = "Some of my favorite Books"
+title = ""
+description = ""
 +++
 
-{{% include books %}}
+<div id="blog-content"  style="display:none">  {{% include blog  %}} </div>
+<div id="music-content" style="display:none">  {{% include music %}} </div>
+<div id="books-content" style="display:block"> {{% include books %}} </div>
+<div id="about-content" style="display:none">  {{% include about %}} </div>
