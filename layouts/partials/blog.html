@@ -1,8 +1,10 @@
 <img src="/img/london.jpg">
-{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-
-{{ range $index, $page := .Paginator.Pages }}
-  {{ .Render "li" }}
-{{ end }}
-
-{{ partial "pagination.html" $paginator }}
+<section id="main">
+  <div>
+    <ul id="list">
+      {{ range where .Site.Pages "Section" "blog" }}
+          {{ .Render "summary"}}
+      {{ end }}
+    </ul>
+  </div>
+</section>
