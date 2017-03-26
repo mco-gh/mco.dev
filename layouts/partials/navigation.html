@@ -9,16 +9,31 @@ function baseName(str) {
    return base;
 }
 
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
 document.addEventListener("DOMContentLoaded", highlight);
 
 function highlight(event) { 
-    tokens = window.location.pathname.split('/');
-    if (tokens[1] == 'tags') {
-        activate('tags/' + tokens[2]);
-    } else if (tokens[1] == "") {
-        activate('blog');
-    } else if (contentList.includes(tokens[1])) {
-        activate(tokens[1]);
+    view = getParameterByName("v");
+    if (view == null) {
+        view = 'blog';
+    }
+    tokens = view.split('/');
+    if (tokens[0] == 'tags') {
+        activate('tags/' + tokens[1]);
+    } else if (contentList.includes(tokens[0])) {
+        elem = document.getElementById(tokens[0]);
+        select(elem);
     }
 }
 
@@ -27,7 +42,7 @@ function activate(id) {
         elem = document.getElementById(baseName(id));
         if (elem) {
             elem.classList.add('active');
-            history.pushState('', id, '/' + id);
+            history.pushState('', id, '/?v=' + id);
         }
     }
 }
@@ -42,8 +57,11 @@ function deactivate(id) {
 }
 
 function select(obj) {
-    src = window.location.pathname.substring(1);
-    if (!contentList.includes(src)) {
+    view = getParameterByName("v");
+    if (view == null) {
+        view = 'blog';
+    }
+    if (!contentList.includes(view)) {
         return true;
     }
     selectedId = obj.getAttribute('id');
@@ -60,9 +78,9 @@ function select(obj) {
 }
 </script>
 
-<h6><a id="blog"  href="{{ .Site.BaseURL }}blog"  rel="prerender" onclick="return select(this)">Blog</a></h6>
-<h6><a id="music" href="{{ .Site.BaseURL }}music" rel="prerender" onclick="return select(this)">Music</a></h6>
-<h6><a id="books" href="{{ .Site.BaseURL }}books" rel="prerender" onclick="return select(this)">Books</a></h6>
-<h6><a id="about" href="{{ .Site.BaseURL }}about" rel="prerender" onclick="return select(this)">About</a></h6>
+<h6><a id="blog"  href="{{ .Site.BaseURL }}?v=blog"  rel="prerender" onclick="return select(this)">Blog</a></h6>
+<h6><a id="music" href="{{ .Site.BaseURL }}?v=music" rel="prerender" onclick="return select(this)">Music</a></h6>
+<h6><a id="books" href="{{ .Site.BaseURL }}?v=books" rel="prerender" onclick="return select(this)">Books</a></h6>
+<h6><a id="about" href="{{ .Site.BaseURL }}?v=about" rel="prerender" onclick="return select(this)">About</a></h6>
 
 <a href="/"><img class="fixed-logo" src="/img/logo.png"></a>
