@@ -3,9 +3,9 @@
         <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a> 
         &middot; 
         <span class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+        &middot; 
         <span class="taglist">
           {{ if .Params.tags }}
-            &middot; 
             {{ range $index, $tag := .Params.tags }}
                <a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a>
             {{ end }}

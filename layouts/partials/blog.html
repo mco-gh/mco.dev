@@ -1,10 +1,6 @@
 <img src="/img/london.jpg">
-<section id="main">
-  <div>
-    <ul id="list">
-      {{ range where .Site.Pages "Type" "post" }}
-          {{ .Render "summary"}}
-      {{ end }}
-    </ul>
-  </div>
-</section>
+<div id="content">
+    {{ range where .Site.Pages "Type" "post" }}
+        {{ .Render "summary"}}
+    {{ end }}
+</div>
