@@ -1,6 +1,8 @@
 <img src="/img/london.jpg">
 <div id="content">
     {{ range where .Site.Pages "Type" "post" }}
-        {{ .Render "summary"}}
+        {{ if ne .Title "Posts" }}
+            {{ .Render "summary"}}
+        {{ end }}
     {{ end }}
 </div>
