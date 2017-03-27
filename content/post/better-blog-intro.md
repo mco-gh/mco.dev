@@ -19,7 +19,7 @@ leave behind a digital trail.
 
 ### The Geocities Era
 
-Courtesy of the [Way Back Machine](https://archive.org/web/),
+Courtesy of the <a href="https://archive.org/web/" target="_blank">Way Back Machine</a>,
 here's a screenshot of one of my early sites,
 circa 2000, hosted on the venerable/horrible geocities.com and lovingly crafted
 with Microsoft Front Page 2000:
@@ -29,7 +29,7 @@ with Microsoft Front Page 2000:
 The biggest problem with this site was that it didn't change very often, which is
 something of an understatement (there's that same vacation photo gallery again,
 which now even bores my own Mom). This was around the time when the word 
-"[blog](https://en.wikipedia.org/wiki/Blog)" first joined the modern vernacular.
+"blog" first joined the modern vernacular.
 Intrepid explorers wanted a home on the web but we weren't quite sure
 what to do with it once we got there.
 
