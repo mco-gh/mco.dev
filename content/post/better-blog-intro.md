@@ -46,8 +46,8 @@ I wanted to keep blogging, but in 2011 I got a job at Google and all my fun
 side projects ground to a screeching halt. Another problem was that I really
 wasn't thrilled with the mechanics of my site. It had some serious shortcomings:
 
-- It was hosted on a virtual server. If one of my articles made it to the front
-page of Hacker News (which turned out to be an unjustified fear), I was a sitting duck.
+- It was hosted on a virtual server. If one of my articles went viral (as if),
+I was a sitting duck.
 - It had no support for https, which didn't seem terrible back then, but in 2017 that's inexcusable.
 - Wordpress is a pretty amazing thing but I got tired of all the layers between me and my content.
 I wanted a hacker's blogging platform.
