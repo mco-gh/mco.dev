@@ -7,26 +7,26 @@ DisqusShortname = "https-www-mcohen-io"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-[Params]
+[params]
     twitter = "marcacohen"
     description = "Marc Cohen's Personal Blog"
     email = "mco@google.com"
     hostname = "mcohen.io"
 
-[Permalinks]
+[permalinks]
     post = "/:year/:title/"
     addendum = "/addendum/:year/:title/"
 
-[Author]
+[author]
     name = "Marc Cohen"
     twitter = "marcacohen"
     email = "mco@google.com"
 
-[Taxonomies]
+[taxonomies]
     tag = "tags"
     category = "categories"
     series = "series"
 
-[Indexes]
+[indexes]
     tag = "tags"
     topic = "topics"
