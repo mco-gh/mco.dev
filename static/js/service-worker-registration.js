@@ -27,7 +27,6 @@ if ('serviceWorker' in navigator) {
     // *Don't* register service worker file in, e.g., a scripts/ sub-directory!
     // See https://github.com/slightlyoff/ServiceWorker/issues/468
     navigator.serviceWorker.register('/service-worker.js').then(function(reg) {
-      delete precacheConfig[0]['404.html']
       // updatefound is fired if service-worker.js changes.
       reg.onupdatefound = function() {
         // The updatefound event implies that reg.installing is set; see

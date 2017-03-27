@@ -31,3 +31,8 @@ https://moz.com/beginners-guide-to-seo
 # Analytics
 https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/
 https://github.com/philipwalton/analyticsjs-boilerplate
+
+# Performance
+lighthouse
+page speed insights
+webpagetester
