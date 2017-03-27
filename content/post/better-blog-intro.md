@@ -36,7 +36,8 @@ what to do with it once we got there.
 ### The WordPress Era
 
 Around 2010, I discovered Wordpress, and started a 
-self-published blog focusing on <a href="http://mkcohen.com/category/music/" target="_blank">music</a>
+self-published blog focusing 
+on <a href="http://mkcohen.com/my-ten-favorite-songs-of-the-day-2010" target="_blank">music</a>
 and <a href="http://mkcohen.com/category/puzzle/" target="_blank">puzzles</a>.
 During this time, I learned a valuable lesson: **if you write about something you really love,
 and build up a little momentum, it's actually pretty easy to keep going.**
