@@ -1,3 +1,16 @@
++++
+images = []
+banner = ""
+menu = ""
+description = ""
+categories = []
+tags = ["blog", "tools"]
+title = "Building an Awesome Blog"
+series = ["Awesome Blog"]
+date = "2017-03-28"
+draft = true
++++
+
 # static generation
 hugo
 
