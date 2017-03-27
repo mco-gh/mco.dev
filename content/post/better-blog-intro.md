@@ -75,4 +75,4 @@ I hope that this series will helps others take the plunge.
 Many of us stop writing after our school days. The ghosts of term papers
 past haunt us at the thought of writing anything longer than a typical facebook update.
 And that’s unfortunate,
-because <a href="http://mkcohen.com/dont-forget-to-write" target="_blank">writing can be fun and healthy</a>.
+because <a href="http://mkcohen.com/dont-forget-to-write" target="_blank">writing is really good for you</a>.
