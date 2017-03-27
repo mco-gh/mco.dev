@@ -45,7 +45,7 @@ a thoroughly enjoyable (for me, at least) [Saturday puzzle series](http://mkcohe
 
 My greatest triumph was [this article](http://mkcohen.com/how-the-web-works-in-one-easy-lesson),
 which was once the top organic result returned by a Google search of "how the web works".
-Sadly, I've now fallen to the digital Siberia page two results, but it was fun breathing
+Sadly, I've now fallen to the digital Siberia of page two results, but it was fun breathing
 the rarified air of a top Google search result.
 
 During this time, I learned a valuable lesson: **if you write about something you really love,
@@ -88,6 +88,3 @@ I hope that my ruminations in this series will helps others take the plunge
 and establish a digital persona. As I [once wrote](http://mkcohen.com/dont-forget-to-write):
 
 > Many of us stop writing after our school days. The ghosts of arduous term papers haunt us at the thought of writing anything longer than a typical facebook update. And that’s unfortunate, because writing can really be fun and relaxing and good for you.
-
-> When I started this site, I pondered a modern variation on that old “if a tree falls in the woods…” question: if I write a blog and no one reads it, will it have an impact? One year later, my answer is emphatically yes – the impact is on me. I’ve enjoyed writing it and I feel like the “writing part of my brain” is getting good exercise these days. And I get a great feeling every time I finish an article. If it entertains or informs anyone else, that makes me extra happy.
-
