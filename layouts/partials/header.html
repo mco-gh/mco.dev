@@ -40,6 +40,15 @@
         <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
         <script src="/js/service-worker-registration.js"></script>
 
+        <link rel="manifest" href="/manifest.json">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="mcohen.io">
+        <meta name="apple-mobile-web-app-title" content="mcohen.io">
+        <meta name="msapplication-starturl" content="https://www.mcohen.io">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     {{ if and (.IsPage) (ne .Title "About me") }}
     
         <meta name="twitter:card" content="summary" />
