@@ -72,7 +72,7 @@ series of articles to explain the choices I've made in the following dimensions:
 The web is the most powerful publishing platform in the history of the world.
 With the right technology choices, authoring a state of the art blog has never been easier.
 I hope that this series will helps others take the plunge.
-Many of us stop writing after our school days. The ghosts of arduous term papers
-haunt us at the thought of writing anything longer than a typical facebook update.
+Many of us stop writing after our school days. The ghosts of term papers
+past haunt us at the thought of writing anything longer than a typical facebook update.
 And that’s unfortunate,
 because <a href="http://mkcohen.com/dont-forget-to-write" target="_blank">writing can be fun and healthy</a>.
