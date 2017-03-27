@@ -62,12 +62,7 @@ quite a bit In the process of building this blog.
 In case others are interested in following suit, I'm writing this
 series of articles to explain the choices I've made in the following dimensions:
 
-- Content Strategy & Tooling
-  - authoring flow
-  - static vs. dynamic
-  - server vs. client side rendering
-- Source Code Management
-- Continuous Integration
+- Content Management & Continuous Integration
 - Web Serving
 - Comments & Feedback
 - Offline & Mobile Support
