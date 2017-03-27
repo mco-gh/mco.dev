@@ -33,7 +33,9 @@ function highlight(event) {
         activate('tags/' + tokens[1]);
     } else if (contentList.includes(tokens[0])) {
         elem = document.getElementById(tokens[0]);
-        select(elem);
+        if (elem) {
+            select(elem);
+        }
     }
 }
 
@@ -69,7 +71,9 @@ function select(obj) {
         id = contentList[i];
         deactivate(id);
         elem = document.getElementById(id + '-content');
-        elem.style.display = 'none';
+        if (elem) {
+            elem.style.display = 'none';
+        }
     }
     activate(selectedId);
     elem = document.getElementById(selectedId + '-content');

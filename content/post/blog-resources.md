@@ -35,4 +35,5 @@ https://github.com/philipwalton/analyticsjs-boilerplate
 # Performance
 lighthouse
 page speed insights
+  w/ auto-optimized images and other assets
 webpagetester
