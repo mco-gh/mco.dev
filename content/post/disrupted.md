@@ -34,5 +34,5 @@ for the internet age. Like many fine works of art, this book is a mirror held up
 humanity in 2017. While a tremendously entertaining read, it's also a bit painful
 because you won't always like what you see in this mirror.
 
-<blockquote class="embedly-card"><h4><a href="https://www.goodreads.com/book/show/26030703-disrupted">Disrupted</a></h4><p>Disrupted has 7,634 ratings and 803 reviews. Laura said: Ugh. The cluelessness! The lack of awareness and growth on the part of the author was a hoot. An...</p></blockquote>
+<blockquote class="embedly-card"><h4><a href="https://www.amazon.com/gp/product/0316306096/ref=as_li_tl?ie=UTF8&tag=amafinthebesr-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0316306096&linkId=6a056476f1cb5c944d65ed311f6d43bf">Disrupted: My Misadventure in the Start-Up Bubble</a></h4><p>INSTANT NEW YORK TIMES BESTSELLER "Disrupted by Dan Lyons is the best book about Silicon Valley today."---Los Angeles Times"Hysterical."---Kara Swisher, Recode "Wildly entertaining."---Ashlee Vance, New York Times-bestselling author of Elon MuskFor twenty-five years Dan Lyons was a magazine write...</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
