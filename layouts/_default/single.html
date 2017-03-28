@@ -18,6 +18,22 @@
     </div>
     <h1 class="post-title">{{ .Title }}</h1>
     {{ .Content }}
+    {{ if .Params.series }}
+      {{ $name := index .Params.series 0 }}
+      <hr/>
+	  <p><a href="" id="series"></a>This is a post in the 
+	  <b>{{$name}}</b> series.<br/>
+	  Other posts in this series:</p>
+
+      {{ $name := $name | urlize }}
+      {{ $series := index .Site.Taxonomies.series $name }}
+      <ul class="series">
+      {{ range $series.Pages }}
+    	<li>{{.Date.Format "Jan 02, 2006"}} -
+    	<a href="{{.Permalink}}">{{.LinkTitle}}</a></li>
+      {{end}}
+      </ul>
+    {{end}} 
     {{ partial "disqus.html" . }}
 </article>  
 

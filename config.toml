@@ -26,7 +26,3 @@ PygmentsStyle = "monokai"
     tag = "tags"
     category = "categories"
     series = "series"
-
-[indexes]
-    tag = "tags"
-    topic = "topics"
