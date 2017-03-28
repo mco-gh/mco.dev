@@ -26,11 +26,12 @@ document.addEventListener("DOMContentLoaded", highlight);
 function highlight(event) { 
     view = getParameterByName("v");
     if (view == null) {
-        view = 'blog';
+        activate('blog', false);
+        return;
     }
     tokens = view.split('/');
     if (tokens[0] == 'tags') {
-        activate('tags/' + tokens[1]);
+        activate('tags/' + tokens[1], false);
     } else if (contentList.includes(tokens[0])) {
         elem = document.getElementById(tokens[0]);
         if (elem) {
@@ -39,12 +40,14 @@ function highlight(event) {
     }
 }
 
-function activate(id) {
-    if (id) {
+function activate(id, changeURL) {
+    if (id && contentList.includes(id)) {
         elem = document.getElementById(baseName(id));
         if (elem) {
             elem.classList.add('active');
-            history.pushState('', id, '/?v=' + id);
+            if (changeURL) {
+                history.pushState('', id, '/?v=' + id);
+            }
         }
     }
 }
@@ -75,7 +78,7 @@ function select(obj) {
             elem.style.display = 'none';
         }
     }
-    activate(selectedId);
+    activate(selectedId, true);
     elem = document.getElementById(selectedId + '-content');
     elem.style.display = 'block';
     return false;
