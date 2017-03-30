@@ -4,7 +4,7 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-tags = ["productivity"]
+tags = ["productivity", "education"]
 title = "How to Learn"
 date = "2017-03-30"
 +++
