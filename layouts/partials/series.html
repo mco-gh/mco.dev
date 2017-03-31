@@ -1,0 +1,6 @@
+<h6 id="series" class="sitetaglisttitle">Series</h6>
+<ul class="sitetaglist">
+  {{ range .Site.Taxonomies.series.ByCount }}
+    <li><a id="{{ .Name }}" href="/series/{{ .Name | urlize }}">{{ .Name }} ({{ .Count }})</a></li>
+  {{ end }}
+</ul>
