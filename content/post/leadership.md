@@ -6,7 +6,7 @@ description = ""
 categories = []
 tags = ["productivity"]
 title = "Great Followers Make Great Leaders"
-date = "2017-04-01"
+date = "2017-03-31"
 +++
 
 We should all try to be leaders, right? Not necessarily, but we can and should be great followers when
