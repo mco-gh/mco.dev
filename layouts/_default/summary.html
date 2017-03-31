@@ -1,17 +1,17 @@
-<article class="post">
-      <h3>
-        <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a> 
-        &middot; 
-        <span class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-        &middot; 
-        <span class="taglist">
-          {{ if .Params.tags }}
-            {{ range $index, $tag := .Params.tags }}
-               <a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a>
-            {{ end }}
+<article class="post summary">
+    <h3>
+      <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a> 
+      &middot; 
+      <span class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+      &middot; 
+      <span class="taglist">
+        {{ if .Params.tags }}
+          {{ range $index, $tag := .Params.tags }}
+             <a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a>
           {{ end }}
-        </span>
-      </h3>
+        {{ end }}
+      </span>
+    </h3>
     {{ .Summary }}
     <footer>
         <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>

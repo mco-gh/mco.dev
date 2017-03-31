@@ -6,7 +6,7 @@ description = ""
 categories = []
 tags = ["blog", "tools"]
 title = "Building a Better Blog"
-series = ["Better Blog"]
+series = ["Blogging"]
 date = "2017-03-28"
 +++
 

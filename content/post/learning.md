@@ -11,10 +11,10 @@ date = "2017-03-30"
 
 
 The article linked below espouses a concept I've always found to be true but never 
-fully appreciated as clearly as it is explained here. The basic idea is "learn by doing"
-but I what I love most about this article is the way the author provides a systematic
-approach to this philosophy. 
+fully appreciated as clearly as it is explained here.<!--more-->
 
+The basic idea is "learn by doing" but I what I love most about this article is
+the way the author provides a systematic approach to this philosophy. 
 I've been trying to learn Machine Learning lately and have noticed how easy
 it is to get bogged down in the details. Per's advice is perfect here: start building
 something. You will initially be confused and unsure how to integrate what you

@@ -10,7 +10,8 @@ date = "2017-03-29"
 
 Dan Lyons' "Disrupted: My Misadventure in the Startup Bubble"
 is not unlike the famous Margaret Mead book
-on which my title is [based](https://en.wikipedia.org/wiki/Coming_of_Age_in_Samoa).
+on which my title is [based](https://en.wikipedia.org/wiki/Coming_of_Age_in_Samoa).<!--more-->
+
 At times, Lyons himself refers to his work as an anthropological study, and it's an apt metaphor
 as he chronicles his late career transition from traditional journalist
 to digital marketeer at a new-age tech startup.
