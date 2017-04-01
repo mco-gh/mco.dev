@@ -5,7 +5,7 @@ menu = ""
 description = ""
 categories = []
 tags = ["productivity"]
-title = "Great Followers Make Great Leaders"
+title = "Lead by Following"
 date = "2017-03-31"
 +++
 
