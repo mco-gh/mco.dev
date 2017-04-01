@@ -10,7 +10,9 @@ date = "2017-03-31"
 +++
 
 We should all try to be leaders, right? Not necessarily, but we can and should be great followers when
-we find a cause to believe in. In only three minutes, Derek Sivers reveals the secret to building a
+we find a cause to believe in.<!--more-->
+
+In just three minutes, Derek Sivers reveals the secret to building a
 movement, in the unlikeliest of places: a rock concert.
 If you've ever wanted to start or join a movement, watch this short video.
 
