@@ -8,6 +8,7 @@ tags = ["cloud"]
 series = ["The Hard Way"]
 title = "Google Cloud the Hard Way - Intro"
 date = "2017-04-01"
+draft = true
 +++
 
 I love documentaries, especially the quirky, indie, offbeat ones you don't hear about. Here's a nice selection 

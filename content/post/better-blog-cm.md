@@ -8,6 +8,7 @@ tags = ["blog", "tools"]
 title = "Building a Better Blog - Content Management"
 series = ["Blogging"]
 date = "2017-03-31"
+draft = true
 +++
 
 Seconds in a series of articles on building a state of the art blog in 2017.<!--more-->
