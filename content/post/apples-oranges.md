@@ -12,6 +12,7 @@ date = "2017-04-02"
 In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges.<!--more-->
 
 <img height="250" src="/img/apples-oranges.jpg">
+
 Each box is labeled, like this:
 
 * Box 1: “apples”
