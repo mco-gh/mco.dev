@@ -24,7 +24,7 @@ watch something come to life, and eventually, if you keep at it, the pieces
 will fall into place.
 
 As an aside, the writer here, <a href="https://twitter.com/perborgen" target="_blank">Per Harald Borgen</a>,
-is one of the co-creators of an amazing new learning tool, which provides a seemingly magical experience,
+is one of the co-creators of an amazing new learning tool, which provides a seemingly magical experience:
 the ability to pause a running video and play with the code in progress.
 Check it out at <a href="http://scrimba.com" target="blank">scrimba.com</a>.
 
