@@ -10,7 +10,9 @@ date = "2017-04-02"
 
 <img height="300x" src="/img/apples-oranges.jpg">
 
-In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges. Each box is labeled, like this:
+In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges.<!--more-->
+
+Each box is labeled, like this:
 
 * Box 1: “apples”
 * Box 2: “oranges”
