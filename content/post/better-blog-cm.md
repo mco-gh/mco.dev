@@ -47,7 +47,7 @@ such as Github Pages, Google Cloud Storage, Amazon S3, and Firebase Hosting.
 This approach is fast, efficient, inexpensive, and scales extremely well.
 
 I wanted to use an open source static site generator because I want everything
-I depend on to be freely available and I wanted to be able to customize the source
+I depend on to be freely available and I want to be able to customize the source
 code, whenever needed. The most popular open source static site generator is probably
 the Ruby based [Jekyll](https://jekyllrb.com/).
 
@@ -57,11 +57,10 @@ I opted for an alternative called [Hugo](https://gohugo.io) for the following re
 * Hugo is written in Go, a language with which I'm more familiar than Ruby.
 * I like the design of Hugo, with great thought given to generality and extensibililty.
 
-Here's a vivid demonstration of how fast Hugo is:
+I've found Hugo to be easy to work with, well documented, well designed, and very fast:
 <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://www.youtube.com/watch?v=CdiDYZ51a2o">Hugo benchmark - 5,000 posts in seconds</a></h4><p>A benchmark of Hugo generating a site with 5,000 posts on an SSD and spindle drive. The Python script I used to generate the 5,000 posts: https://gist.github.com/jaden/1ce5a7192d8ee8e4c112 The console I'm using is http://cmder.net/ Hugo - http://gohugo.io Udemy course on Hugo - https://www.udemy.com/build-static-sites-in-seconds-with-hugo/</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
-I've found Hugo to be easy to work with, well documented, well designed, and very fast.
 Getting started with Hugo is [really easy](http://gohugo.io/overview/quickstart/):
 Just choose a [theme](http://themes.gohugo.io/), clone it, and customize to your
 heart's content.
@@ -93,7 +92,8 @@ while hiding the rest, resulting in seamless navigation with no font flicker.
 * Scalable hosting with HTTPS support.
 
 I'll share more details on how I implemented each of the above items in subsequent articles in this series.
-For those who don't want to wait, all of the code for my blog is freely available in [my Github repo](https://github.com/marcacohen/mcohen.io).
+For those who don't want to wait, all of the code for my blog is freely available in the associated
+[Github repo](https://github.com/marcacohen/mcohen.io).
 
 The next article in this series will be about continuous integration. I'll show you how I automatically
-build and deploy this blog whenever I check in new content to the master branch of my repo on Gigthub.
+build and deploy this blog whenever I check in new content to the master branch of my Github repo.
