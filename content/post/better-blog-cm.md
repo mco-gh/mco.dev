@@ -22,7 +22,7 @@ from history tracking, change management, sharing/collaboration, and all the oth
 goodness that comes from the Github ecosystem.
 
 When I set out to build a new blog, I briefly explored the current generation of
-complete blogging solutions like Wordpress and Ghost. Thought they are extremely
+complete blogging solutions like Wordpress and Ghost. Though they are extremely
 impressive tools, I opted for markdown files in Github with a
 static content generator because, for me, that feels closer to the embodiment of the
 [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy), which favors
