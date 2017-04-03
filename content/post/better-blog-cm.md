@@ -17,7 +17,7 @@ a blog can be thought
 of simply as a collection of source files that generate readable, rather than runnable,
 artifacts. Given this model, it makes a lot of sense to use Github to manage
 your blog content. It's nice to be able to use the same tools and processes
-you already know and love to manage your software projects, and your blog benefits
+you already know and love, and your blog benefits
 from history tracking, change management, sharing/collaboration, and all the other
 goodness that comes from the Github ecosystem.
 
@@ -38,7 +38,7 @@ are minimal. For the most part, we simply need to serve pre-generated
 A static content generator takes a set of configuation files, layout templates,
 images, style sheets, javascript files, and articles, typically written in a structured text format
 (with [markdown](https://en.wikipedia.org/wiki/Markdown) being the most popular of these)
-and generates a complete website, with the desired user experience.
+and generates a complete website with the desired user experience.
 
 Once generated, the site need not change, which is why it's called 'static'.
 One major advantage of this approach is that there is no need for server side logic.
