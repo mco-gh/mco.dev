@@ -40,7 +40,6 @@ images, style sheets, javascript files, and articles, typically written in a str
 (with [markdown](https://en.wikipedia.org/wiki/Markdown) being the most popular of these)
 and generates a complete website with the desired user experience.
 
-Once generated, the site need not change, which is why it's called 'static'.
 One major advantage of this approach is that there is no need for server side logic.
 The site can be served as a simple hierarchy of pages from any storage repository, 
 such as Github Pages, Google Cloud Storage, Amazon S3, and Firebase Hosting.
