@@ -4,9 +4,9 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-tags = ["blog", "tools"]
+tags = ["tools"]
 title = "Building an Awesome Blog"
-series = ["Awesome Blog"]
+series = ["blog"]
 date = "2017-03-28"
 draft = true
 +++

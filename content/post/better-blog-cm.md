@@ -4,9 +4,9 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-tags = ["blog", "tools"]
+tags = ["tools"]
 title = "Building a Better Blog - Content Management"
-series = ["Blogging"]
+series = ["blog"]
 date = "2017-04-03"
 +++
 

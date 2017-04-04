@@ -3,7 +3,7 @@ images = []
 banner = ""
 menu = ""
 categories = []
-tags = ["Book Reviews"]
+tags = ["books"]
 title = "Coming of Age in Silicon Valley"
 date = "2017-03-29"
 +++

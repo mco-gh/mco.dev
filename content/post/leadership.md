@@ -4,7 +4,7 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-tags = ["productivity"]
+tags = ["edu"]
 title = "Lead by Following"
 date = "2017-03-31"
 +++

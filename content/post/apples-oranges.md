@@ -3,7 +3,7 @@ images = []
 banner = ""
 menu = ""
 categories = []
-tags = ["Puzzles"]
+tags = ["puzzles"]
 title = "Apples & Oranges"
 date = "2017-04-02"
 +++

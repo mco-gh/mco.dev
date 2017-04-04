@@ -4,7 +4,7 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-tags = ["productivity"]
+tags = ["edu"]
 title = "Seven Habits"
 date = "2017-03-24"
 +++
