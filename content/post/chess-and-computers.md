@@ -6,7 +6,7 @@ description = ""
 categories = []
 tags = ["chess"]
 title = "Chess and Intelligence"
-date = "2017-03-27"
+date = "2017-04-04"
 +++
 
 Over twenty years ago, for the first time in history, 
