@@ -5,7 +5,7 @@ menu = ""
 description = ""
 categories = []
 tags = ["tools"]
-title = "Building a Better Blog - Build/Deploy"
+title = "Building a Better Blog - Build and Deploy"
 series = ["blog"]
 date = "2017-04-06"
 +++
