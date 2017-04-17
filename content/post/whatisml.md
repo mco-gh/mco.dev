@@ -9,7 +9,7 @@ title = "Machine Learning Explained in Three Easy Steps"
 date = "2017-04-17"
 +++
 
-<img src="/img/ml.jpg" align="right" height="250" style="margin-left: 15px">
+<img src="/img/ml.jpg" align="right" height="250" style="margin: 10px">
 
 You've probably heard the term "machine learning" and how it's 
 [changing everything](https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html).
