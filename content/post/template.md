@@ -7,6 +7,6 @@ categories = []
 tags = ["tag"]
 title = ""
 series = ["series"]
-date = "2017-mm-dd"
+date = "2017-04-27"
 draft = true
 +++
