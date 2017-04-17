@@ -95,11 +95,11 @@ tuned pattern matching engine. The adult may also not have a dedicated language 
 way for an adult to quickly acquire language skills is to try to boil the language down to a set of
 algorithmic rules they can apply through conscious thought, usually with less satisfying results.
 
-**Observation three:** Rule based learning is neither as effective nor as efficient as experience
-based learning.
-
 This explains why, sadly, after studying French for a few years, I still don't speak nearly as well
 as the average four year old in Paris. 
+
+**Observation three:** Rule based learning is neither as effective nor as efficient as experience
+based learning.
 
 ### So, what is machine learning? 
 
