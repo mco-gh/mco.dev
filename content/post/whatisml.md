@@ -110,10 +110,11 @@ way a child acquires language, by repeated exposure to examples and experience.
 
 In so doing, we've enabled a new generation of software capable of doing some amazing things, like
 automatic [language translation](https://research.googleblog.com/2016/09/a-neural-network-for-machine.html),
-medical diagnoses (like [diabetic retinopathy]
+medical diagnosis (e.g. [diabetic retinopathy]
 (https://blog.google/topics/machine-learning/detecting-diabetic-eye-disease-machine-learning/),
 and [cancer detection]
-(http://www.diagnosticimaging.com/pacs-and-informatics/machine-learning-algorithms-outperform-inexperienced-radiologists),
+(http://www.diagnosticimaging.com/pacs-and-informatics/machine-learning-algorithms-outperform-inexperienced-radiologists)
+),
 and beating humans in [Chess](http://reallifemag.com/computer-moves/), 
 [Jeopardy](http://www.techrepublic.com/article/ibm-watson-the-inside-story-of-how-the-jeopardy-winning-supercomputer-was-born-and-what-it-wants-to-do-next/), 
 and [Go](https://www.wired.com/2016/03/two-moves-alphago-lee-sedol-redefined-future/).
