@@ -50,7 +50,7 @@ Since quick is a quality/opinion and brown is a color, "quick brown" is the prop
 To give an extreme example, this is fine: "one really big old antique American car" but perturb that sequence
 of adjectives in any way you like and the results sound very wrong.
 
-The amazing thing about this sequence is that every native english speaker knows it, but **very few people
+The amazing thing about this sequence is that nearly every native english speaker knows it, but **very few people
 know they know it**. In my audience of 200 professional CS and IT people, not a single person could tell me
 this sequence.
 
@@ -62,7 +62,7 @@ a finely tuned adjective order detection engine in your brain.
 
 ### My Friend Hal
 
-I have a friend named Hal. Hal grew up in non-English speaking household and, 
+I have a friend named Hal. Hal grew up in a non-English speaking household and, 
 at the ripe old age of 30, begins studying English. Hal asks me about this phrase, why 
 "quick brown fox" is fine but "brown quick fox" is incorrect. I do some research and
 I share with Hal the adjective ordering list above. Hal studies the list exhaustively and 
@@ -83,7 +83,7 @@ The difference between the two examples above is basically the difference betwee
 and how an adult acquires language. A baby acquires language by listening to millions of examples, over
 and over, for many years, most of which come from their very own personal language trainer (which is why
 your native language is called your "mother tongue"). At some point, babies learn to make their own
-sounds, begin to formulate their own sentences, and they receive perpetual feedback from their environment about
+sounds, begin to formulate their own sentences, and they receive feedback from their environment about
 the correctness of such attempts. Without even thinking about it, they build an efficient neural network
 in their brain that automatically recognizes correct linguistic constructs, like the proper order of
 adjectives.
@@ -94,7 +94,7 @@ way for an adult to quickly acquire language skills is to try to boil the langua
 algorithmic rules they can apply through conscious thought.
 
 This explains why, sadly, after studying French for a few years, I still don't speak nearly as well
-as the average four year old in Paris. :)
+as the average four year old in Paris. 
 
 ### So, what is machine learning? 
 
@@ -105,13 +105,14 @@ way a child acquires language, by repeated exposure to examples and experience.
 
 In so doing, we've enabled a new generation of software capable of doing some amazing things, like
 automatic [language translation](https://research.googleblog.com/2016/09/a-neural-network-for-machine.html),
-more accurate medical diagnosis, like [diabetic retinopathy]
+medical diagnoses (like [diabetic retinopathy]
 (https://blog.google/topics/machine-learning/detecting-diabetic-eye-disease-machine-learning/),
-and [cancer detection](http://www.diagnosticimaging.com/pacs-and-informatics/machine-learning-algorithms-outperform-inexperienced-radiologists),
+and [cancer detection]
+(http://www.diagnosticimaging.com/pacs-and-informatics/machine-learning-algorithms-outperform-inexperienced-radiologists),
 and beating humans in [Chess](http://reallifemag.com/computer-moves/), 
 [Jeopardy](http://www.techrepublic.com/article/ibm-watson-the-inside-story-of-how-the-jeopardy-winning-supercomputer-was-born-and-what-it-wants-to-do-next/), 
 and [Go](https://www.wired.com/2016/03/two-moves-alphago-lee-sedol-redefined-future/).
 
 That, in a nutshell is what machine learning is all about and why people are so excited about its potential.
-In future articles, I'll work through a concrete example of a simple machine learning application, to help
+In a future article, I'll work through a concrete example of a simple machine learning application, to help
 you understand some of the mechanics behind applying this technology to a real world problem.
