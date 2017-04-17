@@ -4,7 +4,7 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-tags = ["ML"]
+tags = ["AI"]
 title = "Machine Learning Explained in Three Easy Steps"
 date = "2017-04-17"
 +++
