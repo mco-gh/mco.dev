@@ -98,8 +98,8 @@ algorithmic rules they can apply through conscious thought, usually with less sa
 This explains why, sadly, after studying French for a few years, I still don't speak nearly as well
 as the average four year old in Paris. 
 
-**Observation three:** Rule based learning is neither as effective nor as efficient as experience
-based learning.
+**Observation three:**  Experience based learning leads to entities that "know" things more deeply,
+and more intutively than rule based learning.
 
 ### So, what is machine learning? 
 
