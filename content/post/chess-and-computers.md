@@ -4,7 +4,7 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-tags = ["chess"]
+tags = ["chess", "AI"]
 title = "Chess and Intelligence"
 date = "2017-04-04"
 +++
