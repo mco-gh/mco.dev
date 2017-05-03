@@ -59,7 +59,7 @@ distributing electricity around the nation, the cloud is a kind of "information 
 Information Grid would be a better name for it."
 
 My faux Grandma smiled at me in the same way my real Grandma used to do, when she was happy with 
-something I'd said. And then he turned back into a Google engineer and forced me to do something
+something I'd said. And then she turned back into a Google engineer and forced me to do something
 tedious with a linked list.
 
 Postscript: With the benefit of hindsight, I feel that the formulation of the central question
