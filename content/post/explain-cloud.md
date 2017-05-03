@@ -37,8 +37,7 @@ first try, I had already resorted to industry jargon.
 
 I tried again..."The Cloud", said I, in a voice beginning to tremble as I grasped the 
 full magnitude of this challenge, "is a vast array of computers (carefully avoiding the S word), 
-configured in such a way as to carry out customer demands in a central location, without requiring
-a distributed network of machines". 
+configured in such a way as to carry out customer demands in a central location". 
 
 He didn't have to say anything. We both knew I had just missed again, wildly.
 It began to dawn on me that job interviews are a bit like baseball. After three misses,
