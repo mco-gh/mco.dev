@@ -45,7 +45,7 @@ you're done.
 
 I paused once more for what felt like an eternity and then a lightbulb went on.
 
-"Grandma,", I started anew, "you know how we plug appliances into the wall to make them run? Well, cloud
+"Grandma," I started anew, "you know how we plug appliances into the wall to make them run? Well, cloud
 computing is just like that, except instead of electricity, we get information".
 
 "Ok", said my inquisitor. "But where does this information come from?". 
