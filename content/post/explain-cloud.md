@@ -63,12 +63,11 @@ My faux Grandma smiled at me in the same way my real Grandma used to do, when sh
 something I'd said. And then he turned back into a Google engineer and forced me to do something
 tedious with a linked list.
 
-Postscript: With the benefit of hindsight, I feel that the formulation of the central quesstion
+Postscript: With the benefit of hindsight, I feel that the formulation of the central question
 above embodies a certain form of sexism and agism, in that it assumes my grandmother is not a cloud 
 computing expert of the highest order. For all you know, my grandmother might have been Grace Hopper, 
 who pretty much invented modern programming languages (if you don't know who Grace Hopper was, 
 you can read all about her [here](https://en.wikipedia.org/wiki/Grace_Hopper) and watch her 
 demonstrate a nanosecond to David Letterman [here](https://www.youtube.com/watch?v=1-vcErOPofQ)).
-To escew such bias, from this point forward, I shall modify this question to 
-"How would you explain cloud computing to a five year old?". I ask the forgiveness of 
-precocious five your olds everywhere. 
+To eschew such bias, from this point forward, I'm using the slightly modified version 
+"How would you explain cloud computing to a five year old?".
