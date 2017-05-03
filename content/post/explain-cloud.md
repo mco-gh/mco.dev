@@ -27,7 +27,7 @@ such a deep sense of understanding about the game, that they're unable to convey
 In many ways, this question was a wonderful test of my ability to explain things to other people, which happened to be a
 very important requirement for the job to which I had applied.
 I paused a moment to gather my thoughts and ventured my first attempt: "The cloud...", I began, brimming
-with confidence, is a vast collection of servers that provide...". 
+with confidence, "is a vast collection of servers providing...". 
 
 "Hang on a minute", interrupted my inquisitor. Do you think your grandmother knows what a server is?".
 
