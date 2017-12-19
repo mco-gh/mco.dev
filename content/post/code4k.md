@@ -20,10 +20,10 @@ Poverty, unequal economic and educational opportunities, substance abuse, an ine
 and many other factors contribute to this state of affairs, and it seems clear
 that the current system is focussed more on penalty than on rehabiliation.
 
-I recently attended the UK opening of
+I recently attended the UK opening of this
+film about group therapy sessions held in a California prison:
 <a class="embedly-card" href="https://www.youtube.com/watch?v=h8OVXG2GhpQ">The Work</a>,
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-a moving film about group therapy sessions held in a California prison.
 This movie inspired me to try to find out if there are organizations in the UK
 dedicated to helping inmates make the transition back into society.
 
