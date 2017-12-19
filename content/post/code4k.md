@@ -13,7 +13,8 @@ I spend most of my professional time helping developers understand how to harnes
 to build great applications. But a recent engagement brought me somewhere I'd never been before, 
 somewhere, I suspect, no other Google Developer Advocate has gone.
 <!--more-->
-<br><br>
+
+<br>
 <img src="/img/prison.jpg" height="400" style="display: block; margin: 0 auto;">
 <br>
 My home country, the United States, has the largest prison population in the world, and the 
