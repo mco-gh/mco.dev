@@ -83,9 +83,9 @@ and learned a lot from each other.
 If you live in the UK and enjoy teaching technical skills to motivated students,
 I'd highly recommend checking out <a href="https://www.code4000.org" target="_blank">www.code4000.org</a>.
 US folks should take a look at the
-<a href="http://postprisonedu.org/" target="_blank">Post-Prison Education Program</a>
-which helps support inmates and former prisoners learn life skills needed to
-make their way back into society.
+<a href="http://postprisonedu.org/" target="_blank">Post-Prison Education Program</a>,
+which provides extensive outreach in prisons and intensive 
+support post-release.
 
 Thanks to Michael Taylor (co-founder of code4000),
 Neal Barnaby (my host at Humber) and the fine men I met at
