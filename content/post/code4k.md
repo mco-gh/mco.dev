@@ -14,8 +14,8 @@ to build great applications. But a recent engagement brought me somewhere I'd ne
 somewhere, I suspect, no other Google Developer Advocate has gone.
 <!--more-->
 <br><br>
-<img src="/img/prison.jpg" height="400" align="center">
-<br><br>
+<img src="/img/prison.jpg" height="400" style="display: block; margin: 0 auto;">
+<br>
 My home country, the United States, has the largest prison population in the world, and the 
 second-highest per-capita incarceration rate.
 Poverty, unequal economic and educational opportunities, substance abuse, an inequitable justice system,
