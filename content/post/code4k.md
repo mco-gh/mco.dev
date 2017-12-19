@@ -55,7 +55,7 @@ Together we came up with the following list of topics:
 - What is "the Cloud" and why should I care?
 - Android vs. iOS vs. the Web, which one should I focus on?
 - Which languages/platforms/environments should I invest in?
-- <a href="https://docs.google.com/presentation/d/1TU01dp6OfEU1gUg7N42nEWDV_axK0eK74Qiatbx3y5M/edit" target="_blank">What's AI and Machine Learning all about?</a>
+- <a href="https://docs.google.com/presentation/d/18LdXaGX1OYsA4ZwOClSrG6g5u6oi-T3NxmkGI601fBE/edit?usp=sharing" target="_blank">What's AI and Machine Learning all about?</a>
 - <a href="https://docs.google.com/presentation/d/1b3I4JFK0VgnQ50CJtBsWJB7xW9znncjRxxB1k84yVhA/edit" target="_blank">Learning how to learn</a> - what's the best way to quickly learn new technical skills?
 - SEO - how do I make my web site appear in Google's search index?
 - Security
