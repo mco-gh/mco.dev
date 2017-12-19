@@ -36,7 +36,7 @@ for men, <a href="http://www.justice.gov.uk/contacts/prison-finder/everthorpe" t
 I was told the men had no direct access to the web so any programming exercises
 or demonstrations would have to work entirely offline.
 I was also advised that several participants were interested in web
-programming and was asked to prepared some material on Javascript and Chrome Devtools.
+programming and was asked to prepare some material on Javascript and Chrome Devtools.
 
 As the men filed into the room, I wasn't sure what to expect. Some seemed shy, avoiding my glance,
 others more outgoing, meeting me with a smile and a hearty handshake.
