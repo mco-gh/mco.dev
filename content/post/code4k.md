@@ -27,7 +27,7 @@ a moving film about group therapy sessions held in a California prison.
 This movie inspired me to try to find out if there are organizations in the UK
 dedicated to helping inmates make the transition back into society.
 
-A quick search revealed <a href="https://code4000.org" target="_blank">code4000.org</a>,
+A quick search revealed <a href="https://www.code4000.org" target="_blank">www.code4000.org</a>,
 which has precisely that mission. I emailed code4000's co-founder, Michael Taylor, to inquire
 about volunteer teaching opportunities. He responded enthusiastically, explaining that the
 program is currently operating on a trial basis at a medium security prison
@@ -79,13 +79,13 @@ We covered a lot of ground, had some good laughs,
 and learned a lot from each other.
 
 If you live in the UK and enjoy teaching technical skills to motivated students,
-I'd highly recommend checking out <a href="https://code4000.org" target="_blank">code4000.org</a>.
+I'd highly recommend checking out <a href="https://www.code4000.org" target="_blank">www.code4000.org</a>.
 US folks should take a look at the
 <a href="http://postprisonedu.org/" target="_blank">Post-Prison Education Program</a>
 which helps support inmates and former prisoners learn life skills needed to
 make their way back into society.
 
-Thanks to Michael Taylor (co-founder of code4000.org),
+Thanks to Michael Taylor (co-founder of code4000),
 Neal Barnaby (my host at Humber) and the fine men I met at
 HMP Humber for an enriching day.
 Their passion to learn is inspiring and
