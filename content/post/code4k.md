@@ -22,7 +22,7 @@ that the current system is focussed more on penalty than on rehabiliation.
 
 I recently attended the UK opening of this
 film about group therapy sessions held in a California prison:
-<a class="embedly-card" href="https://www.youtube.com/watch?v=h8OVXG2GhpQ">The Work</a>,
+<a class="embedly-card" href="https://www.youtube.com/watch?v=h8OVXG2GhpQ">The Work</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 This movie inspired me to try to find out if there are organizations in the UK
 dedicated to helping inmates make the transition back into society.
