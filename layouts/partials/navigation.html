@@ -1,6 +1,6 @@
 <script>
 
-contentList = ['blog', 'music', 'books', 'about'];
+contentList = ['blog', 'talks', 'music', 'books', 'about'];
 
 function baseName(str) {
    var base = new String(str).substring(str.lastIndexOf('/') + 1); 
@@ -86,6 +86,7 @@ function select(obj) {
 </script>
 
 <h6><a id="blog"  href="{{ .Site.BaseURL }}?v=blog"  rel="prerender" onclick="return select(this)">Blog</a></h6>
+<h6><a id="talks" href="{{ .Site.BaseURL }}?v=talks" rel="prerender" onclick="return select(this)">Talks</a></h6>
 <h6><a id="music" href="{{ .Site.BaseURL }}?v=music" rel="prerender" onclick="return select(this)">Music</a></h6>
 <h6><a id="books" href="{{ .Site.BaseURL }}?v=books" rel="prerender" onclick="return select(this)">Books</a></h6>
 <h6><a id="about" href="{{ .Site.BaseURL }}?v=about" rel="prerender" onclick="return select(this)">About</a></h6>
