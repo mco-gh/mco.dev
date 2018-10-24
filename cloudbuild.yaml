@@ -10,7 +10,7 @@ steps:
   args: ['deploy']
   secretEnv: ['FIREBASE_TOKEN']
 secrets:
-- kmsKeyName: 'projects/mcohen.io/locations/global/keyRings/cloudbuilder/cryptoKeys/firebase-token'
+- kmsKeyName: 'projects/mcohen-io/locations/global/keyRings/cloudbuilder/cryptoKeys/firebase-token'
   secretEnv:
     FIREBASE_TOKEN: 'CiQAQn3RnaFrXWs/B3KXWrSweBRVpZKrcnqMnq2kihud8DY0LcMSVgCCX4hLWxTrB2yxR09VOm5c+r4JihGhqLPZ0IoZd0BsGVRHskH+zaP3DEJLoDTEwEGcCwoXeIGRYotUDpJzKXqILi4e+oczHuNG0k62HkTmk4aj/Y/n'
 # 3. Sync results to storage bucket
