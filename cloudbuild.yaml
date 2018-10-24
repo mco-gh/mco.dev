@@ -5,5 +5,8 @@ steps:
 # 2. Run hugo command to generate static site
 - name: docker.io/marcacohen/hugo-image
   args: ['hugo']
+# 3. Sync results to storage bucket
+- name: gcr.io/cloud-builders/gsutil
+  args: ['-m', 'rsync', '-a', 'public-read', '-r', '-c', '-d', './public', 'gs://mcohen.io']
 #- run: cd public && sw-precache --static-file-globs='**/!(*404*)'
 #- run: firebase deploy --token=${FIREBASE_TOKEN}
