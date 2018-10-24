@@ -4,5 +4,6 @@ steps:
   args: ['clone', 'https://github.com/marcacohen/mcohen.io.git']
 # 2. Run hugo command to generate static site
 - name: docker.io/marcacohen/hugo-image
+  args: ['hugo']
 #- run: cd public && sw-precache --static-file-globs='**/!(*404*)'
 #- run: firebase deploy --token=${FIREBASE_TOKEN}
