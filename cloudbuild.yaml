@@ -6,7 +6,7 @@ steps:
 - name: docker.io/marcacohen/hugo-image
   args: ['hugo']
 # 3. Deploy to Firebase hosting
-- name: gcr.io/community-builders/firebase
+- name: devillex/docker-firebase
   args: ['deploy']
   secretEnv: ['FIREBASE_TOKEN']
 secrets:
