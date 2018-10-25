@@ -9,7 +9,7 @@ PygmentsStyle = "vim"
 
 [params]
     twitter = "marcacohen"
-    description = "Marc Cohen's Personal Blog"
+    description = "Marc Cohen's Blog"
     email = "mco@google.com"
     hostname = "mcohen.io"
 
