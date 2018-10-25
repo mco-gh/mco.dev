@@ -1,20 +1,5 @@
 steps:
-# 1. Fetch the blog code and content
-- name: gcr.io/cloud-builders/git
-  args: ['clone', 'https://github.com/marcacohen/mcohen.io.git']
-# 2. Run hugo command to generate static site
-- name: docker.io/marcacohen/hugo-image
-  args: ['hugo']
-# 3. Deploy to Firebase hosting
-- name: devillex/docker-firebase
-  args: ['deploy']
-  secretEnv: ['FIREBASE_TOKEN']
-secrets:
-- kmsKeyName: 'projects/mcohen-io/locations/global/keyRings/cloudbuilder/cryptoKeys/firebase-token'
-  secretEnv:
-    FIREBASE_TOKEN: 'CiQAQn3RnaFrXWs/B3KXWrSweBRVpZKrcnqMnq2kihud8DY0LcMSVgCCX4hLWxTrB2yxR09VOm5c+r4JihGhqLPZ0IoZd0BsGVRHskH+zaP3DEJLoDTEwEGcCwoXeIGRYotUDpJzKXqILi4e+oczHuNG0k62HkTmk4aj/Y/n'
-# 3. Sync results to storage bucket
-#- name: gcr.io/cloud-builders/gsutil
-  #args: ['-m', 'rsync', '-a', 'public-read', '-r', '-c', '-d', './public', 'gs://mcohen.io']
-#- run: cd public && sw-precache --static-file-globs='**/!(*404*)'
-#- run: firebase deploy --token=${FIREBASE_TOKEN}
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/firebase', '.']
+images:
+- 'gcr.io/$PROJECT_ID/firebase'
