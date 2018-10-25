@@ -3,7 +3,7 @@ steps:
 - name: gcr.io/cloud-builders/git
   args: ['clone', 'https://github.com/marcacohen/mcohen.io.git']
 # 2. Run hugo command to generate static site
-- name: docker.io/marcacohen/hugo-image
+- name: gcr.io/$PROJECT_ID/hugo
   args: ['hugo']
 # 3. Deploy to Firebase hosting
 - name: gcr.io/$PROJECT_ID/firebase
