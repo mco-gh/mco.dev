@@ -39,4 +39,4 @@ The idea here is to consider this a chance to get someone else's perspective, no
 If you have to collaborate with others, then after you've listened to feedback from people you trust,
 arrange a second conversation, a day or more later, to focus on reconciling differences of opinion. After some time has passed, you'll have moved from an emotional reaction to a more measured thoughtful place.
 
-If you can adopt this strategy, you'll not only open your mind to better solutions to your problems - you'll be the kind of person people will want to spend time with.
+If you can adopt this strategy, you'll not only open your mind to better solutions to your problems - people will like you and like working with you more.
