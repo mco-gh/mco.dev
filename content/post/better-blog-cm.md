@@ -92,7 +92,7 @@ while hiding the rest, resulting in seamless navigation with no font flicker.
 
 I'll share more details on how I implemented each of the above items in subsequent articles in this series.
 For those who don't want to wait, all of the code for my blog is freely available in the associated
-[Github repo](https://github.com/marcacohen/mcohen.io).
+[Github repo](https://github.com/marcacohen/mco.dev).
 
 The next article in this series will be about continuous integration. I'll show you how I automatically
 build and deploy this blog whenever I check in new content to the master branch of my Github repo.
