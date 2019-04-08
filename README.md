@@ -1,9 +1,9 @@
-# mcohen.io
+# mco.dev
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f1ea96ef-f6de-4667-a500-109e34bb0cc7/deploy-status)](https://app.netlify.com/sites/mco-dev/deploys)
 
 This is the source repo for my personal blog,
-[mcohen.io](https://www.mcohen.io).
+[mco.dev](https://mco.dev).
 It's based on [Samuel Debruyn's site](https://chipsncookies.com/).
 
 I work for Google but the opinions expressed here are my own and don't necessarily represent the views of my employer.

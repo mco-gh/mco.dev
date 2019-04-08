@@ -1,4 +1,4 @@
-BaseURL = "https://www.mcohen.io/"
+BaseURL = "https://www.mco.dev/"
 languageCode = "en-us"
 title = "Marc Cohen"
 paginate = 10
@@ -11,7 +11,7 @@ PygmentsStyle = "vim"
     twitter = "marcacohen"
     description = "Marc Cohen's Blog"
     email = "mco@google.com"
-    hostname = "mcohen.io"
+    hostname = "mco.dev"
 
 [permalinks]
     post = "/:year/:title/"
