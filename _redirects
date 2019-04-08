@@ -1,0 +1,8 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://mcohen.io/* https://mco.dev/:splat 301!
+https://www.mcohen.io/* https://mco.dev/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://mco-dev.netlify.com/* https://mco.dev/:splat 301!
