@@ -13,7 +13,8 @@ You've probably heard the term "machine learning" and how it's
 [changing everything](https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html).
 In this article, I'm going to explain the fundamental concept behind machine learning. <!--more-->
 
-There will be no math or programming. There will be no scary diagrams. You won't need a background in 
+There will be no math or programming. There will be no scary diagrams. 
+You won't need a background in 
 computer science or engineering. All you need is the ability to read and think, which you 
 obviously already have if you've made it this far. Well done on that reading and thinking! 
 Onward...
