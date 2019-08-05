@@ -10,7 +10,7 @@ I work for Google but the opinions expressed here are my own and don't necessari
 
 ## License
 
-Copyright 2017, Marc A. Cohen
+Copyright 2019, Marc A. Cohen
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
