@@ -1,8 +1,0 @@
-<img style="width:100%" src="/img/blog.jpg">
-<div id="content">
-    {{ range where .Site.Pages "Type" "post" }}
-        {{ if ne .Title "Posts" }}
-            {{ .Render "summary"}}
-        {{ end }}
-    {{ end }}
-</div>
