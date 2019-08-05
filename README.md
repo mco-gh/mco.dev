@@ -4,7 +4,6 @@
 
 This is the source repo for my personal blog,
 [mco.dev](https://mco.dev).
-It's based on [Samuel Debruyn's site](https://chipsncookies.com/).
 
 I work for Google but the opinions expressed here are my own and don't necessarily represent the views of my employer.
 
