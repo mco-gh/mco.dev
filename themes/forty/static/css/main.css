@@ -3414,7 +3414,7 @@
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100% calc(100%);
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
@@ -3443,7 +3443,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.4;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3452,6 +3452,7 @@
 
 		#banner h1 {
 			font-size: 3.5em;
+                        margin-top: -2.5em;
 		}
 
 		#banner > .inner {
@@ -3579,6 +3580,7 @@
 
 				#banner h1 {
 					font-size: 2em;
+                                        margin-top: -1em;
 				}
 
 				#banner > .inner .content {
