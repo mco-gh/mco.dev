@@ -79,7 +79,7 @@ disqusShortname = ""
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
     title = "Marc Cohen"
-    subtitle = "If there is any delay in that feedback loop between thinking of something and seeing it and building on it, then there is this whole world of ideas which will never be. - Bret Victor"
+    subtitle = "I want to stand as close to the edge as I can without going over. Out on the edge you see all the kinds of things you can't see from the center. - Kurt Vonnegut"
 
   # Tiles Section
   [params.tiles]
@@ -113,7 +113,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Random"
       subtitle = ""
-      image = "meiko.jpg"
+      image = "random.jpg"
       url = "random"
 
     [[params.tiles.showcase]]
