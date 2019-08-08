@@ -87,10 +87,10 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Learning & Productivity"
+      title = "Movies, Books, and Music"
       subtitle = ""
-      image = "blog.jpg"
-      url = "learn"
+      image = "headphones.jpg"
+      url = "media"
 
     [[params.tiles.showcase]]
       title = "Practical Data Science"
@@ -99,16 +99,16 @@ disqusShortname = ""
       url = "pds"
 
     [[params.tiles.showcase]]
-      title = "Movies, Books, and Music"
-      subtitle = ""
-      image = "headphones.jpg"
-      url = "media"
-
-    [[params.tiles.showcase]]
       title = "Puzzles & Math"
       subtitle = ""
-      image = "cube.jpg"
+      image = "chess.jpg"
       url = "puzzles"
+
+    [[params.tiles.showcase]]
+      title = "Learning & Productivity"
+      subtitle = ""
+      image = "learn.jpg"
+      url = "learn"
 
     [[params.tiles.showcase]]
       title = "Random"
