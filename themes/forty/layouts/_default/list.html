@@ -28,28 +28,20 @@
                     </div>
                 </section>
 
-                <section id="two" class="spotlights">
-                    {{ range .Pages }}
-                    <section>
-                        <a href="{{ .Permalink }}" class="image">
-							<img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" />
-						</a>
-                        <div class="content">
-                            <div class="inner">
-                                <header class="major">
-                                    <h3>{{ .Title }}</h3>
-                                </header>
-                                <p>{{ .Description }}</p>
-                                <ul class="actions">
-                                    <li><a href="{{ .Permalink }}" class="button">Learn more</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    {{ end }}
+                <section id="two" class="tiles">
+                  {{ range .Pages }}
+                    <article>
+                      <span class="image">
+                        <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.Image }}" alt="" />
+                      </span>
+                      <header class="major">
+                        <h3><a href="{{ .Permalink }}" class="link">{{ .Title }}</a></h3>
+                      </header>
+                    </article>
+                  {{ end }}
                 </section>
             </div>
-            
+
         {{ "<!-- Footer -->" | safeHTML}}
 			{{ if .Site.Params.footer.enable }}
 				{{ partial "footer.html" . }}
