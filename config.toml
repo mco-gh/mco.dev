@@ -41,7 +41,7 @@ disqusShortname = ""
     subtitle = ""
     menu = "Menu"
     # Optional logo as brand stored in img/
-    # logo = "logo.png"
+    logo = "mco.logo.png"
 
     [[params.navigation.links]]
       name = "Home"
