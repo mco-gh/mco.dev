@@ -79,7 +79,7 @@ disqusShortname = ""
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
     title = "Marc Cohen"
-    subtitle = "I want to stand as close to the edge as I can without going over. Out on the edge you see all the kinds of things you can't see from the center. - Kurt Vonnegut"
+    subtitle = "I want to stand as close to the edge as I can without going over. Out on the edge you see all kinds of things you can't see from the center. - Kurt Vonnegut, Player Piano"
 
   # Tiles Section
   [params.tiles]
