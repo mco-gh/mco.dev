@@ -60,7 +60,7 @@ have a shared birthday with only one person. When the second person enters the r
 third person enters the room, P(NCB) = (364/365) * (363/365), and so on.
 
 Take a look at the table of values for P(NCB) and P(CB) below with N varying from 10 to 30. 
-By examining this table, you can see that P(CB) first exceeds .5 at N=23. In other words, any time you assemble 23 or more people in a group, there’s a better than 50% chance that two or more people in the room have a common birthday. You can read more about this puzzle [here](http://en.wikipedia.org/wiki/Birthday_problem).
+By examining this table, you can see that P(CB) first exceeds .5 at N=23. In other words, any time you assemble 23 or more people in a group, there’s a better than 50% chance that two or more people in the room have a common birthday. You can read more about this puzzle [here](https://en.wikipedia.org/wiki/Birthday_problem).
 
  &nbsp;&nbsp;N&nbsp;&nbsp; | P(NCB) | P(CB)         
 -----|---------------------|------------------

@@ -34,7 +34,7 @@ a supercomputer - the computer in your pocket will do just fine.
 The average programmer now has access to incredibly
 powerful and free [machine learning software](https://github.com/tensorflow).
 And this new generation of algorithms not only makes short work of the cat/dog
-problem, it's been shown to [diagnose diseases better than a trained radiologist](http://www.diagnosticimaging.com/pacs-and-informatics/machine-learning-algorithms-outperform-inexperienced-radiologists), to 
+problem, it's been shown to [diagnose diseases better than a trained radiologist](https://www.diagnosticimaging.com/pacs-and-informatics/machine-learning-algorithms-outperform-inexperienced-radiologists), to 
 [translate written text as well as the best human translator](https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html),
 and yes, to play chess [and now Go](https://www.theatlantic.com/technology/archive/2016/03/the-invisible-opponent/475611/) better than any human in history.
 
@@ -50,5 +50,5 @@ is coming to the Google office in London to give a talk. He's one of my heroes. 
 hope to meet him, shake his hand, maybe even have my photo taken with him, if I'm lucky.
 I doubt I'll be saying that about a computer any time soon.
 
-<blockquote class="embedly-card"><h4><a href="http://reallifemag.com/computer-moves/">Computer Moves - Real Life</a></h4><p>About a month ago, I took a part-time job teaching chess to middle schoolers on Manhattan's Lower East Side. I am merely competent at chess and not highly experienced at teaching either. But a friend of mine who runs an after-school program had been looking for someone to fill this position for a long time.</p></blockquote>
+<blockquote class="embedly-card"><h4><a href="https://reallifemag.com/computer-moves/">Computer Moves - Real Life</a></h4><p>About a month ago, I took a part-time job teaching chess to middle schoolers on Manhattan's Lower East Side. I am merely competent at chess and not highly experienced at teaching either. But a friend of mine who runs an after-school program had been looking for someone to fill this position for a long time.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>

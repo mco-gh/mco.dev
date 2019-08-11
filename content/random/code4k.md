@@ -33,7 +33,7 @@ A quick search revealed <a href="https://www.code4000.org" target="_blank">www.c
 which has precisely that mission. I emailed code4000's co-founder, Michael Taylor, to inquire
 about volunteer teaching opportunities. He responded enthusiastically, explaining that the
 program is currently operating on a trial basis at a medium security prison
-for men, <a href="http://www.justice.gov.uk/contacts/prison-finder/everthorpe" target="_blank">HMP Humber</a>, three hours north of London by train. We arranged a half day teaching session. 
+for men, <a href="https://www.justice.gov.uk/contacts/prison-finder/everthorpe" target="_blank">HMP Humber</a>, three hours north of London by train. We arranged a half day teaching session. 
 
 I was told the men had no direct access to the web so any programming exercises
 or demonstrations would have to work entirely offline.
@@ -83,7 +83,7 @@ and learned a lot from each other.
 If you live in the UK and enjoy teaching technical skills to motivated students,
 I'd highly recommend checking out <a href="https://www.code4000.org" target="_blank">www.code4000.org</a>.
 US folks should take a look at the
-<a href="http://postprisonedu.org/" target="_blank">Post-Prison Education Program</a>,
+<a href="https://postprisonedu.org/" target="_blank">Post-Prison Education Program</a>,
 which provides extensive outreach in prisons and intensive 
 support post-release.
 
