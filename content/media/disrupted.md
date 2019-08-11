@@ -3,6 +3,7 @@ images = []
 banner = ""
 menu = ""
 categories = []
+image = "disrupted.jpg"
 tags = ["books"]
 title = "Coming of Age in Silicon Valley"
 date = "2017-03-29"

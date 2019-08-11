@@ -14,8 +14,6 @@ Your first guess is likely wrong. You've been warned.<!--more-->
 The numbers in the following graph are arranged logically, according to a simple rule.
 Your job is deduce the rule and fill in the missing number. No advanced math is required.
 
-<img height="250" src="/img/graph.png">
-
 If you get the answer quickly, it's probably wrong - check your work on the whole graph. 
 If you don't get it right away, let it roll around your mind for a while and come back to
 it every so often. When you least expect it, the answer will come to you, bringing with it

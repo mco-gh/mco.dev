@@ -12,8 +12,6 @@ title = "What a Coincidence!"
 
 How surprised should we be to find a common birthday in a random group of people?<!--more-->
 
-<img src="/img/birthday.jpg" align="left" style="margin: 15px">
-
 When you meet a new acquaintance, the chances are only 1 in 365 that s/he will share your birthday.
 But the odds of any two people having a common birthday in a large group of, say, 100 people, are
 actually quite high. We’ll take this puzzle in two parts…
