@@ -1,0 +1,56 @@
+<html>
+{{ "<!-- Header -->" | safeHTML }}
+    {{ partial "header.html" . }}
+
+    <body>
+
+    {{ "<!-- Wrapper -->" | safeHTML }}
+        <div id="wrapper">
+
+        {{ partial "nav.html" . }}
+
+        {{ "<!-- Main -->" | safeHTML }}
+            <div id="main">
+
+                <section id="banner" class="style2">
+                    <div class="inner">
+			{{ if .Params.image }}
+                        <span class="image">
+                            <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}" alt="" />
+                        </span>
+			{{ end }}
+                        <header class="major">
+                            <h1>{{ .Title }}</h1>
+                        </header>
+                        <div class="content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </section>
+
+                <section id="two" class="tiles">
+                  {{ range .Pages }}
+                    <article>
+                      <span class="image">
+                        <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.Image }}" alt="" />
+                      </span>
+                      <header class="major">
+                        <h3><a href="{{ .Permalink }}" class="link">{{ .Title }}</a></h3>
+                      </header>
+                    </article>
+                  {{ end }}
+                </section>
+            </div>
+
+        {{ "<!-- Footer -->" | safeHTML}}
+			{{ if .Site.Params.footer.enable }}
+				{{ partial "footer.html" . }}
+            {{ end }}
+        
+        </div>
+
+    {{ "<!-- Scripts -->" | safeHTML}}
+        {{ partial "js.html" . }}
+        
+    </body>
+</html>

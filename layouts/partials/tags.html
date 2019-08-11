@@ -1,6 +1,0 @@
-<h6 id="tags" class="sitetaglisttitle">Tags</h6>
-<ul class="sitetaglist">
-  {{ range .Site.Taxonomies.tags.ByCount }}
-    <li><a id="{{ .Name }}" href="/tags/{{ .Name | urlize }}">{{ .Name }} ({{ .Count }})</a></li>
-  {{ end }}
-</ul>

@@ -4,13 +4,12 @@
 
 This is the source repo for my personal blog,
 [mco.dev](https://mco.dev).
-It's based on [Samuel Debruyn's site](https://chipsncookies.com/).
 
 I work for Google but the opinions expressed here are my own and don't necessarily represent the views of my employer.
 
 ## License
 
-Copyright 2017, Marc A. Cohen
+Copyright 2019, Marc A. Cohen
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
