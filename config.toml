@@ -60,7 +60,7 @@ disqusShortname = ""
       url = "media"
 
     [[params.navigation.links]]
-      name = "Puzzles & Math"
+      name = "Puzzles"
       url = "puzzles"
 
     [[params.navigation.links]]
@@ -103,7 +103,7 @@ disqusShortname = ""
       url = "pds"
 
     [[params.tiles.showcase]]
-      title = "Puzzles & Math"
+      title = "Puzzles"
       subtitle = ""
       image = "chess.jpg"
       url = "puzzles"
