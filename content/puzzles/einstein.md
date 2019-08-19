@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-01-29"
 title = "Einstein's Puzzle"
+subtitle = "A puzzle of deduction said to be devised by Einstein"
 +++
+
 Today’s puzzle is said to have been devised by Albert Einstein, who supposedly claimed that 98% of the population could not solve it. I haven’t researched the accuracy of this tale, but you can color me highly skeptical. Nevertheless, it’s a beautiful puzzle in the area of deductive reasoning. If you’ve seen this puzzle before you may notice that I’ve taken the liberty of modernizing it: men are replaced with women and cigarette brands are replaced with favorite musicians.
 
 Assume there are five houses of different colors next to each other on the same street. In each house lives a woman of a different nationality. Each woman has a favorite drink, a favorite musician, and keeps a particular type of pet. All such attributes are unique – in other words, no two women share the same house color, nationality, pet, drink, or favorite musician.

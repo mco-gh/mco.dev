@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2010-12-18"
 title = "Finding the Time"
+subtitle = "While you’re asleep one night, there’s a power outage..."
 +++
+
 The original incarnation of today’s puzzle talks about winding a clock but who, under the age of 40, knows what that means anymore? Here’s a slightly more modern formulation…
 
 While you’re asleep one night, there’s a power outage. When you wake up, your alarm clock is flashing (but running), alerting you to the fact that you lost power for some period of time but you have no idea how long the outage lasted, and therefore no idea what time it is. You would like to reset your alarm clock to the current time but you don’t own any other clocks or watches or any communication devices whatsoever – no TV, no radio, no telephone, no cell phone, no computer, etc. And you live all alone in a very isolated place. Your only hope is a friend who has an accurate clock, however, he lives a long walk away from your house. So you walk to your friend’s house, stay overnight, then walk back home (assume the same amount of travel time in both directions). When you return home, you are able to accurately set your clock. How do you do it?

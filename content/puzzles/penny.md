@@ -4,10 +4,11 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-03-13"
 title = "Penny For Your Thoughts"
+subtitle = "The power of doubling"
 +++
 Imagine a very wealthy and eccentric friend (which is the best kind of friend to have) offers you the following choice:
 

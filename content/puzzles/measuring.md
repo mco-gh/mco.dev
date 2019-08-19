@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-03-25"
 title = "Measuring Mystery"
+subtitle = "Classic interview question in the Aha! category"
 +++
+
 This is another one that Microsoft and other companies have used as an interview question but it’s a little easier than some of my recent brain benders. You have two empty containers – one has a capacity of five liters of water and the other can hold at most three liters of water. Both containers are made of clear plastic and have absolutely no markings anywhere. Here’s your challenge: given an unlimited supply of water, I want you to come up with a way to measure exactly four liters of water. Leave me a comment if you find the answer. Good luck!
 
 Solution: I received nine answers to this week’s puzzle and all of them were correct! I have some very smart friends. :) Before I share the solution, I’d like to recognize a few noteworthy submissions:

@@ -4,10 +4,11 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "lightenup.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2017-04-09"
 title = "Lighten Up"
+subtitle = "You are standing in a hallway with three light switches..."
 +++
 
 You are standing in a hallway with three light switches.<!--more-->

@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-01-07"
 title = "An Open and Shut Case"
+subtitle = "Imagine you’re standing at one end of a corridor, with exactly 100 lockers all in a row, numbered 1 to 100..."
 +++
+
 For today’s puzzle, I’m taking you back to school. Imagine you’re standing at one end of a corridor, with exactly 100 lockers all in a row, numbered 1 to 100, all of which are initially closed. Your math teacher walks by and asks you to perform the following sequence of tasks:
 
 Task 1: Visit every locker (1, 2, 3, …, 100) and, for each locker visited, change its state, i.e. if you find it open, close it and if you find it closed, open it. Since all lockers start out closed, this first task amounts to opening all 100 lockers.

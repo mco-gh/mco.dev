@@ -8,6 +8,7 @@ image = "birthday.jpg"
 tags = ["puzzles"]
 date = "2017-04-29"
 title = "What a Coincidence!"
+subtitle = "How surprised should we be to find a common birthday in a random group of people?"
 +++
 
 How surprised should we be to find a common birthday in a random group of people?<!--more-->

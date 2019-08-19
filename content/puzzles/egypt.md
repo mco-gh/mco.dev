@@ -4,10 +4,11 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-02-12"
 title = "Egypt Trivia"
+subtitle = "Can you name these things related to Egypt?"
 +++
 Today we’re doing a good old-fashioned trivia quiz with a topical theme: every answer has something to do with Egypt. There’s something here for everyone: pop culture, ancient history, modern history, geography, politics, you name it. Submit a comment below with as many answers as you can come up with (no googling allowed!). The comment with the most correct answers gets a shout out in an update. Come back later to see all the answers – in the words of Bill Cosby, if you’re not careful, you might learn something!
 

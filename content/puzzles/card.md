@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-04-02"
 title = "Card Detective"
+subtitle = "The dealer holds three cards, which may contain any number of aces (0, 1, 2 or 3)..."
 +++
+
 You and two of your friends (not facebook friends, real world friends, remember those?) are playing a game. The dealer holds three cards, which may contain any number of aces (0, 1, 2 or 3). Each player is dealt a card face down, and asked to hold their card up against their forehead so the value side is facing out.
 
 At this point, no player knows which card he/she holds but all three players can see the other two players’ cards. The dealer asks you to raise your hand if you see one or more Aces (of any suit). You look around and see both of the other players are showing an Ace, so you raise your hand. The other two players also raise their hands. So, almost immediately, all three players have their hands in the air.

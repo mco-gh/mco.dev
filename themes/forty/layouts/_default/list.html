@@ -36,6 +36,9 @@
                       </span>
                       <header class="major">
                         <h3><a href="{{ .Permalink }}" class="link">{{ .Title }}</a></h3>
+			{{ if .Params.subtitle}}
+                          <h4><a href="{{ .Permalink }}" class="link">{{ .Params.subtitle }}</a></h4>
+                        {{ end }}
                       </header>
                     </article>
                   {{ end }}

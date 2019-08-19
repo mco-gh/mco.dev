@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2010-12-04"
 title = "Flipping Coins"
+subtitle = "Which sequence is more likely: HTT or HTH? The answer will surprise you."
 +++
+
 Imagine tossing a coin repeatedly until you get a certain pattern, let’s say HTT (head, tail, tail). For example, in this sequence of outcomes:
 
 HHTHHTHHTTHHTTTHTH

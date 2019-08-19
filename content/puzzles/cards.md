@@ -4,14 +4,14 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-03-12"
 title = "Putting Your Cards on the Table"
+subtitle = "In front of you are four cards on a table. Each card has a letter on one side and a number on the other side."
 +++
+
 In front of you are four cards on a table, which look like this:
-
-
 
 Each card has a letter on one side and a number on the other side. Obviously, you can only see one side of each card. Here’s the challenge: tell me which card(s) you need to turn over in order to test the following theory: “If a card has a vowel on one side then it must have an even number on the other side”. Take your time and think about it, then leave me a comment with your answer.
 

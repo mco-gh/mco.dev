@@ -3,20 +3,19 @@ images = []
 banner = ""
 menu = ""
 categories = []
-image = "apples-oranges.jpg"
 tags = ["puzzles"]
 title = "Apples & Oranges"
+subtitle = "In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges."
 date = "2017-04-02"
 +++
-
 
 In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges.<!--more-->
 
 Each box is labeled, like this:
 
-* Box 1: “apples”
-* Box 2: “oranges”
-* Box 3: “apples & oranges”
+- Box 1: “apples”
+- Box 2: “oranges”
+- Box 3: “apples & oranges”
 
 Unfortunately, all three boxes are mislabeled. That’s where you come in – you’re going to help me fix those labels.
 

@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-04-08"
 title = "Palindromically Speaking"
+subtitle = "Palindromes are normally words, but we're going to try to find calendrical palendromes"
 +++
+
 Have you ever heard of a palindrome? It’s a word, phrase, sentence (or more) that’s spelled exactly the same way backward and forward. Here are a few well known palindromes:
 
 race car

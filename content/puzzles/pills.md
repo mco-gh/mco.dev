@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-02-18"
 title = "Perilous Pills"
+subtitle = "A matter of life or death"
 +++
+
 You’re a pharmacist and you’ve just taken delivery of ten bottles of 1,000 pills each. All pills are of the same type with the same dosage. But before you have a chance to put them away, your supplier calls to inform you that, due to a glitch at the factory, one of the ten bottles is tainted. The pills are supposed to contain 10 milligrams of medication, but all of the pills in the bad bottle contain one extra milligram.
 
 Obviously, you can’t allow your customers to buy the overdosed pills, but this medication is very expensive so you can’t afford to throw away the whole lot. Fortunately, you have a smart assistant, who suggests weighing the pills. “Brilliant!”, you exclaim, “All we have to do is weigh each bottle – nine will register the same weight and one bottle will weigh an extra 1,000 mg”. “You could do it that way”, adds your assistant with a sly grin, “but that could take up to ten weighings. I can think of a plan that’s guaranteed to find the tainted bottle in only one weighing”.

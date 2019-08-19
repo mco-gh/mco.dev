@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2011-03-04"
 title = "Pink or Blue?"
+subtitle = "Predicting the gender distribution of your offspring"
 +++
+
 For the past 63 years in a row, babies born in the US have been slightly more likely to be a boy than a girl, at a rate of roughly 51% to 49% (source). For today’s puzzle, let’s ignore that complication and assume the odds of being born a boy or a girl are precisely 50%. Now, imagine you have four children and consider these three possible outcomes:
 
 all four children have the same gender (four boys or four girls)

@@ -4,11 +4,13 @@ banner = ""
 menu = ""
 description = ""
 categories = []
-image = "birthday.jpg"
+image = ""
 tags = ["puzzles"]
 date = "2010-11-13"
 title = "Burning Strings"
+subtitle = "Using fire to measure time"
 +++
+
 I first heard today’s puzzle several years ago from a co-worker who had recently returned from a job interview at Microsoft, where he’d been asked to solve this one in real time. I’m not a big believer in those sorts of puzzle interview questions – they’re good for spotting people who think quickly on their feet (or who already know the answer :), but I don’t think they necessarily help you find great programmers. Nevertheless, it’s a cute puzzle…
 
 Imagine you have two lengths of string, each of which is known to have the following characteristics:

@@ -8,6 +8,7 @@ image = "paragraph.jpg"
 tags = ["puzzles"]
 date = "2017-03-26"
 title = "An Unusual Paragraph"
+subtitle = "How quickly can you find out what is unusual about this paragraph?"
 +++
 
 How quickly can you find out what is unusual about this
