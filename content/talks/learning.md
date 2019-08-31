@@ -1,9 +1,14 @@
----
-title: "Optimal Learning Experiences"
-slug: "talks"
-date: 2017-10-31T22:27:21-05:00
-draft: false
----
++++
+images = []
+banner = ""
+menu = ""
+description = ""
+categories = []
+tags = ["talks"]
+title = "Optimal Learning Experiences"
+date = "2017-10-31"
+draft = false
++++
 Interactive tutorials are one of the most powerful ways we can help students
 learn how to use technology. But there are a bewildering array of tools available
 for creating these experiences.
