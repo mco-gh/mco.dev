@@ -1,9 +1,14 @@
----
-title: "Google Cloud Guided Tour"
-slug: "talks"
-date: 2017-10-31T22:27:21-05:00
-draft: false
----
++++
+images = []
+banner = ""
+menu = ""
+description = ""
+categories = []
+tags = ["talks"]
+title = "Google Cloud Guided Tour"
+date = "2017-10-31"
+draft = false
++++
 Cloud computing has gotten incredibly powerful but also very complex --
 there's a lot to understand. In this session, I'll provide a guided tour of the
 Google Cloud Platform with an emphasis on practical examples and demos.

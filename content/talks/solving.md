@@ -1,9 +1,14 @@
----
-title: "Solving by Software"
-slug: "talks"
-date: 2017-10-31T22:27:21-05:00
-draft: false
----
++++
+images = []
+banner = ""
+menu = ""
+description = ""
+categories = []
+tags = ["talks"]
+title = "Solving by Software"
+date = "2017-10-31"
+draft = false
++++
 This talk reviews some challenging math problems and shows how they can be solved numerically,
 using moderately simple computer programs. Along the way, we'll see how to simulate the problems
 in software, discover some surprising results, and learn a bit of Python. All programs will be
