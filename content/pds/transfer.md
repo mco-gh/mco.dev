@@ -80,7 +80,7 @@ https://dumps.wikimedia.org/other/pageviews/2019/2019-01/pageviews-20190101-0100
 https://dumps.wikimedia.org/other/pageviews/2019/2019-01/pageviews-20190101-020000.gz
 ```
 
-Using gsutil, I uploaded a copy of this file to Cloud Storage object (`gs://mco-wiki/xfer.tsv`) and
+Using gsutil, I uploaded a copy of this file to a Cloud Storage object (`gs://mco-wiki/xfer.tsv`) and
 entered the full URL of this object (`https://storage.googleapis.com/mco-wiki/xfer.tsvi`) into the Select Source dialog.
 
 <img width="50%" src="/img/transfer3.png">
@@ -99,7 +99,7 @@ For the latter, you can schedule it to recur daily at a specific time of day.
 
 <img width="50%" src="/img/transfer5.png">
 
-Now we've finished giving our input so we can click the Create button to create our transfer request. If all goes well, we'll then see our new job, it's status and related attributes.
+Now we've finished giving our input so we can click the Create button to create our transfer request. If all goes well, we'll then see our new job, it's current status, and related attributes.
 
 <img width="50%" src="/img/transfer6.png">
 
@@ -108,5 +108,5 @@ We can come back to this page to check on our job status. When it finished, we'l
 
 ## Next Time
 
-In this article we saw how to important large files, once or repeatedly, into Google Cloud Storage. But if the file is a big one, we'll most likely be importing a compressed version.
+In this article we saw how to import large files, once or repeatedly, into Google Cloud Storage. But if the file is a big one, we'll most likely be importing a compressed version.
 In the next article in this series, we'll talk about how best to decompress large files in the Cloud.
