@@ -17,9 +17,15 @@
                         <div class="inner">
                             <header class="major">
                                 <h1>{{ .Title}}</h1>
+                                <h2>{{ .Params.subtitle}}</h2>
                             </header>
                             {{ if .Params.image }}
-                                <span class="image main"><img style="max-height: 40%; max-width: 40%; float: left; margin-bottom: 1%; margin-right: 3%;" src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}" alt="" /></span>
+                                <span style="max-height: 40%; max-width: 40%; float: left; margin-bottom: 0; margin-right: 3%; margin-top:10px;" class="">
+                                    <img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}" alt="" />
+                                    {{ if .Params.image_credit }}
+                                        <span><a href="{{ .Params.image_credit | safeHTML}}">Image Credit</a></span>
+                                    {{ end }}
+                                </span>
                             {{ end }}
                             {{ .Content }}
                         </div>
