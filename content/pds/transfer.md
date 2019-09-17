@@ -26,9 +26,9 @@ the worldwide cultural zeitgeist.
 
 This is a good choice for another reason: it's Big - Wikipedia
 logs on the order of 250MB of access data every hour.
-Just the data for this year to date (as of September 16, which is day 259) would entail 259*24*250MB=1.5TB.
+Just the data for this year (as of September 16, which is day 259) would entail 259*24*250MB=1.5TB.
 But we're going bigger than that - we're going to load all the historical
-data from as many year as we can find.
+data from as many years as we can find.
 
 ## The Naive Approach (and why it's not the best plan)
 
@@ -42,9 +42,9 @@ What could possibly go wrong? Well, a lot...
 - Time: This is going to be slow because it's using spare CPU cycles on a busy laptop.
 - Efficiency: You're transferring every byte twice - once from the source to your laptop and
   once from your laptop to the cloud.
-- Comfort: Your personal device is now dedicated to an onerous background task. Don't close the lid and hope you don't mind that whirring fan for the next eight hours!
-- Resilience: What happens when you're laptop goes to sleep or reboots or crashes in the middle of a multi-hour transfer?
-- Automation: This is fundamentally a manual task. We want it be 100% automated to minimize errors and ensure it always runs, reliably and reproducibly, with logs to audit when needed.
+- Comfort: Your personal device is now dedicated to an onerous background task - hope you don't mind that whirring fan for the next eight hours!
+- Resilience: What happens when your laptop goes to sleep or reboots or crashes in the middle of a multi-hour transfer?
+- Automation: This is fundamentally a manual task. We want it be 100% automated to minimize errors and ensure it always runs, reliably and reproducibly, with logs to audit, when needed.
 
 In short, this is not what we'd call a well engineered process, so let's fix that now...
 
