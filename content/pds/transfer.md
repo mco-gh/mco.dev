@@ -109,4 +109,6 @@ We can come back to this page to check on our job status. When it finished, we'l
 ## Next Time
 
 In this article we saw how to import large files, once or repeatedly, into Google Cloud Storage. But if the file is a big one, we'll most likely be importing a compressed version.
-In the next article in this series, we'll talk about how best to decompress large files in the Cloud.
+Also, the interface is a bit limiting in the sense that we get to choose between one time only or a statically defined daily request.
+In the next articles in this series, we'll talk about how best to decompress large files in the Cloud, and how to
+get finer grain control over the set of objects we download.
