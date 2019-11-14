@@ -7,7 +7,7 @@ categories = []
 image = ""
 tags = ["learn"]
 date = "2010-09-26"
-title = "Ten Things I've learnd About Teaching"
+title = "Ten Things I've learned About Teaching"
 +++
 
 I just finished teaching my new Python Programming course at UW. It was a great experience and I was very lucky to have a fantastic group of students – they showed up for class, they worked hard and they asked me tons of great questions. Preparing and teaching this course was a lot of work, way more than I expected, but it was also very rewarding. Now that I have a little time to reflect on the experience, I’ve captured a list of the most valuable lessons I’ve learned.
