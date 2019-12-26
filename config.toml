@@ -71,7 +71,7 @@ disqusShortname = ""
       name = "Talks"
       url = "talks"
 
-    [params.navigation.links]]
+    [[params.navigation.links]]
       name = "poems"
       url = "poems"
       

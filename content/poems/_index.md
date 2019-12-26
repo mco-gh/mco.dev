@@ -1,7 +1,7 @@
 ---
 title: "Poems"
 slug: "poems"
-image: chess.jpg
+image: writing.jpg
 date: 2019-12-26
 draft: false
 ---
