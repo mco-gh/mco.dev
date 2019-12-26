@@ -130,6 +130,12 @@ disqusShortname = ""
       image = "talks.jpg"
       url = "talks"
 
+    [[params.tiles.showcase]]
+      title = "Poems"
+      subtitle = ""
+      image = "writing.jpg"
+      url = "poems"
+      
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
