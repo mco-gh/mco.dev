@@ -19,6 +19,6 @@ A busker bares her soul,
 To anyone who will listen.  
 
 I'm alive with the fire of youth  
-And the mystery of tales untold.  
+And the mystery of my future.  
 
  - Marc Cohen
