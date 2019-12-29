@@ -17,3 +17,5 @@ But I've learned to adapt.
 I've learned so well  
 That some people think  
 I belong here.  
+
+ - Marc Cohen
