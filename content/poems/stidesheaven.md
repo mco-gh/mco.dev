@@ -4,7 +4,7 @@ banner = ""
 menu = ""
 categories = []
 tags = ["poems"]
-title = "St. Ives Heaven"
+title = "St. Ides Heaven"
 date = "2019-12-29"
 +++
 
