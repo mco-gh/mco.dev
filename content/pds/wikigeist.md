@@ -216,14 +216,36 @@ echo "inserting data from GCS to BQ for $YEAR-$MONTH-$DAY..."
 bq query -q --use_legacy_sql=false "$QUERY"
 ```
 
-That takes care of the pageviews, but what about the wikidata? Here's a script called entities.sh, which takes care of the entity data. Structurally, it's quite similar to the 
+That takes care of the pageviews, but what about the wikidata? Here's a script called entities.sh, which takes care of the entity data. Structurally, it's quite similar to the pageviews.sh script, except that instead of acquiring the data, it simply prints the file name it would like to acquire. The reason we do this is because we're not going to actually gather the entitiy data in this script -- it's too big a job, involving a large download, a massive decompression, and a huge upload. In the next section, this strategy will become more clear.
 
+```bash
+BUCKET=wiki-staging
+DOMAIN=dumps.wikimedia.org
+SRC_BASE=https://$DOMAIN
+DST_BASE=gs://$BUCKET
+SRC_DATA_PATH=wikidatawiki/entities/latest-all.json.bz2
+DST_DATA_PATH=$DOMAIN/$SRC_DATA_PATH
+SRC_DATA_URL=$SRC_BASE/$SRC_DATA_PATH
+DST_DATA_URL=$DST_BASE/$DST_DATA_PATH
 
+read SFILE SSIZE \
+  <<<$(wget -nv --spider -S -r -A ".gz" -I $SRC_DATA_PATH $SRC_DATA_URL 2>&1 |
+       awk 'function base(file, a, n) {n = split(file,a,"/"); return a[n]} \
+            $1 == "Content-Length:" {len=$2} $3 == "URL:" {print base($4), len}')
 
+read DFILE DSIZE \
+  <<<$(gsutil ls -l -r $DST_DATA_URL |
+       awk 'function base(file, a, n) {n = split(file,a,"/"); return a[n]} \
+            $1 != "TOTAL:" {print base($3), $1}')
+
+echo -en "TsvHttpData-1.0$EOL"
+if [ "$SFILE" != "$DFILE" -o "$SSIZE" != "$DSIZE" ]
+then
+  echo -en "$SRC_DATA_URL$EOL"
+fi
+```
 
 ## Let's productionize this script
-
-## We need entity data
 
 ## Ok, it's all there, what can we do with it?
 
