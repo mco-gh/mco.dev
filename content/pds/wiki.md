@@ -13,7 +13,7 @@ draft = true
 # What's bigger than Wikipedia?
 
 I often give talks to students and I like to ask them if anyone knows what this is:
-![Encyclopedia](/img/WorldBook.jpg)
+![Encyclopedia](/img/WorldBook.png)
 
 I find it humorous than many aren't sure what they're looking at, so I inform them that when I was their age, this was my Google. Perhaps a more accurate statement would be to say this was my Wikipedia.
 
@@ -37,7 +37,7 @@ wikipedia pages, not just the content of the articles.
 
 It turns out, the Wikimedia foundation provides just such a collection of metadata. It's called the [Wikimedia Entity Database](https://www.wikidata.org/wiki/Wikidata:Main_Page). You can think of Wikidata as information about the entities in Wikipedia. It could be a song, a country, a TV show, a politician, a University, or anything else you might like to classify. Here's a screenshot of the Wikidata entry for "Barack Obama":
 
-![Barack Obama](/img/BarackObama.jpg)
+![Barack Obama](/img/BarackObama.png)
 
 Armed with the page views the wikidata, we can run the sort of queries we'd like to do.
 But there's one catch: the Wikidata is huge: 400GB compressed and nearly 1TB uncompressed. So we're going to have handle it with care.
@@ -46,7 +46,7 @@ But there's one catch: the Wikidata is huge: 400GB compressed and nearly 1TB unc
 
 I like to make a list of requirements to make sure I understand the problem I'm trying to solve. Here's a diagram summarizing the data I've just discussed:
 
-![Data Plan](/img/WikiData.jpg)
+![Data Plan](/img/WikiData.png)
 
 - Page views are released hourly. We'll gather them within an hour of release.
 - Hourly page view files are typically on the order of 1.5 GB uncompressed. That's small enough that we can process them using a serverless method like Cloud Run, which save us a lot of administrative hassle.
@@ -247,6 +247,10 @@ fi
 ```
 
 ## Let's productionize this script
+
+So far, we have a bunch of shell scripts but we need to run those scripts automatically, in the cloud, at the right times. Cloud Run gives us that capability.
+
+![Design](/img/design.png)
 
 ## Ok, it's all there, what can we do with it?
 
