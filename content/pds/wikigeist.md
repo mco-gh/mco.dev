@@ -6,6 +6,7 @@ tags = ["data"]
 title = "What I Learned Processing 10TB of Wikipedia Page Views"
 subtitle = ""
 date = "2020-02-18"
+draft = true
 +++
 
 # What's bigger than Wikipedia?
@@ -169,7 +170,6 @@ fi
 
 This script can be called with any of the following time window arguments: hour, day, month, year, all. It audits our existing data over the requested time window and ingest any missing files. Note that this script is idempotent -- you can call it repeatedly and it will always try to make our copy of the data match the publicly available data.
 
-
 The last step in the script calls a sub-script (update.sh) which parses the newly acquired data and loads it into the appropriate BigQuery table. It looks like this:
 
 ```bash
@@ -249,4 +249,6 @@ fi
 
 ## Ok, it's all there, what can we do with it?
 
-## What did we learn?
+## What did I learn?
+
+\*
