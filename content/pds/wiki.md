@@ -7,54 +7,51 @@ tags = ["data"]
 title = "What I Learned Processing 10TB of Wikipedia Page Views"
 subtitle = ""
 date = "2020-02-18"
-draft = true
 +++
 
-# What's bigger than Wikipedia?
+## What's bigger than Wikipedia? (Spoiler: Wikipedia page views)
 
 I often give talks to students and I like to ask them if anyone knows what this is:
-![Encyclopedia](/img/WorldBook.png)
+
+![Encyclopedia](/img/WorldBook.jpg)
 
 I find it humorous than many aren't sure what they're looking at, so I inform them that when I was their age, this was my Google. Perhaps a more accurate statement would be to say this was my Wikipedia.
 
-Because Wikipedia is a centralized web resource, it has a very interesting property that the encyclopedias of my childhood could never match: Wikipedia see and records every access to every article. The Wikimedia Foundation, which operates and maintains Wikipedia, provides [detailed access logs](http://dumps.wikimedia.your.org/). This information is provided on an hourly basis and contains an entry for every article that is viewed, anywhere in the world, in any language.
+Because Wikipedia is a centralized web resource, it has a very interesting property that the encyclopedias of my childhood could never match: Wikipedia see and records every access to every article. The Wikimedia Foundation, which operates and maintains Wikipedia, provides [detailed access logs](http://dumps.wikimedia.your.org/) on an hourly basis. This information contains an entry for every article that is viewed, anywhere in the world, in any language.
 
-The popularity of Wikipedia page views provides an interesting glimpse into what we, collectively, find interesting. This data is fun to work with for another reason: it's Big - there's more data in one year's access logs than in all the articles combined in every supported language! Wikipedia logs on the order of 250MB of access data every hour. That's roughly 30 _ 24 _ 250 = 180,000MB = 180GB per month, or 2.16TB per year.
+The popularity of Wikipedia page views provides an interesting glimpse into what we, collectively, find interesting. This data is fun to work with for another reason: it's Big - there's more data in one year's access logs than in all the articles combined in every supported language! Wikipedia logs on the order of 250MB of access data every hour. That's roughly 30\*24\*250 = 180,000MB = 180GB per month, or 2.16TB per year.
 
 The Wikimedia foundation has been publishing this data since 2015 and I want it all, so I'm ultimately looking to snarf up over 10TB of data.
 
 ## Page views aren't enough
 
-The kind of queries I'm interested in asking are of this form: what was the most popular wikipedia page in category X over timeframe Y (and how did that popularity change over time)? For example, it would be interesting to see whether the major Democratic presidential candidates' Wikipedia page popularity correlates with the success
-in polls and primaries.
+The kind of queries I'm interested in asking are of this form: what was the most popular wikipedia page in category X over timeframe Y (and how did that popularity change over time)? For example, it would be interesting to see whether the major Democratic presidential candidates' Wikipedia page popularity correlates with the success in polls and primaries.
 
 But think about it -- how would you go about constructing a query of all democratic presidential candidates? The simplest approach would be to explicitly enumerate the known candidates. But that immediately ties our query to the world as it exists now. Ideally, our queries should automatically adjust their scope to incorporate the current set of pages of interest. Otherwise, every time we run the query, we'll need to ask ourselves whether our set of candidates is accurate and complete.
 
-But to automatically find such pages of interest, we need metadata, information about
-wikipedia pages, not just the content of the articles.
+To automatically find such pages of interest, we need metadata, which is information about wikipedia entities.
 
 ## Wikidata to the rescue
 
-It turns out, the Wikimedia foundation provides just such a collection of metadata. It's called the [Wikimedia Entity Database](https://www.wikidata.org/wiki/Wikidata:Main_Page). You can think of Wikidata as information about the entities in Wikipedia. It could be a song, a country, a TV show, a politician, a University, or anything else you might like to classify. Here's a screenshot of the Wikidata entry for "Barack Obama":
+It turns out, the Wikimedia foundation provides just such a collection of metadata. It's called the [Wikimedia Entity Database](https://www.wikidata.org/wiki/Wikidata:Main_Page) (wikidata for short). You can think of Wikidata as information about the entities in Wikipedia. It could be a song, a country, a TV show, a politician, a University, or anything else you might like to classify. Here's a screenshot of the Wikidata entry for "Barack Obama":
 
 ![Barack Obama](/img/BarackObama.png)
 
-Armed with the page views the wikidata, we can run the sort of queries we'd like to do.
-But there's one catch: the Wikidata is huge: 400GB compressed and nearly 1TB uncompressed. So we're going to have handle it with care.
+Armed with the page views and the wikidata, we can run the sort of queries we'd like to run. But there's one catch: the Wikidata is huge: 400GB compressed and nearly 1TB uncompressed. So we're going to have handle it with care.
 
 ## Requirements
 
-I like to make a list of requirements to make sure I understand the problem I'm trying to solve. Here's a diagram summarizing the data I've just discussed:
+Now this is starting to look like something bigger than an afternoon job. Whenever a project starts to feel a big complicated, to the point where it looks like I'm going to have invest some serious time, I like to make a list of requirements to make sure I understand the problem I'm trying to solve. Here's a diagram summarizing the data I've just discussed:
 
 ![Data Plan](/img/WikiData.png)
 
 - Page views are released hourly. We'll gather them within an hour of release.
-- Hourly page view files are typically on the order of 1.5 GB uncompressed. That's small enough that we can process them using a serverless method like Cloud Run, which save us a lot of administrative hassle.
+- Hourly page view files are typically on the order of 1.5 GB uncompressed. That's small enough that we can process them using a serverless method like Cloud Run, which will save us a lot of administrative hassle.
 - Wikidata is released every three days. We'll gather the latest copy within 24 hours of its release.
-- Wikidata is nearly a terrabyte and needs to be uncompressed. It's too big a job for a serverless mechanism and decompression will require some advanced resources so we'll allocated a dynamic virtual machine for this task.
+- Wikidata is nearly a terabyte and needs to be uncompressed. It's too big a job for a serverless mechanism and decompression will require some advanced resources so we'll allocated a dynamic virtual machine for this task.
 - We should store records of all the data we've downloaded (file names and sizes) so that we can determine what we're missing at any given moment.
-- We should load all gathered data, both page views and wikidata, into BigQuery, to facilitate fast, dynamic queries via standard SQL.
-- All of the above must be automated so the latest data is always available and we never relay on manual processes, which can easily be forgotten.
+- We should load all gathered data, both page views and wikidata, into BigQuery, to facilitate fast, dynamic queries via standard SQL, and to share all this goodness with everyone!
+- All of the above must be automated so that the latest data is always available and we never have to rely on manual processes or humans with poor memories (like mine).
 
 ## The Naive Approach (and why it's not the best plan)
 
@@ -216,6 +213,8 @@ EOF
 echo "inserting data from GCS to BQ for $YEAR-$MONTH-$DAY..."
 bq query -q --use_legacy_sql=false "$QUERY"
 ```
+
+## Wikidata decompression - We're gonna need a bigger boat
 
 That takes care of the pageviews, but what about the wikidata? Here's a script called entities.sh, which takes care of the entity data. Structurally, it's quite similar to the pageviews.sh script, except that instead of acquiring the data, it simply prints the file name it would like to acquire. The reason we do this is because we're not going to actually gather the entitiy data in this script -- it's too big a job, involving a large download, a massive decompression, and a huge upload. In the next section, this strategy will become more clear.
 
