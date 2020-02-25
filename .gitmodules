@@ -5,5 +5,5 @@
 	path = themes/forty
 	url = https://github.com/MarcusVirg/forty
 [submodule "themes/hugo-tranquilpeak-theme"]
-	path = themes/hugo-tranquilpeak-theme
+	path = themes/tranquilpeak
 	url = https://github.com/kakawait/hugo-tranquilpeak-theme.git
