@@ -5,7 +5,7 @@ menu = ""
 categories = ["Poetry"]
 tags = ["poems"]
 title = "Networks"
-date = "2019-12-29"
+date = "2018-12-29"
 +++
 
 > Bit by bit,  

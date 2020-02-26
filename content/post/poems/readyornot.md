@@ -5,7 +5,7 @@ menu = ""
 categories = ["Poetry"]
 tags = ["poems"]
 title = "Ready or Not"
-date = "2020-01-01"
+date = "2018-01-01"
 +++
 
 > True love happens once in your life.  

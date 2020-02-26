@@ -5,7 +5,7 @@ menu = ""
 categories = ["Poetry"]
 tags = ["poems"]
 title = "Tangled Up in Blue"
-date = "2019-12-29"
+date = "2018-12-29"
 +++
 
 > She was married when we first met  

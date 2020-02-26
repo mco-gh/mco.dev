@@ -5,7 +5,7 @@ menu = ""
 categories = ["Poetry"]
 tags = ["poems"]
 title = "Be Not So Fearful"
-date = "2020-01-17"
+date = "2019-01-17"
 +++
 
 > Be not so nervous, be not so frail  

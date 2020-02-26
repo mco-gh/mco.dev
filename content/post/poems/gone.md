@@ -5,7 +5,7 @@ menu = ""
 categories = ["Poetry"]
 tags = ["poems"]
 title = "Gone"
-date = "2019-01-28"
+date = "2018-01-28"
 +++
 
 > My mother is dead.  

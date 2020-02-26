@@ -5,7 +5,7 @@ menu = ""
 categories = ["Poetry"]
 tags = ["poems"]
 title = "Structure"
-date = "2019-12-29"
+date = "2018-12-29"
 +++
 
 > We are informed,  
