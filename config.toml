@@ -23,7 +23,7 @@ paginate = 7
 canonifyurls = true
 
 [permalinks]
-  post = "/:year/:month/:slug/"
+  post = "/:slug/"
 
 [taxonomies]
   tag = "tags"
@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "Marc Cohen"
-  bio = "math and computing nerd"
+  bio = "I like music, books, movies, puzzles, math, computing, and learning interesting things. (More [about me](/about-me))"
   job = "Developer Advocate @Google"
   location = "London, UK"
   picture = "/img/avatar.jpg"
