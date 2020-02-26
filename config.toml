@@ -1,226 +1,196 @@
-# Site settings
-baseURL = "https://mco.dev"
+# mco.dev
+# Author: Marc Cohen
+# using Tranquilpeak theme
+# Version: 0.4.7-BETA
+# Author: Thibaud Leprêtre
+
+
+
+# If you want to store images yourself, please read this guidelines:
+# For users, if you only use this theme, put your images directly in `source/assets/images` folder
+# But if you want to add local images, you can put your images directly in `source/assets/images` folder
+# For developpers, if you modify this theme, put your images in `source/images` folder and
+# use grunt task `build` to synchronize assets
+
+baseURL = "https://mco.dev/"
 languageCode = "en-us"
+defaultContentLanguage = "en-us"
 title = "mco.dev"
-theme = "forty"
-
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
-
-# Enter your disqus shortname to enable comments
+theme = "tranquilpeak"
 disqusShortname = ""
+googleAnalytics = ""
+paginate = 7
+canonifyurls = true
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[author]
+  name = "Marc Cohen"
+  bio = "math and computing nerd"
+  job = "Developer Advocate @Google"
+  location = "London, UK"
+  picture = "/img/avatar.jpg"
+  twitter = "marcacohen"
+
+# Menu Configuration
+[[menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+[[menu.main]]
+  weight = 2
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  url = "/categories"
+[[menu.main]]
+  weight = 3
+  identifier = "tags"
+  name = "Tags"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
+  url = "/tags"
+[[menu.main]]
+  weight = 4
+  identifier = "archives"
+  name = "Archives"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
+  url = "/archives"
+[[menu.main]]
+  weight = 5
+  identifier = "about"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/#about"
+
+[[menu.links]]
+  weight = 1
+  identifier = "github"
+  name = "GitHub"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/marcacohen"
+
+[[menu.misc]]
+  weight = 1
+  identifier = "rss"
+  name = "RSS"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
+  url = "/index.xml"
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source)
-  # To create multi-line text in strings use the """example Text""" format
-  #
-  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
+  # Customize date format use to render blog post date, categories and other
+  # You must use date format used by Go Time package https://golang.org/pkg/time/
+  # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
+  # Default format is: January 2, 2006
+  # dateFormat = "2 January 2006"
 
-  # Provide your metadata here.
-  name = "mco.dev"
-  description = "Your description"
+  # Global keywords configuration. Following keywords will be add to every pages
+  # keywords = ["development", "next-gen"]
 
-  # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
-  favicon    = "img/favicon.ico"
+  # Syntax highlighter, possible choice between: "highlight.js" (recommanded) and "prism.js" (experimental)
+  # You can comment it to disable syntax highlighting
+  syntaxHighlighter = "highlight.js"
 
-  # Just a custom image variable, please define it in .md files for content.
-  image = ""
+  # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
+  clearReading = true
 
-  # 404 error customization
-  [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+  # Define categories will create hierarchy between parents: `categories = ["foo", "bar"]` will consider "bar" a sub-category of "foo".
+  # If false it will flat categories.
+  hierarchicalCategories = true
 
-  # Navigation Section
-  [params.navigation]
-    title = "mco.dev"
-    subtitle = ""
-    menu = "Menu"
-    # Optional logo as brand stored in img/
-    logo = "mco.logo.png"
+  description = "Marc Cohen's Blog"
 
-    [[params.navigation.links]]
-      name = "Home"
-      url = "#"
+  # Customization
+  # Define the behavior of the sidebar
+  # 1: Display extra large sidebar on extra large screen, large sidebar on large screen,
+  #    medium sidebar on medium screen and header bar on small screen and
+  # extra large sidebar is swiped on extra large screen and large sidebar on all lower screen (default)
+  # 2: Display large sidebar on large screen, medium sidebar on medium screen and
+  #    header bar on small screen and large sidebar is swiped
+  # 3: Display medium sidebar on large and medium screen and header bar on small screen and
+  #    medium sidebar is swiped
+  # 4: Display header bar on all screens, extra large sidebar is swiped on extra large screen and
+  #    large sidebar is swiped on all lower screens
+  # 5: Display header bar on all screens and large sidebar is swiped on large screen
+  # 6: Display header bar on all screens and medium sidebar is swiped
+  sidebarBehavior = 1
 
-    [[params.navigation.links]]
-      name = "Practical Data Science"
-      url = "pds"
+  # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
+  # There is many free CDN like Cloudinary or you can also use indirectly
+  # by using services like Google Photos.
+  # Current image is on AWS S3 and delivered by AWS CloudFront.
+  # Otherwise put your image, for example `cover.jpg` in folder `static/images/`,
+  # and use relative url : `images/cover.jpg`
+  coverImage = "images/cover.jpg"
 
-    [[params.navigation.links]]
-      name = "Learning & Productivity"
-      url = "learn"
+  # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
+  imageGallery = true
 
-    [[params.navigation.links]]
-      name = "Movies, Books, and Music"
-      url = "media"
+  # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
+  thumbnailImage = true
+  # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
+  # Set this value to `right` if you have old posts to keep the old style on them
+  # and define `thumbnailImagePosition` on a post to overwrite this setting
+  thumbnailImagePosition = "bottom"
+  # Automatically select the cover image or the first photo from the gallery of a post if there is no thumbnail image as the thumbnail image
+  # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
+  # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
+  autoThumbnailImage = true
 
-    [[params.navigation.links]]
-      name = "Puzzles"
-      url = "puzzles"
+  favicon = "/img/favicon.ico"
 
-    [[params.navigation.links]]
-      name = "Random"
-      url = "random"
+  # Header configuration
+  # The link at the right of the header is customizable
+  # You can add a link (as an icon) at the right of the header instead of the author's gravatar image or author's picture.
+  # By default, author's gravatar or author's picture is displayed.
+  #     url: /#search
+  #     icon: search
+  #     class: st-search-show-outputs
 
-    [[params.navigation.links]]
-      name = "Talks"
-      url = "talks"
+  # Display `Next` on left side of the pagination, and `Prev` on right side one.
+  # If you set this value to `true`, these positions swap.
+  # swapPaginator = true
 
-    [[params.navigation.links]]
-      name = "poems"
-      url = "poems"
-      
-    # Add custom links here by uncommenting code below. To remove links just delete
-    # the [[params.navigation.links]] map associated with that link. Copy and paste
-    # code below if you need more links. Buttons work in the same way.
-    # [[params.navigation.links]]
-    #    name = "NameOfLink"
-    #    url = "UrlOfLink"
+  # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
+  # they have to be referred from static root. Example
+  # [[params.customCSS]]
+  #   href = "css/mystyle.css"
 
-  # Banner section
-  [params.banner]
-    # To change the background image on the homepage banner, replace 'banner.jpg' in
-    # the 'static/img' folder.
-    title = "Marc Cohen"
-    subtitle = "I want to stand as close to the edge as I can without going over. Out on the edge you see all kinds of things you can't see from the center. - Kurt Vonnegut, Player Piano"
+  # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
+  # they have to be referred from static root. Example
+  # [[params.customJS]]
+  #   src = "js/myscript.js"
 
-  # Tiles Section
-  [params.tiles]
-    enable = true
-    # Display your showcases here.
-    
-    [[params.tiles.showcase]]
-      title = "Movies, Books, and Music"
-      subtitle = ""
-      image = "headphones.jpg"
-      url = "media"
+  # Sharing options
+  # Comment and uncomment to enable or disable sharing options
+  # If you wanna add a sharing option, read user documentation :
+  # Tranquilpeak configuration > Theme configuration > sharing-options
+  [[params.sharingOptions]]
+    name = "Twitter"
+    icon = "fa-twitter"
+    url = "https://twitter.com/intent/tweet?text=%s"
 
-    [[params.tiles.showcase]]
-      title = "Practical Data Science"
-      subtitle = ""
-      image = "python.jpg"
-      url = "pds"
+  [[params.sharingOptions]]
+    name = "Facebook"
+    icon = "fa-facebook-official"
+    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
 
-    [[params.tiles.showcase]]
-      title = "Puzzles"
-      subtitle = ""
-      image = "chess.jpg"
-      url = "puzzles"
+  [params.header.rightLink]
+    class = ""
+    icon = ""
+    url = "/#about"
 
-    [[params.tiles.showcase]]
-      title = "Learning & Productivity"
-      subtitle = ""
-      image = "learn.jpg"
-      url = "learn"
+  # Customize link of author avatar in sidebar
+  # [params.sidebar.profile]
+  #   url = "/#about"
 
-    [[params.tiles.showcase]]
-      title = "Random"
-      subtitle = ""
-      image = "random.jpg"
-      url = "random"
-
-    [[params.tiles.showcase]]
-      title = "Talks"
-      subtitle = ""
-      image = "talks.jpg"
-      url = "talks"
-
-    [[params.tiles.showcase]]
-      title = "Poems"
-      subtitle = ""
-      image = "writing.jpg"
-      url = "poems"
-      
-    # You can make more showcases by copy and pasting the code above
-
-  [params.blog]
-    # All blogs defined in their own files. You can find example blogs
-    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    # To add more blogs just copy and paste the code.
-
-  # Section Type Two
-  #[params.two]
-    #enable = true
-    #title = "Massa libero"
-    #subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    #Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    #Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    #Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    #Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    #buttonText = "Get Started"
-    #url = "blogs"
-
-  # Contact section
-  #[params.contact]
-    #enable = true
-    #buttonSend = "Send message"
-    #buttonClear = "Clear"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below and uncomment
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    # formEmail = "example@domain.com"
-
-    # Contact Section
-    # You can add multiple emails, phone numbers, or addresses
-    # by copying the corresponding map with frontmatter code.
-    #[[params.contact.email]]
-    #title = "Email"
-    #email = "mco@google.com"
-
-    #[[params.contact.phone]]
-    #title = "Phone"
-    #phone = "(000) 000-0000 x1234"
-
-    #[[params.contact.address]]
-    #title = "Address"
-    #street = "Street"
-    #city = "City, ST 00000"
-    #country = "Country"
-
-  # Footer section
-  [params.footer]
-    enable = true
-    copyright = "Marc Cohen"
-
-    # Uses font awesome icons
-    [[params.footer.social]]
-      icon = "fa-envelope"
-      url= "mailto:marcacohen@gmail.com"
-      label = "Email"
-
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com/marcacohen"
-      label = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-github"
-      url= "https://www.github.com/marcacohen"
-      label = "GitHub"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      url= "https://www.linkedin.com/in/marccohen3"
-      label = "LinkedIn"
-
-    [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
-
+  # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
+  # [params.footer]
+  #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
