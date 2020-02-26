@@ -2,7 +2,7 @@
 image = "door.jpg"
 banner = ""
 menu = ""
-categories = ["cloud"]
+categories = ["Cloud"]
 tags = ["data"]
 title = "Getting Your Foot in the Door"
 subtitle = "Moving Data to the Google Cloud"
