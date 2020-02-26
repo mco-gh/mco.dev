@@ -14,4 +14,4 @@ date = "2018-12-29"
 > But it won't come down for anyone.  
 > And I won't come down for anyone.  
 > 
-> -- <cite>Elliott Smith</cite>
+<cite>Elliott Smith</cite>

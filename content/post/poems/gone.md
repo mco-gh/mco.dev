@@ -11,7 +11,7 @@ date = "2018-01-28"
 > My mother is dead.  
 > You can’t tell by looking at her,  
 > But she’s gone.  
->
+>  
 > A joyful, proud, strong woman  
 > Full of charm and finesse,  
 > Has been replaced,  
@@ -26,4 +26,4 @@ date = "2018-01-28"
 > I know  
 > She’s not coming back.  
 >
-> -- Marc Cohen
+<cite>Marc Cohen</cite>

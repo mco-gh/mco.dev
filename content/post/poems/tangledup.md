@@ -24,4 +24,4 @@ date = "2018-12-29"
 > On the avenue  
 > Tangled up in Blue  
 >
-> -- <cite>Bob Dylan</cite>    
+<cite>Bob Dylan</cite>    

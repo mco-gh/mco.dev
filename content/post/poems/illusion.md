@@ -18,4 +18,4 @@ date = "2018-12-26"
 > That some people think  
 > I belong here.  
 > 
-> -- <cite>Marc Cohen</cite>
+<cite>Marc Cohen</cite>

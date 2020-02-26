@@ -21,4 +21,5 @@ date = "2018-01-01"
 > Once I took care of her.  
 > Now she takes care of me.  
 > She's my angel.  
-> -- <cite>Marc Cohen</cite>
+>
+<cite>Marc Cohen</cite>

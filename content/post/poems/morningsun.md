@@ -18,5 +18,5 @@ date = "2018-12-29"
 > Floats into the room  
 > Incandescent smile shining  
 > As bright as the Sun  
->  
-> -- <cite>Marc Cohen</cite>
+>
+<cite>Marc Cohen</cite>

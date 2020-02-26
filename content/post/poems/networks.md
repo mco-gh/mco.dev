@@ -18,4 +18,4 @@ date = "2018-12-29"
 > And when memories fade,  
 > We cease to exist.  
 >  
-> -- <cite>Marc Cohen</cite>
+<cite>Marc Cohen</cite>

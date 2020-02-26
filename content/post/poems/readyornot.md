@@ -29,5 +29,5 @@ date = "2018-01-01"
 > Who shows us  
 > Why we exist.  
 >  
-> -- <cite>Marc Cohen</cite>  
+<cite>Marc Cohen</cite>  
   

@@ -21,4 +21,4 @@ date = "2018-12-29"
 > I'm alive with the fire of youth  
 > And the mystery of my future.  
 >
-> -- <cite>Marc Cohen</cite>
+<cite>Marc Cohen</cite>

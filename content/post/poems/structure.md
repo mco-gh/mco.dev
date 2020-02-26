@@ -29,4 +29,4 @@ date = "2018-12-29"
 > When there is so much beauty and mystery  
 > Right before our eyes?  
 >  
-> -- <cite>Marc Cohen</cite>  
+<cite>Marc Cohen</cite>  

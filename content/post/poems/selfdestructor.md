@@ -19,4 +19,4 @@ date = "2018-12-29"
 > Just to see  
 > What happens next.  
 >
-> -- <cite>Marc Cohen</cite> 
+<cite>Marc Cohen</cite> 
