@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "Marc Cohen"
-  bio = "I like music, books, movies, puzzles, math, computing, and learning interesting things. (More [about me](/about-me))"
+  bio = "Computing and data nerd.\nMore [about me](/about-me)"
   job = "Developer Advocate @Google"
   location = "London, UK"
   picture = "/img/avatar.jpg"
