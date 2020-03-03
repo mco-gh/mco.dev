@@ -78,7 +78,7 @@
       var self = this;
       var aboutCardHeight = self.$aboutCard.innerHeight();
       // default offset from top
-      var offsetTop = ($(window).height() / 2) - (aboutCardHeight / 2) + aboutCardHeight;
+      var offsetTop = ($(window).height() / 4) - (aboutCardHeight / 2) + aboutCardHeight;
       // if card is longer than the window
       // scroll is enable
       // and re-define offsetTop
@@ -103,7 +103,7 @@
       var self = this;
       var aboutCardHeight = self.$aboutCard.innerHeight();
       // default offset from top
-      var offsetTop = ($(window).height() / 2) - (aboutCardHeight / 2) + aboutCardHeight;
+      var offsetTop = ($(window).height() / 4) - (aboutCardHeight / 2) + aboutCardHeight;
       if (aboutCardHeight + 30 > $(window).height()) {
         offsetTop = aboutCardHeight;
       }
