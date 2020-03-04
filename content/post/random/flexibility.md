@@ -1,15 +1,14 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
 tags = ["productivity"]
 date = "2019-04-08"
 title = "On Flexibility"
+coverImage = "img/flex.jpg"
 +++
 
-I learned something important today. I had an idea to suggest to someone. But I wasn't neutral about this idea. I had an agenda. I wanted this person to agree with my position so that we could implement my plan. I made my case, detailing all the reasons why I thought my argument made perfect sense. The feedback I got was generally supportive but several questions were raised, all of which I internally deemed to be irrelevant. I quickly became frustrated about these trivial concerns, which were slowing our progress and jeopardizing my precious proposal.
+I learned something important today. I had an idea to suggest to someone. But I wasn't neutral about this idea.
+<!--more-->
+I had an agenda. I wanted this person to agree with my position so that we could implement my plan. I made my case, detailing all the reasons why I thought my argument made perfect sense. The feedback I got was generally supportive but several questions were raised, all of which I internally deemed to be irrelevant. I quickly became frustrated about these trivial concerns, which were slowing our progress and jeopardizing my precious proposal.
 
 I realized afterward that this has been a recurring pattern in my life. You see, I don't just come up with ideas – I fall in love with them. I do my homework - I work hard to make sure my thinking is clear and complete. And then I'm so persuaded by my conclusions that any criticism is perceived as an attack, and questions are a potential threat.
 

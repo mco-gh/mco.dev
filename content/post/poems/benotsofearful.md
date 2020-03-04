@@ -9,6 +9,7 @@ date = "2019-01-17"
 +++  
   
 Be not so nervous, be not so frail  
+<!--more-->
 Someone watches you, you will not fail  
 Be not so nervous, be not so frail  
 Be not so nervous, be not so frail  
