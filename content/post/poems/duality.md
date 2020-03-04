@@ -2,8 +2,8 @@
 images = []
 banner = ""
 menu = ""
-categories = ["Poetry"]
-tags = ["poems"]
+categories = ["Poems"]
+tags = []
 title = "Duality"
 date = "2018-12-29"
 +++
@@ -16,4 +16,4 @@ My Mother has the same two sides to her personality. For most of her life the go
 
 She can't see any of this happening. It's destroying everything but yet it's entirely invisible to her. But I see it all, in full color and slow motion. The question is: what will I learn from it?
 
-<cite>Marc Cohen</cite>  
+--<cite>Marc Cohen</cite>  
