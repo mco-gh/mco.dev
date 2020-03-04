@@ -2,7 +2,7 @@
 images = []
 banner = ""
 menu = ""
-categories = ["Reviews"]
+categories = ["Media"]
 tags = ["music"]
 title = "London Grammar - Hey Now"
 date = "2019-12-30"

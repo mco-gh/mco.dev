@@ -2,7 +2,7 @@
 images = []
 banner = ""
 menu = ""
-categories = ["Reviews"]
+categories = ["Media"]
 tags = ["music"]
 title = "My 2018 Spotify Playlist"
 date = "2018-12-31"

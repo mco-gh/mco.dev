@@ -2,7 +2,7 @@
 images = []
 banner = ""
 menu = ""
-categories = ["Reviews"]
+categories = ["Media"]
 image = "disrupted.jpg"
 tags = ["books"]
 title = "Coming of Age in Silicon Valley"
