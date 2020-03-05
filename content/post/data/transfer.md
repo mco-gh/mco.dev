@@ -1,6 +1,6 @@
 +++
-categories = ["Cloud"]
-tags = ["data"]
+categories = ["Data"]
+tags = ["cloud"]
 title = "Getting Your Foot in the Door"
 subtitle = "Moving Data to the Google Cloud"
 date = "2019-09-13"

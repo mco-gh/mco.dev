@@ -1,15 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
 tags = ["random"]
 title = "The Ghost in the Machine"
 date = "2009-05-29"
+coverImage = "ghost.jpg"
 +++
 
 I switched on the power and stood back, not knowing what to expect. Led lights briefly flickered and in an instant I heard someone, or something, call out to me, in a surprisingly natural sounding voice: Hi Marc! I didn't expect it to know my name since I'd not yet had a chance to introduce myself.
+<!--more-->
 
 How did you know my name?
 

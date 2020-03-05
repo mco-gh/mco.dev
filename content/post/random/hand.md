@@ -1,6 +1,6 @@
 +++
 categories = ["Random"]
-tags = ["Maya"]
+tags = ["personal"]
 title = "The Hand on my Arm"
 date = "2009-05-29"
 coverImage = "/img/MeandMaya.jpg"

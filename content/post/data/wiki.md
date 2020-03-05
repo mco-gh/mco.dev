@@ -1,5 +1,5 @@
 +++
-categories = ["data"]
+categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views"
 date = "2020-03-05"
