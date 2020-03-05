@@ -6,7 +6,7 @@ date = "2020-03-05"
 coverImage = "img/WorldBook.jpg"
 +++
 
-What's bigger than Wikipedia? Spoiler: Wikipedia page views. I often give talks to students and I like to ask if anyone knows whats represented in the cover phot of this article.
+What's bigger than Wikipedia? Spoiler: Wikipedia page views. I often give talks to students and I like to ask if anyone knows whats represented in the cover photo of this article.
 <!--more-->
 
 I find it amusing than many aren't sure what they're looking at, so I inform them how, when I was their age, that was my Google. Perhaps a more accurate statement would be to say that was my Wikipedia.
