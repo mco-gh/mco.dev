@@ -12,11 +12,11 @@ I often give talks to students and I like to ask if anyone knows whats represent
 
 Because it's a centralized web resource, Wikpedia has an interesting property that the encyclopedias of my childhood could never match: it can see every page access. The Wikimedia Foundation, which operates and maintains Wikipedia, provides [detailed access logs](http://dumps.wikimedia.your.org/) on an hourly basis. This information contains an entry for every view of every article, anywhere in the world, in any language.
 
-The popularity of Wikipedia page views provides an interesting glimpse into what we, collectively, find interesting. This data is fun to work with for another reason: it's Big - there's more data in one year's access logs than in all the articles combined in every supported language! Wikipedia logs on the order of 250MB of access data every hour. That's roughly 30\*24\*250 = 180,000MB = 180GB per month, or 2.16TB per year. The Wikimedia foundation has been publishing this data since 2015 so the entire dataset is over 10TB.
+The relative popularity of Wikipedia pages provides an interesting glimpse into what we, collectively, find interesting. This data is fun to work with for another reason: it's Big - there's more data in one year's access logs than in all the articles combined in every supported language! Wikipedia logs on the order of 250MB of access data every hour. That's roughly 30\*24\*250 = 180,000MB = 180GB per month, or 2.16TB per year. The Wikimedia foundation has been publishing this data since 2015 so the entire dataset is now over 10TB.
 
 ## Page views aren't enough
 
-The kind of queries I'm interested in asking are of this form: what was the most popular wikipedia page in category X over timeframe Y (and how did that popularity change over time)? For example, it would be interesting to see whether the major Democratic presidential candidates' Wikipedia page popularity correlates with their success in polls and primaries.
+The kind of queries I'm interested in asking are of this form: what was the most popular wikipedia page in category X over timeframe Y (and how did that popularity change over time)? For example, it would be interesting to see whether the major Democratic presidential candidates' Wikipedia page views correlate with their success in polls and primaries.
 
 But think about it -- how would you go about constructing a query of all Democratic presidential candidates? The simplest approach would be to simply enumerate the known candidates. But that immediately ties our query to the current state of the world. Ideally, our queries should automatically adjust their scope to incorporate the current set of pages of interest.
 
@@ -28,23 +28,23 @@ It turns out, the Wikimedia foundation provides just such a collection of metada
 
 ![Barack Obama](/img/BarackObama.png)
 
-Armed with the page views and the wikidata, we can run the sort of queries we'd like to run. But there's one catch: the Wikidata is huge: 400GB compressed and nearly 1TB uncompressed. So we're going to have handle it with care.
+Armed with the page views and the wikidata, we can run powerful categorical queries. But there's one catch: the Wikidata is huge: 400GB compressed and nearly 1TB uncompressed. So we're going to have handle it with care.
 
 ## What problem are we trying to solve? 
 
-Now this is starting to look like something bigger than an afternoon job. Whenever a project starts to feel a big complicated, I like to make a list of requirements to make sure I understand the problem I'm trying to solve. Here's a diagram summarizing the data I've just discussed followed by a short list of requirements for my solution:
+This is starting to look bigger than an afternoon job. Whenever a project starts to feel a bit complicated, I like to make a list of requirements to make sure I understand the problem I'm trying to solve. Here's a diagram summarizing the data I've just discussed followed by a short list of requirements for my solution:
 
 ![Data Plan](/img/WikiData.png)
 
-- Page views are released hourly. We'll gather them within an hour of release.
+Page view data are published hourly. We'll gather them within an hour of release.
 - Hourly page view files are typically on the order of 1.5 GB uncompressed. That's small enough that we can process them using a serverless method like Cloud Run, which will save us a lot of administrative hassle.
 - Wikidata is released every three days. We'll gather the latest copy within 24 hours of its release.
-- Wikidata requires a large (1TB) uncompression. It's too big a job for a serverless mechanism and decompression will require some advanced resources so we'll allocated a dynamic virtual machine, which we can dedicate to this task for as long as we need it.
+- Wikidata requires a large (1TB) decompression. It's too big a job for a serverless mechanism so we'll allocate a dynamic virtual machine, which we can dedicate to this task for as long as we need it.
 - We should store records of all the data we've downloaded (file names and sizes) so that we can determine what we're missing at any given moment.
-- We should load all gathered data, both page views and wikidata, into BigQuery, to facilitate fast, dynamic queries via standard SQL, and to share all this goodness with everyone!
-- All of the above must be automated so that the latest data is always available and we never have to rely on manual processes or people with poor memories (like me).
+- We should load all gathered data, both page views and wikidata, into BigQuery to facilitate fast, dynamic queries via standard SQL, and to make this data publicly available.
+- All of the above must be automated so that the latest data is always available and we never have to rely on manual processes.
 
-## The Naive Approach (and why it's not the best plan)
+## The naive approach (and why it's not the best plan)
 
 What's the simplest and most obvious way to do this? Download the data to your laptop using curl or wget, and upload the files from your local hard drive to the Cloud, where you can use modern cloud computing tools to extract meaningful insights and data visualizations.
 
@@ -128,7 +128,7 @@ do
   WORK_TO_DO=1
 done <diffs.txt
 
-# If we found any missing or updsatrd files, update our collection.
+# If we found any missing or changed files, update our collection.
 if [ "$WORK_TO_DO" = "1" ]
 then
   ./update.sh $YYYY $MM $DD
@@ -182,13 +182,10 @@ echo "transferring data from GCS to BQ table for $YEAR-$MONTH-$DAY..."
 bq query -q --use_legacy_sql=false "$QUERY"
 ```
 
-The queries above were derived from Felipe Hoffa's excellent article on
-[partitioning](https://medium.com/google-cloud/bigquery-lazy-data-loading-ddl-dml-partitions-and-half-a-trillion-wikipedia-pageviews-cd3eacd657b6), 
-and [clustering](https://medium.com/google-cloud/bigquery-optimized-cluster-your-tables-65e2f684594b).
-
 ## Wikidata decompression - We're gonna need a bigger boat
 
-That takes care of the pageviews, but what about the wikidata? Here's a script called entities.sh, which takes care of the entity data. Structurally, it's quite similar to the pageviews.sh script, except that instead of acquiring the data, it simply prints the file name it would like to acquire. The reason we do this is because we're not going to actually gather the entity data in this script -- it's too big a job, involving a large download, a massive decompression, and a huge upload.
+That takes care of the pageviews, but what about the wikidata? Here's a script called entities.sh, which takes care of the entity data. Structurally, it's similar to the pageviews.sh script, except that instead of acquiring the data, it simply prints the file name it would like to acquire. The reason we do this is because we're not going to actually gather the entity data in this script -- it's too big a job, involving a large download, a massive decompression, and a huge upload. Instead, we'll use this script to drive the [Storage Transfer](http://localhost:1313/getting-your-foot-in-the-door/) service.
+
 ```bash
 BUCKET=wiki-staging
 DOMAIN=dumps.wikimedia.org
@@ -276,23 +273,23 @@ LIMIT 20
 ```
 ![Design](/img/allviews.png)
 
-Of course, the top view page is the main Wikipedia page. But the most viewed non-administrative page is, oddly, Darth Vader! I leave you to decide what that says about humanity.
+Unsurprisingly, the most viewed page is the main Wikipedia page. But the most viewed non-administrative page is, oddly enough, Darth Vader! I leave you to decide what that says about humanity.
 
 ## It's only rock & roll, but I like it
 
-That last query was interesting but it doesn't take advantage of the entity data we worked so hard to process. Let's construct a more interesting example leveraging our wikidata table to find the most viewed pages for rock bands in 2020. Of course, this begs the question, what is a rock band? Wikidata to the rescue!
+That last query was interesting but it doesn't take advantage of the entity data we worked so hard to process. Let's construct an example leveraging our wikidata table to find the most viewed pages for rock bands in 2020. Of course, this begs the question, what is a rock band? Wikidata to the rescue!
 
 You can search the wikidata interactively via the [wikidata site](https://www.wikidata.org/wiki/Wikidata:Main_Page), like this:
 
 ![Rock Band entity search](/img/rockband.png)
 
-This shows us that "rock band" matches multiple entities, including the video game of the same name. The entity we're after is the first one: 5741069. One way to confirm this finding is to search for a known entity associated  that should be in this category:
+This shows us that "rock band" matches multiple entities, including the video game of the same name. The entity we're after is the first one: 5741069. One way to confirm this finding is to search for a known entity that should be in this category:
 
 ![Beatles entity search](/img/beatles.png)
 
 Here we see that the preeminent rock band, The Beatles, is indeed classified as an instance of "Rock Band". But this doesn't catch every page I'm interested. For example, Radiohead is considered an instance of "Musical Group" (215380).
 
-Armed with those two entity ids, we can now do some queries about popular bands. But I want to do one more there before we start querying. Since our scope is limited to just those two entities, it's wasteful to search a 10TB in our dataset. Wouldn't it be nice if there was a way to search only the stuff we care about? Well, there is - we'll create what BigQuery calls a view, which will limit our query scope to only the view counts for pages about bands. This will save us time and money.
+Armed with those two entity ids, we can now do some queries about popular bands. But I want to do one more thing before we start querying. Since our scope is limited to just those two entities, it's wasteful to search the full 10TB dataset on every query. Wouldn't it be nice if there was a way to limit our search to include only the pages we care about? Well, there is - we'll create what BigQuery calls a view, which will limit our query scope to only the view counts for pages about bands.
 
 Here's the SQL code to create my view (which I've made public):
 
@@ -315,7 +312,7 @@ AND a.wiki='en'
 AND DATE(a.datehour) BETWEEN '2015-01-01' AND '2020-12-31'
 GROUP BY datehour, title
 ```
-This view gives us a dataset we can query much more economically, because we're only scanning information associated with bands, which is a small subset of the overall dataset.
+This view gives us a dataset we can query much more quickly and economically, because we're only scanning information associated with bands, which is a small subset of the overall dataset.
 
 Let's find the most wiki-popular band so far in 2020 with this query:
 
@@ -334,24 +331,24 @@ And the results (as of March 5, 2020)...
 
 ## Let's make a dashboard!
 
-This is fun 1) it doesn't have any sense of variation over time, 2) SQL queries can get a bit tedious. Wouldn't it be nice if we could easily, without writing a single line of code, give people a dashboard they can use to formulate their own queries by clicking menus rather than specifying SQL text? And also to provide results in a nice color coded time series graph?
+This is fun but 1) it doesn't have any sense of variation over time, 2) SQL queries can get a bit tedious. Wouldn't it be nice if we could easily, without writing a single line of code, query this data by clicking menus rather than specifying SQL text? And to see results in a nice color coded time series graph?
 
-Well, you can! Using [Google Data Studio](https://datastudio.google.com/overview), I made just such a dashboard, which I've embeded below. Give it a spin - you can play with the set of bands, and the time frame you'd like to analyse.
+Using [Google Data Studio](https://datastudio.google.com/overview), I made just such a dashboard, which I've embeded below. Give it a spin - you can play with the selecttetd bands and the time frame you'd like to analyse.
 
 <iframe width="100%" height="500" src="https://datastudio.google.com/embed/reporting/ca35a15e-868b-4529-9c6c-0a5610e23a3e/page/Viq6" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-For example, I wonder who, during the last five years, was more popular: the Beatles or the Stones? We can use this dashboard to find out in just a few seconds:
+For example, I wonder which band, during the last five years, was more popular: the Beatles or the Stones? We can use this dashboard to find out in just a few seconds:
 
-[!Beatles vs. Stones](/img/beatles-stones.png)
+![Beatles vs. Stones](/img/beatles-stones.png)
 
 Despite having ended their career fifty years ago, the Beatles continue to gather incredible Wikipedia attention.
 
 ## Now it's your turn
 I've made this data available to everyone in the BigQuery Public Dataset collection. The pageviews are coming in roughly every hour and the entity data gets refreshed every 3-4 days. The data can be found in the bigquery-public-data collection, under Wikipedia, as shown below:
 
-![Public wikipedia dataset](/img/publicdata.png)
+![Public wikipedia dataset](/img/public.png)
 
-These tables are partitioned so you can save time and cost by time limiting your queries (in fact, you have to by design), like this:
+These tables are partitioned so you can save time and cost by time limiting your queries, like this:
 
 ```SQL
 SELECT title, SUM(views) views
@@ -362,7 +359,10 @@ ORDER BY views DESC
 LIMIT 20
 ```
 
-The dashboard is also available for your use at [mco.fyi/bands](https://mco.fyi/bands).
+The "Battle of the Bands" dashboard is also available for your use at [mco.fyi/bands](https://mco.fyi/bands).
 
 ## Ackowledgements
-Many thanks to the always generous and insightful Felipe Hoffa for technical guidance and ideas. Shane Glass also provided invaluable support and manages the wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) project.
+Many thanks to Felipe Hoffa - several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
+[partitioning and lazy loading](https://medium.com/google-cloud/bigquery-lazy-data-loading-ddl-dml-partitions-and-half-a-trillion-wikipedia-pageviews-cd3eacd657b6), 
+and [clustering](https://medium.com/google-cloud/bigquery-optimized-cluster-your-tables-65e2f684594b).
+Shane Glass provided invaluable support helping me add this data to his wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) project.
