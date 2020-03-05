@@ -333,8 +333,6 @@ And the results (as of March 5, 2020)...
 
 ![Most popular bands of 2020](/img/bands2020.png)
 
-
-
 ## Let's make a dashboard!
 
 This is fun 1) it doesn't have any sense of variation over time, 2) SQL queries can get a bit tedious. Wouldn't it be nice if we could easily, without writing a single line of code, give people a dashboard they can use to formulate their own queries by clicking menus rather than specifying SQL text? And also to provide results in a nice color coded time series graph?
@@ -354,8 +352,18 @@ I've made this data available to everyone in the BigQuery Public Dataset collect
 
 ![Public wikipedia dataset](/img/publicdata.png)
 
+These tables are partitioned so you can save time and cost by time limiting your queries (in fact, you have to by design), like this:
+
+```SQL
+SELECT title, SUM(views) views
+FROM `bigquery-public-data.wikipedia.pageviews_2019`
+WHERE DATE(datehour) BETWEEN "2019-01-01" AND "2019-12-31" AND wiki = 'en'
+GROUP BY title
+ORDER BY views DESC
+LIMIT 20
+```
+
 The dashboard is also available for your use at [mco.fyi/bands](https://mco.fyi/bands).
 
 ## Ackowledgements
-Many thanks to the always generous and insightful Felipe Hoffa for technical guidance and ideas. Shane Glass provided invaluable support and manages the wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) project.
-
+Many thanks to the always generous and insightful Felipe Hoffa for technical guidance and ideas. Shane Glass also provided invaluable support and manages the wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) project.
