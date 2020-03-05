@@ -16,6 +16,6 @@ Before joining Google, I spent 30 years building products and managing engineeri
 Things I'm interested in:
 
 * teaching and learning
-* productivity science and study hacks
+* productivity and study hacks
 * computing, math, and puzzles
 * books, music, theater, and film
