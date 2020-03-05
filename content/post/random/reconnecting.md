@@ -1,17 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
-tags = ["random"]
+tags = ["personal"]
 title = "Reconnecting After Forty Years"
 date = "2010-04-29"
+coverImage = "/img/4thgrade.jpg"
 +++
-I recently celebrated one of those birthdays ending in a zero and was rummaging through some old photos, school records, etc., when I came upon my fourth grade class picture (for those of you who can’t get enough 60s era fashion and hairstyles, you can click the image below for an expanded version):
-
-
-Miss LaRusso's Fourth Grade Class, Collins School, Livingston, NJ, 1970
+I recently celebrated one of those birthdays ending in a zero and was rummaging through some old photos, school records, etc., when I came upon my fourth grade class picture.
+<!--more-->
+For those of you who can’t get enough 60s era fashion and hairstyles, the cover photo above is Miss LaRusso's Fourth Grade Class, Collins School, Livingston, NJ, 1970.
 
 This was one of my favorite school years, in no small part because the young lady in the upper left of the picture was one of the finest and most inspiring teachers I ever had. I began to wonder:  ”Wouldn’t it be nice if I could let her know that, after 40 years, I still remember and appreciate her guidance?” I quickly assessed my chances at slim to none (I knew her only by her maiden name and I had no idea what she did or where she lived after 1970). But in the age of the internet, some amazing things are possible.
 

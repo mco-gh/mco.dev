@@ -1,12 +1,9 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
-tags = ["random"]
+tags = ["medicine"]
 title = "Why July is a Bad Time to Get Sick"
 date = "2010-07-08"
+thumbnailImage = "/img/july.png"
 +++
 I love a good puzzle. Tonight my wife told me something amazing: July is the worst month in which to undergo a medical procedure because the risk of a mistake is higher in July than in any other month of the year. The question is why? What’s so special about July? If you don’t already know the answer, I recommend you pause reading this article now and see if you can come up with the answer.
 

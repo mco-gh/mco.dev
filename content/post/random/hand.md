@@ -1,12 +1,9 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
-tags = ["random"]
+tags = ["Maya"]
 title = "The Hand on my Arm"
 date = "2009-05-29"
+coverImage = "/img/MeandMaya.jpg"
 +++
 My daughter, Maya, is growing up too quickly. At some point the little girl who used to love to jump into my arms turned into a sophisticated pre-teen with an aversion to displays of affection, especially toward her father. That’s why the hand on my arm took me by surprise.
 

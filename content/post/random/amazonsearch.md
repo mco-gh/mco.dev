@@ -1,17 +1,14 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
-tags = ["random"]
+tags = ["search"]
 title = "A Killer Feature for Amazon.com"
 date = "2010-01-12"
+thumbnailImage = "/img/amazon.png"
 +++
 Dear Amazon.com,
 
 Nothing beats the convenience of browsing your huge catalog from home, reading reviews and seeing what people think about my prospective purchases, ordering something online and having it suddenly materialize at my door two days later. Thanks to you, I get a little buzz every time I hear a UPS truck. But there’s one feature I really wish you would add.
-
+<!--more-->
 When searching for a product, if I select a department (like books or electronics), you give me the ability to sort the search results in various ways, like relevance and price. I really like sorting on the average customer rating (1-5 stars), because it gives me a sense of which products are best reviewed.
 
 Here’s the problem: the value of a high average rating is proportional to the number of people who’ve rated the product. One thousand 5 star ratings are a lot more significant than one top rating. If my search happens to be somewhat broad (e.g. “bluetooth headsets”) I can easily generate several hundred hits and the highest rated hits are going to be a bunch of questionable products that happen to enjoy perfect 5 star ratings because exactly one person really, really liked them. But due to the nature of statistics, the bell curve, etc., any product with a lot of reviews will have a less than perfect average rating and will be found several pages down the list. Which means I have to tediously click and scan my way to the good stuff.

@@ -1,15 +1,12 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
-tags = ["random"]
+tags = ["calendar"]
 title = "In Case Today Seems a Little Longer Than Usual"
 date = "2008-12-31"
+coverImage = "img/calendar.jpg"
 +++
 It is. By one second. At 11:59:59 pm Universal Time, one additional second will be added before the official arrival of 2009. The reason? To make a minor adjustment for the slowing of the earth’s rotation, we need to add a “leap second” this year for the 24th time since 1972.
-
+<!--more-->
 Here’s a better explanation:
 Why does the world need leap seconds? Chalk it up to the moon’s braking action on Earth’s rotation and to modern timekeeping that has become so precise it can make your head spin. 
 The moon is the single largest influence on Earth’s spin, slowing it by an average of 2 milliseconds per century. Since Earth’s rotation rate varies, so would the value of one second when it’s defined as a fraction of the time it takes for one spin of the Earth on its axis.
