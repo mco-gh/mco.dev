@@ -6,11 +6,8 @@ date = "2020-03-05"
 coverImage = "img/WorldBook.jpg"
 +++
 
-What's bigger than Wikipedia? Spoiler: Wikipedia page views. I often give talks to students and I like to ask if anyone knows whats represented in the cover photo of this article.
+What's bigger than Wikipedia? Spoiler: Wikipedia page views. I often give talks to students and I like to ask if anyone knows whats represented in the cover photo of this article. I find it amusing than many aren't sure what they're looking at, so I inform them how, when I was their age, that was my Wikipedia.
 <!--more-->
-
-I find it amusing than many aren't sure what they're looking at, so I inform them how, when I was their age, that was my Google. Perhaps a more accurate statement would be to say that was my Wikipedia.
-
 Because it's a centralized web resource, Wikpedia has an interesting property that the encyclopedias of my childhood could never match: it can see every page access. The Wikimedia Foundation, which operates and maintains Wikipedia, provides [detailed access logs](http://dumps.wikimedia.your.org/) on an hourly basis. This information contains an entry for every view of every article, anywhere in the world, in any language.
 
 The popularity of Wikipedia page views provides an interesting glimpse into what we, collectively, find interesting. This data is fun to work with for another reason: it's Big - there's more data in one year's access logs than in all the articles combined in every supported language! Wikipedia logs on the order of 250MB of access data every hour. That's roughly 30\*24\*250 = 180,000MB = 180GB per month, or 2.16TB per year. The Wikimedia foundation has been publishing this data since 2015 so the entire dataset is over 10TB.
