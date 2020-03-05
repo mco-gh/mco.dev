@@ -333,7 +333,7 @@ And the results (as of March 5, 2020)...
 
 This is fun but 1) it doesn't have any sense of variation over time, 2) SQL queries can get a bit tedious. Wouldn't it be nice if we could easily, without writing a single line of code, query this data by clicking menus rather than specifying SQL text? And to see results in a nice color coded time series graph?
 
-Using [Google Data Studio](https://datastudio.google.com/overview), I made just such a dashboard, which I've embeded below. Give it a spin - you can play with the selecttetd bands and the time frame you'd like to analyse.
+Using [Google Data Studio](https://datastudio.google.com/overview), I made just such a dashboard, which I've embeded below. Give it a spin - you can play with the selected bands and the time frame you'd like to analyse.
 
 <iframe width="100%" height="500" src="https://datastudio.google.com/embed/reporting/ca35a15e-868b-4529-9c6c-0a5610e23a3e/page/Viq6" frameborder="0" style="border:0" allowfullscreen></iframe>
 
