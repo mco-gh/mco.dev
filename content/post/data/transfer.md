@@ -7,9 +7,9 @@ date = "2019-09-13"
 coverImage = "img/door.jpg"
 +++
 
-One of the best reasons to move your data to the cloud is the wealth of powerful tools and services available for all phases of the Data Science lifecycle.
+One easy way to get your data into the cloud, quickly and inexpensively (free actually!).
 <!--more-->
-But many of those tools expect to read your data from internal sources, like Google Cloud Storage, BigQuery, or a streaming service like Cloud PubSub. <strong>So how do you get your data into the Cloud to begin with?</strong> I'm glad you asked, because that's the question I'm going to answer in this article.
+One of the best reasons to move your data to the cloud is the wealth of powerful tools and services available for all phases of the Data Science lifecycle. But many of those tools expect to read your data from internal sources, like Google Cloud Storage, BigQuery, or a streaming service like Cloud PubSub. <strong>So how do you get your data into the Cloud to begin with?</strong> I'm glad you asked, because that's the question I'm going to answer in this article.
 
 ## Introducing Cloud Storage Transfer Service
 
