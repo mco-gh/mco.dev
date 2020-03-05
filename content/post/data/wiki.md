@@ -282,7 +282,6 @@ GROUP BY title
 ORDER BY views DESC
 LIMIT 20
 ```
-
 ![Design](/img/allviews.png)
 
 Of course, the top view page is the main Wikipedia page. But the most viewed non-administrative page is, oddly, Darth Vader! I leave you to decide what that says about humanity.

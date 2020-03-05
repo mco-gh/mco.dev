@@ -1,15 +1,15 @@
 +++  
-images = []  
-banner = ""  
-menu = ""  
 categories = ["Poems"]  
-tags = []  
+tags = ["music"]  
 title = "Be Not So Fearful"  
 date = "2019-01-17"  
+coverImage = "img/tweedy.png"
 +++  
   
 Be not so nervous, be not so frail  
 <!--more-->
+{{< youtube aZnahF3mtNI >}}
+Be not so nervous, be not so frail  
 Someone watches you, you will not fail  
 Be not so nervous, be not so frail  
 Be not so nervous, be not so frail  

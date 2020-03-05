@@ -1,7 +1,7 @@
 +++
 description = ""
 tags = ["me"]
-date = "2019-01-01"
+date = "2018-01-01"
 title = "About"
 thumbnailImage = "img/mco2.jpg"
 +++
