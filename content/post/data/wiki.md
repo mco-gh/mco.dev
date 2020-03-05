@@ -1,20 +1,13 @@
 +++
-image = "Wikipedia.jpg"
-banner = ""
-menu = ""
 categories = ["data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views"
-subtitle = ""
 date = "2020-03-05"
+coverImage = "img/WorldBook.jpg"
 +++
 
-## To do: check photos, links, credits, and add ack section
-## What's bigger than Wikipedia? (Spoiler: Wikipedia page views)
-
-I often give talks to students and I like to ask if anyone knows what this is:
-
-![Encyclopedia](/img/WorldBook.jpg)
+What's bigger than Wikipedia? Spoiler: Wikipedia page views. I often give talks to students and I like to ask if anyone knows whats represented in the cover phot of this article.
+<!--more-->
 
 I find it amusing than many aren't sure what they're looking at, so I inform them how, when I was their age, that was my Google. Perhaps a more accurate statement would be to say that was my Wikipedia.
 
@@ -288,11 +281,81 @@ Of course, the top view page is the main Wikipedia page. But the most viewed non
 
 ## It's only rock & roll, but I like it
 
-That last query was interesting but it doesn't take advange of the entity data we worked so hard to process. Now let's construct a more practical example leveraging the wikidata table - let's find the most viewed pages for roll bands in 2020. Of course, this beges the question, what is a rock band? Wikidata to the rescue!
+That last query was interesting but it doesn't take advantage of the entity data we worked so hard to process. Let's construct a more interesting example leveraging our wikidata table to find the most viewed pages for rock bands in 2020. Of course, this begs the question, what is a rock band? Wikidata to the rescue!
+
+You can search the wikidata interactively via the [wikidata site](https://www.wikidata.org/wiki/Wikidata:Main_Page), like this:
+
+![Rock Band entity search](/img/rockband.png)
+
+This shows us that "rock band" matches multiple entities, including the video game of the same name. The entity we're after is the first one: 5741069. One way to confirm this finding is to search for a known entity associated  that should be in this category:
+
+![Beatles entity search](/img/beatles.png)
+
+Here we see that the preeminent rock band, The Beatles, is indeed classified as an instance of "Rock Band". But this doesn't catch every page I'm interested. For example, Radiohead is considered an instance of "Musical Group" (215380).
+
+Armed with those two entity ids, we can now do some queries about popular bands. But I want to do one more there before we start querying. Since our scope is limited to just those two entities, it's wasteful to search a 10TB in our dataset. Wouldn't it be nice if there was a way to search only the stuff we care about? Well, there is - we'll create what BigQuery calls a view, which will limit our query scope to only the view counts for pages about bands. This will save us time and money.
+
+Here's the SQL code to create my view (which I've made public):
+
+```SQL
+CREATE OR REPLACE TABLE `mco-bigquery.wikipedia.bands`
+(datehour TIMESTAMP, title STRING, views INT64)
+PARTITION BY DATE(datehour)
+CLUSTER BY title
+AS
+  SELECT datehour, title, SUM(views) views
+  FROM `bigquery-public-data.wikipedia.pageviews_*` a
+  JOIN (
+    SELECT DISTINCT en_wiki
+    FROM `bigquery-public-data.wikipedia.wikidata`
+    WHERE EXISTS (SELECT * FROM UNNEST(instance_of) WHERE numeric_id=5741069 or numeric_id=215380)
+    AND en_wiki IS NOT null
+  ) b
+ON a.title=b.en_wiki
+AND a.wiki='en'
+AND DATE(a.datehour) BETWEEN '2015-01-01' AND '2020-12-31'
+GROUP BY datehour, title
+```
+This view gives us a dataset we can query much more economically, because we're only scanning information associated with bands, which is a small subset of the overall dataset.
+
+Let's find the most wiki-popular band so far in 2020 with this query:
+
+```SQL
+SELECT title, SUM(views) views
+FROM `mco-bigquery.wikipedia.bands`
+WHERE DATE(datehour) BETWEEN "2020-01-01" AND "2020-12-31"
+GROUP BY title
+ORDER BY views DESC
+LIMIT 100
+```
+
+And the results (as of March 5, 2020)...
+
+![Most popular bands of 2020](/img/bands2020.png)
 
 
-## A dashboard
+
+## Let's make a dashboard!
+
+This is fun 1) it doesn't have any sense of variation over time, 2) SQL queries can get a bit tedious. Wouldn't it be nice if we could easily, without writing a single line of code, give people a dashboard they can use to formulate their own queries by clicking menus rather than specifying SQL text? And also to provide results in a nice color coded time series graph?
+
+Well, you can! Using [Google Data Studio](https://datastudio.google.com/overview), I made just such a dashboard, which I've embeded below. Give it a spin - you can play with the set of bands, and the time frame you'd like to analyse.
 
 <iframe width="100%" height="500" src="https://datastudio.google.com/embed/reporting/ca35a15e-868b-4529-9c6c-0a5610e23a3e/page/Viq6" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-## How much does this cost?
+For example, I wonder who, during the last five years, was more popular: the Beatles or the Stones? We can use this dashboard to find out in just a few seconds:
+
+[!Beatles vs. Stones](/img/beatles-stones.png)
+
+Despite having ended their career fifty years ago, the Beatles continue to gather incredible Wikipedia attention.
+
+## Now it's your turn
+I've made this data available to everyone in the BigQuery Public Dataset collection. The pageviews are coming in roughly every hour and the entity data gets refreshed every 3-4 days. The data can be found in the bigquery-public-data collection, under Wikipedia, as shown below:
+
+![Public wikipedia dataset](/img/publicdata.png)
+
+The dashboard is also available for your use at [mco.fyi/bands](https://mco.fyi/bands).
+
+## Ackowledgements
+Many thanks to the always generous and insightful Felipe Hoffa for technical guidance and ideas. Shane Glass provided invaluable support and manages the wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) project.
+
