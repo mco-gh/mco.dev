@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = [""]
 title = "Why I Quit Facebook"
 date = "2013-02-04"
-coverImage = "/img/facebook.jpg"
+coverImage = "/img/facebook.png"
 +++
 Are you like me? Do you find yourself checking your Facebook news feed regularly and with ever increasing frequency? When you see a good movie, or take a cool photo, or experience something unique, is your first thought “I need to write a status update about that”?
 <!--more-->

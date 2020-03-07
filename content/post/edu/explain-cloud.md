@@ -6,8 +6,9 @@ title = "Explaining the Cloud to a Five Year Old"
 coverImage = "/img/explain-cloud.jpg"
 +++
 
-When I interviewed for my job at Google, I got asked all the usual questions about data structures, and whiteboard coding. I even got slammed with one of those old-school brain teasers straight out of [How Would You Move Mount Fuji?](https://www.amazon.com/How-Would-Move-Mount-Fuji-ebook/dp/B000Q67H6I). But six years later, one question stands out above all the others I was asked that day.
+When I interviewed for my job at Google, I got asked all the usual questions about data structures, and whiteboard coding.
 <!--more-->
+I even got slammed with one of those old-school brain teasers straight out of [How Would You Move Mount Fuji?](https://www.amazon.com/How-Would-Move-Mount-Fuji-ebook/dp/B000Q67H6I). But six years later, one question stands out above all the others I was asked that day.
 
 <img src="/img/grace.jpg" align="left" style="margin: 15px">
 

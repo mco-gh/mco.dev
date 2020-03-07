@@ -7,7 +7,9 @@ subtitle = "Which sequence is more likely: HTT or HTH? The answer will surprise 
 coverImage = "/img/coins.jpg"
 +++
 
-Imagine tossing a coin repeatedly until you get a certain pattern, let’s say HTT (head, tail, tail). For example, in this sequence of outcomes:
+Imagine tossing a coin repeatedly until you get a certain pattern, let’s say HTT (head, tail, tail).
+<!--more-->
+For example, in this sequence of outcomes:
 
 HHTHHTHHTTHHTTTHTH
 
