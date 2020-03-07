@@ -3,7 +3,7 @@ categories = ["Media"]
 tags = ["book"]
 title = "Every Move Must Have a Purpose"
 date = "2009-01-04"
-coverImage = "/img/chess.jpg"
+coverImage = "/img/everymove.jpg"
 +++
 
 As a long time chess player, I’ve often thought of chess as a metaphor for life.  Decisions made at the chess board, like those made in life, can never be undone so you need to choose your moves carefully. As Thomas Wolfe said, “You can’t go home again”.

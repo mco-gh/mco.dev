@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "Duality"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/duality.jpg"
 +++
 
 I've always felt there are two people inside me, two versions of me. One is kind and loving, helpful and reliable, curious and child-like and a bit mischievous. The other is insufferable – egotistical, demanding, competitive, and self absorbed.

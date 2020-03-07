@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "Structure"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/structure.jpg"
 +++
 
 We are informed,  

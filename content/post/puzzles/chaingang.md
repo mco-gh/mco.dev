@@ -4,7 +4,7 @@ tags = []
 date = "2011-04-15"
 title = "Chain Gang"
 subtitle = "An original trivia quiz with a twist."
-coverImage = "/img/"
+coverImage = "/img/chaingang.jpg"
 +++
 
 This week’s puzzle is an original trivia quiz with a twist.

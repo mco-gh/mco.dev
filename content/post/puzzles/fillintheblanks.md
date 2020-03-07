@@ -4,7 +4,7 @@ tags = []
 date = "2011-01-14"
 title = "Fill In the Blanks"
 subtitle = "Let your subconscious mind work on this one"
-coverImage = "/img/"
+coverImage = "/img/fillintheblanks.jpg"
 +++
 
 I was in sixth grade when I first saw this puzzle and it captivated me for three straight days, which tells you something about my personality:

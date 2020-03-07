@@ -4,7 +4,7 @@ tags = []
 date = "2011-04-08"
 title = "Palindromically Speaking"
 subtitle = "Palindromes are normally words, but we're going to try to find calendrical palendromes"
-coverImage = "/img/"
+coverImage = "/img/palindrome.jpg"
 +++
 
 Have you ever heard of a palindrome? It’s a word, phrase, sentence (or more) that’s spelled exactly the same way backward and forward. Here are a few well known palindromes:

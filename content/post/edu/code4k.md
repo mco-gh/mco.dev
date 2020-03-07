@@ -3,7 +3,7 @@ categories = ["Education"]
 tags = []
 title = "A Second Chance - Helping Prisoners Learn New Skills"
 date = "2017-12-17"
-coverImage = "/img/prison.jpg"
+coverImage = "/img/code4k.jpg"
 +++
 
 I spend most of my professional time helping developers understand how to harness Google Cloud technology to build great applications. But a recent engagement brought me somewhere I'd never been before, 

@@ -4,7 +4,7 @@ tags = []
 date = "2011-03-25"
 title = "Measuring Mystery"
 subtitle = "Classic interview question in the Aha! category"
-coverImage = "/img/"
+coverImage = "/img/measuring.jpg"
 +++
 
 This is another one that Microsoft and other companies have used as an interview question but it’s a little easier than some of my recent brain benders.

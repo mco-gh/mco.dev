@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["search"]
 title = "A Killer Feature for Amazon.com"
 date = "2010-01-12"
-thumbnailImage = "/img/amazon.png"
+thumbnailImage = "/img/amazonsearch.png"
 +++
 Dear Amazon.com,
 

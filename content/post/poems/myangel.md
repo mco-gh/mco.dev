@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "My Angel"
 date = "2018-01-01"
-coverImage = "/img/"
+coverImage = "/img/angle.jpg"
 +++
 
 I have an angel in my life.  

@@ -4,7 +4,7 @@ tags = []
 date = "2011-01-07"
 title = "An Open and Shut Case"
 subtitle = "Imagine you’re standing at one end of a corridor, with exactly 100 lockers all in a row, numbered 1 to 100..."
-coverImage = "/img/"
+coverImage = "/img/openandshut.jpg"
 +++
 
 For today’s puzzle, I’m taking you back to school.

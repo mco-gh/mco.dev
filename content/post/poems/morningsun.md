@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "My Morning Sun"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/morningsun.jpg"
 +++
 
 Morning quietly arrives  

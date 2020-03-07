@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "Self Destructor"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/selfdestructor.jpg"
 +++
 
 A part of me  

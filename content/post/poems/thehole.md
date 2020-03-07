@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "The Hole"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/thehold.jpg"
 +++
 
 Once I got distracted  

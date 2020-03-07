@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "Tangled Up in Blue"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/tangledup.jpg"
 +++
 
 She was married when we first met  

@@ -4,7 +4,7 @@ tags = []
 date = "2010-12-18"
 title = "Finding the Time"
 subtitle = "While you’re asleep one night, there’s a power outage..."
-coverImage = "/img/"
+coverImage = "/img/time.jpg"
 +++
 
 The original incarnation of today’s puzzle talks about winding a clock but who, under the age of 40, knows what that means anymore? Here’s a slightly more modern formulation…

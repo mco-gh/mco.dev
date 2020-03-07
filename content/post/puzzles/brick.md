@@ -4,7 +4,7 @@ tags = []
 date = "2010-11-19"
 title = "How Much Does a Brick Weigh?"
 subtitle = "From the fertile mind of the late, legendary puzzle master Martin Gardner"
-coverImage = "/img/"
+coverImage = "/img/brick.jpg"
 +++
 I like puzzles that are easily stated. Today’s challenge, from the fertile mind of the late, legendary puzzle master Martin Gardner, is a model of simplicity:
 <!--more-->

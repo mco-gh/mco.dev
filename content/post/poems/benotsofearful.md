@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = ["music"]  
 title = "Be Not So Fearful"  
 date = "2019-01-17"  
-coverImage = "img/tweedy.png"
+coverImage = "img/benotsofearful.png"
 +++  
   
 Be not so nervous, be not so frail  

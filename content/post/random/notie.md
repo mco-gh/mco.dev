@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["random"]
 title = "No Tie, No Problem"
 date = "2011-08-19"
-coverImage = "/img/"
+coverImage = "/img/notie.jpg"
 +++
 Twenty nine years ago, I started my first and, up till now, only job, at Bell Labs in Holmdel, NJ (the lobby of which is pictured above). Bell Labs was a magical place in those days, sort of like a cross between a corporate think tank and a Grateful Dead concert.
 <!--more-->

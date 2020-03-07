@@ -4,7 +4,7 @@ tags = ["book"]
 title = "Not What You Think"
 subtitle = "Your first guess is likely wrong. You've been warned."
 date = "2017-04-23"
-coverImage = "/img/"
+coverImage = "/img/missingval.jpg"
 +++
 
 Your first guess is likely wrong. You've been warned.<!--more-->

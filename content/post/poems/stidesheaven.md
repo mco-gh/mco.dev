@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "St. Ides Heaven"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/stidesheaven.jpg"
 +++
 
 High on amphetamines,  

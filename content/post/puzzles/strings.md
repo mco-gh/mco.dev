@@ -4,7 +4,7 @@ tags = []
 date = "2010-11-13"
 title = "Burning Strings"
 subtitle = "Using fire to measure time"
-coverImage = "/img/"
+coverImage = "/img/strings.jpg"
 +++
 
 I first heard today’s puzzle several years ago from a co-worker who had recently returned from a job interview at Microsoft, where he’d been asked to solve this one in real time.

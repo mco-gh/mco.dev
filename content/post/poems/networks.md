@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "Networks"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/networks.jpg"
 +++
 
 Bit by bit,  

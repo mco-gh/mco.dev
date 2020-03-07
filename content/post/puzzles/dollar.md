@@ -4,7 +4,7 @@ tags = []
 date = "2011-02-04"
 title = "The Disappearing Dollar"
 sutitle = "What happened to missing money?"
-coverImage = "/img/"
+coverImage = "/img/dollar.jpg"
 +++
 
 Three co-workers are on a business trip. They arrive at their hotel only to learn their reservations have been lost. The desk clerk tells them there is only one room still available but it can be shared by the three companions.

@@ -1,8 +1,9 @@
 +++
 categories = ["Education"]
+tags = []
 title = "Introducing Robodad"
 date = "2009-01-04"
-coverImage = "/img/"
+coverImage = "/img/robodad.jpg"
 draft = true
 +++
 

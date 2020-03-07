@@ -4,7 +4,7 @@ tags = []
 date = "2011-07-22"
 title = "Ones and Zeros"
 subtitle = "What is the smallest number evenly divisible by 225 that contains only the digits 1 and 0?"
-coverImage = "/img/"
+coverImage = "/img/onesandzeros.jpg"
 +++
 
 I like puzzles that are easy to state and don’t require a lengthy explanation. Today’s puzzle falls into that category.<!--more--> It comes from my good friend of 30 years, Ken O’Brien, who asked me this simple but perplexing question: “What is the smallest number evenly divisible by 225 that contains only the digits 1 and 0?”

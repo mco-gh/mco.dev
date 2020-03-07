@@ -4,7 +4,7 @@ tags = []
 date = "2011-03-18"
 title = "Weighing Your Options"
 subtitle = "Imagine you have nine uniformly sized white balls, eight of which weigh precisely the same amount, and one is decidedly heavier or lighter than the rest..."
-coverImage = "/img/"
+coverImage = "/img/weighing.jpg"
 +++
 
 Imagine you have nine uniformly sized white balls, eight of which weigh precisely the same amount, and one is decidedly heavier or lighter than the rest.

@@ -4,7 +4,7 @@ tags = []
 title = "Apples & Oranges"
 subtitle = "In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges."
 date = "2017-04-02"
-coverImage = "/img/"
+coverImage = "/img/apples-oranges.jpg"
 +++
 
 In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges.<!--more-->

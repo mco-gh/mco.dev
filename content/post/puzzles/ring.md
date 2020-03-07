@@ -4,7 +4,7 @@ tags = []
 date = "2011-02-25"
 title = "Ring Around the Earth"
 subtitle = "How much material to extend a railroad around the Earth?"
-coverImage = "/img/"
+coverImage = "/img/ring.jpg"
 +++
 
 Imagine that in a future era humans decide to build a high speed train circumnavigating the globe at the equator.<!--more-->Ignore the impracticalities of such an undertaking (e.g. building railroad tracks across an ocean) and think about this question: How long does the track need to be? This is easy to answer if you know the circumference of the Earth, which is 24,902 (or roughly 25,000) miles at the equator.

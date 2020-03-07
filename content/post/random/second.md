@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["calendar"]
 title = "In Case Today Seems a Little Longer Than Usual"
 date = "2008-12-31"
-coverImage = "/img/calendar.jpg"
+coverImage = "/img/second.jpg"
 +++
 It is. By one second. At 11:59:59 pm Universal Time, one additional second will be added before the official arrival of 2009.
 <!--more-->

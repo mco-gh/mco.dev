@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "Ready or Not"
 date = "2018-01-01"
-coverImage = "/img/"
+coverImage = "/img/readyornot.jpg"
 +++
 
 True love happens once in your life.  

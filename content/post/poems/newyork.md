@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "New York"
 date = "2018-12-29"
-coverImage = "/img/"
+coverImage = "/img/newyork.jpg"
 +++
 
 Washington Square Park,  

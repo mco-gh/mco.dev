@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["random"]
 title = "How I Made and Lost Nearly a Million Dollars in One Day"
 date = "2014-04-24"
-coverImage = "/img/"
+coverImage = "/img/microsoft.jpg"
 +++
 In the mid-90s I got interested in the stock market and had a bit of money to invest so I opened an account with Charles Schwab. Schwab had recently introduced a service called Telebroker, which enabled clients to trade stocks by telephone. One morning in 1995, I asked my wife to buy $2,500 worth of Microsoft stock via Telebroker. What could possibly go wrong?
 <!--more-->

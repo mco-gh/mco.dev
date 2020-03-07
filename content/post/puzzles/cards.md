@@ -4,7 +4,7 @@ tags = []
 date = "2011-03-12"
 title = "Putting Your Cards on the Table"
 subtitle = "In front of you are four cards on a table. Each card has a letter on one side and a number on the other side."
-coverImage = "/img/"
+coverImage = "/img/cards.jpg"
 +++
 
 In front of you are four cards on a table, which look like this:

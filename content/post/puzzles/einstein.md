@@ -4,7 +4,7 @@ tags = []
 date = "2011-01-29"
 title = "Einstein's Puzzle"
 subtitle = "A puzzle of deduction said to be devised by Einstein"
-coverImage = "/img/"
+coverImage = "/img/einstein.jpg"
 +++
 
 Today’s puzzle is said to have been devised by Albert Einstein, who supposedly claimed that 98% of the population could not solve it.

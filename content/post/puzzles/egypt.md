@@ -4,7 +4,7 @@ tags = []
 date = "2011-02-12"
 title = "Egypt Trivia"
 subtitle = "Can you name these things related to Egypt?"
-coverImage = "/img/"
+coverImage = "/img/egypt.jpg"
 +++
 Today we’re doing a good old-fashioned trivia quiz with a topical theme: every answer has something to do with Egypt.
 <!--more-->

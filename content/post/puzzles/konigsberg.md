@@ -4,7 +4,7 @@ tags = []
 date = "2011-01-01"
 title = "The Konigsberg Bridge Problem"
 subtitle = "A classic problem underlying modern graph theory"
-coverImage = "/img/"
+coverImage = "/img/konigsberg.jpg"
 +++
 
 I first read about today’s puzzle as a young boy and it’s stayed with me all these years later.

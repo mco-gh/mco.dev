@@ -4,7 +4,7 @@ tags = ["cloud"]
 title = "Getting Your Foot in the Door"
 subtitle = "Moving Data to the Google Cloud"
 date = "2019-09-13"
-coverImage = "img/door.jpg"
+coverImage = "img/transfer.jpg"
 +++
 
 One easy way to get your data into the cloud, quickly and inexpensively (free actually!).

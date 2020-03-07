@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["random"]
 title = "How Many Tweets are Possible?"
 date = "2011-03-08"
-coverImage = "/img/"
+coverImage = "/img/tweets.jpg"
 +++
 Twitter’s 140 character limit raises an interesting question: how many tweets are possible before nothing new can be said?
 <!--more-->

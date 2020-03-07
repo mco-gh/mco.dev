@@ -4,7 +4,7 @@ tags = []
 date = "2017-03-26"
 title = "An Unusual Paragraph"
 subtitle = "How quickly can you find out what is unusual about this paragraph?"
-coverImage = "/img/"
+coverImage = "/img/paragraph.jpg"
 +++
 
 How quickly can you find out what is unusual about this

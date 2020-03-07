@@ -3,7 +3,7 @@ categories = ["Data"]
 tags = ["search"]
 title = "Most Popular: Sex, Drugs, or Rock & Roll?"
 date = "2010-07-08"
-thumbnailImage = "/img/rocknroll.png"
+thumbnailImage = "/img/ngrams.jpg"
 draft = true
 +++
 There’s a fascinating new search tool recently made available by Google. It gives you the ability to freely search 5.2 million digitized books (over 500 billion words!) published between 1500 and 2008.

@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["random"]
 title = "How the Web Works - In One Easy Lesson"
 date = "2011-03-13"
-coverImage = "/img/"
+coverImage = "/img/web.jpg"
 +++
 Like an infomercial claim (“It slices! It dices!”), this article’s title sounds too good to be true, but it is true – in one article, I’m going to explain how the web works and you will walk away a better informed human being. All you have to do is give me a few minutes of your time.
 <!--more-->

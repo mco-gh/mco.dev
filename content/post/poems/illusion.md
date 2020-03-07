@@ -3,7 +3,7 @@ categories = ["Poems"]
 tags = []
 title = "Illusion"
 date = "2018-12-26"
-coverImage = "/img/"
+coverImage = "/img/illusion.jpg"
 +++
 
 I don't feel right today.  

@@ -3,7 +3,7 @@ categories = ["Talks"]
 tags = []
 title = "My Journey"
 date = "2017-10-31"
-coverImage = "/img/"
+coverImage = "/img/journey.jpg"
 +++
 I get paid to solve puzzles, which is my dream job.<!--more-->
 Primarily intended for students and others interested in career planning,

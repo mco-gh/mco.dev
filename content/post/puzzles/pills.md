@@ -4,7 +4,7 @@ tags = []
 date = "2011-02-18"
 title = "Perilous Pills"
 subtitle = "A matter of life or death"
-coverImage = "/img/"
+coverImage = "/img/pills.jpg"
 +++
 
 You’re a pharmacist and you’ve just taken delivery of ten bottles of 1,000 pills each.

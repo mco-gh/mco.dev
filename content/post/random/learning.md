@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["edu"]
 title = "How to Learn"
 date = "2017-03-30"
-coverImage = "/img/"
+coverImage = "/img/learning.jpg"
 +++
 
 The article linked below espouses a concept I've always found to be true but never fully appreciated as clearly as it is explained here.

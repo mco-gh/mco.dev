@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["personal"]
 title = "Reconnecting After Forty Years"
 date = "2010-04-29"
-coverImage = "/img/4thgrade.jpg"
+coverImage = "/img/reconnecting.jpg"
 +++
 I recently celebrated one of those birthdays ending in a zero and was rummaging through some old photos, school records, etc., when I came upon my fourth grade class picture.
 <!--more-->

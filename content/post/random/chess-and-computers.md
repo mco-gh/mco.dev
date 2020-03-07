@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["chess", "AI"]
 title = "Chess and Intelligence"
 date = "2017-04-04"
-coverImage = "/img/chess2.jpg"
+coverImage = "/img/chess-and-computers.jpg"
 +++
 
 Over twenty years ago, for the first time in history, the [greatest living chess player](https://en.wikipedia.org/wiki/Garry_Kasparov) lost to a [computer](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)).
