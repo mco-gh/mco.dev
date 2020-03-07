@@ -1,17 +1,11 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Talks"]
-tags = ["talks"]
+tags = []
 title = "Optimal Learning Experiences"
 date = "2017-10-31"
-draft = false
+coverImage = "/img/"
 +++
-Interactive tutorials are one of the most powerful ways we can help students
-learn how to use technology. But there are a bewildering array of tools available
-for creating these experiences.
+Interactive tutorials are one of the most powerful ways we can help students learn how to use technology. But there are a bewildering array of tools available for creating these experiences. <!--more-->
 In this session, I'll talk about why interactive
 content is so valuable, review some of my favorite tools, and talk about some 
 attributes of an ideal learning experience for developers. 

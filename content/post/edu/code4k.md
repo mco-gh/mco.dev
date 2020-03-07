@@ -1,21 +1,14 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
-categories = ["Random"]
-tags = ["edu"]
+categories = ["Education"]
+tags = []
 title = "A Second Chance - Helping Prisoners Learn New Skills"
 date = "2017-12-17"
+coverImage = "/img/prison.jpg"
 +++
 
-I spend most of my professional time helping developers understand how to harness Google Cloud technology
-to build great applications. But a recent engagement brought me somewhere I'd never been before, 
+I spend most of my professional time helping developers understand how to harness Google Cloud technology to build great applications. But a recent engagement brought me somewhere I'd never been before, 
 somewhere, I suspect, no other Google Developer Advocate has gone.
 <!--more-->
-
-<img src="/img/prison.jpg" height="400" style="display: block; margin: 0 auto;">
-
 My home country, the United States, has the largest prison population in the world, and the 
 second-highest per-capita incarceration rate.
 Poverty, unequal economic and educational opportunities, substance abuse, an inequitable justice system,

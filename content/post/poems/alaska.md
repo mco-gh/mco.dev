@@ -7,6 +7,7 @@ coverImage = "/img/alaska.jpg"
 +++  
   
 Yesterday my co-workers kindly threw me a little going away party (or a “leaving do” as the Brits call them). Below is the text of a poem I wrote to mark the occasion. Caveat: it’s chock full of inside jokes and references (e.g. the name of the project is “Alaska”).  
+<!--more-->
   
 The Road to Alaska  
   

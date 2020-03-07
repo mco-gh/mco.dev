@@ -1,17 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
 tags = ["edu"]
 title = "How to Learn"
 date = "2017-03-30"
+coverImage = "/img/"
 +++
 
-
-The article linked below espouses a concept I've always found to be true but never 
-fully appreciated as clearly as it is explained here.<!--more-->
+The article linked below espouses a concept I've always found to be true but never fully appreciated as clearly as it is explained here.
+<!--more-->
 
 The basic idea is "learn by doing" but I what I love most about this article is
 the way the author provides a systematic approach to this philosophy. 

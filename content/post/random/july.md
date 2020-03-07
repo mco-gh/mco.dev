@@ -5,7 +5,9 @@ title = "Why July is a Bad Time to Get Sick"
 date = "2010-07-08"
 thumbnailImage = "/img/july.png"
 +++
-I love a good puzzle. Tonight my wife told me something amazing: July is the worst month in which to undergo a medical procedure because the risk of a mistake is higher in July than in any other month of the year. The question is why? What’s so special about July? If you don’t already know the answer, I recommend you pause reading this article now and see if you can come up with the answer.
+I love a good puzzle. Tonight my wife told me something amazing: July is the worst month in which to undergo a medical procedure because the risk of a mistake is higher in July than in any other month of the year.
+<!--more-->
+The question is why? What’s so special about July? If you don’t already know the answer, I recommend you pause reading this article now and see if you can come up with the answer.
 
 My first thought was that in July many doctors are on vacation or are mentally distracted by summer vacation plans. That explanation is a bit like the old adage about avoiding a car that was manufactured on a Monday or a Friday (due to back-to-work doldrums and weekend anticipation, respectively). That answer turned out to be wrong. If you’re still pondering, I’ll give you a big hint:  it’s related to a certain fixed timetable.
 

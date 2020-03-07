@@ -1,17 +1,15 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2011-01-14"
 title = "Fill In the Blanks"
 subtitle = "Let your subconscious mind work on this one"
+coverImage = "/img/"
 +++
 
-I was in sixth grade when I first saw this puzzle (thanks to Miss LaRusso) and it captivated me for three straight days, which tells you something about my personality: 1) I love a challenge, 2) I’m very determined, and 3) I have no problem wasting ridiculous amounts of time on useless activities (like this blog). But enough about me, let’s talk about today’s puzzle.
+I was in sixth grade when I first saw this puzzle and it captivated me for three straight days, which tells you something about my personality:
+<!--more-->
+1) I love a challenge, 2) I’m very determined, and 3) I have no problem wasting ridiculous amounts of time on useless activities (like this blog). But enough about me, let’s talk about today’s puzzle.
 
 Each line below contains a phrase involving a number and only the first letter of each word. Your job is to figure out the missing letters and complete each phrase. For example, if the challenge was “50 W to L your L”, you might recognize that old Paul Simon song “50 Ways to Leave Your Lover”. Submit as many answers as you can find in a comment below.
 

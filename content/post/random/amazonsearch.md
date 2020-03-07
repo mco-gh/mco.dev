@@ -7,7 +7,7 @@ thumbnailImage = "/img/amazon.png"
 +++
 Dear Amazon.com,
 
-Nothing beats the convenience of browsing your huge catalog from home, reading reviews and seeing what people think about my prospective purchases, ordering something online and having it suddenly materialize at my door two days later. Thanks to you, I get a little buzz every time I hear a UPS truck. But there’s one feature I really wish you would add.
+There’s one feature I really wish you would add.
 <!--more-->
 When searching for a product, if I select a department (like books or electronics), you give me the ability to sort the search results in various ways, like relevance and price. I really like sorting on the average customer rating (1-5 stars), because it gives me a sense of which products are best reviewed.
 

@@ -1,16 +1,12 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2011-03-13"
 title = "Penny For Your Thoughts"
 subtitle = "The power of doubling"
+coverImage = "/img/"
 +++
-Imagine a very wealthy and eccentric friend (which is the best kind of friend to have) offers you the following choice:
+Imagine a very wealthy and eccentric friend (which is the best kind of friend to have) offers you the following choice:<!--more-->
 
 One penny on the first day of January, two cents on the second day, four cents on the third day, and so on, doubling the amount you receive each day up to the 31st day of January.
 One million dollars

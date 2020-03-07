@@ -1,17 +1,16 @@
 +++
-images = []
-banner = ""
-menu = ""
 categories = ["Poems"]
 tags = []
 title = "Tangled Up in Blue"
 date = "2018-12-29"
+coverImage = "/img/"
 +++
 
 She was married when we first met  
 Soon to be divorced  
 I helped her out of a jam I guess  
 But I used a little too much force  
+<!--more-->
 We drove that car as far as we could  
 Abandoned it out west  
 Split up on a dark sad night  

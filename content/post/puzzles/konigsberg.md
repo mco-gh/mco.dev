@@ -1,17 +1,15 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2011-01-01"
 title = "The Konigsberg Bridge Problem"
 subtitle = "A classic problem underlying modern graph theory"
+coverImage = "/img/"
 +++
 
-I first read about today’s puzzle as a young boy and it’s stayed with me all these years later. In Germany, there was a city named Königsberg (it’s now a Russian city called Kaliningrad), which is set on a river. Situated in this river are two islands, which are connected to the river banks and to each other by a series of seven bridges, as illustrated in the image on the right.
+I first read about today’s puzzle as a young boy and it’s stayed with me all these years later.
+<!--more-->
+In Germany, there was a city named Königsberg (it’s now a Russian city called Kaliningrad), which is set on a river. Situated in this river are two islands, which are connected to the river banks and to each other by a series of seven bridges, as illustrated in the image on the right.
 
 Here’s the challenge: starting anywhere you like, can you traverse all seven bridges once and only once? According to the book I read as a child, this challenge was a popular pastime in the 1700s – on Sundays, the families of Königsberg would set out on a leisurely promenade in an attempt to traverse all seven bridges once. Did anyone succeed? Can you find a non-overlapping route across all seven bridges? I’ll be very impressed if you can. Check back tomorrow for the solution.
 

@@ -1,15 +1,12 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
 tags = ["random"]
 title = "How the Web Works - In One Easy Lesson"
 date = "2011-03-13"
+coverImage = "/img/"
 +++
-Like an infomercial claim (“It slices! It dices!”), this article’s title sounds too good to be true, but it is true – in one article, I’m going to explain how the web works and you will walk away a better informed human being. All you have to do is give me a few minutes of your time. Sound like a deal?
-
+Like an infomercial claim (“It slices! It dices!”), this article’s title sounds too good to be true, but it is true – in one article, I’m going to explain how the web works and you will walk away a better informed human being. All you have to do is give me a few minutes of your time.
+<!--more-->
 As the video above illustrates, lots of people don’t quite understand some basic things about the web, like what a browser is. A web browser is a program running on your computer (or smart phone, or iPad or…) through which you access the World Wide Web. The browser’s job is to make it possible for you to visit pages on the web. But what’s really happening when you use your browser to access the web?
 
 Let’s start at the beginning…imagine you’re sitting in front of your web browser and you enter a URL (which is a fancy term for the address of a resource on the web). Let’s step through what actually happens when you press the enter key. The first step is that your URL gets parsed by the browser. Parse is a fancy term for dividing something into pieces. If you’re ever at a cocktail party with computer scientists, try to work the word ‘parse’ into the conversation and everyone will be very impressed with you.

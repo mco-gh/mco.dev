@@ -1,16 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2010-11-19"
 title = "How Much Does a Brick Weigh?"
 subtitle = "From the fertile mind of the late, legendary puzzle master Martin Gardner"
+coverImage = "/img/"
 +++
 I like puzzles that are easily stated. Today’s challenge, from the fertile mind of the late, legendary puzzle master Martin Gardner, is a model of simplicity:
+<!--more-->
 
 How much does a brick weigh if it weighs 5 pounds plus half its own weight?
 

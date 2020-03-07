@@ -1,14 +1,10 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2010-12-04"
 title = "Flipping Coins"
 subtitle = "Which sequence is more likely: HTT or HTH? The answer will surprise you."
+coverImage = "/img/"
 +++
 
 Imagine tossing a coin repeatedly until you get a certain pattern, let’s say HTT (head, tail, tail). For example, in this sequence of outcomes:
@@ -16,6 +12,7 @@ Imagine tossing a coin repeatedly until you get a certain pattern, let’s say H
 HHTHHTHHTTHHTTTHTH
 
 the desired pattern was reached after the 10th toss (highlighted in red).
+<!--more-->
 
 Now let’s imagine you repeat that same experiment and each time you record the number of tosses needed to see the desired pattern. The first time you might see HTT after 10 tosses (as in the example above), the second time you might see HTT after 7 tosses, the third time after 15 tosses, etc. After many such experiments, you calculate the average number of tosses needed to see the HTT pattern.
 

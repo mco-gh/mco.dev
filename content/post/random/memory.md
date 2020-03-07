@@ -3,11 +3,11 @@ categories = ["Random"]
 tags = ["economics"]
 title = "The Cost of Memory"
 date = "2011-03-15"
-coverImage = "img/memory.jpg"
+coverImage = "/img/memory.jpg"
 +++
 
 The cost of memory over the past 30 years…
-
+<!--more-->
 YEAR — Price of a Gigabyte
 1981 — $300,000
 1987 — $50,000

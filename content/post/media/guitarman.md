@@ -3,7 +3,7 @@ categories = ["Media"]
 tags = ["book"]
 title = "Guitar Man"
 date = "2010-01-02"
-thumbnailImage = "img/guitarman.jpg"
+thumbnailImage = "/img/guitarman.jpg"
 +++
 
 The full title of this book is “Guitar Man – A Six String Odyssey, or, You Love That Guitar More Than You Love Me”. It’s the autobiographical tale of a Brit named Will Hodgkinson, who takes up the guitar in his mid-thirties.

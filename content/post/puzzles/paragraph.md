@@ -1,14 +1,10 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = "paragraph.jpg"
-tags = ["puzzles"]
+tags = []
 date = "2017-03-26"
 title = "An Unusual Paragraph"
 subtitle = "How quickly can you find out what is unusual about this paragraph?"
+coverImage = "/img/"
 +++
 
 How quickly can you find out what is unusual about this

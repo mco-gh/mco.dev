@@ -1,11 +1,9 @@
 +++
-images = []
-banner = ""
-menu = ""
 categories = ["Poems"]
 tags = []
 title = "Structure"
 date = "2018-12-29"
+coverImage = "/img/"
 +++
 
 We are informed,  
@@ -14,6 +12,7 @@ By the Second Law of Thermodynamics,
 That the universe is tending,  
 Inexorably,  
 Toward chaos.  
+<!--more-->
 
 And yet,  
 Everywhere we look  

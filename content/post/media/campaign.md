@@ -3,7 +3,7 @@ categories = ["Media"]
 tags = ["movie"]
 title = "The Last Campaign of Governor Booth Gardner"
 date = "2010-06-06"
-thumbnailImage = "img/campaign.jpg"
+thumbnailImage = "/img/campaign.jpg"
 +++
 
 We’re all going to die someday, we just don’t know when and how. As the main character points out, with the exception of how we die, most of us have the ability to control the major decisions of our lives. At the time this film was made, only one of our 50 states (Oregon) gave citizens with terminal illness the legal right to end their suffering.

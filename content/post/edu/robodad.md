@@ -1,9 +1,8 @@
 +++
-categories = ["Media"]
-tags = ["book"]
-title = "The Miraculous Journey of Edward Tulane"
+categories = ["Education"]
+title = "Introducing Robodad"
 date = "2009-01-04"
-coverImage = "/img/edward.jpg"
+coverImage = "/img/"
 draft = true
 +++
 

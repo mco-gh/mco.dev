@@ -1,18 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
-categories = ["Random"]
-tags = ["cloud", "edu"]
+categories = ["Education"]
+tags = ["cloud"]
 date = "2017-05-02"
 title = "Explaining the Cloud to a Five Year Old"
+coverImage = "/img/cloud.jpg"
 +++
 
-When I interviewed for my job at Google, I got asked all the usual questions about 
-data structures, and whiteboard coding. I even got slammed with one of those old-school brain teasers
-straight out of [How Would You Move Mount Fuji?](https://www.amazon.com/How-Would-Move-Mount-Fuji-ebook/dp/B000Q67H6I).
-But six years later, one question stands out above all the others I was asked that day.<!--more-->
+When I interviewed for my job at Google, I got asked all the usual questions about data structures, and whiteboard coding. I even got slammed with one of those old-school brain teasers straight out of [How Would You Move Mount Fuji?](https://www.amazon.com/How-Would-Move-Mount-Fuji-ebook/dp/B000Q67H6I). But six years later, one question stands out above all the others I was asked that day.
+<!--more-->
 
 <img src="/img/grace.jpg" align="left" style="margin: 15px">
 

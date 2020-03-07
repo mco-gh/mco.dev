@@ -1,14 +1,10 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2017-04-09"
 title = "Lighten Up"
 subtitle = "You are standing in a hallway with three light switches..."
+coverImage = "/img/"
 +++
 
 You are standing in a hallway with three light switches.<!--more-->

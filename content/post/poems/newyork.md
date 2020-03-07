@@ -1,17 +1,16 @@
 +++
-images = []
-banner = ""
-menu = ""
 categories = ["Poems"]
 tags = []
 title = "New York"
 date = "2018-12-29"
+coverImage = "/img/"
 +++
 
 Washington Square Park,  
 On a warm summer night,  
 In this city that dares you  
 To dream big.  
+<!--more-->
 
 Dogs play in the fountain.  
 Chess hustlers talk trash,  

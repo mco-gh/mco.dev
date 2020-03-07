@@ -1,16 +1,15 @@
 +++
-images = []
-banner = ""
-menu = ""
 categories = ["Poems"]
 tags = []
 title = "Gone"
 date = "2018-01-28"
+coverImage = "/img/"
 +++
 
 My mother is dead.  
 You can’t tell by looking at her,  
 But she’s gone.  
+<!--more-->
  
 A joyful, proud, strong woman  
 Full of charm and finesse,  

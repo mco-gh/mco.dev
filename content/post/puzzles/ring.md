@@ -1,17 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2011-02-25"
 title = "Ring Around the Earth"
 subtitle = "How much material to extend a railroad around the Earth?"
+coverImage = "/img/"
 +++
 
-Imagine that in a future era humans decide to build a high speed train circumnavigating the globe at the equator. Ignore the impracticalities of such an undertaking (e.g. building railroad tracks across an ocean) and think about this question: How long does the track need to be? This is easy to answer if you know the circumference of the Earth, which is 24,902 (or roughly 25,000) miles at the equator.
+Imagine that in a future era humans decide to build a high speed train circumnavigating the globe at the equator.<!--more-->Ignore the impracticalities of such an undertaking (e.g. building railroad tracks across an ocean) and think about this question: How long does the track need to be? This is easy to answer if you know the circumference of the Earth, which is 24,902 (or roughly 25,000) miles at the equator.
 
 Now, imagine our engineering team determines that, for technical reasons, the track needs to be elevated two feet off the ground. We were already planning to acquire 25,000 miles of track so the question is this: how much additional track do we need in order to build our equatorial railroad two feet above the Earth’s surface?
 

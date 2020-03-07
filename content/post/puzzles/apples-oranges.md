@@ -1,12 +1,10 @@
 +++
-images = []
-banner = ""
-menu = ""
 categories = ["Puzzles"]
-tags = ["puzzles"]
+tags = []
 title = "Apples & Oranges"
 subtitle = "In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges."
 date = "2017-04-02"
+coverImage = "/img/"
 +++
 
 In front of you are three boxes. One contains only apples, one contains only oranges and one contains a mix of apples and oranges.<!--more-->

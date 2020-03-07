@@ -9,7 +9,6 @@ coverImage = "img/tweedy.png"
 Be not so nervous, be not so frail  
 <!--more-->
 {{< youtube aZnahF3mtNI >}}
-Be not so nervous, be not so frail  
 Someone watches you, you will not fail  
 Be not so nervous, be not so frail  
 Be not so nervous, be not so frail  

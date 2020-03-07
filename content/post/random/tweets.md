@@ -1,15 +1,12 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
 tags = ["random"]
 title = "How Many Tweets are Possible?"
 date = "2011-03-08"
+coverImage = "/img/"
 +++
 Twitter’s 140 character limit raises an interesting question: how many tweets are possible before nothing new can be said?
-
+<!--more-->
 Most of the information in tweets is conveyed via alphabetic characters and the digits 0-9. We should also include the ubiquitous hash mark and “at sign” (twitter tags and references, respectively) and several other punctuation marks, including the all-important space character. Given 26 letters (we’ll ignore upper and lower case), 10 digits and roughly a dozen special symbols gets us to about 50 unique characters. The total number of possible tweets can thus be calculated by raising 50 to the 140th power. What’s that look like? Here’s a cute google trick: enter any mathematical expression in the search bar and you get the calculated answer, as illustrated below.
 
 

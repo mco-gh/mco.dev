@@ -1,16 +1,15 @@
 +++
-images = []
-banner = ""
-menu = ""
 categories = ["Poems"]
 tags = []
 title = "Ready or Not"
 date = "2018-01-01"
+coverImage = "/img/"
 +++
 
 True love happens once in your life.  
 Maybe twice if you're lucky.  
 Maybe never if you're not.  
+<!--more-->
 
 Love comes to you when it's ready.  
 Not when you're ready.  

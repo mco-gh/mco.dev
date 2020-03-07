@@ -1,15 +1,11 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Talks"]
-tags = ["talks"]
+tags = []
 title = "My Journey"
 date = "2017-10-31"
-draft = false
+coverImage = "/img/"
 +++
-I get paid to solve puzzles, which is my dream job.
+I get paid to solve puzzles, which is my dream job.<!--more-->
 Primarily intended for students and others interested in career planning,
 (how the web works) and summarizes some things I've learned along my 35 year journey
 in computing and software development, concluding with some career and life advice.

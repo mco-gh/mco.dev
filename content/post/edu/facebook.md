@@ -1,17 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Education"]
-image = ""
 tags = ["learn"]
 date = "2013-02-04"
 title = "Why I Quit Facebook"
+coverImage = "/img/facebook.jpg"
 +++
 
 Are you like me? Do you find yourself checking your Facebook news feed regularly and with ever increasing frequency? When you see a good movie, or take a cool photo, or experience something unique, is your first thought “I need to write a status update about that”?
-
+<!--more-->
 
 One of the reasons why Facebook is so popular is because it gives us a little dopamine hit every time we find something we like. It’s a bit like fishing — hours of idle time can be justified by those few exciting moments precipitated by a fish tugging on your line. There’s an even bigger hit waiting for active posters: for many people in the 21st Century, the Facebook “like” button has become a surrogate source of validation, commiseration, therapy and love.
 

@@ -1,12 +1,9 @@
 +++
-images = []
-banner = ""
-menu = ""
 categories = ["Media"]
-image = "disrupted.jpg"
 tags = ["books"]
 title = "Coming of Age in Silicon Valley"
 date = "2017-03-29"
+coverImage = "/img/disrupted.jpg"
 +++
 
 Dan Lyons' "Disrupted: My Misadventure in the Startup Bubble"

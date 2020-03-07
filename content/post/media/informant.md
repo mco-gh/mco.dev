@@ -3,7 +3,7 @@ categories = ["Media"]
 tags = ["book"]
 title = "The Informant"
 date = "2009-10-15"
-thumbnailImage = "img/informant.jpg"
+thumbnailImage = "/img/informant.jpg"
 +++
 
 Oftentimes, when I start a new book my initial enthusiasm gets me through the first chapter or two. Then comes the moment of truth.

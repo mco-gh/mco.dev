@@ -1,17 +1,15 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2011-03-18"
 title = "Weighing Your Options"
 subtitle = "Imagine you have nine uniformly sized white balls, eight of which weigh precisely the same amount, and one is decidedly heavier or lighter than the rest..."
+coverImage = "/img/"
 +++
 
-Imagine you have nine uniformly sized white balls, eight of which weigh precisely the same amount, and one is decidedly heavier or lighter than the rest. You also have an accurately calibrated balance scale, which you can use to compare the weight of any two sets of objects.
+Imagine you have nine uniformly sized white balls, eight of which weigh precisely the same amount, and one is decidedly heavier or lighter than the rest.
+<!--more-->
+You also have an accurately calibrated balance scale, which you can use to compare the weight of any two sets of objects.
 
 Here’s today’s challenge: with only three weighings, tell me how you can discover which ball is different and whether it’s heavier or lighter than the other eight.
 

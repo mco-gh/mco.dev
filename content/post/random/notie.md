@@ -1,14 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
 tags = ["random"]
 title = "No Tie, No Problem"
 date = "2011-08-19"
+coverImage = "/img/"
 +++
-Twenty nine years ago, I started my first and, up till now, only job, at Bell Labs in Holmdel, NJ (the lobby of which is pictured above). Bell Labs was a magical place in those days, sort of like a cross between a corporate think tank and a Grateful Dead concert. There were really smart people everywhere, all sorts of clubs and activities and seminars and colloquia (I once got to see Steve Jobs, then CEO of NeXT, give a scintillating talk to a small audience, before he was bigger than God). The best part was that everyone dressed in jeans and t-shirts (and even shorts in the Summer). That was a big deal for me because I’ve always hated the idea of having to wear a tie to work every day. Bell Labs was a place where no one cared how you looked or how you dressed – you were judged only by your ideas and your attitude.
+Twenty nine years ago, I started my first and, up till now, only job, at Bell Labs in Holmdel, NJ (the lobby of which is pictured above). Bell Labs was a magical place in those days, sort of like a cross between a corporate think tank and a Grateful Dead concert.
+<!--more-->
+There were really smart people everywhere, all sorts of clubs and activities and seminars and colloquia (I once got to see Steve Jobs, then CEO of NeXT, give a scintillating talk to a small audience, before he was bigger than God). The best part was that everyone dressed in jeans and t-shirts (and even shorts in the Summer). That was a big deal for me because I’ve always hated the idea of having to wear a tie to work every day. Bell Labs was a place where no one cared how you looked or how you dressed – you were judged only by your ideas and your attitude.
 
 For someone interested in computer science, this a was fascinating time and place. In the basement, behind heavily fortified walls, were four huge, multi-million dollar IBM mainframes, all of which were kept busy around the clock by computationally demanding scientists and engineers. One of my first assignments was to write system programs for those mainframes in something called Basic Assembly Language, a low level programming language for IBM mainframes. Our developer tools were laughably primitive by today’s standards, but programming at that low level was a great learning experience. Plus I managed to crash one of those expensive mainframes all by myself. But it left me feeling convinced there had to be a better way to develop software.
 

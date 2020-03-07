@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["productivity"]
 date = "2019-04-08"
 title = "On Flexibility"
-coverImage = "img/flex.jpg"
+coverImage = "/img/flex.jpg"
 +++
 
 I learned something important today. I had an idea to suggest to someone. But I wasn't neutral about this idea.

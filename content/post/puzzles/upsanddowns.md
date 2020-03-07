@@ -1,17 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Puzzles"]
-image = ""
-tags = ["puzzles"]
+tags = []
 date = "2011-05-06"
 title = "This Puzzle has its Ups and Downs"
 subtitle = "Let’s imagine that at noon one day you set out from the base of Mt. Rainier and you reach the summit exactly 24 hours later..."
+coverImage = "/img/"
 +++
 
-One of the nice things about living in Seattle is that on clear days we get a great view of Mt. Rainier. Considered an active volcano, Mt. Rainier is the third-highest mountain in the lower 48 states at 14,411 feet, and the most ice-covered, with 25 major glaciers covering 34 square miles (source).
+One of the nice things about living in Seattle is that on clear days we get a great view of Mt. Rainier. Considered an active volcano, Mt. Rainier is the third-highest mountain in the lower 48 states at 14,411 feet, and the most ice-covered, with 25 major glaciers covering 34 square miles (source).<!--more-->
 
 Let’s imagine that at noon one day you set out from the base of Mt. Rainier and you reach the summit exactly 24 hours later, at noon the following day. You pause for a few moments to take in the view and celebrate your accomplishment and then you turn around and head back down the mountain. You may or may not travel the same route down the mountain but assume the descent takes exactly the same amount of time as the ascent: 24 hours on the dot. Thus, you spend precisely two days on this venture, one day going up and one day coming back down (in reality, the climb and descent would take less than a full day but I’m taking a bit of “puzzle license” here).
 

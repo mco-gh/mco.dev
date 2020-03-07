@@ -1,18 +1,13 @@
 +++
-images = []
-banner = ""
-menu = ""
-description = ""
 categories = ["Random"]
 tags = ["chess", "AI"]
 title = "Chess and Intelligence"
 date = "2017-04-04"
+coverImage = "/img/chess2.jpg"
 +++
 
-Over twenty years ago, for the first time in history, 
-the [greatest living chess player](https://en.wikipedia.org/wiki/Garry_Kasparov)
-lost to a [computer](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)).<!--more-->
-
+Over twenty years ago, for the first time in history, the [greatest living chess player](https://en.wikipedia.org/wiki/Garry_Kasparov) lost to a [computer](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)).
+<!--more-->
 When I was a grad student, I remember a famous pronouncement about the state of artificial intelligence: computers can do just about any numerical calculation you can think of,
 millions of times faster than a human, but the most advanced computer in the world
 still can't do something every four year old can do - 
