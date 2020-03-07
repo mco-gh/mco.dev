@@ -1,9 +1,11 @@
 +++
 description = ""
 tags = ["me"]
-date = "2018-01-01"
 title = "About"
 thumbnailImage = "img/mco2.jpg"
+comments = false
+showMeta = false
+showActions = false
 +++
 
 I'm an American software engineer working on Google's Developer Relations team in London.
