@@ -6,11 +6,11 @@ date = "2018-12-29"
 coverImage = "/img/selfdestructor.jpg"
 +++
 
+<!--more-->
 A part of me  
 Wants to destroy  
 Everything I am.  
 Everything I've done.  
-<!--more-->
 
 Tear it up.  
 Burn it down  

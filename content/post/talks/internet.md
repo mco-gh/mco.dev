@@ -3,7 +3,7 @@ categories = ["Talks"]
 tags = []
 title = "How the Internet Works"
 date = "2017-10-31"
-coverImage = "/img/internet.jpg"
+coverImage = "/img/internet.png"
 +++
 This talk provides a lesson on a topic I think all students, regardless of major,
 should know something about: the Internet, where it came from, how it works, and

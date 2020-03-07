@@ -3,15 +3,15 @@ categories = ["Poems"]
 tags = []
 title = "My Angel"
 date = "2018-01-01"
-coverImage = "/img/angle.jpg"
+coverImage = "/img/myangel.jpg"
 +++
 
+<!--more-->
 I have an angel in my life.  
 
 Once upon a time she was my little girl.  
 I held her in my arms, and I watched her grow.  
 When she smiled at me, I felt happy to be alive.  
-<!--more-->
 
 Now she's all grown up.  
 She has angels of her own.  

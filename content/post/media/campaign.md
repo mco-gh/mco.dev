@@ -6,8 +6,9 @@ date = "2010-06-06"
 thumbnailImage = "/img/campaign.jpg"
 +++
 
-We’re all going to die someday, we just don’t know when and how. As the main character points out, with the exception of how we die, most of us have the ability to control the major decisions of our lives. At the time this film was made, only one of our 50 states (Oregon) gave citizens with terminal illness the legal right to end their suffering.
+We’re all going to die someday, we just don’t know when and how.
 <!--more-->
+As the main character points out, with the exception of how we die, most of us have the ability to control the major decisions of our lives. At the time this film was made, only one of our 50 states (Oregon) gave citizens with terminal illness the legal right to end their suffering.
 The story is told through the eyes of well-liked former WA Governor Booth Gardner, who retired from politics in 1993. Out of the spotlight for 15 years, Gardner now suffers from the debilitating symptoms of advanced Parkinson’s Disease. At a time when Gardner is physically and mentally most vulnerable, he decides to re-enter the public arena in order to fight one more battle: promoting WA state initiative I-1000, the “Death with Dignity Act”. Not including the victory in Oregon, similar ballot measures around the US have resulted in a long string of consecutive losses so Gardner is fighting long odds.
 
 In addition to the courageous protagonist, we meet a number of interesting characters on both sides of the issue, including Dwayne French, a quadriplegic advocate for disabled peoples’ rights, who serves as one of the opposition leaders. We also learn some of the policy details; for example, a person seeking to end his or her life must be competent, must have a terminal disease and must be certified by two physicians to have six months or less to live.

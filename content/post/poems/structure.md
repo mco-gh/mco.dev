@@ -6,13 +6,14 @@ date = "2018-12-29"
 coverImage = "/img/structure.jpg"
 +++
 
+<!--more-->
 We are informed,  
 In no uncertain terms,  
-By the Second Law of Thermodynamics,  
+By the Second Law  
+of Thermodynamics,  
 That the universe is tending,  
 Inexorably,  
 Toward chaos.  
-<!--more-->
 
 And yet,  
 Everywhere we look  

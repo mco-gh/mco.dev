@@ -3,7 +3,7 @@ categories = ["Education"]
 tags = []
 date = "2011-01-23"
 title = "Why Don't We Teach Social Skills?"
-coverImage = "/img/skills.jpg"
+coverImage = "/img/skills.png"
 +++
 
 I think there’s a glaring hole in our nation’s public school curriculum. I’m talking about an imaginary missing course called “Social Dynamics 101″. Since it’s my imaginary course, I get to come up with an imaginary syllabus:

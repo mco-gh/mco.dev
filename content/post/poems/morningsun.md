@@ -6,11 +6,11 @@ date = "2018-12-29"
 coverImage = "/img/morningsun.jpg"
 +++
 
+<!--more-->
 Morning quietly arrives  
 A bird sings us awake  
 Yesterday recedes  
 And a new day begins  
-<!--more-->
 
 Summer in Seattle  
 One little angel  

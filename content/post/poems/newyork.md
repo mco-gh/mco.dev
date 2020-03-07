@@ -6,11 +6,11 @@ date = "2018-12-29"
 coverImage = "/img/newyork.jpg"
 +++
 
+<!--more-->
 Washington Square Park,  
 On a warm summer night,  
 In this city that dares you  
 To dream big.  
-<!--more-->
 
 Dogs play in the fountain.  
 Chess hustlers talk trash,  
