@@ -2,8 +2,8 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 1"
-date = "2020-03-11"
-coverImage = "img/wiki.jpg"
+date = "2020-03-09"
+coverImage = "/img/wiki.jpg"
 +++
 
 What's bigger than Wikipedia? Spoiler: Wikipedia page views.
@@ -67,6 +67,8 @@ In short, this is not what we'd call a well engineered process, so let's fix tha
 
 Sometimes low tech is the best choice for getting started. This job is mostly about moving files around, comparing what we've already acquired with what's available on the web, and taking appropriate actions. Most of those operations already exist in Linux commands, like wget, gsutil, awk, comp, etc. Consider the following shell script (pageviews.sh), which takes care of gathering all the latest page view data:
 
+<details>
+  <summary>Click here to expand code</summary>
 ```bash
 # Independent variables
 USAGE="$0 [-d] [all|year|month|day]"
@@ -138,11 +140,14 @@ then
   ./update.sh $YYYY $MM $DD
 fi
 ```
+</details>
 
 This script can be called with any of the following time window arguments: day, month, year, or all. It audits our existing data over the requested time window and ingests any missing files. This script is idempotent by design -- you can call it repeatedly and it will always try to make our copy of the data match the publicly available data.
 
 The last step in the script calls a sub-script (update.sh) which parses the newly acquired data and loads it into the appropriate BigQuery table. It looks like this:
 
+<details>
+  <summary>Click here to expand code</summary>
 ```bash
 if [ "$1" = "" -o "$2" = "" -o "$3" = "" ]
 then
@@ -185,11 +190,14 @@ EOF
 echo "transferring data from GCS to BQ table for $YEAR-$MONTH-$DAY..."
 bq query -q --use_legacy_sql=false "$QUERY"
 ```
+</details>
 
 ## Wikidata decompression - We're gonna need a bigger boat
 
 That takes care of the pageviews, but what about the wikidata? Here's a script called entities.sh, which takes care of the entity data. Structurally, it's similar to the pageviews.sh script, except that instead of acquiring the data, it simply prints the file name it would like to acquire. The reason we do this is because we're not going to actually gather the entity data in this script -- it's too big a job, involving a large download, a massive decompression, and a huge upload. Instead, we'll use this script to drive the [Storage Transfer](http://localhost:1313/getting-your-foot-in-the-door/) service.
 
+<details>
+  <summary>Click here to expand code</summary>
 ```bash
 BUCKET=wiki-staging
 DOMAIN=dumps.wikimedia.org
@@ -218,6 +226,7 @@ then
   echo -en "$SRC_DATA_URL$EOL"
 fi
 ```
+</details>
 
 ## Let's productionize this thing
 
@@ -229,6 +238,8 @@ We wrap the pageviews.sh script in a Cloud Run job that runs once per hour. Any 
 
 The entities.sh script is used to drive a [Storage Transfer](http://localhost:1313/getting-your-foot-in-the-door/) job. Once a day it looks for new wikidata on the web and, if found, it downloads the file to Cloud Storage. Once the new file is stored in GCS, it triggers a cloud run job called load.sh, which looks like this:
 
+<details>
+  <summary>Click here to expand code</summary>
 ```bash
 VMNAME=wikiload
 PROJECT=bigquery-public-data-staging
@@ -253,6 +264,8 @@ gcloud beta compute instances create $VMNAME \
   --metadata-from-file startup-script=startup.sh \
   --preemptible
 ```
+</details>
+
 This script creates a high end (m1-ultramem-80) virtual machine to process the new wikidata file. The details of the processing are specified in the startup script, startup.sh, which consists of the following steps:
 
 * download compressed entity data from cloud storage using gsutil

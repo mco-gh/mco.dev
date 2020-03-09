@@ -15,6 +15,8 @@ That was a fair bit of work. What can we do with it? For starters, let's find ou
 
 **Warning -- don't actually run this query yourself, it's quite expensive!**
 
+<details>
+  <summary>Click here to expand code</summary>
 ```sql
 SELECT title, SUM(views) views
 FROM `bigquery-public-data.wikipedia.pageviews_*`
@@ -24,6 +26,8 @@ GROUP BY title
 ORDER BY views DESC
 LIMIT 20
 ```
+</details
+
 ![Design](/img/allviews.png)
 
 Unsurprisingly, the most viewed page is the main Wikipedia page. But the most viewed non-administrative page is, oddly enough, Darth Vader! I leave you to decide what that says about humanity.
@@ -46,6 +50,8 @@ Armed with those two entity ids, we can now do some queries about popular bands.
 
 Here's the SQL code to create my view (which I've made public):
 
+<details>
+  <summary>Click here to expand code</summary>
 ```SQL
 CREATE OR REPLACE TABLE `mco-bigquery.wikipedia.bands`
 (datehour TIMESTAMP, title STRING, views INT64)
@@ -65,10 +71,14 @@ AND a.wiki='en'
 AND DATE(a.datehour) BETWEEN '2015-01-01' AND '2020-12-31'
 GROUP BY datehour, title
 ```
+</details>
+
 This view gives us a dataset we can query much more quickly and economically, because we're only scanning information associated with bands, which is a small subset of the overall dataset.
 
 Let's find the most wiki-popular band so far in 2020 with this query:
 
+<details>
+  <summary>Click here to expand code</summary>
 ```SQL
 SELECT title, SUM(views) views
 FROM `mco-bigquery.wikipedia.bands`
@@ -77,6 +87,7 @@ GROUP BY title
 ORDER BY views DESC
 LIMIT 100
 ```
+</details>
 
 And the results (as of March 5, 2020)...
 
@@ -103,6 +114,8 @@ I've made this data available to everyone in the BigQuery Public Dataset collect
 
 These tables are partitioned so you can save time and cost by time limiting your queries, like this:
 
+<details>
+  <summary>Click here to expand code</summary>
 ```SQL
 SELECT title, SUM(views) views
 FROM `bigquery-public-data.wikipedia.pageviews_2019`
@@ -111,6 +124,7 @@ GROUP BY title
 ORDER BY views DESC
 LIMIT 20
 ```
+</details>
 
 The "Battle of the Bands" dashboard is also available for your use at [mco.fyi/bands](https://mco.fyi/bands).
 
