@@ -37,6 +37,7 @@ This is starting to look bigger than an afternoon job. Whenever a project starts
 ![Data Plan](/img/WikiData.png)
 
 Page view data are published hourly. We'll gather them within an hour of release.
+
 - Hourly page view files are typically on the order of 1.5 GB uncompressed. That's small enough that we can process them using a serverless method like Cloud Run, which will save us a lot of administrative hassle.
 - Wikidata is released every three days. We'll gather the latest copy within 24 hours of its release.
 - Wikidata requires a large (1TB) decompression. It's too big a job for a serverless mechanism so we'll allocate a dynamic virtual machine, which we can dedicate to this task for as long as we need it.
