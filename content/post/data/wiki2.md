@@ -4,6 +4,7 @@ tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 2"
 date = "2020-03-08"
 coverImage = "img/wiki.jpg"
+draft = true
 +++
 
 In the first part of this 
