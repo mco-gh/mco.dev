@@ -2,14 +2,14 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 1"
-date = "2020-03-07"
+date = "2020-03-11"
 coverImage = "img/wiki.jpg"
 +++
 
 What's bigger than Wikipedia? Spoiler: Wikipedia page views.
 <!--more-->
 This is the first of a two part series. In this part one, we'll cover the problem statement and the data engineering solution, including all the code needed to build a reliable, robust big data processing pipeline.
-In [part two](), we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
+In the upcoming part two (not yet released), we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
 
 I often give talks to students and I like to ask if anyone knows what's represented in the cover photo of this article. I find it amusing than many aren't sure what they're looking at, so I inform them how, when I was their age, that was my Wikipedia.
 
@@ -261,7 +261,7 @@ This script creates a high end (m1-ultramem-80) virtual machine to process the n
 * load uncompressed json from Cloud Storage to BigQuery using bq command
 
 ## Resources and Ackowledgements
-* [Part 2 of this series]()
+* Part 2 of this series (coming soon)
 * All of the code described in this article can be found here:
 [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata).
 * Many thanks to [Felipe Hoffa](https://medium.com/@hoffa). Several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
