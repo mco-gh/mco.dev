@@ -2,7 +2,7 @@
 categories = ["Media"]
 tags = ["music"]
 title = "My 2019 Spotify Playlist"
-date = "2019-12-26"
+date = "2019-12-31"
 thumbnailImage = "/img/spotify19.png"
 +++
 

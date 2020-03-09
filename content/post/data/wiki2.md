@@ -2,8 +2,8 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 2"
-date = "2020-03-08"
-coverImage = "img/wiki.jpg"
+date = "2020-03-16"
+coverImage = "img/wiki2.jpg"
 draft = true
 +++
 

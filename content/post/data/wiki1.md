@@ -3,7 +3,7 @@ categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 1"
 date = "2020-03-09"
-coverImage = "/img/wiki.jpg"
+coverImage = "/img/wiki1.jpg"
 +++
 
 What's bigger than Wikipedia? Spoiler: Wikipedia page views.
