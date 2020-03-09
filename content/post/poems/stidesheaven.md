@@ -7,6 +7,8 @@ coverImage = "/img/stidesheaven.jpg"
 +++
 
 <!--more-->
+{{< youtube gof-Wr2pfWk >}}
+
 High on amphetamines,  
 The moon is a lightbulb breaking.  
 It'll go around with anyone.  
