@@ -7,9 +7,9 @@ coverImage = "img/wiki.jpg"
 draft = true
 +++
 
-In the first part of this 
+This is the second of a two part series. In [part one](), we covered the problem statement and the data engineering solution, including all the code needed to build a reliable, robust big data processing pipeline. In this part two, we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
 <!--more-->
-## So what?
+## What do we care about?
 
 That was a fair bit of work. What can we do with it? For starters, let's find out the most popular Wikipedia article over the five years these access logs have been recorded:
 
@@ -115,6 +115,7 @@ LIMIT 20
 The "Battle of the Bands" dashboard is also available for your use at [mco.fyi/bands](https://mco.fyi/bands).
 
 ## Resources and Ackowledgements
+* [Part 1 of this series.]()
 * All of the code described in this article can be found here:
 [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata).
 * Many thanks to [Felipe Hoffa](https://medium.com/@hoffa). Several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
