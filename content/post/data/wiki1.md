@@ -3,12 +3,12 @@ categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 1"
 date = "2020-03-09"
+weight = 1
 coverImage = "/img/wiki1.jpg"
 +++
 
-What's bigger than Wikipedia? Spoiler: Wikipedia page views.
+What's bigger than Wikipedia? Spoiler: Wikipedia page views. This is the first of a two part series in which we'll explore how to build a data engineering solution to process all 10TB of published wikipedia pageviews and entity data.
 <!--more-->
-This is the first of a two part series. In this part one, we'll cover the problem statement and the data engineering solution, including all the code needed to build a reliable, robust big data processing pipeline.
 In the upcoming part two (not yet released), we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
 
 I often give talks to students and I like to ask if anyone knows what's represented in the cover photo of this article. I find it amusing than many aren't sure what they're looking at, so I inform them how, when I was their age, that was my Wikipedia.

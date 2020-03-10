@@ -2,13 +2,16 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 2"
-date = "2020-03-16"
+date = "2020-03-10"
 coverImage = "img/wiki2.jpg"
+weight = 1
 draft = true
 +++
 
-This is the second of a two part series. In [part one](), we covered the problem statement and the data engineering solution, including all the code needed to build a reliable, robust big data processing pipeline. In this part two, we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
+This is the second of a two part series in which we focus on interesting queries and visualizations using the data pipeline we created in [part one].
 <!--more-->
+In [part one](), we covered the problem statement and the data engineering solution, including all the code needed to build a reliable, robust big data processing pipeline. In this part two, we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
+
 ## What do we care about?
 
 That was a fair bit of work. What can we do with it? For starters, let's find out the most popular Wikipedia article over the five years these access logs have been recorded:
