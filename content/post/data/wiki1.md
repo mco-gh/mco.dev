@@ -2,7 +2,7 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 1"
-date = "2020-03-09"
+date = "2020-03-10"
 weight = 1
 coverImage = "/img/wiki1.jpg"
 +++
@@ -275,8 +275,10 @@ This script creates a high end (m1-ultramem-80) virtual machine to process the n
 
 ## Resources and Ackowledgements
 * Part 2 of this series (coming soon)
-* All of the code described in this article can be found here:
-[github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata).
+* All of the code described in this article will be released shortly on Github.
+<!--
+can be found at [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata)
+-->
 * Many thanks to [Felipe Hoffa](https://medium.com/@hoffa). Several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
 [partitioning and lazy loading](https://medium.com/google-cloud/bigquery-lazy-data-loading-ddl-dml-partitions-and-half-a-trillion-wikipedia-pageviews-cd3eacd657b6), 
 and [clustering](https://medium.com/google-cloud/bigquery-optimized-cluster-your-tables-65e2f684594b).
