@@ -273,12 +273,13 @@ This script creates a high end (m1-ultramem-80) virtual machine to process the n
 * upload uncompressed file back to Cloud Storage using gsutil
 * load uncompressed json from Cloud Storage to BigQuery using bq command
 
+## Conclusion
+
+We now have a robust, reliable, and mostly serverless data processing pipeline to gather new page views every hour and replacing the entity data within 24 hours of its release. In part 2 of this series, we'll have some fun exploring this data, both with SQL queries and Data Studio visualizations.
+
 ## Resources and Ackowledgements
 * Part 2 of this series (coming soon)
-* All of the code described in this article will be released shortly on Github.
-<!--
-can be found at [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata)
--->
+* All of the code described in this article can be found at [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata).
 * Many thanks to [Felipe Hoffa](https://medium.com/@hoffa). Several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
 [partitioning and lazy loading](https://medium.com/google-cloud/bigquery-lazy-data-loading-ddl-dml-partitions-and-half-a-trillion-wikipedia-pageviews-cd3eacd657b6), 
 and [clustering](https://medium.com/google-cloud/bigquery-optimized-cluster-your-tables-65e2f684594b).
