@@ -131,7 +131,7 @@ LIMIT 20
 
 The "Battle of the Bands" dashboard is also available for your use at [mco.fyi/bands](https://mco.fyi/bands).
 
-## Resources and Ackowledgements
+## Resources and Acknowledgements
 * [Part 1 of this series.]()
 * All of the code described in this article can be found here:
 [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata).

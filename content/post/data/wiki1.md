@@ -279,7 +279,7 @@ This script creates a high end (m1-ultramem-80) virtual machine to process the n
 
 We now have a robust, reliable, and mostly serverless data processing pipeline to gather new page views every hour and replacing the entity data within 24 hours of its release. In part 2 of this series, we'll have some fun exploring this data, both with SQL queries and Data Studio visualizations.
 
-## Resources and Ackowledgements
+## Resources and Acknowledgements
 * Part 2 of this series (coming soon)
 * All of the code described in this article can be found at [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata).
 * Many thanks to [Felipe Hoffa](https://medium.com/@hoffa). Several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
