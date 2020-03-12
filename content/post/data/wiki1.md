@@ -285,4 +285,4 @@ We now have a robust, reliable, and mostly serverless data processing pipeline t
 * Many thanks to [Felipe Hoffa](https://medium.com/@hoffa). Several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
 [partitioning and lazy loading](https://medium.com/google-cloud/bigquery-lazy-data-loading-ddl-dml-partitions-and-half-a-trillion-wikipedia-pageviews-cd3eacd657b6), 
 and [clustering](https://medium.com/google-cloud/bigquery-optimized-cluster-your-tables-65e2f684594b).
-* Shane Glass provided invaluable support helping me add this data to the wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) collection.
+* [Shane Glass](https://twitter.com/shanecglass) provided invaluable support helping me add this data to the wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) collection.
