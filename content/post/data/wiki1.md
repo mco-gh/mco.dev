@@ -13,7 +13,7 @@ In the upcoming part two (not yet released), we'll cover some of the fun things 
 
 ## Introduction
 
-I often give talks to students and I like to ask if anyone knows what's represented in the cover photo of this article. I find it amusing than many aren't sure what they're looking at, so I inform them how, when I was their age, that was my Wikipedia.
+I often give talks to students and I like to ask if anyone knows what's represented in the cover photo of this article. I find it amusing that many aren't sure what they're looking at, so I inform them how, when I was their age, that was my Wikipedia.
 
 Because it's a centralized web resource, Wikpedia has an interesting property that the encyclopedias of my childhood could never match: it can see every page access. The Wikimedia Foundation, which operates and maintains Wikipedia, provides [detailed access logs](http://dumps.wikimedia.your.org/) on an hourly basis. This information contains an entry for every view of every article, anywhere in the world, in any language.
 
