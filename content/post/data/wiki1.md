@@ -33,7 +33,7 @@ It turns out, the Wikimedia foundation provides just such a collection of metada
 
 ![Barack Obama](/img/BarackObama.png)
 
-Armed with the page views and the wikidata, we can run powerful categorical queries. But there's one catch: the Wikidata is huge: 400GB compressed and nearly 1TB uncompressed. So we're going to have handle it with care.
+Armed with the page views and the wikidata, we can run powerful categorical queries. But there's one catch: the Wikidata is huge: 400GB compressed and nearly 1TB uncompressed. So we'll need to handle it with care.
 
 ## What problem are we trying to solve? 
 
