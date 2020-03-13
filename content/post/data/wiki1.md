@@ -235,7 +235,7 @@ So far, we have a bunch of shell scripts but we need to run those scripts automa
 
 ![Design](/img/design.png)
 
-We wrap the pageviews.sh script in a Cloud Run job that runs once per hour. Any new files are automatically downloaded to Cloud Storage, parsed, and loaded in a BigQuery table.
+We wrap the pageviews.sh script in a Cloud Run job that runs once per hour. Any new files are automatically downloaded to Cloud Storage, parsed, and loaded into a BigQuery table.
 
 The entities.sh script is used to drive a [Storage Transfer](http://localhost:1313/getting-your-foot-in-the-door/) job. Once a day it looks for new wikidata on the web and, if found, it downloads the file to Cloud Storage. Once the new file is stored in GCS, it triggers a cloud run job called load.sh, which looks like this:
 
@@ -276,7 +276,7 @@ This script creates a high end (m1-ultramem-80) virtual machine to process the n
 
 ## Conclusion
 
-We now have a robust, reliable, and mostly serverless data processing pipeline to gather new page views every hour and replacing the entity data within 24 hours of its release. In part 2 of this series, we'll have some fun exploring this data, both with SQL queries and Data Studio visualizations.
+We now have a robust, reliable, and mostly serverless data processing pipeline to gather new page views every hour and replace the entity data within 24 hours of its release. In part 2 of this series, we'll have some fun exploring this data, both with SQL queries and Data Studio visualizations.
 
 ## Resources and Acknowledgements
 * Part 2 of this series (coming soon)
