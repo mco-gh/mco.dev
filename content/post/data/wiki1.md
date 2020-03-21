@@ -2,6 +2,7 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 1"
+subtitle = "Data Engineering"
 date = "2020-03-11"
 weight = 1
 coverImage = "/img/wiki1.jpg"
@@ -9,7 +10,7 @@ coverImage = "/img/wiki1.jpg"
 
 What's bigger than Wikipedia? Spoiler: Wikipedia page views. This is the first of a two part series in which we'll explore how to build a data engineering solution to process all 10TB of published wikipedia pageviews and entity data.
 <!--more-->
-In the upcoming part two (not yet released), we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
+In [Part 2](/processing-10tb-of-wikipedia-page-views-part-2/) of this series we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
 
 ## Introduction
 
@@ -279,7 +280,7 @@ This script creates a high end (m1-ultramem-80) virtual machine to process the n
 We now have a robust, reliable, and mostly serverless data processing pipeline to gather new page views every hour and replace the entity data within 24 hours of its release. In part 2 of this series, we'll have some fun exploring this data, both with SQL queries and Data Studio visualizations.
 
 ## Resources and Acknowledgements
-* Part 2 of this series (coming soon)
+* [Part 2](/processing-10tb-of-wikipedia-page-views-part-2/) of this series
 * All of the code described in this article can be found at [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata).
 * Many thanks to [Felipe Hoffa](https://medium.com/@hoffa). Several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
 [partitioning and lazy loading](https://medium.com/google-cloud/bigquery-lazy-data-loading-ddl-dml-partitions-and-half-a-trillion-wikipedia-pageviews-cd3eacd657b6), 

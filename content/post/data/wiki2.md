@@ -2,15 +2,16 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Processing 10TB of Wikipedia Page Views - Part 2"
-date = "2020-03-10"
+subtitle = "Data Visualization"
+date = "2020-03-21"
 coverImage = "img/wiki2.jpg"
 weight = 1
-draft = true
+draft = false
 +++
 
-This is the second of a two part series in which we focus on interesting queries and visualizations using the data pipeline we created in [part one].
+This is the second of a two part series in which we focus on interesting queries and visualizations using the data pipeline we created in [part one](/processing-10tb-of-wikipedia-page-views-part-1/).
 <!--more-->
-In [part one](), we covered the problem statement and the data engineering solution, including all the code needed to build a reliable, robust big data processing pipeline. In this part two, we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
+In [part one](/processing-10tb-of-wikipedia-page-views-part-1/), we covered the problem statement and the data engineering solution, including all the code needed to build a reliable, robust big data processing pipeline. In this part two, we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
 
 ## What do we care about?
 
@@ -29,7 +30,7 @@ GROUP BY title
 ORDER BY views DESC
 LIMIT 20
 ```
-</details
+</details>
 
 ![Design](/img/allviews.png)
 
@@ -132,10 +133,10 @@ LIMIT 20
 The "Battle of the Bands" dashboard is also available for your use at [mco.fyi/bands](https://mco.fyi/bands).
 
 ## Resources and Acknowledgements
-* [Part 1 of this series.]()
+* [Part 1](/processing-10tb-of-wikipedia-page-views-part-1/) of this series
 * All of the code described in this article can be found here:
 [github.com/marcacohen/wikidata](https://github.com/marcacohen/wikidata).
 * Many thanks to [Felipe Hoffa](https://medium.com/@hoffa). Several of the queries and data management techniques in this article were derived from Felipe's excellent articles on
 [partitioning and lazy loading](https://medium.com/google-cloud/bigquery-lazy-data-loading-ddl-dml-partitions-and-half-a-trillion-wikipedia-pageviews-cd3eacd657b6), 
 and [clustering](https://medium.com/google-cloud/bigquery-optimized-cluster-your-tables-65e2f684594b).
-* Shane Glass provided invaluable support helping me add this data to the wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) collection.
+* [Shane Glass](https://twitter.com/shanecglass) provided invaluable support helping me add this data to the wonderful [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) collection.
