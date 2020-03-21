@@ -9,36 +9,37 @@ weight = 1
 draft = false
 +++
 
-This is the second of a two part series in which we focus on interesting queries and visualizations using the data pipeline we created in [part one](/processing-10tb-of-wikipedia-page-views-part-1/).
+This is the second of a two part series in which we focus on interesting queries and visualizations using the data pipeline we created in part one.
 <!--more-->
 In [part one](/processing-10tb-of-wikipedia-page-views-part-1/), we covered the problem statement and the data engineering solution, including all the code needed to build a reliable, robust big data processing pipeline. In this part two, we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
 
-## What do we care about?
+## What can we do with this data?
 
-That was a fair bit of work. What can we do with it? For starters, let's find out the most popular Wikipedia article over the five years these access logs have been recorded:
-
-**Warning -- don't actually run this query yourself, it's quite expensive!**
+For starters, let's find out the most popular Wikipedia article so far this year:
 
 <details>
   <summary>Click here to expand code</summary>
 ```sql
-SELECT title, SUM(views) views
-FROM `bigquery-public-data.wikipedia.pageviews_*`
-WHERE DATE(datehour) BETWEEN "2015-01-01" AND "2020-12-31"
-AND wiki = "en"
+SELECT title, SUM(views) total_views
+FROM `bigquery-public-data.wikipedia.pageviews_2020` 
+WHERE wiki IN ('en', 'en.m') 
+AND title NOT IN ('Main_Page','-','Wikipedia')
+AND title NOT LIKE 'File%'
+AND title NOT LIKE 'Special:%'
+AND title NOT LIKE 'Portal:%'
+AND datehour>='2020-01-01'
+AND views>10000
 GROUP BY title
-ORDER BY views DESC
-LIMIT 20
+ORDER BY 2 DESC
+LIMIT 10
 ```
 </details>
 
 ![Design](/img/allviews.png)
 
-Unsurprisingly, the most viewed page is the main Wikipedia page. But the most viewed non-administrative page is, oddly enough, Darth Vader! I leave you to decide what that says about humanity.
-
 ## It's only rock & roll, but I like it
 
-That last query was interesting but it doesn't take advantage of the entity data we worked so hard to process. Let's construct an example leveraging our wikidata table to find the most viewed pages for rock bands in 2020. Of course, this begs the question, what is a rock band? Wikidata to the rescue!
+That last query was interesting but it doesn't take advantage of the entity data we worked so hard to process in part 1. Let's construct an example leveraging our wikidata table to find the most viewed pages for rock bands in 2020. Of course, this begs the question, what is a rock band? Wikidata to the rescue!
 
 You can search the wikidata interactively via the [wikidata site](https://www.wikidata.org/wiki/Wikidata:Main_Page), like this:
 
@@ -52,7 +53,7 @@ Here we see that the preeminent rock band, The Beatles, is indeed classified as 
 
 Armed with those two entity ids, we can now do some queries about popular bands. But I want to do one more thing before we start querying. Since our scope is limited to just those two entities, it's wasteful to search the full 10TB dataset on every query. Wouldn't it be nice if there was a way to limit our search to include only the pages we care about? Well, there is - we'll create what BigQuery calls a view, which will limit our query scope to only the view counts for pages about bands.
 
-Here's the SQL code to create my view (which I've made public):
+Here's the SQL code to create my view, which I've made public so you can try it too:
 
 <details>
   <summary>Click here to expand code</summary>
@@ -89,19 +90,27 @@ FROM `mco-bigquery.wikipedia.bands`
 WHERE DATE(datehour) BETWEEN "2020-01-01" AND "2020-12-31"
 GROUP BY title
 ORDER BY views DESC
-LIMIT 100
+LIMIT 10
 ```
 </details>
 
-And the results (as of March 5, 2020)...
+And the results as of this writing... 
 
 ![Most popular bands of 2020](/img/bands2020.png)
 
 ## Let's make a dashboard!
 
-This is fun but 1) it doesn't have any sense of variation over time, 2) SQL queries can get a bit tedious. Wouldn't it be nice if we could easily, without writing a single line of code, query this data by clicking menus rather than specifying SQL text? And to see results in a nice color coded time series graph?
+This is fun but:
 
-Using [Google Data Studio](https://datastudio.google.com/overview), I made just such a dashboard, which I've embeded below. Give it a spin - you can play with the selected bands and the time frame you'd like to analyse.
+1. It's a snapshot of a single moment -- it doesn't give us any sense of how this data varies over time.
+1. SQL queries can be a bit complicated, especially for beginners. 
+1. This query is interactive for me but I'd like to somehow share that interactivity with others.
+
+Wouldn't it be nice if I could easily, without writing a single line of code, allow everyone to query this data, with mouse clicks rather than SQL queries, and to see the results in a nice color coded time series graph?
+
+Using [Google Data Studio](https://datastudio.google.com/overview), I made just such a dashboard, which I've embeded below. Give it a try -- you can play with the selected bands and the time frame you'd like to analyse.
+<br />
+<br />
 
 <iframe width="100%" height="500" src="https://datastudio.google.com/embed/reporting/ca35a15e-868b-4529-9c6c-0a5610e23a3e/page/Viq6" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -109,10 +118,10 @@ For example, I wonder which band, during the last five years, was more popular: 
 
 ![Beatles vs. Stones](/img/beatles-stones.png)
 
-Despite having ended their career fifty years ago, the Beatles continue to gather incredible Wikipedia attention.
+Despite having ended their career fifty years ago, the Beatles continue to gather a pretty impressive level of attention in Wikipedia page views.
 
 ## Now it's your turn
-I've made this data available to everyone in the BigQuery Public Dataset collection. The pageviews are coming in roughly every hour and the entity data gets refreshed every 3-4 days. The data can be found in the bigquery-public-data collection, under Wikipedia, as shown below:
+I've made this data available to everyone in the BigQuery Public Dataset collection. The pageviews are coming in roughly every hour and the entity data gets refreshed every 3-4 days. The data can be found in the ```bigquery-public-data``` collection, under ```Wikipedia```, as shown below:
 
 ![Public wikipedia dataset](/img/public.png)
 
