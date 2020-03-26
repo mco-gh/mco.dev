@@ -5,8 +5,10 @@ title = "Biker"
 date = "2020-03-26"
 coverImage = "img/strummer.png"
 +++
+
 Reportedly written about Joe Strummer... 
 <!--more-->  
+<br>
 {{< youtube lP7K1wIAvpg >}}  
   
 Biker they tell me  
