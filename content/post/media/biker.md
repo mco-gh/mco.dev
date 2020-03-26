@@ -28,11 +28,10 @@ Like an outlaw with a belief
 To them it's the norm for  
 A man to conform  
 To a godless society  
-
 You bring the biker out in me  
 You bring the biker out in me  
 
-Because they've no interest  
+Because you've no interest  
 In the struggle to obtain  
 The status and bogus desires  
 That drive most people insane  
