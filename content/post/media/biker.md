@@ -12,7 +12,7 @@ Reportedly written about Joe Strummer...
 {{< youtube lP7K1wIAvpg >}}  
   
 Biker they tell me  
-You're a dangerous love  
+You're a dangerous lover  
 Well that might be true  
 Oh, but I'd never ride with another  
 
