@@ -5,8 +5,6 @@ title = "Processing 10TB of Wikipedia Page Views - Part 2"
 subtitle = "Data Visualization"
 date = "2020-03-21"
 coverImage = "img/wiki2.jpg"
-weight = 1
-draft = false
 +++
 
 This is the second of a two part series in which we focus on interesting queries and visualizations using the data pipeline we created in part one.
