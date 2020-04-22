@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "/Users/marccohen/.pyenv/versions/3.6.4/bin/python"
+  "python.pythonPath": "/Users/marccohen/.pyenv/versions/3.6.4/bin/python",
+  "git.ignoreLimitWarning": true
 }
