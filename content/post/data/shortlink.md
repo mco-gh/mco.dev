@@ -4,6 +4,7 @@ tags = ["cloud", "dataviz"]
 title = "Build Your Own bit.ly"
 date = "2020-04-28"
 coverImage = "/img/shortlink.jpg"
+draft = true
 +++
 
 In this article we'll build a simple but powerful short link service
