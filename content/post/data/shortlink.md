@@ -90,7 +90,9 @@ For my web service, I chose Cloud Run because it's also SIMPLE:
 
 Hmmmm...where have I seen that list before? :)
 
-Here's my server code:
+Of course, I want this service to live behind a nice short domain name. After all, cloudrundfghdkfghds/foo doesn't seem particularly short, does it? So I snarfed up mco.fyi (the "fyi" top level domain feels just right for this kind of service), which nowadays is about as short a name as you're going to find. Cloud Run makes it super easy to assign your own domain name to a service via this easy dialog:
+
+I chose to write my server in Go, because it's my favorite system programming language. Because Cloud Run is language and environment agnostic, I could have just as easily used Python, Java, Ruby, or Fortran for that matter. Here's my server code in Go:
 
 Here's my Dockerfile:
 
@@ -114,4 +116,8 @@ One thing I'm quite happy with is the size of this app:
 
 ## Conclusion
 
-## Resources and Acknowledgements
+Here's the final version of my site in all it's glory:
+
+<img src="/img/mco.fyi.png" width="400" height="400" style="display:block; margin:auto">
+
+In case you're wondering, that cute guy is Meiko. Whenever you visit a short link at mco.fyi/something, his job is to go fetch the long version and return it to your browser. Thanks to Google and Meiko, my short link service is SIMPLE _and_ useful. If you'd like to try this code for yourself, it's all available in on Github. Also, here's the slide version of this story.
