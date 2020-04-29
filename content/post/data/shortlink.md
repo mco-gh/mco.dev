@@ -37,11 +37,80 @@ This is so simple it hardly warrants a design diagram but old habits die hard, s
 
 ## Database - Firestore
 
-## Server - Cloud Run
+I chose Cloud Firestore for my database because it's SIMPLE:
+
+- Scalable
+- Intuitive
+- Managed
+- Portable
+- Lego-like
+- Economical
+
+Here's my simple data model: one document field per short link, each containing:
+
+- field name - the short link part of the URL (e.g. this would be "foo" for mco.fyi/foo).
+- count - keeps track of how many times a given short link was accessed
+- desc - a human friendly description of where a given short link takes you
+- private - a boolean value which hides the short link from the public list of links
+
+Here's the data in action as seen in the Google Cloud Console:
+
+<img src="/img/firestore-console.png" width="400" height="400" style="display:block; margin:auto">
+
+Of course, you can use this page to view your data but what I really like is you can use it to update your data as well. It's so easy that I use this page to administer my links. I essentially get a database admin UI for free. Less work for me!
 
 ## User Interface - Svelte
 
+<img src="/img/svelte.png" width="400" height="400" style="display:block; margin:auto">
+
+For my web programing, there are so many choices...Of course, React is the 600 pound gorilla, and Vue is the choice of hipsters everywhere, and of course my own company's Angular JS is always a strong contender. But I chose none of those frontrunners - I went with Svelte. Why? Because I'm in love and there's not enough love in this world. To be slightly more technical, Svelte is a compiler so it generate small, tight code that accomplishes much of the logic those other frameworks implement in large bundles you need to ship with your app. But even more than that, I find I just get Svelte, or maybe it gets me. I feel like the way to do everything I want is natural and simple, which makes it fun to use. At the end of the day, that's probably the best reason of all: it make me happy. :) Anyway, if you'd like to see why I'm so smitten, I highly recommend the Svelte getting started tutorial, which is nicely done.
+
+Now you might be wondering, why is Marc going on about a web user interface? Doesn't this app, just redirect short links to long links? Last time I checked, that's a server side app. But I'd like to have a small UI so that you anyone can stop by and see my catalog of links, along with some rudimentary analytics. Here's what I want that page to look like:
+
+Here's the HTML for my site:
+
+<img src="/img/slHome.png" width="400" height="400" style="display:block; margin:auto">
+
+Here's the HTML for my 404 page (for the case when a non-existent short link is requested):
+
+<img src="/img/sl404.png" width="400" height="400" style="display:block; margin:auto">
+
+Here are my Svelte class files:
+
+## Server - Cloud Run
+
+For my web service, I chose Cloud Run because it's also SIMPLE:
+
+- Scalable
+- Intuitive
+- Managed
+- Portable
+- Lego-like
+- Economical
+
+Hmmmm...where have I seen that list before? :)
+
+Here's my server code:
+
+Here's my Dockerfile:
+
+<img src="/img/slDockerfile.png" width="400" height="400" style="display:block; margin:auto">
+
+Here's what the Cloud Run console looks like after deploying my service:
+
+<img src="/img/cloud-run.png" width="400" height="400" style="display:block; margin:auto">
+
+I'm going to further
+
 ## All together now
+
+Now let's tie everything together. Here's my deployment script:
+
+<img src="/img/slDeploy.png" width="400" height="400" style="display:block; margin:auto">
+
+One thing I'm quite happy with is the size of this app:
+
+<img src="/img/small-is-beautiful.png" width="400" height="400" style="display:block; margin:auto">
 
 ## Conclusion
 
