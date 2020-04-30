@@ -5,7 +5,7 @@ title = "Build Your Own bit.ly"
 subtitle = "with Cloud Run, Firestore, and Svelte"
 date = "2020-04-28"
 coverImage = "/img/shortlink.jpg"
-#draft = true
+draft = true
 +++
 
 In this article we'll build a simple but powerful short link service
@@ -72,6 +72,56 @@ Here's the HTML for my site:
 
 <img src="/img/slHome.png" width="400" height="400" style="display:block; margin:auto">
 
+<details>
+  <summary>Click here to expand code</summary>
+```html
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>mco.fyi</title>
+  <meta name="Marc's Short Link Service" content="">
+  <meta name="Marc Cohen" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="ten columns" style="margin-top: 5%">
+        <h1>404 - short link not found :(</h1>
+        <br />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OEu4Iq5KL-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
+```
 Here's the HTML for my 404 page (for the case when a non-existent short link is requested):
 
 <img src="/img/sl404.png" width="400" height="400" style="display:block; margin:auto">
