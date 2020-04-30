@@ -2,9 +2,10 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Build Your Own bit.ly"
+subtitle = "with Cloud Run, Firestore, and Svelte"
 date = "2020-04-28"
 coverImage = "/img/shortlink.jpg"
-draft = true
+#draft = true
 +++
 
 In this article we'll build a simple but powerful short link service
@@ -63,7 +64,7 @@ Of course, you can use this page to view your data but what I really like is you
 
 <img src="/img/svelte.png" width="400" height="400" style="display:block; margin:auto">
 
-For my web programing, there are so many choices...Of course, React is the 600 pound gorilla, and Vue is the choice of hipsters everywhere, and of course my own company's Angular JS is always a strong contender. But I chose none of those frontrunners - I went with Svelte. Why? Because I'm in love and there's not enough love in this world. To be slightly more technical, Svelte is a compiler so it generate small, tight code that accomplishes much of the logic those other frameworks implement in large bundles you need to ship with your app. But even more than that, I find I just get Svelte, or maybe it gets me. I feel like the way to do everything I want is natural and simple, which makes it fun to use. At the end of the day, that's probably the best reason of all: it make me happy. :) Anyway, if you'd like to see why I'm so smitten, I highly recommend the Svelte getting started tutorial, which is nicely done.
+For my web programming, there are so many choices...Of course, React is the 600 pound gorilla, and Vue is the choice of hipsters everywhere, and of course my own company's Angular JS is always a strong contender. But I chose none of those frontrunners - I went with Svelte. Why? Because I'm in love and there's not enough love in this world. To be slightly more technical, Svelte is a compiler so it generate small, tight code that accomplishes much of the logic those other frameworks implement in large bundles you need to ship with your app. But even more than that, I find I just get Svelte, or maybe it gets me. I feel like the way to do everything I want is natural and simple, which makes it fun to use. At the end of the day, that's probably the best reason of all: it make me happy. :) Anyway, if you'd like to see why I'm so smitten, I highly recommend the Svelte getting started tutorial, which is nicely done.
 
 Now you might be wondering, why is Marc going on about a web user interface? Doesn't this app, just redirect short links to long links? Last time I checked, that's a server side app. But I'd like to have a small UI so that you anyone can stop by and see my catalog of links, along with some rudimentary analytics. Here's what I want that page to look like:
 
@@ -100,7 +101,7 @@ Here's my Dockerfile:
 
 Here's what the Cloud Run console looks like after deploying my service:
 
-<img src="/img/cloud-run.png" width="400" height="400" style="display:block; margin:auto">
+<img src="/img/cloud-run.png" width="400" height="200" style="display:block; margin:auto">
 
 I'm going to further
 
@@ -120,4 +121,4 @@ Here's the final version of my site in all it's glory:
 
 <img src="/img/mco.fyi.png" width="400" height="400" style="display:block; margin:auto">
 
-In case you're wondering, that cute guy is Meiko. Whenever you visit a short link at mco.fyi/something, his job is to go fetch the long version and return it to your browser. Thanks to Google and Meiko, my short link service is SIMPLE _and_ useful. If you'd like to try this code for yourself, it's all available in on Github. Also, here's the slide version of this story.
+In case you're wondering, that cute guy is Meiko. Whenever you visit a short link at mco.fyi/something, his job is to go fetch the long version and return it to your browser. Thanks to Google and Meiko, my short link service is SIMPLE _and_ useful. If you'd like to try this code for yourself, it's all available in on [Github](https://github.com/marcacohen/mco.fyi). Also, here's the [slide version](https://mco.fyi/links) of this story.
