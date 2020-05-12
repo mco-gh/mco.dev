@@ -9,6 +9,7 @@ coverImage = "/img/wiki1.jpg"
 
 What's bigger than Wikipedia? Spoiler: Wikipedia page views. This is the first of a two part series in which we'll explore how to build a data engineering solution to process all 10TB of published wikipedia pageviews and entity data.
 <!--more-->
+
 In [Part 2](/processing-10tb-of-wikipedia-page-views-part-2/) of this series we'll cover some of the fun things we can do once we have our data pipeline running: interesting queries and data visualizations and a Data Studio dashboard you can try yourself.
 
 ## Introduction

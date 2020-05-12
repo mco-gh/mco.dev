@@ -208,3 +208,7 @@ canonifyurls = true
     noClasses = true
     style = "monokailight"
     tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
