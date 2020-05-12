@@ -5,6 +5,7 @@ title = "Processing 10TB of Wikipedia Page Views - Part 1"
 subtitle = "Data Engineering"
 date = "2020-03-11"
 coverImage = "/img/wiki1.jpg"
+toc = true
 +++
 
 What's bigger than Wikipedia? Spoiler: Wikipedia page views. This is the first of a two part series in which we'll explore how to build a data engineering solution to process all 10TB of published wikipedia pageviews and entity data.
