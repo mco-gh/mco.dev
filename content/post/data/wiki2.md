@@ -15,8 +15,10 @@ In [part one](/processing-10tb-of-wikipedia-page-views-part-1/), we covered the 
 
 For starters, let's find out the most popular Wikipedia article so far this year:
 
+<br>
 <details>
   <summary>Click here to expand code</summary>
+
 ```sql
 SELECT title, SUM(views) total_views
 FROM `bigquery-public-data.wikipedia.pageviews_2020` 
@@ -53,8 +55,10 @@ Armed with those two entity ids, we can now do some queries about popular bands.
 
 Here's the SQL code to create my view, which I've made public so you can try it too:
 
+<br>
 <details>
   <summary>Click here to expand code</summary>
+
 ```SQL
 CREATE OR REPLACE TABLE `mco-bigquery.wikipedia.bands`
 (datehour TIMESTAMP, title STRING, views INT64)
@@ -80,8 +84,10 @@ This view gives us a dataset we can query much more quickly and economically, be
 
 Let's find the most wiki-popular band so far in 2020 with this query:
 
+<br>
 <details>
   <summary>Click here to expand code</summary>
+
 ```SQL
 SELECT title, SUM(views) views
 FROM `mco-bigquery.wikipedia.bands`
@@ -125,8 +131,10 @@ I've made this data available to everyone in the BigQuery Public Dataset collect
 
 These tables are partitioned so you can save time and cost by time limiting your queries, like this:
 
+<br>
 <details>
   <summary>Click here to expand code</summary>
+
 ```SQL
 SELECT title, SUM(views) views
 FROM `bigquery-public-data.wikipedia.pageviews_2019`

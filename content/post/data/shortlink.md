@@ -2,14 +2,14 @@
 categories = ["Data"]
 tags = ["cloud", "dataviz"]
 title = "Build Your Own bit.ly"
-subtitle = "with Cloud Run, Firestore, and Svelte"
+subtitle = "-- with Cloud Run and Firestore"
 date = "2020-04-28"
 coverImage = "/img/shortlink.jpg"
 draft = true
 +++
 
 In this article we'll build a simple but powerful short link service
-using three of my favorite technologies: Cloud Run, Firestore, and Svelte.
+using two of my favorite technologies: Cloud Run and Firestore.
 
 <!--more-->
 
@@ -17,7 +17,7 @@ using three of my favorite technologies: Cloud Run, Firestore, and Svelte.
 
 I love building demos but sometimes they can feel a bit artificial, like you're building a program that no one would actually want, just to illustrate capability or technique. I think this comes from the fact that you want a demonstration program to be quite simple, so as not to overload the reader with too much detail. But if you choose carefully, you can find demos that are both simple and useful, which for me is the best possible vehicle for teaching.
 
-<img src="/img/SweetSpot.png" ;width="400" height="400" style="display:block; margin:auto">
+<img src="/img/SweetSpot.png" width="400" height="400" style="display:block; margin:auto">
 
 ## What problem are we trying to solve?
 
@@ -60,73 +60,116 @@ Here's the data in action as seen in the Google Cloud Console:
 
 Of course, you can use this page to view your data but what I really like is you can use it to update your data as well. It's so easy that I use this page to administer my links. I essentially get a database admin UI for free. Less work for me!
 
-## User Interface - Svelte
+## Web Front End
 
-<img src="/img/svelte.png" width="400" height="400" style="display:block; margin:auto">
+I'm using a styling package called [skelton](http://getskeleton.com/), which I quite like because it's simple, small, and responsive. Here's the HTML for my site:
 
-For my web programming, there are so many choices...Of course, React is the 600 pound gorilla, and Vue is the choice of hipsters everywhere, and of course my own company's Angular JS is always a strong contender. But I chose none of those frontrunners - I went with Svelte. Why? Because I'm in love and there's not enough love in this world. To be slightly more technical, Svelte is a compiler so it generate small, tight code that accomplishes much of the logic those other frameworks implement in large bundles you need to ship with your app. But even more than that, I find I just get Svelte, or maybe it gets me. I feel like the way to do everything I want is natural and simple, which makes it fun to use. At the end of the day, that's probably the best reason of all: it make me happy. :) Anyway, if you'd like to see why I'm so smitten, I highly recommend the Svelte getting started tutorial, which is nicely done.
-
-Now you might be wondering, why is Marc going on about a web user interface? Doesn't this app, just redirect short links to long links? Last time I checked, that's a server side app. But I'd like to have a small UI so that you anyone can stop by and see my catalog of links, along with some rudimentary analytics. Here's what I want that page to look like:
-
-Here's the HTML for my site:
-
-<img src="/img/slHome.png" width="400" height="400" style="display:block; margin:auto">
-
-<details>
-  <summary>Click here to expand code</summary>
 ```html
+<!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>mco.fyi</title>
   <meta name="Marc's Short Link Service" content="">
   <meta name="Marc Cohen" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="img/favicon.png">
-
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="ten columns" style="margin-top: 5%">
-        <h1>404 - short link not found :(</h1>
-        <br />
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OEu4Iq5KL-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="twelve columns" style="margin-top: 5%">
+        <h1><font face="courier">mco.fyi</font> - Marc's short link service</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="four columns">
+        <img height="300" width="250" src="/img/meiko.jpg" />
+      </div>
+      <div class="eight columns">
+        <table width="100%">
+          <thead>
+            <tr>
+              <th>Count</th>
+              <th>Link</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range . }}
+              <tr>
+                <td>{{.C}}</td>
+                <td><a href={{.K}}>mco.fyi/{{.K}}</a></td>
+                <td>{{.D}}</td>  
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>  
       </div>
     </div>
   </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
 ```
-Here's the HTML for my 404 page (for the case when a non-existent short link is requested):
 
-<img src="/img/sl404.png" width="400" height="400" style="display:block; margin:auto">
+I wanted my home page to simply list all the available short links, dynamically, and that's exactly what this code is achieving via [Go templating](https://golang.org/pkg/text/template/):
 
-Here are my Svelte class files:
+```html
+<tbody>
+  {{ range . }}
+  <tr>
+    <td>{{.C}}</td>
+    <td><a href="{{.K}}">mco.fyi/{{.K}}</a></td>
+    <td>{{.D}}</td>
+  </tr>
+  {{ end }}
+</tbody>
+```
+
+A bit later, we'll visit my Go server code, which populates the data incorporated into this template.
+
+Finally, here's the HTML for my 404 page for the case when a non-existent short link is requested, which you can experience by visiting [https://mco.fyi/foo](https://mco.fyi/foo) (You may need to be of a certain age to appreciate this one):
+
+```html
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>mco.fyi</title>
+    <meta name="Marc's Short Link Service" content="" />
+    <meta name="Marc Cohen" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="ten columns" style="margin-top: 5%">
+          <h1>404 - short link not found :(</h1>
+          <br />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/OEu4Iq5KL-Q"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+```
 
 ## Server - Cloud Run
 
@@ -144,6 +187,125 @@ Hmmmm...where have I seen that list before? :)
 Of course, I want this service to live behind a nice short domain name. After all, cloudrundfghdkfghds/foo doesn't seem particularly short, does it? So I snarfed up mco.fyi (the "fyi" top level domain feels just right for this kind of service), which nowadays is about as short a name as you're going to find. Cloud Run makes it super easy to assign your own domain name to a service via this easy dialog:
 
 I chose to write my server in Go, because it's my favorite system programming language. Because Cloud Run is language and environment agnostic, I could have just as easily used Python, Java, Ruby, or Fortran for that matter. Here's my server code in Go:
+
+Here's a heavily commented version of my server code, which is small enough to fit into one main.go source file:
+
+```html
+<section id="main">
+  <div>
+    <h1 id="title">{{ .Title }}</h1>
+    {{ range .Pages }} {{ .Render "summary"}} {{ end }}
+  </div>
+</section>
+```
+
+{{ < highlight go >}}
+package main
+
+import (
+"cloud.google.com/go/firestore"
+"context"
+"html/template"
+"log"
+"net/http"
+"sort"
+"strings"
+)
+
+var linkdata map[string]interface{}
+var doc \*firestore.DocumentRef
+
+type kv struct {
+K string
+C int64
+U string
+D string
+}
+
+func redirect(w http.ResponseWriter, r \*http.Request) {
+ctx := context.Background()
+path := strings.TrimLeft(r.URL.Path, "/")
+if path == "" || path == "/" {
+t, err := template.ParseFiles("home.html")
+if err != nil {
+log.Println(err.Error())
+http.Error(w, http.StatusText(500), 500)
+}
+var kvs []kv
+for k, v := range linkdata {
+tmp := v.(map[string]interface{})
+count := tmp["count"].(int64)
+desturl := tmp["url"].(string)
+desc := tmp["desc"].(string)
+private := tmp["private"]
+if private != nil && private.(bool) == true {
+continue
+}
+kvs = append(kvs, kv{k, count, desturl, desc})
+}
+sort.Slice(kvs, func(i, j int) bool {
+return kvs[i].C > kvs[j].C
+})
+err = t.Execute(w, kvs)
+if err != nil {
+log.Println(err.Error())
+http.Error(w, http.StatusText(500), 500)
+}
+} else if strings.HasPrefix(path, "css/") ||
+strings.HasPrefix(path, "img/") {
+http.ServeFile(w, r, path)
+} else if m, ok := linkdata[path]; ok {
+v := m.(map[string]interface{})
+if u, ok := v["url"]; ok {
+log.Println("before: %d", v["count"])
+v["count"] = v["count"].(int64) + 1
+log.Println("after: %d", v["count"])
+doc.Set(ctx, linkdata)
+http.Redirect(w, r, u.(string), 301)
+} else {
+log.Println(w, "no URL found for event: %v", path)
+return
+}
+} else {
+http.ServeFile(w, r, "404.html")
+}
+}
+
+func main() {
+proj := "mco-fyi"
+ctx := context.Background()
+client, err := firestore.NewClient(ctx, proj)
+if err != nil {
+log.Fatalln(err)
+}
+defer client.Close()
+doc = client.Doc("Redirects/Shortlinks")
+docsnap, err := doc.Get(ctx)
+if err != nil {
+log.Fatalln(err)
+}
+linkdata = docsnap.Data()
+
+        go func() {
+                iter := doc.Snapshots(ctx)
+                defer iter.Stop()
+                for {
+                        docsnap, err := iter.Next()
+                        if err != nil {
+                                log.Fatalln(err)
+                        }
+                        linkdata = docsnap.Data()
+                }
+        }()
+
+        http.HandleFunc("/", redirect)
+        err = http.ListenAndServe(":8080", nil)
+        if err != nil {
+                log.Fatal("ListenAndServe: ", err)
+        }
+
+}
+{{< / highlight >}}
 
 Here's my Dockerfile:
 
