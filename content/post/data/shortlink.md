@@ -2,60 +2,76 @@
 categories = ["Data"]
 tags = ["cloud"]
 title = "Build Your Own bit.ly"
-subtitle = "with Cloud Run and Firestore"
+subtitle = "with Cloud Run & Firestore"
 date = "2020-04-28"
 coverImage = "/img/shortlink.jpg"
 draft = true
 +++
 
 In this article we'll build a simple but powerful short link service
-using two of my favorite technologies: Cloud Run and Firestore.
+using two of my favorite Google Cloud technologies: Cloud Run and Firestore.
 
 <!--more-->
 
 ## Introduction
 
-I love building demos but sometimes they can feel a bit artificial, like you're building a program that no one would actually want, just to illustrate capability or technique. I think this comes from the fact that you want a demonstration program to be quite simple, so as not to overload the reader with too much detail. But if you choose carefully, you can find demos that are both simple and useful, which for me is the best possible vehicle for teaching.
+I love building demos but sometimes they can feel a bit artificial, like you're building a program that no one would actually want to use, just to illustrate some capability or technique. But if you choose carefully, you can find demos that are both simple and useful, which for me is the best possible vehicle for learning.
 
 <img src="/img/SweetSpot.png" width="400" height="400" style="display:block; margin:auto">
 
 ## What problem are we trying to solve?
 
-Whenever I give a talk or write an article, I like to share my slides, code, notebooks, and other artifacts with my audience so that can try to reproduce my results. But I hate long, tedious, error prone URLs, so in the past I've used a short link service, like bit.ly, to share my goodies. But there are a few problems with using a centralized short link service:
+I always like to start any work with a problem statement because, as Lewis Carroll said, "if you don't know where you're going, any road will get you there". Here's my problem statement:
 
+I want to share my teaching artifacts but I hate long, hard to remember URLs. In the past I've used a short link service, like `bit.ly`, to share my goodies. But there are some problems with using a centralized short link service:
+
+<br>
 <img src="/img/namespace.png" width="400" height="400" style="display:block; margin:auto">
+<br>
 
-- globally shared namespace - Good luck getting your hands on bit.ly/cloud. Like the DNS system, the gold rush has long ago snatched all the nice short names on popular short link services.
-- trust - Links you publicize can have a life of their own so you're trusting this service to stay up, solvent, and ongoing for the long term.
+- globally shared namespace - Good luck getting your hands on `bit.ly/cloud`. Like the Internet Domain Name System, the gold rush is over and all the nice short names are gone.
+- trust - Links you publicize can have a life of their own so you're trusting this service to remain available for the long term. Anyone remember
 - privacy - Allowing another party to manage your links means they have complete visibility over all of your traffic.
-- branding - You turn over your branding to the company serving your links. Wouldn't it be nice to have your identity embedded in the short link?
+- branding - You turn over your branding to the company serving your links. Wouldn't it be nice to have your own identity embedded in your short links?
+
+## Requirements
+
+What does it mean to me, to solve this problem?
+
+- I own the whole namespace so I get first crack at the shortest short links possible.
+- The service should use my domain name and branding.
+- I don't want to spend much time maintaining this app so I'd like it to be simple and small (<500 lines of code please).
+- It must be scalable, so that it doesn't crash under the intense weight of my wildly viral articles (ok, that's never happened but I can dream, can't I?).
+- I'd like a clean landing page providing a directory of all available short links.
+- I want basic analytics so that I can see the relative popularity of each link.
 
 ## Design
 
-This is so simple it hardly warrants a design diagram but old habits die hard, so here ya go:
-
+Thanks to benig 100% serverless and managed, this program so simple it hardly warrants a design diagram but old habits die hard, so here's mine:
+<br>
+<br>
 <img src="/img/sldesign.png" width="400" height="400" style="display:block; margin:auto">
 
-## Database - Firestore
+## Database - Cloud Firestore
 
-I chose Cloud Firestore for my database because it's SIMPLE (Scalable, Intuitive, Managed, Portable, Lego-like, and Economical).
+I chose [Cloud Firestore](https://cloud.google.com/firestore) for my database because it's SIMPLE (Simple, Intuitive, Managed, Pay-as-you-go, Language-agnostic, and Economical).
 
-My data model is also quite simple: one document field per short link, each containing:
+My data model is also quite simple: one document field per short link, each containing a map of these values:
 
-- field name - the short link part of the URL (e.g. this would be "foo" for mco.fyi/foo).
+- field name - the short link part of the URL (e.g. this would be "foo" for `mco.fyi/foo`).
 - count - keeps track of how many times a given short link was accessed
 - desc - a human friendly description of where a given short link takes you
 - private - a boolean value which hides the short link from the public list of links
 
-Here's the data in action as seen in the Google Cloud Console:
+Here's the data model in action as seen in the Google Cloud Console:
 
 <img src="/img/firestore-console.png" width="400" height="400" style="display:block; margin:auto">
 
-Of course, you can use this page to view your data but what I really like is you can use it to update your data as well. It's so easy that I use this page to administer my links. I essentially get a database admin UI for free. Less work for me!
+Of course, you can view your data via this console page but what I really like is you can use it to update your data as well. It essentially gives me a database admin UI for free. Less work for me!
 
 ## Web Front End
 
-I'm using a styling package called [skeleton](http://getskeleton.com/), which I quite like because it's simple, small, and responsive. Here's the HTML for my site:
+I'm using a styling package called [skeleton](http://getskeleton.com/), which I quite like because it's simple, small, and responsive. Here's the HTML for my home page:
 
 <br>
 <details>
@@ -120,29 +136,9 @@ I'm using a styling package called [skeleton](http://getskeleton.com/), which I 
 
 </details>
 
-I wanted my home page to simply list all the available short links, dynamically, and that's exactly what this code is achieving via [Go templating](https://golang.org/pkg/text/template/):
+I wanted my home page to simply list all the available short links, dynamically, and that's exactly what the `div1 element starting at line 120 does. A bit later, we'll visit my server code, which populates the data incorporated into this template.
 
-<br>
-<details>
-  <summary>Click here to expand code</summary>
-
-```html
-<tbody>
-  {{ range . }}
-  <tr>
-    <td>{{.C}}</td>
-    <td><a href="{{.K}}">mco.fyi/{{.K}}</a></td>
-    <td>{{.D}}</td>
-  </tr>
-  {{ end }}
-</tbody>
-```
-
-</details>
-
-A bit later, we'll visit my Go server code, which populates the data incorporated into this template.
-
-Finally, here's the HTML for my 404 page for the case when a non-existent short link is requested, which you can experience by visiting [https://mco.fyi/foo](https://mco.fyi/foo) (You may need to be of a certain age to appreciate this one):
+Finally, here's the HTML for my 404 page for the case when a non-existent short link is requested, which you can experience yourself by visiting [https://mco.fyi/foo](https://mco.fyi/foo) (You may have to have seen a certain film in order to appreciate the joke):
 
 <br>
 <details>
@@ -190,22 +186,13 @@ Finally, here's the HTML for my 404 page for the case when a non-existent short 
 
 ## Server - Cloud Run
 
-For my web service, I chose Cloud Run because it's also SIMPLE:
+For my web service, I chose [Cloud Run](https://cloud.google.com/run) because, like Firestore, it's also SIMPLE (Scalable, Intuitive, Managed, Pay-as-you-go, Language-agnostic, and Economical).
 
-- Scalable
-- Intuitive
-- Managed
-- Portable
-- Lego-like
-- Economical
+Of course, I want this service to live behind a nice short domain name so I snarfed up `mco.fyi` (the "fyi" top level domain feels just right for this kind of service). Cloud Run makes it super easy to assign your own domain name to a service via one button click.
 
-Hmmmm...where have I seen that list before? :)
+I chose to write my server in Go, because it's my favorite system programming language. Because Cloud Run is language and environment agnostic, I could have just as easily used Python, Java, Ruby, or Fortran for that matter.
 
-Of course, I want this service to live behind a nice short domain name. After all, cloudrundfghdkfghds/foo doesn't seem particularly short, does it? So I snarfed up mco.fyi (the "fyi" top level domain feels just right for this kind of service), which nowadays is about as short a name as you're going to find. Cloud Run makes it super easy to assign your own domain name to a service via this easy dialog:
-
-I chose to write my server in Go, because it's my favorite system programming language. Because Cloud Run is language and environment agnostic, I could have just as easily used Python, Java, Ruby, or Fortran for that matter. Here's my server code in Go:
-
-Here's a heavily commented version of my server code, which is small enough to fit into one main.go source file:
+Here's my server code, which is small enough to fit into one main.go source file:
 
 <br>
 <details>
@@ -320,7 +307,7 @@ func main() {
 
 </details>
 
-Here's my Dockerfile:
+The basic building block for a Cloud Run app is a container so I needed to write a Dockerfile, which can be thought of as the container blueprint for this app. As containers go, this is a pretty simple one:
 
 ```docker
 FROM golang:latest
@@ -331,12 +318,6 @@ WORKDIR /app
 RUN go build -o mco.fyi .
 CMD ["/app/mco.fyi"]
 ```
-
-Here's what the Cloud Run console looks like after deploying my service:
-
-<img src="/img/cloud-run.png" width="400" height="200" style="display:block; margin:auto">
-
-I'm going to further
 
 ## All together now
 
@@ -359,6 +340,10 @@ gcloud beta run deploy "$APP" \
   --allow-unauthenticated
 ```
 
+Here's what the Cloud Run console looks like after deploying my service:
+
+<img src="/img/cloud-run.png" width="400" height="200" style="display:block; margin:auto">
+
 One thing I'm quite happy with is the size of this app:
 
 <img src="/img/small-is-beautiful.png" width="400" height="400" style="display:block; margin:auto">
@@ -369,4 +354,4 @@ Here's the final version of my site in all it's glory:
 
 <img src="/img/mco.fyi.png" width="400" height="400" style="display:block; margin:auto">
 
-In case you're wondering, that cute guy is Meiko. Whenever you visit a short link at mco.fyi/something, his job is to go fetch the long version and return it to your browser. Thanks to Google and Meiko, my short link service is SIMPLE _and_ useful. If you'd like to try this code for yourself, it's all available in on [Github](https://github.com/marcacohen/mco.fyi). Also, here's the [slide version](https://mco.fyi/links) of this story.
+In case you're wondering, that cute guy is Meiko. Whenever you visit a short link at `mco.fyi/something`, his job is to go fetch the long version and return it to your browser. Thanks to Google and Meiko, my short link service is SIMPLE _and_ useful. If you'd like to try this code for yourself, it's available on [Github](https://github.com/marcacohen/mco.fyi) and here's a [slide version](https://mco.fyi/links) of this story.
