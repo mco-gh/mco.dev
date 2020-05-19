@@ -26,7 +26,6 @@ I want to share my teaching artifacts but I hate long, hard to remember URLs. In
 
 <br>
 <img src="/img/namespace.png" width="400" height="400" style="display:block; margin:auto">
-<br>
 
 - **globally shared namespace** - Good luck getting your hands on `bit.ly/cloud`. Like the Internet Domain Name System, the gold rush is over and all the nice short names are gone.
 - **trust** - Links you publicize can have a life of their own so you're trusting this service to be a responsible, reliable, and secure custodian of your data.
@@ -50,8 +49,9 @@ What does it mean, to me, to solve this problem?
 ## Design
 
 Thanks to my last requirement, this program is so simple it hardly warrants a design diagram but old habits die hard, so here's mine:
+
 <br>
-<br>
+
 <img src="/img/sldesign.png" width="400" height="400" style="display:block; margin:auto">
 
 ## Database - Cloud Firestore
