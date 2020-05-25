@@ -3,7 +3,7 @@ categories = ["Education"]
 tags = ["edu"]
 title = "My Favorite Book for Beginning Python Students"
 date = "2020-05-25"
-coverImage = "/img/pytour.gif"
+coverImage = "/img/pytour.jpg"
 +++
 
 I'm often asked to recommend a book to help students get started learning Python. There are many good ones, but this one, by Jake VanderPlas, is my favorite for the absolute beginner.
@@ -14,6 +14,7 @@ It's not deep, but that's an advantage -- you don't want to get too bogged down 
 And the price is right too: it's free.
 
 Download the pdf here: <a target="_blank" href="https://mco.fyi/pytour">mco.fyi/pytour</a>.
+<img src="/img/pytour.gif">
 
 ## More Advanced Material
 
