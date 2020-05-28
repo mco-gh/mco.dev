@@ -10,6 +10,8 @@ A non-exhaustive list of videos I find inspiring, informative, and entertaining.
 
 <!--more-->
 
+<br>
+
 * [Bret Victor - Inventing on Principle](https://vimeo.com/36579366)
 * [Mike Bostock - A Better Way To Write Code](https://www.youtube.com/watch?v=vh_gddKS5OU)
 * [Paul Davids - The myth of having it all (and needing it all)](https://www.youtube.com/watch?v=U4BGlctQ2Yw)
