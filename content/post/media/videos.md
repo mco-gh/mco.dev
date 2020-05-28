@@ -3,8 +3,10 @@ categories = ["Media"]
 tags = ["video"]
 title = "My Favorite Videos"
 date = "2020-05-28"
-thumbnailImage = "/img/videos.jpg"
+coverImage = "/img/videos.jpg"
 +++
+
+<!--more-->
 
 * [Bret Victor - Inventing on Principle](https://vimeo.com/36579366)
 * [Mike Bostock - A Better Way To Write Code](https://www.youtube.com/watch?v=vh_gddKS5OU)
