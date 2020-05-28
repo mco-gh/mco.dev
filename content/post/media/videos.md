@@ -47,4 +47,4 @@ A non-exhaustive list of videos I find inspiring, informative, and entertaining.
 * [4D Toys: a box of four-dimensional toys, and how objects bounce and roll in 4D](https://www.youtube.com/watch?v=0t4aKJuKP0Q)
 * [David MacKay - Lecture 1: Introduction to Information Theory](https://www.youtube.com/watch?v=BCiZc0n6COY)
 * [How Does SHA-256 Work?](https://www.youtube.com/watch?v=f9EbD6iY9zI)
-* [Emotional Eddie Vedder sings Black @ Firenze Rocks](https://www.youtube.com/watch?v=IfmKAkVfvgA)
+* [Eddie Vedder sings Black @ Firenze Rocks](https://www.youtube.com/watch?v=IfmKAkVfvgA)
