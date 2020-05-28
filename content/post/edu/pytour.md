@@ -34,3 +34,6 @@ If you already have some Python knowledge under your belt, you'll probably want 
 - <a target="_blank" href="https://www.amazon.com/Introduction-Computer-Science-Using-Python/dp/0470555157">
   Introduction to Computer Science Using Python:</a>
   A Computational Problem-Solving Focus, by Charles Dierbach
+- <a target="_blank" href="https://www.amazon.com/Effective-Python-Specific-Software-Development-dp-0134853989/dp/0134853989">
+  Effective Python: 90 Specific Ways to Write Better Python, 2nd Edition</a>,
+  by Bret Slatkin
