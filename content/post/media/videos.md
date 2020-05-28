@@ -6,6 +6,8 @@ date = "2020-05-28"
 coverImage = "/img/videos.jpg"
 +++
 
+A non-exhaustive list of videos I find inspiring, informative, and entertaining.
+
 <!--more-->
 
 * [Bret Victor - Inventing on Principle](https://vimeo.com/36579366)
