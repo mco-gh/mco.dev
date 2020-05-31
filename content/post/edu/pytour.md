@@ -22,6 +22,8 @@ If you already have some Python knowledge under your belt, you'll probably want 
 
 <br>
 
+- <a target="_blank" href="https://dabeaz-course.github.io/practical-python/Notes/Contents.html">
+  Practical Python Programming</a>, by David Beazley
 - <a target="_blank" href="https://www.amazon.com/Automate-Boring-Stuff-Python-2nd-dp-1593279922/dp/1593279922">
   Automate the Boring Stuff with Python, 2nd Edition:</a>
   Practical Programming for Total Beginners, by Al Sweigart
