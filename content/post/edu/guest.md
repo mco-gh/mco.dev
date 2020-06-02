@@ -3,7 +3,7 @@ categories = ["Education"]
 tags = ["talks"]
 title = "Join the Computing Revolution!"
 date = "2020-06-02"
-coverImage = "/img/pencils2.jpg"
+coverImage = "/img/origin-python.jpg"
 +++
 
 I offer free online lectures on computing and data science.
