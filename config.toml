@@ -57,12 +57,18 @@ canonifyurls = true
   url = "/tags"
 [[menu.main]]
   weight = 4
+  identifier = "talks"
+  name = "Talks"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-microphone\"></i>"
+  url = "/my-talks"
+[[menu.main]]
+  weight = 5
   identifier = "archives"
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
 [[menu.main]]
-  weight = 5
+  weight = 6
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
