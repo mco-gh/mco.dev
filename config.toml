@@ -30,7 +30,7 @@ canonifyurls = true
 
 [author]
   name = "Marc Cohen"
-  bio = "Computing and data nerd.\nMore [about me](/about)."
+  bio = "Computing and data nerd.\nMore [about me](/about-marc)."
   job = "Engineer@Google"
   location = "London, UK"
   picture = "/img/avatar.jpg"
@@ -72,7 +72,7 @@ canonifyurls = true
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/about"
+  url = "/about-marc"
 
 [[menu.links]]
   weight = 1
@@ -189,7 +189,7 @@ canonifyurls = true
   [params.header.rightLink]
     class = ""
     icon = ""
-    url = "/#about"
+    url = "/about-marc"
 
   # Customize link of author avatar in sidebar
   # [params.sidebar.profile]

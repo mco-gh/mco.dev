@@ -1,34 +1,30 @@
 +++
 categories = ["Education"]
 tags = ["talks"]
-title = "Remote Tech Classes for Students"
+title = "Join the Computing Revolution!"
 date = "2020-06-02"
 coverImage = "/img/pencils2.jpg"
 +++
 
-I offer free remote guest lectures for high school and university classes.
+I offer free online lectures and full courses on math and computing.
 
 <!--more-->
 
-## Why?
+## Who are these classes for?
 
-Because I like teaching and I want to demystify technology. You no longer need to be a wizard to leverage the latest computing tools but the word hasn't entirely gotten around yet.
+The target audience is high school and university students, but I'm open to teaching other groups as well.
 
-## Who are you anyway?
+## Why are these classes important?
 
-You can find out more about me [here](/about).
+The goal is to demystify computing and data science technology, and to help make the tech industry more welcoming and inclusive for students of all ages.
 
-## What would you talk about?
+## Who will be teaching?
 
-Modern information tools have never been more powerful and accessible, but it still helps to have a friendly tour guide. My goal is to make the computing revolution (things like cloud computing, Python programming, open source, machine learning, data science), easier to understand and more inclusive for students of all ages.
+You can find out more about me [here](/about-marc). Modern computing tools have never been more powerful and accessible, but it still helps to have a friendly tour guide. 
 
-## Ok, but what *specifically* would you talk about?
+## Are the classes free?
 
-You can see my catalog of current talks [here](/my-talks). I can tailor those to any duration or academic level. Given a little extra time, I can even create a new talk, just for your class.
-
-## How much does this cost?
-
-If your class is composed primarily of women, LGBT, and/or students of color, my lectures are free. If not, I ask that you donate $50 per lecture to one of these charities:
+For groups composed primarily of women, LGBT, and/or minorities, these classes are free.  For others, a donation of $50 per lecture is requested to benefit one of the following: 
 
 <br>
 
