@@ -20,7 +20,7 @@ You can find out more about me [here](/about).
 
 ## What would you talk about?
 
-Modern computing tools have never been more powerful and accessible, but it still helps to have a friendly tour guide. My goal is to make the computing revolution (cloud computing, open source, machine learning, data science), easier to understand and more inclusive for students of all ages.
+Modern information tools have never been more powerful and accessible, but it still helps to have a friendly tour guide. My goal is to make the computing revolution (cloud computing, Python programming, open source, machine learning, data science), easier to understand and more inclusive for students of all ages.
 
 ## Ok, but what *specifically* would you talk about?
 
@@ -28,7 +28,7 @@ You can see my catalog of current talks [here](/my-talks). I can tailor those to
 
 ## How much does this cost?
 
-If your class is composed primarily of women, LGBT, and/or students of color, my lectures are free. If not, I ask that you donate $100 per lecture to one of these charities:
+If your class is composed primarily of women, LGBT, and/or students of color, my lectures are free. If not, I ask that you donate $50 per lecture to one of these charities:
 
 <br>
 
