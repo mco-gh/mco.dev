@@ -24,7 +24,7 @@ should know something about: the Internet, where it came from, how it works, and
 some tools to better understand what's going on under the hood.
 
 * <a href="https://mco.fyi/journey" target="_blank">**My Journey**</a>
-I get paid to solve puzzles, which is my dream job. Primarily intended for students and others interested in career planning, (how the web works) and summarizes some things I've learned along my 35 year journey in computing and software development, concluding with some career and life advice.
+I get paid to solve puzzles, which is my dream job. Primarily intended for students and others interested in career planning, this talk summarizes some things I've learned along my 35 year journey in computing and software development, concluding with some career and life advice.
 
 * <a href="https://mco.fyi/codelabs" target="_blank">**Building Codelabs the Google Way**</a>
 What are Google Codelabs and why should you care? This talk will explain how we author and serve codelabs at Google and how you can too with our open source tools. We’ll also cover best practices for interactive tutorials and other good tools in this space, such as Cloud Shell, Jupyter & Colab, Observables, and repl.it.
