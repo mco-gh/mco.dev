@@ -6,7 +6,7 @@ date = "2020-06-02"
 coverImage = "/img/pencils2.jpg"
 +++
 
-I offer free online lectures and full courses on math and computing.
+I offer free online lectures and full courses on computing and data science.
 
 <!--more-->
 
