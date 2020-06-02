@@ -1,6 +1,6 @@
 +++
-categories = ["Talks"]
-tags = []
+categories = ["Education"]
+tags = ["talks"]
 title = "My Talks"
 date = "2020-06-02"
 coverImage = "/img/talk-learning.jpg"
