@@ -6,6 +6,8 @@ date = "2020-06-02"
 coverImage = "/img/class.jpg"
 +++
 
+## What is this all about?
+
 I offer free online lectures on computing and data science.
 
 <!--more-->
