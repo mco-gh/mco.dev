@@ -5,6 +5,7 @@ title = "My Talks"
 date = "2020-06-02"
 coverImage = "/img/talk-learning.jpg"
 +++
+Catalog of current talks, with links to associated slide decks.
 <!--more-->
 * <a href="https://mco.fyi/tour" target="_blank">**Google Cloud - A Guided Tour**</a>
 There's a lot to grok in cloud computing, and trying to understand it all can be daunting. In this session I’ll walk you through a guided tour of the Google Cloud, with an emphasis on live demos and practical examples.
