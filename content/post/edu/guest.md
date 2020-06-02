@@ -16,7 +16,7 @@ The target audience is high school and university students, but I'm open to teac
 
 ## Why are these classes important?
 
-The goal is to demystify computing and data science technology, and to help make the tech industry more welcoming and inclusive for students of all ages.
+The goal is to demystify technology, to make it more accessible and more inclusive for students of all ages.
 
 ## Who will be teaching?
 
