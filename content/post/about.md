@@ -13,7 +13,7 @@ My mission is building tools, demos, tutorials, and other educational artifacts 
 <!--more-->
 
 <br>
-<img height="220px" style="margin:10px" src="/img/talks.jpg">
+<img height="330px" style="margin:10px" src="/img/talks.jpg">
 <br>
 Before joining Google, I spent 30 years building products and managing engineering teams in the Telecom industry (Bell Labs, AT&T, Lucent Technologies, and Alcatel-Lucent).
 
