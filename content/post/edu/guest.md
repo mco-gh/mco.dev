@@ -26,7 +26,7 @@ You can find out more about me [here](/about-marc). Modern computing tools have 
 
 ## Are the classes free?
 
-For groups composed primarily of women, LGBT, and/or minorities, these classes are free.  For others, a donation of $50 per lecture is requested to benefit one of the following: 
+For groups composed primarily of women, LGBTQ+, and/or BME, these classes are free.  For others, a donation of $50 per lecture is requested to benefit one of the following: 
 
 <br>
 
