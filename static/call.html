@@ -4,7 +4,9 @@
 
 <script>
 
-peer_id = "gmukpv03jze00000"
+const urlParams = new URLSearchParams(window.location.search);
+const peer_id = urlParams.get('peer_id');
+alert(peer_id);
 
 var peer = new Peer();
 peer.on('open', function(id) {
