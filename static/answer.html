@@ -1,0 +1,30 @@
+<script src="https://unpkg.com/peerjs@1.2.0/dist/peerjs.min.js"></script>
+
+<video id="peer-camera" width="300" height="300" autoplay="autoplay">
+
+<script>
+var peer = new Peer();
+peer.on('open', function(id) {
+  console.log('My peer ID is: ' + id);
+});
+
+function onReceiveStream(stream, element_id) {
+  var video = document.getElementById(element_id);
+  video.srcObject = stream
+  window.peer_stream = stream;
+}
+
+var getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+peer.on('call', function(call) {
+  getUserMedia({video: true, audio: true}, function(stream) {
+    call.answer(stream); // Answer the call with an A/V stream.
+    call.on('stream', function(remoteStream) {
+      window.peer_stream = stream;
+      onReceiveStream(stream, 'peer-camera');
+    });
+  }, function(err) {
+    console.log('Failed to get local stream' ,err);
+  });
+});
+
+</script>
