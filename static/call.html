@@ -8,7 +8,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const peer_id = urlParams.get('peer_id');
 alert(peer_id);
 
-var peer = new Peer();
+var peer = new Peer({"host": "127.0.01"});
 peer.on('open', function(id) {
   console.log('My peer ID is: ' + id);
 });
