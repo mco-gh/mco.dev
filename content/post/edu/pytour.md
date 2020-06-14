@@ -4,6 +4,7 @@ tags = ["edu"]
 title = "My Favorite Books for Beginning Python Students"
 date = "2020-06-14"
 coverImage = "/img/pytour.jpg"
+weight = 1
 +++
 
 I'm often asked to recommend a book to help students get started learning Python. There are many good ones, but depending on your style of learning, I have two specific recommendations.
