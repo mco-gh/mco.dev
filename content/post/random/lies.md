@@ -6,7 +6,7 @@ date = "2020-06-14"
 coverImage = "/img/thinking.jpg"
 +++
 
-A man in Maryland got misidentified on twitter users as the perpetrator of a deplorable attack and he published an article about what the experience was like for him. This part jumped out at me:
+A man in Maryland got misidentified by twitter users as the perpetrator of a deplorable attack and he published an article about what the experience was like for him. The accusation was retreeted half a million times. This part jumped out at me:
 <!--more-->
 
 <br>
@@ -16,7 +16,7 @@ As for the woman who shared his home address: She deleted it and posted an apolo
 <footer>Olivia Nuzzi<cite><a href="https://nymag.com/intelligencer/2020/06/what-its-like-to-get-doxed-for-taking-a-bike-ride.html">https://nymag.com/intelligencer/2020/06/what-its-like-to-get-doxed-for-taking-a-bike-ride.html</a></cite></footer>
 </blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
 
-I find this to be a universal truth about humankind - error correction tends to be a lot less newsworthy than accusation. I've always loved a Mark Twain quote that summarizes this situation nicely:
+I find this to be a universal truth about humankind - we tend to get more excited about reporting an injustice than about correcting one. I've always loved a Mark Twain quote that summarizes this situation nicely:
 
 > A lie can travel halfway around the world while the truth is still putting on its shoes.
 
