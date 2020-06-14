@@ -7,6 +7,7 @@ coverImage = "/img/thinking.jpg"
 +++
 
 A man in Maryland got misidentified on twitter users as the perpetrator of a deplorable attack and he published an article about what the experience was like for him. This part jumped out at me:
+<!--more-->
 
 <br>
 
