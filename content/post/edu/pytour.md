@@ -1,32 +1,38 @@
 +++
 categories = ["Education"]
 tags = ["edu"]
-title = "My Favorite Book for Beginning Python Students"
-date = "2020-05-25"
+title = "My Favorite Books for Beginning Python Students"
+date = "2020-06-14"
 coverImage = "/img/pytour.jpg"
 +++
 
-I'm often asked to recommend a book to help students get started learning Python. There are many good ones, but this one, by Jake VanderPlas, is my favorite for the absolute beginner.
+I'm often asked to recommend a book to help students get started learning Python. There are many good ones, but depending on your style of learning, I have two specific recommendations.
 
 <!--more-->
 
-It's not deep, but that's an advantage -- you don't want to get too bogged down in details when you're just starting out. In less than 100 pages, this book provides a guided tour of the essential things you should know in order to get started using Python.
-And the price is right too: it's free.
-
-Download the pdf here: <a target="_blank" href="https://mco.fyi/pytour">mco.fyi/pytour</a>.
-<img src="/img/pytour.gif">
-
-## More Advanced Material
-
-If you already have some Python knowledge under your belt, you'll probably want to consider some more advanced books. Here are a few of my favorites:
+Jake VanderPlas' <a target="_blank" href="https://mco.fyi/pytour">A Whirlwind Tour of Python</a> provides a quick guided tour of essential things you should know in order to get started using Python, in less than 100 pages. The price is right too: it's free.
 
 <br>
 
+<a target="_blank" href="https://mco.fyi/pytour">
+<img height="400" src="/img/pytour.gif">
+</a>
+
+For those who prefer a more comprehensive, tutorial style, I highly recommend Al Sweigart's <a target="_blank" href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python, 2nd Edition</a>. This book is very practical and full of fun and interesting examples of real world problem solving with Python. It's also available to read online for free.
+
+<br>
+
+<a target="blank" href="https://automatetheboringstuff.com/">
+<img height="400" src="https://automatetheboringstuff.com/images/automate_2e_cover.png">
+</a>
+
+<br>
+
+## Other Resources I Like
+
+- <a target="_blank" href="https://codingbat.com/python">CodingBat for Python - Coding Practice Exercises</a>
 - <a target="_blank" href="https://dabeaz-course.github.io/practical-python/Notes/Contents.html">
   Practical Python Programming</a>, by David Beazley
-- <a target="_blank" href="https://www.amazon.com/Automate-Boring-Stuff-Python-2nd-dp-1593279922/dp/1593279922">
-  Automate the Boring Stuff with Python, 2nd Edition:</a>
-  Practical Programming for Total Beginners, by Al Sweigart
 - <a target="_blank" href="https://www.amazon.com/Programming-Puzzled-Program-Solving-Puzzles/dp/0262534304">
   Programming for the Puzzled:</a>
   Learn to Program While Solving Puzzles, by Srini Devadas
