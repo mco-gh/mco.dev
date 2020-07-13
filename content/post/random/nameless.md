@@ -6,7 +6,7 @@ date = "2020-07-13"
 coverImage = "/img/feynman.jpg"
 +++
 
-This is a beautiful letter from Richard Feynman to a former student on what constitues "important problems". I've always felt that important problems are those that advance your own knowledge, and ideally, the knowledge of others. But there's an even simpler definition: any problem that brings joy in its solving is worth your time.
+This is a beautiful letter from Richard Feynman to a former student on what constitutes "important problems". I've always felt that important problems are those that advance your own knowledge, and ideally, the knowledge of others. But there's an even simpler definition: any problem that brings joy in its solving is worth your time.
 
 <!--more-->
 
