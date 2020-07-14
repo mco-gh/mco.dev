@@ -17,7 +17,7 @@ His list of contributions, awards, and honors is long and prestigious but the th
 Graham was a longtime friend, patron, and collaborator of
 <a target="_blank" href="https://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erdős</a>, the brilliant and famously transient Hungarian mathematician. Graham popularized the Erdos Number, the mathematician's equivalent of the <a target="blank" href="https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon">Six Degrees of Kevin Bacon</a> phenomenon. He also enjoyed a mutally enriching friendship with legendary Scientific American puzzle master <a href="https://en.wikipedia.org/wiki/Martin_Gardner" target="_blank">Martin Gardner</a>.
 
-I highly recommend the short interview videos below, featuring Graham's reflections on his work and hobbies, some of his notable colleagues, what it was like working at Bell Labs, and some of the most important unsolved problems of modern mathematics, among other fasinating topics.
+I highly recommend the short interview videos below, featuring Graham's reflections on his work and hobbies, some of his notable colleagues, what it was like working at Bell Labs, and some of the most important unsolved problems of modern mathematics, among other fascinating topics.
 
 <br>
 
