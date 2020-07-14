@@ -10,7 +10,7 @@ Ron Graham died last week, on July 6, 2020. He may not have been a household nam
 
 <!--more-->
 
-Due to the nature of his father's work, Graham never spent more than one year in the same school. Nevertheless, at the age of 15 he won a scholarship to the University of Chicago and went on to obtain a his PhD in Mathmatics at the University of California, Berkeley.
+Due to the nature of his father's work, Graham never spent more than one year in the same school. Nevertheless, at the age of 15 he won a scholarship to the University of Chicago and went on to obtain a his PhD in Mathematics at the University of California, Berkeley.
 
 His list of contributions, awards, and honors is long and prestigious but the thing I loved most about him was this: in the tradition of Claude Shannon and Richard Feynman, Graham was a playful genius, who enjoyed many things outside his professional focus, including juggling, unicycling, trampolining, and puzzles. 
 
