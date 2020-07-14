@@ -15,9 +15,9 @@ Due to the nature of his father's work, Graham never spent more than one year in
 His list of contributions, awards, and honors is long and prestigious but the thing I loved most about him was this: in the tradition of Claude Shannon and Richard Feynman, Graham was a playful genius, who enjoyed many things outside his professional focus, including juggling, unicycling, trampolining, and puzzles. 
 
 Graham was a longtime friend, patron, and collaborator of
-<a target="_blank" href="https://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erdős</a>, the brilliant and famously transient Hungarian mathematician. Graham popularized the Erdos Number, the mathematician's equivalent of the <a target="blank" href="https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon">Six Degrees of Kevin Bacon</a> phenomenon. He also enjoyed a mutally enriching friendship with the legendary Scientific Amercan puzzle master <a href="https://en.wikipedia.org/wiki/Martin_Gardner" target="_blank">Martin Gardner</a>.
+<a target="_blank" href="https://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erdős</a>, the brilliant and famously transient Hungarian mathematician. Graham popularized the Erdos Number, the mathematician's equivalent of the <a target="blank" href="https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon">Six Degrees of Kevin Bacon</a> phenomenon. He also enjoyed a mutally enriching friendship with legendary Scientific American puzzle master <a href="https://en.wikipedia.org/wiki/Martin_Gardner" target="_blank">Martin Gardner</a>.
 
-The interview videos below include reflections on his work and hobbies, some of his notable colleagues, what it was like working at Bell Labs, and some of the most important unsolved problems of modern mathematics, among other fasinating topics.
+I highly recommend the short interview videos below, featuring Graham's reflections on his work and hobbies, some of his notable colleagues, what it was like working at Bell Labs, and some of the most important unsolved problems of modern mathematics, among other fasinating topics.
 
 <br>
 
