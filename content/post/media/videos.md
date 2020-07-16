@@ -48,3 +48,5 @@ A non-exhaustive list of videos I find inspiring, informative, and entertaining.
 * [David MacKay - Lecture 1: Introduction to Information Theory](https://www.youtube.com/watch?v=BCiZc0n6COY)
 * [How Does SHA-256 Work?](https://www.youtube.com/watch?v=f9EbD6iY9zI)
 * [Eddie Vedder sings Black @ Firenze Rocks](https://www.youtube.com/watch?v=IfmKAkVfvgA)
+* [Jason Resch - The Magic of Math in Modern Cryptography](https://www.youtube.com/watch?v=mSMQ-xowqAg)
+* [The Mathematics of Neural Networks (Explained Visually)](https://www.youtube.com/watch?v=e5xKayCBOeU)
