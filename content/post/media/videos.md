@@ -50,3 +50,4 @@ A non-exhaustive list of videos I find inspiring, informative, and entertaining.
 * [Eddie Vedder sings Black @ Firenze Rocks](https://www.youtube.com/watch?v=IfmKAkVfvgA)
 * [Jason Resch - The Magic of Math in Modern Cryptography](https://www.youtube.com/watch?v=mSMQ-xowqAg)
 * [The Mathematics of Neural Networks (Explained Visually)](https://www.youtube.com/watch?v=e5xKayCBOeU)
+* [Brian Kernighan interviews Ken Thompson](https://www.youtube.com/watch?v=EY6q5dv_B-o)
