@@ -51,3 +51,4 @@ A non-exhaustive list of videos I find inspiring, informative, and entertaining.
 * [Jason Resch - The Magic of Math in Modern Cryptography](https://www.youtube.com/watch?v=mSMQ-xowqAg)
 * [The Mathematics of Neural Networks (Explained Visually)](https://www.youtube.com/watch?v=e5xKayCBOeU)
 * [Brian Kernighan interviews Ken Thompson](https://www.youtube.com/watch?v=EY6q5dv_B-o)
+* [How One Instrument Defined A Generation](https://www.youtube.com/watch?v=L5eN83w0ssc)
