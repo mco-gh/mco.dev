@@ -21,5 +21,5 @@ Things I'm interested in:
 
 * teaching and learning
 * productivity and study hacks
-* computing, math, and puzzles
+* computing, math, puzzles, and chess
 * books, music, theater, and film
