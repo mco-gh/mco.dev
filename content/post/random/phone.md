@@ -16,7 +16,7 @@ I found myself spending more and more of my time focusing on you rather than the
 
 Lately, most of the time we spend together is not quality time. It's just bouncing around between my favorite apps and websites, waiting for that little dopamine hit that comes from finding an interesting news item or something cool in my twitter feed. But think about the opportunity cost of all that time spent staring at my hand.
 
-I've suspected our relationship was unhealthy for few years and I've tried so many methods to manage our time together. But I keep coming back to you. So I started wondering, what's the minimal set of functions I need at my fingertips 24x7?
+I've suspected our relationship was unhealthy for a few years and I've tried so many methods to manage our time together. But I keep coming back to you. So I started wondering, what's the minimal set of functions I need at my fingertips 24x7?
 
 <br>
 
@@ -28,7 +28,7 @@ That's it. That's all I really want from a device in my pocket. What about email
 
 So I disabled your wifi and cellular data and removed all but the three apps above. I even removed Chrome. I know that hurt your feelings but I've decided to put a priority on my productivity and wellbeing.
 
-I know what you're thinking. How can I possibly survive without you? Remember this: I lived most of my life in the pre-smart-phone era and I did pretty well. I read books, I talked with people, and I thought deeply about things.
+I know what you're thinking. How can I possibly survive without you? Remember this: I lived most of my life in the pre-smartphone era and I did pretty well. I read books, I talked with people, and I thought deeply about things.
 
 This song says it more eloquently than I could:
 
