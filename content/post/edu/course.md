@@ -7,10 +7,11 @@ coverImage = "/img/workspace.jpg"
 weight = 1
 +++
 
-This new course provides a practical, supportive, and fun environment for learning Python. Tuition is free for underrepresented groups. Classes start on August 12 and we'll meet once a week for eight weeks. Read on if you're interested in attending. Classes are limited to the first ten students to sign up via
+This new course provides a practical, supportive, and fun environment for learning Python. Tuition is free for underrepresented groups.
+<!--more-->
+Classes start on August 12 and we'll meet once a week for eight weeks. Read on if you're interested in attending. Classes are limited to the first ten students to sign up via
 <a target="_blank" href="https://forms.gle/vY8hPYApYr4Jihc1A">this form</a>.
 
-<!--more-->
 
 ## Overview
 
