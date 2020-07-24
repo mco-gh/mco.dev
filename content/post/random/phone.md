@@ -12,7 +12,7 @@ We've had a great relationship over the years. You bring the world right to my f
 
 <!--more-->
 
-I found myself spending more and more of my time focusing on you rather than the world around me. It got to the point where I would put you down and then seconds later find you were back in my hand, without even realizing I picked you up again.
+I found myself spending more and more of my time focusing on you rather than the world around me. It got to the point where I would put you down and then seconds later find you were back in my hand, without even realizing I'd picked you up again.
 
 Lately, most of the time we spend together is not quality time. It's just bouncing around between my favorite apps and websites, waiting for that little dopamine hit that comes from finding an interesting news item or something cool in my twitter feed. But think about the opportunity cost of all that time spent staring at my hand.
 
@@ -26,7 +26,7 @@ I've suspected our relationship was unhealthy for few years and I've tried so ma
 
 That's it. That's all I really want from a device in my pocket. What about email? I can do that on my laptop. Google, New York Times, online chess? Same answer. Facebook? I quit years ago. Instagram, TikTok? No thanks.
 
-So I disabled wifi and cellular data and removed all but the three apps above. I even removed Chrome. I know that hurt your feelings but I've decided to put my top priority on my productivity and wellbeing.
+So I disabled your wifi and cellular data and removed all but the three apps above. I even removed Chrome. I know that hurt your feelings but I've decided to put a priority on my productivity and wellbeing.
 
 I know what you're thinking. How can I possibly survive without you? Remember this: I lived most of my life in the pre-smart-phone era and I did pretty well. I read books, I talked with people, and I thought deeply about things.
 
