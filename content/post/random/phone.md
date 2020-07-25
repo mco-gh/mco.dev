@@ -2,7 +2,7 @@
 categories = ["Random"]
 tags= ["smartphones"]
 title = "It's Not You, It's Me"
-date = "2020-07-24"
+date = "2020-07-25"
 coverImage = "/img/phone.jpg"
 +++
 
