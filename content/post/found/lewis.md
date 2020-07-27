@@ -6,7 +6,9 @@ date = "2020-07-27"
 coverImage = "/img/lewis.jpg"
 +++
 
-Watch this trailer for an upcoming documentary about John Lewis, a US congressman who died a few days, but also a folk hero of the American civil rights movement. 
+"We must go out and vote like we never, ever voted before." - John Lewis
+
+Watch this trailer for an upcoming documentary about John Lewis, a US congressman who died a few days, but also a folk hero of the American civil rights movement.
 
 <!--more-->
 
