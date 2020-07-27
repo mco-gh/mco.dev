@@ -2,7 +2,7 @@
 categories = ["Newsletter"]
 tags = ["History"]
 title= "John Lewis - Good Trouble"
-date = "2020-07-28"
+date = "2020-07-27"
 coverImage = "/img/lewis.jpg"
 +++
 
