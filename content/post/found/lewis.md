@@ -8,7 +8,7 @@ coverImage = "/img/lewis.jpg"
 
 "We must go out and vote like we never, ever voted before." - John Lewis
 
-Watch this trailer for an upcoming documentary about John Lewis, a US congressman who died a few days, but also a folk hero of the American civil rights movement.
+Watch this trailer for an upcoming documentary about John Lewis, a hero of the American civil rights movement and US congressman, who died a few days.
 
 <!--more-->
 
