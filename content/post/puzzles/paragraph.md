@@ -1,16 +1,15 @@
 +++
 categories = ["Puzzles"]
 tags = []
-date = "2017-03-26"
+date = "2020-07-29"
 title = "An Unusual Paragraph"
-subtitle = "How quickly can you find out what is unusual about this paragraph?"
 coverImage = "/img/paragraph.jpg"
 +++
 
 How quickly can you find out what is unusual about this
 paragraph?<!--more-->
 
-It looks so ordinary that you would think that
+> It looks so ordinary that you would think that
 nothing was wrong with it at all and, in fact, nothing is.
 But it is unusual. Why? If you study it and think about
 it you may find out, but I am not going to assist you in
