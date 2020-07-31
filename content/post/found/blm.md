@@ -18,7 +18,7 @@ Rob Bliss held up a Black Lives Matter sign on the side of a road in Harrison, A
 <br>
 If you know about the history of racism in the US, especially in the deep south, this won't surprise you, but the vitriolic reactions are still jarring to see first hand. 
 
-One thing that stands out for me is the most common refrain he hears, which asks why a white guy would take a stand for Black lives. They can't seem to fathom why someone would care, no less make a public statement, on behalf of a group of which he's not part.
+One thing that stands out for me is the most common refrain he hears, which asks why a white guy would take a stand for Black lives. They can't seem to fathom why someone would care, no less make a public statement, on behalf of a group of which he's not a part.
 
 Racism is everywhere in the US. It's just manifested and expressed in different ways. We're lucky that journalists like Rob Bliss exist, who are willing to shine a light on the parts of America that we'd rather not acknowledge, at significant risk to their own personal safety.
 
