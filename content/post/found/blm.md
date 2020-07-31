@@ -3,7 +3,7 @@ categories = ["Newsletter"]
 tags = ["Civil Rights"]
 title= "America's Most Racist Town"
 date = "2020-07-31"
-coverImage = "/img/blm.jpg"
+coverImage = "/img/blm.png"
 +++
 
 Rob Bliss held up a Black Lives Matter sign on the side of a road in Harrison, Arkansas, home of the KKK and a city Bliss claims to be the most racist in the country, while he secretly recorded his experience.
