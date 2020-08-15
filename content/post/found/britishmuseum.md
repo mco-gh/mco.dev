@@ -3,7 +3,7 @@ categories = ["Newsletter"]
 tags = ["video"]
 title= "Plundered Treasures in the British Museum"
 date = "2020-08-15"
-coverImage = "/img/britishmuseum.webp"
+coverImage = "/img/britishmuseum.jpg"
 +++
 
 Saw this on the always fascinating <a href="https://kottke.org" target="_blank">kottke.org</a>. The British Museum hosts some of the world's foremost cultural and historical artifacts. Unfortunately, most of them are stolen.
