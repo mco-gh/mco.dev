@@ -34,17 +34,24 @@ This course teaches basic Python Programming with an emphasis on being:
 
 - One 90-minute meeting per week for eight weeks starting on Wednesday August 12 through September 30, 2020.
 - Class are held remotely via videoconference on Wednesday evenings, 7-8:30pm BST (the first lesson is two hours 7-9pm).
-- All lesson materials will be released one week in advance, so you can read ahead before the lectures.
-- Homework assignments will be done via web-hosted Python notebooks.
+- All lesson materials will be available to you free and online, including supplementary readings from an online textbook.
 
 ## Syllabus
 
-- Week 1
-  - Intros, Team Formation
-  - Why Learn Python?
-  - Computers and Programming
-  - Jupyter Notebooks and Your First Program
-  - Types, Variables, Assignments, and Simple I/O
+- Week 1 - Python Basics
+  - Welcome and Introductions
+  - Background
+    - What is Python
+    - Why Learn Python
+    - Computers and Programming
+  - Notebooks and Your First Program
+  - Basics
+    - Simple I/O
+    - Numbers
+    - Strings
+    - Variables
+    - Assignments
+  - Example Programs
 - Week 2 - Operators, Expressions, & Conditional Logic
 - Week 3 - String methods, Sequences, & Loops
 - Week 4 - Tuples, Lists, & Dictionaries
