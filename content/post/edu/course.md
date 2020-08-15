@@ -7,10 +7,12 @@ coverImage = "/img/workspace.jpg"
 weight = 1
 +++
 
-** The Summer 2020 offering has started and is now closed to new signups but you can still sign up to be included in the next offering. **
 
 This new course provides a practical, supportive, and fun environment for learning Python. Tuition is free for underrepresented groups.
 <!--more-->
+
+> **Update: The Summer 2020 offering has started and is now closed to new signups but you can still sign up to be included in the next offering.**
+
 Classes start on August 12 and we'll meet once a week for eight weeks. Read on if you're interested in attending. Classes are limited to the first ten students to sign up via
 <a target="_blank" href="https://forms.gle/vY8hPYApYr4Jihc1A">this form</a>.
 
