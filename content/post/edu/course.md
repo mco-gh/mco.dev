@@ -4,7 +4,10 @@ tags = ["edu"]
 title = "Free Course: Practical Python Programming for Everyone"
 date = "2020-07-21"
 coverImage = "/img/workspace.jpg"
+weight = 1
 +++
+
+** The Summer 2020 offering has started and is now closed to new signups but you can still sign up to be included in the next offering. **
 
 This new course provides a practical, supportive, and fun environment for learning Python. Tuition is free for underrepresented groups.
 <!--more-->
