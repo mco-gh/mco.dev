@@ -10,7 +10,7 @@ By recording the sound of a key being inserted into a lock, people can now 3D pr
 
 <!--more-->
 
-Real world interactions produce physical artifacts in the form of heat, light, sound, etc. As our computing power and techniques continue advancing, our ability to detect and process ever more subtle signalsleads to some unexpected correlations.
+Real world interactions produce physical artifacts in the form of heat, light, sound, etc. As our computing power and techniques continue advancing, our ability to detect and process ever more subtle signals leads to some unexpected results.
 
 Found via <a target="_blank" href="https://twitter.com/JeffDean">@JeffDean</a>'s twittter feed. Excerpt:
 
