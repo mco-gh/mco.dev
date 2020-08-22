@@ -6,11 +6,11 @@ date = "2020-08-22"
 coverImage = "/img/keaton.jpg"
 +++
 
-Buster Keaton was one of the biggest stars in the early days of Hollywood. His fame was eclipsed by Charlie Chaplin, his comic rival of the silent film era. But his knack for physical comedy and performing his own (often dangerous) stunts was unparalleled in cinema histoy.
+Buster Keaton was one of the biggest stars in the early days of Hollywood. His fame was eclipsed by Charlie Chaplin, his comic rival of the silent film era. But his knack for physical comedy and performing his own (often dangerous) stunts was unparalleled in cinema history.
 
 <!--more-->
 
-Watch this montage of his best stunts, narrated by Keaton himself.
+Watch this amazing montage of his best stunts, narrated by Keaton himself.
 
 <br>
 
