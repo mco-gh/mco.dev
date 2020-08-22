@@ -17,5 +17,5 @@ Watch this amazing montage of his best stunts, narrated by Keaton himself.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/frYIj2FGmMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-[Read more](https://scrapsfromtheloft.com/2019/11/16/buster-keaton-penelope-gilliatt/) about this incredible talent from a bygone era.
+<a target="_blank" href="https://scrapsfromtheloft.com/2019/11/16/buster-keaton-penelope-gilliatt/">Read more</a> about this incredible talent from a bygone era.
 
