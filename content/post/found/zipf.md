@@ -6,7 +6,7 @@ date = "2020-08-25"
 coverImage = "/img/zipf.jpg"
 +++
 
-Have you heard of Zipf's Law? It's a surprisingly simple and accurate equation governing the frequency of word use in written prose. It's been verified across numerous languages, which suggests that it captures something intrisic and universal about human language.
+Have you heard of Zipf's Law? It's a surprisingly simple and accurate equation governing the frequency of word use in written prose. It's been verified across numerous languages, which suggests that it captures something intrinsic and universal about human language.
 
 <!--more-->
 
