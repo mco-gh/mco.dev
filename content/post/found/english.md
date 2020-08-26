@@ -10,9 +10,7 @@ I often speak with students about careers in math and computing and the most com
 
 <!--more-->
 
-They’re expecting an answer like Machine Learning or Linear Algebra, something based on current technology trends. But my answer is to develop a decidedly untrendy life skill: **learn to write effectively**.
-
-I’m convinced that being able to express yourself in a clear, concise, and compelling way is the single most valuable professional skill you can cultivate.
+They’re expecting an answer like Machine Learning or Linear Algebra, something based on current technology trends. But my answer is to develop a decidedly untrendy life skill: **learn to write effectively**. I’m convinced that being able to express yourself in a clear, concise, and compelling way is the single most valuable professional skill you can cultivate.
 
 The article cited below provides, in a ten minute read, a simple guide to writing in plain english. The key points are:
 
