@@ -6,7 +6,7 @@ date = "2020-08-27"
 coverImage = "/img/rocketman.png"
 +++
 
-This story from the Washington Post is true but almost too weird to believe. You're welcome.
+This story from the Washington Post is true but almost too weird to believe.
 
 <!--more-->
 
