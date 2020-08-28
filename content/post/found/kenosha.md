@@ -6,7 +6,7 @@ date = "2020-08-28"
 coverImage = "/img/kenosha.jpg"
 +++
 
-Please take two minutes out of your day to watch Trevor Noah break down why it's perfectly fine for some people to openly wield assualt rifles, while others are shot seven times in the back in front of his kids, based on the speculation that they *might* be attempting to access a weapon.
+Please take two minutes out of your day to watch Trevor Noah break down why it's perfectly fine for some people to openly wield assault rifles, while others are shot seven times in the back, based on the speculation that they *might* be attempting to access a weapon.
 
 <!--more-->
 
