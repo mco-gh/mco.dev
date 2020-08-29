@@ -6,7 +6,7 @@ date = "2020-08-29"
 coverImage = "/img/dance.jpg"
 +++
 
-Check out this amazing performance by a French dance troup, recorded in Berlin in 2016. The piece is entitled *Celui Qui Tombe* ("The One Who Falls") and the entire performance takes place on a tilting and rotating stage. 
+Check out this amazing performance by a French dance troupe, recorded in Berlin in 2016. The piece is entitled *Celui Qui Tombe* ("The One Who Falls") and the entire performance takes place on a tilting and rotating stage. 
 
 <!--more-->
 
