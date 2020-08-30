@@ -6,7 +6,7 @@ date = "2020-08-30"
 coverImage = "/img/eilish.png"
 +++
 
-Here's another in the Tiny Desk (Home) Concert series. This entire performance is amazing but what really gets me is the second song in the set, *Everything I Wanted*, which has a poignant, melancholy vibe and features beautiful harmonies with her brother and collaborator, Finneas.
+Here's another in the Tiny Desk (Home) Concert series. This entire performance is amazing but what really gets me is the second song in the set, *Everything I Wanted*, featuring beautiful harmonies with her brother and collaborator, Finneas.
 
 <!--more-->
 
