@@ -10,9 +10,9 @@ Are you using <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication
 
 <!--more-->
 
-If you are using 2FA, you've got some sort of app on your phone, or perhaps a physical device that generates a short sequence of digits to verify your identity. The digits change every 30 seconds or so because the codes are time based.
+If you are using 2FA, you've got some sort of app on your phone, or perhaps a physical device, that generates a short sequence of digits to verify your identity. The digits change every 30 seconds or so because the codes are time based.
 
-Have you ever wondered how this works? The article linked below provides a simple explanation of howe those 2FA apps generate those unique time-based codes and how login services verify them.
+Have you ever wondered how this works? The article linked below provides a simple explanation of how those 2FA apps generate unique time-based codes and how login services verify them.
 
 <br>
 
