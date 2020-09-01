@@ -39,26 +39,27 @@ This course teaches basic Python Programming with an emphasis on being:
 ## Syllabus
 
 - Week 1 - Python Basics
-  - Welcome and Introductions
-  - Background
-    - What is Python
-    - Why Learn Python
-    - Computers and Programming
-  - Notebooks and Your First Program
-  - Basics
-    - Simple I/O
-    - Numbers
-    - Strings
-    - Variables
-    - Assignments
-  - Example Programs
-- Week 2 - Operators, Expressions, & Conditional Logic
-- Week 3 - String methods, Sequences, & Loops
-- Week 4 - Tuples, Lists, & Dictionaries
-- Week 5 - Functions and Modules
-- Week 6 - Files and Exceptions
-- Week 7 - Object Oriented Programming
-- Week 8 - Project Presentations
+- Week 2 - Booleans, Expressions, Operators, and If Statements
+- Week 3 - String Revisited and Loops
+- Week 4 - Functions and Modules
+- Week 5 - Tuples, Lists, and Dictionaries
+- Week 6 - Objects, Files, and Exceptions
+- Week 7 - Applied Python - Data Science
+  * web scraping
+  * csv files
+  * pandas
+  * data visualization
+- Week 8 - Applied Python - Web and Cloud Computing
+  * containers
+  * web server
+  * back end API
+  * Cloud Run
+- Week 9 - (optional) Group or Personal Project Presentations
+
+## Some Side Topics We'll Explore
+- Integrated Development Environments (IDEs)
+- All about the web
+- Github and Source Control
 
 ## Frequently Asked Questions
 
