@@ -56,11 +56,6 @@ This course teaches basic Python Programming with an emphasis on being:
   * Cloud Run
 - Week 9 - (optional) Group or Personal Project Presentations
 
-## Some Side Topics We'll Explore
-- Integrated Development Environments (IDEs)
-- All about the web
-- Github and Source Control
-
 ## Frequently Asked Questions
 
 ### Who are these classes for?
