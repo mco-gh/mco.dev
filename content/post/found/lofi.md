@@ -23,8 +23,11 @@ The underlying technology behind this demo is <a href="https://magenta.tensorflo
 <br>
 <br>
 
-<blockquote class="quoteback" darkmode="" data-title="magenta%2Flofi-player" data-author="@github" cite="https://github.com/magenta/lofi-player">
-<h1>Lo-Fi Player</h1>
-<p>Welcome to our “Lo-Fi Player” room! By interacting with elements in the room, you can build your own custom music stream. Or if you prefer, just relax, listen, and enjoy the view from the window. The experience is powered by machine learning models from <a href="https://github.com/magenta/magenta-js" target="_blank" rel="noopener">magenta.js</a>.</p>
-<footer>@github<cite> <a href="https://github.com/magenta/lofi-player">https://github.com/magenta/lofi-player</a></cite></footer>
-</blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
+<blockquote class="quoteback" darkmode="" data-title="Lo-Fi%20Player" data-author="" cite="https://magenta.tensorflow.org/lofi-player">
+                      Welcome to Lo-Fi Player! By interacting with elements in the room, you can build
+your own custom music room. You can also share your room with others. Or if you
+prefer, just relax, listen, and enjoy the view from the window. The experience
+is powered by machine learning models from <a href="https://magenta.tensorflow.org/js-announce" target="_blank" rel="noopener">magenta.js</a>.
+                      <footer> <cite><a href="https://magenta.tensorflow.org/lofi-player">https://magenta.tensorflow.org/lofi-player</a></cite></footer>
+                      </blockquote>
+                      <script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
