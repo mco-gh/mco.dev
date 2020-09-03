@@ -6,7 +6,7 @@ date = "2020-09-03"
 coverImage = "/img/noun.jpg"
 +++
 
-Looking to spruce up your document, slideshow, newsletter, or website? Check out the Noun Project, featuring over two million icons and crowdsourced by designers from all over the world. It's one of those amazing resources that reminds us the internet is not all bad.
+Looking to spruce up your document, slideshow, newsletter, or website? Check out the Noun Project, featuring over two million icons crowdsourced by designers from all over the world. It's one of those amazing resources that reminds us the internet is not all bad.
 
 <!--more-->
 
