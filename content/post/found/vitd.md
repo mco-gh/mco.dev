@@ -6,9 +6,11 @@ date = "2020-09-04"
 coverImage = "/img/vitd.jpg"
 +++
 
-This is from a small (50 subjects) but seemingly rigorous study on the mitigating effect of high doses of Vitamin D on Covid-19. Of course, studies like this one are coming out fast and furious so take this with a grain of salt, but I'm interested in seeing corrobration of this result because it could be a freely available and inexpensive way for everyone to reduce their risk.
+This is from a small (50 subjects) but seemingly rigorous study on the mitigating effect of high doses of Vitamin D on Covid-19. 
 
 <!--more-->
+
+Of course, studies like this one are coming out fast and furious so take this with a grain of salt, but I'm interested in seeing corrobration of this result because it could be a freely available and inexpensive way for everyone to reduce their risk of developing serious complications.
 
 <br>
 
