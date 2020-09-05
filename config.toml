@@ -154,7 +154,7 @@ canonifyurls = true
   # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
   autoThumbnailImage = true
 
-  favicon = "/img/favicon.ico"
+  favicon = "/img/favicon.png"
 
   # Header configuration
   # The link at the right of the header is customizable
