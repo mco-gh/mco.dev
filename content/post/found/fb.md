@@ -1,6 +1,6 @@
 +++
 categories = ["Newsletter"]
-tags = ["Facebook]
+tags = ["Facebook"]
 title= "Can We Please Regulate Facebook?"
 date = "2020-09-10"
 coverImage = "/img/fb.jpg"
