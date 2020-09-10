@@ -1,7 +1,7 @@
 +++
 categories = ["Newsletter"]
 tags = ["gender"]
-title= "Men Are Assholes"
+title= "Men Are Ruining Everything"
 date = "2020-09-09"
 coverImage = "/img/men.jpg"
 +++
