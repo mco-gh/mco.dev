@@ -6,10 +6,15 @@ date = "2020-09-11"
 coverImage = "/img/fb.jpg"
 +++
 
-Can someone explain to me why it's ok that we're now dependent on one private company to protect the integrity of US eletions?
+Mark Zuckerberg is now arguably the most powerful person on earth. I don't remember voting for him. Do you?
 
 <!--more-->
 
+Do you realize that we're now dependent on one company to play a major role in protecting the integrity of elections worldwide? And that one person has the power to unilaterally make all important decisions for that company? 
+
+Our government's job is to protect us from consolidation and abuse of power that threatens our democracy. We already know how Facebook, Twitter, and other social media networks influenced the last election and unwitttingly contributed to the rise of an authoritarian regime. We're now seeing credible reports that it's happening all over again.
+
+Our democracy is dying, in slow motion, right before our eyes.
 
 <br>
 
