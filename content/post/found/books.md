@@ -1,7 +1,7 @@
 +++
 categories = ["Newsletter"]
 tags = ["books"]
-title= "Death of Books Greatly Exaggerated"
+title= "Reports of Book's Death Are Greatly Exaggerated"
 date = "2020-09-13"
 coverImage = "/img/door.jpg"
 +++
@@ -10,7 +10,7 @@ What proportion of current book sales, would you guess, is represented by ebooks
 
 <!--more-->
 
-My guess was around 50/50 but I was surprised to find out that paper books have made a comeback - they now generate roughly ten times the revenue of ebooks. Even more surprisingly, a significant proportion of that success is attributable to young readers, the ones I would least expect to prefer paper books.
+My guess was around 50/50 but I was surprised to find out that paper books have made a comeback - they now generate roughly ten times the revenue of ebooks. Even more surprisingly, a significant proportion of that success is attributable to young readers, the ones I would least expect to prefer that format.
 
 I took the photo above in one of my favorite bookstores: City Lights in San Francisco.
 
