@@ -1,7 +1,7 @@
 +++
 categories = ["Newsletter"]
 tags = ["books"]
-title= "Reports of Book's Death Are Greatly Exaggerated"
+title= "Death of Books Greatly Exaggerated"
 date = "2020-09-13"
 coverImage = "/img/door.jpg"
 +++
