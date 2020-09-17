@@ -6,7 +6,7 @@ date = "2020-09-17"
 coverImage = "/img/rubik.jpg"
 +++
 
-Check out this excellent New York Times profile of Erno Rubik, the man who invented one of the world's most challenging puzzles.
+Check out this excellent New York Times profile of Erno Rubik, the man who invented one of the world's most challenging and beloved puzzles.
 
 <!--more-->
 
