@@ -14,7 +14,9 @@ It must be accurate, right? I mean, it's using AI! Also, the progress bar featur
 
 I take these results, like most modern AI claims, with a grain of salt, but I do like the idea that a compelling blog is about more than just content - it's important to provide an attractive, visually appealing user experience.
 
-Just for fun, I ran this tool on Google and Wikpedia. Guess what? Also visually average. Twitter.com, on the other hand, earns a grade of "visually stunning" and significantly outscores both Facebook and Instagram. This is a good case where the current trend toward "Explainable AI" would come in handy.
+Just for fun, I ran this tool on Google and Wikpedia. Guess what? Also visually average. Twitter.com, on the other hand, earns a grade of "visually stunning" and significantly outscores both Facebook and Instagram.
+
+This is a case where the current trend toward "Explainable AI" would come in handy - what specific aspects make a neural network think a site looks good (or bad)?
 
 <br>
 
