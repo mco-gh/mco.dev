@@ -6,7 +6,7 @@ date = "2020-09-19"
 coverImage = "/img/visual.jpg"
 +++
 
-This site purportedly uses AI to measure the visual aethetics of your website. I tried it with the one you're now reading and was told what I knew all along: I'm visually average.
+This site purportedly uses AI to measure the visual aesthetics of your website. I tried it with the one you're now reading and was told what I knew all along: I'm visually average.
 
 <!--more-->
 
