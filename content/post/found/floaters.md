@@ -2,7 +2,7 @@
 categories = ["Newsletter"]
 tags = ["Animation"]
 title = "Why Are We Going Up?"
-date = "2020-09-21"
+date = "2020-09-20"
 coverImage = "/img/floaters.png"
 +++
 
