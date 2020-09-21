@@ -6,7 +6,7 @@ date = "2020-09-21"
 coverImage = "/img/rbg.jpg"
 +++
 
-Watch this excellent documentary to learn more about the life of this American hero.
+Watch this excellent documentary to learn more about the life of a real American hero.
 
 <br>
 
