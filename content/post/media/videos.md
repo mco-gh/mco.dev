@@ -53,4 +53,3 @@ A non-exhaustive list of videos I find inspiring, informative, and entertaining.
 * [Brian Kernighan interviews Ken Thompson](https://www.youtube.com/watch?v=EY6q5dv_B-o)
 * [How One Instrument Defined A Generation](https://www.youtube.com/watch?v=L5eN83w0ssc)
 * [How I Made My Own RFID tag](https://www.youtube.com/watch?v=PWzyPZAPbt0)
-* [Gary Bernhardt - Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
