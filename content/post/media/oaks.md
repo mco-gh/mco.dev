@@ -6,11 +6,11 @@ date = "2020-09-26"
 coverImage = "/img/oaks.jpg"
 +++
 
-Check out this stellar black and white video of Strand of Oaks performing *Bonfire* from 2010.
+Check out this haunting black and white video of Strand of Oaks performing *Bonfire* from 2010.
 
 <!--more-->
 
-This song is about an apocalypse:
+The song is about an apocalypse:
 
 > My wife sits with me  
 > scorched earth drying sheets  
