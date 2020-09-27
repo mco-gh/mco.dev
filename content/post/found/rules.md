@@ -6,7 +6,7 @@ date = "2020-09-27"
 coverImage = "/img/rules.jpg"
 +++
 
-I love these rules. So simple, yet they reveal fundamental truths that can help us live better lives.
+Check out these simple, yet profound rules.
 
 <!--more-->
 
