@@ -6,7 +6,7 @@ date = "2020-09-28"
 coverImage = "/img/paternity.jpg"
 +++
 
-Imagine a country where paid maternity **and paternity** leave was not just something left to the discretion of employers, but was mandated by the government--
+Imagine a country where paid maternity **and paternity** leave was not just something left to the discretion of employers, but was mandated by the government.
 
 <!--more-->
 
