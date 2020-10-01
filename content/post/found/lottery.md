@@ -10,7 +10,7 @@ Check out this fascinating profile of Jerry and Marge Selbee, a working class re
 
 <!--more-->
 
-Over a period of five years, they earned over five million dollars in profits, outsmarting a team of MIT students along the way. I hope my retirement years are half as exciting.
+Over a period of five years they earned over five million dollars in profits, outsmarting a team of MIT students along the way. I hope my retirement years are half as exciting.
 
 <br>
 
