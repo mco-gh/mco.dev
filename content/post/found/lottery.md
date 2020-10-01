@@ -6,7 +6,7 @@ date = "2020-10-01"
 coverImage = "/img/lottery.png"
 +++
 
-Check out this fascinating profile of Jerry and Marge Selbee, a working class retired couple from small town in Michigan, who legally hacked two state lotteries.
+Check out this fascinating profile of Jerry and Marge Selbee, a working class retired couple from a small town in Michigan, who legally hacked two state lotteries.
 
 <!--more-->
 
