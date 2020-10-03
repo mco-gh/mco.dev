@@ -1,6 +1,6 @@
 +++
-categories = ["Newsletter"]
-tags = ["Lottery"]
+categories = ["Media"]
+tags = ["Documentaries"]
 title = "Best Documentaries on Netflix"
 date = "2020-10-02"
 coverImage = "/img/docs.jpg"
