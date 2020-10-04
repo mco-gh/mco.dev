@@ -23,10 +23,10 @@ Finally, what happens if a candidate dies just days before the election?
 
 > It’d probably be really hard to pick a replacement in time to update ballots, as most deadlines to certify state ballots would have passed by early October — not to mention other logistical hurdles that could pose problems, such as mailing ballots for overseas military service members in time, or making last-minute adjustments to absentee ballots. It’s entirely possible that if the candidate died only a few days before Nov. 3, voters might not know who the party’s nominee was when they go to the polls.
 
-Due to the pandemic, many states have recently pass laws enable expanded mail-in voting. In fact, now 84% of the American voting public has the option to vote by mail and are doing so at an unprecedented rate this year.
+Due to the pandemic, many states have recently pass laws expanding mail-in voting. In fact, 84% of the American voting public now have the option to vote by mail and are doing so at an unprecedented rate this year.
 What happens if the candidate you already voted for dies before the election?
 
-In short, if something like this happens, buckle your seat belts.
+In short, if something like this happens, buckle your seat belts, it's going to make Bush v. Gore look like a walk in the park.
 
 <br>
 
