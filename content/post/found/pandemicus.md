@@ -6,7 +6,7 @@ date = "2020-10-05"
 coverImage = "/img/pandemicus.jpg"
 +++
 
-Check out this amazing piece of video journalism from the New York Times, recounting how America failed so badly.
+Check out this fantastic piece of video journalism from the New York Times, explaining exactly how America failed so badly.
 
 <!--more-->
 
