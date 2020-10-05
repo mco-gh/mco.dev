@@ -6,7 +6,7 @@ date = "2020-10-05"
 coverImage = "/img/pandemicus.jpg"
 +++
 
-Check out this fantastic piece of video journalism from the New York Times, explaining exactly how America failed so badly.
+Check out this excellent piece of video journalism from the New York Times, explaining exactly how and why America failed the pandemic test so badly.
 
 <!--more-->
 
