@@ -6,7 +6,7 @@ date = "2020-10-06"
 coverImage = "/img/heart.jpg"
 +++
 
-This excellent story from Toronto Life profiles a brazen and prolific con man. Shawn Rootenbert serially romanced women, sometimes more than one at a time, and had a unique knack for scamming them out of their life savings. Modern dating apps seem perfectly designed for bringing together predators like this guy with needy victims.
+This excellent story from Toronto Life profiles a brazen and prolific con man. Shawn Rootenberg serially romanced women, sometimes more than one at a time, and had a unique knack for scamming them out of their life savings. Modern dating apps seem perfectly designed for bringing together predators like this guy with needy victims.
 
 <!--more-->
 
