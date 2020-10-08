@@ -6,10 +6,11 @@ date = "2020-10-08"
 coverImage = "/img/dopamine.jpg"
 +++
 
-Check out this physical realization of a powerful self-motivation device. It's fun watching Mike iteratively improve his design until it's nearly perfect. It makes me want to build my own version. Also, love the Scottish accent. :)
+Check out this physical realization of a powerful self-motivation device.
 
 <!--more-->
 
+It's fun watching Mike iteratively improve his design until it's nearly perfect. It makes me want to build my own version. Also, love the Scottish accent. :)
 
 <br>
 
