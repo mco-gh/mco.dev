@@ -6,7 +6,7 @@ date = "2020-10-10"
 coverImage = "/img/maya-chess.png"
 +++
 
-A new study reveals the age at which the human brain, on average, stops being the amazing liguistic sponge we're all born with.
+A new study reveals the age at which the human brain, on average, stops being the amazing linguistic sponge we're all born with.
 
 <!--more-->
 
