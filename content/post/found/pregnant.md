@@ -6,9 +6,11 @@ date = "2020-10-11"
 coverImage = "/img/pregnant.jpg"
 +++
 
-Check out these three profiles of women who gave birth in these challenging times. One of them is a single mother, working as clinical social worker in a hospital ICU ward, while pregnant.
+Check out these three profiles of women who gave birth in these challenging times.
 
 <!--more-->
+
+One of them is a single mother, working as clinical social worker in a hospital ICU ward, while pregnant.
 
 <br>
 
