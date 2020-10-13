@@ -6,7 +6,7 @@ date = "2020-10-13"
 coverImage = "img/kimmel.png"
 +++
 
-Remember when we had a president we could proud of? This is funny, but it would even funnier if it wasn't real.
+Remember when we had a president we could proud of? This is funny, but it would be funnier if it wasn't real.
 
 <!--more-->
 
