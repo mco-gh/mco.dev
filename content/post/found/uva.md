@@ -1,7 +1,7 @@
 +++
 categories = ["Newsletter"]
 tags = ["Pandemic"]
-title = "Univerity of Chaos"
+title = "University of Chaos"
 date = "2020-10-14"
 coverImage = "/img/uva.jpg"
 +++
