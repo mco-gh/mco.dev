@@ -6,7 +6,7 @@ date = "2020-10-14"
 coverImage = "/img/uva.jpg"
 +++
 
-Check out this New York Times profile of University of Virgina students attempting to adjust to a very different sort of life on campus.
+Check out this New York Times profile of University of Virginia students attempting to adjust to a very different sort of life on campus.
 
 <!--more-->
 
