@@ -6,7 +6,7 @@ date = "2020-10-15"
 coverImage = "/img/ns.jpg"
 +++
 
-Check out this blog post by author Neal Stephenson on why he's a bad email correspondent, by design. I feel similarly about meetings. They generally interrupt my flow and fragment my day. I already have attention issues, so avoiding all but the most important meetings enables me to stay focussed. 
+Check out this blog post by author Neal Stephenson on why he's a bad email correspondent, by design. I feel similarly about meetings - they generally interrupt my flow and fragment my day. I already have attention issues, so avoiding all but the most important meetings enables me to stay focussed. 
 
 <!--more-->
 
