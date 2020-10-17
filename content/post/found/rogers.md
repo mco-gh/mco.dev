@@ -6,7 +6,7 @@ date = "2020-10-17"
 coverImage = "/img/rogers.jpg"
 +++
 
-Take five minutes out of your day to watch what must be the most moving and eloquent testimony in the history of congressional hearings. If you've seen this before| watch it again. You won't be disappointed.
+Take five minutes out of your day to watch what must be the most moving and eloquent testimony in the history of congressional hearings. If you've seen this before watch it again. You won't be disappointed.
 
 <!--more-->
 
