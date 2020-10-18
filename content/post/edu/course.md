@@ -4,7 +4,7 @@ tags = ["edu"]
 title = "Free Course: Practical Python Programming for Everyone"
 date = "2020-07-21"
 coverImage = "/img/workspace.jpg"
-weight = 1
+weight = 2
 +++
 
 
