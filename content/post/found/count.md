@@ -10,7 +10,7 @@ When I was a high school student in New Jersey, the state legalized gambling in 
 
 <!--more-->
 
-I was never very good at it, but I do hold the distinction of being ejected from a casino, not because I was particularly successsful, but because I had a poorly concealed cheat sheet in my hand.
+I was never very good at it| but I do hold the distinction of being ejected from a casino, not because I was particularly successsful, but because I had a poorly concealed cheat sheet.
 
 Check out this video from the always excellent Wendover Productions, explaining how card counting works and how casinos stop you from getting away with it.
 
