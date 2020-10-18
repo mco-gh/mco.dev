@@ -7,7 +7,7 @@ coverImage = "/img/nb.jpg"
 weight = 1
 +++
 
-Notebooks are awesome. Perhaps you've used them work or school. But one problem is there are so many. Just at Google we have Colab, Kaggle Notebooks, and Cloud AI Platform Notebooks. So which should you use? The answer, as usual, is "it depends". This session will summarize your options and try to help you choose the best notebook services and tools for your needs.
+Notebooks are awesome. Perhaps you've used them at work or school. But one problem is there are so many. Just at Google we have Colab, Kaggle Notebooks, and Cloud AI Platform Notebooks. So which should you use? The answer, as usual, is "it depends". This session will summarize your options and try to help you choose the best notebook services and tools for your needs.
 
 <!--more-->
 
