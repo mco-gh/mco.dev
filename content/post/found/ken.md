@@ -1,7 +1,7 @@
 +++
 categories = ["Newsletter"]
 tags = ["Fame"]
-title = "Beating the Casino"
+title = "Fame is a Drug"
 date = "2020-10-19"
 coverImage = "/img/ken.jpg"
 +++
