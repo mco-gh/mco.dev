@@ -6,7 +6,7 @@ date = "2020-10-20"
 coverImage = "/img/qanon.png"
 +++
 
-This is a great read in case you ever wondered what it might be like to challenge a conspiracy mongering, hate spewing, xenophobic candidate for US Congress.
+This is a great read from the Washington Post in case you ever wondered what it might be like to challenge a conspiracy mongering, hate spewing, xenophobic candidate for US Congress.
 
 <!--more-->
 
