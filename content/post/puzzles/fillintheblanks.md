@@ -43,6 +43,7 @@ This is the kind of puzzle where answers will pop into your head when you’re n
 
 <details>
   <summary>You'll have more fun if you DON'T click here to reveal the solutions.</summary>
+
 ```
 7 W of the A W – 7 Wonders of the Ancient World
 1,001 A N – 1,001 Arabian Nights
