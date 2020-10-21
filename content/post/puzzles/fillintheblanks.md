@@ -2,7 +2,7 @@
 categories = ["Puzzles"]
 tags = []
 date = "2020-10-21"
-title = "Numerical Phrases Puzzle"
+title = "Numerical Phrases"
 coverImage = "/img/fillintheblanks.jpg"
 +++
 
@@ -43,7 +43,7 @@ This is the kind of puzzle where answers will pop into your head when you’re n
 
 <details>
   <summary>You'll have more fun if you DON'T click here to reveal the solutions.</summary>
-
+```
 7 W of the A W – 7 Wonders of the Ancient World
 1,001 A N – 1,001 Arabian Nights
 12 S of the Z – 12 Signs of the Zodiac
@@ -68,4 +68,5 @@ This is the kind of puzzle where answers will pop into your head when you’re n
 64 S on a C – 64 Squares on a Chessboard
 40 D and N of the G F – 40 Days and Nights of the Great Flood
 50 L with a W N – 50 Lashes with a Wet Noodle
+```
 </details>
