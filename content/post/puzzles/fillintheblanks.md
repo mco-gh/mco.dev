@@ -1,20 +1,20 @@
 +++
 categories = ["Puzzles"]
 tags = []
-date = "2011-01-14"
-title = "Fill In the Blanks"
-subtitle = "Let your subconscious mind work on this one"
+date = "2020-10-21"
+title = "Numerical Phrases Puzzle"
 coverImage = "/img/fillintheblanks.jpg"
 +++
 
-I was in sixth grade when I first saw this puzzle and it captivated me for three straight days, which tells you something about my personality:
+I was in sixth grade when I first saw this puzzle and it captivated me for a few days, because I have no problem wasting ridiculous amounts of time on useless activities (like this blog). 
+
 <!--more-->
-1) I love a challenge, 2) I’m very determined, and 3) I have no problem wasting ridiculous amounts of time on useless activities (like this blog). But enough about me, let’s talk about today’s puzzle.
 
-Each line below contains a phrase involving a number and only the first letter of each word. Your job is to figure out the missing letters and complete each phrase. For example, if the challenge was “50 W to L your L”, you might recognize that old Paul Simon song “50 Ways to Leave Your Lover”. Submit as many answers as you can find in a comment below.
+Each line below contains a phrase involving a number and only the first letter of each word. Your job is to figure out the missing letters and complete each phrase. For example, if the challenge was “50 W to L your L”, you might recognize that Paul Simon song “50 Ways to Leave Your Lover”.
 
-This is the kind of puzzle where answers will pop into your head when you’re not even thinking about the phrases, so take your time. On Tuesday, I’ll post the names of the people who find the most correct answers. And for the puzzle obsessed among us, I apologize in advance for ruining your weekend.
+This is the kind of puzzle where answers will pop into your head when you’re not even thinking about it, so take your time with it and let your subconscious mind do the heavy lifting.
 
+```
 7 W of the A W
 1,001 A N
 12 S of the Z
@@ -39,7 +39,10 @@ This is the kind of puzzle where answers will pop into your head when you’re n
 64 S on a C
 40 D and N of the G F
 50 L with a W N
-Solution: Congratulations to Karl Wirka, who correctly solved all 24 problems. An honorable mention goes to Al Pessot, who found 20 or 24 correct answers. Here’s the complete solution:
+```
+
+<details>
+  <summary>You'll have more fun if you DON'T click here to reveal the solutions.</summary>
 
 7 W of the A W – 7 Wonders of the Ancient World
 1,001 A N – 1,001 Arabian Nights
@@ -65,4 +68,4 @@ Solution: Congratulations to Karl Wirka, who correctly solved all 24 problems. A
 64 S on a C – 64 Squares on a Chessboard
 40 D and N of the G F – 40 Days and Nights of the Great Flood
 50 L with a W N – 50 Lashes with a Wet Noodle
-
+</details>
