@@ -6,7 +6,8 @@ date = "2020-10-22"
 coverImage = "/img/seinfeld.jpg"
 +++
 
-I love this short interview from the New York Times with Jerry Seinfeld, about how he came up with one of his bits. I find his retelling of the creative process as funny as the actual delivery of the same material, which I've found in other videos. 
+I love this short interview from the New York Times with Jerry Seinfeld, about how he came up with one of his bits. I find his retelling of the creative process as funny as the actual delivery of the same material.
+
 <!--more-->
 
 <br>
