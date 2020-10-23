@@ -29,7 +29,7 @@ One quote of his I have managed to authenticate is this gem:
 
 > Genius is genetically determined. You inherit it from your children.
 
-which I found in a video of Michelle Feynman telling what it was like growing up with her famously iconoclastic father.
+which I found in a video of Michelle Feynman describing life with her famously playful and iconoclastic father.
 
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GnSvy3nH7l0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
