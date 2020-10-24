@@ -10,7 +10,7 @@ Check out this excellent video from [fivethirtyeight.com](fivethirtyeight.com) o
 
 <!--more-->
 
-One big part of the story here is that we don't have one big presential election in the US - we have fifty mini-elections.
+One part of the story here is that we don't have one big presential election in the US - we have fifty mini-elections.
 
 <br>
 
