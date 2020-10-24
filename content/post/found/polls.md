@@ -6,7 +6,7 @@ date = "2020-10-24"
 coverImage = "/img/polls.jpg"
 +++
 
-Check out this excellent video from [fivethirtyeight.com](fivethirtyeight.com) on why the polls missed the result in 2016 (although they were closer than you miht think) and what sort of adjustments they're making in 2020.
+Check out this excellent video from [fivethirtyeight.com](fivethirtyeight.com) on why the polls missed the result in 2016 (although they were closer than you might think) and what sort of adjustments they're making in 2020.
 
 <!--more-->
 
