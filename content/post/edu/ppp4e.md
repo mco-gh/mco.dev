@@ -1,7 +1,7 @@
 +++
 categories = ["Education"]
 tags = ["edu"]
-title = "Free Python Courseware"
+title = "Self-Study Python Course"
 date = "2020-10-25"
 coverImage = "/img/pytour.jpg"
 +++
