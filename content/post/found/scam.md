@@ -22,6 +22,8 @@ This sort of behavior diverts resources and credibility from those who are in re
 
 Here's a more comprehensive investigation from *The Atlantic*.
 
+<br>
+
 <blockquote class="quoteback" darkmode="" data-title="When%20GoFundMe%20Gets%20Ugly" data-author="Rachel Monroe" cite="https://www.theatlantic.com/magazine/archive/2019/11/gofundme-nation/598369/">
                       The largest crowdfunding site in the world puts up a mirror to who we are and what matters most to us. Try not to look away.
                       <footer>Rachel Monroe <cite><a href="https://www.theatlantic.com/magazine/archive/2019/11/gofundme-nation/598369/">https://www.theatlantic.com/magazine/archive/2019/11/gofundme-nation/598369/</a></cite></footer>
