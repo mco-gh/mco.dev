@@ -14,8 +14,6 @@ I've structured the course around Jupyter notebooks, which are interactive learn
 
 All of this course material is available below, free of charge under a Creative Commons License.
 
-Feedback is always welcome. Enjoy!
-
 ## Syllabus
 
 Topic|Notebook|Video
