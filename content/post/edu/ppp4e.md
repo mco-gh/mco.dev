@@ -4,6 +4,7 @@ tags = ["edu"]
 title = "Self-Study Python Course"
 date = "2020-10-25"
 coverImage = "/img/pytour.jpg"
+weight = 1
 +++
 
 I recently developed a new Python course, with a focus on beginners and practical examples. I call it **Practical Python Programming for Everyone** (ppp4e).
