@@ -50,37 +50,37 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
   url = "https://twitter.com/marcacohen"
 [[menu.main]]
-  weight = 2
+  weight = 3
   identifier = "Newsletter"
   name = "Newsletter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
   url = "https://tinyletter.com/mco"
 [[menu.main]]
-  weight = 3
+  weight = 4
   identifier = "categories"
   name = "Categories"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
   url = "/categories"
 [[menu.main]]
-  weight = 4
+  weight = 5
   identifier = "tags"
   name = "Tags"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
   url = "/tags"
 [[menu.main]]
-  weight = 5
+  weight = 6
   identifier = "talks"
   name = "Talks"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-microphone\"></i>"
   url = "/my-talks"
 [[menu.main]]
-  weight = 6
+  weight = 7
   identifier = "archives"
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
 [[menu.main]]
-  weight = 7
+  weight = 8
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
