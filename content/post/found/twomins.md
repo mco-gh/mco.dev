@@ -6,7 +6,7 @@ date = "2020-10-27"
 coverImage = "/img/twomins.jpg"
 +++
 
-Have you ever noticed how it can take a long time to start a task, especially one you're not excited about, but then once you get manage to do something, anything, it's much easier to keep going?
+Have you ever noticed how it can take a long time to start a task, especially one you're not excited about, but then once you manage to do something, anything, it's much easier to keep going?
 
 <!--more-->
 
