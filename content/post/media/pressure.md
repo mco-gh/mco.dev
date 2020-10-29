@@ -6,11 +6,11 @@ date = "2020-10-29"
 coverImage = "img/pressure.jpg"
 +++
 
-I love when people cover a great old song, not just by following the original, but by adding something special.
+I love when people cover a great old song, not just following the original formula, but adding something special.
 
 <!--more-->
 
-Johnny Cash's version of Nine Inch Nails' *Hurt* comes to mind. This one is in that class. An unlikely pair of artists, Karen O and Willie Nelson, took a song just about everyone knows and loves and totally made it their own. Enjoy...
+Johnny Cash's version of Nine Inch Nails' *Hurt* comes to mind. This one is in the class of originality. An unlikely pair of artists, Karen O and Willie Nelson, took a song just about everyone knows and loves and totally made it their own. Enjoy...
 
 <br>
 
