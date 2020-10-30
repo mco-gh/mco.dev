@@ -6,7 +6,7 @@ date = "2020-10-30"
 coverImage = "/img/peoplewalker.jpg"
 +++
 
-You've heard of dog walkers, right? Well believe it or not, this guys walks people.
+You've heard of dog walkers, right? Well, believe it or not, this guys walks people.
 
 <!--more-->
 
