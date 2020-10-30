@@ -6,9 +6,11 @@ date = "2020-10-30"
 coverImage = "/img/peoplewalker.jpg"
 +++
 
-You've heard of dog walkers, right? Well believe it or not, this guys walks people. And you now what? It's not as weird as it sounds - I think it's a pretty cool idea.
+You've heard of dog walkers, right? Well believe it or not, this guys walks people.
 
 <!--more-->
+
+And you know what? It's not as weird as it sounds. In one activity you get socializing, conversation, mental health, fresh air, exercise, and you make a new friend. Who can't use some of that these days?
 
 <br>
 
