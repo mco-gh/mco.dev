@@ -10,7 +10,7 @@ You've heard of dog walkers, right? Well believe it or not, this guys walks peop
 
 <!--more-->
 
-And you know what? It's not as weird as it sounds. In one activity you get socializing, conversation, mental health, fresh air, exercise, and you make a new friend. Who can't use some of that these days?
+And you know what? It's not as crazy as it sounds. In one activity you get socializing, conversation, mental health, fresh air, exercise, and you make a new friend. Who can't use some of that these days?
 
 <br>
 
