@@ -1,7 +1,7 @@
 +++
 categories = ["Media"]
 tags = ["Inspiring"]
-title = "I am not dumb now."
+title = "I am not dumb now"
 date = "2020-10-31"
 coverImage = "img/helen.jpg"
 +++
