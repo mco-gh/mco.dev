@@ -10,7 +10,7 @@ Did you know there is film footage, on Youtube, of the legendary Helen Keller an
 
 <!--more-->
 
-Many of us know her story, how she overcame the loss of her sight and hearing in infancy, and went on to become an advocate for the disabled and an inspiration to everyone. Watch this moving video to see how she learned to speak and hear from Helen herself.
+Many of us know her story, how she overcame the loss of her sight and hearing in infancy, and went on to become an advocate for the disabled and an inspiration to everyone. Watch this moving video to see how she learned to speak, and hear from Helen herself.
 
 <br>
 
