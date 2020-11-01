@@ -2,7 +2,7 @@
 categories = ["Education"]
 tags = ["talks"]
 title = "My Talks"
-date = "2020-06-02"
+date = "2020-11-01"
 coverImage = "/img/talks.jpg"
 +++
 Catalog of current talks, with links to associated slide decks.
