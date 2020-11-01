@@ -10,7 +10,7 @@ America's rail infrastructure has fallen far behind the rest of the world's. Her
  
 <!--more-->
 
-Under FDR's leadership, the federal government pulled the United States out of the Great Depression, in part, by funding ambitious [public works program](https://en.wikipedia.org/wiki/Works_Progress_Administration). Now we're in the midst of another severe depression, calling for another round of big thinking and big investment.
+Under FDR's leadership, the federal government pulled the United States out of the Great Depression, in part, by funding ambitious [public works programs](https://en.wikipedia.org/wiki/Works_Progress_Administration). Now we're in the midst of another severe depression, calling for another round of big thinking and big investment.
 
 What better priority to focus on than building a network of high speed, clean energy trains. Such an infrastructure would be a triple win:
 
