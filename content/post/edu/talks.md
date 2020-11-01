@@ -13,7 +13,7 @@ Catalog of current talks, with links to associated slide decks.
 
 * <a href="https://mco.fyi/nb" target="_blank">**So Many Notebooks, So Little Time**</a> - Notebooks are awesome. Perhaps you've used them work or school. But one problem is there are so many. Just at Google we have Colab, Kaggle Notebooks, and Cloud AI Platform Notebooks. So which should you use? The answer, as usual, is "it depends". This session will summarize your options and try to help you choose the best notebook services and tools for your needs.
 
-* <a href="https://mco.fyi/ds" target="_blank">**Google Cloud - A Guided Tour**</a>- In this session I’ll take you on a guided tour of the Google Cloud, with an emphasis on tools and services for Data Scientists.
+* <a href="https://mco.fyi/ds" target="_blank">**Google Cloud for Dats Science**</a>- In this session I’ll take you on a guided tour of the Google Cloud, with an emphasis on tools and services for Data Scientists.
 
 * <a href="https://mco.fyi/wiki" target="_blank">**What I Learned Processing 10TB of Wikipedia Pageviews**</a>- In addition to providing the richest corpus of general knowledge ever published, the Wikimedia Foundation publishes detailed page view analytics, freely available to everyone. In this session I’ll explain how, using only Cloud and serverless tools, I built a robust big data processing pipeline and some associated visualization tools to make the underlying information accessible to everyone. I’ll also share some lessons I learned along the way.
 
