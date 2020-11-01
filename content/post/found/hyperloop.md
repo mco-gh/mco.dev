@@ -10,7 +10,7 @@ America's rail infrastructure has fallen far behind the rest of the world's. Her
  
 <!--more-->
 
-Under FDR's leadership, the federal government pulled the United States out of the Great Depression, in part, by funding ambitious public works projects, like building our vast interstate highway system. Now we're in the midst of another severe depession, calling for another round of big thinking and big investment.
+Under FDR's leadership, the federal government pulled the United States out of the Great Depression, in part, by funding ambitious public works projects, like building our vast interstate highway system. Now we're in the midst of another severe depression, calling for another round of big thinking and big investment.
 
 What better priority to focus on than building a network of high speed, clean energy trains. Such an infrastructure would be a triple win:
 
