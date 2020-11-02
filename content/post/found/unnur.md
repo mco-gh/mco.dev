@@ -10,7 +10,7 @@ Two groups of people should see this video: people who are parents, and people w
  
 <!--more-->
 
-Unnur is an awarding winning short film from Iceland. It's visually stunning but beyond the beautiful scenery, it's a meditation about the choices we make in our lives, and how they affect future generatoins. I urge you to take some time our of your day and experience this spspecial film.
+Unnur is an award winning short film about the life of a father and daughter in Iceland. It's a visually stunning meditation about the choices we make, how they shape our lives, and affect future generations. As one day blends into the next, we often fail to appreciate the beauty all around us. Take a moment out of your day and let this wonderful film take you to a place I bet you haven't been for a while.
 
 <br>
 
