@@ -1,6 +1,6 @@
 +++
 categories = ["Newsletter"]
-tags = ["nature"]
+tags = ["nature", "life"]
 title = "The Choices We Make"
 date = "2020-11-03"
 coverImage = "/img/unnur.jpg"
