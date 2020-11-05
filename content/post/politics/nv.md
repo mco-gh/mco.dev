@@ -16,7 +16,7 @@ One pitfall here is timing bias, i.e., the later counted votes within a county m
 
 According to the New York Times, "Remaining votes include mail ballots received on Election Day, those that will arrive over the next week and provisional ballots.". So they'll likely skew a bit but it's not obvious in which direction. And 86% is a pretty good sample size. 
 
-The calculation below does a simple extrapolation across each county in Nevada and predicts Biden will win by roughly 1%. My projected shares of the total may be off a bit due to excluding the effect of the two other party candidates, but the relative difference should be the same: Biden wins the state by about 1%.
+The calculation below does this simple per-county extrapolation. My projected shares of the total may be off a bit due to excluding the effect of the two other party candidates, but the relative difference should be the same: Biden wins Nevada by about 1%.
 
 <br>
 
