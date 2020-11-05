@@ -6,7 +6,7 @@ date = "2020-11-05"
 coverImage = "/img/nv.jpg"
 +++
 
-Nevada has 86% of its votes reported but won't announce any further results until later today. But it's pretty easy to crunch the numbers because it has only 22 counties.
+Nevada has 86% of its votes reported and won't announce any further results until later today. But it's pretty easy to crunch the numbers because it has only 22 counties.
 
 <!--more-->
 
