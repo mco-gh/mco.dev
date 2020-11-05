@@ -13,6 +13,8 @@ In this article, I'm giving the same treatment to Arizona, based on 86% of its v
 
 The same caveats apply as per my previous article. I'm extrapolating from the existing vote, which may suffer from timing bias due to the distribution of late counted ballots, etc. But the per state sampling rates are high and should give a decent order of magnitude.
 
+Again, the percentage of the vote share will be off a bit due to other party candidates, but that effect should apply equally to both candidates, so the relative result should be Biden wins Arizona by 2.3%.
+
 <br>
 
 <iframe height=620 width=665 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpz1xYBSI5aU5NfFrShclvVOngjRpMafPesYkZdu3n3W8-EHdcxFdRT69Pgz5xlqbc-xjkobRrlfT9/pubhtml?gid=106399097&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
