@@ -10,7 +10,7 @@ Nevada has 86% of its votes reported and won't announce addtional results until 
 
 <!--more-->
 
-Nearly all of them red except for Clark and Washoe, which are by far the largest in population. All you have to do is project the remaining votes, on a per county basis, to break the same way the existing votes have gone.
+Nearly all of those counties are red except for Clark and Washoe, which are by far the largest in population. All you have to do is project the remaining votes, on a per county basis, to break the same way the existing votes have gone.
 
 One pitfall is timing bias, i.e. the later counted votes within a county may be distributed differently than those counted earlier. That's quite possible if they are comprised of a differently distributed category (e.g. mail-in vs. in-person, early vs. later received absentee ballots, etc.). 
 
