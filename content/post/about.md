@@ -12,6 +12,8 @@ I'm an American software engineer working on Google's Developer Relations team i
 My mission is building tools, demos, tutorials, and other educational artifacts to make computing and data science more accessible and inclusive.
 <!--more-->
 
+[Working with me](/working-with-marc).
+
 <br>
 <img height="300px" style="margin:10px" src="/img/talks.jpg">
 <br>
@@ -23,3 +25,5 @@ Things I'm interested in:
 * productivity and study hacks
 * computing, math, puzzles, and chess
 * books, music, theater, and film
+
+
