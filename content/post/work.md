@@ -2,7 +2,6 @@
 description = ""
 tags = ["me"]
 title = "Working with Marc"
-date = "2020-11-13"
 coverImage = "/img/work.jpg"
 +++ 
 
