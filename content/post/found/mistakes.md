@@ -10,7 +10,7 @@ Here's a gem from some people who are no stranger to making mistakes in public, 
  
 <!--more-->
 
-Drawing upon the wisdom that comes from experience, this article provides a succinct step-by-step process for dealing with something we all do and will likely do even more in the future, given the pervasive role of digital technology in our lives. Understanding how to deal with public missteps in a healthy way is a worthwhile investment.
+This article provides a succinct step-by-step process for dealing with something we all do and will likely do even more in the future, given the pervasive role of digital technology in our lives. Understanding how to deal with public missteps in a healthy way is a worthwhile investment.
 
 <br>
 
