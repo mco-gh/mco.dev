@@ -6,7 +6,7 @@ date = "2020-11-15"
 coverImage = "/img/mistakes.jpg"
 +++
 
-Here's a gem from some people who are no stranger to making mistakes in public, the Wikipedia editors. What's amazing, though, is how universal this advice is.
+Here's a gem from some people who are no stranger to making mistakes in public, the Wikipedia editors. What's amazing, though, is how universal their advice is.
  
 <!--more-->
 
