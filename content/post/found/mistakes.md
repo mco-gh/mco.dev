@@ -2,7 +2,7 @@
 categories = ["Newsletter"]
 tags = ["mistakes"]
 title = "Mistakes Were Made"
-date = "2020-11-09"
+date = "2020-11-15"
 coverImage = "/img/mistakes.jpg"
 +++
 
