@@ -9,10 +9,11 @@
                {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
         <div class="gcse-search"></div>
-	<h2 style="text-align: center" class="post-title" itemprop="headline">
+	<h1 style="margin-bottom: 5px; text-align: center" class="post-title" itemprop="headline">
           Trump Dump Countdown
-	</h2>
+	</h1>
 	<div id="countdown"></div>
+        <br>
         <section class="postShorten-group main-content-wrap">
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
           {{ range $paginator.Pages }}
