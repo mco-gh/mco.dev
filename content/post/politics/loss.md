@@ -12,7 +12,7 @@ There seems to be a widely held opinion that this election was close.
 
 I think it's due to the fact that several states, like Georgia, Arizona, and Wisconsin, were indeed decided by less than 1% of votes cast. But when looking at the aggregate outcome, it's hard to characterize the result as anything but historically decisive.
 
-This article from The Nation notes that, despite Trump's claim to have "WON THIS ELECTION, BY A LOT!", you'd have to go back 88 years to find an incumbent loss by this margin - Biden won a higher precentage of the vote than any incumbent challenger since FDR defeated Herbert Hoover in 1932.
+This article from The Nation notes that, despite Trump's claim to have "WON THIS ELECTION, BY A LOT!", you'd have to go back *88 years* to find an incumbent loss by this margin - Biden won a higher precentage of the vote than any incumbent challenger since FDR defeated Herbert Hoover in 1932.
 
 <br>
 
