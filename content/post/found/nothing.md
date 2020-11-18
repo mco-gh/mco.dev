@@ -1,7 +1,7 @@
 +++
 categories = ["Newsletter"]
 tags = ["nothing"]
-title = "Thing of Nothing"
+title = "Think of Nothing"
 date = "2020-11-18"
 coverImage = "/img/nothing.jpg"
 +++
