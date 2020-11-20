@@ -6,7 +6,7 @@ date = "2020-11-20"
 coverImage = "img/national.jpg"
 +++
 
-This whole set is great but I especially love the first song, *This is the Last Time*.
+Here's some soothing Friday music for trying times. This whole set is great but I especially love the first song, *This is the Last Time*.
 
 <!--more-->
 
