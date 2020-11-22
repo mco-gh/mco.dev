@@ -12,7 +12,7 @@ We learn differently at different ages. The learning advantages of the young min
 
 If you know about Kahneman's theory of <a target="_blank" href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">fast and slow thinking</a>, it seems to me that the younger brain's fast thinking engine has a significant advantage, while the older brain's slow thinking facilities are likely more refined.
 
-The article below relates the story of a father who set out to teach his young daughter how to play chess, while learning the game himself, at the same time. An excerpt I found poignant:
+The article below relates the story of a father who set out to teach his young daughter how to play chess, while learning the game himself at the same time. An excerpt I found poignant:
 
 > ...but there was the look in her eyes as I checkmated her a second time. For whatever the games had taught me about brains young and old, about the different ways we learn and deploy our cognitive resources, they also taught me that the only thing harder than losing to your daughter in chess is winning against her.
 
