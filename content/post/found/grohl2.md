@@ -6,7 +6,7 @@ date = "2020-11-23"
 coverImage = "/img/grohl2.jpg"
 +++
 
-Watch Dave Grohl, of Nivana and Foo Fighters fame, get owned in the nicest way possible by a ten-year-old British drumming prodigy.
+Watch Dave Grohl, of Nirvana and Foo Fighters fame, get owned in the nicest possible way by a ten-year-old British drumming prodigy.
 
 <!--more-->
 
