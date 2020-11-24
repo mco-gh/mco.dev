@@ -10,6 +10,8 @@ All I'm gonna say is when you watch this, put it into full screen mode.
 
 <!--more-->
 
+In case you wondered, the filming is done by a <a target="_blank" href="https://en.wikipedia.org/wiki/First-person_view_(radio_control)">First Person View (FPV)</a> piloted drone.
+
 <br>
 
 <iframe src="https://player.vimeo.com/video/481128714" width="640" height="268" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
