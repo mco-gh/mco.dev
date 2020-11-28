@@ -6,10 +6,11 @@ title = "Cat in the Hat Puzzle"
 coverImage = "/img/cathat.jpg"
 +++
 
-This puzzle is fun and not too difficult if you take your time. If it's hard to keep things straight in your head, grab a pen and a piece of paper. And if you don't get it right away, take a break and come back to it later. I guarantee you'll enjoy it way more if you solve it for yourself.
+This puzzle is fun and not too difficult if you take your time. 
 
 <!--more-->
 
+If it's hard to keep things straight in your head, grab a pen and a piece of paper. And if you don't get it right away, take a break and come back to it later. I guarantee you'll enjoy it way more if you solve it for yourself.
 <br>
 
 - You have three hats before you labelled Hat 1, Hat 2, and Hat 3.
@@ -21,7 +22,7 @@ This puzzle is fun and not too difficult if you take your time. If it's hard to 
 
 <h4>Your challenge is to tell me which hat contains the cat.</h4>
 
-No matter what you do, don't watch this spoiler video. :)
+No matter what you do, don't watch this spoiler video (unless you'd like to check your answer).
 
 <br>
 
