@@ -22,7 +22,7 @@ If it's hard to keep things straight in your head, grab a pen and a piece of pap
 
 <h4>Your challenge is to tell me which hat contains the cat.</h4>
 
-No matter what you do, don't watch this spoiler video (unless you'd like to check your answer).
+No matter what you do, don't watch this spoiler video, unless you'd like to check your answer. :)
 
 <br>
 
