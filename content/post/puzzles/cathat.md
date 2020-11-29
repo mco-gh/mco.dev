@@ -10,7 +10,7 @@ This puzzle is fun and not too difficult if you take your time.
 
 <!--more-->
 
-It's easier if you use grab a pencil and paper to keep things straight. If you don't get it right away, take a break and come back to it later. I guarantee you'll enjoy it way more if you solve it for yourself.
+It's easier if you use a pencil and paper to keep things straight. If you don't get it right away, take a break and come back to it later.
 
 <br>
 
