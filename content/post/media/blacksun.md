@@ -1,6 +1,6 @@
 +++
 categories = ["Media"]
-tags = ["music"]
+tags = ["Music"]
 title = "Black Sun"
 date = "2020-11-30"
 coverImage = "/img/blacksun.jpg"
