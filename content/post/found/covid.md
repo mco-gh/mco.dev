@@ -10,7 +10,7 @@ This powerful animated short film takes you inside an ER struggling with the Cov
 
 <!--more-->
 
-It's hard to watch, but something we all need to see, especially those who want to deny the existence of this crisis. If there's one thing that should be clear to everyone, it's this: magical thinking kills.
+It's hard to watch, but something we all need to see, especially those who want to deny the severity of this crisis. If there's one thing we've learned this year, it's that magical thinking can kill you.
 
 <br>
 
