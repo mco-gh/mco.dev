@@ -4,7 +4,6 @@ tags = ["Covid-19"]
 title= "One Hundred Hour Lasagne"
 date = "2020-11-30"
 coverImage = "/img/lasagne.png"
-draft = false
 +++
 
 

@@ -2,7 +2,7 @@
 categories = ["Newsletter"]
 tags = ["Covid-19"]
 title= "One Hundred Hour Lasagne"
-date = "2020-11-30"
+date = "2020-12-02"
 coverImage = "/img/lasagne.png"
 draft = true
 +++
