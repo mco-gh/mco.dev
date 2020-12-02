@@ -6,7 +6,7 @@ date = "2020-12-02"
 coverImage = "/img/segregation.jpg"
 +++
 
-Check out this study of tangible evidence of segregation in US history.
+Check out this New York Times photojournal of still-standing landmarks of segregation and racial oppression in US history.
 
 <!--more-->
 
