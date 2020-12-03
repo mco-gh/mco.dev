@@ -1,7 +1,7 @@
 +++
 categories = ["Newsletter"]
 tags = ["House"]
-title= "I really want to live here"
+title= "I want to live here"
 date = "2020-12-03"
 coverImage = "/img/house.jpg"
 +++
