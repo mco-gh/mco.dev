@@ -17,7 +17,7 @@ title = "mco.dev"
 theme = "tranquilpeak"
 disqusShortname = "mco-dev.disqus.com"
 googleAnalytics = "UA-158788691-2"
-paginate = 7
+paginate = 20
 canonifyurls = true
 
 [permalinks]
