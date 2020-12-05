@@ -6,7 +6,7 @@ date = "2020-12-05"
 coverImage = "/img/squirrel.jpg"
 +++
 
-The lengths to which this guy goes to stop squirrels from invading his bird feeder is compical, inspiring, and hugely entertaining.
+The lengths to which this guy goes to stop squirrels from invading his bird feeder is comical, inspiring, and hugely entertaining.
 
 <!--more-->
 
