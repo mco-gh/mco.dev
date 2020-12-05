@@ -10,7 +10,7 @@ The lengths to which this guy goes to stop squirrels from invading his bird feed
 
 <!--more-->
 
-Be forewarned: once you start watching this video, you won't be able to stop. Also, even if you don't particularly like squirels, prepare to fall in love.
+Be forewarned: once you start watching this video, you won't be able to stop. Also, even if you don't particularly like squirrels, prepare to fall in love.
 
 <br>
 
