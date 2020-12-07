@@ -1,17 +1,19 @@
 <nav id="sidebar" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}">
   <div class="sidebar-container">
     {{ with ($.Scratch.Get "authorPicture") }}
-      <div class="sidebar-profile">
+      <div style="margin-bottom: -20px" class="sidebar-profile">
         <a href="{{ if $.Site.Params.sidebar.profile.url }}{{ $.Site.Params.sidebar.profile.url }}{{ else }}{{ "/#about" }}{{ end }}">
-          <img class="sidebar-profile-picture" src="{{ . }}{{ if in . "//www.gravatar.com/avatar/" }}?s=110{{ end }}" alt="{{ i18n "global.author_picture" }}" />
+          <img style="border-radius: 0px" class="sidebar-profile-picture" src="/img/logo.png?s=110" alt="{{ i18n "global.author_picture" }}" />
         </a>
+<!--
         <h4 class="sidebar-profile-name">
-          <!-- {{ $.Site.Author.name }}<br>-->
+          {{ $.Site.Author.name }}<br>
           <a style="font-size: 2.5rem; color: white" href="/">mco.dev</a>
         </h4>
         {{ with $.Site.Author.bio }}
           <h5 class="sidebar-profile-bio">{{ . | markdownify }}</h5>
         {{ end }}
+-->
       </div>
     {{ end }}
     <ul class="sidebar-buttons">
