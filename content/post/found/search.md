@@ -3,7 +3,7 @@ categories = ["Newsletter"]
 tags = ["2020"]
 title= "The Year in Search 2020"
 date = "2020-12-09"
-coverImage = "/img/search.jpg"
+coverImage = "/img/sunrise.jpg"
 +++
 
 Check out Google's annual year in search video. What a weird year this has been - so sad, yet so inspiring.
