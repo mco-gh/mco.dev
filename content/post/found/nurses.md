@@ -17,7 +17,7 @@ They are heroes in every sense of the word, but we don't deserve them.
 <br>
 
 <blockquote class="quoteback" darkmode="" data-title="What%20seven%20ICU%20nurses%20want%20you%20to%20know%20about%20the%20battle%20against%20covid-19" data-author="@WashingtonPost" cite="https://www.washingtonpost.com/graphics/2020/national/icu-nurses-covid-19/">
-                      The Post asked seven ICU nurses what it’s been like to care for the sickest covid pat
+                      The Post asked seven ICU nurses what it’s been like to care for the sickest covid patients. This is what they want you to know.
                       <footer>@WashingtonPost <cite><a href="https://www.washingtonpost.com/graphics/2020/national/icu-nurses-covid-19/">https://www.washingtonpost.com/graphics/2020/national/icu-nurses-covid-19/</a></cite></footer>
                       </blockquote>
                       <script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
