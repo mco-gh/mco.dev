@@ -143,7 +143,8 @@ canonifyurls = true
   # Current image is on AWS S3 and delivered by AWS CloudFront.
   # Otherwise put your image, for example `cover.jpg` in folder `static/images/`,
   # and use relative url : `images/cover.jpg`
-  coverImage = "img/notebook2.jpg"
+  coverImage  = "img/cover.jpg"
+  #coverImage = "img/notebook2.jpg"
   #coverImage = "img/mistakes.jpg"
   #coverImage = "img/pills.jpg"
   #coverImage = "img/cube.jpg"
