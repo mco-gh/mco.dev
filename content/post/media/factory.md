@@ -12,7 +12,7 @@ Let's face it - 2021 is going to look a lot like 2020. Given that, we're all goi
 
 *American Factory* is a riveting true story about an unlikely culture clash. A Chinese glass manufacturer buys and retools a closed General Motors factory in Ohio, hiring local people to operate and manage this reborn and decidedly non-union plant.
 
-Is this a nefarious plot to ironically turn the tables on our long-standing practice of outsourcing cheap labor to China or an admirable model for revitalizing the declining US manufacturing sector and rebuilding the surrounding community?  Watch this winner of the 2020 Best Documentary Oscar to find out.
+Is this a nefarious plot to ironically turn the tables on our long-standing practice of outsourcing cheap labor to China or an admirable model for revitalizing the declining US manufacturing sector and rebuilding surrounding communities?  Watch this winner of the 2020 Best Documentary Oscar to find out.
 
 <br>
 
