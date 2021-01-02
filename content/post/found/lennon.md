@@ -6,9 +6,12 @@ date = "2021-01-02"
 coverImage = "/img/lennon.jpg"
 +++
 
-Everyone knows the sad story about how John Lennon was senselessly killed on the street in front of his apartment by a deranged fan. This article provides an intimate glimpse into what Lennon's life was like on that last day. In the banal details of his daily routine, you can sense the level of peace and satisfaction he had achieved after a life marked by the chaos of meteoric fame.
+Everyone knows the sad story about how John Lennon was senselessly killed on the street in front of his apartment by a deranged fan. This article provides an intimate glimpse into what Lennon's life was like on that last day.
 
 <!--more-->
+
+In the banal details of his daily routine, you can sense the level of peace and satisfaction he had achieved after a life marked by the chaos of meteoric fame.
+
 
 <br>
 
