@@ -180,7 +180,7 @@
             a = function (e, t) {
                 var n,
                     //a = "https://sdk.scdn.co/embedded/index.html",
-                    a = "https://mco.dev/spotify-player.html",
+                    a = "https://mco.dev/spotify/spotify-player.html",
                     u = s.defer(),
                     c = new r(),
                     _ =
