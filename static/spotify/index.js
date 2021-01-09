@@ -6679,6 +6679,7 @@
                     }.bind(this);
                     t.timeMap.request.end = Date.now();
                     var r;
+i.status = 200;
                     if (200 !== i.status) {
                         var s;
                         try {
