@@ -180,7 +180,7 @@
             a = function (e, t) {
                 var n,
                     //a = "https://sdk.scdn.co/embedded/index.html",
-                    a = "http://localhost:8000/y.html",
+                    a = "https://mco.dev/js/y.html",
                     u = s.defer(),
                     c = new r(),
                     _ =
