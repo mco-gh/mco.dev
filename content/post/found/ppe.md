@@ -6,7 +6,7 @@ date = "2021-01-24"
 coverImage = "/img/ppe.png"
 +++
 
-My favorite article of the week is this tongue-in-cheek review of the the product that no one needs - the Microclimate Air.
+My favorite article of the week is this tongue-in-cheek review of the product that no one needs - the Microclimate Air.
 
 <!--more-->
 
