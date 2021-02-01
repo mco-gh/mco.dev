@@ -50,50 +50,50 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
   url = "https://tinyletter.com/mco"
 [[menu.main]]
-  weight = 2
+  weight = 3
   identifier = "Twitter"
   name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
   url = "https://twitter.com/mco_dev"
 [[menu.links]]
-  weight = 2
+  weight = 4
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/mco-de"
 [[menu.main]]
-  weight = 4
+  weight = 5
   identifier = "categories"
   name = "Categories"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
   url = "/categories"
 [[menu.main]]
-  weight = 5
+  weight = 6
   identifier = "tags"
   name = "Tags"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
   url = "/tags"
 [[menu.main]]
-  weight = 6
+  weight = 7
   identifier = "talks"
   name = "Talks"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-microphone\"></i>"
   url = "/my-talks"
 [[menu.main]]
-  weight = 7
+  weight = 8
   identifier = "archives"
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
 [[menu.main]]
-  weight = 8
+  weight = 9
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "#about"
 
 [[menu.links]]
-  weight = 2
+  weight = 10 
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
