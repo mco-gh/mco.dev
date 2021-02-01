@@ -34,7 +34,7 @@ canonifyurls = true
   job = "Engineer@Google"
   location = "London, UK"
   picture = "/img/avatar.jpg"
-  twitter = "marcacohen"
+  twitter = "mco_dev"
 
 # Menu Configuration
 [[menu.main]]
@@ -48,7 +48,7 @@ canonifyurls = true
   identifier = "Twitter"
   name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
-  url = "https://twitter.com/marcacohen"
+  url = "https://twitter.com/mco_dev"
 [[menu.main]]
   weight = 3
   identifier = "Newsletter"
