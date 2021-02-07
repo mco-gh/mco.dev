@@ -30,6 +30,4 @@ The internet rewired our brains. He predicted it would.
 <footer>null<cite> <a href="https://www.nytimes.com/2021/02/04/opinion/michael-goldhaber-internet.html">https://www.nytimes.com/2021/02/04/opinion/michael-goldhaber-internet.html</a></cite></footer>
 </blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
 
-<br>
-
 Thanks to Kimberly Cohen for sharing this article with me.
