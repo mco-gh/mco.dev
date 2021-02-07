@@ -10,8 +10,6 @@ In the last few decades, the World Wide Web, search engines, mass video broadcas
 
 <!--more-->
 
-<br>
-
 It's a fascinating time to be alive, but it's also frightening because we are all test subjects in an unmanaged, unauthorized, and inadvertent experiment on the human race.
 
 
@@ -24,6 +22,8 @@ Goldhaber offers some insights about how we can each, individually, address thes
 > "It’s not a question of sitting by yourself and doing nothing," Mr. Goldhaber told me. "But instead asking, ‘How do you allocate the attention you have in more focused, intentional ways?’" Some of that is personal — thinking critically about who we amplify and re-evaluating our habits and hobbies.
 
 I recommend this article to anyone who ponders this wave of technology, what it's doing to us and our children, and how we can reassert some measure of control over our fates, individually and collectively.
+
+<br>
 
 <blockquote class="quoteback" darkmode="" data-title="Opinion%20%7C%20I%20Talked%20to%20the%20Cassandra%20of%20the%20Internet%20Age" data-author="null" cite="https://www.nytimes.com/2021/02/04/opinion/michael-goldhaber-internet.html">
 The internet rewired our brains. He predicted it would.
