@@ -4,7 +4,6 @@ tags = ["Documentaries"]
 title = "Victim Silencing"
 date = "2021-02-21"
 coverImage = "/img/boyscouts.jpg"
-draft = true
 +++
 
 Some people wonder why victims of abuse so often don't report the crime until years later. This documentary vividly illustrates why, even when a victim has the strength to report their experience, the result is often to shame and blame the accuser.
