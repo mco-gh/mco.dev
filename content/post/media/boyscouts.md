@@ -10,7 +10,7 @@ Some people wonder why victims of abuse often don't report the crime until years
 
 <!--more-->
 
-It takes incredible courage for a victim to report their abuser, especially so for a child to speak out against an adult. Watch this captivating short film to see how a brave young man tried stop a serial predator, and to protect other children from similar abuse, only to be further victimized by an organization that placed their public relations image ahead of the safety of the children entrusted to their care.
+It takes incredible courage for a victim to report their abuser, especially so for a child to speak out against an adult. Watch this captivating short film to see how a brave young man tried to stop a serial predator, and to protect other children from similar abuse, only to be further victimized by an organization that placed their public relations image ahead of the safety of the children entrusted to their care.
 
 <br>
 
