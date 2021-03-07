@@ -25,7 +25,7 @@ As we prepare for the return to our offices in a post-pandemic world, I’d like
 * Google cafes worldwide should be repurposed to prepare and deliver meals to those with the greatest needs in and around our worldwide office locations.
 * Employees should acquire their meals outside Google offices. This would give us all a bit of much needed exercise and enable us to support our local restaurants and shops.
 
-We’re often asked by our managers how they can help with our mental health and wellbeing during these challenging times . My answer is simple: **please give me fewer perks**. More to the point, let’s find a way to share those perks, or the value thereof, with people who need them more than I do. That would go a long way to making me feel better about myself and my company, because helping other people is the best therapy.
+We’re often asked by our managers how they can help with our mental health and wellbeing during these challenging times . My answer is simple: **please give me fewer perks**. More to the point, let’s find a way to share those perks, or the value thereof, with people who need them more than I do. That would go a long way toward making me feel better about myself and my company, because helping other people is the best therapy.
 
 Sincerely,
 
