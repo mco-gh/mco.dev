@@ -15,7 +15,7 @@ Dear Google,
 
 As an employee who is paid somewhere near the median salary at our company, I’m incredibly fortunate to enjoy an annual compensation that places me in the **[top 1% of incomes worldwide](https://www.washingtonpost.com/graphics/2018/business/global-income-calculator/)**. On top of this monetary compensation, along with all employees, I'm provided with free, healthy meals at Google offices around the world (I'm speaking of pre-pandemic days, of course).
 
-You know the old saying “there is no free lunch”? Like everything in life, this employee perk has an opportunity cost - the cost of my free lunch is forgoing the opportunity to feed someone who is in dire need. At a time when so many people are struggling to feed their families, pay their bills, and keep a roof over their heads, this perk seems [excessive](https://www.youtube.com/watch?v=u1OabdWe_h8) to me. 
+You know the old saying “there is no free lunch”? Like everything in life, this employee perk has an opportunity cost - the cost of my free lunch is forgoing the opportunity to feed someone who is in dire need. At a time when so many people are struggling to feed their families, pay their bills, and keep a roof over their heads, this perk seems excessive to me. 
 
 As we prepare for the return to our offices in a post-pandemic world, I’d like to offer a few suggestions for some ways Google could give more back to our local communities, without whom there would be no Google.
 
