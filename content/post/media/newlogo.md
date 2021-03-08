@@ -10,4 +10,4 @@ The new logo you see in the upper left corner was made for me by a very talented
 
 <!--more-->
 
-If you have any need for graphic design, 3D animation, or photography, Berk is an awesome artist and you can check out his work at [http://hotfixcreative.uk](http://hotfixcreative.uk).
+If you have any need for graphic design, 3D animation, or photography, Berk is an awesome artist and you can check out his work at <a href="http://hotfixcreative.uk" target="_blank">hotfixcreative.uk</a>.
