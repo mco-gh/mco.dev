@@ -10,7 +10,7 @@ The economic devastation wrought by the pandemic is forcing a lot of people to r
 
 <!--more-->
 
-I just learned about <a href="https://grow.google/certificates/" target="_blank">Google professional certificates</a>. No background tech knowledge is required, you spend on the order of ten hours per week, and in approximately six months you get a certificate in IT Support, Data Analytics, UX Design, Project Management, or Android Development. The cost is $39/month.
+I just learned about <a href="https://grow.google/certificates/" target="_blank">Google professional certificates</a>. No background tech knowledge is required, you spend on the order of ten hours per week, and in approximately six months you get a certificate in IT Support, Data Analytics, UX Design, Project Management, or Android Development. The cost is $39/month and financial aid is available.
 
 **Since 2018 this program has enabled people from groups traditionally underrepresented in tech to enter the field**: 53 percent of IT Support Certificate graduates in the U.S. have been female, Black, LatinX, or veterans. And 82 percent of graduates say the program helped them advance their career within six months, including getting a raise, starting a new business, or finding a new job.
 
