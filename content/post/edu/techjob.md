@@ -20,6 +20,6 @@ Here's a video testimonial:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eBEWeaNDXlE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Caveat**: I have no first hand experience or any connection, personal or professional, with this program. But knowing it's backed by Google and looking through the promotional material, it seems like a decent way to get some solid tech skills in a short period of time for a reasonably small investment of time and money.
+**Caveat: I have no first hand experience or any connection, personal or professional, with this program.** But knowing it's backed by Google and looking through the promotional material, it seems like a decent way to get some solid tech skills in a short period of time for a reasonably small investment of time and money.
 
 I'm happy to serve as a mentor to any of my family, friends, or mailing list subscribers who try this. If you do sign up for this program, let me know how you like it and how I can help you!
