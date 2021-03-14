@@ -12,7 +12,7 @@ In Bret Victor's groundbreaking talk <a href="https://vimeo.com/64895205" target
 
 The New York Times has been doing some amazing work presenting their data journalism in a more interactive, visual way that harnesses the interactivity of the web to make information come alive. 
 
-The article linked below takes this concept in a slightly different direction - instead of using interactivity to present rich data, it uses the web to enhance the experience of art, in this case, photography and poetry.
+The article linked below takes this concept in a slightly different direction. Instead of using interactivity to present rich data, it uses the power of the web to enhance and enrich the experience of art.
 
 <br>
 
