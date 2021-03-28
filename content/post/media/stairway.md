@@ -6,7 +6,7 @@ date = "2021-03-28"
 coverImage = "/img/stairway.jpg"
 +++
 
-I love this video on two levels.
+I love this video of Jimmy Page on two levels.
 
 <!--more-->
 
