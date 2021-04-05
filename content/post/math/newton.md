@@ -4,6 +4,7 @@ tags = ["Pi", "Newton"]
 title = "Changing the Game"
 date = "2021-04-04"
 coverImage = "/img/newton.jpg"
+draft = "true"
 +++
 
 <!--more-->
