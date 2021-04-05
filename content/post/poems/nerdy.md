@@ -47,3 +47,11 @@ Here are my contributions, along with translations for non-programmers (**TfNP**
 
 **TfNP**: Frustrated with Python build times for Google production services, Rob Pike invented the Go programming language.
 
+> There once was a Dennis Ritchie  
+> Who worked to programs easy  
+> Said he "I am sad  
+> Languages are so bad  
+> But now I am able to C!"
+
+**TfNP**: Ritchie created the C programming language to make it easier to write system programs. Unix, the precursor to Linux, was written in C by Ritchie, Ken Thompson, and a host of collaborators. Fifty years later, C is still one of the world's most popular programming languages.
+
