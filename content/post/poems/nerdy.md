@@ -47,12 +47,3 @@ Here are my contributions, along with translations for non-programmers (**TfNP**
 
 **TfNP**: Frustrated with Python build times for Google production services, Rob Pike invented the Go programming language.
 
-Mr. Ritchie 
-And he was in good company
-He said by design
-This new language of mine
-Is as easy as A, B, **C**
-
-A young lady
-What is this thing they call vim?
-
