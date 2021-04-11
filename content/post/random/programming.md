@@ -2,7 +2,7 @@
 categories = ["Random"]
 tags = ["random"]
 title = "Should everyone learn to code?"
-date = "2021-04-11"
+date = "2021-04-18"
 coverImage = "/img/code2.jpg"
 +++
 
