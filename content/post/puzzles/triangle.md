@@ -47,5 +47,6 @@ Now let's calculate the area of the triangle we're trying to cover (you have to 
 
 - area(covered triangle) = .5 (13 * 5) = .5 * 65 = 32.5
 
-This tells us something important: the total area of the shapes we're using to cover the background triangle is exactly one-half of a square unit smaller than the red triangle we're trying to cover! This difference of one-half of a unit must be the area lost or gained by the bend in the hypotenuse. When we go from bending inward to bending outward, we gain two of these one-half units, which is one full unit. That one extra unit added when we switch the aggregate hypotenuse from an inner bend to an outer bulge is perfectly compensated for by the interior "missing" square.
+This tells us something important: the total area of the shapes we're using to cover the background triangle is exactly one-half of a square unit smaller than the red triangle we're trying to cover! This difference of one-half of a unit must be the area lost or gained by the bend in the hypotenuse. When we go from bending inward to bending outward, we gain two of these one-half units, which is one full unit, which is perfectly compensated for by the interior "missing" square.
+
 </details>
