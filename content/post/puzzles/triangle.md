@@ -25,7 +25,7 @@ You may recall from high school math that we calculate the slope of a line by ch
 
 The larger one, let's call it triangle A, is 8 units tall by 3 units wide which gives a slope of <sup>8</sup>&frasl;<sub>3</sub>, or 2<sup>2</sup>&frasl;<sub>3</sub>. The smaller one, which we'll call triangle B, is 5 units tall by 2 units wide, which gives a slope of 2<sup>1</sup>&frasl;<sub>2</sub>. So they have different slopes, which gives us a clue as to what's happening here.
 
-Because they don't form a straight line, in the starting configuration, the aggregate hypotenuse bends slightly inward, and in the second configuration the line bends slightly outward. How much area in the aggregate triangle does that bending account for? You guessed it, exactly one unit, which is why the second configuration seems to be missing in interior square.
+Because they don't form a straight line, in the starting configuration, the aggregate hypotenuse bends slightly inward, and in the second configuration the line bends slightly outward. How much area in the aggregate triangle does that bending account for? You guessed it, exactly one unit, which is why the second configuration seems to be missing an interior square.
 
 Ok, that's a lot of words but can we use math to verify this claim? In the words of famous mathematician, [Bob the Builder](https://www.youtube.com/watch?v=qtgA9w5vHp8), "Yes, we can!"
 
