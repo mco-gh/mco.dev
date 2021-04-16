@@ -61,7 +61,7 @@ Here are my contributions, along with translations for non-programmers (**TfNP**
 > If his claim was okay   
 > Because he'd been coding in Perl  
 
-**TfNP**: Perl lives up to the monikker "code". Alan Turing wouldn't understand most Perl programs.
+**TfNP**: Perl lives up to the moniker "code". Alan Turing wouldn't understand most Perl programs.
 
 > Mr. Wall said "my code makes me hurl,  
 > So I'll give code design a good whirl!"  
