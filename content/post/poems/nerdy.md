@@ -67,7 +67,7 @@ Here are my contributions, along with translations for non-programmers (**TfNP**
 > So I'll give code design a good whirl!"  
 > He mixed up some piles  
 > Of Scrabble game tiles  
-> And the result, as we know, is called Perl.  
+> The result, as we know, is called Perl.  
 
 **TfNP**: Again, Perl is a write-only programming language.
 
