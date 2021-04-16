@@ -55,3 +55,18 @@ Here are my contributions, along with translations for non-programmers (**TfNP**
 
 **TfNP**: Dennis Ritchie created the C programming language to make it easier to write system programs. Unix, the precursor to Linux, was written in C by Ritchie, Ken Thompson, and a host of collaborators. Fifty years later, C is still one of the world's most popular programming languages.
 
+> An arrogant techbro named Earl
+> Said "my code is a joy to unfurl"
+> But no one could say
+> If his claim was okay 
+> Because he'd been coding in Perl
+
+**TfNP**: Perl truly lives up the monikker "code".
+
+Mr. Wall said "my code makes me hurl,
+So I'll give code design a good whirl!"
+He mixed up some piles
+Of Scrabble game tiles
+And the result, as we know, is called Perl.
+
+**TfNP**: Again, Perl is a write-only programming language. No one can understand even their own code.
