@@ -35,7 +35,7 @@ select rating, victory_status, a, b, cast(a as float)/cast(b as float)*100 from 
 from games
 group by rating, victory_status)
 ```
-* **publish**: `datasette publish cloudrun`
+* **publish**: `datasette publish cloudrun games.db --service=games`
   * Cloud Run support is only <a href="https://github.com/simonw/datasette/blob/main/datasette/publish/cloudrun.py" target="_blank">182 lines of Python</a>!
 * **ideas**:
   * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">codelabs</a>
