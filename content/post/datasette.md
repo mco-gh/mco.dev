@@ -15,7 +15,6 @@ title = "Datasette"
 * **simple query**: `select winner, count(*) from games group by winner`
 * **complex query**:
 ```sql
-select winner, count(*) from games group by winner
 select rating, victory_status, a, b, cast(a as float)/cast(b as float)*100 from (select
     case 
         when white_rating between 0 and 1200 then '0-1200' 
