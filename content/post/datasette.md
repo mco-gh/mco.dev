@@ -4,7 +4,7 @@ tags = ["data"]
 title = "Datasette"
 +++ 
 
-* <a href="https://mco.dev/datasette" target="_blank">mco.dev/datasette</a>
+* <a href="https://mco.dev/datasette">mco.dev/datasette</a>
 * <a href="https://datasette.io" target="_blank">datasette home page</a>
 * <a href="https://calmcode.io/datasette/introduction.html" target="_blank">video tutorial</a>
 * <a href="https://www.kaggle.com/datasnaek/chess" target="_blank">data source</a>
