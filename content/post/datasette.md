@@ -1,0 +1,42 @@
++++
+description = ""
+tags = ["data"]
+title = "Datasette"
++++ 
+
+* <a href="https://datasette.io" target="_blank">datasette home page</a>
+* <a href="https://www.kaggle.com/datasnaek/chess" target="_blank">data source</a>
+* installation: `pip install csvs-to-sqlite datasette datasette-vega`
+* convert: `csvs-to-sqlite games.csv games.dbdatasette games.db`
+* start: `datasette games.db`
+* publish: `datasette publish cloudrun`
+* simple query: `SELECT winner, COUNT(*) FROM games GROUP BY winner`
+* complex query:
+```sql
+select winner, count(*) from games group by winner
+select rating, victory_status, a, b, cast(a as float)/cast(b as float)*100 from (select
+    case 
+        when white_rating between 0 and 1200 then '0-1200' 
+        when white_rating between 1200 and 1500 then '1200-1500'
+        when white_rating between 1500 and 1800 then '1500-1800' 
+        when white_rating between 1800 and 2100 then '1800-2100' 
+        when white_rating between 2100 and 2400 then '2100-2400' 
+        else '2400+'
+    end as rating, victory_status, count(*) as a,
+    sum(count(victory_status)) over (partition by case 
+        when white_rating between 0 and 1200 then '0-1200' 
+        when white_rating between 1200 and 1500 then '1200-1500'
+        when white_rating between 1500 and 1800 then '1500-1800' 
+        when white_rating between 1800 and 2100 then '1800-2100' 
+        when white_rating between 2100 and 2400 then '2100-2400' 
+        else '2400+'
+    end) as b
+from games
+group by rating, victory_status)
+```
+* only 183 lines of Python!
+* other ideas:
+  * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">Codelabs</a>
+  * <a href="gohugo.io" target="_blank">hugo</a>
+  * <a href="https://tiddlywiki.com/" target="_blank">tiddlywiki</a>
+* shameless plug: <a href="https://codelabs-preview.appspot.com/?file_id=1s0voEW-Fb8q_U3Al6AnLB1C52gkZjZRu_Rd69KtnuPQ#0" target="_blank">my Cloud Run workshop for Google I/O</a>
