@@ -38,9 +38,9 @@ group by rating, victory_status)
 ```
 * **publish**: `datasette publish cloudrun`
   * `datasette publish cloudrun` is only <a href="https://github.com/simonw/datasette/blob/main/datasette/publish/cloudrun.py" target="_blank">182 lines of Python</a>!
-* random ideas:
+* **ideas**:
   * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">codelabs</a>
   * <a href="gohugo.io" target="_blank">hugo</a>
   * <a href="https://tiddlywiki.com/" target="_blank">tiddlywiki</a>
   * <a href="https://wordpress.org/" target="_blank">wordpress</a>
-* shameless plug: <a href="https://codelabs-preview.appspot.com/?file_id=1s0voEW-Fb8q_U3Al6AnLB1C52gkZjZRu_Rd69KtnuPQ#0" target="_blank">my Cloud Run workshop for Google I/O</a>
+* **plug**: <a href="https://codelabs-preview.appspot.com/?file_id=1s0voEW-Fb8q_U3Al6AnLB1C52gkZjZRu_Rd69KtnuPQ#0" target="_blank">my Cloud Run workshop for Google I/O</a>
