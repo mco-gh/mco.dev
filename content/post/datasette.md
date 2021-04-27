@@ -38,8 +38,8 @@ group by rating, victory_status)
 ```
 * only 183 lines of Python!
 * some ideas:
-  * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">Codelabs</a>
+  * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">codelabs</a>
   * <a href="gohugo.io" target="_blank">hugo</a>
   * <a href="https://tiddlywiki.com/" target="_blank">tiddlywiki</a>
-  * <a href="https://wordpress.org/" target="_blank">Wordpress</a>
+  * <a href="https://wordpress.org/" target="_blank">wordpress</a>
 * shameless plug: <a href="https://codelabs-preview.appspot.com/?file_id=1s0voEW-Fb8q_U3Al6AnLB1C52gkZjZRu_Rd69KtnuPQ#0" target="_blank">my Cloud Run workshop for Google I/O</a>
