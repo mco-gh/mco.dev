@@ -12,7 +12,6 @@ title = "Datasette"
 * **install**: `pip install csvs-to-sqlite datasette datasette-vega`
 * **convert**: `csvs-to-sqlite games.csv games.db`
 * **start**: `datasette games.db`
-* **publish**: `datasette publish cloudrun`
 * simple query: `SELECT winner, COUNT(*) FROM games GROUP BY winner`
 * complex query:
 ```sql
@@ -37,6 +36,7 @@ select rating, victory_status, a, b, cast(a as float)/cast(b as float)*100 from 
 from games
 group by rating, victory_status)
 ```
+* **publish**: `datasette publish cloudrun`
 * `datasette publish cloudrun` is only <a href="https://github.com/simonw/datasette/blob/main/datasette/publish/cloudrun.py" target="_blank">182 lines of Python</a>!
 * some ideas:
   * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">codelabs</a>
