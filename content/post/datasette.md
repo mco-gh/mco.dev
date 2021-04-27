@@ -5,6 +5,7 @@ title = "Datasette"
 +++ 
 
 * <a href="https://datasette.io" target="_blank">datasette home page</a>
+* <a href="https://calmcode.io/datasette/introduction.html" target="_blank">video tutorial</a>
 * <a href="https://www.kaggle.com/datasnaek/chess" target="_blank">data source</a>
 * installation: `pip install csvs-to-sqlite datasette datasette-vega`
 * convert: `csvs-to-sqlite games.csv games.dbdatasette games.db`
