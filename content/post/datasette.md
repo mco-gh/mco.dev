@@ -8,7 +8,10 @@ title = "Datasette"
 * <a href="https://datasette.io" target="_blank">datasette home page</a>
 * <a href="https://calmcode.io/datasette/introduction.html" target="_blank">video tutorial</a>
 * <a href="https://antonz.org/sqlite-is-not-a-toy-database/" target="_blank">SQLite is not a toy database</a> - *"SQLite is the most common DBMS in the world"*
-* <a href="https://www.kaggle.com/datasnaek/chess" target="_blank">data source</a>
+* Datasets:
+  * <a href="https://www.kaggle.com/datasnaek/chess" target="_blank">today's demo</a>
+  * <a href="https://datasette.io/examples" target="_blank">examples</a>
+  * <a href="https://fivethirtyeight.datasettes.com/fivethirtyeight" target="_blank">fivethirtyeight</a>
 * **install**: `pip install csvs-to-sqlite datasette datasette-vega`
 * **convert**: `csvs-to-sqlite games.csv games.db`
 * **start**: `datasette games.db`
