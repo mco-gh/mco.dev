@@ -36,6 +36,7 @@ from games
 group by rating, victory_status)
 ```
 * **publish**: `datasette publish cloudrun games.db --service=games`
+  * API server for free!
   * Cloud Run support is only <a href="https://github.com/simonw/datasette/blob/main/datasette/publish/cloudrun.py" target="_blank">182 lines of Python</a>!
 * **ideas**:
   * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">codelabs</a>
