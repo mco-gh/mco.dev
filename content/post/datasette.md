@@ -12,7 +12,7 @@ title = "Datasette"
 * **install**: `pip install csvs-to-sqlite datasette datasette-vega`
 * **convert**: `csvs-to-sqlite games.csv games.db`
 * **start**: `datasette games.db`
-* **simple query**: `SELECT winner, COUNT(*) FROM games GROUP BY winner`
+* **simple query**: `select winner, count(*) from games group by winner`
 * **complex query**:
 ```sql
 select winner, count(*) from games group by winner
