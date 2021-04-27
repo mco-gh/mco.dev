@@ -12,8 +12,8 @@ title = "Datasette"
 * **install**: `pip install csvs-to-sqlite datasette datasette-vega`
 * **convert**: `csvs-to-sqlite games.csv games.db`
 * **start**: `datasette games.db`
-* simple query: `SELECT winner, COUNT(*) FROM games GROUP BY winner`
-* complex query:
+* **simple query**: `SELECT winner, COUNT(*) FROM games GROUP BY winner`
+* **complex query**:
 ```sql
 select winner, count(*) from games group by winner
 select rating, victory_status, a, b, cast(a as float)/cast(b as float)*100 from (select
@@ -37,8 +37,8 @@ from games
 group by rating, victory_status)
 ```
 * **publish**: `datasette publish cloudrun`
-* `datasette publish cloudrun` is only <a href="https://github.com/simonw/datasette/blob/main/datasette/publish/cloudrun.py" target="_blank">182 lines of Python</a>!
-* some ideas:
+  * `datasette publish cloudrun` is only <a href="https://github.com/simonw/datasette/blob/main/datasette/publish/cloudrun.py" target="_blank">182 lines of Python</a>!
+* random ideas:
   * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">codelabs</a>
   * <a href="gohugo.io" target="_blank">hugo</a>
   * <a href="https://tiddlywiki.com/" target="_blank">tiddlywiki</a>
