@@ -37,7 +37,7 @@ select rating, victory_status, a, b, cast(a as float)/cast(b as float)*100 from 
 from games
 group by rating, victory_status)
 ```
-* `publish cloudrun` is only 183 lines of Python!
+* `datasette publish cloudrun` is only <a href="https://github.com/simonw/datasette/blob/main/datasette/publish/cloudrun.py" target="_blank">182 lines of Python</a>!
 * some ideas:
   * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">codelabs</a>
   * <a href="gohugo.io" target="_blank">hugo</a>
