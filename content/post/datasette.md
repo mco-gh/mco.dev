@@ -38,7 +38,7 @@ select rating, victory_status, a, b, cast(a as float)/cast(b as float)*100 from 
 from games
 group by rating, victory_status)
 ```
-* only 183 lines of Python!
+* publish feature is only 183 lines of Python!
 * some ideas:
   * <a href="https://github.com/googlecodelabs/tools/tree/master/claat" target="_blank">codelabs</a>
   * <a href="gohugo.io" target="_blank">hugo</a>
