@@ -10,10 +10,10 @@ title = "Datasette"
 * <a href="https://antonz.org/sqlite-is-not-a-toy-database/" target="_blank">SQLite is not a toy database</a>
   * "SQLite is the most common DBMS in the world"
 * <a href="https://www.kaggle.com/datasnaek/chess" target="_blank">data source</a>
-* installation: `pip install csvs-to-sqlite datasette datasette-vega`
-* convert: `csvs-to-sqlite games.csv games.db`
-* start: `datasette games.db`
-* publish: `datasette publish cloudrun`
+* **install**: `pip install csvs-to-sqlite datasette datasette-vega`
+* **convert**: `csvs-to-sqlite games.csv games.db`
+* **start**: `datasette games.db`
+* **publish**: `datasette publish cloudrun`
 * simple query: `SELECT winner, COUNT(*) FROM games GROUP BY winner`
 * complex query:
 ```sql
