@@ -16,7 +16,7 @@ The answer depends on your goals:
 
 * Becoming a professional programmer who builds robust real-world applications is hard. It takes years of work, just as becoming a professional pianist takes years of dedication and practice.
 
-Most people live somewhere between these two extremes - able to enjoy coding and creating small to medium sized programs that solve interesting problems and give them a sense of accomplishment, just as many piano players have enough skill to enjoy making music.
+Most people live somewhere between these two extremes - able to enjoy coding and creating small to medium sized programs that solve interesting problems that give them a sense of accomplishment, just as many piano players have enough skill to enjoy making music.
 
 So here's my advice whenever someone asks "should I learn to code?":
 
