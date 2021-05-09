@@ -1,6 +1,6 @@
 +++
-categories = ["Random"]
-tags = ["random"]
+categories = ["Education"]
+tags = ["coding"]
 title = "Should everyone learn to code?"
 date = "2021-05-09"
 coverImage = "/img/python.jpg"
