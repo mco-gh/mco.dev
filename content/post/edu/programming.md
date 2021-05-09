@@ -14,7 +14,7 @@ The answer depends on your goals:
 
 * Learning the basics and writing toy applications is easy, like learning to play *Mary had a Little Lamb* with one hand.
 
-* Becoming a professional programmer who builds robust real-world applications is hard. It takes years of work, just as becoming a professional pianist takes years of dedication and practice.
+* Becoming a professional programmer who builds robust real world applications is hard. It takes years of work, just as becoming a professional pianist takes years of dedication and practice.
 
 Most people live somewhere between these two extremes - able to enjoy coding and creating small to medium sized programs that solve interesting problems that give them a sense of accomplishment, just as many piano players have enough skill to enjoy making music.
 
