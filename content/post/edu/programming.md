@@ -12,7 +12,7 @@ I just read this article: [*Programming is Hard*](https://dorinlazar.ro/2021-02-
 
 The answer depends on your goals:
 
-* Learning the basics and writing toy applications is easy, like learning the basics of music theory and how to play *Mary had a Little Lamb* with one hand.
+* Learning the basics and writing toy applications is easy, like learning to play *Mary had a Little Lamb* with one hand.
 
 * Becoming a professional programmer who builds robust real-world applications is hard. It takes years of work, just as becoming a professional pianist takes years of dedication and practice.
 
