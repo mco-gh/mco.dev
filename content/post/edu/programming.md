@@ -3,7 +3,7 @@ categories = ["Random"]
 tags = ["random"]
 title = "Should everyone learn to code?"
 date = "2021-05-09"
-coverImage = "/img/code2.jpg"
+coverImage = "/img/python.jpg"
 +++
 
 I just read this article: [*Programming is Hard*](https://dorinlazar.ro/2021-02-programming-is-hard/). I agree with several points made therein, but I have a different way of explaining how hard it is to be a programmer. I like to ask, by analogy, how hard is it to learn to play piano?
