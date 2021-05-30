@@ -44,4 +44,4 @@ I hear you complaining "that's great Marc, but I've gotten several thousand emai
 
 - **The hard way**: go through your mess of an inbox, star everything you want to save, archive everything else, and move the starred items back to your inbox. I don't recommend this approach because it's too expensive for the value you get but it's available for those who can't handle bulk archiving.
 
-That's it, if you follow these rules every day, you'll have a beautifully tidy inbox. I know because I've had <50 messages in my home and work inbox for over three years now. Trust me, it's really nice. By the way, that image at the top of this article? That's what you see when you have no more messages in your inbox.
+That's it, if you follow these rules every day, you'll have a beautifully tidy inbox. How do I know? I've had <50 messages in both my home and work inbox for over three years now.
