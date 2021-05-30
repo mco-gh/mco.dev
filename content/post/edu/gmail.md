@@ -34,14 +34,14 @@ That's the main trick - if you follow those three simple rules, you'll reduce yo
 
 - Gmail has a pretty good spam filter but once in a while something sneaks through. Whenever that happens, mark it as spam (that's the stop sign button with the exclamation point, right next to the Archive button). Google will remember and make sure you never have to see anything from that sender again.
 
-- Of course, there are exceptions, things that don't fit nearly into those three categories. For example, I need to do work before replying to this important message and I can't do that work right now. Star it or put it in a TBD folder. If you're diligent enough with this method, you can even leave it in your inbox, but if you go that route, make sure you never exceed 50 mesages in your inbox. The goal is to always be able to see all your messages in one gmail summary page.
+- Of course, there are exceptions, things that don't fit nearly into those three categories. For example, I need to do work before replying to this important message and I can't do that work right now. Star it or put it in a "To Do" folder. If you're diligent enough with this method, you can even leave it in your inbox, but if you go that route, make sure you never exceed 50 mesages in your inbox. The goal is to always be able to see all your messages in one gmail summary page.
 
 ## Transitioning
 
-I hear you complaining "that's great Marc, but I've gotten several thousand emails in my inbox. How do I get from here to there?". There are two ways to go:
+I know what you're thinking: "That's great Marc, but I've got several thousand messages in my inbox. How do I get from here to there"? There are two ways to go:
 
-- **The easy way**: archive your entire inbox. Stop complaining about the incredibly important stuff you'll miss out on - just do it. If it's that important, you'll think of it and pull it up in your All Mail folder. Or someone will remind you. The key is get that stuff out of your face. Gmail makes this easy by giving you the ability to archive everything in one shot.
+- **The easy way**: archive your entire inbox. Stop complaining about the incredibly important stuff you'll miss out on - just do it. If it's that important, you'll think of it and pull it up in your All Mail folder. Or someone will remind you. The key is to get that stuff out of your face. Gmail makes this easy by giving you the ability to archive everything in one shot.
 
-- **The hard way**: go through your mess of an inbox, star everything you want to save, archive everything else, and move the starred items back to your inbox. I don't recommend this approach because it's too expensive for the value you get but it's available for those who can't handle bulk archiving.
+- **The hard way**: go through your mess of an inbox, star everything you want to save, archive everything, and move the starred items back to your inbox. I don't recommend this approach because it's too expensive for the value you get but it's available for those who can't handle bulk archiving.
 
 That's it, if you follow these rules every day, you'll have a beautifully tidy inbox. How do I know? I've had <50 messages in both my home and work inbox for over three years now.
