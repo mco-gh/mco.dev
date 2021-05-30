@@ -16,8 +16,6 @@ It just moves the message out of your inbox but it's still visible, via the "All
 
 With that in mind, here's how to go Marie Kondo on your inbox...
 
-<br>
-
 ## The Trick
 
 Skim every incoming message and classify it into one of three categories:
