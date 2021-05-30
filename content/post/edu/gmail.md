@@ -6,7 +6,7 @@ date = "2021-05-30"
 coverImage = "/img/gmail.png"
 +++
 
-Right now - do you have hundreds or even thousands of emails in your inbox? I hate feeling like my main communication channel is a godawful mess. That's why I think this is so important. **The good news**: the road to gmail bliss is easy, just follow me...
+Right now - do you have hundreds or even thousands of emails in your inbox? I hate feeling like my main communication channel is a godawful mess. **The good news**: the road to gmail bliss is easy, just follow me...
 
 <!--more-->
 
