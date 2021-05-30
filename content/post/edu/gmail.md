@@ -22,7 +22,7 @@ Skim every incoming message and classify it into one of three categories:
 
 > 1. I should reply to this now - reply now and then **archive it!**
 > 1. I skimmed it, got what I want, no need to reply - **archive it!**
-> 1. I skimmed it, it's bullshit - **delete it!**.
+> 1. I skimmed it, it's bullshit - **delete it!**
 
 That's the main trick - if you follow those three simple rules, you'll reduce your inbox size to a single digit and you'll be the envy of your friends. Here are a few more suggestions...
 
