@@ -12,7 +12,7 @@ This short video is a fascinating study in the reaction to panic. The subject is
 
 Her fear and dread is palpable. It's a real life enactment of that dream many of us have about arriving to take a final exam, only to suddenly realize we haven't attended a single lecture. Except this version plays out in front of a live audience.
 
-You can tell she has that feeling we've all had at one time or another in our lives, the desire to have the earth open up and swallow us. I won't spoil the ending but watch the video below to how she handles this challenge and see if you can learn anything from it.
+You can tell she has that feeling we've all had at one time or another in our lives, the desire to have the earth open up and swallow us. I won't spoil the ending but watch the video below to see how she handles this challenge and think about whether there's a lesson here.
 
 <br>
 
