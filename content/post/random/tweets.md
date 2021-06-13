@@ -10,7 +10,7 @@ Twitter’s 280 character limit raises an interesting question: **how many tweet
 
 <!--more-->
 
-With 26 English letters, ten digits, and 33 special symbols, we have on the order of 70 unique characters to tweet with. The total number of possible tweets can thus be calculated by raising 70 to the 280th power. This is a *really* big number. How big? For the non-exponentially inclined, that’s basically 4.24 followed by 516 zeros (give or take a few quarillion).
+With 26 English letters, ten digits, and 33 special symbols, we have on the order of 70 unique characters to tweet with (ignoring upper and lower case and other languages, of course). The total number of possible tweets can thus be calculated by raising 70 to the 280th power. This is a *really* big number. How big? For the non-exponentially inclined, that’s basically 4.24 followed by 516 zeros (give or take a few quarillion).
 
 But this estimate drastically overstates the number of tweets because the vast majority of those random combinations of letters would never be typed by any human being, with the possible exception of Donald Trump. So how do we limit our count to only tweets involving legitimate English words?
 
