@@ -24,10 +24,12 @@ Even if only one out of every million of those random strings of words makes a c
 
 To get a sense of how big this is, let’s compare it to some other large quantities:
 
-* The number of stars in the observable universe is 10 to the 21st power, which is a one followed by a mere zeroesThis is not even a close match for the observable universe of tweets ([source](http://scienceline.ucsb.edu/getkey.php?key=3775)).
-* The number of possible chess games is 10 to the 120th power ([the Shannon number](https://en.wikipedia.org/wiki/Shannon_number)), but the number of plausible games is only 10 to the 40th power. Compared to our twitter limit, that’s a minor league number.
+<br>
+
+* The number of stars in the observable universe is 10 to the 21st power ([source](http://scienceline.ucsb.edu/getkey.php?key=3775)). This is not even a close match for the observable universe of tweets 
+* The number of possible chess games is 10 to the 120th power ([the Shannon number](https://en.wikipedia.org/wiki/Shannon_number)), and the number of plausible games is only 10 to the 40th power. Compared to our twitter limit, that’s a minor league number.
 * Even the number of atoms in the universe (one followed by 81 zeroes), is dwarfed by the Tweetspace.
 
-It's useful to adopt a unit befitting a number this big. A googol, which inspired the differently spelled and far more profitable search engine, is defined as a one followed by 100 zeroes. Thus, the number of meaningful tweets, give or take a few quadrillion, is approximately 2 googols.
+It's useful to adopt a unit befitting a number this big. A googol, which inspired the differently spelled and far more profitable search engine, is defined as a one followed by 100 zeroes. Thus, the number of meaningful tweets, give or take a few [Vigintillion](https://en.wikipedia.org/wiki/Names_of_large_numbers), is approximately 2 googols.
 
-So rest easy, tweeters, the Sun will burn out long before we run out of original tweets. But that's true only if Trump remains banned, because he was on pace to use up the available tweetspace by next October.
+So rest easy, tweeters, there's plenty of time and space for your original tweets. But that's true only if Trump remains banned, because he was on pace to use up the available Tweetspace by next October.
