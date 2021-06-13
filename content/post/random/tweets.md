@@ -18,7 +18,7 @@ There are roughly 170,000 commonly used words in the English language. Let’s e
 
 The average length of an English word is about five letters and let's ignore the fact that young people like to use short words that people like me have to look up on Urban Dictionary ("u r my BFF, LOL"). Next, let's divide the available 280 characters by six (five letters plus one space character after each word), which gives us ~47. Thus, we could approximate the number of tweets using only legitimate English words by choosing up to 47 words from a pool of roughly 20,000, which is 20,000 to the 47th power.
 
-That’s 1.4 followed by 202 zeroes. But we still have a problem – the vast majority of those tweets would be nonsense, a random sequence of words with no semblance of the rules of English grammar. In other words, they would look like a typical teenager’s text messages.
+That’s 1.4 followed by 202 zeroes. But we still have a problem – the vast majority of those tweets would be nonsense, a random sequence of words with no semblance to the rules of English grammar. In other words, they would look like a typical teenager’s text messages.
 
 Even if only one out of every million of those random strings of words makes a coherent sentence, the result is 1.4 followed by 196 zeroes, which is still a ridiculous number.
 
