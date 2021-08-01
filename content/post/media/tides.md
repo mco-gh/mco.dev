@@ -10,7 +10,7 @@ Check out this beautiful short film showing some of the most dramatic tides in t
 
 <!--more-->
 
-This film won the top prize at the 2021 [Time Lapse Film Festival](timelapsefilmfestival.com/). Who even knew there was a whole festival for time lapse films?!
+This film won the top prize at the 2021 [Time Lapse Film Festival](timelapsefilmfestival.com/). Who even knew there was a whole festival for time lapse films?
 
 <br>
 
