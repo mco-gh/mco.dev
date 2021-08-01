@@ -14,9 +14,5 @@ This film won the top prize at the 2021 [Time Lapse Film Festival](https://timel
 
 <br>
 
-<blockquote class="quoteback" darkmode="" data-title="Tidal%20Range" data-author="@vimeo" cite="https://vimeo.com/553964105">
-                      <p>Tides in French Brittany are amongst the highest in the world with tidal range up to 14 meters (46 feet)</p>
-<p>This film shows the effects of tides and how  humans have adapted to them</p>
-                      <footer>@vimeo <cite><a href="https://vimeo.com/553964105">https://vimeo.com/553964105</a></cite></footer>
-                      </blockquote>
-                      <script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
+<iframe src="https://player.vimeo.com/video/553964105" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/553964105">Tidal Range</a> from <a href="https://vimeo.com/hdrskies">Tanguy Louvigny</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
