@@ -6,7 +6,7 @@ date = "2021-08-01"
 coverImage = "/img/tides.jpg"
 +++
 
-Check out this beautiful short film showing some of the most dramatic tides in the world on the coast of France.
+Check out this beautiful short film showing some of the most dramatic tides in the world on the northwest coast of France.
 
 <!--more-->
 
