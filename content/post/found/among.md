@@ -3,7 +3,7 @@ categories = ["Newsletter"]
 tags = ["Environment"]
 title= "Among Giants"
 date = "2021-08-08"
-coverImage = "/img/among.png"
+coverImage = "/img/among.jpg"
 +++
 
 This beautiful short film tells the unforgettable story about a young man who spent three years living in a tree, along with several associates, to protect a grove of ancient redwood trees.
