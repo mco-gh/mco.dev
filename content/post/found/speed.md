@@ -10,7 +10,7 @@ Depending on your risk tolerance, this video will give you either sweaty palms o
 
 <!--more-->
 
-Either way, it's an impressive feat and quite satisfying to watch. For the most immersive experience, turn up the audio and watch in full screen mode.
+Either way, it's an impressive feat and quite satisfying to watch. For the most immersive experience, turn on audio and watch in full screen mode.
 
 <br>
 
