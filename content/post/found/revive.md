@@ -6,7 +6,7 @@ date = "2021-09-05"
 coverImage = "/img/revive.jpg"
 +++
 
-This poingnant tale of grief and recovery is the best article I read this week.
+This poignant tale of grief and recovery is the best article I read this week.
 
 <!--more-->
 
