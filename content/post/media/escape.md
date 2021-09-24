@@ -6,7 +6,7 @@ date = "2021-09-24"
 coverImage = "/img/escape.png"
 +++
 
-Part travelogue and part profile in courage, this short film tells the story of Aaron Ralph’s 2,700-kilometer bikepacking trip across the United Kingdom. There's an insprirational tale lurking beneath the surface of this quirky voyage and its spectacular scenery.
+Part travelogue and part profile in courage, this short film tells the story of Aaron Ralph’s insane 2,700-kilometer bikepacking trip from the bottom to the top of the United Kingdom. Lurking just beneath the surface of this spectacularly filmed voyage is an inspriration tale of resilience.
 
 <!--more-->
 
