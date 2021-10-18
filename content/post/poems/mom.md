@@ -1,7 +1,7 @@
 +++
 categories = ["Poems"]
 tags = ["personal"]
-title = "My Mom"
+title = "My Mom and Me"
 date = "2021-10-17"
 coverImage = "/img/mom.jpg"
 +++
