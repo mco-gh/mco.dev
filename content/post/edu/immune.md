@@ -6,7 +6,7 @@ date = "2021-11-07"
 coverImage = "/img/immune.png"
 +++
 
-Check out this fascinating and beautifully produced visual explaination of the wonders of your immune system. You'll be amazed by the incredible things going on in your body every day, about which you are able to remain blissfully ignorant, unless it stops working.
+Check out this fascinating and beautifully produced visual explaination of the wonders of your immune system. You'll be amazed by the incredible things going on in your body every day, about which you are able to remain blissfully ignorant, unless they stops working.
 
 <!--more-->
 
