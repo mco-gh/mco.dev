@@ -1,7 +1,7 @@
 +++
 categories = ["Newsletter"]
 tags = ["Lists"]
-title= "Look at my Face"
+title= "Look at My Face"
 date = "2021-11-14"
 coverImage = "/img/compassion.jpg"
 +++
