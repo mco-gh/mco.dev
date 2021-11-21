@@ -10,7 +10,7 @@ This short video from Vox reports on a phenomenon I'd not heard about but, as a 
 
 <!--more-->
 
-The wealthy residents of this city are expanding their properties like crazy. Of course, there's nothing unusual about that, but what's unique here is the direction in which they're building -- down.
+The wealthy residents of this city are expanding their properties like crazy. Of course, there's nothing unusual about that, but what's unique here is the direction in which they're building.
 
 <br>
 
