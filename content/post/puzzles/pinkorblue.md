@@ -11,6 +11,8 @@ Try this simple puzzle about the likelihood of gender distribution among four ch
 
 <!--more-->
 
+**Note: I'm aware there are a multitude of genders. I'm deliberately using two genders in order to construct this simple puzzle.**
+
 Assuming the odds of a given child being born a boy or a girl are precisely 50%, imagine you have four children and consider these three possible outcomes:
 
 <br>
