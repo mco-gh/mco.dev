@@ -201,7 +201,7 @@ bq query -q --use_legacy_sql=false "$QUERY"
 
 ## Wikidata decompression - We're gonna need a bigger boat
 
-That takes care of the pageviews, but what about the wikidata? Here's a script called entities.sh, which takes care of the entity data. Structurally, it's similar to the pageviews.sh script, except that instead of acquiring the data, it simply prints the file name it would like to acquire. The reason we do this is because we're not going to actually gather the entity data in this script -- it's too big a job, involving a large download, a massive decompression, and a huge upload. Instead, we'll use this script to drive the [Storage Transfer](http://localhost:1313/getting-your-foot-in-the-door/) service.
+That takes care of the pageviews, but what about the wikidata? Here's a script called entities.sh, which takes care of the entity data. Structurally, it's similar to the pageviews.sh script, except that instead of acquiring the data, it simply prints the file name it would like to acquire. The reason we do this is because we're not going to actually gather the entity data in this script -- it's too big a job, involving a large download, a massive decompression, and a huge upload. Instead, we'll use this script to drive the [Storage Transfer](https://mco.dev/getting-your-foot-in-the-door/) service.
 
 <br>
 <details>
@@ -245,7 +245,7 @@ So far, we have a bunch of shell scripts but we need to run those scripts automa
 
 We wrap the pageviews.sh script in a Cloud Run job that runs once per hour. Any new files are automatically downloaded to Cloud Storage, parsed, and loaded into a BigQuery table.
 
-The entities.sh script is used to drive a [Storage Transfer](http://localhost:1313/getting-your-foot-in-the-door/) job. Once a day it looks for new wikidata on the web and, if found, it downloads the file to Cloud Storage. Once the new file is stored in GCS, it triggers a cloud run job called load.sh, which looks like this:
+The entities.sh script is used to drive a [Storage Transfer](https://mco.dev/getting-your-foot-in-the-door/) job. Once a day it looks for new wikidata on the web and, if found, it downloads the file to Cloud Storage. Once the new file is stored in GCS, it triggers a cloud run job called load.sh, which looks like this:
 
 <br>
 <details>
