@@ -2,7 +2,7 @@
 categories = ["Media"]
 tags = ["Books"]
 title = "My Favorite Books of 2021"
-date = "2022-01-01"
+date = "2021-01-01"
 coverImage = "/img/books.jpg"
 +++
 
