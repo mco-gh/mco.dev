@@ -10,9 +10,9 @@ One of my favorite movies is *Adaptation*, in no small part because of the way i
 
 <!--more-->
 
-The video below, from a Youtube channel on screenwriting, is an expertly made tribute to that film. It applies the same kind of self-reference to creating a video essay about creating a video essay about Adaptation.
+The video below, from a Youtube channel on screenwriting, is an expertly made tribute to that film. It applies the same kind of self-reference to creating a video essay about creating a video essay about Adaptation. Like the film it's ostensibly about, it'll blow your mind.
 
-The guy who wrote *Adaptation*, [Charlie Kaufman](https://en.wikipedia.org/wiki/Charlie_Kaufman), specializes in these sort of mind bending motifs. He also wrote *Being John Malkovich*, and *Eternal Sunshine of the Spotless Mind*, any many others.
+Incidentally, the guy who wrote *Adaptation*, [Charlie Kaufman](https://en.wikipedia.org/wiki/Charlie_Kaufman), specializes in these sort of mind bending motifs. He also wrote *Being John Malkovich*, and *Eternal Sunshine of the Spotless Mind*, among others.
 
 <br>
 
