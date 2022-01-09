@@ -1,7 +1,7 @@
 +++
 categories = ["Media"]
 tags = ["movie"]
-title= "Video About a Video About a Movie About a Movie"
+title= "A Video About a Video About a Movie About a Movie"
 date = "2022-01-09"
 coverImage = "/img/selfref.jpg"
 +++
@@ -10,9 +10,9 @@ One of my favorite movies is *Adaptation*, in no small part because of the way i
 
 <!--more-->
 
-The video below, from a Youtube channel on screenwriting, is an expertly made tribute to that film. It applies the same kind of self-reference to creating a video essay about creating a video essay about Adaptation. Like the film it's ostensibly about, it'll blow your mind.
+The video below, from a Youtube channel on screenwriting, is an expertly made tribute/parody to that film. It applies the same kind of self-reference to creating a video essay about creating a video essay (about *Adaptation*). All the while, it sneakily teaches you some things about screenwriting and storytelling. Watch for the clever advertisement woven into the plot.
 
-Incidentally, the guy who wrote *Adaptation*, [Charlie Kaufman](https://en.wikipedia.org/wiki/Charlie_Kaufman), specializes in these sort of mind bending motifs. He also wrote *Being John Malkovich*, and *Eternal Sunshine of the Spotless Mind*, among others.
+Incidentally, the guy who wrote *Adaptation*, [Charlie Kaufman](https://en.wikipedia.org/wiki/Charlie_Kaufman), specializes in these sort of mind bending motifs. He also wrote *Being John Malkovich* and *Eternal Sunshine of the Spotless Mind*, among others.
 
 <br>
 
