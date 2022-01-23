@@ -2,32 +2,29 @@
 categories = ["Puzzles"]
 tags = []
 date = "2022-01-22"
-title = "Flipping Coins"
-subtitle = "Which sequence is more likely: HTT or HTH? The answer will surprise you."
+title = "The answer to this puzzle will surprise you"
 coverImage = "/img/coins.jpg"
-draft = true
 +++
 
 Imagine tossing a coin repeatedly until you get a certain pattern, let’s say HTT (head, tail, tail).
+
 <!--more-->
+
 For example, in this sequence of outcomes:
 
-HHTHHTH<span style="color:red">HTT</span>HHTTTHTH
+> **HHTHHTH<span style="color:red">HTT</span>**
 
 the desired pattern was reached after the 10th toss (highlighted in red).
 
-Now let’s imagine you repeat that same experiment and each time you record the number of tosses needed to see the desired pattern. The first time you might see HTT after 10 tosses (as in the example above), the second time you might see HTT after 7 tosses, the third time after 15 tosses, etc. After many such experiments, you calculate the average number of tosses needed to see the HTT pattern.
+Now let’s imagine you repeat that same experiment and each time you record the number of tosses required to see the desired pattern. The first time you might see HTT after 10 tosses (as in the example above), the second time you might see HTT after 7 tosses, the third time after 15 tosses, etc. After many such experiments, you calculate the average number of tosses needed to see the HTT pattern.
 
-At the same time, imagine your friend does the same number of experiments but she’s looking for a different pattern:  HTH (head, tail, head).
+At the same time, imagine your friend conducts the same number of experiments but she’s looking for a different pattern:  HTH (head, tail, head).
 
 **Here’s the question**:  on average, will it take more flips to see HTT than HTH, or vice versa, or about the same number of flips to see both patterns?
 
-If you can’t wait till then, try the software simulation below (which I’ve personally written for today’s puzzle) and the answer will reveal itself. This puzzle comes from a fascinating TED talk on how statistics fool juries.
-
+If you're impatient, try this software simulation (which I’ve written for today’s puzzle) and the answer will reveal itself. Each test runs 1,000 trials.
 
 <script>
-let proceed = false;
-let refresher = null;
 let data_init = {
   HTT: {seq: "", exp: 0, tot: 0},
   HTH: {seq: "", exp: 0, tot: 0},
@@ -66,17 +63,16 @@ function trial(pattern) {
 }
 
 function start() {
-  refresher = setInterval(refresh, 20);
-  for (i = 0; i < 10000; i++) {
+  for (i = 0; i < 1000; i++) {
     trial("HTT");
     trial("HTH");
   }
+  refresh();
 }
 
 function reset() {
-  proceed = false;
-  clearInterval(refresher);
   data = JSON.parse(JSON.stringify(data_init))
+  refresh();
 }
 
 function flip() {
@@ -90,10 +86,11 @@ function flip() {
 
 <br>
 <div style="text-align:center">
-<button onclick="start()">Start</button>
+<button onclick="start()">Run Test</button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <button onclick="reset()">Reset</button>
 </div>
+<br>
 <table>
 <thead>
 <tr><th>Pattern</th><th>Trials</th><th>End of Last Sequence</th><th>Average Flips per Trial</th></tr>
@@ -104,7 +101,14 @@ function flip() {
 <tbody>
 </table>
 
-Solution: If you didn’t figure this one out, you’re in good company because distinguished mathematicians routinely get it wrong. Most people think it should take the same number of tosses to see both patterns, however, as the software simulation above shows, on average, it takes more tosses to see HTH (10) than HTT (8). Here’s why...
+<br>
+
+<details>
+  <summary>
+<span style="font-size:24px"><strong>Solution</strong></span>
+  </summary>
+<br>
+If you didn’t figure this one out, you’re in good company. Most people think it should take the same number of tosses to see both patterns, however, as the software simulation above shows, on average, it takes more tosses to see HTH (10) than HTT (8). Here’s why...
 
 Imagine you’re waiting for HTH and you see a head followed by a tail. You’re two thirds of the way there! On the next toss one of two things will happen: 
 - It’s a head, in which case you’re done.
@@ -112,6 +116,8 @@ Imagine you’re waiting for HTH and you see a head followed by a tail. You’re
 
 Now imagine the same scenario when you’re looking for HTT. You see a head followed by a tail, at which point you are, again, one toss away from success. Again, there two possibilities on the next toss:
 - It’s a tail, in which case you’re done.
-- It’s a head, in which case you **don't have to start all over again*, because you’re immediately one-third of the way toward a new HTT sequence. 
+- It’s a head, in which case you **don't have to start all over again**, because you’re already one-third of the way toward a new HTT sequence. 
 
 A failed HTT sequence overlaps with the next potentially valid sequence. This fact gives HTT a small built-in advantage over HTH.
+
+</details>
