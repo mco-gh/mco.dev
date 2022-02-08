@@ -10,9 +10,8 @@ Here's a video I made this morning explaining the so-called Normal or Gaussian d
 
 <!--more-->
 
-<br>
 
-Using Google Sheets and the Desmos grapic calculator, we can generate thousands or even millions of experiments in a few seconds, which makes it easy see how the Normal Distribution arises naturally when looking at the frequency of outcomes in a sequence of trials.
+Using Google Sheets and the Desmos graphic calculator, we can generate thousands or even millions of experiments in a few seconds, which makes it easy see how the Normal Distribution arises naturally when looking at the frequency of outcomes in a sequence of trials.
 
 <br>
 
