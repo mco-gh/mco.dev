@@ -6,7 +6,7 @@ date = "2022-02-20"
 coverImage = "/img/vertigo.webp"
 +++
 
-This creative video reshot several short vignettes from the classic Alfred Hitchcock film *Vertigo* and shows us the originally filmed locations side-by-side with the current (circa 2019) views.
+This creative video reshoots several short vignettes from the classic Alfred Hitchcock film *Vertigo* and shows us the originally filmed locations side-by-side with the current (circa 2019) views.
 
 <!--more-->
 
