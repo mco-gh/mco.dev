@@ -14,8 +14,6 @@ You also have an accurately calibrated balance scale, which you can use to compa
 
 **Here’s your challenge**: with only three weighings, discover which ball is different and whether it’s heavier or lighter than the other eight.
 
-Bonus challenge for the hard core puzzlers: same problem with twelve balls instead of nine. Again, in only three weighings, tell me how you can find the odd ball (so to speak) and whether it’s heavier or lighter than the other eleven.
-
 Happy puzzling!
 
 <br>
