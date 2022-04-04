@@ -1,5 +1,9 @@
 # mco.dev
 
+<a target="_blank" href="https://colab.research.google.com/github/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/official/model_monitoring/model_monitoring.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f1ea96ef-f6de-4667-a500-109e34bb0cc7/deploy-status)](https://app.netlify.com/sites/mco-dev/deploys)
 
 This is the source repo for my personal blog,
