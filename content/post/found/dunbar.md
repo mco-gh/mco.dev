@@ -16,7 +16,7 @@ From the <a target="_blank" href="https://en.wikipedia.org/wiki/Dunbar%27s_numbe
 
 Here's how Dunbar defined a friend: someone you would not feel embarrassed about joining uninvited for a drink if you happened to bump into them in a bar.
 
-The specific number has been challenged, but it seems reasonable to assume there exists a limit on the size of one's meaningful real-world social network. This consideration leads to some interesting applications. For example, the outerwear company Gore-Tex learned, by trial and error, that 150 employees is the optimal workgroup size and limited their building sizes accordingly.
+The specific number has been challenged, but it seems reasonable to assume there exists a limit on the size of one's meaningful, real-world social network. This consideration leads to some interesting applications. For example, the outerwear company Gore-Tex learned, by trial and error, that 150 employees is the optimal workgroup and limited their building sizes accordingly.
 
 In 2018, Dunbar further hypothesized that we invest about two-thirds of our social time on roughly 15 people. An interesting exercise is to see how that number fits with the size of your own personal inner circle.
 
