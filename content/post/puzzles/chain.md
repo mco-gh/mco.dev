@@ -17,11 +17,11 @@ See how many names you can find and let me know if you like it. A few answers ar
 
 <br>
 
-- Baseball player who broke Babe Ruth's 33-year career home run record
+- Slugger who broke Babe Ruth's 33-year career home run record
 - Actor who played Jesse in Breaking Bad
 - Dutch Youtube guitar instructor with nearly 3M followers
-- American professor known as one of the most important philosphers of the 20th century
-- Baseball Hall of Famer best known for his base stealing
+- Professor known as one of the most important philosphers of the 20th century
+- Hall of Famer best known for base stealing
 - Actor who portrayed Tom Robinson in *To Kill a Mockingbird*
 - REM's lead guitarist
 - Sci-Fi adventurer, hero to millions of children in the 1930s
@@ -33,11 +33,11 @@ See how many names you can find and let me know if you like it. A few answers ar
 - British comedian, actor, author, playwright, lyricist, and director
 - The Rocket Man
 - Former Member of the Supremes
-- Lincoln's famous adversary
+- Lincoln's infamous debate adversary
 - Computer scientist specializing in concurrent programming
 - Actress and singer who played Rachel on the TV series *Glee* 
 - One of the original Mamas
-- Author of the book that inspired the film Blade Runner
+- Author of the book that inspired the film *Blade Runner*
 - Popular comic strip detective published from 1931 to 1977
 - Former world number 1 tennis star who won three grand slams
 - Singer whose biggest hit was *Rocky* (not the movie)
