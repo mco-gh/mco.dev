@@ -2,7 +2,7 @@
 categories = ["Puzzles"]
 tags = []
 date = "2011-04-15"
-title = "Chain Gang"
+title = "Old Chain Gang"
 subtitle = "An original trivia quiz with a twist."
 coverImage = "/img/chaingang.jpg"
 +++
