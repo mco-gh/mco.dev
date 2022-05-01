@@ -11,9 +11,9 @@ This week’s puzzle is an original trivia quiz where the answers are linked tog
 
 <!--more-->
 
-The answer to each question is the name of a famous person, where the last name of each answer gives the first name of the next answer (give or take a letter or two). The resulting sequence of answers form a chain. It's a circular chain, i.e. the bottom of the list connects to the first entry in the same fashion.
+The answer to each question is the name of a (more or less) famous person, where the last name of each answer gives the first name of the next answer (give or take a letter or two). The resulting sequence of answers forms a cicular chain, where the bottom of the list connects to the first entry in the same fashion.
 
-See how many names you can find and let me know if you like it. Googling is allowed and encouraged!
+See how many names you can find and let me know if you like it. A few answers are pretty obscure so Googling is allowed and encouraged!
 
 <br>
 
