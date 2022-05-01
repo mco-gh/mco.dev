@@ -7,7 +7,7 @@ subtitle = "An original trivia quiz with a twist"
 coverImage = "/img/chaingang.jpg"
 +++
 
-This week’s puzzle is an original trivia quiz where the answers are linked together into a chain.
+This puzzle is an original trivia quiz where the answers are linked together into a chain.
 
 <!--more-->
 
