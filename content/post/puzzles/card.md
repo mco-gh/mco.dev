@@ -1,7 +1,7 @@
 +++
 categories = ["Puzzles"]
 tags = []
-date = "2021-05-07"
+date = "2022-05-07"
 title = "Card Detective"
 coverImage = "/img/card.jpg"
 +++
