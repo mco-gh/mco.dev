@@ -3,7 +3,7 @@ categories = ["Puzzles"]
 tags = []
 date = "2022-05-07"
 title = "Card Detective"
-coverImage = "/img/card.jpg"
+coverImage = "/img/cards.jpg"
 +++
 
 You and two of your friends (not facebook friends, real world friends, remember those?) are playing a game. The other players in the game are known to be perfectly logical people.
