@@ -22,8 +22,9 @@ Next, the dealer says: "If you know whether your own card is an Ace or not, lowe
 <details>
 <summary>Click here for a hint.</summary>
 The solution to this puzzle involves indirect thinking, in the sense that it requires you to reach a conclusion based on other people’s inability to reach a conclusion. 
-<br>
+
 </details>
+<br>
 
 <details>
 <summary>Click here for the solution.</summary>
@@ -31,5 +32,5 @@ Let’s call the three players A (that's you), B, and C. Player B’s hand is in
 
 > I can see that Player A doesn’t have an ace, so Player C must be looking at my ace. Player C can make a symmetric argument (if A doesn’t have an ace, then Player B must be looking at my ace).
 
-Thus, if you don’t hold an ace, with a moment of thought it will be obvious to hyper-logical players B and C that they hold aces and their hands will drop. The fact that they appear to be able to reach that conclusion, after some time, suggests that you must be holding an ace.
+Thus, if you don’t hold an ace, with a moment of thought it will be obvious to hyper-logical players B and C that they hold aces and their hands will drop. The fact that they appear to be unable to reach that conclusion, after some time, suggests that you must be holding an ace.
 </details>
