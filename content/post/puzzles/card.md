@@ -20,13 +20,11 @@ Next, the dealer says: "If you know whether your own card is an Ace or not, lowe
 
 <details>
 <summary>Click here for a hint.</summary>
-
 The solution to this puzzle involves indirect thinking, in the sense that it requires you to reach a conclusion based on other people’s inability to reach a conclusion. 
 </details>
-
+<br>
 <details>
 <summary>Click here for the solution.</summary>
-
 Let’s call the three players A (that's you), B, and C. Player B’s hand is in the air because he sees at least one ace – player C’s card. Now let’s imagine that you hold some card other an ace. Player B will reason as follows:
 
 Player C’s hand is in the air so she sees an ace but it can’t be A’s card because I (player B) can see that player A’s card is not an ace. Therefore, player C must be looking at my ace.
