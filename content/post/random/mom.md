@@ -3,6 +3,7 @@ categories = ["Random"]
 tags = ["personal"]
 title = "Another brick in the wall"
 date = "2022-05-14"
+draft = true
 coverImage = "/img/mom2.png"
 +++
 
