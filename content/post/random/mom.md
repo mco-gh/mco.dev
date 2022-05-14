@@ -16,6 +16,6 @@ Of course, we all knew there was something tragically wrong with her brain. And 
 
 When she died I felt only relief that her suffering had finally ended. But as time went by, the wall began to crumble. Until today, when I caught myself wishing I could call her. And just like that, I realized the wall was gone.
 
-I think there's a lesson here. When someone behaves in a way that sabotages their own self-interest and alienates everyone around then, whether due to mental illness, or disease, or addiction, or abuse, there's usually a valid reason. And yet, even knowing the source of their struggle, as I did with my Mom, it's hard to see through a wall.
+I think there's a lesson here. When someone behaves in a way that sabotages their own self-interest and alienates everyone around them, whether due to mental illness, or disease, or addiction, or abuse, there's usually a valid reason. And yet, even knowing the source of their struggle, as I did with my Mom, it's hard to see through a wall.
 
 I have no easy answers and I'm no one's role model but I'm going to try to spend less time in the construction business.
