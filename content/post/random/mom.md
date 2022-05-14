@@ -18,4 +18,4 @@ When she died I felt only relief that her suffering had finally ended. But as ti
 
 I think there's a lesson here. When someone behaves in a way that sabotages their own self-interest and alienates everyone around then, whether due to mental illness, or disease, or addiction, or abuse, there's usually a valid reason. And yet, even knowing the source of their struggle, as I did with my Mom, it's hard to see through a wall.
 
-I have no easy answers and I'm no one's role model. But I'm going to try to spend less time in the construction business.
+I have no easy answers and I'm no one's role model but I'm going to try to spend less time in the construction business.
