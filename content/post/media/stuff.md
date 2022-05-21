@@ -14,7 +14,7 @@ The name of the channel is <a href="https://www.youtube.com/c/StuffMadeHere" tar
 
 The channel is one crazy idea after another but, unlike most of us, he actually turns his ideas into reality. The real story here is less about the end product and more about the journey. It's inspiring to watch how he gets (metaphorically, but sometimes literally) knocked down, over and over, yet keeps getting up and trying a new approach.
 
-His engineering skills are incredible and his presentation style is earnest, genuine, and self-deprecating. He just a nice, smart guy who has enough tools in his basement and time on his hands to build pretty much anything.
+His engineering skills are incredible and his presentation style is earnest, genuine, and self-deprecating. He just a nice, smart guy who has enough engineering skills, serious tools, and time on his hands to build pretty much anything.
 
 There's a lesson here: even if a project seems pointless, **especially if it seems pointless**, give it a try. You'll have a lot of fun and, if you're not careful, you might learn something.
 
