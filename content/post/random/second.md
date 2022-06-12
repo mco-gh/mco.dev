@@ -16,7 +16,7 @@ The Moon's gravitational force is the single strongest influence on Earth's rota
 
 A leap year periodically makes up for the difference between a year on the calendar (365 days) and a trip around the sun (365 days plus 6 hours). Correspondingly, a leap second makes up for the difference between an atomic clock’s second and one second as defined by astronomical time keeping.
 
-From the <a target="_blank" href="https://en.wikipedia.org/wiki/Leap_second">Wikipedia article about Leap Seconds...</a>
+From the <a target="_blank" href="https://en.wikipedia.org/wiki/Leap_second">Wikipedia article about Leap Seconds:</a>
 > Because the Earth's rotation speed varies in response to climatic and geological events, UTC leap seconds are irregularly spaced and unpredictable. Insertion of each UTC leap second is usually decided about six months in advance by the International Earth Rotation and Reference Systems Service (IERS), to ensure that the difference between the UTC and UT1 readings will never exceed 0.9 seconds.
 
 >This practice has proven disruptive, particularly in the twenty-first century and especially in services that depend on precise timestamping or time-critical process control. The International Telecommunication Union is considering whether or not to continue the practice, with a report expected in 2023.
