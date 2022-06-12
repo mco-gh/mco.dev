@@ -12,7 +12,7 @@ This was done to make a minor adjustment for the slowing of Earth’s rotation. 
 <br>
 <img src="/img/why.gif">
 
-The Moon's gravitational force is the single strongest influence on Earth's rotation, slowing it by an average of 2 milliseconds per century. Since Earth’s rotation rate varies, so would the value of one second when defined as a fraction of the time it takes for one full rotation of on Earth's axis.
+The Moon's gravitational force is the single strongest influence on Earth's rotation, slowing it by an average of 2 milliseconds per century. Since Earth’s rotation rate varies, so would the value of one second, when defined as a fraction of the time it takes to complete one full rotation.
 
 A leap year periodically makes up for the difference between a year on the calendar (365 days) and a trip around the sun (365 days plus 6 hours). Correspondingly, a leap second makes up for the difference between an atomic clock’s second and one second as defined by astronomical time keeping.
 
