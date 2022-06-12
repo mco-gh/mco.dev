@@ -1,18 +1,24 @@
 +++
 categories = ["Random"]
 tags = ["calendar"]
-title = "In Case Today Seems a Little Longer Than Usual"
-date = "2008-12-31"
+title = "2016 Was a Little Longer Than Usual"
+date = "2022-06-12"
 coverImage = "/img/second.jpg"
 +++
-It is. By one second. At 11:59:59 pm Universal Time, one additional second will be added before the official arrival of 2009.
+By one second. On December 31, 2016, at 11:59:59pm UTC, one second was added to Universal Time Coordinated (UTC), which is the basis for the worldwide system of timekeeping.
 <!--more-->
-The reason? To make a minor adjustment for the slowing of the earth’s rotation, we need to add a “leap second” this year for the 24th time since 1972.
+This was done to make a minor adjustment for the slowing of Earth’s rotation. The end of 2016 was the most recent occasion, and the 26th time since 1972, when we added a "leap second".
 
-Here’s a better explanation:
-Why does the world need leap seconds? Chalk it up to the moon’s braking action on Earth’s rotation and to modern timekeeping that has become so precise it can make your head spin. 
-The moon is the single largest influence on Earth’s spin, slowing it by an average of 2 milliseconds per century. Since Earth’s rotation rate varies, so would the value of one second when it’s defined as a fraction of the time it takes for one spin of the Earth on its axis.
+<br>
+<img src="/img/why.gif">
 
-So where a leap year periodically makes up for the difference between a year on the calendar (365 days) and a year’s trip around the sun (365 days plus 6 hours), the leap second makes up the difference between an atomic clock’s second and one second as defined by astronomical time keeping.
+The Moon's gravitational force is the single strongest influence on Earth's rotation, slowing it by an average of 2 milliseconds per century. Since Earth’s rotation rate varies, so would the value of one second when defined as a fraction of the time it takes for one full rotation of on Earth's axis.
 
-You can read all about it here. So you now have a good excuse to sleep late tomorrow. Happy Leap Second!
+A leap year periodically makes up for the difference between a year on the calendar (365 days) and a trip around the sun (365 days plus 6 hours). Correspondingly, a leap second makes up for the difference between an atomic clock’s second and one second as defined by astronomical time keeping.
+
+From the <a target="_blank" href="https://en.wikipedia.org/wiki/Leap_second">Wikipedia article about Leap Seconds...</a>
+> Because the Earth's rotation speed varies in response to climatic and geological events, UTC leap seconds are irregularly spaced and unpredictable. Insertion of each UTC leap second is usually decided about six months in advance by the International Earth Rotation and Reference Systems Service (IERS), to ensure that the difference between the UTC and UT1 readings will never exceed 0.9 seconds.
+
+>This practice has proven disruptive, particularly in the twenty-first century and especially in services that depend on precise timestamping or time-critical process control. The International Telecommunication Union is considering whether or not to continue the practice, with a report expected in 2023.
+
+What did you do with your extra second? I slept (infinitessimally) late.
