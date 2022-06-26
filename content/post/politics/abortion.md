@@ -12,7 +12,7 @@ Beginning around 2040, the US will experience a sudden jump in the crime rate, e
 
 How on Earth did I reach this conclusion? In their 2005 bestseller, *Freakonomics*, Steven Dubner and Stephen Levitt famously analysed the inner workings of a crack gang, the truth about real-estate agents, the telltale grades of a cheating schoolteacher, and other fascinating and quirky socialogical topics.
 
-One of the most memorable chapters has to do with why the US experienced a dramatic reduction in all forms of crime in the mid-90s. Multiple possible causes are considered, but evidence shows the strong impact of an event that occurred 20 years earlier: the Roe v. Wade Supreme Court decision of 1972 legalizing abortion as a constitutional right.
+One of the most memorable chapters has to do with why the US experienced a dramatic reduction in all forms of crime in the mid-90s. Multiple possible causes are considered, but evidence shows the strong impact of an event that occurred 20 years earlier: the Roe v. Wade Supreme Court decision of 1973 legalizing abortion as a constitutional right.
 
 This theory holds that children born of unwanted pregnancies are at the highest risk of committing crimes. When abortion became legal and widely available in the US, fewer unwanted pregnancies were carried to term, and the results of that effect were felt roughly 20 years later, when those aborted fetuses would have reached adulthood. They simply weren't there to commit the crimes.
 
