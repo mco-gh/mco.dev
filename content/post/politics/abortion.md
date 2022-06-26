@@ -22,7 +22,15 @@ This video summarizes this theory:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zk6gOeggViw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is more than idle speculation - its based on rigorous analysis showing a statistically significant causative effect. Although the conclusion has been challenged over the years, the
+You may or may not agree with the theoretical premise, however, statistical analysys supports this conclusion:
+
+<br>
+
+* Five US states legalized abortion three years before the Roe decision. Those five states experienced similar crime reductions three years earlier than the rest of the nation.
+* After Roe, states that made abortion more readily accessible experienced greater crime reduction than those that didn't.
+* This effect was concentrated among people under the age of 25 (those who would have been alive when abortion was legal). No similar crime reduction was detected in people older than the Roe decision.
+
+Although the conclusion has been challenged over the years, the
 <a target="_blank" href="https://en.wikipedia.org/wiki/Legalized_abortion_and_crime_effect#2020_updated_study_by_Donohue_and_Levitt">results have held up</a>.
 
-So, if you believe the Freakonomics abortion premise, one of the unintended consequences of yesterday's Supreme Court ruling overturning Roe v. Wade, will be the opposite of the happy result we experienced in the mid-90s - we should expect to see a substantial rise in the US crime rate roughly 20 years from now.
+So, if you believe the Freakonomics abortion premise, one of the unintended consequences of yesterday's Supreme Court ruling overturning Roe v. Wade, will be the opposite of the happy result we experienced in the mid-90s - **we should expect to see a substantial rise in the US crime rate roughly 20 years from now**.
