@@ -22,7 +22,7 @@ This video summarizes this theory:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zk6gOeggViw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You may or may not agree with the theoretical premise, however, statistical analysys supports this conclusion:
+You may or may not agree with the theoretical premise, however, statistical analysis supports this conclusion:
 
 <br>
 
