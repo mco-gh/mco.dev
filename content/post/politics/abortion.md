@@ -1,7 +1,7 @@
 +++
 categories = ["Politics"]
 tags= ["Abortion"]
-title= "I Predict a Major Crime Boom in 2040"
+title= "I Predict a Crime Boom in 2040"
 date = "2022-06-26"
 coverImage = "/img/abortion.png"
 +++
