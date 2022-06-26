@@ -33,4 +33,4 @@ You may or may not agree with the theoretical premise, however, statistical anal
 Although the conclusion has been challenged over the years, the
 <a target="_blank" href="https://en.wikipedia.org/wiki/Legalized_abortion_and_crime_effect#2020_updated_study_by_Donohue_and_Levitt">results have held up</a>.
 
-So, if you believe the Freakonomics abortion premise, one of the unintended consequences of yesterday's Supreme Court ruling overturning Roe v. Wade, will be the opposite of the happy result we experienced in the mid-90s - **we should expect to see a substantial rise in the US crime rate roughly 20 years from now**.
+So, if you believe the Freakonomics abortion premise, one of the unintended consequences of yesterday's Supreme Court ruling overturning Roe v. Wade will be the opposite of the happy result we experienced in the mid-90s - **we should expect to see a substantial rise in the US crime rate roughly 20 years from now**.
