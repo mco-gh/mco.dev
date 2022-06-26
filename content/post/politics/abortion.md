@@ -3,7 +3,7 @@ categories = ["Politics"]
 tags= ["Abortion"]
 title= "I Predict a Major Crime Boom in 2040"
 date = "2022-06-26"
-coverImage = "/img/abortion.jpg"
+coverImage = "/img/abortion.png"
 +++
 
 Beginning around 2040, the US will experience a sudden jump in the crime rate, especially so in the red states.
