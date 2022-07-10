@@ -10,6 +10,6 @@ From <a href="https://longreads.com" target="_blank">longreads.com</a>, I found 
 
 <!--more-->
 
-All forms of addiction share a common element - the tension between the part of ourselves that knows what's best for us, and the part that needs to be fed.
+All forms of addiction are about a struggle for control - the tension between the part of ourselves that knows what's best, and the part that needs to be fed. We humans are blessed with a big brain than can do lots of impressive tricks, while also being tethered to an engine of survival, which holds all the cards.
 
 <a href="https://longreads.com/2022/05/03/down-and-out-in-habersham/" target="_blank">Read the story here</a>.
