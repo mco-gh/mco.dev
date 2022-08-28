@@ -22,4 +22,4 @@ To make this more explicit:
 | she/her/hers    | they/them/their |
 | they/them/their | they/them/their |
 
-I'm dropping gender specific pronouns from my vocabulary - everyone, and every group, gets they/them/their. This is efficient (one set of pronouns instead of three), inclusive (assumes nothing about gender), and doesn't tax my toddler sized memory. It has the added advantage of versatility: the same pronoun works for both singular and plural cases.
+I'm dropping gender specific pronouns from my vocabulary - everyone, and every group, gets they/them/their. This is efficient (one set of pronouns instead of three), inclusive (assumes nothing about gender), and doesn't tax my toddler sized memory. It has the added advantage of versatility: the same pronouns work for both singular and plural cases.
