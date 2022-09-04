@@ -12,7 +12,7 @@ The answer to each clue is the name of a well known person, where the last name 
 
 See how many names you can find and let me know if you like it. Try to solve as many as you can, and Googling is allowed if you get stuck.
 
-If you like this puzzle, check out <a href="https://mco.dev/chain-gang/">Chain Gang 1</a>
+If you like this puzzle, check out <a href="https://mco.dev/chain-gang-1/">Chain Gang 1</a>
 
 <br>
 
