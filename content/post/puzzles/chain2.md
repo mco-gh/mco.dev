@@ -3,6 +3,7 @@ categories = ["Puzzles"]
 tags = []
 date = "2022-09-04"
 title = "Chain Gang 2"
+subtitle = "An original trivia quiz with a twist"
 coverImage = "/img/chaingang.jpg"
 +++
 
