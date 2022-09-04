@@ -2,7 +2,7 @@
 categories = ["Puzzles"]
 tags = []
 date = "2022-05-01"
-title = "Chain Gang"
+title = "Chain Gang 1"
 subtitle = "An original trivia quiz with a twist"
 coverImage = "/img/chaingang.jpg"
 +++
@@ -11,7 +11,7 @@ This puzzle is an original trivia quiz where the answers are linked together int
 
 <!--more-->
 
-The answer to each question is the name of a (more or less) famous person, where the last name of each answer gives the first name of the next answer (give or take a letter or two). The resulting sequence of answers forms a cicular chain, where the bottom of the list connects to the first entry in the same fashion.
+The answer to each question is the name of a (more or less) famous person, where the last name of each answer gives the first name of the next answer (give or take a letter or two). The resulting sequence of answers forms a circular chain, where the bottom of the list connects to the first entry in the same fashion.
 
 See how many names you can find and let me know if you like it. A few answers are pretty obscure so Googling is allowed and encouraged!
 
