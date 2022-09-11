@@ -100,6 +100,6 @@ Because 225 ends in 25, multiples of 225 will end in one of four possible digit 
 
 We can also see that 225 is divisible by 9 (you can check any number for divisibility by 9 by seeing if the digits sum to 9). Therefore, any multiple of 225 must also be divisible by 9. So we know the digits in the result must end in 00, contain only 1s and 0s, and sum to 9.
 
-With those constraints, the smallest possible number meeting our requirements will contain nine consecutive 1s and will end with two 0s: 11111111100.
+With those constraints, the smallest possible number meeting our requirements will contain nine consecutive 1s and will end with two 0s: **11111111100**.
 
 </details>
