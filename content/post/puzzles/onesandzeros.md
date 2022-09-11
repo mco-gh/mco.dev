@@ -29,7 +29,7 @@ import time
 
 start = 225  # starting number
 cnt = 0
-binary_digits = ('0', '1')
+binary_digits = ("0", "1")
 
 start_time = time.time()  # capture start time
 
@@ -59,7 +59,7 @@ This strategy observes that the desired result looks like a binary number (albei
 import time
 
 def convert(num, b1, b2):
-    '''convert the passed num from base b1 to base b2'''
+    """convert the passed num from base b1 to base b2"""
     result = 0
     digits = []
     while num:
@@ -71,7 +71,7 @@ def convert(num, b1, b2):
     return result
 
 start = 225
-num = 1000 # start with smallest possible answer > 225
+num = 1000  # start with smallest possible answer > 225
 cnt = 1
 
 # capture start time
@@ -86,7 +86,7 @@ while True:
     num = convert(num, 2, 10)
     cnt += 1
     
-elapsed = time.time() - start_time # calculate elapsed time
+elapsed = time.time() - start_time  # calculate elapsed time
 print(f"After {cnt} iterations and {round(elapsed, 3)} seconds, found {num}.")
 ```
 
