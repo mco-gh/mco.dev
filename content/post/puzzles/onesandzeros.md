@@ -40,16 +40,16 @@ while True:
     for i, j in enumerate(str(num)):
         if j not in binary_digits:
             break
-    if i == len(str(num)):
+    if i == len(str(num)) - 1:
         break 
 
 elapsed = time.time() - start_time  # calculate elapsed time
-print('after', cnt, 'iterations and', elapsed, 'seconds:', num)
+print(f"After {cnt} iterations and {round(elapsed)} seconds, found {num}.")
 ```
 
 Which prints the following result:
 <pre>
-after 49382716 iterations and 60.558542013168335 seconds: 11111111100
+after 49382716 iterations and 116 seconds, found 11111111100.
 </pre>
 
 ### The Fast Search Method
@@ -87,12 +87,12 @@ while True:
     cnt += 1
     
 elapsed = time.time() - start_time # calculate elapsed time
-print('after', cnt, 'iterations and', elapsed, 'seconds:', num)
+print(f"After {cnt} iterations and {round(elapsed, 3)} seconds, found {num}.")
 ```
 
 which prints the following result:
 <pre>
-after 2037 iterations and 0.01568603515625 seconds: 11111111100
+After 2037 iterations and 0.016 seconds, found 11111111100.
 </pre>
 
 ### The Analytical Method
