@@ -22,7 +22,7 @@ If you struggle to find the answer analytically, and you know how to code, see i
 I know of three ways to solve this problem:
 
 ### The Slow Search Method
-This approach starts with 225 and multiplies it by an ever-increasing sequence of integers looking for a number that contains only ones and zeros. Here’s the Python code to implement this method:
+This approach starts with 225 and multiplies it by an ever-increasing sequence of multiples looking for a number that contains only ones and zeros. Here’s the Python code to implement this method:
 
 ```python
 import time
