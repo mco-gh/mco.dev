@@ -49,7 +49,7 @@ print(f"After {cnt} iterations and {round(elapsed)} seconds, found {num}.")
 
 Which prints the following result:
 <pre>
-after 49382716 iterations and 116 seconds, found 11111111100.
+After 49382716 iterations and 116 seconds, found 11111111100.
 </pre>
 
 ### The Fast Search Method
