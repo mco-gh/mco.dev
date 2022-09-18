@@ -12,4 +12,4 @@ One of the most compelling reads of my week was this odd tale from the New York 
 
 https://www.nytimes.com/2022/09/14/nyregion/nyc-911-calls-riverside-drive.html
 
-How should we, as a society, help someone with a mental illness like this?
+Mental illness can affect anyone and can take many forms. There are no easy solutions. Balancing protecting the safety and wellbeing of others with compassion for the afflicted is one of society's greatest challenges.
