@@ -14,4 +14,4 @@ An otherwise charming, kind, and sympathetic soul simply cannot stop himself fro
 
 https://www.nytimes.com/2022/09/14/nyregion/nyc-911-calls-riverside-drive.html
 
-Mental illness can affect anyone and can take many forms. There are no easy solutions. Balancing protecting the safety and wellbeing of others with compassion for the afflicted is one of society's greatest challenges.
+Mental illness can affect anyone and can take many forms. There are no easy solutions. Balancing protecting the safety and wellbeing of others with compassion for the afflicted is one of society's great challenges.
