@@ -2,7 +2,7 @@
 categories = ["Random"]
 tags = ["overcoming adversity"]
 title = "Breaking 108 Bones"
-date = "2022-09-18"
+date = "2022-10-09"
 coverImage = "/img/pain.jpg"
 +++
 
