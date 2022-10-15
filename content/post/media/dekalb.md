@@ -6,7 +6,7 @@ date = "2022-10-15"
 coverImage = "/img/dekalb.png"
 +++
 
-This short video is not something you watch so much as something you experience. It's a journey into a world none of us wants to visit, but one that's become part of our collective reality.
+This short video is not something you watch as much as something you experience. It's a journey into a world none of us wants to visit, but one that's become part of our collective reality.
 
 <!--more-->
 
