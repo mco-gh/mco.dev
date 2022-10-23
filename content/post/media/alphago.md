@@ -3,7 +3,7 @@ categories = ["Media"]
 tags = ["Videos"]
 title = "The Human Side of AI"
 date = "2022-10-23"
-coverImage = "/img/alphago.jpg"
+coverImage = "/img/alphago.png"
 +++
 
 This is the best thing I watched this week. It looks like a film about technology, but it's actually a story about people, our egos and frailty, and how we collectively navigate this brave new world. 
