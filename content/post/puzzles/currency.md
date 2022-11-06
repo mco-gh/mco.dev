@@ -3,7 +3,7 @@ categories = ["Puzzles"]
 tags = ["algebra"]
 date = "2022-11-12"
 title = "Don't get ripped off on Zog"
-coverImage = "/img/zog.jpg"
+coverImage = "/img/currency.jpg"
 +++
 
 Congratulations, you've been selected to the planet Zog but before you go, you'd better learn something about their currency. Today's puzzle is courtesy of [The Ultimate Mathematical Challenge by The UK Mathematics Trust]().
