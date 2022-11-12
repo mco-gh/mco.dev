@@ -6,7 +6,7 @@ title = "Don't get ripped off on Zog"
 coverImage = "/img/currency.jpg"
 +++
 
-Congratulations, NASA has selected you to visit the planet Zog but before you go, you'd better learn something about their currency. Today's puzzle is courtesy of [The Ultimate Mathematical Challenge by The UK Mathematics Trust](https://www.amazon.com/Ultimate-Mathematical-Challenge-puzzles-excite-ebook/dp/B07D7V2NP8).
+Congratulations, NASA has selected you to visit the planet Zog but before you go, you'd better learn something about their currency. Today's puzzle is courtesy of [The Ultimate Mathematical Challenge](https://www.amazon.com/Ultimate-Mathematical-Challenge-puzzles-excite-ebook/dp/B07D7V2NP8).
 
 <!--more-->
 
