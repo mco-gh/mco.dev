@@ -6,13 +6,8 @@ title = "Don't get ripped off on Zog"
 coverImage = "/img/currency.jpg"
 +++
 
-Congratulations, you've been selected to the planet Zog but before you go, you'd better learn something about their currency. Today's puzzle is courtesy of [The Ultimate Mathematical Challenge by The UK Mathematics Trust]().
+Congratulations, NASA has selected you to visit the planet Zog but before you go, you'd better learn something about their currency. Today's puzzle is courtesy of [The Ultimate Mathematical Challenge by The UK Mathematics Trust](https://www.amazon.com/Ultimate-Mathematical-Challenge-puzzles-excite-ebook/dp/B07D7V2NP8).
 
 <!--more-->
 
-The currency used on the planet Zog consists of bank notes of a fixed size differing only in colour. Three green notes and eight blue notes are worth 46 zogs; eight green notes and three blue notes are worth 31 zogs. How many zogs are two green notes and three blue notes worth?
-
-<details>
-  <summary>Click here to reveal the solution.</summary>
-
-</details>
+The currency used on the planet Zog consists of bank notes in three denominations, differing only in colour. Three green notes and eight blue notes are worth 46 zogs; eight green notes and three blue notes are worth 31 zogs. How many zogs are two green notes and three blue notes worth?
