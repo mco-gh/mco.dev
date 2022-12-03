@@ -16,5 +16,5 @@ Because deep learning neural networks are computational black boxes, no one (yet
 
 This is the kind of problem the growing field of <a target="_blank" href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence">explainable AI</a> is meant to address. I find it ironic that we're building subfields of computer science, to understand the mysterious inner workins of software we we didn't write.
 
-By the way, did you know this?
+By the way, did you know this:
 > The retina is the only tissue in the body where neural and vascular tissue can be visualized simultaneously in a non-invasive manner.
