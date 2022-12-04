@@ -6,7 +6,7 @@ date = "2022-12-03"
 coverImage = "/img/eye.jpg"
 +++
 
-Another case where AI does things we can't explain: apparently male and female retinas are different enough that a computer can predict your gender just by looking at your eyes.
+Another case where AI does things we can't explain: apparently male and female retinas are different enough that a computer can guess your gender just by looking at your eyes.
 
 <!--more-->
 
