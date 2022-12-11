@@ -16,4 +16,4 @@ Two key takeaways from this story:
 - When traveling, always keep a backup digital device with you, in case your primary device "disappears".
 - Don't use your phone in crowded public places, like big city street corners.
 
-<a href="https://hachyderm.io/@em0/109494729273725207" target="_blank">Read the thread here</a>
+<a href="https://hachyderm.io/@em0/109494729273725207" target="_blank">Read the thread here</a>.
