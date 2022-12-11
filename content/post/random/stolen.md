@@ -10,8 +10,9 @@ Check out this fasinating thread on Mastadon, which is the distributed messaging
 
 <!--more-->
 
-Two key takeaways from this story:
+Three takeaways from this story:
 
+<br>
 - *Before your phone gets stolen*, come up with a plan for how to minimize the damage, as soon as possible, if/when it happens.
 - When traveling, always keep a backup digital device with you, in case your primary device "disappears".
 - Don't use your phone in crowded public places, like big city street corners.
