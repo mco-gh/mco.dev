@@ -6,7 +6,7 @@ date = "2022-12-11"
 coverImage = "/img/stolen.jpg"
 +++
 
-Check out this fasinating thread on Mastadon, which is the distributed messaging app many people have migrated to since Twitter started exploding.
+Check out this fasinating thread on Mastadon, which is the distributed messaging app many people have migrated to since Twitter started imploding.
 
 <!--more-->
 
