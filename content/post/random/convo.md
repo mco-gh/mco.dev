@@ -6,7 +6,7 @@ date = "2023-03-05"
 coverImage = "/img/convo.jpg"
 +++
 
-Great conversation flows beautifully, effortlessly, and collaboratively. I enjoyed this short piece about applying the rules of improv comedy to improve your conversations.
+Great conversations flow effortlessly and collaboratively. I enjoyed this short piece about applying the rules of improv comedy to improve your conversations.
 
 <!--more-->
 
