@@ -10,6 +10,8 @@ Like an old infomercial claim ("It slices! It dices!"), this article’s title s
 
 If you're a video kind of person, here's the video of a talk I gave on this subject:
 
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dRkzfJcY3j0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Let's start with the basics. A web browser is a program running on your computer (or smart phone, or iPad or...) through which you access the World Wide Web. The browser’s job is to make it possible for you to visit pages on the web. But what’s really happening when you use your browser to access the web?
