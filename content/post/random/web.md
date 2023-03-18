@@ -5,7 +5,7 @@ title = "How the Web Works - In One Easy Lesson"
 date = "2011-03-13"
 coverImage = "/img/web.jpg"
 +++
-Like an infomercial claim (“It slices! It dices!”), this article’s title sounds too good to be true, but it is true – in one article, I’m going to explain how the web works and you will walk away a better informed human being. All you have to do is give me a few minutes of your time.
+Like an old infomercial claim ("It slices! It dices!"), this article’s title sounds too good to be true, but it is true – in one article, I’m going to explain how the web works and you will walk away a better informed human being. All you have to do is give me a few minutes of your time.
 <!--more-->
 
 Let's start with the basics. A web browser is a program running on your computer (or smart phone, or iPad or...) through which you access the World Wide Web. The browser’s job is to make it possible for you to visit pages on the web. But what’s really happening when you use your browser to access the web?
