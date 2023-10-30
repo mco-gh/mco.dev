@@ -3,7 +3,7 @@ categories = ["Politics"]
 tags= ["Israel", "Palestine", "Gaza"]
 title= "Not In My Name"
 date = "2023-10-30"
-coverImage = "/img/gaza.png"
+coverImage = "/img/gaza.webp"
 +++
 
 I've hesitated to write about this tragedy, because I know this article is going to offend some people. But I've decided that staying silent about injustice makes me part of the problem. 
