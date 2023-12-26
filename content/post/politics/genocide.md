@@ -14,4 +14,6 @@ At this point, it's no longer about religion, or land, or self-defense. What's g
 
 That's what you call it when one of world's strongest militaries cuts off a population of two million people from food, water, fuel, and electricity; uses monstrous 2,000 lb bombs (courtesy of the US) to relentlessly massacre innocent civilians, most of whom are women and children; systematically destroys hospitals, schools, and refugee camps; and displaces 80% of a population, reducing their homes and neighborhoods to rubble so they have nothing to return to.
 
-Of all the countries on earth, Israel should know better because it was founded on the principle that Jews should be free from genocide. As it continues brazenly violating international law while the whole world watches, I'm reminded of Bob Dylan's words about another senseless war: "How many times can a man turn his head and pretend that he just doesn't see? ...And how many deaths will it take 'til he knows that too many people have died?"
+Of all the countries on earth, Israel should know better because it was founded on the principle that Jews should be free from genocide. As it continues brazenly violating international law while the whole world watches, I'm reminded of Bob Dylan's words about another senseless war:
+
+> "How many times can a man turn his head and pretend that he just doesn't see? ...And how many deaths will it take 'til he knows that too many people have died?"
