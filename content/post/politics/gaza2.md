@@ -1,7 +1,7 @@
 +++
 categories = ["Politics"]
 tags= ["Israel", "Palestine", "Gaza"]
-title= "There's a word for what's going on in Gaza"
+title= "There's a word for what's happening in Gaza"
 date = "2023-12-26"
 coverImage = "/img/gaza2.jpg"
 +++
