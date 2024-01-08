@@ -10,7 +10,7 @@ Depending on your news sources, you may not be fully aware of the industrial lev
 
 <!--more-->
 
-In the last 90 days:
+In the last 90 days:  
 
 - 22,835 killed
 - 250 killed per day
