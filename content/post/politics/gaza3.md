@@ -19,15 +19,15 @@ In the last 90 days:
 - 58,416 injured
 - 85% of the population of Gaza is displaced (1.9 million people) 
 - 65,000 residential units destroyed or rendered uninhabitable
-- 2/3 of all structures in the north of Gaza have been destroyed
+- 2/3 of all structures in the north of Gaza destroyed
 - 500,000 people have no home to return to
 - 23 of 36 hospitals had been rendered completely inoperable
-- 104 schools (70%) have either been destroyed or sustained major damage
+- 104 schools (70%) destroyed or sustained major damage
 - 7% of the pre-war water supply
 - 1 shower for every 4,500 people
 - 1 toilet for every 220 people
-- 142 UNRWA workers have been killed
-- 128 UN buildings have been damaged
+- 142 UNRWA workers killed
+- 128 UN buildings damaged
 - 1 in 4 households are already at risk of starvation
 
 Finally, there are about 700,000 people in the world currently facing catastrophic hunger, he added; 577,000 of them are in Gaza.
