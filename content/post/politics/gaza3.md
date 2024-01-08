@@ -29,8 +29,8 @@ In the last 90 days:
 - 1 toilet for every 220 people
 - 142 UNRWA workers killed
 - 128 UN buildings damaged
-- 1 in 4 households are already at risk of starvation
+- 1 in 4 households at risk of starvation
 
-Finally, there are about 700,000 people in the world currently facing catastrophic hunger, he added; 577,000 of them are in Gaza.
+Finally, there are about 700,000 people in the world currently facing catastrophic hunger; 577,000 of them are in Gaza.
 
 Source: https://www.theguardian.com/world/2024/jan/08/the-numbers-that-reveal-the-extent-of-the-destruction-in-gaza
