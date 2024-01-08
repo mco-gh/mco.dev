@@ -24,6 +24,7 @@ In the last 90 days:
 - 500,000 people have no home to return to
 - 23 of 36 hospitals had been rendered completely inoperable
 - 104 schools (70%) destroyed or sustained major damage
+- 79 journalists killed
 - 7% of the pre-war water supply
 - 1 shower for every 4,500 people
 - 1 toilet for every 220 people
