@@ -6,7 +6,7 @@ date = "2024-01-08"
 coverImage = "/img/gaza3.jpg"
 +++
 
-Depending on your news sources, you may not be fully aware of the industrial level of death and destruction Israel has wrought on Gaza. Here is a short list of horrifying statistics, courtesy of The Guardian.
+Depending on your news sources, you may not be fully aware of the industrial level of death and destruction Israel has wrought on Gaza. Here is a summary list of the horrifying statistics, courtesy of The Guardian.
 
 <!--more-->
 
