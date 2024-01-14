@@ -14,7 +14,7 @@ I grew up in a moderately observant Jewish family in New Jersey. When I was a yo
 
 I'll give you a couple of examples:
 
-- We were taught that "Jews are god's chosen people". What does that mean, I asked? Are we somehow better, in gods eyes, than everyone else? What does it mean to be **unchosen people**? This line of persistent questioning earned me a tree trip to the Rabbi's office.
+- We were taught that "Jews are god's chosen people". What does that mean, I asked? Are we somehow better, in gods eyes, than everyone else? What does it mean to be **unchosen people**? This line of persistent questioning earned me a free trip to the Rabbi's office.
 
 - They also taught us that **"Arabs are our enemies"**. I kid you not, one of my teachers said that in so many words. This prompted me to ask things like "they can't all be our enemies, right?" and "isn't it wrong to assume every Arab is our enemy?". Bear in mind this was during the US Civil Rights era when even young kids my age were attuned to the concept of prejudice. You can guess where those questions got me. Hello again, Rabbi Marcus!
 
