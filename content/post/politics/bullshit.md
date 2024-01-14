@@ -23,4 +23,4 @@ Fast forward to the days after October 7. Joe Biden called the Hamas attack "pur
 It's a lie. Palestinians are not evil. They want what everyone wants: the right to live in freedom, without being surveilled, and harrassed, and oppressed, and humiliated. Dehumanizing Palestinians is the easy way to explain what happened on October 7. The more difficult and less convenient truth is that the hatred you saw that day was a product of decades of oppression and domination by what Amnesty International officially classified as an <a target="_blank" href="https://www.amnesty.org/en/latest/campaigns/2022/02/israels-system-of-apartheid">Apartheid regime</a>.
 
 
-In those dehumanizing words uttered in the aftermath of October 7, I hear echos of Mrs. Weiss telling our class "the Arabs are our enemies". And once again, just like when I was 10 years old, I call Bullshit. 
+In those dehumanizing words uttered in the aftermath of October 7, I hear echos of Mrs. Weiss telling our class "the Arabs are our enemies". And once again, just like when I was 10 years old, I call bullshit. 
