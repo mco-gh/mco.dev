@@ -10,7 +10,7 @@ I grew up in a Jewish household. Both my parents were Jewish. Both of their pare
 
 <!--more-->
 
-I grew up in a moderately observant Jewish family in New Jersey. When I was a young boy my mother found religion and decided to send me and my brothers to thrice weekly Hebrew School at an Orthodox synagogue. It worked out fine for my siblings, not so much for me. I've always been a questioner and from an early age I was blessed with a finely tuned BS detector. And most of the stuff they were selling at this temple fell into that category.
+I grew up in a moderately observant Jewish family in New Jersey. When I was a young boy my mother found religion and decided to send me and my brothers to thrice weekly Hebrew School at an Orthodox synagogue. It worked out fine for my siblings, not so much for me. I've always been a questioner and from an early age I was blessed with a finely tuned BS detector. And some of the things they were telling me fell into that category.
 
 I'll give you a couple of examples:
 
