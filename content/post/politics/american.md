@@ -24,7 +24,7 @@ And the nearly one million Iraqis we killed?
 I must have been absent when that was instilled.   
 
 America's leaders stands idly by,   
-While each day more Palestinians die.
+While each day more Palestinians die.  
 The whole world can see it, and yet we deny  
 If you can’t hear it, does a child really cry?  
 
