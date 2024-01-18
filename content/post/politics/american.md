@@ -35,7 +35,7 @@ Imagine it was your culture, reduced to white ash.
 
 To the leaders of the free world, as some like to say  
 To this bastion of democracy, answer me pray,  
-How many kids did you kill today?  
+How many kids did your bombs kill today?  
 And are you still proud of the American way?  
 
 \- by Marc Cohen
