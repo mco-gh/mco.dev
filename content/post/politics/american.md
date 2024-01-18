@@ -37,3 +37,5 @@ To the leader of the free world, as some like to say
 To this bastion of democracy, answer me pray,  
 How many kids did you kill today?  
 And are you still proud of the American way?  
+
+\- by Marc Cohen
