@@ -6,14 +6,12 @@ date = "2024-01-18"
 coverImage = "/img/american.jpg"
 +++
 
-# The American Way  
-
-<!--more-->
-
 O say, does that star-spangled banner yet wave  
 O’er the land of the free and the home of the brave?  
 From every mountainside, let freedom ring.  
 Those are the words they taught me to sing.  
+
+<!--more-->
 
 But what of the slaves who were once bought and sold?  
 And workers exploited in pursuit of our gold.  
