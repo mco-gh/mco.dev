@@ -2,7 +2,7 @@
 categories = ["Politics"]
 tags= ["America", "Israel", "Palestine", "Gaza"]
 title= "Know Their Names"
-date = "2024-02-04"
+date = "2024-02-05"
 coverImage = "/img/names.png"
 +++
 
