@@ -28,7 +28,7 @@ Their DNA with me
 And their version of the truth  
 Is now gone.  
 
-But I'm not alone.
+But I'm not alone.  
 I once had five  
 Who helped me survive  
 Now there are three  
