@@ -21,7 +21,7 @@ Here's a list of things that some people consider antisemitic (but are not):
 1. Advocating for a Free Palestine
 1. Chanting "From the river to the sea, Palestine will be free"
 1. Calling for an end to the Occupation
-1. Supporting the <a href="https://en.wikipedia.org/wiki/Boycott,_Divestment_and_Sanctions" target="_blank">Boycott, Divestment, and Sanctions (BDS) movement</a>
+1. Supporting the <a href="https://en.wikipedia.org/wiki/Boycott,_Divestment_and_Sanctions" target="_blank">Boycott, Divestment, and Sanctions (BDS)</a> movement
 
 None of those items are about the Jewish people or religion or culture. They are all positions on Israeli policies and actions, as well as calls for the liberation of, and equal rights for, the Palestinian people. None are antisemitic.
 
