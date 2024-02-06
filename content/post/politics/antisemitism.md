@@ -25,4 +25,4 @@ Here's a list of things that some people consider antisemitic (but are not):
 
 None of those items are about the Jewish people or religion or culture. They are all positions on Israeli policies and actions, as well as calls for the liberation of, and equal rights for, the Palestinian people. None are antisemitic.
 
-On whose authority, you may ask, do I make such a bold claim? As a Jewish person, I get to define what antisemitism means to me.
+On whose authority, you may ask, do I make such a bold claim? As a Jewish person, I get to define what antisemitism means to me. It's that simple.
