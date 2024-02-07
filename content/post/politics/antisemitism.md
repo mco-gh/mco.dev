@@ -17,7 +17,7 @@ Here's a list of things that some people consider antisemitic, but actually are 
 1. Opposing Zionism
 1. Calling the Gaza War a genocide 
 1. Supporting Palestinians' right of return
-1. Consider Israel an apartheid regime
+1. Considering Israel an apartheid regime
 1. Advocating for a Free Palestine
 1. Saying "From the river to the sea, Palestine will be free"
 1. Calling for an end to the Occupation
