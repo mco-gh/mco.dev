@@ -6,20 +6,20 @@ date = "2024-02-06"
 coverImage = "/img/antisemitism.jpg"
 +++
 
-Here's a list of things that some people consider antisemitic (but are not):
+Here's a list of things that some people consider antisemitic, but actually are not (according to me):
 <br>
 <br>
 
 <!--more-->  
 
 1. Criticizing Israel
+1. Calling for a ceasefire in Gaza
 1. Opposing Zionism
 1. Calling the Gaza War a genocide 
-1. Labeling Israel an apartheid state
-1. Calling for a ceasefire in Gaza
 1. Supporting Palestinians' right of return
+1. Calling Israel an apartheid state
 1. Advocating for a Free Palestine
-1. Chanting "From the river to the sea, Palestine will be free"
+1. Saying "From the river to the sea, Palestine will be free"
 1. Calling for an end to the Occupation
 1. Supporting the <a href="https://en.wikipedia.org/wiki/Boycott,_Divestment_and_Sanctions" target="_blank">Boycott, Divestment, and Sanctions (BDS)</a> movement
 
