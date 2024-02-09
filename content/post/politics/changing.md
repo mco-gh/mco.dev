@@ -12,7 +12,7 @@ I was a young child during the US War in Vietnam. I wasn't old enough to fully u
 
 A generation woke up. Young Americans, who grew up in a different world than their elders, didn't accept the story they were told about a senseless war and killing innocent people in their name. They made their voices heard, through activism, protest, and art. They stood up for what they believed in.
 
-If you listen closely, you can hear an echo from the sixties. Take a look at the image above from 1967 and see if it reminds you of the anti-war protests we're seeing today all around the world.
+If you listen closely, you can hear an echo from the sixties. Take a look at the image above from 1967 and see if it reminds you of the anti-war protests we're seeing today all around the world today.
 
 Nearly a year before the October 7th attack, a Gallup study (<a target="_blank" href="https://news.gallup.com/opinion/gallup/472796/young-adults-views-middle-east-changing.aspx">Young Adults' Views on Middle East Changing Most</a>) reported:
 
