@@ -14,7 +14,7 @@ A generation woke up. Young Americans, who grew up in a different world than the
 
 If you listen closely, you can hear an echo from the sixties. Take a look at the image above from 1967 and see if it reminds you of the anti-war protests we're seeing today all around the world.
 
-Nearly a year before the October 7th attack, a Gallup study (<a target="_blank" href="">Young Adults' Views on Middle East Changing Most</a>) reported:
+Nearly a year before the October 7th attack, a Gallup study (<a target="_blank" href="https://news.gallup.com/opinion/gallup/472796/young-adults-views-middle-east-changing.aspx">Young Adults' Views on Middle East Changing Most</a>) reported:
 
 > Millennial Democrats’ feelings about the Middle East conflict have changed over the past decade, shifting from solidly in Israel’s corner to now expressing more sympathy toward the Palestinians. While millennials are not the only Democratic generational group moving in this direction, the extent of their more Palestinian-oriented sympathies combined with their growing numbers means they have had a disproportionate influence on the broader pro-Palestinian shift seen on this question among Democrats as a whole.
 
