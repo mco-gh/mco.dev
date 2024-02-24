@@ -40,7 +40,7 @@ We'll pray for you though
 
 They don't understand  
 At the end of the day  
-That I'm simply unable
+That I'm simply unable  
 To just look away 
 
 The bombs that they drop  
@@ -50,7 +50,7 @@ Forever are still
 
 Perhaps it does something  
 To help me survive  
-For when I speak out
+For when I speak out  
 I know I'm alive  
 
 So I think I'll keep sharing  
