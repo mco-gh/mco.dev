@@ -6,8 +6,8 @@ date = "2024-02-24"
 coverImage = "/img/triggered.png"
 +++
 
-Late at night  
-My mind turned askew  
+In the darkness of night  
+When the world feels askew  
 I scroll through the news  
 And I'm outraged anew  
 
