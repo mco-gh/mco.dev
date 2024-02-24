@@ -33,7 +33,7 @@ To just get along?
 We support Israel  
 And sadly, you're wrong  
 
-You don't need to tell us  
+You needn't tell us  
 What we should know  
 We've asked you to stop  
 We'll pray for you though
