@@ -7,9 +7,9 @@ coverImage = "/img/triggered.png"
 +++
 
 Late at night  
-My mind turned askew
-I scroll through the news
-And I'm outraged anew
+My mind turned askew  
+I scroll through the news  
+And I'm outraged anew  
 
 <!--more-->  
 
