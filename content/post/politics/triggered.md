@@ -7,9 +7,9 @@ coverImage = "/img/triggered.png"
 +++
 
 Late at night  
-It's a kind of reflex  
-Doom scrolling Twitter  
-I won't call it X  
+My mind turned askew
+I scroll through the news
+And I'm outraged anew
 
 <!--more-->  
 
