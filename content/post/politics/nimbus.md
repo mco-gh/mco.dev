@@ -6,7 +6,7 @@ date = "2024-04-13"
 coverImage = "/img/nimbus.jpg"
 +++
 
-Following is the text of an open letter I sent yesterday to Google CEO Sundar Pichai and Google Cloud CEO Thomas Kurian.
+Following is the text of an open letter I sent yesterday to Google CEO Sundar Pichai and Google Cloud CEO Thomas Kurian. The image above comes from a New York Times article called <a target="_blank" href="https://www.nytimes.com/2023/10/15/world/middleeast/gaza-children-shelter.html">*The Schoolyard*</a>.
 
 <!--more-->  
 
