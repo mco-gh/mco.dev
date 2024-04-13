@@ -49,12 +49,6 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "#about"
 [[menu.main]]
-  weight = 3
-  identifier = "Newsletter"
-  name = "Newsletter"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
-  url = "https://tinyletter.com/mco"
-[[menu.main]]
   weight = 5
   identifier = "github"
   name = "GitHub"
