@@ -16,7 +16,7 @@ defaultContentLanguage = "en-us"
 title = "mco.dev"
 theme = "tranquilpeak"
 disqusShortname = "mco-dev.disqus.com"
-googleAnalytics = "UA-158788691-2"
+googleAnalytics = "G-YN0ZXJRY95"
 paginate = 30
 canonifyurls = true
 
@@ -27,13 +27,6 @@ canonifyurls = true
   tag = "tags"
   category = "categories"
   archive = "archives"
-
-[author]
-  name = "Marc Cohen"
-  bio = "Computing and data nerd.\nMore [about me](/about-marc)."
-  job = "Engineer@Google"
-  location = "London, UK"
-  picture = "/img/avatar.jpg"
 
 # Menu Configuration
 [[menu.main]]
@@ -87,6 +80,8 @@ canonifyurls = true
   url = "/index.xml"
 
 [params]
+  author.name = "Marc Cohen"
+
   # Customize date format use to render blog post date, categories and other
   # You must use date format used by Go Time package https://golang.org/pkg/time/
   # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
