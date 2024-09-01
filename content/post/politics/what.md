@@ -24,11 +24,10 @@ When the people who've been there for you,
 And took care of you,  
 Every single step of your journey  
 
-What do you do...
-
-When you discover  
+What do you do when you discover  
 They are the kind of people  
 Who looked the other way  
 
-While Jews were being marched into gas chambers?  
+While Jews were being marched
+Into gas chambers?  
 
