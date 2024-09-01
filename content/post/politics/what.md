@@ -28,6 +28,5 @@ What do you do when you discover
 They are the kind of people  
 Who looked the other way  
 
-While Jews were being marched  
-Into gas chambers?  
+While Jews were being marched into gas chambers?  
 
