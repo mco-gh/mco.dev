@@ -6,13 +6,11 @@ date = "2024-09-01"
 coverImage = "/img/what.jpg"
 +++
 
-## What do you do?
-
-<!--more-->  
-
 When the people you love most,  
 And who love you the most,  
 In the whole world  
+
+<!--more-->  
 
 When the people you've grown up with,  
 Who know everything about you,  
