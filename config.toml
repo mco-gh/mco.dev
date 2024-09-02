@@ -40,7 +40,7 @@ canonifyurls = true
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "#about"
+  url = "/about-marc"
 [[menu.main]]
   weight = 5
   identifier = "github"
