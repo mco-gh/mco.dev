@@ -10,25 +10,23 @@ showActions = false
 
 <img style="margin-right: 20px" height="200" align="left" src="/img/mco2.jpg" />
 <p> 
-I'm an American software engineer working on Google's Developer Relations team in London.
-My mission is building tools, demos, tutorials, and other educational artifacts to make computing and data science more accessible and inclusive.
-<br>
+I'm an American software engineer based in London.
+My mission is building tools, tutorials, and online courses to help make computing, mathematics, and data science more accessible and more inclusive.
 <br>
 </p>
 
 <!--more-->
 
-[Working with me](/working-with-marc).
+I have a Master of Engineering degree in Computer Science from Cornell University and a Bachelor of Arts degree in Mathematics from Rutgers University, and over 40 years of experience as a professional software developer and engineering manager at Bell Labs, Lucent Technologies, and Google.
 
-<br>
-Before joining Google, I spent 30 years building products and managing engineering teams in the Telecom industry (Bell Labs, AT&T, Lucent Technologies, and Alcatel-Lucent).
+I'm a regular conference speaker and have taught, as an instructor or guest lecturer, at numerous universities in the US and UK. I have three patents and co-authored an O'Reilly book on Google Compute Engine. My primary professional interests are Python Programming, Applied Mathematics, Web Development, Machine Learning/AI, Data Science, and Cloud Computing.
 
-Things I'm interested in:
+Other things I'm interested in:
 
-* teaching and learning
 * productivity and study hacks
-* computing, math, puzzles, and chess
-* books, music, theater, and film
+* playing guitar
+* puzzles, chess, and bridge
+* great books, music, theater, and films (especially documentaries)
 
 <br>
 <img height="300px" style="margin:10px" src="/img/talks.jpg">
