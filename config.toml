@@ -74,6 +74,13 @@ canonifyurls = true
 
 [[menu.links]]
   weight = 10 
+  identifier = "newsletter"
+  name = "My Newsletter"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
+  url = "https://buttondown.com/mco/"
+
+[[menu.links]]
+  weight = 11 
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
