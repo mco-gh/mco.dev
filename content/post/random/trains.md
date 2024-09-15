@@ -14,9 +14,9 @@ Article: [Seeing America by Train](https://wapo.st/3MLtNKx)
 
 I enjoyed this piece in two different ways:
 
-It tells a compelling story about one person’s experience traveling over 80 hours, 12 states, and 3,397 miles.
+- It tells a compelling story about one person’s experience traveling over 80 hours, 12 states, and 3,397 miles.
 
-It’s beautifully illustrated and a nice example of visual storytelling via the web.
+- It’s beautifully illustrated and a nice example of visual storytelling via the web.
 
 I’ve always been disappointed that rail travel is not more ubiquitous in the US (see [Who Killed the Electric Car](https://en.wikipedia.org/wiki/Who_Killed_the_Electric_Car%3F?utm_source=mco&utm_medium=email&utm_campaign=seeing-america-by-train) for an interesting take on why that is). Thankfully, I’ve been able to enjoy traveling by train more often since moving to the UK.
 
