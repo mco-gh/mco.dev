@@ -1,6 +1,6 @@
 +++
-categories = ["Random"]
-tags = ["random"]
+categories = ["One Great Thing", "Random"]
+tags = ["One Great Thing", "Random"]
 title = "Seeing America by Train"
 date = "2024-09-15"
 coverImage = "/img/trains.jpg"
@@ -20,4 +20,5 @@ I enjoyed this piece in two different ways:
 
 I’ve always been disappointed that rail travel is not more ubiquitous in the US (see <a target="_blank" href="https://en.wikipedia.org/wiki/Who_Killed_the_Electric_Car">Who Killed the Electric Car</a> for an interesting take on why that is). Thankfully, I’ve been able to enjoy traveling by train more often since moving to the UK.
 
--Marc
+-Marc  
+p.s. Like this? Every Sunday I share One Great Thing via email. Sign up <a target="_blank" href="https://buttondown.com/mco">here</a>.
