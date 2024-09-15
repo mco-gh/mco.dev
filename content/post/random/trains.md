@@ -10,7 +10,7 @@ I didn’t know this was even possible but apparently you can travel across the 
 
 <!--more-->
 
-Article: [Seeing America by Train](https://wapo.st/3MLtNKx)
+Article: <a target="_blank" href="https://wapo.st/3MLtNKx">Seeing America by Train</a>
 
 I enjoyed this piece in two different ways:
 
@@ -18,6 +18,6 @@ I enjoyed this piece in two different ways:
 
 - It’s beautifully illustrated and a nice example of visual storytelling via the web.
 
-I’ve always been disappointed that rail travel is not more ubiquitous in the US (see [Who Killed the Electric Car](https://en.wikipedia.org/wiki/Who_Killed_the_Electric_Car%3F?utm_source=mco&utm_medium=email&utm_campaign=seeing-america-by-train) for an interesting take on why that is). Thankfully, I’ve been able to enjoy traveling by train more often since moving to the UK.
+I’ve always been disappointed that rail travel is not more ubiquitous in the US (see <a target="_blank" href="https://en.wikipedia.org/wiki/Who_Killed_the_Electric_Car">Who Killed the Electric Car</a> for an interesting take on why that is). Thankfully, I’ve been able to enjoy traveling by train more often since moving to the UK.
 
 -Marc
