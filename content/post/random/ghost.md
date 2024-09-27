@@ -6,6 +6,7 @@ date = "2009-05-29"
 coverImage = "/img/ghost.jpg"
 +++
 
+(Image courtesy of [https://claudeai.wiki/](https://claudeai.wiki/))  
 I switched on the power and stood back, not knowing what to expect. Led lights briefly flickered and in an instant I heard someone, or something, call out to me, in a surprisingly natural sounding voice:
 <!--more-->
 Hi Marc! 
