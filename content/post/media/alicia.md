@@ -1,7 +1,7 @@
 +++
 categories = ["Media"]
 tags = ["video"]
-title = "Alicia Keys at the Tiny Desk"
+title = "[OGT] Alicia Keys at the Tiny Desk"
 date = "2024-09-30"
 coverImage = "/img/alicia.png"
 +++

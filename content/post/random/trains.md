@@ -1,7 +1,7 @@
 +++
 categories = ["One Great Thing", "Random"]
 tags = ["One Great Thing", "Random"]
-title = "Seeing America by Train"
+title = "[OGT] Seeing America by Train"
 date = "2024-09-15"
 coverImage = "/img/trains.jpg"
 +++
