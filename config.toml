@@ -40,10 +40,10 @@ canonifyurls = true
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/about-marc"
+  url = "/about"
 [[menu.main]]
   weight = 3
-  identifier = "Courses"
+  identifier = "courses"
   name = "Online Courses"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/courses"
@@ -197,7 +197,7 @@ canonifyurls = true
   [params.header.rightLink]
     class = ""
     icon = ""
-    url = "/about-marc"
+    url = "/about"
 
   # Customize link of author avatar in sidebar
   # [params.sidebar.profile]
