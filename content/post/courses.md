@@ -96,7 +96,7 @@ My goal for this course is to help you understand AI well enough to engage in an
 
 ### Agenda
 - My Fave AI App
-- Deinitions
+- Definitions
 - History
 - Mechanics
 - State of the Art
