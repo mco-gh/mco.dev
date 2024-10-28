@@ -1,7 +1,7 @@
 +++
 description = ""
 tags = ["education"]
-title = "My Courses"
+title = "Online Courses"
 url = "/courses"
 thumbnailImage = "img/cat.jpg"
 comments = false
@@ -9,7 +9,7 @@ showMeta = false
 showActions = false
 +++
 
-<img style="margin-right: 20px" height="200" align="left" src="/img/cat.jpg" />
+<img style="margin-right: 20px" height="250" align="left" src="/img/cat.jpg" />
 
 Anyone can understand technology and learn to code.
 All it takes is regular practice, some determination, 
@@ -121,7 +121,8 @@ Who are you?
 <summary>
 Why are you doing this?
 </summary>
-<img src="tbl.jpg" height="100">
+<br>
+<img style="margin-right: 20px" height="200" align="left" src="/img/everyone.png" />
 As the great Tim Berners-Lee said about his historic invention
 (the World Wide Web): "this is for everyone". I want to make technology
 understable for everyone, especially those people who haven't felt "invited
@@ -132,13 +133,22 @@ to the party".
 <summary>
 Free? Really? What's the catch?
 </summary>
-There is no catch. I don't need the money so everything here is free, apart from donations I solicit for those who already have some advantages and can afford to pay.
+<br>
+There is no catch. I don't need the money so everything here is free, apart from donations I solicit for those who already have some advantages and can afford to pay a small fee.
 </details>
 <br>
 <details>
 <summary>
-Will I get a certificate?
+How can I stay in the loop on your course offerings, schedules, updates, etc?
 </summary>
-These courses are not for everyone. They are not formally certified by any board or educational bodies. I won't be giving you a piece of paper at the end. What I will give you is the ability to have an intelligent conversation about a given topic, and some first-hand experience apply some technology in a practical context.
+<br>
+Join the <a target="_blank" href="https://groups.google.com/g/mco-learn">mco-learn</a> mailing list, which I use to share news and information about my courses.
 </details>
-
+<br>
+<details>
+<summary>
+Can I help teach a course?
+</summary>
+<br>
+Not yet, but I'm hoping to expand my offerings once I get some experience with these courses. If you're interested in helping out, join the <a target="_blank" href="https://groups.google.com/g/mco-teach">mco-teach</a> mailing list, which I use to share news and information about teaching my courses.
+</details>
