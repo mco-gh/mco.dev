@@ -2,6 +2,7 @@
 description = ""
 tags = ["me"]
 title = "About Marc"
+url = "/about"
 thumbnailImage = "img/talks.jpg"
 comments = false
 showMeta = false
