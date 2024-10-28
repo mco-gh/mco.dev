@@ -11,7 +11,8 @@ showActions = false
 
 <img style="margin-right: 20px" height="200" align="left" src="/img/cat.jpg" />
 
-Anyone can learn technology. All it takes is practice, some determination, 
+Anyone can understand technology and learn to code.
+All it takes is regular practice, some determination, 
 and a good teacher. That's where I come in. I want to help you learn some
 useful skills. **If you are Palestinian, a women, a person of color, or a member
 of any other group that is underrepresented in tech, I'll teach you for free.**
@@ -36,14 +37,15 @@ All my courses are:
 (Click here to expand course description.)<br>
 Python is a very popular programming language, probably the most widely used in the world nowadays. It's particularly used for AI and Data Science, which has propelled its recent growth. I find it one of the most expressive and natural programming languages. As some people like to say, "it fits my brain", and I agree.
 </summary>
-### Schedule
+
+### Logistics
 
 - six two-hour lessons
 - one meeting per week
 - modest homework between lessons
 - classes conducted online using Google Meet
-- **next offering: starting in mid-January 2025 (dates and times are TBD)
-- <a target="_blank" href="">Signup Form<a/>
+- **next offering**: starting in mid-January 2025 (dates and times are TBD)
+- <a target="_blank" href="">Signup Form</a>
 
 ### Course Material
 
@@ -62,9 +64,8 @@ Python is a very popular programming language, probably the most widely used in 
 <details>
 <summary>
 (Click here to expand course description.)<br>
-In my 40+ years in tech, I've seen a lot of changes, e.g., high level programming languages, portable operating systems, PC proliferation, the internet and the web (which are not the same thing!), smart phones, cloud computing, etc. but the current revolution in Artificial Intelligence feels more impactful than all those others. 
-</summary>
 My goal for this course is to help you understand AI well enough to engage in an intelligent conversation, to understand how it works, a bit about where it came from, and some of the limitations and concerns (both technological and ethical). It won't get anyone a job overnight but it will hopefully be a useful step toward understanding a technology that is revolutionizing our world.
+</summary>
 
 ### Prerequisites
 - You are human (bots not allowed)
@@ -85,13 +86,13 @@ My goal for this course is to help you understand AI well enough to engage in an
 - Deinitively answer diicult ethical or societal questions
 - Predict the future
 
-### Schedule
+### Logistics 
 - three two-hour lessons
 - one meeting per week
 - modest homework between lessons
 - classes conducted online using Google Meet
-- **next offering: starting in mid-January 2025 (dates and times are TBD)
-- <a target="_blank" href="">Signup Form<a/>
+- **next offering**: starting in mid-January 2025 (dates and times are TBD)
+- <a target="_blank" href="">Signup Form</a>
 
 ### Agenda
 - My Fave AI App
@@ -112,9 +113,10 @@ My goal for this course is to help you understand AI well enough to engage in an
 <summary>
 Who are you?
 </summary>
+
 <a target="_blank" href="/about">About Marc</a>
 </details>
-
+<br>
 <details>
 <summary>
 Why are you doing this?
@@ -125,14 +127,14 @@ As the great Tim Berners-Lee said about his historic invention
 understable for everyone, especially those people who haven't felt "invited
 to the party".
 </details>
-
+<br>
 <details>
 <summary>
 Free? Really? What's the catch?
 </summary>
 There is no catch. I don't need the money so everything here is free, apart from donations I solicit for those who already have some advantages and can afford to pay.
 </details>
-
+<br>
 <details>
 <summary>
 Will I get a certificate?
