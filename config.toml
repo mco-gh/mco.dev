@@ -42,6 +42,12 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/about-marc"
 [[menu.main]]
+  weight = 3
+  identifier = "Courses"
+  name = "Online Courses"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/courses"
+[[menu.main]]
   weight = 5
   identifier = "github"
   name = "GitHub"
