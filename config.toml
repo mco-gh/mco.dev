@@ -68,9 +68,9 @@ canonifyurls = true
 [[menu.main]]
   weight = 8
   identifier = "talks"
-  name = "Talks"
+  name = "My Talks"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-microphone\"></i>"
-  url = "/my-talks"
+  url = "/talks"
 [[menu.main]]
   weight = 9
   identifier = "archives"
