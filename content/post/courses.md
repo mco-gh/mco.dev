@@ -14,7 +14,7 @@ showActions = false
 Anyone can understand technology and learn to code.
 All it takes is regular practice, some determination, 
 and a good teacher. That's where I come in. I want to help you learn some
-useful skills. **If you are Palestinian, a women, a person of color, or a member
+useful skills. **If you are Palestinian, a woman, a person of color, or a member
 of any other group that is underrepresented in tech, I'll teach you for free.**
 Others will be requested to pay a nominal fee, 100% of which goes to one of the
 wonderful charities curated by
