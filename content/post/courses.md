@@ -44,7 +44,7 @@ Python is a very popular programming language, probably the most widely used in 
 - one meeting per week
 - modest homework between lessons
 - classes conducted online using Google Meet
-- **next offering**: starting in mid-January 2025 (dates and times are TBD)
+- **next offering**: starting in mid-January 2025 (exact dates and times to be announced)
 - <a target="_blank" href="">Signup Form</a>
 
 ### Course Material
@@ -91,7 +91,7 @@ My goal for this course is to help you understand AI well enough to engage in an
 - one meeting per week
 - modest homework between lessons
 - classes conducted online using Google Meet
-- **next offering**: starting in mid-January 2025 (dates and times are TBD)
+- **next offering**: starting in mid-January 2025 (exaxt dates and times to be announced)
 - <a target="_blank" href="">Signup Form</a>
 
 ### Agenda
