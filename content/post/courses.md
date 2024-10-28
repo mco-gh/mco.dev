@@ -28,7 +28,7 @@ All my courses are:
 - **practical** - understand not only the how, but the why
 - **interactive** - learn by doing, using Colab notebooks and other interactive tools
 
-rget="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4tNxbMk46JkWW5WXm-rIaxYUp_6YFSJ527FDiIstunzj2EQ/viewform">Signup for a course here.</a>
+<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4tNxbMk46JkWW5WXm-rIaxYUp_6YFSJ527FDiIstunzj2EQ/viewform">Signup for a course here.</a>
 
 # Course Catalog
 
