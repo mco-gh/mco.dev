@@ -37,15 +37,15 @@ Intro to AI
 
 Intro to Python
 
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/1_Welcome.ipynb">Notebook 1 - Course Overview, Background, and Getting Started</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/2_Variables.ipynb">Notebook 2 - Numbers, Strings, Variables, and Assignment Statements</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/3_Expressions.ipynb">Notebook 3 - Boolean Comparisons, Boolean Operators, and Expressions</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/4_Conditionals.ipynb">Notebook 4 - Controlling Program Flow and Using Modules</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/5_Loops.ipynb">Notebook 5 - More Strings and Loops</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/6_Functions.ipynb">Notebook 6 - Functions, Namespaces, and Modules</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/7_Iterables.ipynb">Notebook 7 - Tuples, Lists, and Dictionaries</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/8_Files.ipynb">Notebook 8 - Files, Errors, and Exceptions</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/notebooks/9_Project.ipynb">Notebook 9 - Sample Project</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/1_Welcome.ipynb">Notebook 1 - Course Overview, Background, and Getting Started</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/2_Variables.ipynb">Notebook 2 - Numbers, Strings, Variables, and Assignment Statements</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/3_Expressions.ipynb">Notebook 3 - Boolean Comparisons, Boolean Operators, and Expressions</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/4_Conditionals.ipynb">Notebook 4 - Controlling Program Flow and Using Modules</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/5_Loops.ipynb">Notebook 5 - More Strings and Loops</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/6_Functions.ipynb">Notebook 6 - Functions, Namespaces, and Modules</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/7_Iterables.ipynb">Notebook 7 - Tuples, Lists, and Dictionaries</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/8_Files.ipynb">Notebook 8 - Files, Errors, and Exceptions</a>
+- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/9_Project.ipynb">Notebook 9 - Sample Project</a>
 
 ## FAQ
 
