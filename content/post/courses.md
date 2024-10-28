@@ -125,7 +125,7 @@ Why are you doing this?
 <img style="margin-right: 20px" height="250" align="left" src="/img/everyone.png" />
 As the great Tim Berners-Lee said about his historic invention
 (the World Wide Web): "this is for everyone". I want to make technology
-understable for everyone, especially those people who haven't felt invited
+understandable for everyone, especially those people who haven't felt invited
 to the party.
 </details>
 <br>
@@ -134,7 +134,7 @@ to the party.
 Free? Really? What's the catch?
 </summary>
 <br>
-There is no catch. I don't need the money so everything here is free, apart from donations I solicit for those who already have some advantages and can afford to pay a small fee.
+There is no catch. I don't need the money so everything here is free, apart from donations I solicit from those who already have some advantages and can afford to pay a small fee.
 </details>
 <br>
 <details>
