@@ -13,29 +13,39 @@ showActions = false
 
 Anyone can learn technology. All it takes is practice, some determination, 
 and a good teacher. That's where I come in. I want to help you learn some
-useful skills. If you are Palestinian, a women, a person of color, or a member
-of any other groups that is underrepresented in tech, I'll teach you for free.
-Others will be required to pay a nominal fee, 100% of which goes to one of the
-stratefic charities curated by
+useful skills. **If you are Palestinian, a women, a person of color, or a member
+of any other group that is underrepresented in tech, I'll teach you for free.**
+Others will be requested to pay a nominal fee, 100% of which goes to one of the
+wonderful charities curated by
 <a href="https://growingwatermelons.com" target="_blank">Growing Watermelons</a>.
 
-My courses are:
-- inclusive - no prerequisites, perfect for beginners
-- approachable - nothing to install or configure
-- convenient - learn at your pace, on your schedule
-- affordable - free for most, low cost charitable donation for others
-- ad-free - no adds now, no ads ever
-- practical - understand not only how, but why
-- respectful - we never request or store any personal information
-- interactive - learn by doing, using Colab notebooks
+All my courses are:
+- **inclusive** - no prerequisites, perfect for beginners
+- **approachable** - nothing to install or configure on your computer
+- **affordable** - free for most, low cost charitable donation for others
+- **ad-free** - no ads on my site or my course material, not now, not ever
+- **practical** - understand not only the how, but the why
+- **interactive** - learn by doing, using Colab notebooks and other interactive tools
 
-## Curriculum
+# Course Catalog
 
-Intro to AI
+## Intro to Python
 
-<a target="_blank" href="/IntroAI.pdf">Course Material</a>
+<details>
+<summary>
+(Click here to expand course description.)<br>
+Python is a very popular programming language, probably the most widely used in the world nowadays. It's particularly used for AI and Data Science, which has propelled its recent growth. I find it one of the most expressive and natural programming languages. As some people like to say, "it fits my brain", and I agree.
+</summary>
+### Schedule
 
-Intro to Python
+- six two-hour lessons
+- one meeting per week
+- modest homework between lessons
+- classes conducted online using Google Meet
+- **next offering: starting in mid-January 2025 (dates and times are TBD)
+- <a target="_blank" href="">Signup Form<a/>
+
+### Course Material
 
 - <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/1_Welcome.ipynb">Notebook 1 - Course Overview, Background, and Getting Started</a>
 - <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/2_Variables.ipynb">Notebook 2 - Numbers, Strings, Variables, and Assignment Statements</a>
@@ -46,19 +56,87 @@ Intro to Python
 - <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/7_Iterables.ipynb">Notebook 7 - Tuples, Lists, and Dictionaries</a>
 - <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/8_Files.ipynb">Notebook 8 - Files, Errors, and Exceptions</a>
 - <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/9_Project.ipynb">Notebook 9 - Sample Project</a>
+</details>
 
-## FAQ
-
+## Intro to AI
+<details>
 <summary>
-foo
-<detail>
-bar
-</detail>
+(Click here to expand course description.)<br>
+In my 40+ years in tech, I've seen a lot of changes, e.g., high level programming languages, portable operating systems, PC proliferation, the internet and the web (which are not the same thing!), smart phones, cloud computing, etc. but the current revolution in Artificial Intelligence feels more impactful than all those others. 
 </summary>
+My goal for this course is to help you understand AI well enough to engage in an intelligent conversation, to understand how it works, a bit about where it came from, and some of the limitations and concerns (both technological and ethical). It won't get anyone a job overnight but it will hopefully be a useful step toward understanding a technology that is revolutionizing our world.
 
+### Prerequisites
+- You are human (bots not allowed)
+- You are curious about AI and want to learn more
+- No technical knowledge required
+- No programming required
+- No maths required
 
-<!--more-->
+### Goals
+- Gain a conceptual understanding of how AI “works”
+- Find out about the state of the art in AI
+- Consider the ethical issues raised by AI
+- Think critically about AI in your life and in the world
+- Help you prepare for the continuing revolution
 
-<br>
-<br>
+### Non-goals
+- Deep dive into technology or maths
+- Deinitively answer diicult ethical or societal questions
+- Predict the future
+
+### Schedule
+- three two-hour lessons
+- one meeting per week
+- modest homework between lessons
+- classes conducted online using Google Meet
+- **next offering: starting in mid-January 2025 (dates and times are TBD)
+- <a target="_blank" href="">Signup Form<a/>
+
+### Agenda
+- My Fave AI App
+- Deinitions
+- History
+- Mechanics
+- State of the Art
+- Ethics
+- The Future
+
+### Course Material
+- <a target="_blank" href="/IntroAI.pdf">Course Material</a>
+</details>
+
+# FAQ
+
+<details>
+<summary>
+Who are you?
+</summary>
+<a target="_blank" href="/about">About Marc</a>
+</details>
+
+<details>
+<summary>
+Why are you doing this?
+</summary>
+<img src="tbl.jpg" height="100">
+As the great Tim Berners-Lee said about his historic invention
+(the World Wide Web): "this is for everyone". I want to make technology
+understable for everyone, especially those people who haven't felt "invited
+to the party".
+</details>
+
+<details>
+<summary>
+Free? Really? What's the catch?
+</summary>
+There is no catch. I don't need the money so everything here is free, apart from donations I solicit for those who already have some advantages and can afford to pay.
+</details>
+
+<details>
+<summary>
+Will I get a certificate?
+</summary>
+These courses are not for everyone. They are not formally certified by any board or educational bodies. I won't be giving you a piece of paper at the end. What I will give you is the ability to have an intelligent conversation about a given topic, and some first-hand experience apply some technology in a practical context.
+</details>
 
