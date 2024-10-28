@@ -125,8 +125,8 @@ Why are you doing this?
 <img style="margin-right: 20px" height="250" align="left" src="/img/everyone.png" />
 As the great Tim Berners-Lee said about his historic invention
 (the World Wide Web): "this is for everyone". I want to make technology
-understable for everyone, especially those people who haven't felt "invited
-to the party".
+understable for everyone, especially those people who haven't felt invited
+to the party.
 </details>
 <br>
 <details>
