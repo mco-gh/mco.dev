@@ -94,7 +94,7 @@ My goal for this course is to help you understand AI well enough to engage in an
 - modest homework between lessons
 - classes conducted online using Google Meet
 - **next offering**: starting in mid-January 2025 (exaxt dates and times to be announced)
-- <a target="_blank" href="">Signup Form</a>
+- <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4tNxbMk46JkWW5WXm-rIaxYUp_6YFSJ527FDiIstunzj2EQ/viewform">Signup Form</a>
 
 ### Agenda
 - My Fave AI App
