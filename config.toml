@@ -141,6 +141,7 @@ canonifyurls = true
   #coverImage = "img/mistakes.jpg"
   #coverImage = "img/pills.jpg"
   #coverImage = "img/cube.jpg"
+  siteAuthorImage = "img/talks.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
