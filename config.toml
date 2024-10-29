@@ -92,6 +92,9 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
   url = "/index.xml"
 
+[author]
+  picture = "/img/talks.jpg"
+
 [params]
   # Customize date format use to render blog post date, categories and other
   # You must use date format used by Go Time package https://golang.org/pkg/time/
@@ -141,7 +144,6 @@ canonifyurls = true
   #coverImage = "img/mistakes.jpg"
   #coverImage = "img/pills.jpg"
   #coverImage = "img/cube.jpg"
-  siteAuthorImage = "img/talks.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
