@@ -81,4 +81,4 @@ In so doing, we've enabled a new generation of software capable of doing some am
 
 That, in a nutshell is what machine learning is all about and why people are so excited about its potential. In a future article, I'll explain a concrete example of a simple machine learning application, to help you understand some of the mechanics behind applying this technology to a real world problem.
 
-Enjoyed this artice? You might be interested in my new **Intro to AI** course, which you can read about <a target="_blank" href="https://mco.dev/courses">here</a>.
+**Enjoyed this artice? You might be interested in my new Intro to AI course, which you can read about <a target="_blank" href="https://mco.dev/courses">here</a>.**
