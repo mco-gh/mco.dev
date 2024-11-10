@@ -14,8 +14,8 @@ You've heard this song, undoubtedly one of the greatest in Rock and Roll history
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2cZ_EFAmj08?si=5j-aEaQuRgccpgVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 This performance was part of a tribute to Led Zeppelin, at the 2012 Kennedy Center Honors ceremony. Backed on drums by Jason Bonham, son of late Led Zeppelin drummer
-John Bonham, the song features Anne and Nancy Wilson of Heart.
+John Bonham, the song features Anne and Nancy Wilson of Heart, an orchestra,
+and a spectacular choir of voices.
 Surviving members of the band, Robert Plant, Jimmy Page, and John Paul Jones look
-on, visibly moved by this cover of their iconic song, culminating in
-a spectacular choir of voices.
-Enjoy this moving tribute to a great band and a great song.
+on, visibly moved by this cover of their iconic song.
+Enjoy this touching tribute to a great band and a great song.
