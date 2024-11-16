@@ -34,4 +34,4 @@ I feel fortunate that my parents encouraged me to read from a young age and I al
 
 Reading doesn't have to be serious and it doesn't have to be difficult. In the past I've struggled with the completion syndrome, wherein I had to finish a book before opening the next one on my list. The problem is if I didn't like the book I was reading, it could take a very long time to finish. My advice would be stop worrying about finishing - if, after a reasonable investment of time, a book is not working for you, move on. There are too many other great books awaiting your attention.
 
-My advice to you is to not lose this precious gift. Figure out how to structure your life so that you have sufficient time to enjoy and profit from deep reading.
+Don't lose this precious gift. Figure out how to structure your life so that you have sufficient time to enjoy and profit from deep reading.
