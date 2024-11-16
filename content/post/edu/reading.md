@@ -1,7 +1,7 @@
 +++
 categories = ["Education"]
 tags = ["reading"]
-title = "Make Time to Read"
+title = "[OGT] Make Time to Read"
 date = "2024-11-16"
 coverImage = "/img/reading.jpg"
 +++
@@ -32,6 +32,6 @@ The most impactful part of the article for me was the "How to maximize time and 
 
 I feel fortunate that my parents encouraged me to read from a young age and I always enjoyed it. Everything you read influences your thinking and your world view in some small way and the accumulative impact is massive. Conversely, there is much lost in a life without deep reading.
 
-Reading doesn't have to be serious and it doesn't have to be difficult. In the past I've struggled with the completion syndrome, wherein I had to finish a book before opening the next one on my list. The problem is if I didn't like the book I was reading, it could take a very long time to finish. My advice would be stop worrying about finishing - if, after a reasonable investment of time, a book is not working for you, move on. There are too many other great books waiting for your attention.
+Reading doesn't have to be serious and it doesn't have to be difficult. In the past I've struggled with the completion syndrome, wherein I had to finish a book before opening the next one on my list. The problem is if I didn't like the book I was reading, it could take a very long time to finish. My advice would be stop worrying about finishing - if, after a reasonable investment of time, a book is not working for you, move on. There are too many other great books awaiting your attention.
 
 My advice to you is to not lose this precious gift. Figure out how to structure your life so that you have sufficient time to enjoy and profit from deep reading.
