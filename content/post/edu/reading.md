@@ -6,11 +6,11 @@ date = "2024-11-16"
 coverImage = "/img/reading.jpg"
 +++
 
-I recently noticed that I've been reading fewer books lately. I think it's because I've been spending a disproportionate share of my time reading blogs, news sites, a certain social media feed, and other less substantial content. Then I read Blake Butler's <a target="_blank" href="https://blakebutler.substack.com/p/maximizing-time-for-reading?ref=thebrowser.com">Maximizing Time for Reading</a>, which put everything in focus for me.
+I recently noticed that I've been reading fewer books lately. I think it's because I've been spending a disproportionate share of my time reading blogs, news sites, a certain social media feed, and other less substantial content. Then I read Blake Butler's <a target="_blank" href="https://blakebutler.substack.com/p/maximizing-time-for-reading?ref=thebrowser.com">Maximizing Time for Reading</a>, which put everything into focus for me.
 
 <!--more-->
 
-The subtitle of Blakes article is "Why reading—and reading widely—is more important than ever, and how to go about creating habits and practices to allow yourself the space and time".
+The subtitle of Blake's article is *Why reading—and reading widely—is more important than ever, and how to go about creating habits and practices to allow yourself the space and time*.
 
 The most impactful part of the article for me was the "How to maximize time and effect for reading" section. Here's a bullet list of the main ideas:
 
