@@ -29,7 +29,4 @@ Next, I was going to give you some tips and techniques for getting the most out 
 
 In addition to the basic mechanics of use, Vincent also shares a bunch of meta-techniques and suggestions to make your focus sessions...more focussed. By the way, if you like these videos, check out the rest of the content on <a target="_blank" href="https://calmcode.io">calmcode.io</a>. It's an incredible trove of first rate instructional content on Python Programing, Data Science, and other cool topics, all presented in Vincent's inimitable calm and lucid style.
 
-Give the Pomodoro method a try - it's surprisingly simple yet proved to be a game changer for me.
-
-
-
+Give the Pomodoro method a try - it's been a game changer for me.
