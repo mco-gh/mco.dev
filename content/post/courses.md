@@ -89,11 +89,11 @@ My goal for this course is to help you understand AI well enough to engage in an
 - Predict the future
 
 ### Logistics 
-- three two-hour lessons
+- four 1.5 hour lessons
 - one meeting per week
 - modest homework between lessons
 - classes conducted online using Google Meet
-- **next offering**: starting in mid-January 2025 (exaxt dates and times to be announced)
+- **next offering**: starting on 27 January 2025 and continuing for four successive Mondays
 - <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4tNxbMk46JkWW5WXm-rIaxYUp_6YFSJ527FDiIstunzj2EQ/viewform">Signup Form</a>
 
 ### Agenda
