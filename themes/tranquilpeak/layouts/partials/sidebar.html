@@ -2,7 +2,7 @@
   <div class="sidebar-container">
     {{ with ($.Scratch.Get "authorPicture") }}
       <div style="margin-bottom: -20px" class="sidebar-profile">
-        <a href="{{ if $.Site.Params.sidebar.profile.url }}{{ $.Site.Params.sidebar.profile.url }}{{ else }}{{ "/#about" }}{{ end }}">
+        <a href="{{ if $.Site.Params.sidebar.profile.url }}{{ $.Site.Params.sidebar.profile.url }}{{ else }}{{ "/" }}{{ end }}">
           <img style="background-color: white; border-radius: 0px" class="sidebar-profile-picture" src="/img/logo.png?s=110" alt="{{ i18n "global.author_picture" }}" />
         </a>
 <!--
