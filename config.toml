@@ -53,18 +53,18 @@ canonifyurls = true
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/mco-gh"
-[[menu.main]]
-  weight = 6
-  identifier = "categories"
-  name = "Categories"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/categories"
-[[menu.main]]
-  weight = 7
-  identifier = "tags"
-  name = "Tags"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
-  url = "/tags"
+#[[menu.main]]
+#  weight = 6
+#  identifier = "categories"
+#  name = "Categories"
+#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+#  url = "/categories"
+#[[menu.main]]
+#  weight = 7
+#  identifier = "tags"
+#  name = "Tags"
+#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
+#  url = "/tags"
 [[menu.main]]
   weight = 8
   identifier = "talks"
