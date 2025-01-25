@@ -81,7 +81,7 @@ canonifyurls = true
 [[menu.links]]
   weight = 10 
   identifier = "OneGreatThing"
-  name = "One Great Thing"
+  name = "Newsletter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
   url = "https://buttondown.com/mco/"
 
