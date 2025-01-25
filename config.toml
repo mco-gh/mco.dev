@@ -45,7 +45,7 @@ canonifyurls = true
   weight = 3
   identifier = "courses"
   name = "Courses"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-school\"></i>"
   url = "/courses"
 [[menu.main]]
   weight = 5
