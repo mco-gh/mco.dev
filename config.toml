@@ -16,7 +16,7 @@ defaultContentLanguage = "en-us"
 title = "mco.dev"
 theme = "tranquilpeak"
 disqusShortname = "mco-dev.disqus.com"
-googleAnalytics = "G-YN0ZXJRY95"
+#googleAnalytics = "G-YN0ZXJRY95"
 paginate = 30
 canonifyurls = true
 
