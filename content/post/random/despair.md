@@ -1,7 +1,7 @@
 +++
 categories = ["Random"]
 tags = ["Japan", "Tokyo"]
-title = "[OGT] Getting Stuck at a 'Station of Despair' in Tokyo"
+title = "[OGT] Getting Stuck at a \"Station of Despair\" in Tokyo"
 date = "2025-02-08"
 coverImage = "/img/despair.png"
 +++
