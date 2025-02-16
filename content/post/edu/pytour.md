@@ -31,8 +31,9 @@ For those who prefer a more comprehensive, tutorial style, I highly recommend Al
 ## Other Resources I Like
 
 - <a target="_blank" href="https://codingbat.com/python">CodingBat for Python - Coding Practice Exercises</a>
-- <a target="_blank" href="https://dabeaz-course.github.io/practical-python/Notes/Contents.html">
-  Practical Python Programming</a>, by David Beazley
+- <a target="_blank" href="https://www.greenteapress.com/thinkpython/thinkpython.pdf">Think Python</a>, by Allen Downey
+- <a target="_blank" href="https://learnpythonthehardway.org/">Learn Python the Hard Way</a>, by Zed Shaw
+- <a target="_blank" href="https://dabeaz-course.github.io/practical-python/Notes/Contents.html">Practical Python Programming</a>, by David Beazley
 - <a target="_blank" href="https://www.amazon.com/Programming-Puzzled-Program-Solving-Puzzles/dp/0262534304">
   Programming for the Puzzled:</a>
   Learn to Program While Solving Puzzles, by Srini Devadas
