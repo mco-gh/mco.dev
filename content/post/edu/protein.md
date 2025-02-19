@@ -1,7 +1,7 @@
 +++
 categories = ["Education"]
 tags = ["AI, Science"]
-title = "[OGT] The biggest medical breakthrough you might not have heard about"
+title = "The biggest medical breakthrough you might not have heard about"
 date = "2024-11-30"
 coverImage = "/img/protein.jpg"
 draft = "true"

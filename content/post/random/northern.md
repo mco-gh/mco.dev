@@ -1,7 +1,7 @@
 +++
 categories = ["One Great Thing", "Random"]
 tags = ["One Great Thing", "Random"]
-title = "[OGT] The Northern Lights are on fire this week"
+title = "The Northern Lights are on fire this week"
 date = "2024-10-12"
 coverImage = "/img/northern.webp"
 +++

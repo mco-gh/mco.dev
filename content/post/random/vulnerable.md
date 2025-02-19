@@ -1,7 +1,7 @@
 +++
 categories = ["One Great Thing", "Random"]
 tags = ["One Great Thing", "Random"]
-title = "[OGT] More vulnerable than you think"
+title = "More vulnerable than you think"
 date = "2024-09-22"
 coverImage = "/img/vulnerable.png"
 +++

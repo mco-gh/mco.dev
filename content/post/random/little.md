@@ -1,7 +1,7 @@
 +++
 categories = ["Random"]
 tags = ["Life"]
-title = "[OGT] The Little Life"
+title = "The Little Life"
 date = "2025-01-21"
 coverImage = "/img/little.jpg"
 +++

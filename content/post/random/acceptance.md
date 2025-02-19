@@ -1,7 +1,7 @@
 +++
 categories = ["Random"]
 tags = ["Acceptance"]
-title = "[OGT] On Accepting Differences"
+title = "On Accepting Differences"
 date = "2025-01-12"
 coverImage = "/img/acceptance.png"
 +++

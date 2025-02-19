@@ -1,7 +1,7 @@
 +++
 categories = ["Media"]
 tags = ["video"]
-title = "[OGT] Some good news if you wish you were dead"
+title = "Some good news if you wish you were dead"
 date = "2024-10-07"
 coverImage = "/img/lucasjones.png"
 +++

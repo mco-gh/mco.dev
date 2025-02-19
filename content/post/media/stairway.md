@@ -1,7 +1,7 @@
 +++
 categories = ["Media"]
 tags = ["video"]
-title = "[OGT] Stairway to Heaven"
+title = "Stairway to Heaven"
 date = "2024-11-10"
 coverImage = "/img/stairway.png"
 +++

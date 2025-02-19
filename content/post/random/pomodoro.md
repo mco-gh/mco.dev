@@ -1,7 +1,7 @@
 +++
 categories = ["Productivity"]
 tags = ["Pomodoro", "Productivity"]
-title = "[OGT] My Favorite Productivity Tool"
+title = "My Favorite Productivity Tool"
 date = "2024-11-23"
 coverImage = "/img/pomodoro.jpg"
 +++

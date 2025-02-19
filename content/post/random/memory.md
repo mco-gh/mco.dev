@@ -1,7 +1,7 @@
 +++
 categories = ["Random"]
 tags = ["Memory"]
-title = "[OGT] The Impermanence of Memory"
+title = "The Impermanence of Memory"
 date = "2025-01-05"
 coverImage = "/img/memory.png"
 +++

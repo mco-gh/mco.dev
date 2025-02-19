@@ -1,7 +1,7 @@
 +++
 categories = ["Politics"]
 tags= ["America", "Israel", "Palestine", "Gaza"]
-title= "[OGT] Israel/Palestine: The origin story"
+title= "Israel/Palestine: The origin story"
 date = "2024-10-21"
 coverImage = "/img/palestine.png"
 +++

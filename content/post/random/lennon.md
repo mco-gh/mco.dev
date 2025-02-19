@@ -1,7 +1,7 @@
 +++
 categories = ["Random"]
 tags = ["Beatles", "John Lennon"]
-title = "[OGT] John Lennon: Real or Imagined?"
+title = "John Lennon: Real or Imagined?"
 date = "2025-01-25"
 coverImage = "/img/lennon2.jpg"
 +++

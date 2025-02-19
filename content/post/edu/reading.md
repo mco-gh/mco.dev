@@ -1,7 +1,7 @@
 +++
 categories = ["Education"]
 tags = ["reading"]
-title = "[OGT] Make Time to Read"
+title = "Make Time to Read"
 date = "2024-11-16"
 coverImage = "/img/reading.jpg"
 +++

@@ -1,7 +1,7 @@
 +++
 categories = ["Politics"]
 tags= ["America", "Israel", "Palestine", "Gaza"]
-title= "[OGT] How Israel Won the West"
+title= "How Israel Won the West"
 date = "2024-10-27"
 coverImage = "/img/wonthewest.png"
 +++

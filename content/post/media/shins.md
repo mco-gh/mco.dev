@@ -1,7 +1,7 @@
 +++
 categories = ["Media"]
 tags = ["video", "Shins"]
-title = "[OGT] James Mercer plays New Slang Live"
+title = "James Mercer plays New Slang Live"
 date = "2024-11-30"
 coverImage = "/img/newslang.png"
 draft = "true"
