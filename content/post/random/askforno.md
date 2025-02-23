@@ -14,4 +14,4 @@ Today’s one great thing is a short article about a powerful life hack everyone
 
 This concept is closely related to one of my favorite rules and one which has served me well in my career: it's better to ask for forgiveness than permission. But "Don't ask for no" strikes a balance between those two extremes, giving your approver(s) the opportunity to weigh in, but biasing you toward taking action.
 
-This article is based in a professional enginering context, but I think this technique applies in many diverse situations in life. The next time you're tempted to ask for permission to do something you pretty much know is a good idea but wouldn't mind some confirmation or feedback, try using this technique.
+This article is based in a professional enginering context, but I think this technique applies in many diverse situations in life. The next time you're tempted to ask for permission to do something you pretty much know is a good idea but wouldn't mind some confirmation or feedback, try asking for no.
