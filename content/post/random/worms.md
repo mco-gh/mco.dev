@@ -10,7 +10,7 @@ One of the best things about living in London is the pervasive and efficient tra
 
 <!--more-->
 
-The short video below, by the extraordinary Mexican artist and filmmaker <a target="_blank" href="https://www.youtube.com/@GawxArt">Gawx</a> is a poetic meditation on urban trains and the role they play in our society. It's also a kind of unique art form: the visual poem. I'd like to make one of these someday.
+The short video below, by the extraordinary Mexican artist and filmmaker <a target="_blank" href="https://www.youtube.com/@GawxArt">Gawx</a>, is a poetic meditation on urban trains and the role they play in our society. It's also a kind of unique art form: the visual poem. I'd like to make one of these someday.
 
 <br>
 
