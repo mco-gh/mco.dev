@@ -1,9 +1,9 @@
 +++
 categories = ["One Great Thing", "Random"]
 tags = ["One Great Thing", "Random"]
-title = "A Love Letter to Urban Trains"
+title = "Metal Worms"
 date = "2025-04-13"
-coverImage = "/img/trains_video.png"
+coverImage = "/img/worms.png"
 +++
 
 One of the best things about living in London is the pervasive and efficient train network, affectionally known as "the tube". You can get just about anywhere in this sprawling metropolis by train and it's my favorite way to travel around the city.
