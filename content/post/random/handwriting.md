@@ -6,7 +6,7 @@ date = "2025-04-06"
 coverImage = "/img/handwriting.jpg"
 +++
 
-I've been teaching a class at the University of Surrey in South London. During a recent lab session, a student approached me with a question   and I noticed the most exquisite hand-written diagram and calligraphy I've ever seen.
+I've been teaching a class at the University of Surrey in South London. During a recent lab session, a friendly student named Satish Ranganathan Mohan approached me with a question and I noticed the most exquisite hand-written diagram and calligraphy I've ever seen.
 
 <!--more-->
 
