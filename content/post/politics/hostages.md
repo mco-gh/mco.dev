@@ -24,6 +24,6 @@ Can you imagine a more Orwellian policy than imprisoning someone because someone
 
 To make matters worse, **children are being held under this program**. <a target="_blank" href="https://www.btselem.org/statistics/minors_in_custody">According to B'Tselem</a>, as of December 2024, the Israel Prison Service (IPS) was holding 113 Palestinian minors in detention or in prison on what it defined “security” grounds and 93 Palestinian minors for being in Israel illegally.
 
-As of this writing, 59 Israeli hostages remain in Gaza, whereas over 3,000 Palestinians, including over 100 minors, are held hostage by Israel's cruel, inhumane, and illegal administrative detention policy. So, when someone asks me why I don't spend more energy calling for the release of the Israeli hostages in Gaza, I ask why they don't call for the release of the Palestinian hostages in Israel. 
+As of this writing, 59 Israeli hostages remain in Gaza, whereas well over 3,000 Palestinians, including more than 100 minors, are held hostage by Israel's cruel, inhumane, and illegal administrative detention policy. So, when someone asks me why I don't spend more energy calling for the release of the Israeli hostages in Gaza, I ask why they don't call for the release of the Palestinian hostages in Israel. 
 
 If Israel is serious about wanting Israeli hostages freed, freeing thousands of Palestinian hostages would be a good start.
