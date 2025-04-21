@@ -18,9 +18,7 @@ The official name for this policy is "adminstrative detention".
 
 > In administrative detention, a person is held without trial without having committed an offense, on the grounds that he or she plans to break the law in the future. As this measure is supposed to be preventive, it has no time limit. The person is detained without legal proceedings, by order of the regional military commander, based on classified evidence that is not revealed to them. This leaves the detainees helpless – facing unknown allegations with no way to disprove them, not knowing when they will be released, and without being charged, tried or convicted.
 
-Can you imagine a more Orwellian policy than imprisoning someone because someone else thinks they might commit some crime at some point in the future?
-
-Here's what we know about how many people are imprisoned on this basis:
+Can you imagine a more Orwellian policy than imprisoning someone because someone else thinks they might commit some crime at some point in the future? Here's what we know about how many people are imprisoned on this basis:
 
 > According to figures provided by the IDF Spokesperson, from the beginning of 2015 to the end of July 2017, 3,909 administrative detention orders were issued. Of these, 2,441 (62.4%) were extensions of existing orders. Only 48 (1.2%) were cancelled by a military court.
 
