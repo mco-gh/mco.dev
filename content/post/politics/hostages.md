@@ -6,7 +6,7 @@ date = "2025-04-21"
 coverImage = "/img/hostages.jpg"
 +++
 
-As a loud and proud Jewish critic of Israel's apartheid regime, I'm sometimes asked this question: **why don't you spend more energy calling for the release of the hostages?** In this brief article, I'll share my answer to that question.
+As a loud and proud Jewish critic of Israel's apartheid regime, I'm sometimes asked this question: *why don't you spend more energy calling for the release of the hostages?* In this brief article, I'll share my answer to that question.
 
 <!--more-->  
 
