@@ -10,7 +10,7 @@ The first time you see <a target="_blank" href="https://www.youtube.com/channel/
 
 <!--more-->
 
-But you'd be missing out on an amazing talent. Check out this amazing performance of Sia's Chandelier:
+But you'd be missing out on an amazing talent. Check out this powerful performance of Sia's Chandelier:
 
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oNKC5qcMVp8?si=3cUYzVwrRvemU39A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
