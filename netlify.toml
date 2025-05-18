@@ -6,6 +6,7 @@ command = "hugo"
 HUGO_VERSION = "0.69.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+PYTHON_VERSION = "3.8"
 
 [context.deploy-preview]
 command = "hugo -b $DEPLOY_PRIME_URL"
