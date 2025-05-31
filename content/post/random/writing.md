@@ -3,7 +3,7 @@ categories = ["One Great Thing", "Random"]
 tags = ["One Great Thing", "Writing"]
 title = "Writing as Therapy"
 date = "2025-05-31"
-coverImage = "/img/writing2.jpg"
+coverImage = "/img/writing.jpg"
 +++
 
 I've been journaling every morning for the last several weeks and have found it to be a very helpful way to organize my thoughts and process some of the many loose threads in my head.
