@@ -24,7 +24,7 @@ A few tips I recommend if you try this:
 
 1. Write in longhand. It's now been scientifically shown that writing with your hand activates a different part of your brain versus using a keyboard, resulting in more creativity and better retention. I swear by my <a href="https://remarkable.com/" target="_blank">Remarkable tablet</a>, which faithfully preserves the age old handwriting experience in the digital age.
 
-1. Try to do your writing in the morning when you have a fresh outlook. I also like that to get this task out of the way early, so it's not hanging over me for the rest of the day.
+1. Try to do your writing in the morning when you have a fresh outlook. I also like to get this task out of the way early, so it's not hanging over me for the rest of the day.
 
 1. Start every new session by reading what you wrote the day before. This gives a sort of continuity of thought that we often miss in our everyday busy lies.
 
