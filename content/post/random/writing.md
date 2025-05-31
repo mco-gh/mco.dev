@@ -20,7 +20,7 @@ So far, ten minutes a day has been relatively easy to do. One thing that often s
 
 A few tips I recommend if you try this:
 
-1. Don't overplan. Let the writing just flow as freely as possible. Don't worry if it makes sense or is well written. This is by you and for you. No one has to ever see it so start by writing free about whatever pops into your head.
+1. Don't overplan. Let the writing just flow as freely as possible. Don't worry about whether it makes sense or is well written. This is by you and for you only.
 
 1. Write in longhand. It's now been scientifically proven that writing with your hand activates a different part of your brain versus using a keyboard, resulting in more creativity and greater retention. I swear by my Remarkable Tablet, which faithfully preserves the age old handwriting experience in the digital age.
 
