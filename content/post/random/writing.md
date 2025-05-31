@@ -10,7 +10,7 @@ I've been journaling every morning for the last several weeks and have found it 
 
 <!--more-->
 
-In <a target="_blank" href="https://www.theguardian.com/lifeandstyle/2014/oct/03/morning-pages-change-your-life-oliver-burkeman">This column will change your life: Morning Pages</a>, Oliver Burkeman explains why daily journaling is so helpful.
+In <a target="_blank" href="https://www.theguardian.com/lifeandstyle/2014/oct/03/morning-pages-change-your-life-oliver-burkeman">This column will change your life: Morning Pages</a>, Oliver Burkeman explains why he finds daily journaling so helpful.
 
 > 'You can write about whatever's on your mind: petty worries, soaring plans, angry tirades… I wish I'd started long ago'
 
