@@ -14,7 +14,7 @@ In <a target="_blank" href="https://www.theguardian.com/lifeandstyle/2014/oct/03
 
 > 'You can write about whatever's on your mind: petty worries, soaring plans, angry tirades… I wish I'd started long ago'
 
-He recommends producing three sides of a page each day but I don't like the length requirement because some mornings I have a lot to say, others not so much. I prefer to use a short time requirement (10 minutes), so as to maintain a low bar to taking action. If this is going to be a daily activity, it's important to make it as painless as possible. 
+He recommends producing three sides of a page each day but I don't like the length requirement because some mornings I have a lot to say, others not so much. I prefer to use a short time requirement (10 minutes), to minimize friction. If this is going to be a daily activity, it's important to make it as painless as possible. 
 
 So far, ten minutes a day has been surprisingly easy to do. One thing that often suprises me is I'll start out writing about subject X and the entry will organically transform itself into subject Y. It's like my unconsicous mind knows what it really wants to talk about.
 
