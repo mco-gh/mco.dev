@@ -12,7 +12,7 @@ I've been journaling every morning for the last several weeks and have found it 
 
 In <a target="_blank" href="https://www.theguardian.com/lifeandstyle/2014/oct/03/morning-pages-change-your-life-oliver-burkeman">This column will change your life: Morning Pages</a>, Oliver Burkeman explains why he finds daily journaling so helpful.
 
-> 'You can write about whatever's on your mind: petty worries, soaring plans, angry tirades… I wish I'd started long ago'
+> You can write about whatever's on your mind: petty worries, soaring plans, angry tirades...I wish I'd started long ago.
 
 He recommends producing three sides of a page each day but I don't like the length requirement because some mornings I have a lot to say, others not so much. I prefer to use a short time requirement (10 minutes). If this is going to be a daily activity, it's important to make it as painless as possible. Often I get into an entry and I exceed the allotted ten minutes, but I consider optional anything beyond ten minutes.
 
