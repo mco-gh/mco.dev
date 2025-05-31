@@ -22,10 +22,10 @@ A few tips I recommend if you try this:
 
 1. Don't overplan. Let the writing flow as freely as possible. Don't worry about whether it makes sense or is well written. This is by you and for you only.
 
-1. Write in longhand. It's now been scientifically proven that writing with your hand activates a different part of your brain versus using a keyboard, resulting in more creativity and greater retention. I swear by my Remarkable Tablet, which faithfully preserves the age old handwriting experience in the digital age.
+1. Write in longhand. It's now been scientifically proven that writing with your hand activates a different part of your brain versus using a keyboard, resulting in more creativity and better retention. I swear by my <a href="https://remarkable.com/" target="_blank">Remarkable tablet</a>, which faithfully preserves the age old handwriting experience in the digital age.
 
-1. Write first thing, or at least relatively early, in the morning. There's something about that feeling when you wake up where your brain has sort of rebooted itself and you have a fresh outlook on life. I also like that when I get this done early, it's not hanging over me for the rest of the day.
+1. Try to do your writing in the morning. There's something about the fresh outlook you have in the morning. I also like that to get this task out of the way early, so it's not hanging over me for the rest of the day.
 
-1. Start every new session by reading what you wrote the day before. This gives a sort of continuity of thought that we sometimes miss in our everyday busy lies.
+1. Start every new session by reading what you wrote the day before. This gives a sort of continuity of thought that we often miss in our everyday busy lies.
 
-In short, I find this process is fun and helps with my stability and mental health. It costs nothing bit a short slice of my morning and it's a lot cheaper than therapy.
+In short, I find this process to be fun and helps with my mood. It costs nothing but a short slice of my morning and it's a lot cheaper than therapy!
