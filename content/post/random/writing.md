@@ -6,11 +6,11 @@ date = "2025-05-31"
 coverImage = "/img/writing.jpg"
 +++
 
-I've been journaling every morning for the last several weeks and have found it to be a very helpful way to organize my thoughts and process some of the many loose threads in my head.
+I've been journaling every morning for the last several weeks and have found it to be a great way to organize my thoughts and process some of the many loose threads in my head.
 
 <!--more-->
 
-In <a target="_blank" href="https://www.theguardian.com/lifeandstyle/2014/oct/03/morning-pages-change-your-life-oliver-burkeman">This column will change your life: Morning Pages</a>, Oliver Burkeman explains why daily journaling, sometimes called "Morning Pages" is so helpful.
+In <a target="_blank" href="https://www.theguardian.com/lifeandstyle/2014/oct/03/morning-pages-change-your-life-oliver-burkeman">This column will change your life: Morning Pages</a>, Oliver Burkeman explains why daily journaling is so helpful.
 
 > 'You can write about whatever's on your mind: petty worries, soaring plans, angry tirades… I wish I'd started long ago'
 
