@@ -6,17 +6,17 @@ date = "2025-05-31"
 coverImage = "/img/writing2.jpg"
 +++
 
-I've been journaling every morning for the last several weeks and have found it to be a very helpful way to organize my thoughts and process some of the many loose threads in my mind.
+I've been journaling every morning for the last several weeks and have found it to be a very helpful way to organize my thoughts and process some of the many loose threads in my head.
 
 <!--more-->
 
-In <a target="_blank" href="https://www.theguardian.com/lifeandstyle/2014/oct/03/morning-pages-change-your-life-oliver-burkeman">Morning Pages</a>, Oliver Burkeman explains why daily journaling, sometimes called "Morning Pages" is so helpful.
+In <a target="_blank" href="https://www.theguardian.com/lifeandstyle/2014/oct/03/morning-pages-change-your-life-oliver-burkeman">This column will change your life: Morning Pages</a>, Oliver Burkeman explains why daily journaling, sometimes called "Morning Pages" is so helpful.
 
 > 'You can write about whatever's on your mind: petty worries, soaring plans, angry tirades… I wish I'd started long ago'
 
-He recommends producing three sides of a page each day but I don't like the length requirement because some mornings I have a lot to write about, others not so much. I prefer to use a time spent requirement and I keep it very short, so as to maintain a low bar to taking action. If this is going to be a daily activity, it's important to make it as painless as possible. 
+He recommends producing three sides of a page each day but I don't like the length requirement because some mornings I have a lot to say, others not so much. I prefer to use a short time requirement (>10 minutes), so as to maintain a low bar to taking action. If this is going to be a daily activity, it's important to make it as painless as possible. 
 
-So my formula is ten minutes of writing every morning, which so far has been surprisingly easy to do. One thing that often suprises me is I'll start out writing about subject X and the entry will organically transform itself into subject Y. It's like my unconsicous mind knows what it really wants to talk about.
+So far, ten minutes a day has been surprisingly easy to do. One thing that often suprises me is I'll start out writing about subject X and the entry will organically transform itself into subject Y. It's like my unconsicous mind knows what it really wants to talk about.
 
 A few tips I recommend if you try this:
 
