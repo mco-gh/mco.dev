@@ -6,12 +6,11 @@ date = "2025-06-14"
 coverImage = "/img/writing2.jpg"
 +++
 
-Two weeks ago, in
- <a target="_blank" href="https://mco.dev/writing-as-therapy/">Writing as Therapy</a>, I wrote about how much I've enjoyed and profited from journaling for ten minutes every morning. Continuing that theme, here's a related article, which summarizes some scientific findings on the surprisingly powerful mental health benefits of this daily practice.
+Two weeks ago, in <a target="_blank" href="https://mco.dev/writing-as-therapy/">Writing as Therapy</a>, I wrote about how much I've enjoyed and profited from journaling for ten minutes every morning. Continuing that theme, here's a related article, which summarizes some scientific findings on the surprisingly powerful mental health benefits of this daily practice.
 
 <!--more-->
 
-In <a target="_blank" href="https://thequietlife.net/p/as-close-to-magic-as-you-can-get?hide_intro_popup=true"><As close to magic as you can get/a>, Susan Cain describes how in 1986, after discovering the power of journaling for himself, University of Texas social psychologist James Pennebaker embarked on a scientific study of the benefits lasting forty years. The results were astonishing.
+In <a target="_blank" href="https://thequietlife.net/p/as-close-to-magic-as-you-can-get">As close to magic as you can get</a>, Susan Cain describes how in 1986, after discovering the power of journaling for himself, University of Texas social psychologist James Pennebaker embarked on a scientific study of the benefits lasting forty years. The results were astonishing.
 
 > In one study, he divided people into two groups. One group was asked to write about their difficulties for 20 minutes a day, for three days; they wrote about sexual abuse, breakups, abandonment by a parent, illness, death. The other group wrote about everyday things, such as what shoes they were wearing.
 
