@@ -3,7 +3,7 @@ categories = ["One Great Thing", "Random"]
 tags = ["One Great Thing", "Loneliness"]
 title = "Loneliness may be killing you"
 date = "2025-07-05"
-coverImage = "/img/loneliness.jpg"
+coverImage = "/img/loneliness.png"
 draft = true
 +++
 
