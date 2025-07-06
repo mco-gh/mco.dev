@@ -22,6 +22,6 @@ A few key take aways:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h7w339vE2F8?si=mm_s_BxCXOEG0Lpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-I first heard about the dangers of loneliness from a fascinating TED talk about <a target="_blank" href="https://www.youtube.com/watch?v=8KkKuTCFvzI">What makes a good life?</a> This talk summarizes the results of the Harvard Study of Adult Development, which is the longest study of adult life every conducted (85 years and counting).
+I first heard about the dangers of loneliness from a fascinating TED talk about <a target="_blank" href="https://www.youtube.com/watch?v=8KkKuTCFvzI">What makes a good life?</a> This talk summarizes the results of the Harvard Study of Adult Development, which is the longest study of adult life ever conducted (85 years and counting).
 
 The results were consistent with the video featured above: **the single most impactful thing you can do to improve your health, longevity, and happiness is to establish and nurture enduring social connections**.
