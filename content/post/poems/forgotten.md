@@ -1,5 +1,5 @@
 +++
-categories = ["Politics"]
+categories = ["Politics", "Poems"]
 tags= ["America", "Israel", "Palestine", "Gaza"]
 title= "Forgotten"
 date = "2024-01-20"
