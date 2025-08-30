@@ -6,7 +6,7 @@ date = "2025-08-30"
 coverImage = "/img/readingcamp.png"
 +++
 
-I'm down with any initiative that encourages book people to hang out with other book people.
+I'm down with any initiative that encourages book people to spend more time with other book people.
 
 <!--more-->
 
