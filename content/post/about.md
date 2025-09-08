@@ -20,7 +20,7 @@ My mission is building tools, tutorials, and online courses to help make computi
 
 I have a Master of Engineering degree in Computer Science from Cornell University and a Bachelor of Arts degree in Mathematics from Rutgers University, and over 40 years of experience as a professional software developer and engineering manager at Bell Labs, Lucent Technologies, and Google.
 
-I've taught, as an instructor or guest lecturer, at numerous universities in the US and UK. I have three patents and co-authored an O'Reilly book on Google Compute Engine. My primary professional interests are Python Programming, Applied Mathematics, Web Development, Machine Learning/AI, Data Science, and Cloud Computing.
+I've taught as an instructor or guest lecturer at numerous universities in the US and UK. I have three patents and co-authored an O'Reilly book on Google Compute Engine. My primary professional interests are Python Programming, Applied Mathematics, Web Development, Machine Learning/AI, Data Science, and Cloud Computing.
 
 Other things I'm interested in:
 
