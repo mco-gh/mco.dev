@@ -9,7 +9,7 @@ showMeta = false
 showActions = false
 +++
 
-<img style="margin-right: 20px" height="200" align="left" src="/img/mco2.jpg" />
+<img style="margin-right: 20px" height="200" align="left" src="/img/mco.png" />
 <p> 
 I'm an American software engineer based in London.
 My mission is building tools, tutorials, and online courses to help make computing, mathematics, and data science more accessible and more inclusive.
