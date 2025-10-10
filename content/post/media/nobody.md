@@ -1,7 +1,7 @@
 +++
 categories = ["Media"]
-tags = ["OGT", "video", "documentary"]
-title = "[OGT] Movie Review: Mr. Nobody Against Putin"
+tags = ["video", "documentary"]
+title = "Movie Review: Mr. Nobody Against Putin"
 date = "2025-10-03"
 coverImage = "/img/nobody.png"
 +++
