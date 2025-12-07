@@ -16,7 +16,7 @@ For example:
 
 - The word "ass", referring to both a donkey and a part of our anatomy came from two entirely different routes. Regarding the latter use, the British word "arse" predates the more modern "ass" by about a thousand years.
 
-- Another word in this category that's near and dear to my heart: "puzzle". Apparently, no one has managed to solve the puzzle of the origin of "puzzle". (Sorry!)
+- Another word in this category that's near and dear to my heart: "puzzle". Apparently, no one has managed to solve the puzzle of the origin of "puzzle". (Sorry)
  
 Check out the video below for a fascinating walk through several such common English words of unknown origin.
 
