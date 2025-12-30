@@ -4,6 +4,7 @@ tags= ["Israel", "Palestine", "Gaza"]
 title= "Take me off this thread"
 date = "2025-12-28"
 coverImage = "/img/thread.png"
+weight = 1
 +++
 
 When you said “take me off this thread,” you denied who I am.  
