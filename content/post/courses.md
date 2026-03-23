@@ -3,154 +3,106 @@ description = ""
 tags = ["education"]
 title = "Online Courses"
 url = "/courses"
-thumbnailImage = "img/cat.jpg"
 comments = false
 showMeta = false
 showActions = false
+coverImage = "/img/talks.jpg"
 +++
 
-<img style="margin-right: 20px" height="250" align="left" src="/img/cat.jpg" />
+### **Join the <a target="_blank" href="https://groups.google.com/g/mco-edu">mco-edu</a> mailing list to stay informed about these courses.**
 
-Anyone can understand technology and learn to code.
-All it takes is regular practice, some determination, 
-and a good teacher. That's where I come in. I want to help you learn some
-useful skills. **If you are Palestinian, a woman, a person of color, or a member
-of any other group that is under-represented in tech, I'll teach you for free.**
-Others will be requested to pay a nominal fee, 100% of which goes to one of the
-wonderful charities curated by
-<a href="https://growingwatermelons.com" target="_blank">Growing Watermelons</a>.
+Computing technology is not just for computer scientists. As Tim Berners-Lee, inventor of the World Wide Web, famously said: "This is for everyone". Everyone deserves to understand what's going on in tech and all it takes is determination and a good teacher. 
 
-All my courses are:
+My courses are:  
+
 - **inclusive** - no prerequisites, perfect for beginners
-- **approachable** - nothing to install or configure on your computer
-- **affordable** - free for most, low cost charitable donation for others
-- **ad-free** - no ads on my site or my course material, not now, not ever
-- **practical** - understand not only the how, but the why
-- **interactive** - learn by doing, using Colab notebooks and other interactive tools
-
-<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4tNxbMk46JkWW5WXm-rIaxYUp_6YFSJ527FDiIstunzj2EQ/viewform">Signup for a course here.</a>
+- **accessible** - nothing to install or configure on your computer
+- **affordable** - low cost with a generous concession plan
+- **unobtrusive** - no ads on my site or my course material
+- **practical** - a strong focus on learning by doing
 
 # Course Catalog
 
-## Intro to Python
-
 <details>
 <summary>
-(Click here to expand course description.)<br>
-Python is a very popular programming language, probably the most widely used in the world nowadays. It's particularly used for AI and Data Science, which has propelled its recent growth. I find it one of the most expressive and natural programming languages. As some people like to say, "it fits my brain", and I agree.
+<font size="+2"><b>Vibecoding - Build an App with AI</b></font> (click to expand)
 </summary>
 
-### Logistics
+Have an idea for a web app but not sure how to bring it to life? Have you heard of vibecoding, or coding in English? In this hands-on, project-based course, you’ll learn how to build a working web application using the most up to date AI tools. It’s never been easier to turn your concept into reality.
 
-- six two-hour lessons
-- one meeting per week
-- modest homework between lessons
-- classes conducted online using Google Meet
-- **next offering**: starting in mid-January 2025 (exact dates and times to be announced)
-- <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4tNxbMk46JkWW5WXm-rIaxYUp_6YFSJ527FDiIstunzj2EQ/viewform">Signup Form</a>
+#### Prerequisites
+- No math, programming, or technical experience required
 
-### Course Material
+#### Content
+- Build your first web page
+- From web pages to web apps
+- Plan and start your app
+- Develop your app
+- Deploy your app
+- Show and tell
 
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/1_Welcome.ipynb">Notebook 1 - Course Overview, Background, and Getting Started</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/2_Variables.ipynb">Notebook 2 - Numbers, Strings, Variables, and Assignment Statements</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/3_Expressions.ipynb">Notebook 3 - Boolean Comparisons, Boolean Operators, and Expressions</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/4_Conditionals.ipynb">Notebook 4 - Controlling Program Flow and Using Modules</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/5_Loops.ipynb">Notebook 5 - More Strings and Loops</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/6_Functions.ipynb">Notebook 6 - Functions, Namespaces, and Modules</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/7_Iterables.ipynb">Notebook 7 - Tuples, Lists, and Dictionaries</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/8_Files.ipynb">Notebook 8 - Files, Errors, and Exceptions</a>
-- <a target="blank" href="https://colab.research.google.com/github/mco-gh/mco.dev/blob/master/static/notebooks/9_Project.ipynb">Notebook 9 - Sample Project</a>
+#### Logistics
+- six two-hour weekly online lessons
+- 1-2 hours of homework between lessons
+- price: 100 USD
+- **next offering**: to be determined, check here for updates
 </details>
 
-## Intro to AI
+<br>
+
 <details>
 <summary>
-(Click here to expand course description.)<br>
-My goal for this course is to help you understand AI well enough to engage in an intelligent conversation, to understand how it works, a bit about where it came from, and some of the limitations and concerns (both technological and ethical). It won't get anyone a job overnight but it will hopefully be a useful step toward understanding a technology that is revolutionizing our world.
+<font size="+2"><b>Introduction to AI</b></font> (click to expand)
 </summary>
 
-### Prerequisites
-- You are human (bots not allowed)
-- You are curious about AI and want to learn more
-- No technical knowledge required
-- No programming required
-- No maths required
+What a well informed person should know about AI. 
+Learn where this technology came from and how we got here, get some hands-on experience using AI in useful, practical scenarios, gain a conceptual understanding of how AI works, and explore some of the limitations and concerns (both technological and ethical) surrounding its widespread use. Take a concrete step toward understanding technology that is revolutionizing our world.
 
-### Goals
-- Gain a conceptual understanding of how AI “works”
-- Find out about the state of the art in AI
-- Consider the ethical issues raised by AI
-- Think critically about AI in your life and in the world
-- Help you prepare for the continuing revolution
+#### Prerequisites
+- No math, programming, or technical experience required
 
-### Non-goals
-- Deep dive into technology or maths
-- Deinitively answer diicult ethical or societal questions
-- Predict the future
-
-### Logistics 
-- four 1.5 hour lessons
-- one meeting per week
-- modest homework between lessons
-- classes conducted online using Google Meet
-- **next offering**: starting on 27 January 2025 and continuing for four successive Mondays
-- <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4tNxbMk46JkWW5WXm-rIaxYUp_6YFSJ527FDiIstunzj2EQ/viewform">Signup Form</a>
-
-### Agenda
-- My Fave AI App
+#### Content
+- A personal story
 - Definitions
 - History
+- Demos and Exercises
 - Mechanics
-- State of the Art
 - Ethics
 - The Future
 
-### Course Material
-- <a target="_blank" href="/IntroAI.pdf">Course Material</a>
+### Logistics 
+- four 1.5 hour weekly online lessons
+- one hour homework between lessons
+- price: 100 USD
+- **next offering**: to be determined, check here for updates
+
 </details>
 
-# FAQ
+<br>
 
 <details>
 <summary>
-Who are you?
+<font size="+2"><b>Introduction to Python</b></font> (click to expand)
 </summary>
 
-<a target="_blank" href="/about">About Marc</a>
+Python is one of the world's most widely used programming languages. It's particularly useful for AI and Data Science. It's also one of the most expressive and natural programming languages, and a great language for beginners. As some people like to say, "Python fits my brain", and I agree.
+
+#### Prerequisites
+- No math, programming, or technical experience required
+
+#### Content
+- Background
+- Types, Variables
+- Ops, Expressions
+- Conditionals
+- Loops
+- Lists, Tuples
+- Sample App
+
+#### Logistics
+- six two-hour weekly online lessons
+- 1-2 hours of homework between lessons
+- price: 100 USD
+- **next offering**: to be determined, check here for updates
 </details>
-<br>
-<details>
-<summary>
-Why are you doing this?
-</summary>
-<br>
-<img style="margin-right: 20px" height="250" align="left" src="/img/everyone.png" />
-As the great Tim Berners-Lee said about his historic invention
-(the World Wide Web): "this is for everyone". I want to make technology
-understandable for everyone, especially those people who haven't felt invited
-to the party.
-</details>
-<br>
-<details>
-<summary>
-Free? Really? What's the catch?
-</summary>
-<br>
-There is no catch. I don't need the money so everything here is free, apart from donations I solicit from those who already have some advantages and can afford to pay a small fee.
-</details>
-<br>
-<details>
-<summary>
-How can I stay in the loop on your course offerings, schedules, updates, etc?
-</summary>
-<br>
-Join the <a target="_blank" href="https://groups.google.com/g/mco-learn">mco-learn</a> mailing list, which I use to share news and information about my courses.
-</details>
-<br>
-<details>
-<summary>
-Can I help teach a course?
-</summary>
-<br>
-Not yet, but I'm hoping to expand my offerings once I get some experience with these courses. If you're interested in helping out, join the <a target="_blank" href="https://groups.google.com/g/mco-teach">mco-teach</a> mailing list, which I use to share news and information about teaching my courses.
-</details>
+
