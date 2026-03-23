@@ -23,7 +23,7 @@ My courses are:
 
 # Course Catalog
 
-### Next offerings are being planned, check here for updates.
+### Next offerings are being planned, join the <a target="_blank" href="https://groups.google.com/g/mco-learn">mco-learn</a> mailing list to stay informed about new offerings.
 
 <br>
 <details>
