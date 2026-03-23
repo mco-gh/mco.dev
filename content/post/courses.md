@@ -26,7 +26,6 @@ My courses are:
 ### Next offerings are being planned, check here for updates.
 
 <br>
-
 <details>
 <summary>
 <font size="+2"><b>Vibecoding - Build an App with AI</b></font> (click to expand)
