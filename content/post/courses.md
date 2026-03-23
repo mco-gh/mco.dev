@@ -44,7 +44,8 @@ Have an idea for a web app but not sure how to bring it to life? In this hands-o
 - Share your creation with the class
 
 #### Logistics
-- 6 two-hour weekly online lessons
+- 6 weeks
+- 90 minute weekly online lessons
 - 2 hours of homework after each lesson
 - price: 100 USD
 </details>
@@ -72,8 +73,9 @@ Learn where this technology came from and how we got here, get some hands-on exp
 - The Future
 
 ### Logistics 
-- four 1.5 hour weekly online lessons
-- 2 hours of homework after each lesson
+- 4 weeks
+- 60 minute weekly online lessons
+- no required homework
 - price: 100 USD
 </details>
 
@@ -99,8 +101,9 @@ Python is one of the world's most widely used programming languages. It's partic
 - Sample App
 
 #### Logistics
-- 6 two-hour weekly online lessons
-- 1-2 hours of homework between lessons
+- 6 weeks
+- 2 hour weekly online lessons
+- 2 hours of homework between lessons
 - price: 100 USD
 </details>
 
