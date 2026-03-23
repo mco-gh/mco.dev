@@ -11,41 +11,42 @@ coverImage = "/img/talks.jpg"
 
 ### **Join the <a target="_blank" href="https://groups.google.com/g/mco-learn">mco-learn</a> mailing list to stay informed about these courses.**
 
-Computing technology is not just for computer scientists. As Tim Berners-Lee, inventor of the World Wide Web, famously said: "This is for everyone". Everyone deserves to understand what's going on in tech and all it takes is determination and a good teacher. 
+Computing technology is not just for computer scientists. As the inventor of the World Wide Web, Tim Berners-Lee, famously said: "This is for everyone". To understanding what's going on in tech, all it takes is determination and a good teacher. 
 
 My courses are:  
 
+- **practical** - a strong focus on learning by doing
 - **inclusive** - no prerequisites, perfect for beginners
 - **accessible** - nothing to install or configure on your computer
 - **affordable** - low cost with a generous concession plan
 - **unobtrusive** - no ads on my site or my course material
-- **practical** - a strong focus on learning by doing
 
 # Course Catalog
+
+**Next offerings are to be determined, check here for updates.**
 
 <details>
 <summary>
 <font size="+2"><b>Vibecoding - Build an App with AI</b></font> (click to expand)
 </summary>
 
-Have an idea for a web app but not sure how to bring it to life? Have you heard of vibecoding, or coding in English? In this hands-on, project-based course, you’ll learn how to build a working web application using the most up to date AI tools. It’s never been easier to turn your concept into reality.
+Have an idea for a web app but not sure how to bring it to life? In this hands-on project-based course, you’ll learn how to build a working web application using the most up-to-date AI tools. It’s never been easier to turn an idea into reality.
 
 #### Prerequisites
 - No math, programming, or technical experience required
 
 #### Content
 - Build your first web page
-- From web pages to web apps
+- Build a simple web app 
 - Plan and start your app
 - Develop your app
 - Deploy your app
-- Show and tell
+- Share your creation with the class
 
 #### Logistics
-- six two-hour weekly online lessons
-- 1-2 hours of homework between lessons
+- 6 two-hour weekly online lessons
+- 2 hours of homework after each lesson
 - price: 100 USD
-- **next offering**: to be determined, check here for updates
 </details>
 
 <br>
@@ -72,10 +73,8 @@ Learn where this technology came from and how we got here, get some hands-on exp
 
 ### Logistics 
 - four 1.5 hour weekly online lessons
-- one hour homework between lessons
+- 2 hours of homework after each lesson
 - price: 100 USD
-- **next offering**: to be determined, check here for updates
-
 </details>
 
 <br>
@@ -100,9 +99,8 @@ Python is one of the world's most widely used programming languages. It's partic
 - Sample App
 
 #### Logistics
-- six two-hour weekly online lessons
+- 6 two-hour weekly online lessons
 - 1-2 hours of homework between lessons
 - price: 100 USD
-- **next offering**: to be determined, check here for updates
 </details>
 
