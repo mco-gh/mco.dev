@@ -9,7 +9,7 @@ showActions = false
 coverImage = "/img/talks.jpg"
 +++
 
-### **Join the <a target="_blank" href="https://groups.google.com/g/mco-edu">mco-edu</a> mailing list to stay informed about these courses.**
+### **Join the <a target="_blank" href="https://groups.google.com/g/mco-learn">mco-learn</a> mailing list to stay informed about these courses.**
 
 Computing technology is not just for computer scientists. As Tim Berners-Lee, inventor of the World Wide Web, famously said: "This is for everyone". Everyone deserves to understand what's going on in tech and all it takes is determination and a good teacher. 
 
