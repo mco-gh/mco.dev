@@ -23,7 +23,9 @@ My courses are:
 
 # Course Catalog
 
-**Next offerings are to be determined, check here for updates.**
+**Next offerings are being planned, check here for updates.**
+
+<br>
 
 <details>
 <summary>
