@@ -23,7 +23,7 @@ My courses are:
 
 # Course Catalog
 
-**Next offerings are being planned, check here for updates.**
+## Next offerings are being planned, check here for updates.
 
 <br>
 
