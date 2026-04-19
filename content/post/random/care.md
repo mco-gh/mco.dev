@@ -16,6 +16,6 @@ For example, while playing a part in our school play I would enunciate and emote
 
 While reading this <a target="_blank" href="https://alexwlchan.net/2025/cool-to-care/">lovely article by Alex Chan</a>, I was reminded of this period in my life. Alex's article is about embracing who you are and respecting the impulse to care deeply about something. I love this message and I think we should all celebrate the things we care about.
 
-As Alex notes, the particular passion is not the point - it's that the joy you get from caring deeply about something is to be celebrated, not to be ashamed of. In a world where social media magnifies the kind of scorn I experienced in my youth, choosing to be 'uncool' can be a quiet act of rebellion.
+As Alex notes, the particular passion is not the point - it's the joy you get from caring deeply about something. In a world where social media magnifies the kind of scorn I experienced in my youth, choosing to be uncool can be a quiet act of rebellion.
 
 Was there a time in your life when you realized that people thought you were uncool? What did you do about it?
