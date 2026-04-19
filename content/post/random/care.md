@@ -14,7 +14,7 @@ But there was a point somewhere around the fifth grade (age 10 or so) when I beg
 
 For example, while playing a part in our school play I would enunciate and emote like a mini-Brando, which prompted a group of girls to follow me around the playground at recess and repeat my lines back to me in unison, mocking my fervent delivery. It was my first experience of what it means to be "uncool" and so began a lifelong practice of toning down my enthusiasm in order to fit in. 
 
-While reading this <a target="_blank" href="https://alexwlchan.net/2025/cool-to-care/">lovely article by Alex Chan</a>, I was reminded of this period in my life. Alex's article is about embracing who you are and respecting the impulse to care deeply about something. I love this message and I think we should all celebrate the things we care about.
+While reading this <a target="_blank" href="https://alexwlchan.net/2025/cool-to-care/">lovely article by Alex Chan</a>, I was reminded of this period in my life. Alex’s article is about embracing who you are and respecting the impulse to care deeply about something. I love this message - we should celebrate the things we care about.
 
 As Alex notes, the particular passion is not the point - it's the joy you get from caring deeply about something. In a world where social media magnifies the kind of scorn I experienced in my youth, choosing to be uncool can be a quiet act of rebellion.
 
