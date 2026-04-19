@@ -18,4 +18,4 @@ While reading this <a target="_blank" href="https://alexwlchan.net/2025/cool-to-
 
 As Alex notes, the particular passion is not the point - it's the joy you get from caring deeply about something. In a world where social media magnifies the kind of scorn I experienced in my youth, choosing to be uncool can be a quiet act of rebellion.
 
-Was there a time in your life when you realized that people thought you were uncool? What did you do about it?
+Was there a time in your life when you felt uncool? What did you do about it?
