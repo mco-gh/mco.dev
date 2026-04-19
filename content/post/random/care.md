@@ -1,7 +1,7 @@
 +++
 categories = ["One Great Thing", "Random"]
 tags = ["One Great Thing", "Caring"]
-title = "It's Cool to Care"
+title = "It's cool to care"
 date = "2026-04-19"
 coverImage = "/img/care.png"
 +++
