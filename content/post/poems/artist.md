@@ -31,7 +31,7 @@ Continuing this game.
 And what do you see, he queried her,  
 When you look upon the same?  
 
-I see a loving friend, she replied,
+I see a loving friend, she replied,  
 Illuminating this eve.  
 I see a million points of light  
 Reminding us to breathe.  
