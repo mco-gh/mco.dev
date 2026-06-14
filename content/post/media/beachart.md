@@ -14,7 +14,7 @@ Many thanks to my dear friend Anne, who shared <a href="https://vimeo.com/107544
 
 On a cinematic level, it's an incredible piece of work - enigmatic, moving, and beautifully filmed. But it goes beyond that. It's a meditation on life and art, and the relationship between the two.
 
-The artist depicted in the film, <a href="https://www.northcornwallcoastpathwalks.co.uk/home" target="_blank">Bill Bartlett</a>, has an ephemeral relationship with his work, which is swiftly eroded by the relentless tides. On the surface, this would seem a Sisyphean task. He spends hours crafting something unique only to have to start over again the next day. But there's a lesson here: art is not about the final product, it's about the joy of creating something unique.
+The artist depicted in the film, <a href="https://www.northcornwallcoastpathwalks.co.uk/home" target="_blank">Bill Bartlett</a>, has an ephemeral relationship with his work, which is swiftly eroded by the relentless tides. On the surface, this would seem a Sisyphean task - he spends hours crafting special only to start over again the next day. But there's a lesson here: art is not about the final product, it's about the joy of creating something unique.
 
 Because his canvas is so public, countless people enjoy his art, and Bartlett benefits from frequent small interactions and kind words exchanged with passers-by. His art serves not only his self-expression but also his desire to connect with other people.
 
