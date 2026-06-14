@@ -18,6 +18,8 @@ The artist depicted in the film, <a href="https://www.northcornwallcoastpathwalk
 
 Because his canvas is so public, countless people admire his art, and Bartlett benefits from frequent small interactions and kind words exchanged with passers-by. His art serves not only his need for self-expression but also his desire to connect with other people.
 
+> But now that I’m free to do anything I want, it’s time to figure out what really makes me happy.
+
 As a newly retired person, I've struggled a bit with my own purpose in life. Like many people, my job served that function for me. But now that I'm free to do anything I want, it's time to figure out what really makes me happy. Whether it's through writing or music or some other form of expression, I want to do something creative, something that gives me joy and enables small connections with others.
 
 Like Bill, I won't care if it stays around for years or minutes. This beautiful film reminded me that the creative process is its own reward, and I'm ready to find mine.
