@@ -16,7 +16,7 @@ On a cinematic level, it's an incredible piece of work - enigmatic, moving, and 
 
 The artist depicted in the film, <a href="https://www.northcornwallcoastpathwalks.co.uk/home" target="_blank">Bill Bartlett</a>, has an ephemeral relationship with his work, which is swiftly eroded by the relentless tides. On the surface, this would seem a Sisyphean task - he spends hours crafting something special only to start over again the next day. But there's a lesson here: art is not about the final product, it's about the joy of creation.
 
-Because his canvas is so public, countless people enjoy his art, and Bartlett benefits from frequent small interactions and kind words exchanged with passers-by. His art serves not only his self-expression but also his desire to connect with other people.
+Because his canvas is so public, countless people admire his art, and Bartlett benefits from frequent small interactions and kind words exchanged with passers-by. His art serves not only his self-expression but also his desire to connect with other people.
 
 As a newly retired person, I've struggled a bit with my purpose in life. Like many people, my job served that function for me. But now that I'm free to do anything I want, it's time to figure out what really makes me happy. Whether it's through writing or music or some other form of expression, I want to do something creative, something that gives me joy and enables small connections with others.
 
