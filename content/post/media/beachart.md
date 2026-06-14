@@ -1,7 +1,7 @@
 +++
 categories = ["Media"]
 tags = ["video", "documentary"]
-title = "We are all artists"
+title = "Finding Purpose in the Creative Process"
 date = "2026-06-14"
 coverImage = "/img/beachart.png"
 +++
