@@ -16,7 +16,7 @@ What do you do next? Just sit quietly with your thoughts for as long as it takes
 
 I emerge from these sessions with ideas, much like the way a walk in the woods often sparks creativity. The same dynamic is at work: you're left alone with your mind, free from attention magnets.
 
-After that, the next step in my morning is a quick ten-minute <a target="_blank" href="https://mco.dev/writing-as-therapy/">journaling session</a>. By then, I usually have a few fresh ideas ready to capture.
+After that, the next step in my morning is a ten-minute <a target="_blank" href="https://mco.dev/writing-as-therapy/">journaling session</a>. By then, I usually have a few fresh ideas ready to capture.
 
 Though I've tried in the past, I've never managed to establish a regular meditation practice. Yet this feels like what I imagine meditation to be, albeit in a less structured form. You don't have to close your eyes (though you can), and the results feel very similar: tranquility, clarity of thought, and a sense of peace. Plus, you really savor your coffee in a way you completely miss while doomscrolling.
 
