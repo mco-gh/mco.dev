@@ -10,7 +10,7 @@ Do you have a morning ritual? I have a new one and, so far, it seems to be helpi
 
 <!--more-->
 
-Watch this <a target="_blank" href="https://www.youtube.com/watch?v=OGNeslCMkNQ">short (1:41) video</a>. In addition to proposing an interesting morning ritual, it has a satisfying ASMR quality that is surprisingly soothing to watch. The gist of the idea: start your day with a fresh, hot cup of coffee, then strip away the inputs. No music, no reading, no screens—basically, avoiding everything many of us have been conditioned to dive into the second our eyes open.
+Watch this <a target="_blank" href="https://www.youtube.com/watch?v=OGNeslCMkNQ">short (1:41) video</a>. In addition to proposing an interesting morning ritual, it has a satisfying <a target="_blank" href="https://en.wikipedia.org/wiki/ASMR">ASMR</a> quality that is surprisingly soothing to watch. The gist of the idea: start your day with a fresh, hot cup of coffee, then strip away the inputs. No music, no reading, no screens—basically, avoiding everything many of us have been conditioned to dive into the second our eyes open.
 
 What do you do next? Just sit quietly with your thoughts for as long as it takes to finish your coffee in a leisurely fashion. I've been doing this for a few mornings now, and I really appreciate starting the day this way. Screens give our brains an excuse not to think, and this forces you in the opposite direction.
 
