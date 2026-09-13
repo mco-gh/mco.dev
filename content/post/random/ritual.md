@@ -14,7 +14,7 @@ Watch this <a target="_blank" href="https://www.youtube.com/watch?v=OGNeslCMkNQ"
 
 What do you do next? Just sit quietly with your thoughts for as long as it takes to finish your coffee in a leisurely fashion. I've been doing this for a few mornings now, and I really appreciate starting my day this way. <a target="_blank" href="https://mco.dev/the-death-of-daydreaming/">Screens give our brains an excuse not to think</a>, and this forces you in the opposite direction.
 
-I emerge from these sessions with ideas, much like the way a walk in the woods often sparks creativity. The same dynamic is at work: you're left alone with your mind, free from the attention magnets.
+I emerge from these sessions with ideas, much like the way a walk in the woods often sparks creativity. The same dynamic is at work: you're left alone with your mind, free from attention magnets.
 
 After that, the next step in my morning is a quick ten-minute <a target="_blank" href="https://mco.dev/writing-as-therapy/">journaling session</a>. By then, I usually have a few fresh ideas ready to capture.
 
