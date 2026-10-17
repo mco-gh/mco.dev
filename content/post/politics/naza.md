@@ -6,7 +6,7 @@ date = "2026-10-17"
 coverImage = "/img/naza.png"
 +++
 
-I have many relatives who will almost certainly refuse to watch this film because it presents a reality they are unwilling to confront. Yet for anyone who values unvarnished truth over comforting dogma, the documentary *Naza* is essential viewing.
+I have many relatives who will almost certainly refuse to watch this film because it presents a reality they are unwilling to confront. Yet for anyone who values the truth over comforting dogma, the documentary *Naza* is essential viewing.
 
 <!--more-->  
 
