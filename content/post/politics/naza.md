@@ -17,4 +17,6 @@ Listening to these combatants rationalize their roles in widespread destruction 
 
 *Naza* is harrowing, difficult, and profoundly important. By letting the soldiers convict themselves in their own words, the film strips away political abstraction and exposes the mechanics of modern warfare in its most dehumanizing form.
 
+<br>
+
 {{< youtube YIBRLEEaueo >}}
