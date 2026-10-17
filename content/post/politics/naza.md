@@ -10,7 +10,7 @@ I have many relatives who will almost certainly refuse to watch this film becaus
 
 <!--more-->  
 
-What distinguishes *Naza* is its structural choice to document mass atrocities not through the eyes of the victims, but through the testimonies of the perpetrators. The film features interviews with 24 Israeli soldiers involved in remote strikes and operations targeting Palestinian civilians in Gaza. In doing so, it serves as a critical historical record—exposing the internal mechanics of the military apparatus and an institutional indifference to Palestinian life.
+What distinguishes *Naza* is its structural choice to document mass atrocities not through the eyes of the victims, but through the testimonies of the perpetrators. The film features interviews with 24 Israeli soldiers involved in remote strikes and operations targeting Palestinian civilians in Gaza. In doing so, it serves as a critical historical record—exposing the internal mechanics of the Israeli military's institutional indifference to Palestinian life.
 
 Listening to these combatants rationalize their roles in widespread destruction inevitably brings to mind the bureaucratic detachment famously examined in the aftermath of the Holocaust. The defense of "just following orders," reduced here to automated workflows and technical coordinates, is chillingly familiar. Hearing the descendants of Holocaust survivors using similar systemic rationalizations is simultaneously ironic and deeply unsettling.
 
