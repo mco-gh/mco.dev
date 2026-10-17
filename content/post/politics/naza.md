@@ -1,7 +1,7 @@
 +++
 categories = ["Politics"]
 tags= ["Israel", "Palestine", "Gaza", "Movie review", "Naza"]
-title= "Movie Review: *Naza*"
+title= "Movie Review: Naza"
 date = "2026-10-17"
 coverImage = "/img/naza.png"
 +++
