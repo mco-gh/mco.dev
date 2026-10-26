@@ -12,7 +12,7 @@ Yesterday I happened to see an ad for KFC featuring an older gentleman playing a
 
 Frank is a a retired 73 years old Brit, who's been recording acoustic covers and original songs since 2011 on his <a target="_blank" href="https://www.youtube.com/@Virtualgranddad">Youtube channel</a>, which now has over one million subscribers.
 
-Here's the original KFC spot that first caught my eye.
+Here's the original KFC spot that first caught my eye:
 
 <br>
 
@@ -20,7 +20,7 @@ Here's the original KFC spot that first caught my eye.
 
 There's a lot wrong with this modern world, but one thing I love is that anyone with enough talent, tenacity, and heart can share their music with a million fans.
 
-Here's Frank collaborating with some talented friends on a lovely version of Cat Steven's *The First Cut is the Deepest*.
+Here's Frank collaborating with some talented friends on a lovely version of Cat Steven's *The First Cut is the Deepest*:
 
 <br>
 
