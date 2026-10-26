@@ -10,7 +10,7 @@ Yesterday I happened to see an ad for KFC featuring an older gentleman playing a
 
 <!--more-->
 
-Frank is a a retired, 73 years old Brit, who's been recording acoustic covers and original songs since 2011 on his <a target="_blank" href="https://www.youtube.com/@Virtualgranddad">Youtube channel</a>, which now has over one million subscribers.
+Frank is a a retired 73 years old Brit, who's been recording acoustic covers and original songs since 2011 on his <a target="_blank" href="https://www.youtube.com/@Virtualgranddad">Youtube channel</a>, which now has over one million subscribers.
 
 Here's the original KFC spot that first caught my eye.
 
