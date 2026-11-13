@@ -4,22 +4,33 @@ Flashcards with spaced repetition for the 2,809 most common English words
 (New General Service List 1.2). A fully static, offline-capable progressive web app:
 no server code, no login, all progress in the browser's localStorage.
 
-## Run it
+## Where it lives
 
-Any static file server works. Service workers need `http://localhost` or HTTPS
-(opening `index.html` straight from disk will not work, because browsers block
-module scripts and service workers on `file://`).
+The app is part of the mco.dev Hugo site and is published at https://mco.dev/words/.
 
-    cd app
-    python3 -m http.server 4173
+- `static/words/` is the app itself. Hugo copies `static/` to the site unchanged,
+  so everything in that folder is public.
+- `words-src/` (this folder) holds what should not be published: this README,
+  the data-generation sources in `build/`, and a local preview config in `.claude/`.
 
-Then open http://localhost:4173. To publish, upload the contents of `app/` to any
-static host (GitHub Pages, Netlify, Cloudflare Pages, S3, ...). All paths are relative,
-so it also works from a sub-folder.
+## Run it locally
+
+Serve the site's `static/` folder so URLs match production:
+
+    python3 -m http.server 4174 --directory static
+
+Then open http://localhost:4174/words/. Running `hugo server` also works
+(http://localhost:1313/words/). Opening `index.html` straight from disk does not
+work, because browsers block module scripts and service workers on `file://`.
+
+## Publish
+
+Commit and push to `master`; Netlify runs `hugo` and publishes `public/`.
+Before each release, bump `VERSION` in `static/words/sw.js` (see Updating).
 
 ## Layout
 
-    app/
+    static/words/                 the published app (https://mco.dev/words/)
       index.html, styles.css      markup and styles
       app.js                      UI, session queue, settings, routing
       srs.js                      spaced-repetition scheduler (pure functions)
@@ -28,7 +39,7 @@ so it also works from a sub-folder.
       sw.js, manifest.webmanifest PWA: offline cache and install metadata
       data/words.json             [word, IPA, part of speech] in frequency order
       data/defs.<lang>.json       one definition per word, same order
-    build/                        scripts and sources used to generate data/
+    words-src/build/              scripts and sources used to generate data/
 
 ## Spaced repetition
 
@@ -46,16 +57,16 @@ Settings (new words/day, max reviews/day, order, pace) live under
 
 ## Add a definition language
 
-1. Create `app/data/defs.<code>.json`: a JSON array of 2,809 strings in the same
+1. Create `static/words/data/defs.<code>.json`: a JSON array of 2,809 strings in the same
    order as `words.json`.
-2. Add an entry to `LANGS` in `app/i18n.js` (name, defs path, part-of-speech labels,
+2. Add an entry to `LANGS` in `static/words/i18n.js` (name, defs path, part-of-speech labels,
    interval units, UI strings; missing UI strings fall back to English).
-3. Add the new file to `ASSETS` in `app/sw.js` and bump `VERSION` there.
+3. Add the new file to `ASSETS` in `static/words/sw.js` and bump `VERSION` there.
 
 ## Updating
 
 The service worker serves cached files first and refreshes them in the background,
-so bump `VERSION` in `sw.js` on every release; users get the new version on their
+so bump `VERSION` in `static/words/sw.js` on every release; users get the new version on their
 next visit.
 
 ## Credits
