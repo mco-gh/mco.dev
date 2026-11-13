@@ -25,7 +25,7 @@ export const LANGS = {
     pos: { noun: 'noun', verb: 'verb', adj: 'adjective', adv: 'adverb', prep: 'preposition', pron: 'pronoun', conj: 'conjunction', det: 'determiner', aux: 'auxiliary', intj: 'interjection', num: 'number' },
     units: { today: 'today', d: 'd', mo: 'mo', y: 'y' },
     ui: {
-      'app.tagline': 'Learn the 2,809 most common English words, covering 90+% of written text, in a few minutes a day.',
+      'app.tagline': 'Learn the most common English words, covering 90% of text, in a few minutes a day.',
       'nav.about': 'About', 'about.title': 'About Words', 'about.close': 'Close',
       'nav.study': 'Study', 'nav.words': 'List', 'nav.progress': 'Progress', 'nav.settings': 'Settings',
       'chip.new': 'New', 'chip.learning': 'Learning', 'chip.review': 'Review',
@@ -81,7 +81,7 @@ export const LANGS = {
     pos: { noun: 'nom', verb: 'verbe', adj: 'adjectif', adv: 'adverbe', prep: 'préposition', pron: 'pronom', conj: 'conjonction', det: 'déterminant', aux: 'auxiliaire', intj: 'interjection', num: 'nombre' },
     units: { today: 'auj.', d: 'j', mo: 'mois', y: 'an' },
     ui: {
-      'app.tagline': 'Apprenez les 2 809 mots anglais les plus courants, qui couvrent plus de 90 % des textes écrits, en quelques minutes par jour.',
+      'app.tagline': 'Apprenez les mots anglais les plus courants, 90 % des textes, en quelques minutes par jour.',
       'nav.about': 'À propos', 'about.title': 'À propos de Words', 'about.close': 'Fermer',
       'nav.study': 'Étudier', 'nav.words': 'Liste', 'nav.progress': 'Progrès', 'nav.settings': 'Réglages',
       'chip.new': 'Nouveaux', 'chip.learning': 'En cours', 'chip.review': 'À revoir',
