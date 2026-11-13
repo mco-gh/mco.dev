@@ -3,7 +3,7 @@ import {
   KEYS, emptyProgress, loadProgress, saveProgress, loadSettings, saveSettings,
   sanitizeProgress, sanitizeSettings, requestPersistence,
 } from './store.js';
-import { LANGS, t, setLang, getLang, posLabel, fmtInterval } from './i18n.js';
+import { LANGS, t, setLang, getLang, posLabel, fmtInterval, aboutContent } from './i18n.js';
 
 const $ = (id) => document.getElementById(id);
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -63,10 +63,38 @@ function applyStrings() {
   for (const el of document.querySelectorAll('[data-i18n]')) el.textContent = t(el.dataset.i18n);
   for (const el of document.querySelectorAll('[data-i18n-aria]')) el.setAttribute('aria-label', t(el.dataset.i18nAria));
   for (const el of document.querySelectorAll('[data-i18n-placeholder]')) el.placeholder = t(el.dataset.i18nPlaceholder);
-  $('open-settings').setAttribute('aria-label', t('nav.settings'));
+  for (const [id, key] of [['open-settings', 'nav.settings'], ['open-about', 'nav.about']]) {
+    $(id).setAttribute('aria-label', t(key));
+    $(id).title = t(key);
+  }
+  renderAbout();
   $('speak').setAttribute('aria-label', t('card.listen'));
   $('tabs').setAttribute('aria-label', 'Words');
   updateSchemeLabel();
+}
+
+function renderAbout() {
+  const nodes = [];
+  for (const section of aboutContent()) {
+    const wrap = el('section');
+    wrap.append(el('h3', '', section.h));
+    if (section.p) {
+      const p = el('p');
+      for (const part of section.p) {
+        if (typeof part === 'string') { p.append(part); continue; }
+        const a = el('a', '', part.text);
+        a.href = part.href;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        p.append(a);
+      }
+      wrap.append(p);
+    }
+    if (section.ul) wrap.append(el('ul'));
+    for (const item of section.ul ?? []) wrap.lastChild.append(el('li', '', item));
+    nodes.push(wrap);
+  }
+  $('about-body').replaceChildren(...nodes);
 }
 
 // ───────── Session / queue ─────────

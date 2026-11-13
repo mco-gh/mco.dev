@@ -29,9 +29,14 @@
       </svg>
       <span>Words</span>
     </a>
-    <button class="icon-btn" type="button" command="show-modal" commandfor="settings" id="open-settings">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4.5v5M6 14.5v5" /><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>
-    </button>
+    <div class="header-actions">
+      <button class="icon-btn" type="button" command="show-modal" commandfor="about" id="open-about">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5"/><circle cx="12" cy="7.75" r="0.6" fill="currentColor"/></svg>
+      </button>
+      <button class="icon-btn" type="button" command="show-modal" commandfor="settings" id="open-settings">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4.5v5M6 14.5v5" /><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>
+      </button>
+    </div>
   </header>
 
   <nav class="tabs" id="tabs">
@@ -50,6 +55,7 @@
   </nav>
 
   <main id="main">
+    <p class="tagline" data-i18n="app.tagline">Learn the 2,809 most common English words, covering 90+% of written text, in a few minutes a day.</p>
     <p class="load-error" id="load-error" role="alert" hidden></p>
 
     <!-- Study -->
@@ -226,6 +232,17 @@
     </div>
     <form method="dialog" class="dialog-foot">
       <button class="primary-btn" data-i18n="set.close">Done</button>
+    </form>
+  </dialog>
+
+  <!-- About -->
+  <dialog id="about" aria-labelledby="about-title" closedby="any">
+    <header class="dialog-head">
+      <h2 id="about-title" data-i18n="about.title">About Words</h2>
+    </header>
+    <div class="dialog-body about" id="about-body"></div>
+    <form method="dialog" class="dialog-foot">
+      <button class="primary-btn" autofocus data-i18n="about.close">Close</button>
     </form>
   </dialog>
 

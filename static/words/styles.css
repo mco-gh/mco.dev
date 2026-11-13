@@ -124,6 +124,8 @@ a { color: var(--accent); }
 .logo-back { fill: color-mix(in srgb, var(--accent) 35%, transparent); }
 .logo-front { fill: var(--accent-l); }
 
+.header-actions { display: flex; gap: 0.5rem; }
+
 .icon-btn {
   display: inline-grid; place-items: center;
   inline-size: 44px; block-size: 44px;
@@ -185,6 +187,14 @@ main {
   margin: 2rem auto; padding: 1rem 1.25rem; max-inline-size: 30rem;
   border: 1px solid var(--again); border-radius: var(--radius);
   background: color-mix(in srgb, var(--again) 10%, var(--surface));
+}
+
+/* ───────── Tagline ───────── */
+.tagline {
+  margin-block-end: 0.9rem;
+  color: var(--muted);
+  font-size: clamp(0.92rem, 0.86rem + 0.3vw, 1.02rem);
+  text-wrap: balance;
 }
 
 /* ───────── Study ───────── */
@@ -438,6 +448,14 @@ dialog::backdrop { background: rgb(10 8 25 / 0.5); -webkit-backdrop-filter: blur
 .soft-btn.danger { color: var(--again); border-color: color-mix(in srgb, var(--again) 40%, transparent); background: color-mix(in srgb, var(--again) 8%, var(--surface)); }
 .soft-btn.danger.solid { background: var(--again); color: #fff; border-color: transparent; }
 .credit { padding-block-start: 0.4rem; border-block-start: 1px solid var(--border); }
+
+/* About dialog */
+.about { gap: 1.15rem; line-height: 1.55; }
+.about h3 { margin: 0 0 0.3rem; font-size: 1rem; }
+.about ul { display: grid; gap: 0.4rem; padding-inline-start: 1.25rem; list-style: disc; }
+.about li { padding-inline-start: 0.15rem; text-wrap: pretty; }
+.about li::marker { color: var(--accent); }
+.about a { text-underline-offset: 0.15em; }
 
 /* ───────── Toast ───────── */
 .toast {
