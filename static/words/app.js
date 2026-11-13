@@ -1,4 +1,4 @@
-import { schedule, bucket, pack, unpack, dayNumber, dateOfDay, AGAIN } from './srs.js';
+import { schedule, bucket, pack, unpack, dayNumber, dateOfDay, newCardOrder, AGAIN } from './srs.js';
 import {
   KEYS, emptyProgress, loadProgress, saveProgress, loadSettings, saveSettings,
   sanitizeProgress, sanitizeSettings, requestPersistence,
@@ -129,21 +129,19 @@ function startSession() {
   renderStudy();
 }
 
+const orderCache = {};
+
+/** The next `count` unseen words in the chosen new-word order. */
 function pickNew(count) {
   if (count <= 0) return [];
-  const unseen = [];
-  for (let id = 0; id < words.length; id++) {
+  const order = (orderCache[settings.order] ??= newCardOrder(settings.order, words.length));
+  const picked = [];
+  for (const id of order) {
     if (progress.cards[id]) continue;
-    unseen.push(id);
-    if (settings.order === 'frequency' && unseen.length === count) break;
+    picked.push(id);
+    if (picked.length === count) break;
   }
-  if (settings.order === 'random') {
-    for (let k = unseen.length - 1; k > 0; k--) {
-      const j = Math.floor(Math.random() * (k + 1));
-      [unseen[k], unseen[j]] = [unseen[j], unseen[k]];
-    }
-  }
-  return unseen.slice(0, count);
+  return picked;
 }
 
 function answer(rating) {
@@ -439,7 +437,7 @@ function fillSettingsForm() {
   $('lang').value = getLang();
   $('newPerDay').value = settings.newPerDay;
   $('maxReviews').value = settings.maxReviews;
-  $('order').value = settings.order;
+  for (const input of document.querySelectorAll('input[name="order"]')) input.checked = input.value === settings.order;
   $('pace').value = String(settings.pace);
   syncSchemeControl();
 }
@@ -553,7 +551,11 @@ function wireEvents() {
   $('lang').addEventListener('change', (e) => changeLanguage(e.target.value));
   $('scheme').addEventListener('change', (e) => setScheme(e.target.value));
   darkQuery.addEventListener('change', updateSchemeLabel);
-  for (const id of ['newPerDay', 'maxReviews', 'order', 'pace']) {
+  $('order').addEventListener('change', (e) => {
+    updateSettings({ order: e.target.value });
+    if (words.length) refreshAll();
+  });
+  for (const id of ['newPerDay', 'maxReviews', 'pace']) {
     $(id).addEventListener('change', (e) => {
       updateSettings({ [id]: e.target.value });
       e.target.value = String(settings[id]);

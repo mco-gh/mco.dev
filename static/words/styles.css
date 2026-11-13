@@ -430,6 +430,27 @@ dialog::backdrop { background: rgb(10 8 25 / 0.5); -webkit-backdrop-filter: blur
 .row { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; flex-wrap: wrap; }
 .row label { flex: 1 1 10rem; }
 .row select { max-inline-size: 100%; }
+.choices { display: grid; gap: 0.5rem; margin: 0.25rem 0 0.4rem; padding: 0; border: 0; min-inline-size: 0; }
+.choices > legend { padding: 0; margin-block-end: 0.5rem; }
+.choice {
+  display: grid; grid-template-columns: auto 1fr; column-gap: 0.7rem; row-gap: 0.15rem; align-items: start;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--border); border-radius: 14px;
+  background: var(--surface);
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+.choice:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
+.choice:has(input:checked) { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+.choice input { grid-row: span 2; inline-size: 1.15rem; block-size: 1.15rem; margin: 0.15rem 0 0; }
+.choice-title { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.5rem; font-weight: 600; }
+.choice-help { color: var(--muted); font-size: 0.88rem; line-height: 1.45; text-wrap: pretty; }
+.tag {
+  padding: 0.05rem 0.5rem; border-radius: 999px;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase;
+  color: var(--on-accent); background: var(--accent);
+}
+
 .btn-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
 .segmented { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; padding: 4px; border-radius: 14px; background: var(--sunken); }

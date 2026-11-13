@@ -44,7 +44,7 @@ export function sanitizeSettings(s = {}) {
   return {
     newPerDay: Math.round(num(s.newPerDay, 0, 100, d.newPerDay)),
     maxReviews: Math.round(num(s.maxReviews, 10, 500, d.maxReviews)),
-    order: s.order === 'random' ? 'random' : 'frequency',
+    order: ['mixed', 'frequency', 'random'].includes(s.order) ? s.order : d.order,
     pace: num(s.pace, 0.5, 2, d.pace),
     lang: typeof s.lang === 'string' ? s.lang : d.lang,
   };

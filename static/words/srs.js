@@ -13,7 +13,7 @@ export const AGAIN = 1, HARD = 2, GOOD = 3, EASY = 4;
 export const DEFAULT_SETTINGS = Object.freeze({
   newPerDay: 10,      // new words introduced per daily session
   maxReviews: 100,    // cap on due reviews per daily session
-  order: 'frequency', // 'frequency' (most common first) | 'random'
+  order: 'mixed',     // 'mixed' | 'frequency' (most common first) | 'random'
   pace: 1,            // interval multiplier: <1 = see cards more often, >1 = less often
   lang: 'en',         // definition language
 });
@@ -82,6 +82,66 @@ export function bucket(card) {
   if (!card) return 'new';
   if (card.i === 0) return 'learning';
   return card.i >= 21 ? 'mature' : 'young';
+}
+
+// ───────── New-word order ─────────
+// Each mode is a fixed sequence of word indexes, so the same words come up on
+// every visit and reload; each day's new words are the next unseen ones in it.
+
+/** Small deterministic PRNG (mulberry32). */
+function seededRandom(seed) {
+  return () => {
+    seed = (seed + 0x6d2b79f5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+/**
+ * Frequency bands for 'mixed' (by rank, 0-based) and how often each is drawn.
+ * 4 : 3 : 2 : 1 means a day of 10 new words averages 4 very common, 3 common,
+ * 2 less common and 1 rarer word. Within a band, words still come in frequency
+ * order. When a band runs out, the others share its weight.
+ */
+export const MIX_BANDS = [
+  { upTo: 500, weight: 4 },
+  { upTo: 1200, weight: 3 },
+  { upTo: 2000, weight: 2 },
+  { upTo: Infinity, weight: 1 },
+];
+
+/** @param {'mixed'|'frequency'|'random'} mode  @param {number} count  number of words */
+export function newCardOrder(mode, count) {
+  const ids = Array.from({ length: count }, (_, i) => i);
+  if (mode === 'frequency') return ids;
+
+  if (mode === 'random') {
+    const rand = seededRandom(0x5eed);
+    for (let k = ids.length - 1; k > 0; k--) {
+      const j = Math.floor(rand() * (k + 1));
+      [ids[k], ids[j]] = [ids[j], ids[k]];
+    }
+    return ids;
+  }
+
+  const rand = seededRandom(0x313d);
+  const bands = MIX_BANDS.map(() => []);
+  for (const id of ids) bands[MIX_BANDS.findIndex((b) => id < b.upTo)].push(id);
+  const next = bands.map(() => 0);
+  const out = [];
+  while (out.length < count) {
+    const open = MIX_BANDS.map((b, k) => (next[k] < bands[k].length ? b.weight : 0));
+    let r = rand() * open.reduce((a, w) => a + w, 0);
+    let pick = open.findLastIndex((w) => w > 0);
+    for (let k = 0; k < open.length; k++) {
+      if (!open[k]) continue;
+      r -= open[k];
+      if (r < 0) { pick = k; break; }
+    }
+    out.push(bands[pick][next[pick]++]);
+  }
+  return out;
 }
 
 // Compact array form for storage: [interval, ease, due, reps, lapses]

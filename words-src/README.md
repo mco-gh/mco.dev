@@ -52,6 +52,19 @@ An SM-2 style scheduler in whole days, assuming one session per day.
 - Late reviews answered correctly get credit for the extra time elapsed.
 - The day rolls over at 04:00 local time. Intervals are capped at 365 days.
 
+## New-word order
+
+Each order is a fixed sequence of the 2,809 words (`newCardOrder` in `srs.js`);
+each day's new words are the next unseen ones in it, so they don't reshuffle on reload.
+
+- **Mixed** (default): draws from four frequency bands (ranks 1-500, 501-1200,
+  1201-2000, 2001+) weighted 4 : 3 : 2 : 1, keeping frequency order within each band.
+  A day of 10 new words averages 4 very common, 3 common, 2 less common and 1 rarer word.
+  Tune `MIX_BANDS` to change the blend.
+- **Most common first**: strict frequency order. Best for beginners.
+- **Random**: a fixed shuffle of the whole list. Mostly less common words, so best
+  for advanced learners.
+
 Settings (new words/day, max reviews/day, order, pace) live under
 `wordspring.settings.v1`; progress under `wordspring.progress.v1`.
 

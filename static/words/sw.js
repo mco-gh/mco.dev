@@ -1,6 +1,6 @@
 // Offline support: precache the whole app, serve from cache, refresh in the background.
 // Bump VERSION whenever any file below changes.
-const VERSION = 'v6';
+const VERSION = 'v7';
 const CACHE = `wordspring-${VERSION}`;
 const ASSETS = [
   './',

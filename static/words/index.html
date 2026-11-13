@@ -195,13 +195,24 @@
           <label for="maxReviews" data-i18n="set.maxReviews">Maximum reviews per day</label>
           <input type="number" id="maxReviews" min="10" max="500" step="10" inputmode="numeric">
         </div>
-        <div class="row">
-          <label for="order" data-i18n="set.order">New word order</label>
-          <select id="order">
-            <option value="frequency" data-i18n="set.orderFreq">Most common first</option>
-            <option value="random" data-i18n="set.orderRandom">Random</option>
-          </select>
-        </div>
+        <fieldset class="choices" id="order">
+          <legend data-i18n="set.order">New word order</legend>
+          <label class="choice">
+            <input type="radio" name="order" value="mixed" aria-describedby="order-mixed-help">
+            <span class="choice-title"><span data-i18n="set.orderMixed">Mixed</span> <span class="tag" data-i18n="set.recommended">Recommended</span></span>
+            <span class="choice-help" id="order-mixed-help" data-i18n="set.orderMixedHelp"></span>
+          </label>
+          <label class="choice">
+            <input type="radio" name="order" value="frequency" aria-describedby="order-frequency-help">
+            <span class="choice-title" data-i18n="set.orderFreq">Most common first</span>
+            <span class="choice-help" id="order-frequency-help" data-i18n="set.orderFreqHelp"></span>
+          </label>
+          <label class="choice">
+            <input type="radio" name="order" value="random" aria-describedby="order-random-help">
+            <span class="choice-title" data-i18n="set.orderRandom">Random</span>
+            <span class="choice-help" id="order-random-help" data-i18n="set.orderRandomHelp"></span>
+          </label>
+        </fieldset>
         <div class="row">
           <label for="pace" data-i18n="set.pace">Review pace</label>
           <select id="pace">
