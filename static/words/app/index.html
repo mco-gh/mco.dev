@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Words — flashcards for the most common English words</title>
+  <meta name="description" content="Flashcards with spaced repetition for the 2,809 most common English words. Works offline; your progress stays on your device.">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try { document.querySelector('meta[name="color-scheme"]').content = localStorage.getItem('color-scheme') ?? 'light dark'; } catch {}
+  </script>
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f0e17" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Words">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#study">
+      <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="7" y="3" width="20" height="24" rx="5" class="logo-back"/>
+        <rect x="4" y="6" width="20" height="24" rx="5" class="logo-front"/>
+        <path d="M9.5 22.5 14 12l4.5 10.5M11.2 19h5.6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Words</span>
+    </a>
+    <button class="icon-btn" type="button" command="show-modal" commandfor="settings" id="open-settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4.5v5M6 14.5v5" /><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>
+    </button>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <a href="#study" data-tab="study">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="13" height="16" rx="3"/><path d="M4 8v10a3 3 0 0 0 3 3h8"/></svg>
+      <span data-i18n="nav.study">Study</span>
+    </a>
+    <a href="#words" data-tab="words">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      <span data-i18n="nav.words">List</span>
+    </a>
+    <a href="#progress" data-tab="progress">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20v-6M12 20V4M19 20v-9"/></svg>
+      <span data-i18n="nav.progress">Progress</span>
+    </a>
+  </nav>
+
+  <main id="main">
+    <p class="load-error" id="load-error" role="alert" hidden></p>
+
+    <!-- Study -->
+    <section class="view" id="view-study" aria-labelledby="h-study" hidden>
+      <h1 class="visually-hidden" id="h-study" data-i18n="nav.study">Study</h1>
+
+      <div class="session" id="session">
+        <div class="session-head">
+          <ul class="chips" id="chips">
+            <li class="chip chip-new"><b id="count-new">0</b> <span data-i18n="chip.new">New</span></li>
+            <li class="chip chip-learning"><b id="count-learning">0</b> <span data-i18n="chip.learning">Learning</span></li>
+            <li class="chip chip-review"><b id="count-review">0</b> <span data-i18n="chip.review">Review</span></li>
+          </ul>
+          <button class="ghost-btn" type="button" id="undo" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg>
+            <span data-i18n="card.undo">Undo</span>
+          </button>
+        </div>
+        <progress class="bar" id="session-bar" value="0" max="1" data-i18n-aria="study.progress"></progress>
+
+        <div class="stage">
+          <div class="card" id="card">
+            <div class="card-inner">
+              <div class="face front" id="face-front">
+                <span class="badge" id="badge-new" data-i18n="card.new" hidden>New word</span>
+                <p class="word" id="word" lang="en"></p>
+                <p class="meta"><span class="ipa" id="ipa" lang="en"></span><span class="pos" id="pos"></span></p>
+                <button class="icon-btn speak" type="button" id="speak" hidden>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6L8 10H4Z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>
+                </button>
+                <p class="hint" data-i18n="card.hint">Tap the card or press Space to reveal</p>
+              </div>
+              <div class="face back" id="face-back" inert>
+                <p class="word-small" id="word-back" lang="en"></p>
+                <p class="meta"><span class="ipa" id="ipa-back" lang="en"></span><span class="pos" id="pos-back"></span></p>
+                <p class="definition" id="definition"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="primary-btn" type="button" id="show" data-i18n="card.show">Show answer</button>
+          <div class="ratings" id="ratings" role="group" data-i18n-aria="rate.prompt" hidden>
+            <button type="button" class="rate rate-1" data-rating="1"><span data-i18n="rate.1">Again</span><small></small><kbd>1</kbd></button>
+            <button type="button" class="rate rate-2" data-rating="2"><span data-i18n="rate.2">Hard</span><small></small><kbd>2</kbd></button>
+            <button type="button" class="rate rate-3" data-rating="3"><span data-i18n="rate.3">Good</span><small></small><kbd>3</kbd></button>
+            <button type="button" class="rate rate-4" data-rating="4"><span data-i18n="rate.4">Easy</span><small></small><kbd>4</kbd></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="done" id="done" hidden>
+        <svg class="done-mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="m20 33 8 8 16-18"/></svg>
+        <h2 data-i18n="done.title">All done for today</h2>
+        <p id="done-sub" data-i18n="done.sub"></p>
+        <dl class="tiles">
+          <div class="tile"><dt data-i18n="done.today">Studied today</dt><dd id="done-today">0</dd></div>
+          <div class="tile"><dt data-i18n="done.streak">Day streak</dt><dd id="done-streak">0</dd></div>
+          <div class="tile"><dt data-i18n="done.tomorrow">Due tomorrow</dt><dd id="done-tomorrow">0</dd></div>
+        </dl>
+        <button class="primary-btn" type="button" id="more"></button>
+      </div>
+    </section>
+
+    <!-- Words -->
+    <section class="view" id="view-words" aria-labelledby="h-words" hidden>
+      <h1 id="h-words" data-i18n="nav.words">List</h1>
+      <div class="toolbar">
+        <input type="search" id="search" autocomplete="off" spellcheck="false" data-i18n-placeholder="words.search" data-i18n-aria="words.search">
+        <select id="filter" data-i18n-aria="words.filter">
+          <option value="all" data-i18n="words.all">All words</option>
+          <option value="new" data-i18n="bucket.new">Not seen</option>
+          <option value="learning" data-i18n="bucket.learning">Learning</option>
+          <option value="young" data-i18n="bucket.young">Young</option>
+          <option value="mature" data-i18n="bucket.mature">Mastered</option>
+        </select>
+      </div>
+      <p class="muted" id="words-count" role="status"></p>
+      <ol class="word-list" id="word-list"></ol>
+      <div id="list-sentinel"></div>
+    </section>
+
+    <!-- Progress -->
+    <section class="view" id="view-progress" aria-labelledby="h-progress" hidden>
+      <h1 id="h-progress" data-i18n="nav.progress">Progress</h1>
+      <dl class="tiles">
+        <div class="tile"><dt data-i18n="stats.streak">Day streak</dt><dd id="st-streak">0</dd></div>
+        <div class="tile"><dt data-i18n="stats.learned">Words learned</dt><dd id="st-learned">0</dd></div>
+        <div class="tile"><dt data-i18n="stats.mature">Mastered</dt><dd id="st-mature">0</dd></div>
+        <div class="tile"><dt data-i18n="stats.reviews">Total reviews</dt><dd id="st-reviews">0</dd></div>
+      </dl>
+
+      <section class="panel" aria-labelledby="h-mastery">
+        <h2 id="h-mastery" data-i18n="stats.mastery">Mastery</h2>
+        <div class="mastery-bar" id="mastery-bar" aria-hidden="true"></div>
+        <ul class="legend" id="mastery-legend"></ul>
+      </section>
+
+      <section class="panel" aria-labelledby="h-forecast">
+        <h2 id="h-forecast" data-i18n="stats.forecast">Reviews due — next 14 days</h2>
+        <ol class="forecast" id="forecast"></ol>
+      </section>
+    </section>
+  </main>
+
+  <p class="toast" id="toast" role="status"></p>
+
+  <!-- Settings -->
+  <dialog id="settings" aria-labelledby="settings-title" closedby="any">
+    <header class="dialog-head">
+      <h2 id="settings-title" data-i18n="set.title">Settings</h2>
+    </header>
+    <div class="dialog-body">
+      <div class="field">
+        <label for="lang" data-i18n="set.lang">Definition language</label>
+        <select id="lang" autofocus></select>
+        <p class="help" data-i18n="set.langHelp"></p>
+      </div>
+
+      <fieldset class="field">
+        <legend data-i18n="set.theme">Appearance</legend>
+        <div class="segmented" id="scheme">
+          <label><input type="radio" name="scheme" value="light dark"><span id="scheme-system">System</span></label>
+          <label><input type="radio" name="scheme" value="light"><span data-i18n="set.light">Light</span></label>
+          <label><input type="radio" name="scheme" value="dark"><span data-i18n="set.dark">Dark</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend data-i18n="set.srs">Spaced repetition</legend>
+        <div class="row">
+          <label for="newPerDay" data-i18n="set.newPerDay">New words per day</label>
+          <input type="number" id="newPerDay" min="0" max="100" step="1" inputmode="numeric">
+        </div>
+        <div class="row">
+          <label for="maxReviews" data-i18n="set.maxReviews">Maximum reviews per day</label>
+          <input type="number" id="maxReviews" min="10" max="500" step="10" inputmode="numeric">
+        </div>
+        <div class="row">
+          <label for="order" data-i18n="set.order">New word order</label>
+          <select id="order">
+            <option value="frequency" data-i18n="set.orderFreq">Most common first</option>
+            <option value="random" data-i18n="set.orderRandom">Random</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="pace" data-i18n="set.pace">Review pace</label>
+          <select id="pace">
+            <option value="0.8" data-i18n="set.pace.0.8">Intensive</option>
+            <option value="1" data-i18n="set.pace.1">Standard</option>
+            <option value="1.3" data-i18n="set.pace.1.3">Relaxed</option>
+          </select>
+        </div>
+        <p class="help" data-i18n="set.paceHelp"></p>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend data-i18n="set.data">Your data</legend>
+        <p class="help" data-i18n="set.dataHelp"></p>
+        <div class="btn-row">
+          <button type="button" class="soft-btn" id="export" data-i18n="set.export">Export backup</button>
+          <button type="button" class="soft-btn" id="import" data-i18n="set.import">Import backup</button>
+          <input type="file" id="import-file" accept="application/json,.json" hidden>
+          <button type="button" class="soft-btn danger" command="show-modal" commandfor="reset" data-i18n="set.reset">Reset progress</button>
+        </div>
+        <button type="button" class="soft-btn" id="install" data-i18n="set.install" hidden>Install app</button>
+      </fieldset>
+
+      <p class="help credit">
+        <span data-i18n="set.credit"></span>
+        <a href="https://www.linguaeruditio.com/Glossary/NGSL/NGSL_gloss.html" target="_blank" rel="noopener" data-i18n="set.creditLink">NGSL Learning Dictionary</a>.
+      </p>
+    </div>
+    <form method="dialog" class="dialog-foot">
+      <button class="primary-btn" data-i18n="set.close">Done</button>
+    </form>
+  </dialog>
+
+  <dialog id="reset" aria-labelledby="reset-title" class="small">
+    <div class="dialog-body">
+      <h2 id="reset-title" data-i18n="reset.title">Reset all progress?</h2>
+      <p data-i18n="reset.body"></p>
+    </div>
+    <form method="dialog" class="dialog-foot">
+      <button class="soft-btn" value="cancel" autofocus data-i18n="reset.cancel">Cancel</button>
+      <button class="soft-btn danger solid" value="reset" data-i18n="reset.confirm">Erase progress</button>
+    </form>
+  </dialog>
+
+  <noscript><p class="load-error">Words needs JavaScript to run.</p></noscript>
+</body>
+</html>
