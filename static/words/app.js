@@ -241,6 +241,7 @@ function renderStudy() {
   card.classList.add('instant');
   setFlipped(false);
   $('word').textContent = $('word-back').textContent = word;
+  $('word').classList.toggle('long', word.length > 12);
   $('ipa').textContent = $('ipa-back').textContent = ipa;
   $('pos').textContent = $('pos-back').textContent = posLabel(pos);
   $('definition').textContent = def;

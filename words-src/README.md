@@ -1,9 +1,16 @@
 # Words
 
-Flashcards with spaced repetition for the most common words in English (2,809 words,
-New General Service List 1.2) and French (1,354 words, Éduscol frequency list).
+Flashcards with spaced repetition for the most common words in four languages:
+
+| Study language | Words | Source | Licence of the source |
+|---|---|---|---|
+| English | 2,809 | New General Service List 1.2 | CC BY-SA 4.0 |
+| French  | 1,354 | Éduscol "Liste de fréquence lexicale" | not checked |
+| Spanish | 2,107 | RAE CORPES XXI lemma frequencies | CC BY-SA 4.0 |
+| German  | 2,088 | IDS Mannheim DeReWo lemma list (2012) | CC BY-NC 3.0 (non-commercial) |
+
 The learner picks a **study language** (front of the cards) and an **explanation
-language** (back of the cards and the whole interface); both can be English or French.
+language** (back of the cards and the whole interface: English or French).
 A fully static, offline-capable progressive web app: no server code, no login, all
 progress in the browser's localStorage.
 
@@ -42,8 +49,9 @@ Before each release, bump `VERSION` in `static/words/sw.js` (see Updating).
       sw.js, manifest.webmanifest PWA: offline cache and install metadata
       data/<study>/words.json     [word, IPA, part of speech] in frequency order
       data/<study>/defs.<lang>.json  one explanation per word, same order
-    words-src/build/              English sources: NGSL parse script + French glosses
-    words-src/build/fr/           French sources: fr-words-*.txt and build.py
+    words-src/build/              English sources (NGSL parse script, French glosses)
+                                  and build.py, which builds the fr / es / de data
+    words-src/build/<lang>/       <lang>-words-*.txt sources for fr, es, de
     words-src/build/icons/        full-bleed icon source + render.sh
 
 The app icon is `static/words/icons/icon.svg`; the header logo is a small inline copy
@@ -105,9 +113,52 @@ How it was turned into cards (`words-src/build/fr/fr-words-*.txt`, one line per 
 - Pronunciations, noun genders (nm / nf / nmf), English meanings and French
   definitions were written for this app.
 
-Rebuild the JSON after editing those files:
+## The Spanish word list
 
-    python3 words-src/build/fr/build.py
+Source: the Real Academia Española's CORPES XXI frequency lists ("5000 lemas más
+frecuentes", CC BY-SA 4.0), https://www.rae.es/corpes/
+
+- Taken in frequency order, keeping the top ~2,100 after filtering.
+- Dropped: punctuation, numbers written as digits, symbols, foreign words, proper names
+  (countries, cities, people, brands, abbreviations), fillers ("eeh"), the contractions
+  "del" and "al", and the nationalities of smaller countries (colombiano, cubano, chileno,
+  venezolano). Major nationalities and languages (español, inglés, francés…) stay.
+- Lemmas listed with several parts of speech (que, uno, más…) share one card.
+- The RAE files some feminine nouns under the masculine form ("músico" for "música");
+  where the feminine is the everyday word, the card uses it (música, carretera,
+  perspectiva, característica, ganas).
+- Pronunciations follow Latin American Spanish (no /θ/), the majority accent in this
+  pan-Hispanic corpus; the listen button uses an es-MX voice.
+
+## The German word list
+
+Source: DeReWo basic lemma list, version v-ww-bll-320000g-2012-12-31-1.0,
+© Institut für Deutsche Sprache, Programmbereich Korpuslinguistik, Mannheim, 2013,
+licensed CC BY-NC 3.0 (attribution, non-commercial),
+https://www.ids-mannheim.de/derewo
+
+- Taken in the list's frequency order, keeping ~2,100 after filtering.
+- Dropped: contractions (im, zum, zur, am, vom, beim, ins, aufs), sentence-initial
+  capitalised duplicates (Was, Ich, Für…), corpus artefacts from web and Wikipedia text
+  (Infobox, Weblink, Navigationsleiste, Einzelnachweis, Patentamt), surnames, place-name
+  adjectives (Berliner, Münchner…), and terms for regional government bodies
+  (Verbandsgemeinde, Landrat, Ortsbürgermeister…).
+- Nouns are written with their article ("der Tag"), with gender codes nm / nf / nn,
+  nmf for nouns like "der/die Erwachsene", and npl for plural-only nouns (die Leute).
+- Combined headwords are spelled out ("der, die, das", "dieser, diese, dieses").
+- Because the source is CC BY-NC, the German data must not be used commercially, and
+  the credit above must stay (it is also in the app's About dialog).
+
+## Rebuilding the word data
+
+Each `words-src/build/<lang>/<lang>-words-*.txt` line is
+`word|IPA|part of speech|English meaning|French meaning`, most frequent first.
+After editing, rebuild that language's JSON:
+
+    python3 words-src/build/build.py fr      # or es, de
+
+The script refuses to write anything if a line has the wrong number of fields, a
+duplicate word, an unknown part of speech or a non-IPA character in the pronunciation.
 
 ## Add an explanation language
 
@@ -140,3 +191,12 @@ https://www.linguaeruditio.com/Glossary/NGSL/NGSL_gloss.html
 French word list: Éduscol, "Liste de fréquence lexicale" (Étienne Brunet),
 https://eduscol.education.gouv.fr/6873/liste-de-frequence-lexicale
 Its reuse terms have not been checked.
+
+Spanish word list: Real Academia Española, CORPES XXI (CC BY-SA 4.0),
+https://www.rae.es/corpes/
+
+German word list: DeReWo, © Institut für Deutsche Sprache, Mannheim, 2013
+(CC BY-NC 3.0), https://www.ids-mannheim.de/derewo
+
+The French, Spanish and German pronunciations, genders, definitions and all
+translations were written for this app.

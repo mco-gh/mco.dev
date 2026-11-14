@@ -274,6 +274,10 @@ main {
   font-size: clamp(2.4rem, 12cqi, 4.75rem);
   font-weight: 600; line-height: 1.05; letter-spacing: -0.02em;
 }
+/* Long words (German compounds) hyphenate by language instead of breaking anywhere;
+   the word elements carry lang = study language, which hyphenation needs. */
+.word, .word-small, .word-list .w { -webkit-hyphens: auto; hyphens: auto; }
+.word.long { font-size: clamp(1.9rem, 9cqi, 3.6rem); }
 .word-small { font-family: var(--serif); font-size: clamp(1.4rem, 6cqi, 2rem); font-weight: 600; line-height: 1.1; }
 
 .meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.3rem 0.7rem; color: var(--muted); }

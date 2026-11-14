@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Square, edge-to-edge version of static/words/icons/icon.svg for icons the OS
+       crops itself (Android maskable, Apple touch). The logo is scaled to 80% so it
+       stays inside the maskable safe zone. -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a6af0"/>
+      <stop offset="1" stop-color="#4a38c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#g)"/>
+  <g transform="translate(256 256) scale(0.8) translate(-256 -256)">
+    <rect x="196" y="112" width="208" height="264" rx="36" fill="#ffffff" fill-opacity="0.35" transform="rotate(8 300 244)"/>
+    <rect x="124" y="124" width="208" height="264" rx="36" fill="#ffffff"/>
+    <path d="M170 196 196 318 228 232 260 318 286 196" fill="none" stroke="#4a38c4" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
