@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Words — flashcards for the most common English words</title>
-  <meta name="description" content="Flashcards with spaced repetition for the 2,809 most common English words. Works offline; your progress stays on your device.">
+  <title>Words — flashcards for the most common English and French words</title>
+  <meta name="description" content="Flashcards with spaced repetition for the most common words in English and French. Works offline; your progress stays on your device.">
   <meta name="color-scheme" content="light dark">
   <script>
     try { document.querySelector('meta[name="color-scheme"]').content = localStorage.getItem('color-scheme') ?? 'light dark'; } catch {}
@@ -55,7 +55,7 @@
   </nav>
 
   <main id="main">
-    <p class="tagline" data-i18n="app.tagline">Learn the most common English words, covering 90% of text, in a few minutes a day.</p>
+    <p class="tagline" data-i18n-study="app.tagline.*">Learn the most common English words, covering 90% of text, in a few minutes a day.</p>
     <p class="load-error" id="load-error" role="alert" hidden></p>
 
     <!-- Study -->
@@ -171,8 +171,14 @@
     </header>
     <div class="dialog-body">
       <div class="field">
-        <label for="lang" data-i18n="set.lang">Definition language</label>
-        <select id="lang" autofocus></select>
+        <label for="study" data-i18n="set.study">Study language</label>
+        <select id="study" autofocus></select>
+        <p class="help" data-i18n="set.studyHelp"></p>
+      </div>
+
+      <div class="field">
+        <label for="lang" data-i18n="set.lang">Explanation language</label>
+        <select id="lang"></select>
         <p class="help" data-i18n="set.langHelp"></p>
       </div>
 
@@ -205,7 +211,7 @@
           <label class="choice">
             <input type="radio" name="order" value="frequency" aria-describedby="order-frequency-help">
             <span class="choice-title" data-i18n="set.orderFreq">Most common first</span>
-            <span class="choice-help" id="order-frequency-help" data-i18n="set.orderFreqHelp"></span>
+            <span class="choice-help" id="order-frequency-help" data-i18n-study="set.orderFreqHelp"></span>
           </label>
           <label class="choice">
             <input type="radio" name="order" value="random" aria-describedby="order-random-help">
@@ -236,10 +242,6 @@
         <button type="button" class="soft-btn" id="install" data-i18n="set.install" hidden>Install app</button>
       </fieldset>
 
-      <p class="help credit">
-        <span data-i18n="set.credit"></span>
-        <a href="https://www.linguaeruditio.com/Glossary/NGSL/NGSL_gloss.html" target="_blank" rel="noopener" data-i18n="set.creditLink">NGSL Learning Dictionary</a>.
-      </p>
     </div>
     <form method="dialog" class="dialog-foot">
       <button class="primary-btn" data-i18n="set.close">Done</button>
@@ -259,8 +261,8 @@
 
   <dialog id="reset" aria-labelledby="reset-title" class="small">
     <div class="dialog-body">
-      <h2 id="reset-title" data-i18n="reset.title">Reset all progress?</h2>
-      <p data-i18n="reset.body"></p>
+      <h2 id="reset-title" data-i18n-study="reset.title"></h2>
+      <p data-i18n-study="reset.body"></p>
     </div>
     <form method="dialog" class="dialog-foot">
       <button class="soft-btn" value="cancel" autofocus data-i18n="reset.cancel">Cancel</button>

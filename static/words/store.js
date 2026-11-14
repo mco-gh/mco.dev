@@ -3,10 +3,13 @@
 import { DEFAULT_SETTINGS } from './srs.js';
 
 export const KEYS = Object.freeze({
-  progress: 'wordspring.progress.v1',
   settings: 'wordspring.settings.v1',
   scheme: 'color-scheme',
 });
+
+/** Each study language keeps its own progress. English keeps the original key. */
+export const progressKey = (study) =>
+  study === 'en' ? 'wordspring.progress.v1' : `wordspring.progress.${study}.v1`;
 
 const memory = new Map();
 
@@ -46,6 +49,7 @@ export function sanitizeSettings(s = {}) {
     maxReviews: Math.round(num(s.maxReviews, 10, 500, d.maxReviews)),
     order: ['mixed', 'frequency', 'random'].includes(s.order) ? s.order : d.order,
     pace: num(s.pace, 0.5, 2, d.pace),
+    study: typeof s.study === 'string' ? s.study : d.study,
     lang: typeof s.lang === 'string' ? s.lang : d.lang,
   };
 }
@@ -68,8 +72,8 @@ export function sanitizeProgress(p, wordCount) {
 
 export const loadSettings = () => sanitizeSettings(read(KEYS.settings));
 export const saveSettings = (s) => write(KEYS.settings, s);
-export const loadProgress = (wordCount) => sanitizeProgress(read(KEYS.progress), wordCount);
-export const saveProgress = (p) => write(KEYS.progress, p);
+export const loadProgress = (study, wordCount) => sanitizeProgress(read(progressKey(study)), wordCount);
+export const saveProgress = (study, p) => write(progressKey(study), p);
 
 /** Ask the browser not to evict our data under storage pressure. */
 export function requestPersistence() {

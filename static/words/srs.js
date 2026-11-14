@@ -15,7 +15,8 @@ export const DEFAULT_SETTINGS = Object.freeze({
   maxReviews: 100,    // cap on due reviews per daily session
   order: 'mixed',     // 'mixed' | 'frequency' (most common first) | 'random'
   pace: 1,            // interval multiplier: <1 = see cards more often, >1 = less often
-  lang: 'en',         // definition language
+  study: 'en',        // language being learned (front of the cards)
+  lang: 'en',         // explanation language (back of the cards and the interface)
 });
 
 const START_EASE = 2.5;
@@ -99,16 +100,18 @@ function seededRandom(seed) {
 }
 
 /**
- * Frequency bands for 'mixed' (by rank, 0-based) and how often each is drawn.
+ * Frequency bands for 'mixed' and how often each is drawn. `upTo` is a share of
+ * the list, so every word list is split the same way (for the 2,809 English
+ * words the bands end at ranks 500, 1,200 and 2,000).
  * 4 : 3 : 2 : 1 means a day of 10 new words averages 4 very common, 3 common,
  * 2 less common and 1 rarer word. Within a band, words still come in frequency
  * order. When a band runs out, the others share its weight.
  */
 export const MIX_BANDS = [
-  { upTo: 500, weight: 4 },
-  { upTo: 1200, weight: 3 },
-  { upTo: 2000, weight: 2 },
-  { upTo: Infinity, weight: 1 },
+  { upTo: 500 / 2809, weight: 4 },
+  { upTo: 1200 / 2809, weight: 3 },
+  { upTo: 2000 / 2809, weight: 2 },
+  { upTo: 1, weight: 1 },
 ];
 
 /** @param {'mixed'|'frequency'|'random'} mode  @param {number} count  number of words */
@@ -127,7 +130,8 @@ export function newCardOrder(mode, count) {
 
   const rand = seededRandom(0x313d);
   const bands = MIX_BANDS.map(() => []);
-  for (const id of ids) bands[MIX_BANDS.findIndex((b) => id < b.upTo)].push(id);
+  const limits = MIX_BANDS.map((b) => Math.round(b.upTo * count));
+  for (const id of ids) bands[limits.findIndex((limit) => id < limit)].push(id);
   const next = bands.map(() => 0);
   const out = [];
   while (out.length < count) {

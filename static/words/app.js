@@ -1,17 +1,20 @@
 import { schedule, bucket, pack, unpack, dayNumber, dateOfDay, newCardOrder, AGAIN } from './srs.js';
 import {
-  KEYS, emptyProgress, loadProgress, saveProgress, loadSettings, saveSettings,
+  KEYS, progressKey, emptyProgress, loadProgress, saveProgress, loadSettings, saveSettings,
   sanitizeProgress, sanitizeSettings, requestPersistence,
 } from './store.js';
-import { LANGS, t, setLang, getLang, posLabel, fmtInterval, aboutContent } from './i18n.js';
+import {
+  LANGS, STUDY, dataPath, t, setLang, getLang, setStudy, getStudy, posLabel, fmtInterval, aboutContent,
+} from './i18n.js';
 
 const $ = (id) => document.getElementById(id);
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 
 // ───────── State ─────────
-let words = [];            // [word, ipa, pos][]
-const defsCache = {};      // lang -> string[]
-let defs = [];
+let words = [];            // [word, ipa, pos][] for the study language
+let defs = [];             // one explanation per word, in the explanation language
+const wordsCache = {};     // study -> words
+const defsCache = {};      // "study/lang" -> defs
 let settings = loadSettings();
 let progress = emptyProgress();
 let today = dayNumber();
@@ -22,19 +25,24 @@ let undoState = null;
 // ───────── Boot ─────────
 async function init() {
   setLang(settings.lang);
+  setStudy(settings.study);
   applyStrings();
   wireEvents();
   try {
-    const [w, d] = await Promise.all([fetchJson('./data/words.json'), loadDefs(getLang())]);
-    words = w;
-    defs = d;
+    [words, defs] = await loadData(getStudy(), getLang()).catch((err) => {
+      if (getStudy() === 'en') throw err;
+      setStudy('en'); // the saved study language is unavailable: fall back
+      return loadData('en', getLang());
+    });
   } catch (err) {
     console.error(err);
     $('load-error').textContent = t('load.error');
     $('load-error').hidden = false;
     return;
   }
-  progress = loadProgress(words.length);
+  progress = loadProgress(getStudy(), words.length);
+  applyStrings();
+  fillSettingsForm();
   startSession();
   route();
   registerServiceWorker();
@@ -46,10 +54,18 @@ async function fetchJson(url) {
   return res.json();
 }
 
-async function loadDefs(lang) {
-  defsCache[lang] ??= await fetchJson(LANGS[lang].defs);
-  return defsCache[lang];
+async function loadWords(study) {
+  wordsCache[study] ??= await fetchJson(dataPath(study, 'words.json'));
+  return wordsCache[study];
 }
+
+async function loadDefs(study, lang) {
+  const key = `${study}/${lang}`;
+  defsCache[key] ??= await fetchJson(dataPath(study, `defs.${lang}.json`));
+  return defsCache[key];
+}
+
+const loadData = (study, lang) => Promise.all([loadWords(study), loadDefs(study, lang)]);
 
 function registerServiceWorker() {
   if ('serviceWorker' in navigator) {
@@ -60,7 +76,15 @@ function registerServiceWorker() {
 // ───────── i18n ─────────
 function applyStrings() {
   document.documentElement.lang = getLang();
+  document.title = t('app.title');
   for (const el of document.querySelectorAll('[data-i18n]')) el.textContent = t(el.dataset.i18n);
+  // Strings that depend on the study language: "*" in the key is the study code.
+  const examples = words.slice(0, 3).map((w) => w[0]);
+  const vars = { language: t(`study.${getStudy()}`), a: examples[0] ?? '…', b: examples[1] ?? '…', c: examples[2] ?? '…' };
+  for (const el of document.querySelectorAll('[data-i18n-study]')) {
+    el.textContent = t(el.dataset.i18nStudy.replace('*', getStudy()), vars);
+  }
+  for (const id of ['word', 'ipa', 'word-back', 'ipa-back']) $(id).lang = getStudy();
   for (const el of document.querySelectorAll('[data-i18n-aria]')) el.setAttribute('aria-label', t(el.dataset.i18nAria));
   for (const el of document.querySelectorAll('[data-i18n-placeholder]')) el.placeholder = t(el.dataset.i18nPlaceholder);
   for (const [id, key] of [['open-settings', 'nav.settings'], ['open-about', 'nav.about']]) {
@@ -190,7 +214,7 @@ function undo() {
 }
 
 function persist() {
-  if (!saveProgress(progress)) toast(t('msg.storage'));
+  if (!saveProgress(getStudy(), progress)) toast(t('msg.storage'));
 }
 
 // ───────── Study view ─────────
@@ -282,7 +306,7 @@ function speak() {
   if (!item) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(words[item.id][0]);
-  u.lang = 'en-US';
+  u.lang = STUDY[getStudy()].voice;
   u.rate = 0.9;
   speechSynthesis.speak(u);
 }
@@ -317,7 +341,7 @@ function appendWords() {
     const li = el('li');
     const head = el('div', 'head');
     head.append(
-      el('span', 'w', word, 'en'), el('span', 'ipa', ipa, 'en'), el('span', 'p', posLabel(pos)),
+      el('span', 'w', word, getStudy()), el('span', 'ipa', ipa, getStudy()), el('span', 'p', posLabel(pos)),
     );
     const status = el('span', 'status');
     status.append(el('span', `dot b-${b}`), el('span', 'label', t(`bucket.${b}`)));
@@ -429,11 +453,14 @@ function updateSchemeLabel() {
 
 // ───────── Settings ─────────
 function fillSettingsForm() {
-  $('lang').replaceChildren(...Object.entries(LANGS).map(([code, l]) => {
-    const o = el('option', '', l.name);
-    o.value = code;
-    return o;
-  }));
+  for (const [id, choices] of [['study', STUDY], ['lang', LANGS]]) {
+    $(id).replaceChildren(...Object.entries(choices).map(([code, l]) => {
+      const o = el('option', '', l.name);
+      o.value = code;
+      return o;
+    }));
+  }
+  $('study').value = getStudy();
   $('lang').value = getLang();
   $('newPerDay').value = settings.newPerDay;
   $('maxReviews').value = settings.maxReviews;
@@ -449,7 +476,7 @@ function updateSettings(patch) {
 
 async function changeLanguage(code) {
   try {
-    defs = await loadDefs(code);
+    defs = await loadDefs(getStudy(), code);
   } catch {
     toast(t('load.error'));
     $('lang').value = getLang();
@@ -465,9 +492,35 @@ async function changeLanguage(code) {
   route();
 }
 
+/** Switch the language being learned: new word list, and that language's own progress. */
+async function changeStudy(code) {
+  let data;
+  try {
+    data = await loadData(code, getLang());
+  } catch {
+    toast(t('msg.studyError'));
+    $('study').value = getStudy();
+    return;
+  }
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  [words, defs] = data;
+  setStudy(code);
+  updateSettings({ study: code });
+  progress = loadProgress(code, words.length);
+  applyStrings();
+  $('study').value = code;
+  refreshAll();
+}
+
 function exportBackup() {
+  // Every study language's progress, not just the one on screen.
+  const all = {};
+  for (const code of Object.keys(STUDY)) {
+    const p = code === getStudy() ? progress : loadProgress(code, Infinity);
+    if (Object.keys(p.cards).length) all[code] = p;
+  }
   const blob = new Blob(
-    [JSON.stringify({ app: 'wordspring', v: 1, exportedAt: new Date().toISOString(), settings, progress })],
+    [JSON.stringify({ app: 'wordspring', v: 2, exportedAt: new Date().toISOString(), settings, progress: all })],
     { type: 'application/json' },
   );
   const a = el('a');
@@ -481,12 +534,15 @@ function exportBackup() {
 async function importBackup(file) {
   try {
     const data = JSON.parse(await file.text());
-    if (data?.app !== 'wordspring' || typeof data.progress?.cards !== 'object') throw new Error('shape');
-    progress = sanitizeProgress(data.progress, words.length);
-    persist();
+    if (data?.app !== 'wordspring' || typeof data.progress !== 'object' || !data.progress) throw new Error('shape');
+    // v1 backups hold English progress only; v2 holds one entry per study language.
+    const byStudy = typeof data.progress.cards === 'object' ? { en: data.progress } : data.progress;
+    const codes = Object.keys(STUDY).filter((code) => typeof byStudy[code]?.cards === 'object');
+    if (!codes.length) throw new Error('shape');
+    for (const code of codes) saveProgress(code, sanitizeProgress(byStudy[code], Infinity));
+    progress = loadProgress(getStudy(), words.length);
     if (data.settings) {
-      const lang = getLang();
-      updateSettings({ ...data.settings, lang });
+      updateSettings({ ...data.settings, lang: getLang(), study: getStudy() });
       fillSettingsForm();
     }
     refreshAll();
@@ -548,6 +604,7 @@ function wireEvents() {
 
   // Settings
   fillSettingsForm();
+  $('study').addEventListener('change', (e) => changeStudy(e.target.value));
   $('lang').addEventListener('change', (e) => changeLanguage(e.target.value));
   $('scheme').addEventListener('change', (e) => setScheme(e.target.value));
   darkQuery.addEventListener('change', updateSchemeLabel);
@@ -582,11 +639,13 @@ function wireEvents() {
   // Stay in sync with other tabs, and roll over to a new day while left open.
   addEventListener('storage', (e) => {
     if (e.key === KEYS.scheme) { schemeMeta.content = e.newValue ?? 'light dark'; syncSchemeControl(); }
-    if (e.key === KEYS.progress && words.length) { progress = loadProgress(words.length); refreshAll(); }
+    if (e.key === progressKey(getStudy()) && words.length) { progress = loadProgress(getStudy(), words.length); refreshAll(); }
     if (e.key === KEYS.settings && words.length) {
       settings = loadSettings();
       fillSettingsForm();
-      if (settings.lang !== getLang()) changeLanguage(settings.lang); else refreshAll();
+      if (settings.study !== getStudy() && STUDY[settings.study]) changeStudy(settings.study);
+      else if (settings.lang !== getLang()) changeLanguage(settings.lang);
+      else refreshAll();
     }
   });
   document.addEventListener('visibilitychange', () => {
