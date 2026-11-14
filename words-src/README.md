@@ -115,7 +115,7 @@ Rebuild the JSON after editing those files:
 1. Create `static/words/data/<code>/words.json` (`[word, "/IPA/", part of speech]` in
    frequency order) and a `defs.<lang>.json` there for every explanation language.
 2. Add an entry to `STUDY` in `static/words/i18n.js` (name, speech-synthesis voice), and
-   `study.<code>` and `app.tagline.<code>` strings for each explanation language.
+   a `study.<code>` string (the language's name) for each explanation language.
 3. Add the files to `ASSETS` in `static/words/sw.js` and bump `VERSION`.
 
 ## Updating

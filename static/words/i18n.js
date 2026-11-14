@@ -39,8 +39,7 @@ export const LANGS = {
     units: { today: 'today', d: 'd', mo: 'mo', y: 'y' },
     ui: {
       'app.title': 'Words — flashcards for the most common English and French words',
-      'app.tagline.en': 'Learn the most common English words, covering 90% of text, in a few minutes a day.',
-      'app.tagline.fr': 'Learn the most common French words, the core of any text, in a few minutes a day.',
+      'app.tagline': 'Learn the most common words, in the language of your choice, in just a few minutes a day.',
       'study.en': 'English', 'study.fr': 'French',
       'nav.about': 'About', 'about.title': 'About Words', 'about.close': 'Close',
       'nav.study': 'Study', 'nav.words': 'List', 'nav.progress': 'Progress', 'nav.settings': 'Settings',
@@ -104,8 +103,7 @@ export const LANGS = {
     units: { today: 'auj.', d: 'j', mo: 'mois', y: 'an' },
     ui: {
       'app.title': 'Words — cartes mémoire des mots anglais et français les plus courants',
-      'app.tagline.en': 'Apprenez les mots anglais les plus courants, 90 % des textes, en quelques minutes par jour.',
-      'app.tagline.fr': 'Apprenez les mots français les plus courants, base de tout texte, en quelques minutes par jour.',
+      'app.tagline': 'Les mots les plus courants, dans la langue de votre choix, en quelques minutes par jour.',
       'study.en': 'anglais', 'study.fr': 'français',
       'nav.about': 'À propos', 'about.title': 'À propos de Words', 'about.close': 'Fermer',
       'nav.study': 'Étudier', 'nav.words': 'Liste', 'nav.progress': 'Progrès', 'nav.settings': 'Réglages',
