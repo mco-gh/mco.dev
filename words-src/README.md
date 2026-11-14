@@ -44,6 +44,13 @@ Before each release, bump `VERSION` in `static/words/sw.js` (see Updating).
       data/<study>/defs.<lang>.json  one explanation per word, same order
     words-src/build/              English sources: NGSL parse script + French glosses
     words-src/build/fr/           French sources: fr-words-*.txt and build.py
+    words-src/build/icons/        full-bleed icon source + render.sh
+
+The app icon is `static/words/icons/icon.svg`; the header logo is a small inline copy
+in `index.html`. After changing either SVG, regenerate the PNG icons with headless
+Chrome (ImageMagick's built-in SVG renderer drops the gradient and the letter):
+
+    bash words-src/build/icons/render.sh
 
 ## Spaced repetition
 
