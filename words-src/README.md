@@ -10,7 +10,8 @@ Flashcards with spaced repetition for the most common words in four languages:
 | German  | 2,088 | IDS Mannheim DeReWo lemma list (2012) | CC BY-NC 3.0 (non-commercial) |
 
 The learner picks a **study language** (front of the cards) and an **explanation
-language** (back of the cards and the whole interface: English or French).
+language** (back of the cards and the whole interface): English, French, Spanish or
+German. When the two match, the back shows a short definition in that language.
 A fully static, offline-capable progressive web app: no server code, no login, all
 progress in the browser's localStorage.
 
@@ -160,6 +161,15 @@ After editing, rebuild that language's JSON:
 The script refuses to write anything if a line has the wrong number of fields, a
 duplicate word, an unknown part of speech or a non-IPA character in the pronunciation.
 
+The Spanish and German explanations live in `words-src/build/<study>/<study>-esde-*.txt`
+(`word|Spanish|German`, one line per word, in exactly the order of that study language's
+`words.json`). Rebuild them with:
+
+    python3 words-src/build/build_esde.py en   # or fr, es, de
+
+It writes `defs.es.json` and `defs.de.json` and refuses to write anything if a word is
+missing, extra or out of order.
+
 ## Add an explanation language
 
 1. For each study language, create `static/words/data/<study>/defs.<code>.json`: a JSON
@@ -199,4 +209,4 @@ German word list: DeReWo, © Institut für Deutsche Sprache, Mannheim, 2013
 (CC BY-NC 3.0), https://www.ids-mannheim.de/derewo
 
 The French, Spanish and German pronunciations, genders, definitions and all
-translations were written for this app.
+translations (including every Spanish and German explanation) were written for this app.

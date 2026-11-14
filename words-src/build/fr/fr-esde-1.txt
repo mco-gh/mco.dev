@@ -1,0 +1,680 @@
+le|el, la (artículo); lo (pronombre)|der, die, das; ihn, es
+de|de|von, aus
+un|un, una; uno|ein, eine; eins
+et|y|und
+être|ser, estar; el ser|sein; das Wesen
+à|a, en|zu, nach, in
+il|él|er, es
+avoir|tener; haber (auxiliar)|haben
+ne|no (con « pas »)|nicht (mit « pas »)
+je|yo|ich
+son|su (de él, de ella); el sonido|sein, ihr; der Klang
+que|que; qué|dass; was
+se|se|sich
+qui|quien, que|wer, der/die
+en|en; de ello|in; davon
+ce|este, ese; ello|dieser, jener; es
+dans|en, dentro de|in
+du|del, de lo|vom, etwas (Teilungsartikel)
+elle|ella|sie
+au|al, en el|zum, im
+pour|para, por|für, um… zu
+pas|no; el paso|nicht; der Schritt
+vous|vosotros, usted|ihr, Sie
+par|por|durch, von
+sur|sobre, en|auf, über
+faire|hacer|machen, tun
+plus|más; ya no|mehr; nicht mehr
+dire|decir|sagen
+me|me|mich, mir
+on|uno, se, nosotros|man, wir
+mon|mi|mein
+lui|él, le|ihm, ihr, er
+nous|nosotros|wir, uns
+comme|como|wie
+mais|pero|aber
+pouvoir|poder; el poder|können; die Macht
+avec|con|mit
+tout|todo|alles, ganz
+y|allí; en ello|dort; daran
+aller|ir|gehen
+voir|ver|sehen
+bien|bien; el bien|gut; das Gut
+où|dónde, donde|wo
+sans|sin|ohne
+tu|tú|du
+ou|o|oder
+leur|su (de ellos); les|ihr (Plural); ihnen
+homme|el hombre|der Mann, der Mensch
+si|tan; si; sí (contradiciendo)|so; wenn; doch
+deux|dos|zwei
+mari|el marido|der Ehemann
+moi|yo, mí|ich, mich
+vouloir|querer|wollen
+te|te|dich, dir
+femme|la mujer; la esposa|die Frau; die Ehefrau
+venir|venir|kommen
+quand|cuando|wenn, als
+grand|grande, alto|groß
+celui|el que, aquel|derjenige
+notre|nuestro|unser
+devoir|deber; el deber, los deberes|müssen; die Pflicht, die Hausaufgabe
+là|allí, ahí|dort, da
+jour|el día|der Tag
+prendre|tomar, coger|nehmen
+même|incluso; mismo|sogar; gleich, selbst
+votre|vuestro, su (de usted)|euer, Ihr
+rien|nada|nichts
+encore|todavía; otra vez|noch; wieder
+petit|pequeño; el niño|klein; das Kind
+aussi|también; tan|auch; so
+quelque|algún, algunos|irgendein, einige
+dont|cuyo, del que|dessen, wovon
+mer|el mar|das Meer
+trouver|encontrar|finden
+donner|dar|geben
+temps|el tiempo|die Zeit; das Wetter
+ça|eso|das
+peu|poco|wenig
+falloir|hacer falta, tener que|müssen, nötig sein
+sous|debajo de|unter
+parler|hablar|sprechen
+alors|entonces|dann, also
+main|la mano|die Hand
+chose|la cosa|die Sache, das Ding
+ton|tu; el tono|dein; der Ton
+mettre|poner|setzen, legen, stellen
+vie|la vida|das Leben
+savoir|saber; el saber|wissen; das Wissen
+yeux|los ojos|die Augen
+passer|pasar|vorbeigehen, verbringen
+autre|otro|anderer
+après|después de|nach, danach
+regarder|mirar|anschauen
+toujours|siempre; todavía|immer; noch
+puis|luego, después|dann
+jamais|nunca|nie
+cela|eso|das
+aimer|amar, gustar|lieben, mögen
+non|no|nein
+heure|la hora|die Stunde, die Uhrzeit
+croire|creer|glauben
+cent|cien|hundert
+monde|el mundo; la gente|die Welt; die Leute
+entre|entre|zwischen
+donc|así que, por lo tanto|also, daher
+enfant|el niño, la niña|das Kind
+fois|la vez|das Mal
+seul|solo|allein, einzig
+vers|hacia; el verso|in Richtung; der Vers
+chez|en casa de|bei
+demander|pedir, preguntar|bitten, fragen
+jeune|joven|jung
+jusque|hasta|bis
+très|muy|sehr
+moment|el momento|der Moment
+rester|quedarse|bleiben
+répondre|responder|antworten
+entendre|oír|hören
+tête|la cabeza|der Kopf
+père|el padre|der Vater
+fille|la chica; la hija|das Mädchen; die Tochter
+mille|mil|tausend
+premier|primero|erster
+car|porque, pues|denn
+ni|ni|weder… noch
+bon|bueno; el vale|gut; der Gutschein
+trois|tres|drei
+cœur|el corazón|das Herz
+ainsi|así|so, auf diese Weise
+an|el año|das Jahr
+quatre|cuatro|vier
+terre|la tierra|die Erde
+contre|contra|gegen
+dieu|dios|Gott
+monsieur|señor|Herr
+voix|la voz|die Stimme
+penser|pensar|denken
+quel|qué, cuál|welcher
+arriver|llegar; pasar|ankommen; passieren
+maison|la casa|das Haus
+devant|delante de|vor
+coup|el golpe|der Schlag
+beau|bonito, hermoso|schön
+connaître|conocer|kennen
+devenir|llegar a ser|werden
+air|el aire; el aspecto|die Luft; das Aussehen
+mot|la palabra|das Wort
+nuit|la noche|die Nacht
+eau|el agua|das Wasser
+sentir|sentir; oler|fühlen; riechen
+vieux|viejo|alt
+sembler|parecer|scheinen
+moins|menos|weniger
+tenir|sostener, mantener|halten
+ici|aquí|hier
+comprendre|entender; incluir|verstehen; umfassen
+oui|sí|ja
+rendre|devolver; volver (+ adjetivo)|zurückgeben; machen (+ Adjektiv)
+toi|tú, ti|du, dich
+vingt|veinte|zwanzig
+depuis|desde|seit
+attendre|esperar|warten
+sortir|salir; sacar|hinausgehen; herausnehmen
+ami|el amigo|der Freund
+trop|demasiado|zu, zu viel
+porte|la puerta|die Tür
+lequel|cuál, el cual|welcher
+chaque|cada|jeder
+amour|el amor|die Liebe
+pendant|durante|während
+déjà|ya|schon
+pied|el pie|der Fuß
+tant|tanto|so viel
+gens|la gente|die Leute
+parce que|porque|weil
+nom|el nombre; el sustantivo|der Name; das Nomen
+vivre|vivir|leben
+entrer|entrar|eintreten
+reprendre|retomar, recuperar|wieder aufnehmen, zurücknehmen
+porter|llevar|tragen
+pays|el país|das Land
+ciel|el cielo|der Himmel
+avant|antes|vor, vorher
+frère|el hermano|der Bruder
+regard|la mirada|der Blick
+chercher|buscar|suchen
+âme|el alma|die Seele
+côté|el lado|die Seite
+mort|la muerte; muerto|der Tod; tot
+enfin|por fin|endlich
+revenir|volver|zurückkommen
+noir|negro|schwarz
+esprit|la mente, el espíritu|der Geist
+maintenant|ahora|jetzt
+nouveau|nuevo|neu
+ville|la ciudad|die Stadt
+rue|la calle|die Straße
+appeler|llamar|rufen, anrufen
+soir|la tarde, la noche|der Abend
+chambre|la habitación, el dormitorio|das Zimmer, das Schlafzimmer
+mourir|morir|sterben
+partir|irse, salir|weggehen, abfahren
+cinq|cinco|fünf
+soleil|el sol|die Sonne
+dernier|último|letzter
+jeter|tirar, lanzar|werfen, wegwerfen
+dix|diez|zehn
+roi|el rey|der König
+état|el estado|der Zustand, der Staat
+corps|el cuerpo|der Körper
+beaucoup|mucho|viel
+suivre|seguir|folgen
+bras|el brazo|der Arm
+écrire|escribir|schreiben
+blanc|blanco|weiß
+montrer|mostrar|zeigen
+tomber|caer|fallen
+place|el lugar, el asiento; la plaza|der Platz
+ouvrir|abrir|öffnen
+ah|ah|ach
+parti|el partido|die Partei
+assez|bastante, suficiente|genug, ziemlich
+cher|querido; caro|lieb; teuer
+voilà|he aquí, ahí está|da ist, hier ist
+année|el año|das Jahr
+loin|lejos|weit
+point|el punto; no (literario)|der Punkt; nicht (gehoben)
+visage|la cara|das Gesicht
+bruit|el ruido|der Lärm
+lettre|la carta; la letra|der Brief; der Buchstabe
+franc|el franco (antigua moneda)|der Franc (alte Währung)
+fond|el fondo|der Boden, der Hintergrund
+force|la fuerza|die Kraft
+effet|el efecto|die Wirkung
+arrêter|parar; detener|anhalten; verhaften
+perdre|perder|verlieren
+commencer|empezar|anfangen
+paraître|parecer, aparecer|scheinen, erscheinen
+aucun|ningún, ninguno|kein
+marcher|caminar; funcionar|gehen; funktionieren
+milieu|el medio; el entorno|die Mitte; das Umfeld
+saint|el santo; santo|der Heilige; heilig
+idée|la idea|die Idee
+presque|casi|fast
+ailleurs|en otra parte|anderswo
+travail|el trabajo|die Arbeit
+lumière|la luz|das Licht
+long|largo|lang
+seulement|solo, solamente|nur
+mois|el mes|der Monat
+fils|el hijo|der Sohn
+neuf|nueve; nuevo|neun; neu
+tel|tal|solch
+lever|levantar|heben
+raison|la razón|der Grund, die Vernunft
+gouvernement|el gobierno|die Regierung
+permettre|permitir|erlauben
+pauvre|pobre|arm
+asseoir|sentar; (s'asseoir) sentarse|setzen; sich setzen
+plein|lleno|voll
+personne|la persona; nadie|die Person; niemand
+vrai|verdadero|wahr, echt
+peuple|el pueblo|das Volk
+fait|el hecho; hecho|die Tatsache; gemacht
+parole|la palabra|das Wort, die Rede
+guerre|la guerra|der Krieg
+écouter|escuchar|zuhören
+pensée|el pensamiento|der Gedanke
+affaire|el asunto, el negocio|die Angelegenheit, das Geschäft
+quoi|qué|was
+matin|la mañana|der Morgen
+pierre|la piedra|der Stein
+monter|subir|hinaufgehen, steigen
+bas|bajo; la parte baja; la media|niedrig; der untere Teil; der Strumpf
+vent|el viento|der Wind
+doute|la duda|der Zweifel
+front|la frente; el frente|die Stirn; die Front
+ombre|la sombra|der Schatten
+part|la parte|der Teil, der Anteil
+maître|el amo; el maestro|der Herr; der Lehrer
+aujourd'hui|hoy|heute
+besoin|la necesidad|das Bedürfnis
+question|la pregunta|die Frage
+apercevoir|divisar, notar|erblicken, bemerken
+recevoir|recibir|erhalten
+mieux|mejor|besser
+peine|la pena; el esfuerzo|der Kummer; die Mühe
+tour|la vuelta; el turno|die Runde; die Reihe
+servir|servir|dienen, servieren
+oh|oh|oh
+autour|alrededor|herum
+près|cerca|nahe
+finir|terminar|beenden
+famille|la familia|die Familie
+pourquoi|por qué|warum
+souvent|a menudo|oft
+rire|reír; la risa|lachen; das Lachen
+dessus|encima|oben, darauf
+madame|señora|Frau (Anrede)
+sorte|la clase, el tipo|die Art, die Sorte
+figure|la cara; la figura|das Gesicht; die Figur
+droit|el derecho; recto|das Recht; gerade
+eh|eh|he
+peur|el miedo|die Angst
+bout|el extremo, el trozo|das Ende, das Stück
+lieu|el lugar|der Ort
+silence|el silencio|die Stille
+gros|gordo, grande|dick, groß
+chef|el jefe|der Chef
+six|seis|sechs
+bois|la madera; el bosque|das Holz; der Wald
+histoire|la historia|die Geschichte
+crier|gritar|schreien
+jouer|jugar|spielen
+feu|el fuego|das Feuer
+tourner|girar|drehen
+doux|suave, dulce|sanft, süß
+longtemps|mucho tiempo|lange
+fort|fuerte; muy|stark; sehr
+heureux|feliz|glücklich
+garder|guardar; cuidar|behalten; hüten
+partie|la parte; la partida|der Teil; die Partie
+face|la cara|die Seite, das Gesicht
+mouvement|el movimiento|die Bewegung
+fin|el fin; fino|das Ende; fein
+reconnaître|reconocer|erkennen, zugeben
+quitter|dejar, abandonar|verlassen
+comment|cómo|wie
+route|la carretera|die Straße
+dès|desde|ab, seit
+manger|comer|essen
+livre|el libro|das Buch
+arbre|el árbol|der Baum
+courir|correr|laufen
+cas|el caso|der Fall
+huit|ocho|acht
+lorsque|cuando|wenn, als
+mur|la pared, el muro|die Wand, die Mauer
+ordre|el orden; la orden|die Ordnung; der Befehl
+continuer|continuar|weitermachen
+est|el este|der Osten
+bonheur|la felicidad|das Glück
+oublier|olvidar|vergessen
+descendre|bajar|hinuntergehen
+haut|alto; la parte alta|hoch; der obere Teil
+intérêt|el interés|das Interesse
+cacher|esconder|verstecken
+l'un|uno (de ellos)|der eine
+chacun|cada uno|jeder
+profond|profundo|tief
+argent|el dinero; la plata|das Geld; das Silber
+cause|la causa|die Ursache
+poser|poner; plantear|hinlegen; stellen (Frage)
+autant|tanto|ebenso viel
+travers|(à travers) a través de|(à travers) durch
+instant|el instante|der Augenblick
+façon|la manera|die Art und Weise
+d'abord|primero|zuerst
+œil|el ojo|das Auge
+tirer|tirar; disparar|ziehen; schießen
+forme|la forma|die Form
+présenter|presentar|vorstellen
+ajouter|añadir|hinzufügen
+agir|actuar|handeln
+retrouver|reencontrar, recuperar|wiederfinden, treffen
+chemin|el camino|der Weg
+cheveu|el pelo|das Haar
+offrir|ofrecer, regalar|anbieten, schenken
+surtout|sobre todo|vor allem
+certain|cierto, seguro; algunos|sicher; gewiss
+plaisir|el placer|das Vergnügen
+suite|la continuación|die Fortsetzung
+apprendre|aprender; enseñar|lernen; beibringen
+malgré|a pesar de|trotz
+tuer|matar|töten
+rouge|rojo|rot
+sang|la sangre|das Blut
+retourner|volver; dar la vuelta|zurückkehren; umdrehen
+rencontrer|encontrarse con|treffen
+sentiment|el sentimiento|das Gefühl
+fleur|la flor|die Blume
+cependant|sin embargo|jedoch
+service|el servicio; el favor|der Dienst; der Gefallen
+envoyer|enviar|schicken
+plusieurs|varios|mehrere
+table|la mesa|der Tisch
+vite|rápido|schnell
+paix|la paz|der Frieden
+moyen|el medio; medio|das Mittel; mittel, durchschnittlich
+dormir|dormir|schlafen
+pousser|empujar; crecer|schieben; wachsen
+lit|la cama|das Bett
+humain|humano|menschlich
+voiture|el coche|das Auto
+rappeler|recordar; volver a llamar|erinnern; zurückrufen
+lire|leer|lesen
+général|general|allgemein; der General
+nature|la naturaleza|die Natur
+or|el oro; ahora bien|das Gold; nun aber
+français|francés|französisch
+joie|la alegría|die Freude
+sept|siete|sieben
+tard|tarde|spät
+président|el presidente|der Präsident
+pourtant|sin embargo|dennoch
+bouche|la boca|der Mund
+changer|cambiar|ändern
+essayer|intentar, probar|versuchen, anprobieren
+froid|frío|kalt
+compter|contar|zählen
+occuper|ocupar; (s'occuper de) ocuparse de|besetzen; sich kümmern um
+sens|el sentido|der Sinn, die Richtung
+cri|el grito|der Schrei
+espèce|la especie|die Art
+expliquer|explicar|erklären
+cheval|el caballo|das Pferd
+loi|la ley|das Gesetz
+sombre|oscuro|dunkel
+ci|aquí (como en « celui-ci »)|hier (wie in « celui-ci »)
+sûr|seguro|sicher
+voici|he aquí, aquí está|hier ist
+ancien|antiguo|alt, ehemalig
+tandis que|mientras que|während
+frapper|golpear; llamar (a la puerta)|schlagen; klopfen
+ministre|el ministro|der Minister
+puisque|ya que|da
+selon|según|laut, gemäß
+travailler|trabajar|arbeiten
+propre|limpio; propio|sauber; eigen
+obtenir|obtener|erhalten
+rentrer|volver a casa|nach Hause gehen
+mal|mal; el mal, el dolor|schlecht; das Übel, der Schmerz
+pleurer|llorar|weinen
+répéter|repetir|wiederholen
+société|la sociedad; la empresa|die Gesellschaft; die Firma
+parfois|a veces|manchmal
+politique|la política; político|die Politik; politisch
+oreille|la oreja|das Ohr
+payer|pagar|bezahlen
+apporter|traer|bringen
+fenêtre|la ventana|das Fenster
+derrière|detrás de|hinter
+possible|posible|möglich
+fortune|la fortuna; la suerte|das Vermögen; das Glück
+compte|la cuenta|das Konto, die Rechnung
+champ|el campo|das Feld
+manière|la manera|die Art und Weise
+vraiment|realmente|wirklich
+immense|inmenso|riesig
+exister|existir|existieren
+action|la acción|die Handlung, die Aktie
+boire|beber|trinken
+public|público; el público|öffentlich; das Publikum
+garçon|el chico; el camarero|der Junge; der Kellner
+pareil|igual, parecido|gleich, ähnlich
+bleu|azul|blau
+exemple|el ejemplo|das Beispiel
+sourire|sonreír; la sonrisa|lächeln; das Lächeln
+couleur|el color|die Farbe
+coucher|acostar; (se coucher) acostarse|hinlegen; ins Bett gehen
+papier|el papel|das Papier
+d'autres|otros|andere
+bientôt|pronto|bald
+causer|causar; charlar|verursachen; plaudern
+pièce|la habitación; la pieza; la moneda; la obra de teatro|das Zimmer; das Stück; die Münze; das Theaterstück
+montagne|la montaña|der Berg
+sol|el suelo|der Boden
+œuvre|la obra|das Werk
+partout|en todas partes|überall
+trente|treinta|dreißig
+cours|el curso, la clase|der Kurs, der Unterricht
+raconter|contar|erzählen
+serrer|apretar|drücken, festhalten
+songer|pensar, soñar|denken, träumen
+désir|el deseo|der Wunsch
+manquer|faltar; echar de menos|fehlen; vermissen
+cour|el patio; la corte|der Hof
+nommer|nombrar|nennen, ernennen
+bord|el borde; la orilla|der Rand; das Ufer
+douleur|el dolor|der Schmerz
+conduire|conducir|fahren, führen
+salle|la sala|der Saal, der Raum
+saisir|agarrar; comprender|ergreifen; begreifen
+entier|entero|ganz
+projet|el proyecto|das Projekt
+demeurer|permanecer; vivir|bleiben; wohnen
+simple|sencillo|einfach
+étude|el estudio|das Studium, die Studie
+remettre|volver a poner; entregar|zurücklegen; übergeben
+journal|el periódico; el diario|die Zeitung; das Tagebuch
+geste|el gesto|die Geste
+disparaître|desaparecer|verschwinden
+battre|golpear; vencer|schlagen; besiegen
+toucher|tocar|berühren
+situation|la situación|die Lage
+oiseau|el pájaro|der Vogel
+nécessaire|necesario|notwendig
+siècle|el siglo|das Jahrhundert
+apparaître|aparecer|erscheinen
+souffrir|sufrir|leiden
+million|el millón|die Million
+prix|el precio; el premio|der Preis
+groupe|el grupo|die Gruppe
+centre|el centro|das Zentrum
+malheur|la desgracia|das Unglück
+honneur|el honor|die Ehre
+fermer|cerrar|schließen
+accepter|aceptar|annehmen
+garde|la guardia; la custodia|die Wache; die Obhut
+mauvais|malo|schlecht
+tendre|tender; tierno|reichen, spannen; zärtlich
+naître|nacer|geboren werden
+sauver|salvar|retten
+parmi|entre|unter
+problème|el problema|das Problem
+larme|la lágrima|die Träne
+avancer|avanzar|vorankommen
+chien|el perro|der Hund
+peau|la piel|die Haut
+reste|el resto|der Rest
+traverser|cruzar|überqueren
+nombre|el número|die Zahl, die Anzahl
+debout|de pie|stehend
+mesure|la medida|das Maß
+social|social|sozial
+souvenir|(se souvenir) recordar; el recuerdo|(se souvenir) sich erinnern; die Erinnerung
+article|el artículo|der Artikel
+vue|la vista|die Sicht, der Blick
+couvrir|cubrir|bedecken
+âge|la edad|das Alter
+gagner|ganar|gewinnen, verdienen
+système|el sistema|das System
+former|formar|bilden, ausbilden
+plaire|gustar|gefallen
+effort|el esfuerzo|die Anstrengung
+embrasser|besar; abrazar|küssen; umarmen
+rêve|el sueño|der Traum
+oser|atreverse|wagen
+afin de|a fin de, para|um… zu
+passion|la pasión|die Leidenschaft
+auquel|al cual|dem, welchem
+empêcher|impedir|verhindern
+rapport|el informe; la relación|der Bericht; die Beziehung
+refuser|negarse, rechazar|ablehnen
+important|importante|wichtig
+décider|decidir|entscheiden
+produire|producir|herstellen
+soldat|el soldado|der Soldat
+lèvre|el labio|die Lippe
+signe|la señal, el signo|das Zeichen
+vérité|la verdad|die Wahrheit
+charger|cargar; encargar|laden; beauftragen
+mariage|el matrimonio, la boda|die Ehe, die Hochzeit
+mêler|mezclar|mischen
+espérer|esperar (desear)|hoffen
+plan|el plan; el plano|der Plan; der Stadtplan
+cesser|cesar, dejar de|aufhören
+ressembler|parecerse a|ähneln
+dos|la espalda|der Rücken
+marche|la marcha; el escalón|der Gang; die Stufe
+dame|la señora|die Dame
+chanter|cantar|singen
+plutôt|más bien|eher
+conseil|el consejo|der Rat
+sou|la perra, el céntimo (antiguo)|der Groschen
+triste|triste|traurig
+coin|el rincón, la esquina|die Ecke
+jardin|el jardín|der Garten
+joli|bonito|hübsch
+soit|o… o; es decir|entweder… oder; das heißt
+doigt|el dedo|der Finger
+objet|el objeto|der Gegenstand
+fer|el hierro|das Eisen
+lendemain|el día siguiente|der nächste Tag
+lentement|despacio|langsam
+combien|cuánto|wie viel
+approcher|acercar, acercarse|sich nähern
+prier|rezar; rogar|beten; bitten
+train|el tren|der Zug
+papa|papá|Papa
+différent|diferente|verschieden
+valeur|el valor|der Wert
+jeu|el juego|das Spiel
+échapper|escapar|entkommen
+glisser|resbalar, deslizar|rutschen, gleiten
+secret|el secreto; secreto|das Geheimnis; geheim
+vieillard|el anciano|der Greis
+briller|brillar|glänzen
+docteur|el doctor|der Arzt, der Doktor
+brûler|quemar|brennen
+terrible|terrible|schrecklich
+placer|colocar|platzieren
+jambe|la pierna|das Bein
+juger|juzgar|urteilen
+suffire|bastar|genügen
+endroit|el lugar|der Ort, die Stelle
+minute|el minuto|die Minute
+atteindre|alcanzar|erreichen
+nuage|la nube|die Wolke
+présence|la presencia|die Anwesenheit
+fou|loco|verrückt
+épaule|el hombro|die Schulter
+léger|ligero|leicht
+feuille|la hoja|das Blatt
+liberté|la libertad|die Freiheit
+journée|el día, la jornada|der Tag
+libre|libre|frei
+annoncer|anunciar|ankündigen
+avenir|el futuro|die Zukunft
+hier|ayer|gestern
+résultat|el resultado|das Ergebnis
+élever|elevar; criar|erheben; großziehen
+acheter|comprar|kaufen
+mener|llevar, dirigir|führen
+préparer|preparar|vorbereiten
+hôtel|el hotel|das Hotel
+semaine|la semana|die Woche
+forêt|el bosque|der Wald
+assurer|asegurar|versichern, sicherstellen
+pur|puro|rein
+qualité|la calidad|die Qualität
+prince|el príncipe|der Prinz
+également|también, igualmente|ebenfalls
+deviner|adivinar|erraten
+médecin|el médico|der Arzt
+considérer|considerar|betrachten
+volonté|la voluntad|der Wille
+seigneur|el señor|der Herr
+vert|verde|grün
+art|el arte|die Kunst
+moindre|menor|geringer
+demain|mañana|morgen
+quarante|cuarenta|vierzig
+cinquante|cincuenta|fünfzig
+foule|la multitud|die Menge
+appartenir|pertenecer|gehören
+aussitôt|enseguida|sofort
+ligne|la línea|die Linie
+représenter|representar|darstellen
+tromper|engañar; (se tromper) equivocarse|täuschen; sich irren
+intérieur|el interior; interior|das Innere; innerer
+vendre|vender|verkaufen
+beauté|la belleza|die Schönheit
+riche|rico|reich
+craindre|temer|fürchten
+étrange|extraño|seltsam
+emporter|llevarse|mitnehmen
+ensuite|luego|dann, danach
+soin|el cuidado|die Sorgfalt, die Pflege
+naturel|natural|natürlich
+hasard|el azar|der Zufall
+condition|la condición|die Bedingung
+quinze|quince|fünfzehn
+classe|la clase|die Klasse
+voyage|el viaje|die Reise
+expression|la expresión|der Ausdruck
+auprès|(auprès de) junto a|(auprès de) bei
+présent|el presente; presente|die Gegenwart; anwesend
+caractère|el carácter|der Charakter
+ensemble|juntos; el conjunto|zusammen; das Ganze
+attention|la atención|die Aufmerksamkeit
+gris|gris|grau
+exprimer|expresar|ausdrücken
+rouler|rodar; circular|rollen; fahren
+faible|débil|schwach
+posséder|poseer|besitzen
+scène|la escena; el escenario|die Szene; die Bühne
+difficile|difícil|schwierig
+réveiller|despertar|wecken
+foi|la fe|der Glaube
+aider|ayudar|helfen
+découvrir|descubrir|entdecken
+odeur|el olor|der Geruch
+choisir|elegir|wählen
+musique|la música|die Musik
+oncle|el tío|der Onkel
+événement|el acontecimiento|das Ereignis
+prononcer|pronunciar|aussprechen
+village|el pueblo|das Dorf
+taire|(se taire) callarse|(se taire) schweigen

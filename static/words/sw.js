@@ -1,6 +1,6 @@
 // Offline support: precache the whole app, serve from cache, refresh in the background.
 // Bump VERSION whenever any file below changes.
-const VERSION = 'v12';
+const VERSION = 'v13';
 const CACHE = `wordspring-${VERSION}`;
 const ASSETS = [
   './',
@@ -14,15 +14,23 @@ const ASSETS = [
   './data/en/words.json',
   './data/en/defs.en.json',
   './data/en/defs.fr.json',
+  './data/en/defs.es.json',
+  './data/en/defs.de.json',
   './data/fr/words.json',
   './data/fr/defs.en.json',
   './data/fr/defs.fr.json',
+  './data/fr/defs.es.json',
+  './data/fr/defs.de.json',
   './data/es/words.json',
   './data/es/defs.en.json',
   './data/es/defs.fr.json',
+  './data/es/defs.es.json',
+  './data/es/defs.de.json',
   './data/de/words.json',
   './data/de/defs.en.json',
   './data/de/defs.fr.json',
+  './data/de/defs.es.json',
+  './data/de/defs.de.json',
   './icons/icon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
