@@ -45,6 +45,19 @@ function el(tag, props = {}, ...children) {
 
 const newId = () => crypto.randomUUID().replaceAll('-', '').slice(0, 12);
 
+// --- Home-page example ----------------------------------------------------------
+// A real scanned shelf, small, so the first thing a visitor sees is what the app makes.
+
+fetch('demo/games.json')
+  .then((response) => (response.ok ? response.json() : Promise.reject()))
+  .then((demo) => {
+    $('demo-root').style.aspectRatio = '';
+    mountShelf($('demo-root'), demo, { imageUrl: 'demo/games.jpg', compact: true, idPrefix: 'demo-' });
+  })
+  .catch(() => {
+    document.querySelector('.demo').hidden = true; // the app works without its example
+  });
+
 // --- The visitor's API key --------------------------------------------------------
 //
 // Scanning calls Anthropic directly from this page with the visitor's own key.

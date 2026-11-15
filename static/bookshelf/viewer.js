@@ -54,10 +54,14 @@ function linksFor(book, match) {
  * @param {(book: object, changes: {title: string, author: string}) => Promise<object>} [options.onEdit]
  *   Called when a book is renamed; resolves to the updated book. Omit both callbacks for a read-only shelf.
  * @param {(book: object) => Promise<void>} [options.onRemove]
+ * @param {boolean} [options.compact]  show only the photo and its hotspots (no summary, search or list)
+ * @param {string} [options.idPrefix]  needed when more than one shelf is mounted on a page
  * @returns {{destroy: () => void}}
  */
-export function mountShelf(root, shelf, { imageUrl, onEdit, onRemove }) {
+export function mountShelf(root, shelf, { imageUrl, onEdit, onRemove, compact = false, idPrefix = '' }) {
   const editable = Boolean(onEdit && onRemove);
+  // Element ids are prefixed so two shelves can be on one page.
+  const id = (name) => `${idPrefix}${name}`;
   let books = shelf.books;
   let currentBook = null;
 
@@ -66,7 +70,7 @@ export function mountShelf(root, shelf, { imageUrl, onEdit, onRemove }) {
   const summary = el('p', { class: 'lede' });
   const filterInput = el('input', {
     type: 'search',
-    id: 'shelf-filter',
+    id: id('shelf-filter'),
     name: 'q',
     autocomplete: 'off',
     autocorrect: 'off',
@@ -75,18 +79,18 @@ export function mountShelf(root, shelf, { imageUrl, onEdit, onRemove }) {
     enterkeyhint: 'search',
   });
   const filterStatus = el('p', { class: 'hint', role: 'status' });
-  const filterForm = el('form', { class: 'filter' }, el('label', { for: 'shelf-filter', text: 'Find a book on this shelf' }), filterInput, filterStatus);
+  const filterForm = el('form', { class: 'filter' }, el('label', { for: id('shelf-filter'), text: 'Find a book on this shelf' }), filterInput, filterStatus);
   filterForm.addEventListener('submit', (event) => event.preventDefault());
 
   const image = el('img', { src: imageUrl, width: shelf.width, height: shelf.height, alt: `Photo of the bookshelf “${shelf.name}”` });
   const spines = el('div');
   const shelfBox = el('div', { class: 'shelf' }, image, spines);
 
-  const listTitle = el('h2', { id: 'shelf-list-title', text: 'All books' });
-  const list = el('ol', { class: 'book-list', 'aria-labelledby': 'shelf-list-title' });
+  const listTitle = el('h2', { id: id('shelf-list-title'), text: 'All books' });
+  const list = el('ol', { class: 'book-list', 'aria-labelledby': id('shelf-list-title') });
 
   // Details dialog
-  const title = el('h2', { id: 'book-title' });
+  const title = el('h2', { id: id('book-title') });
   const author = el('p', { class: 'book-author' });
   const cover = el('img', { class: 'book-cover', alt: '', hidden: '' });
   const meta = el('p', { class: 'book-meta' });
@@ -95,7 +99,7 @@ export function mountShelf(root, shelf, { imageUrl, onEdit, onRemove }) {
   const links = el('ul', { class: 'book-links' });
   const dialog = el(
     'dialog',
-    { closedby: 'any', 'aria-labelledby': 'book-title' },
+    { closedby: 'any', 'aria-labelledby': id('book-title') },
     el('div', { class: 'dialog-head' }, title, el('form', { method: 'dialog' }, el('button', { class: 'icon-button', 'aria-label': 'Close', autofocus: '', text: '×' }))),
     author,
     el('div', { class: 'book-body' }, cover, el('div', {}, meta, blurb, note)),
@@ -108,15 +112,15 @@ export function mountShelf(root, shelf, { imageUrl, onEdit, onRemove }) {
   let editAuthor;
   let editStatus;
   if (editable) {
-    editTitle = el('input', { type: 'text', id: 'edit-title', name: 'title', required: '', maxlength: '300' });
-    editAuthor = el('input', { type: 'text', id: 'edit-author', name: 'author', maxlength: '300' });
+    editTitle = el('input', { type: 'text', id: id('edit-title'), name: 'title', required: '', maxlength: '300' });
+    editAuthor = el('input', { type: 'text', id: id('edit-author'), name: 'author', maxlength: '300' });
     editStatus = el('p', { class: 'hint', role: 'status' });
     const removeButton = el('button', { type: 'button', class: 'danger', text: 'Remove this outline' });
     const editForm = el(
       'form',
       { class: 'edit-form' },
-      el('div', { class: 'field' }, el('label', { for: 'edit-title' }, 'Title ', el('span', { 'aria-hidden': 'true', text: '*' })), editTitle),
-      el('div', { class: 'field' }, el('label', { for: 'edit-author', text: 'Author' }), editAuthor),
+      el('div', { class: 'field' }, el('label', { for: id('edit-title') }, 'Title ', el('span', { 'aria-hidden': 'true', text: '*' })), editTitle),
+      el('div', { class: 'field' }, el('label', { for: id('edit-author'), text: 'Author' }), editAuthor),
       el('div', { class: 'actions' }, el('button', { type: 'submit', class: 'primary', text: 'Save changes' }), removeButton),
       editStatus,
     );
@@ -163,7 +167,8 @@ export function mountShelf(root, shelf, { imageUrl, onEdit, onRemove }) {
     });
   }
 
-  root.replaceChildren(summary, el('search', {}, filterForm), shelfBox, listTitle, list, dialog);
+  if (compact) root.replaceChildren(shelfBox, dialog);
+  else root.replaceChildren(summary, el('search', {}, filterForm), shelfBox, listTitle, list, dialog);
 
   // --- Rendering -------------------------------------------------------------
 
@@ -178,7 +183,7 @@ export function mountShelf(root, shelf, { imageUrl, onEdit, onRemove }) {
       const h = Math.max(...ys) - y0 || 0.001;
       // Outline relative to the button's own box, in percent.
       const local = book.quad.map(([x, y]) => [((x - x0) / w) * 100, ((y - y0) / h) * 100]);
-      const tipId = `tip-${book.id}`;
+      const tipId = id(`tip-${book.id}`);
 
       // The button has no text of its own: the tooltip is its accessible name.
       const button = el('button', { type: 'button', class: 'spine', interestfor: tipId, 'aria-labelledby': tipId, 'data-book': book.id });

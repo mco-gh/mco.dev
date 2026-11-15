@@ -752,6 +752,28 @@ summary {
   margin-block-start: 1.4rem;
 }
 
+/* Home-page example shelf */
+
+.demo {
+  margin: 1.5rem 0 2rem;
+  max-inline-size: 46rem;
+}
+
+.demo .shelf {
+  margin-inline: 0;
+  inline-size: 100%;
+}
+
+.demo .shelf img {
+  inline-size: 100%;
+}
+
+.demo figcaption {
+  margin-block-start: 0.6rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 /* API key */
 
 .key {
