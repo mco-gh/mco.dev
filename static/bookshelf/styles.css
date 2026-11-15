@@ -1,0 +1,866 @@
+:root {
+  /* Light tokens; dark values are swapped in by the media query below. */
+  --bg: #fffaf2;
+  --surface: #ffffff;
+  --surface-tint: #f6f0ff;
+  --text: #1f1a3d;
+  --muted: #575175;
+  --border: #e3dbfa; /* decorative separators and card edges */
+  --control-border: #8a83ad; /* inputs and buttons: 3:1 against the surface */
+  --primary: #6d28d9;
+  --primary-hover: #5b1fc0;
+  --on-primary: #ffffff;
+  --link: #6d28d9;
+  --danger: #c2184a;
+  --shadow: 0 6px 20px rgb(109 40 217 / 0.14);
+  --shadow-lift: 0 10px 28px rgb(109 40 217 / 0.24);
+
+  /* The fun part: one colour per "book" in the stripe, cards and pills. */
+  --pink: #ff4f9a;
+  --sun: #ffc533;
+  --mint: #19c7a6;
+  --sky: #2fa8ff;
+  --grape: #8b5cf6;
+  --heading-gradient: linear-gradient(100deg, #6d28d9 0%, #d6257a 60%, #e0561b 100%);
+  --glow-1: rgb(255 79 154 / 0.14);
+  --glow-2: rgb(47 168 255 / 0.16);
+  --glow-3: rgb(255 197 51 / 0.2);
+
+  --spine-fill: rgb(255 226 61 / 0.38);
+  --spine-stroke: #ffe23d;
+
+  @media (prefers-color-scheme: dark) {
+    --bg: #14112b;
+    --surface: #211c45;
+    --surface-tint: #2a2456;
+    --text: #f4f1ff;
+    --muted: #bcb6e0;
+    --border: #3b3472;
+    --control-border: #8d86bd;
+    --primary: #b9a0ff;
+    --primary-hover: #cdbaff;
+    --on-primary: #1c1140;
+    --link: #c7b3ff;
+    --danger: #ff8fab;
+    --shadow: 0 6px 20px rgb(0 0 0 / 0.35);
+    --shadow-lift: 0 10px 28px rgb(0 0 0 / 0.5);
+    --heading-gradient: linear-gradient(100deg, #c7b3ff 0%, #ff8cc0 60%, #ffc170 100%);
+    --glow-1: rgb(255 79 154 / 0.16);
+    --glow-2: rgb(47 168 255 / 0.14);
+    --glow-3: rgb(139 92 246 / 0.22);
+  }
+
+  color-scheme: light dark;
+  accent-color: var(--primary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-block-size: 100dvh;
+  background-color: var(--bg);
+  /* Soft colour washes in the corners; purely decorative. */
+  background-image:
+    radial-gradient(60rem 30rem at -10% -10%, var(--glow-1), transparent 60%),
+    radial-gradient(50rem 28rem at 110% 0%, var(--glow-2), transparent 60%),
+    radial-gradient(50rem 30rem at 50% 120%, var(--glow-3), transparent 60%);
+  background-attachment: fixed;
+  color: var(--text);
+  font: 1rem/1.55 ui-rounded, 'SF Pro Rounded', 'Nunito', 'Avenir Next', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+  text-wrap: balance;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: clamp(2rem, 1.4rem + 2.6vw, 3rem);
+  margin-block: 0.4em 0.3em;
+  /* Gradient lettering. Large bold text, and every stop keeps 3:1 against the page. */
+  background: var(--heading-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+/* Headings that only receive focus from script (after a page change) need no ring. */
+h1[tabindex='-1']:focus {
+  outline: none;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* A row of colourful spines along the top of every page. */
+.site-header,
+main:first-child {
+  border-block-start: 8px solid var(--primary);
+  border-image: linear-gradient(
+      90deg,
+      var(--pink) 0 16%,
+      var(--sun) 16% 30%,
+      var(--mint) 30% 49%,
+      var(--sky) 49% 62%,
+      var(--grape) 62% 83%,
+      var(--pink) 83% 100%
+    )
+    1;
+}
+
+.site-header {
+  padding: 0.6rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-button {
+  display: inline-grid;
+  place-items: center;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.brand::before {
+  /* Three little books. */
+  content: '';
+  display: inline-block;
+  inline-size: 1.25em;
+  block-size: 1em;
+  margin-inline-end: 0.45em;
+  vertical-align: -0.12em;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--pink) 0 28%, transparent 28% 36%, var(--sun) 36% 64%, transparent 64% 72%, var(--sky) 72% 100%);
+}
+
+main {
+  max-inline-size: 72rem;
+  margin-inline: auto;
+  padding: 1.25rem;
+}
+
+.lede {
+  color: var(--muted);
+  font-size: 1.1rem;
+  max-inline-size: 60ch;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.error {
+  color: var(--danger);
+  font-weight: 700;
+}
+
+.error:not(:empty)::before {
+  content: '⚠ ';
+}
+
+.error:empty,
+.status:empty,
+.hint:empty {
+  display: none;
+}
+
+.status {
+  font-weight: 600;
+}
+
+/* Forms */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+  margin-block-end: 1.25rem;
+}
+
+label {
+  font-weight: 700;
+}
+
+input,
+button {
+  font: inherit;
+  font-size: max(1rem, 1em);
+}
+
+input[type='text'],
+input[type='search'] {
+  inline-size: min(100%, 28rem);
+  min-block-size: 48px;
+  padding: 0.6rem 0.9rem;
+  border: 2px solid var(--control-border);
+  border-radius: 0.8rem;
+  background: var(--surface);
+  color: var(--text);
+}
+
+input[type='text']:focus-visible,
+input[type='search']:focus-visible {
+  border-color: var(--primary);
+}
+
+button {
+  min-block-size: 48px;
+  padding: 0.6rem 1.3rem;
+  border: 2px solid var(--control-border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    translate 0.15s,
+    box-shadow 0.15s,
+    background-color 0.15s;
+}
+
+button:hover:not(:disabled) {
+  translate: 0 -2px;
+  box-shadow: var(--shadow);
+}
+
+button:active:not(:disabled) {
+  translate: 0 0;
+  box-shadow: none;
+}
+
+button.primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-primary);
+  box-shadow: var(--shadow);
+}
+
+button.primary:hover:not(:disabled) {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+  box-shadow: var(--shadow-lift);
+}
+
+button.danger {
+  color: var(--danger);
+  border-color: currentColor;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+::file-selector-button {
+  font: inherit;
+  font-weight: 700;
+  min-block-size: 40px;
+  margin-inline-end: 0.75rem;
+  padding: 0.4rem 1rem;
+  border: 2px solid var(--control-border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.upload {
+  padding: 1.5rem;
+  border: 3px dashed var(--grape);
+  border-radius: 1.25rem;
+  background: var(--surface-tint);
+  max-inline-size: 40rem;
+  transition:
+    border-color 0.15s,
+    background-color 0.15s;
+}
+
+.upload.dragging {
+  border-color: var(--pink);
+  border-style: solid;
+}
+
+.upload input[type='file'] {
+  max-inline-size: 100%;
+  min-block-size: 48px;
+}
+
+.progress {
+  margin-block: 1.25rem 0.5rem;
+  max-inline-size: 40rem;
+  font-weight: 700;
+}
+
+.progress progress {
+  display: block;
+  inline-size: 100%;
+  margin-block-start: 0.35rem;
+}
+
+/* Library */
+
+.scan-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1.25rem;
+}
+
+.scan-card {
+  border: 1px solid var(--border);
+  border-block-end: 6px solid var(--pink);
+  border-radius: 1rem;
+  background: var(--surface);
+  overflow: clip;
+  box-shadow: var(--shadow);
+  transition:
+    translate 0.15s,
+    box-shadow 0.15s;
+}
+
+.scan-card:nth-child(5n + 2) {
+  border-block-end-color: var(--sun);
+}
+.scan-card:nth-child(5n + 3) {
+  border-block-end-color: var(--mint);
+}
+.scan-card:nth-child(5n + 4) {
+  border-block-end-color: var(--sky);
+}
+.scan-card:nth-child(5n + 5) {
+  border-block-end-color: var(--grape);
+}
+
+.scan-card:hover {
+  translate: 0 -3px;
+  box-shadow: var(--shadow-lift);
+}
+
+.scan-card img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.scan-card .card-body {
+  padding: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.scan-card a {
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+.scan-card button {
+  min-block-size: 40px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+/* Shelf viewer */
+
+.filter {
+  margin-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.shelf {
+  position: relative;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  margin-inline: auto;
+  border-radius: 1.25rem;
+  overflow: clip;
+  background: var(--surface);
+  box-shadow: var(--shadow-lift);
+}
+
+.shelf img {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+/* One button per book. The button is the spine's bounding box, clipped to the
+   spine's outline so only the spine itself responds to the pointer. */
+.spine {
+  position: absolute;
+  min-block-size: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  clip-path: var(--outline);
+  cursor: pointer;
+  transition: none;
+  /* Shorter than the default so titles appear promptly while sweeping along a shelf.
+     The custom properties are read by the interestfor polyfill. */
+  --interest-delay-start: 0.12s;
+  --interest-delay-end: 0.1s;
+  interest-delay-start: var(--interest-delay-start);
+  interest-delay-end: var(--interest-delay-end);
+}
+
+.spine:hover:not(:disabled) {
+  translate: none;
+  box-shadow: none;
+}
+
+.spine svg {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  overflow: visible;
+}
+
+.spine polygon {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  transition:
+    fill 0.12s,
+    stroke 0.12s;
+}
+
+.spine:is(:hover, :interest-source, .interest-source, .match) polygon {
+  fill: var(--spine-fill);
+  stroke: var(--spine-stroke);
+}
+
+/* The outline is clipped away with the rest of the button, so keyboard focus
+   is shown with a heavier, two-tone stroke on the spine shape instead. */
+.spine:focus-visible {
+  outline: none;
+}
+
+.spine:focus-visible polygon {
+  fill: var(--spine-fill);
+  stroke: #fff;
+  stroke-width: 8;
+  paint-order: stroke;
+  filter: drop-shadow(0 0 2px #000);
+}
+
+.shelf.filtering .spine:not(.match) polygon {
+  fill: rgb(20 17 43 / 0.6);
+}
+
+/* Title tooltip: a bright speech bubble, the same in light and dark. */
+
+.tip {
+  max-inline-size: 22rem;
+  padding: 0.5rem 0.85rem;
+  border: 2px solid #ffffff;
+  border-radius: 0.9rem;
+  background: #5b21b6;
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 0.35);
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+.tip strong {
+  display: block;
+  font-weight: 800;
+}
+
+.tip span {
+  color: #e9defe;
+}
+
+@supports (position-area: block-start) {
+  /* The spine button is the tooltip's implicit anchor (via interestfor). */
+  .tip {
+    inset: auto;
+    margin: 0.4rem;
+    position-area: block-start;
+    position-try-fallbacks: flip-block, center;
+  }
+}
+
+@supports not (position-area: block-start) {
+  /* Without anchor positioning, show the title as a caption at the bottom of the viewport. */
+  .tip {
+    position: fixed;
+    inset: auto 1rem 1rem;
+    inline-size: fit-content;
+    margin: 0 auto;
+  }
+}
+
+/* Book list */
+
+.book-list {
+  padding-inline-start: 0;
+  list-style: none;
+  columns: 20rem;
+  column-gap: 2rem;
+}
+
+.book-list li {
+  break-inside: avoid;
+}
+
+.book-list li[hidden] {
+  display: none;
+}
+
+.book-list button {
+  inline-size: 100%;
+  text-align: start;
+  border: 0;
+  border-inline-start: 5px solid var(--pink);
+  border-radius: 0.5rem;
+  background: none;
+  padding: 0.45rem 0.75rem;
+  margin-block-end: 0.35rem;
+  font-weight: 700;
+}
+
+.book-list li:nth-child(5n + 2) button {
+  border-inline-start-color: var(--sun);
+}
+.book-list li:nth-child(5n + 3) button {
+  border-inline-start-color: var(--mint);
+}
+.book-list li:nth-child(5n + 4) button {
+  border-inline-start-color: var(--sky);
+}
+.book-list li:nth-child(5n + 5) button {
+  border-inline-start-color: var(--grape);
+}
+
+.book-list button:hover:not(:disabled) {
+  translate: 4px 0;
+  box-shadow: none;
+  background: var(--surface-tint);
+}
+
+.book-list .who {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.book-list .shelf-heading {
+  font-weight: 800;
+  margin-block: 1rem 0.4rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+}
+
+/* Book details dialog */
+
+dialog {
+  inline-size: min(34rem, calc(100vw - 2rem));
+  max-block-size: calc(100dvh - 2rem);
+  padding: 1.4rem;
+  border: 0;
+  border-block-start: 8px solid var(--pink);
+  border-radius: 1.25rem;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 20px 60px rgb(0 0 0 / 0.4);
+}
+
+dialog:modal {
+  overscroll-behavior: contain;
+}
+
+dialog::backdrop {
+  background: rgb(31 20 74 / 0.6);
+  overflow: hidden;
+  overscroll-behavior: contain;
+}
+
+.dialog-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+}
+
+.dialog-head h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.icon-button {
+  inline-size: 48px;
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.book-author {
+  margin-block: 0.25rem 1rem;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.book-body {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+.book-body p {
+  margin-block: 0 0.6rem;
+}
+
+.book-cover {
+  inline-size: 6.5rem;
+  block-size: auto;
+  border-radius: 0.4rem;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.3);
+  rotate: -2deg;
+}
+
+.book-meta {
+  font-weight: 700;
+}
+
+.book-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.book-links a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 48px;
+  padding: 0.4rem 1rem;
+  border: 2px solid var(--primary);
+  border-radius: 999px;
+  background: var(--surface-tint);
+  text-decoration: none;
+  font-weight: 700;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.book-links a:hover {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+details {
+  margin-block-start: 1rem;
+  border-block-start: 2px dashed var(--border);
+  padding-block-start: 0.75rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 700;
+  min-block-size: 48px;
+  align-content: center;
+}
+
+.edit-form {
+  margin-block-start: 0.75rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-block-end: 0.5rem;
+}
+
+/* About dialog */
+
+.about {
+  inline-size: min(40rem, calc(100vw - 2rem));
+  border-block-start-color: var(--grape);
+}
+
+.about h3 {
+  margin-block: 1.4rem 0.4rem;
+  font-size: 1.1rem;
+}
+
+.about :is(ul, ol) {
+  margin-block: 0;
+  padding-inline-start: 1.3rem;
+}
+
+.about li {
+  margin-block-end: 0.4rem;
+}
+
+.about li::marker {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.about .hint {
+  margin-block-start: 1.4rem;
+}
+
+/* API key */
+
+.key {
+  margin-block: 1.5rem;
+}
+
+.key > .hint {
+  margin-block-end: 1rem;
+}
+
+input[type='password'] {
+  inline-size: min(100%, 28rem);
+  min-block-size: 48px;
+  padding: 0.6rem 0.9rem;
+  border: 2px solid var(--control-border);
+  border-radius: 0.8rem;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-block-size: 48px;
+  margin-block-end: 0.75rem;
+}
+
+.check input {
+  inline-size: 1.4rem;
+  block-size: 1.4rem;
+}
+
+.check label {
+  font-weight: 400;
+  padding-block: 0.6rem;
+}
+
+/* Saving and opening shelves */
+
+.open-saved,
+.key,
+.keep {
+  margin-block-start: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  max-inline-size: 40rem;
+}
+
+.open-saved h2,
+.key h2,
+.keep h2 {
+  margin-block-start: 0;
+}
+
+.keep .hint {
+  margin-block: 0.5rem;
+  max-inline-size: 60ch;
+}
+
+.rename {
+  margin-block-start: 1.5rem;
+  padding-block-start: 1rem;
+  border-block-start: 2px dashed var(--border);
+}
+
+.open-saved input[type='file'] {
+  max-inline-size: 100%;
+  min-block-size: 48px;
+}
+
+#library {
+  margin-block-start: 2.5rem;
+}
+
+/* Forced colours: gradients and shadows are dropped, so fall back to system colours. */
+@media (forced-colors: active) {
+  h1 {
+    background: none;
+    color: CanvasText;
+  }
+
+  .site-header,
+  main:first-child {
+    border-image: none;
+    border-block-start-color: CanvasText;
+  }
+
+  .spine:is(:hover, :focus-visible, :interest-source, .interest-source, .match) polygon {
+    stroke: Highlight;
+  }
+
+  .tip {
+    border-color: CanvasText;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
+
+  button:hover:not(:disabled),
+  .scan-card:hover {
+    translate: none;
+  }
+}
