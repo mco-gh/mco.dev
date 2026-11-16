@@ -48,29 +48,15 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
-<a href="/bookshelf/"><img class="app-shot" src="/img/apps/bookshelf.jpg" alt="The Bookshelf landing page, showing a photo of a shelf of games and puzzle books" width="1280" height="860" loading="lazy"></a>
+<a href="/chess/"><img class="app-shot" src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
-<h2 id="bookshelf"><a href="/bookshelf/">Bookshelf</a></h2>
-<p class="app-tagline">Turn a photo of your shelf into a clickable catalogue</p>
-<p>Turn a photo of a bookshelf into an interactive catalogue. Upload a picture and every spine becomes a hotspot: hover over it to see the title, or click for details and places to find the book. Scanning uses Anthropic's Claude with your own API key, and you can try it first on an example shelf without one.</p>
-<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, Anthropic's Claude API (Claude Opus 5.5 vision) called from the browser with your key, IndexedDB</div>
+<h2 id="chess"><a href="/chess/">Chess</a></h2>
+<p class="app-tagline">Your move, wherever you are</p>
+<p>Play chess with anyone, wherever they are. Pick white or black, start a game and send your friend the code: there's nothing to sign up for. Tap or drag the pieces and they glide across the board, with every legal move marked for you. You can turn on video or chat while you play, and recolor the board and pieces to taste. Moves travel directly between your two browsers.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, a small hand-written rules engine, WebRTC data and media channels (PeerJS), inline SVG pieces with CSS transitions, localStorage</div>
 <div class="app-actions">
-<a class="app-btn app-btn-primary" href="/bookshelf/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/bookshelf" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
-</div>
-</div>
-</div>
-
-<div class="app-card">
-<a href="/talk/"><img class="app-shot" src="/img/apps/talk.jpg" alt="The Talk landing page, with a language picker and a Start a call button" width="1280" height="860" loading="lazy"></a>
-<div class="app-card-body">
-<h2 id="talk"><a href="/talk/">Talk</a></h2>
-<p class="app-tagline">Video calls that translate your voice as you speak</p>
-<p>Video call a friend who speaks another language. Talk translates what each of you says as you speak, in a voice that sounds like yours, with captions on screen. It works in English, French, German and Spanish. Send your friend a link to start: the call runs directly between your two browsers. Translation uses Google's Gemini with your own API key, and only one of you needs one.</p>
-<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, WebRTC (PeerJS), Google's Gemini 3.5 Live Translate over a WebSocket, Web Audio (AudioWorklet), localStorage</div>
-<div class="app-actions">
-<a class="app-btn app-btn-primary" href="/talk/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/talk" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+<a class="app-btn app-btn-primary" href="/chess/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/chess" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
@@ -90,15 +76,29 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
-<a href="/chess/"><img class="app-shot" src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
+<a href="/talk/"><img class="app-shot" src="/img/apps/talk.jpg" alt="The Talk landing page, with a language picker and a Start a call button" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
-<h2 id="chess"><a href="/chess/">Chess</a></h2>
-<p class="app-tagline">Your move, wherever you are</p>
-<p>Play chess with anyone, wherever they are. Pick white or black, start a game and send your friend the code: there's nothing to sign up for. Tap or drag the pieces and they glide across the board, with every legal move marked for you. You can turn on video or chat while you play, and recolor the board and pieces to taste. Moves travel directly between your two browsers.</p>
-<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, a small hand-written rules engine, WebRTC data and media channels (PeerJS), inline SVG pieces with CSS transitions, localStorage</div>
+<h2 id="talk"><a href="/talk/">Talk</a></h2>
+<p class="app-tagline">Video calls that translate your voice as you speak</p>
+<p>Video call a friend who speaks another language. Talk translates what each of you says as you speak, in a voice that sounds like yours, with captions on screen. It works in English, French, German and Spanish. Send your friend a link to start: the call runs directly between your two browsers. Translation uses Google's Gemini with your own API key, and only one of you needs one.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, WebRTC (PeerJS), Google's Gemini 3.5 Live Translate over a WebSocket, Web Audio (AudioWorklet), localStorage</div>
 <div class="app-actions">
-<a class="app-btn app-btn-primary" href="/chess/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/chess" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+<a class="app-btn app-btn-primary" href="/talk/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/talk" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
+<a href="/bookshelf/"><img class="app-shot" src="/img/apps/bookshelf.jpg" alt="The Bookshelf landing page, showing a photo of a shelf of games and puzzle books" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="bookshelf"><a href="/bookshelf/">Bookshelf</a></h2>
+<p class="app-tagline">Turn a photo of your shelf into a clickable catalogue</p>
+<p>Turn a photo of a bookshelf into an interactive catalogue. Upload a picture and every spine becomes a hotspot: hover over it to see the title, or click for details and places to find the book. Scanning uses Anthropic's Claude with your own API key, and you can try it first on an example shelf without one.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, Anthropic's Claude API (Claude Opus 5.5 vision) called from the browser with your key, IndexedDB</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/bookshelf/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/bookshelf" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
