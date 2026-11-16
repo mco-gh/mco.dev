@@ -70,7 +70,7 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, WebRTC (PeerJS), Google's Gemini 3.5 Live Translate over a WebSocket, Web Audio (AudioWorklet), localStorage</div>
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/talk/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mco.dev/tree/master/static/talk" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/talk" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
@@ -84,7 +84,7 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, WebRTC data and media channels (PeerJS), CSS container units and transitions for the board, localStorage</div>
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/bg/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mco.dev/tree/master/static/bg" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/bg" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
@@ -98,7 +98,7 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, a small hand-written rules engine, WebRTC data and media channels (PeerJS), inline SVG pieces with CSS transitions, localStorage</div>
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/chess/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mco.dev/tree/master/static/chess" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/chess" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
