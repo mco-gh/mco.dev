@@ -10,3 +10,9 @@
 [submodule "static/bg"]
 	path = static/bg
 	url = https://github.com/mco-gh/bg.git
+[submodule "static/words"]
+	path = static/words
+	url = https://github.com/mco-gh/words.git
+[submodule "static/bookshelf"]
+	path = static/bookshelf
+	url = https://github.com/mco-gh/bookshelf.git

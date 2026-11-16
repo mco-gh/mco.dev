@@ -42,7 +42,7 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, an installable offline web app (service worker), the browser's speech synthesis for pronunciation, localStorage</div>
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/words/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mco.dev/tree/master/static/words" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/words" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
@@ -56,7 +56,7 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, Anthropic's Claude API (Claude Opus 5.5 vision) called from the browser with your key, IndexedDB</div>
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/bookshelf/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mco.dev/tree/master/static/bookshelf" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/bookshelf" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
