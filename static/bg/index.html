@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>BG — backgammon with a friend, anywhere</title>
+  <meta name="description" content="Play backgammon online with a friend. No sign-up: start a game, share the code and roll. Peer to peer, with optional video and chat.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fff4e4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17122b" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./vendor/peerjs.min.js" defer></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div class="blobs" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+  <header class="topbar">
+    <div class="brand-wrap">
+      <a class="brand" href="./">
+        <svg class="logo" viewBox="0 0 40 40" aria-hidden="true">
+          <rect class="logo-die" x="3" y="3" width="34" height="34" rx="9"/>
+          <circle class="logo-a" cx="14" cy="14" r="5"/>
+          <circle class="logo-b" cx="26" cy="26" r="5"/>
+        </svg>
+        <span>BG</span>
+      </a>
+      <p class="credit">Made with ❤️ by <a href="https://mco.dev/">Marc Cohen</a></p>
+    </div>
+    <div class="top-actions">
+      <button class="icon-btn" type="button" command="show-modal" commandfor="info" aria-label="About BG">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.500v.010"/></svg>
+      </button>
+      <button class="icon-btn" type="button" command="show-modal" commandfor="settings" aria-label="Settings">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4.500v5M6 14.500v5"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ───────────── Lobby ───────────── -->
+  <main id="lobby" class="lobby">
+    <section class="pitch">
+      <h1>Backgammon with a friend, <em>anywhere</em>.</h1>
+      <p class="sub">No sign-up, no downloads. Start a game, share the code and roll.</p>
+      <div class="preview-wrap"><div id="preview" aria-hidden="true"></div></div>
+    </section>
+
+    <section class="card" aria-labelledby="card-title">
+      <h2 id="card-title" class="visually-hidden">Play</h2>
+
+      <div id="setup">
+        <form id="start-form" class="stack">
+          <fieldset class="pick">
+            <legend>Pick your color</legend>
+            <label class="pick-chip"><input type="radio" name="side" value="0" checked><span class="chip-face a" aria-hidden="true"></span><span class="visually-hidden">First color</span></label>
+            <label class="pick-chip"><input type="radio" name="side" value="1"><span class="chip-face b" aria-hidden="true"></span><span class="visually-hidden">Second color</span></label>
+            <button class="link-btn" type="button" command="show-modal" commandfor="settings">Change colors</button>
+          </fieldset>
+          <button class="btn primary big" type="submit">
+            <span aria-hidden="true">🎲</span> Start a game
+          </button>
+        </form>
+
+        <p class="or"><span>or join one</span></p>
+
+        <form id="join-form" class="join-row">
+          <label class="visually-hidden" for="join-code">Game code</label>
+          <input id="join-code" name="code" type="text" inputmode="text" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="60" placeholder="abc-def" required>
+          <button class="btn" type="submit">Join</button>
+        </form>
+      </div>
+
+      <div id="invite" class="stack" hidden>
+        <h3>Send this code to your friend</h3>
+        <output id="code-text" class="code"></output>
+        <div class="share-row">
+          <span class="copy">
+            <button class="btn small" type="button" command="--copy" commandfor="code-text">Copy code</button>
+            <span class="tip" role="status"></span>
+          </span>
+          <span class="copy">
+            <button class="btn small ghost" type="button" command="--copy-link" commandfor="code-text">Copy link</button>
+            <span class="tip" role="status"></span>
+          </span>
+          <button class="btn small ghost" type="button" id="share-btn" hidden>Share…</button>
+        </div>
+        <p class="waiting"><span class="pulse" aria-hidden="true"></span>Waiting for them to join…</p>
+        <button class="btn ghost" type="button" id="cancel-wait">Cancel</button>
+      </div>
+
+      <p class="waiting" id="joining" hidden><span class="pulse" aria-hidden="true"></span>Joining the game…</p>
+      <p class="error" id="lobby-error" role="alert" hidden></p>
+      <p class="privacy">Moves, chat and video go straight between your two browsers. Nothing is stored anywhere.</p>
+    </section>
+  </main>
+
+  <!-- ───────────── Game ───────────── -->
+  <main id="game" class="game" hidden>
+    <section class="table" aria-label="Backgammon board">
+      <div class="seat" id="seat-them">
+        <span class="chip-face" id="chip-them" aria-hidden="true"></span>
+        <span class="seat-name">Opponent</span>
+        <span class="link-state" id="link-state" data-state="on"><span class="dot" aria-hidden="true"></span><span id="link-text">Connected</span></span>
+        <span class="pips" id="pips-them"></span>
+      </div>
+
+      <div class="board-wrap">
+        <div id="board"></div>
+        <div class="over" id="over" hidden>
+          <div class="confetti" id="confetti" aria-hidden="true"></div>
+          <p class="over-title" id="over-title"></p>
+          <p class="over-sub" id="over-sub"></p>
+          <button class="btn primary" type="button" id="again">Play again</button>
+        </div>
+      </div>
+
+      <div class="seat" id="seat-me">
+        <span class="chip-face" id="chip-me" aria-hidden="true"></span>
+        <span class="seat-name">You</span>
+        <span class="pips" id="pips-me"></span>
+        <p class="status" id="status" role="status"></p>
+        <div class="actions">
+          <button class="btn primary" type="button" id="roll" hidden><span aria-hidden="true">🎲</span> Roll</button>
+          <button class="btn ghost" type="button" id="undo" hidden>Undo</button>
+          <button class="btn primary" type="button" id="done" hidden>Done</button>
+        </div>
+      </div>
+    </section>
+
+    <aside class="side" aria-label="Video and chat">
+      <div class="videos" id="videos" data-them="off" data-me="off">
+        <div class="tile them">
+          <video id="video-them" autoplay playsinline></video>
+          <span class="tile-note" id="them-note">Audio only</span>
+        </div>
+        <div class="tile me"><video id="video-me" autoplay muted playsinline></video></div>
+      </div>
+      <div class="media-row" role="toolbar" aria-label="Camera and microphone">
+        <button class="btn small ghost toggle" type="button" id="btn-cam" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8a3 3 0 0 1 3-3h7a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3zM17 10.500l4-2.500v8l-4-2.500"/></svg>
+          Camera
+        </button>
+        <button class="btn small ghost toggle" type="button" id="btn-mic" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.500 11.500a6.500 6.500 0 0 0 13 0M12 18v3"/></svg>
+          Mic
+        </button>
+      </div>
+
+      <div class="chat">
+        <h2 class="chat-title">Chat</h2>
+        <ol class="chat-log" id="chat-log" role="log" aria-label="Chat messages" tabindex="0"></ol>
+        <p class="chat-empty" id="chat-empty">Say hi 👋</p>
+        <form class="chat-form" id="chat-form">
+          <label class="visually-hidden" for="chat-input">Message</label>
+          <input id="chat-input" type="text" maxlength="500" autocomplete="off" placeholder="Type a message" enterkeyhint="send">
+          <button class="btn small primary" type="submit">Send</button>
+        </form>
+      </div>
+
+      <button class="btn small ghost danger-text" type="button" command="show-modal" commandfor="leave">Leave game</button>
+    </aside>
+  </main>
+
+  <!-- ───────────── Settings ───────────── -->
+  <dialog id="settings" class="sheet" aria-labelledby="settings-title" closedby="any">
+    <h2 id="settings-title">Settings</h2>
+
+    <fieldset class="themes">
+      <legend>Themes</legend>
+      <div class="theme-list" id="theme-list"></div>
+    </fieldset>
+
+    <fieldset class="colors">
+      <legend>Your own colors</legend>
+      <label><input type="color" data-color="chipA"><span>Chips, first color</span></label>
+      <label><input type="color" data-color="chipB"><span>Chips, second color</span></label>
+      <label><input type="color" data-color="felt"><span>Board</span></label>
+      <label><input type="color" data-color="pointA"><span>Points, first color</span></label>
+      <label><input type="color" data-color="pointB"><span>Points, second color</span></label>
+      <label><input type="color" data-color="frame"><span>Frame</span></label>
+    </fieldset>
+    <p class="help">Colors are saved in this browser. Your opponent picks their own.</p>
+
+    <div class="sheet-actions">
+      <button class="btn primary" type="button" data-close autofocus>Done</button>
+    </div>
+  </dialog>
+
+  <!-- ───────────── Info ───────────── -->
+  <dialog id="info" class="sheet wide" aria-labelledby="info-title" closedby="any">
+    <h2 id="info-title">About BG</h2>
+    <p>BG is backgammon for two people, wherever they are. There are no accounts, no ads and no saved games: just a board, two dice and a friend.</p>
+
+    <h3>Starting a game</h3>
+    <ol>
+      <li>Pick your color and choose <strong>Start a game</strong>.</li>
+      <li>Send the code (or the link) to your friend.</li>
+      <li>When they join, the opening roll decides who goes first.</li>
+    </ol>
+
+    <h3>Playing</h3>
+    <ul>
+      <li>Your home is the bottom right. Move your checkers around the board towards it, then bear them off into the tray.</li>
+      <li>Roll, then tap a glowing checker and tap where it should land. You can chain both dice in one tap.</li>
+      <li>Land on a single opposing checker to send it to the bar. A point with two or more is closed to you.</li>
+      <li>You must use as many dice as you can. <strong>Undo</strong> takes a move back; <strong>Done</strong> ends your turn.</li>
+      <li>The first to bear off all fifteen checkers wins.</li>
+    </ul>
+
+    <h3>Video and chat</h3>
+    <p>Turn on your camera or microphone at any time during a game, or just type. Each of you decides separately what to share.</p>
+
+    <h3>Privacy</h3>
+    <p>BG is a static page. A public <a href="https://peerjs.com/" target="_blank" rel="noopener">PeerJS</a> server introduces your two browsers using the game code; after that, moves, chat, video and audio travel directly between you over WebRTC. Nothing is recorded, and only your color settings are saved, in this browser.</p>
+
+    <div class="sheet-actions">
+      <button class="btn primary" type="button" data-close autofocus>Got it</button>
+    </div>
+  </dialog>
+
+  <!-- ───────────── Leave ───────────── -->
+  <dialog id="leave" class="sheet" aria-labelledby="leave-title">
+    <h2 id="leave-title">Leave this game?</h2>
+    <p>The game ends for both of you and can’t be resumed.</p>
+    <div class="sheet-actions">
+      <button class="btn ghost" type="button" data-close autofocus>Keep playing</button>
+      <button class="btn danger" type="button" id="leave-yes">Leave</button>
+    </div>
+  </dialog>
+
+  <!-- ───────────── Connection lost ───────────── -->
+  <dialog id="lost" class="sheet" aria-labelledby="lost-title" closedby="none">
+    <h2 id="lost-title">Connection lost</h2>
+    <p id="lost-text">The link to your opponent dropped.</p>
+    <div class="sheet-actions">
+      <button class="btn ghost" type="button" id="lost-quit">Back to start</button>
+      <button class="btn primary" type="button" id="lost-rejoin" autofocus>Rejoin</button>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" popover="manual"></div>
+</body>
+</html>

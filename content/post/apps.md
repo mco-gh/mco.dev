@@ -74,3 +74,17 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 </div>
 </div>
+
+<div class="app-card">
+<a href="/bg/"><img class="app-shot" src="/img/apps/bg.jpg" alt="The BG landing page, with a colorful backgammon board, a color picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="bg"><a href="/bg/">BG</a></h2>
+<p class="app-tagline">Backgammon with a friend, anywhere</p>
+<p>Play backgammon with anyone, wherever they are. Start a game, pick your color and send your friend the code: there's nothing to sign up for. The dice tumble, the checkers glide, and you can turn on video or chat while you play. Moves travel directly between your two browsers, and you can recolor the board and checkers to taste.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, WebRTC data and media channels (PeerJS), CSS container units and transitions for the board, localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/bg/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mco.dev/tree/master/static/bg" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
