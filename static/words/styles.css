@@ -121,6 +121,12 @@ a { color: var(--accent); }
   color: var(--text); text-decoration: none;
 }
 .logo { inline-size: 1.9rem; block-size: 1.9rem; stroke: none; }
+.brand-wrap { display: grid; justify-items: start; }
+.brand-wrap .brand { min-block-size: 0; }
+/* Lines up under the app name, past the logo. */
+.credit { margin: 0; padding-inline-start: 2.45rem; font-size: 0.75rem; font-weight: 500; line-height: 1.3; color: var(--muted); }
+.credit a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.credit a:hover { text-decoration: underline; }
 .logo-back { fill: color-mix(in srgb, var(--accent) 35%, transparent); }
 .logo-front { fill: var(--accent-l); }
 

@@ -87,6 +87,12 @@ function applyStrings() {
   for (const id of ['word', 'ipa', 'word-back', 'ipa-back']) $(id).lang = getStudy();
   for (const el of document.querySelectorAll('[data-i18n-aria]')) el.setAttribute('aria-label', t(el.dataset.i18nAria));
   for (const el of document.querySelectorAll('[data-i18n-placeholder]')) el.placeholder = t(el.dataset.i18nPlaceholder);
+  // Text with a link inside: the string marks where the element's <a> goes with {link}.
+  for (const el of document.querySelectorAll('[data-i18n-link]')) {
+    const link = el.querySelector('a');
+    const [before = '', after = ''] = t(el.dataset.i18nLink).split('{link}');
+    el.replaceChildren(before, link, after);
+  }
   for (const [id, key] of [['open-settings', 'nav.settings'], ['open-about', 'nav.about']]) {
     $(id).setAttribute('aria-label', t(key));
     $(id).title = t(key);

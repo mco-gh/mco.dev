@@ -33,6 +33,7 @@ export default {
     'settings.forgetHelp': 'Efface votre prénom, votre langue et votre clé de ce navigateur.',
     'settings.done': 'Terminé',
     'forgot': 'Tout est effacé',
+    'credit': 'Fait avec ❤️ par {link}',
     'controls': 'Commandes de l’appel',
     'ctl.mic': 'Micro',
     'ctl.cam': 'Caméra',

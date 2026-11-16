@@ -19,13 +19,16 @@
   <!-- ───────────── Lobby ───────────── -->
   <main id="lobby" class="lobby">
     <header class="topbar">
-      <a class="brand" href="./">
-        <svg class="logo" viewBox="0 0 40 40" aria-hidden="true">
-          <path class="logo-a" d="M4 9a6 6 0 0 1 6-6h12a6 6 0 0 1 6 6v8a6 6 0 0 1-6 6h-7l-6 5v-5.4A6 6 0 0 1 4 17z"/>
-          <path class="logo-b" d="M36 20a6 6 0 0 0-6-6H19a6 6 0 0 0-6 6v7a6 6 0 0 0 6 6h7l6 5v-5.4a6 6 0 0 0 4-5.6z"/>
-        </svg>
-        <span>Talk</span>
-      </a>
+      <div class="brand-wrap">
+        <a class="brand" href="./">
+          <svg class="logo" viewBox="0 0 40 40" aria-hidden="true">
+            <path class="logo-a" d="M4 9a6 6 0 0 1 6-6h12a6 6 0 0 1 6 6v8a6 6 0 0 1-6 6h-7l-6 5v-5.4A6 6 0 0 1 4 17z"/>
+            <path class="logo-b" d="M36 20a6 6 0 0 0-6-6H19a6 6 0 0 0-6 6v7a6 6 0 0 0 6 6h7l6 5v-5.4a6 6 0 0 0 4-5.6z"/>
+          </svg>
+          <span>Talk</span>
+        </a>
+        <p class="credit" data-i18n-link="credit">Made with ❤️ by <a href="https://mco.dev/">Marc Cohen</a></p>
+      </div>
       <button class="icon-btn" type="button" command="show-modal" commandfor="settings" data-i18n-label="settings" aria-label="Settings">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4.5v5M6 14.5v5"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>
       </button>

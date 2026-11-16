@@ -33,6 +33,7 @@ export default {
     'settings.forgetHelp': 'Borra tu nombre, tu idioma y tu clave de este navegador.',
     'settings.done': 'Listo',
     'forgot': 'Todo borrado',
+    'credit': 'Hecho con ❤️ por {link}',
     'controls': 'Controles de la llamada',
     'ctl.mic': 'Micrófono',
     'ctl.cam': 'Cámara',

@@ -35,6 +35,7 @@ export default {
     'settings.forgetHelp': 'Erases your name, language and key from this browser.',
     'settings.done': 'Done',
     'forgot': 'All cleared',
+    'credit': 'Made with ❤️ by {link}',
     'controls': 'Call controls',
     'ctl.mic': 'Microphone',
     'ctl.cam': 'Camera',

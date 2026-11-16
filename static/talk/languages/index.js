@@ -38,4 +38,10 @@ export function setUiLanguage(code, root = document) {
   for (const el of root.querySelectorAll('[data-i18n]')) el.textContent = t(el.dataset.i18n);
   for (const el of root.querySelectorAll('[data-i18n-label]')) el.setAttribute('aria-label', t(el.dataset.i18nLabel));
   for (const el of root.querySelectorAll('[data-i18n-placeholder]')) el.placeholder = t(el.dataset.i18nPlaceholder);
+  // Text with a link inside: the string marks where the element's <a> goes with {link}.
+  for (const el of root.querySelectorAll('[data-i18n-link]')) {
+    const link = el.querySelector('a');
+    const [before = '', after = ''] = t(el.dataset.i18nLink).split('{link}');
+    el.replaceChildren(before, link, after);
+  }
 }
