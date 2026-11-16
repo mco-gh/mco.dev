@@ -52,7 +52,7 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-card-body">
 <h2 id="chess"><a href="/chess/">Chess</a></h2>
 <p class="app-tagline">Your move, wherever you are</p>
-<p>Play chess with anyone, wherever they are. Pick white or black, start a game and send your friend the code: there's nothing to sign up for. Tap or drag the pieces and they glide across the board, with every legal move marked for you. You can turn on video or chat while you play, and recolor the board and pieces to taste. Moves travel directly between your two browsers.</p>
+<p>Play chess with anyone, wherever they are. Pick white or black, start a game and send your friend the code: there's nothing to sign up for. Tap or drag the pieces and they glide across the board, with every legal move marked for you. Add a chess clock with your own time and increment if you like, turn on video or chat while you play, and recolor the board and pieces to taste. Moves travel directly between your two browsers.</p>
 <div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, a small hand-written rules engine, WebRTC data and media channels (PeerJS), inline SVG pieces with CSS transitions, localStorage</div>
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/chess/"><span aria-hidden="true">🚀</span>Live app</a>
