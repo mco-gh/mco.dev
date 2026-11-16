@@ -12,7 +12,8 @@ These are small, free web apps I've built. They run entirely in your browser: th
 
 <style>
 /* The theme sets 1rem = 10px. */
-.app-card { margin: 0 0 4.8rem; border: 1px solid #e3e7ea; border-radius: 18px; background: #fff; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.06), 0 1px 3px rgba(0,0,0,.04); }
+/* The top margin spaces the first card from the intro; between cards it collapses into the 4.8rem below. */
+.app-card { margin: 3.2rem 0 4.8rem; border: 1px solid #e3e7ea; border-radius: 18px; background: #fff; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.06), 0 1px 3px rgba(0,0,0,.04); }
 .app-card > a { display: block; border-bottom: 1px solid #e3e7ea; }
 .app-card .app-shot { display: block; width: 100%; height: auto; }
 .app-card-body { padding: 2.4rem 2.8rem 2.8rem; }
