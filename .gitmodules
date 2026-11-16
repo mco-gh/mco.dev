@@ -4,3 +4,6 @@
 [submodule "static/chess"]
 	path = static/chess
 	url = https://github.com/mco-gh/chess.git
+[submodule "static/talk"]
+	path = static/talk
+	url = https://github.com/mco-gh/talk.git
