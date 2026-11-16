@@ -6,8 +6,9 @@
 // come from this list.
 import en from './en.js';
 import fr from './fr.js';
+import de from './de.js';
 
-export const LANGUAGES = [en, fr];
+export const LANGUAGES = [en, fr, de];
 export const DEFAULT_LANGUAGE = en;
 
 export const getLanguage = (code) => LANGUAGES.find((l) => l.code === code);
