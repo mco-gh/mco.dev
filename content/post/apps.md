@@ -25,3 +25,9 @@ Learn the most common words in English, French, Spanish or German in just a few 
 Turn a photo of a bookshelf into an interactive catalogue. Upload a picture and every spine becomes a hotspot: hover over it to see the title, or click for details and places to find the book. Scanning uses Anthropic's Claude with your own API key, and you can try it first on an example shelf without one.
 
 <a href="/bookshelf/"><img class="app-shot" src="/img/apps/bookshelf.jpg" alt="The Bookshelf landing page, showing a photo of a shelf of games and puzzle books" width="1280" height="860" loading="lazy"></a>
+
+## [Talk](/talk/)
+
+Video call a friend who speaks another language. Talk translates what each of you says as you speak, in a voice that sounds like yours, with captions on screen. It works in English, French, German and Spanish. Send your friend a link to start: the call runs directly between your two browsers. Translation uses Google's Gemini with your own API key, and only one of you needs one.
+
+<a href="/talk/"><img class="app-shot" src="/img/apps/talk.jpg" alt="The Talk landing page, with a language picker and a Start a call button" width="1280" height="860" loading="lazy"></a>
