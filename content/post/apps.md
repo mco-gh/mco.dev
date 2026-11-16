@@ -37,7 +37,7 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-card-body">
 <h2 id="words"><a href="/words/">Words</a></h2>
 <p class="app-tagline">Daily flashcards for the words you'll use most</p>
-<p>Learn the most common words in English, French, Spanish or German in just a few minutes a day. Words is a flashcard app with spaced repetition: each day it mixes a few new words with the ones you're due to review, and it explains them in the language of your choice. It works offline and can be installed on your phone like a native app.</p>
+<p>Learn the most common words in English, French, Spanish, German or Japanese in just a few minutes a day. Words is a flashcard app with spaced repetition: each day it mixes a few new words with the ones you're due to review, and it explains them in the language of your choice. It works offline and can be installed on your phone like a native app.</p>
 <div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, an installable offline web app (service worker), the browser's speech synthesis for pronunciation, localStorage</div>
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/words/"><span aria-hidden="true">🚀</span>Live app</a>
