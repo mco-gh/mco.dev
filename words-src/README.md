@@ -1,6 +1,6 @@
 # Words
 
-Flashcards with spaced repetition for the most common words in four languages:
+Flashcards with spaced repetition for the most common words in five languages:
 
 | Study language | Words | Source | Licence of the source |
 |---|---|---|---|
@@ -8,10 +8,11 @@ Flashcards with spaced repetition for the most common words in four languages:
 | French  | 1,354 | Éduscol "Liste de fréquence lexicale" | not checked |
 | Spanish | 2,107 | RAE CORPES XXI lemma frequencies | CC BY-SA 4.0 |
 | German  | 2,088 | IDS Mannheim DeReWo lemma list (2012) | CC BY-NC 3.0 (non-commercial) |
+| Japanese | 2,052 | NINJAL BCCWJ word list (主要語彙表) | free for research and educational use |
 
 The learner picks a **study language** (front of the cards) and an **explanation
-language** (back of the cards and the whole interface): English, French, Spanish or
-German. When the two match, the back shows a short definition in that language.
+language** (back of the cards and the whole interface): English, French, Spanish,
+German or Japanese. When the two match, the back shows a short definition in that language.
 A fully static, offline-capable progressive web app: no server code, no login, all
 progress in the browser's localStorage.
 
@@ -150,6 +151,26 @@ https://www.ids-mannheim.de/derewo
 - Because the source is CC BY-NC, the German data must not be used commercially, and
   the credit above must stay (it is also in the app's About dialog).
 
+## The Japanese word list
+
+Source: the BCCWJ word list (`BCCWJ-main_goihyo.zip`, the frequency list of the core
+Balanced Corpus of Contemporary Written Japanese), National Institute for Japanese
+Language and Linguistics (NINJAL), https://clrd.ninjal.ac.jp/bccwj/en/freq-list.html.
+NINJAL makes it free for research and educational use; it has no formal licence, so
+keep the app free and non-commercial and keep the credit in the About dialog.
+
+- Ranked by average usage rate across the six registers (books, published books,
+  magazines, newspapers, Yahoo! Chiebukuro Q&A, Yahoo! blogs), keeping words that occur
+  in at least five of them.
+- Dropped: proper nouns, symbols, prefixes and suffixes, fillers (あー, えー), compound
+  numerals (二十, 三百…; the single digits, 百, 千, 万, 億 stay), and a few lemmas that
+  only make sense inside longer words (具体 of 具体的, 積極 of 積極的…).
+- BCCWJ lemmas use dictionary kanji (為る, 有る, 其の, 迚も); words are shown as they are
+  usually written instead (する, ある, その, とても). The reading is in hiragana
+  (katakana for loanwords) and is left out of `words.json` when the word is all kana.
+- Parts of speech: noun, verb, adj (い-adjective), adjna (な-adjective), adv, pron, conj,
+  det (連体詞), intj, num.
+
 ## Rebuilding the word data
 
 Each `words-src/build/<lang>/<lang>-words-*.txt` line is
@@ -169,6 +190,15 @@ The Spanish and German explanations live in `words-src/build/<study>/<study>-esd
 
 It writes `defs.es.json` and `defs.de.json` and refuses to write anything if a word is
 missing, extra or out of order.
+
+Japanese has its own builder. The Japanese study list is in
+`words-src/build/ja/ja-words-*.txt`
+(`word|reading|part of speech|English|French|Spanish|German|Japanese definition`), and
+the Japanese explanations for the other study languages are in
+`words-src/build/<study>/<study>-ja-*.txt` (`word|Japanese`, in `words.json` order):
+
+    python3 words-src/build/build_ja.py ja     # the Japanese study list
+    python3 words-src/build/build_ja.py en     # defs.ja.json for en (or fr, es, de)
 
 ## Add an explanation language
 
@@ -208,5 +238,10 @@ https://www.rae.es/corpes/
 German word list: DeReWo, © Institut für Deutsche Sprache, Mannheim, 2013
 (CC BY-NC 3.0), https://www.ids-mannheim.de/derewo
 
-The French, Spanish and German pronunciations, genders, definitions and all
-translations (including every Spanish and German explanation) were written for this app.
+Japanese word list: BCCWJ word list, National Institute for Japanese Language and
+Linguistics (NINJAL), https://clrd.ninjal.ac.jp/bccwj/en/freq-list.html
+(free for research and educational use).
+
+The French, Spanish, German and Japanese pronunciations, readings, genders, definitions
+and all translations (including every Spanish, German and Japanese explanation) were
+written for this app.

@@ -323,7 +323,9 @@ function renderWords() {
   listMatches = [];
   for (let id = 0; id < words.length; id++) {
     if (filter !== 'all' && bucket(unpack(progress.cards[id])) !== filter) continue;
-    if (q && !words[id][0].toLowerCase().includes(q) && !(defs[id] ?? '').toLowerCase().includes(q)) continue;
+    // Match the word, its pronunciation or reading (so Japanese can be found by kana), or the explanation.
+    if (q && !words[id][0].toLowerCase().includes(q) && !words[id][1].includes(q)
+      && !(defs[id] ?? '').toLowerCase().includes(q)) continue;
     listMatches.push(id);
   }
   listShown = 0;

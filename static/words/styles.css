@@ -282,6 +282,10 @@ main {
 
 .meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.3rem 0.7rem; color: var(--muted); }
 .ipa { font-size: 1.05rem; }
+/* Wrap Japanese text between phrases, not in the middle of a word (where supported). */
+:lang(ja) { word-break: auto-phrase; }
+/* Japanese words written only in kana have no separate reading. */
+.ipa:empty { display: none; }
 .pos {
   padding: 0.05rem 0.55rem; border-radius: 999px;
   font-size: 0.78rem; font-weight: 600; font-style: italic;

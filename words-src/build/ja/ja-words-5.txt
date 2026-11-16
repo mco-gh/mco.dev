@@ -1,0 +1,285 @@
+全員|ぜんいん|noun|everyone, all members|tout le monde, tous les membres|todos|alle|そこにいる全ての人
+再生|さいせい|noun|playback; regeneration|lecture ; régénération|reproducción; regeneración|Wiedergabe; Erneuerung|録音や録画を流すこと、生き返ること
+父親|ちちおや|noun|father|père|padre|Vater|父
+街|まち|noun|town, streets|ville, rues|ciudad, calles|Stadt, Straßen|店などが並ぶにぎやかな所
+運ぶ|はこぶ|verb|to carry, to transport|transporter, porter|llevar, transportar|tragen, transportieren|物を別の場所へ移す
+脳|のう|noun|brain|cerveau|cerebro|Gehirn|頭の中で考える器官
+実行|じっこう|noun|execution, carrying out|exécution|ejecución|Ausführung|実際に行うこと
+法律|ほうりつ|noun|law|loi|ley|Gesetz|国が定めた決まり
+地球|ちきゅう|noun|the earth|la Terre|la Tierra|die Erde|人が住む星
+映像|えいぞう|noun|image, footage|image, vidéo|imagen, vídeo|Bild, Filmaufnahme|映し出された姿
+楽|らく|adjna|easy, comfortable|facile, confortable|fácil, cómodo|leicht, bequem|苦労がないこと
+資産|しさん|noun|assets, property|patrimoine, actifs|bienes, activos|Vermögen|財産
+手術|しゅじゅつ|noun|surgery, operation|opération chirurgicale|operación, cirugía|Operation|体を切って治療すること
+平和|へいわ|noun|peace|paix|paz|Frieden|争いがなく穏やかなこと
+度|たび|noun|time, occasion|fois|vez|Mal|その時ごと
+咲く|さく|verb|to bloom|fleurir|florecer|blühen|花が開く
+電気|でんき|noun|electricity; light|électricité ; lumière|electricidad; luz|Strom; Licht|電力、電灯
+予算|よさん|noun|budget|budget|presupuesto|Budget|前もって見積もった費用
+更新|こうしん|noun|update, renewal|mise à jour, renouvellement|actualización, renovación|Aktualisierung, Erneuerung|新しくすること
+後ろ|うしろ|noun|back, behind|derrière|detrás|hinten|背中の方
+生命|せいめい|noun|life|vie|vida|Leben|命
+報道|ほうどう|noun|news report|reportage, information|noticia, informe|Berichterstattung|出来事を広く知らせること
+字|じ|noun|character, letter; handwriting|caractère ; écriture|carácter; letra|Schriftzeichen; Handschrift|文字
+仕方|しかた|noun|way, method|manière, façon|manera, forma|Art und Weise|やり方
+雑誌|ざっし|noun|magazine|magazine|revista|Zeitschrift|定期的に出る本
+増加|ぞうか|noun|increase|augmentation|aumento|Zunahme|増えること
+育てる|そだてる|verb|to raise, to bring up|élever|criar|aufziehen|大きくなるまで世話をする
+出版|しゅっぱん|noun|publication|publication|publicación|Veröffentlichung|本などを作って世に出すこと
+合併|がっぺい|noun|merger|fusion|fusión|Fusion|二つ以上が一つになること
+集中|しゅうちゅう|noun|concentration|concentration|concentración|Konzentration|一つに集めること
+シート|シート|noun|seat; sheet|siège ; feuille|asiento; hoja|Sitz; Blatt|座席、一枚の紙
+追う|おう|verb|to chase|poursuivre|perseguir|verfolgen|後から追いかける
+バランス|バランス|noun|balance|équilibre|equilibrio|Gleichgewicht|釣り合い
+分野|ぶんや|noun|field, area|domaine|campo, ámbito|Bereich, Gebiet|物事の範囲
+ガス|ガス|noun|gas|gaz|gas|Gas|気体、燃料の気体
+分析|ぶんせき|noun|analysis|analyse|análisis|Analyse|細かく分けて調べること
+工事|こうじ|noun|construction work|travaux|obras|Bauarbeiten|建物や道路を造る作業
+おそらく|おそらく|adv|probably|probablement|probablemente|vermutlich|たぶん
+痛み|いたみ|noun|pain|douleur|dolor|Schmerz|痛いこと
+展示|てんじ|noun|exhibition, display|exposition|exposición|Ausstellung|並べて見せること
+強化|きょうか|noun|strengthening|renforcement|refuerzo|Verstärkung|強くすること
+交渉|こうしょう|noun|negotiation|négociation|negociación|Verhandlung|話し合って決めること
+手続き|てつづき|noun|procedure, formalities|démarches, procédure|trámite|Verfahren, Formalitäten|物事を進めるのに必要なこと
+すなわち|すなわち|conj|that is, namely|c'est-à-dire|es decir|nämlich|言い換えれば
+アドレス|アドレス|noun|address (e.g. email)|adresse|dirección|Adresse|住所、メールなどの宛先
+空気|くうき|noun|air; atmosphere|air ; ambiance|aire; ambiente|Luft; Stimmung|地球を包む気体、雰囲気
+菓子|かし|noun|sweets, confectionery|confiserie, gâteau|dulce, golosina|Süßigkeit|甘い食べ物
+ちょうど|ちょうど|adv|exactly, just|exactement, juste|exactamente, justo|genau, gerade|ぴったり
+生|なま|noun|raw; live|cru ; en direct|crudo; en vivo|roh; live|火を通していないこと
+魚|さかな|noun|fish|poisson|pez, pescado|Fisch|水の中にすむ生き物
+挨拶|あいさつ|noun|greeting|salutation|saludo|Gruß|会った時などに交わす言葉
+傾向|けいこう|noun|tendency, trend|tendance|tendencia|Tendenz|ある方向に向かう様子
+建築|けんちく|noun|architecture, construction|architecture, construction|arquitectura, construcción|Architektur, Bau|建物を造ること
+図る|はかる|verb|to plan; to attempt|viser à ; tenter|intentar; procurar|anstreben; versuchen|実現しようと工夫する
+薄い|うすい|adj|thin; light, weak|mince ; léger, clair|delgado; claro, débil|dünn; hell, schwach|厚くない、濃くない
+時点|じてん|noun|point in time|moment|momento|Zeitpunkt|ある時
+逃げる|にげる|verb|to run away, to escape|s'enfuir|huir, escapar|fliehen|捕まらないように離れる
+ビール|ビール|noun|beer|bière|cerveza|Bier|麦から作る酒
+製造|せいぞう|noun|manufacture|fabrication|fabricación|Herstellung|物を作ること
+飛行|ひこう|noun|flight|vol|vuelo|Flug|空を飛ぶこと
+獲得|かくとく|noun|acquisition, winning|obtention|obtención|Erwerb, Gewinn|手に入れること
+感情|かんじょう|noun|emotion|émotion|emoción|Gefühl|喜びや悲しみなどの心の動き
+桜|さくら|noun|cherry blossom|cerisier, fleur de cerisier|cerezo, flor de cerezo|Kirschblüte|春に咲く淡い色の花
+勝手|かって|adjna|selfish; as one pleases|égoïste ; à sa guise|egoísta; a su antojo|eigenmächtig; nach Belieben|自分の思うままにすること
+伸びる|のびる|verb|to grow, to stretch|s'allonger, pousser|crecer, alargarse|wachsen, sich strecken|長くなる
+作家|さっか|noun|writer, author|écrivain|escritor|Schriftsteller|小説などを書く人
+大量|たいりょう|noun|large quantity|grande quantité|gran cantidad|große Menge|量が多いこと
+予約|よやく|noun|reservation|réservation|reserva|Reservierung|前もって約束すること
+五輪|ごりん|noun|the Olympics|Jeux olympiques|Juegos Olímpicos|Olympische Spiele|オリンピック
+逮捕|たいほ|noun|arrest|arrestation|detención|Verhaftung|警察が犯人を捕まえること
+伸ばす|のばす|verb|to extend, to stretch|allonger, étendre|alargar, estirar|verlängern, strecken|長くする
+暑い|あつい|adj|hot (weather)|chaud|caluroso|heiß|気温が高い
+直す|なおす|verb|to fix, to correct|réparer, corriger|arreglar, corregir|reparieren, korrigieren|悪い所を良くする
+目立つ|めだつ|verb|to stand out|se faire remarquer|destacar|auffallen|人の目につく
+ボタン|ボタン|noun|button|bouton|botón|Knopf|服を留める物、押す装置
+多数|たすう|noun|large number, majority|grand nombre, majorité|gran número, mayoría|Vielzahl, Mehrheit|数が多いこと
+手紙|てがみ|noun|letter|lettre|carta|Brief|相手に送る文
+特定|とくてい|noun|specific; identification|spécifique ; identification|específico; identificación|bestimmt; Identifizierung|特にそれと決めること
+昼|ひる|noun|noon; daytime|midi ; journée|mediodía; día|Mittag; Tag|日が出ている間、正午
+有効|ゆうこう|adjna|valid, effective|valable, efficace|válido, eficaz|gültig, wirksam|効き目があること
+マンション|マンション|noun|apartment (building)|appartement, immeuble|apartamento, edificio|Wohnung, Wohnblock|集合住宅
+戦う|たたかう|verb|to fight|se battre, combattre|luchar|kämpfen|勝つために争う
+男女|だんじょ|noun|men and women|hommes et femmes|hombres y mujeres|Männer und Frauen|男と女
+一体|いったい|adv|on earth, what on earth|donc, diable|demonios, diablos|eigentlich, um Himmels willen|強く疑う時の言葉
+暮らす|くらす|verb|to live|vivre|vivir|leben|毎日を過ごす
+値段|ねだん|noun|price|prix|precio|Preis|物の価格
+むしろ|むしろ|adv|rather|plutôt|más bien|eher, vielmehr|どちらかと言えば
+掲載|けいさい|noun|publication (in a paper)|parution|publicación|Veröffentlichung|新聞や雑誌に載せること
+問う|とう|verb|to ask; to question|demander ; interroger|preguntar; cuestionar|fragen; hinterfragen|尋ねる
+確保|かくほ|noun|securing|obtention, garantie|aseguramiento|Sicherung|しっかり手に入れておくこと
+植物|しょくぶつ|noun|plant|plante|planta|Pflanze|草や木
+体制|たいせい|noun|system, structure|système, régime|sistema, régimen|System, Ordnung|組織の仕組み
+ライブ|ライブ|noun|live (performance)|concert, direct|concierto, en vivo|Live-Auftritt|生の演奏
+疑問|ぎもん|noun|question, doubt|question, doute|duda, pregunta|Frage, Zweifel|疑わしいこと
+果たす|はたす|verb|to fulfill, to accomplish|accomplir|cumplir|erfüllen|最後までやり遂げる
+さすが|さすが|adv|as expected (impressively)|comme on pouvait s'y attendre|como era de esperar|wie erwartet|やはり、評判通り
+血|ち|noun|blood|sang|sangre|Blut|体の中を流れる赤い液体
+後半|こうはん|noun|second half|seconde moitié|segunda mitad|zweite Hälfte|後ろの半分
+一時|いちじ|noun|one o'clock; a while|une heure ; un moment|la una; un momento|ein Uhr; eine Weile|しばらくの間
+挑戦|ちょうせん|noun|challenge|défi|desafío|Herausforderung|難しいことに立ち向かうこと
+歯|は|noun|tooth|dent|diente|Zahn|食べ物をかむ器官
+地下|ちか|noun|underground, basement|souterrain, sous-sol|subterráneo, sótano|Untergrund, Keller|地面の下
+風呂|ふろ|noun|bath|bain|baño|Bad|湯につかって体を温めるもの
+びっくり|びっくり|noun|surprise|surprise|sorpresa|Überraschung|驚くこと
+犯罪|はんざい|noun|crime|crime, délit|delito|Verbrechen|法律に反する行い
+日常|にちじょう|noun|daily life|quotidien|vida cotidiana|Alltag|毎日の生活
+いかが|いかが|adv|how (polite)|comment (poli)|qué tal (cortés)|wie (höflich)|どう
+スピード|スピード|noun|speed|vitesse|velocidad|Geschwindigkeit|速さ
+固い|かたい|adj|hard, firm|dur, ferme|duro, firme|hart, fest|形が変わりにくい
+赤い|あかい|adj|red|rouge|rojo|rot|血のような色である
+おじ|おじ|noun|uncle|oncle|tío|Onkel|父や母の兄弟
+近づく|ちかづく|verb|to approach|s'approcher|acercarse|sich nähern|近くへ寄る
+いくら|いくら|adv|how much|combien|cuánto|wie viel|どれほどか尋ねる言葉
+伝統|でんとう|noun|tradition|tradition|tradición|Tradition|昔から受け継がれたもの
+捕らえる|とらえる|verb|to catch, to capture|attraper, saisir|atrapar, capturar|fangen, erfassen|捕まえる
+維持|いじ|noun|maintenance|maintien|mantenimiento|Erhaltung|同じ状態を保つこと
+企画|きかく|noun|plan, project|projet|proyecto|Projekt, Planung|計画を立てること
+当てる|あてる|verb|to hit; to guess|toucher ; deviner|acertar; adivinar|treffen; erraten|ぶつける、言い当てる
+電子|でんし|noun|electron; electronic|électron ; électronique|electrón; electrónico|Elektron; elektronisch|原子を作る粒子、電子の働きを使うこと
+感謝|かんしゃ|noun|gratitude|gratitude|agradecimiento|Dank|ありがたく思うこと
+死亡|しぼう|noun|death|décès|muerte, fallecimiento|Tod|死ぬこと
+地区|ちく|noun|district|quartier, district|distrito|Bezirk|区切られた地域
+捜査|そうさ|noun|criminal investigation|enquête|investigación|Ermittlung|犯罪を調べること
+スタッフ|スタッフ|noun|staff|personnel|personal|Personal|仕事を担当する人々
+答え|こたえ|noun|answer|réponse|respuesta|Antwort|問いに対する返事
+直接|ちょくせつ|adv|directly|directement|directamente|direkt|間に何も入れずに
+慣れる|なれる|verb|to get used to|s'habituer|acostumbrarse|sich gewöhnen|何度もして普通になる
+プレゼント|プレゼント|noun|present, gift|cadeau|regalo|Geschenk|贈り物
+当然|とうぜん|adjna, adv|natural; of course|naturel ; bien sûr|natural; por supuesto|selbstverständlich|当たり前であること
+意外|いがい|adjna|unexpected|inattendu|inesperado|unerwartet|思っていたのと違うこと
+宇宙|うちゅう|noun|universe, space|univers, espace|universo, espacio|Weltall|星などがある果てしない空間
+箱|はこ|noun|box|boîte|caja|Kiste, Schachtel|物を入れる入れ物
+勝利|しょうり|noun|victory|victoire|victoria|Sieg|勝つこと
+姉|あね|noun|older sister|grande sœur|hermana mayor|ältere Schwester|年上の女のきょうだい
+資本|しほん|noun|capital|capital|capital|Kapital|事業のもとになるお金
+本部|ほんぶ|noun|headquarters|siège, quartier général|sede central|Hauptquartier, Zentrale|組織の中心となる所
+デジタル|デジタル|noun|digital|numérique|digital|digital|数値で表す方式
+やっと|やっと|adv|at last, finally|enfin|por fin|endlich|ようやく
+便利|べんり|adjna|convenient|pratique|práctico, conveniente|praktisch|役に立って都合が良いこと
+椅子|いす|noun|chair|chaise|silla|Stuhl|腰掛ける家具
+制限|せいげん|noun|restriction, limit|restriction, limite|restricción, límite|Beschränkung|範囲を限ること
+周囲|しゅうい|noun|surroundings|alentours|alrededores|Umgebung|周り
+卵|たまご|noun|egg|œuf|huevo|Ei|鳥などが産むもの
+外す|はずす|verb|to remove, to take off|enlever, retirer|quitar|abnehmen, entfernen|付いている物を取る
+天気|てんき|noun|weather|temps (météo)|tiempo (clima)|Wetter|空の様子
+支配|しはい|noun|control, rule|domination|dominio, control|Herrschaft|治めて思い通りにすること
+瞬間|しゅんかん|noun|moment, instant|instant|instante|Augenblick|ごく短い時間
+授業|じゅぎょう|noun|class, lesson|cours|clase|Unterricht|学校で教えること
+福祉|ふくし|noun|welfare|aide sociale|bienestar social|Wohlfahrt|人々の幸せを図ること
+職員|しょくいん|noun|staff member|employé|empleado|Mitarbeiter|役所や学校などで働く人
+学習|がくしゅう|noun|learning|apprentissage|aprendizaje|Lernen|学ぶこと
+訪問|ほうもん|noun|visit|visite|visita|Besuch|人を訪ねること
+葉|は|noun|leaf|feuille|hoja|Blatt|植物の緑の部分
+赤ちゃん|あかちゃん|noun|baby|bébé|bebé|Baby|生まれて間もない子
+取得|しゅとく|noun|acquisition|obtention|obtención|Erwerb|手に入れること
+食品|しょくひん|noun|food, food product|aliment, produit alimentaire|alimento|Lebensmittel|食べ物
+約束|やくそく|noun|promise; appointment|promesse ; rendez-vous|promesa; cita|Versprechen; Verabredung|将来のことを取り決めること
+作用|さよう|noun|action, effect|action, effet|acción, efecto|Wirkung|ほかに働きかけること
+活用|かつよう|noun|practical use|utilisation|aprovechamiento|Nutzung|うまく生かして使うこと
+素敵|すてき|adjna|lovely, wonderful|charmant, merveilleux|encantador, precioso|toll, wunderschön|とても良いこと
+取り組む|とりくむ|verb|to tackle, to work on|s'attaquer à|abordar, dedicarse a|angehen, sich widmen|熱心に物事に当たる
+やがて|やがて|adv|soon, before long|bientôt, finalement|pronto, al cabo de un tiempo|bald, schließlich|まもなく
+交流|こうりゅう|noun|exchange, interaction|échange|intercambio|Austausch|互いに行き来すること
+プラス|プラス|noun|plus; advantage|plus ; avantage|más; ventaja|Plus; Vorteil|加えること、利益
+大手|おおて|noun|major company|grande entreprise|gran empresa|Großunternehmen|規模の大きい会社
+怒る|おこる|verb|to get angry|se fâcher|enfadarse|sich ärgern|腹を立てる
+両親|りょうしん|noun|parents|parents|padres|Eltern|父と母
+提出|ていしゅつ|noun|submission|remise, dépôt|entrega, presentación|Einreichung|書類などを出すこと
+方式|ほうしき|noun|method, system|méthode, système|método, sistema|Verfahren, System|やり方
+扱う|あつかう|verb|to handle, to deal with|manier, traiter|manejar, tratar|behandeln, umgehen mit|手で使う、処理する
+組合|くみあい|noun|union, association|syndicat, coopérative|sindicato, cooperativa|Gewerkschaft, Genossenschaft|目的のために集まった団体
+独立|どくりつ|noun|independence|indépendance|independencia|Unabhängigkeit|ほかに頼らず一人立ちすること
+季節|きせつ|noun|season|saison|estación|Jahreszeit|春夏秋冬
+応じる|おうじる|verb|to respond to; to comply|répondre à ; accepter|responder a; aceptar|eingehen auf|求めに答える
+恋|こい|noun|love, romance|amour|amor|Liebe|異性などを慕う気持ち
+流す|ながす|verb|to let flow; to wash away|faire couler ; emporter|dejar correr; arrastrar|fließen lassen; wegspülen|水などを流れるようにする
+湯|ゆ|noun|hot water|eau chaude|agua caliente|heißes Wasser|温めた水
+馬|うま|noun|horse|cheval|caballo|Pferd|人を乗せて走る動物
+豊か|ゆたか|adjna|rich, abundant|riche, abondant|rico, abundante|reich, reichlich|たくさんあって満ちていること
+温かい|あたたかい|adj|warm|chaud, tiède|cálido|warm|ほどよく熱い
+回転|かいてん|noun|rotation|rotation|rotación|Drehung|くるくる回ること
+髪|かみ|noun|hair (on the head)|cheveux|pelo, cabello|Haar|頭に生える毛
+借りる|かりる|verb|to borrow|emprunter|pedir prestado|leihen, ausleihen|人の物を一時使わせてもらう
+部門|ぶもん|noun|department, division|département, section|departamento, sección|Abteilung|全体を分けた一部分
+寂しい|さびしい|adj|lonely|seul, triste|solitario, triste|einsam|一人で心細い
+発言|はつげん|noun|statement, remark|déclaration, propos|declaración|Äußerung|意見を言うこと
+台|だい|noun|stand, platform|support, plateforme|soporte, plataforma|Gestell, Podest|物を載せる物
+勝負|しょうぶ|noun|match, contest|partie, compétition|partida, competición|Wettkampf|勝ち負けを決めること
+靴|くつ|noun|shoes|chaussures|zapatos|Schuhe|足に履くもの
+所得|しょとく|noun|income|revenu|ingresos|Einkommen|得たお金
+設計|せっけい|noun|design, plan|conception|diseño|Entwurf|作る物の計画を立てること
+穴|あな|noun|hole|trou|agujero|Loch|くぼんだ所、突き抜けた所
+会話|かいわ|noun|conversation|conversation|conversación|Gespräch|話し合うこと
+久しぶり|ひさしぶり|noun|after a long time|après longtemps|después de mucho tiempo|nach langer Zeit|長い間なかったこと
+大体|だいたい|adv|roughly; generally|à peu près ; en général|más o menos; en general|ungefähr; im Großen und Ganzen|おおよそ
+面倒|めんどう|adjna|troublesome, bothersome|pénible, embêtant|molesto, engorroso|lästig, mühsam|手間がかかって煩わしいこと
+ショー|ショー|noun|show|spectacle|espectáculo|Show|見せ物
+売上|うりあげ|noun|sales, turnover|chiffre d'affaires|ventas, facturación|Umsatz|売って得たお金
+落ち着く|おちつく|verb|to calm down; to settle|se calmer ; s'installer|calmarse; instalarse|sich beruhigen; sich niederlassen|静かになる、定まる
+味噌|みそ|noun|miso|miso|miso|Miso|大豆から作る調味料
+マーク|マーク|noun|mark, symbol|marque, symbole|marca, símbolo|Zeichen, Symbol|しるし
+おなか|おなか|noun|stomach, belly|ventre|barriga, estómago|Bauch|腹
+クリーム|クリーム|noun|cream|crème|crema|Creme, Sahne|乳脂肪など柔らかいもの
+高齢|こうれい|noun|advanced age|âge avancé|edad avanzada|hohes Alter|年をとっていること
+ツアー|ツアー|noun|tour|circuit, tournée|gira, tour|Tour, Reise|団体旅行、巡業
+静か|しずか|adjna|quiet|calme, silencieux|tranquilo, silencioso|ruhig, leise|音がしないこと
+抱える|かかえる|verb|to hold in one's arms; to have (problems)|tenir dans les bras ; avoir (des soucis)|llevar en brazos; tener (problemas)|im Arm halten; (Probleme) haben|腕で抱く、負担を持つ
+集団|しゅうだん|noun|group|groupe|grupo|Gruppe|人の集まり
+解説|かいせつ|noun|explanation, commentary|explication, commentaire|explicación, comentario|Erläuterung, Kommentar|分かりやすく説明すること
+幹部|かんぶ|noun|executive, leader|cadre, dirigeant|directivo|Führungskraft|組織の中心となる人
+珍しい|めずらしい|adj|rare, unusual|rare, insolite|raro, inusual|selten, ungewöhnlich|めったにない
+通る|とおる|verb|to pass (through)|passer|pasar|vorbeigehen, durchgehen|ある所を過ぎて行く
+入力|にゅうりょく|noun|input|saisie|entrada (de datos)|Eingabe|機械に情報を入れること
+背景|はいけい|noun|background|arrière-plan, contexte|fondo, contexto|Hintergrund|後ろの景色、事情
+幅|はば|noun|width|largeur|anchura|Breite|横の長さ
+専用|せんよう|noun|exclusive use|à usage exclusif|uso exclusivo|ausschließlich für|特定のものだけが使うこと
+どんどん|どんどん|adv|rapidly, steadily|de plus en plus, rapidement|cada vez más, rápidamente|immer mehr, zügig|勢いよく続く様子
+嘘|うそ|noun|lie|mensonge|mentira|Lüge|本当でないこと
+嫌い|きらい|adjna|disliked; to dislike|détesté ; ne pas aimer|odiado; no gustar|unbeliebt; nicht mögen|好きでないこと
+神社|じんじゃ|noun|Shinto shrine|sanctuaire shinto|santuario sintoísta|Shinto-Schrein|神を祭る所
+洗う|あらう|verb|to wash|laver|lavar|waschen|水で汚れを落とす
+確実|かくじつ|adjna|certain, reliable|certain, sûr|seguro, fiable|sicher, zuverlässig|確かであること
+接続|せつぞく|noun|connection|connexion|conexión|Verbindung|つなぐこと
+生かす|いかす|verb|to make use of; to keep alive|tirer parti de ; garder en vie|aprovechar; mantener con vida|nutzen; am Leben lassen|うまく活用する
+プログラム|プログラム|noun|program|programme|programa|Programm|予定表、コンピューターへの命令
+問い合わせ|といあわせ|noun|inquiry|demande de renseignements|consulta|Anfrage|分からないことを尋ねること
+感染|かんせん|noun|infection|infection|infección|Infektion|病気がうつること
+緊張|きんちょう|noun|tension, nervousness|tension, nervosité|tensión, nervios|Anspannung, Nervosität|心や体が張りつめること
+資格|しかく|noun|qualification|qualification|título, requisito|Qualifikation|あることをするための条件
+文学|ぶんがく|noun|literature|littérature|literatura|Literatur|言葉で表す芸術
+メディア|メディア|noun|media|médias|medios|Medien|情報を伝える手段
+抱く|いだく|verb|to hold, to harbor (a feeling)|nourrir (un sentiment)|albergar (un sentimiento)|hegen|心に持つ
+テスト|テスト|noun|test|test, examen|prueba, examen|Test|試験
+笑顔|えがお|noun|smiling face|sourire|sonrisa|Lächeln|笑っている顔
+いわゆる|いわゆる|det|so-called|ce qu'on appelle|el llamado|sogenannt|世間で言う
+知事|ちじ|noun|governor (of a prefecture)|gouverneur|gobernador|Gouverneur|都道府県の長
+戦い|たたかい|noun|fight, battle|combat, bataille|lucha, batalla|Kampf|戦うこと
+アドバイス|アドバイス|noun|advice|conseil|consejo|Rat|助言
+シーズン|シーズン|noun|season|saison|temporada|Saison|ある物事が盛んな時期
+信頼|しんらい|noun|trust|confiance|confianza|Vertrauen|信じて頼ること
+違反|いはん|noun|violation|infraction|infracción|Verstoß|決まりを破ること
+実験|じっけん|noun|experiment|expérience|experimento|Experiment|実際に試して確かめること
+休み|やすみ|noun|rest; holiday|repos ; vacances|descanso; vacaciones|Pause; Ferien|休むこと、休日
+フリー|フリー|noun|free; freelance|libre ; indépendant|libre; autónomo|frei; freiberuflich|自由、束縛がないこと
+共通|きょうつう|noun|common, shared|commun|común|gemeinsam|どれにも当てはまること
+漫画|まんが|noun|manga, comics|manga, bande dessinée|manga, cómic|Manga, Comic|絵で描いた物語
+毎年|まいとし|noun|every year|chaque année|todos los años|jedes Jahr|どの年も
+義務|ぎむ|noun|duty, obligation|devoir, obligation|deber, obligación|Pflicht|しなければならないこと
+危機|きき|noun|crisis|crise|crisis|Krise|危ない時
+ホール|ホール|noun|hall|salle|sala, auditorio|Halle, Saal|大広間、会場
+層|そう|noun|layer; class|couche ; classe|capa; clase|Schicht|重なり、階層
+コーヒー|コーヒー|noun|coffee|café|café|Kaffee|豆を煎って作る飲み物
+国会|こっかい|noun|parliament, Diet|parlement|parlamento|Parlament|国の法律を作る機関
+チャンス|チャンス|noun|chance, opportunity|occasion, chance|oportunidad|Chance|機会
+タバコ|タバコ|noun|tobacco, cigarette|tabac, cigarette|tabaco, cigarrillo|Tabak, Zigarette|葉を巻いて吸うもの
+権利|けんり|noun|right|droit|derecho|Recht|してよいと認められた資格
+森|もり|noun|forest|forêt|bosque|Wald|木がたくさん生えた所
+今月|こんげつ|noun|this month|ce mois-ci|este mes|diesen Monat|この月
+出会う|であう|verb|to meet (by chance)|rencontrer|encontrarse con|begegnen|偶然に会う
+態度|たいど|noun|attitude|attitude|actitud|Haltung|物事に対する様子
+民間|みんかん|noun|private (sector)|privé|privado|privat|政府でない一般の社会
+当初|とうしょ|noun|at first, initially|au départ|al principio|anfangs|初め
+成立|せいりつ|noun|establishment, formation|établissement, adoption|establecimiento, aprobación|Zustandekommen|物事が成り立つこと
+納得|なっとく|noun|understanding, consent|compréhension, accord|comprensión, conformidad|Einverständnis|理解して認めること
+テーブル|テーブル|noun|table|table|mesa|Tisch|脚のついた台
+我慢|がまん|noun|patience, endurance|patience|paciencia|Geduld|耐えること
+タイトル|タイトル|noun|title|titre|título|Titel|題名
+規制|きせい|noun|regulation|réglementation|regulación|Regulierung|決まりで制限すること
+基礎|きそ|noun|foundation, basics|base, fondement|base, fundamento|Grundlage|物事の土台
+終わり|おわり|noun|end|fin|fin, final|Ende|物事の最後
+支える|ささえる|verb|to support|soutenir|sostener, apoyar|stützen|倒れないように支え持つ
+上昇|じょうしょう|noun|rise|hausse, montée|subida, aumento|Anstieg|上がること
+操作|そうさ|noun|operation (of a machine)|manipulation|manejo|Bedienung|機械を動かすこと
+高速|こうそく|noun|high speed; expressway|grande vitesse ; autoroute|alta velocidad; autopista|Hochgeschwindigkeit; Autobahn|速度が速いこと、高速道路
+処分|しょぶん|noun|disposal; punishment|élimination ; sanction|eliminación; sanción|Entsorgung; Strafe|始末すること、罰すること
+緑|みどり|noun|green|vert|verde|Grün|草や葉の色
+パワー|パワー|noun|power|puissance|potencia|Kraft|力
+投手|とうしゅ|noun|pitcher|lanceur|lanzador|Werfer, Pitcher|野球で球を投げる人
+診断|しんだん|noun|diagnosis|diagnostic|diagnóstico|Diagnose|医者が病気を見極めること
+船|ふね|noun|ship, boat|bateau|barco|Schiff, Boot|水の上を進む乗り物
+定める|さだめる|verb|to establish, to set|fixer, établir|establecer, fijar|festlegen|はっきり決める
+シーン|シーン|noun|scene|scène|escena|Szene|場面
+若者|わかもの|noun|young person|jeune|joven|junger Mensch|年の若い人
+化粧|けしょう|noun|makeup|maquillage|maquillaje|Schminke|顔を美しく装うこと
+像|ぞう|noun|statue; image|statue ; image|estatua; imagen|Statue; Bild|形をかたどったもの

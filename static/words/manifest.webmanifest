@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Words",
   "short_name": "Words",
-  "description": "Learn the most common words in English, French, Spanish and German with spaced-repetition flashcards. Works offline.",
+  "description": "Learn the most common words in English, French, Spanish, German and Japanese with spaced-repetition flashcards. Works offline.",
   "lang": "en",
   "start_url": "./",
   "scope": "./",
