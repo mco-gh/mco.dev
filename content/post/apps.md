@@ -34,20 +34,6 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </style>
 
 <div class="app-card">
-<a href="/words/"><img class="app-shot" src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy"></a>
-<div class="app-card-body">
-<h2 id="words"><a href="/words/">Words</a></h2>
-<p class="app-tagline">Daily flashcards for the words you'll use most</p>
-<p>Learn the most common words in English, French, Spanish, German or Japanese in just a few minutes a day. Words is a flashcard app with spaced repetition: each day it mixes a few new words with the ones you're due to review, and it explains them in the language of your choice. It works offline and can be installed on your phone like a native app.</p>
-<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, an installable offline web app (service worker), the browser's speech synthesis for pronunciation, localStorage</div>
-<div class="app-actions">
-<a class="app-btn app-btn-primary" href="/words/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/words" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
-</div>
-</div>
-</div>
-
-<div class="app-card">
 <a href="/chess/"><img class="app-shot" src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="chess"><a href="/chess/">Chess</a></h2>
@@ -76,6 +62,34 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
+<a href="/words/"><img class="app-shot" src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="words"><a href="/words/">Words</a></h2>
+<p class="app-tagline">Daily flashcards for the words you'll use most</p>
+<p>Learn the most common words in English, French, Spanish, German or Japanese in just a few minutes a day. Words is a flashcard app with spaced repetition: each day it mixes a few new words with the ones you're due to review, and it explains them in the language of your choice. It works offline and can be installed on your phone like a native app.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, an installable offline web app (service worker), the browser's speech synthesis for pronunciation, localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/words/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/words" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
+<a href="/riffle/"><img class="app-shot" src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, GREATLY, DOUBLE and SLOPE found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="riffle"><a href="/riffle/">Riffle</a></h2>
+<p class="app-tagline">Three words, shuffled like cards. Pull them apart.</p>
+<p>A new word puzzle every day. Three words have been riffled together like a deck of cards: each keeps its letters in order, but they're mixed in with the others. Tap letters from left to right to pull out any word you can find, and clear the strip in as few words as possible. Par is 3, and a long word that wasn't hidden can put you under par. Grab easy words too soon and you may strand letters you can't use. When you're done, share your result as a colour barcode that doesn't give away the answer.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, daily puzzles generated in the browser from a seeded random number generator, the public-domain ENABLE word list, localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/riffle/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/riffle" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/talk/"><img class="app-shot" src="/img/apps/talk.jpg" alt="The Talk landing page, with a language picker and a Start a call button" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="talk"><a href="/talk/">Talk</a></h2>
@@ -99,20 +113,6 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/bookshelf/"><span aria-hidden="true">🚀</span>Live app</a>
 <a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/bookshelf" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
-</div>
-</div>
-</div>
-
-<div class="app-card">
-<a href="/riffle/"><img class="app-shot" src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, GREATLY, DOUBLE and SLOPE found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy"></a>
-<div class="app-card-body">
-<h2 id="riffle"><a href="/riffle/">Riffle</a></h2>
-<p class="app-tagline">Three words, shuffled like cards. Pull them apart.</p>
-<p>A new word puzzle every day. Three words have been riffled together like a deck of cards: each keeps its letters in order, but they're mixed in with the others. Tap letters from left to right to pull out any word you can find, and clear the strip in as few words as possible. Par is 3, and a long word that wasn't hidden can put you under par. Grab easy words too soon and you may strand letters you can't use. When you're done, share your result as a colour barcode that doesn't give away the answer.</p>
-<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, daily puzzles generated in the browser from a seeded random number generator, the public-domain ENABLE word list, localStorage</div>
-<div class="app-actions">
-<a class="app-btn app-btn-primary" href="/riffle/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/riffle" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
