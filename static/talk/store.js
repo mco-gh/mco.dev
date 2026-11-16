@@ -1,6 +1,6 @@
 // Settings live in this browser's localStorage and nowhere else. If storage
 // is blocked the app still works for the session.
-const KEY = 'parlo.settings.v1';
+const KEY = 'talk.settings.v1';
 
 const DEFAULTS = Object.freeze({
   name: '',

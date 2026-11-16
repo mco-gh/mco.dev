@@ -53,7 +53,7 @@ export default {
     'ended.left': 'The call ended',
     'ended.lost': 'The connection was lost',
     'ended.full': 'This call already has two people',
-    'err.media': 'Parlo needs your microphone. Allow access in your browser, then try again.',
+    'err.media': 'Talk needs your microphone. Allow access in your browser, then try again.',
     'err.noroom': 'Nobody is in this call yet. Ask your friend to start it, then try again.',
     'err.taken': 'That call link is already in use. Start a new call.',
     'err.network': 'Couldn’t reach the connection service. Check your internet and try again.',

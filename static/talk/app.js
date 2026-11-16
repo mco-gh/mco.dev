@@ -1,4 +1,4 @@
-// Parlo: the page controller. Wires the lobby, the call screen and settings to
+// Talk: the page controller. Wires the lobby, the call screen and settings to
 // the three independent pieces: languages/ (who speaks what), rtc.js (the link
 // between the two browsers) and engines/ + translator.js (voice translation).
 import { LANGUAGES, getLanguage, guessLanguage, setUiLanguage, t } from './languages/index.js';

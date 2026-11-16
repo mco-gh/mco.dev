@@ -51,7 +51,7 @@ export default {
     'ended.left': 'L’appel est terminé',
     'ended.lost': 'La connexion a été perdue',
     'ended.full': 'Cet appel compte déjà deux personnes',
-    'err.media': 'Parlo a besoin de votre micro. Autorisez l’accès dans votre navigateur, puis réessayez.',
+    'err.media': 'Talk a besoin de votre micro. Autorisez l’accès dans votre navigateur, puis réessayez.',
     'err.noroom': 'Personne n’est encore dans cet appel. Demandez à votre ami de le démarrer, puis réessayez.',
     'err.taken': 'Ce lien d’appel est déjà utilisé. Démarrez un nouvel appel.',
     'err.network': 'Impossible de joindre le service de connexion. Vérifiez votre connexion internet et réessayez.',

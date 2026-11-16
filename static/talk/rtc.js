@@ -3,7 +3,7 @@
 // captions). PeerJS's public broker introduces the two browsers to each other;
 // after that everything flows directly between them.
 /* global Peer */
-const PREFIX = 'parlo-call-';
+const PREFIX = 'talk-call-';
 const ALPHABET = 'abcdefghjkmnpqrstuvwxyz23456789';   // no look-alikes
 
 export function newRoomCode() {
