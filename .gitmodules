@@ -16,3 +16,6 @@
 [submodule "static/bookshelf"]
 	path = static/bookshelf
 	url = https://github.com/mco-gh/bookshelf.git
+[submodule "static/riffle"]
+	path = static/riffle
+	url = https://github.com/mco-gh/riffle.git

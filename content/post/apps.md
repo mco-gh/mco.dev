@@ -102,3 +102,17 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 </div>
 </div>
+
+<div class="app-card">
+<a href="/riffle/"><img class="app-shot" src="/img/apps/riffle.jpg" alt="The Riffle game, with a strip of letter tiles, the word OPERA pulled out in blue and FRI being spelled" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="riffle"><a href="/riffle/">Riffle</a></h2>
+<p class="app-tagline">Three words, shuffled like cards. Pull them apart.</p>
+<p>A new word puzzle every day. Three words have been riffled together like a deck of cards: each keeps its letters in order, but they're mixed in with the others. Tap letters from left to right to pull out any word you can find, and clear the strip in as few words as possible. Par is 3, and a long word that wasn't hidden can put you under par. Grab easy words too soon and you may strand letters you can't use. When you're done, share your result as a colour barcode that doesn't give away the answer.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, daily puzzles generated in the browser from a seeded random number generator, the public-domain ENABLE word list, localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/riffle/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/riffle" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
