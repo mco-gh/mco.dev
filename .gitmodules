@@ -1,3 +1,6 @@
 [submodule "static/reveal.js"]
 	path = static/reveal.js
 	url = https://github.com/hakimel/reveal.js
+[submodule "static/chess"]
+	path = static/chess
+	url = https://github.com/mco-gh/chess.git
