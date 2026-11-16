@@ -7,3 +7,6 @@
 [submodule "static/talk"]
 	path = static/talk
 	url = https://github.com/mco-gh/talk.git
+[submodule "static/bg"]
+	path = static/bg
+	url = https://github.com/mco-gh/bg.git
