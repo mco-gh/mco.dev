@@ -22,3 +22,6 @@
 [submodule "static/connect4"]
 	path = static/connect4
 	url = https://github.com/mco-gh/connect4.git
+[submodule "static/mm"]
+	path = static/mm
+	url = https://github.com/mco-gh/mm.git
