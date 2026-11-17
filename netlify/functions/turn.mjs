@@ -9,8 +9,17 @@
 //   CLOUDFLARE_TURN_KEY_ID     the TURN key's ID
 //   CLOUDFLARE_TURN_API_TOKEN  the TURN key's API token
 // Without them this returns 503 and the apps fall back to direct connections.
+//
+// Abuse limits, since relayed traffic beyond Cloudflare's free allowance is billed:
+// - only browsers on this site (or someone opening the URL directly) get credentials;
+// - credentials expire after 4 hours;
+// - each IP address gets at most 20 requests every 3 minutes (Netlify answers 429 beyond that).
+// None of this stops a determined abuser, so watch usage in Cloudflare's dashboard;
+// deleting either variable and redeploying switches the relay off.
 
-const TTL = 12 * 60 * 60;   // seconds; longer than any game or call
+// Seconds. A relayed call breaks when its credentials expire, so this has to outlast
+// a long call; the apps fetch fresh credentials at most an hour before using them.
+const TTL = 4 * 60 * 60;
 
 const json = (body, status = 200) => new Response(JSON.stringify(body), {
   status,
@@ -19,10 +28,10 @@ const json = (body, status = 200) => new Response(JSON.stringify(body), {
 
 export default async (req) => {
   // Only hand credentials to pages on this site, or to someone opening this URL
-  // directly ('none'). Browsers set this header; it keeps other sites from
-  // quietly borrowing the relay.
+  // directly ('none'). Every current browser sends this header, so a request
+  // without it is a script, and other sites can't quietly borrow the relay.
   const site = req.headers.get('sec-fetch-site');
-  if (site && site !== 'same-origin' && site !== 'none') return json({ error: 'forbidden' }, 403);
+  if (site !== 'same-origin' && site !== 'none') return json({ error: 'forbidden' }, 403);
 
   const keyId = process.env.CLOUDFLARE_TURN_KEY_ID;
   const token = process.env.CLOUDFLARE_TURN_API_TOKEN;
@@ -46,4 +55,9 @@ export default async (req) => {
   return json({ iceServers: servers });
 };
 
-export const config = { path: '/api/turn' };
+export const config = {
+  path: '/api/turn',
+  // Per visitor. Each app asks once per connection and caches for an hour,
+  // so real players stay far below this.
+  rateLimit: { windowLimit: 20, windowSize: 180, aggregateBy: ['ip', 'domain'] },
+};
