@@ -26,8 +26,10 @@ HUGO_VERSION = "0.56.3"
 from = "/connect4/*"
 to = "/four/:splat"
 status = 301
+force = true   # old files can linger in the deploy and would otherwise win
 
 [[redirects]]
 from = "/connect4"
 to = "/four/"
 status = 301
+force = true
