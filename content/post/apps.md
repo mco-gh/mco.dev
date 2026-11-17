@@ -62,6 +62,20 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
+<a href="/connect4/"><img class="app-shot" src="/img/apps/connect4.jpg" alt="The Connect4 landing page, with a blue board of red and yellow discs mid-game, a choice of who goes first and a Start a game button" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="connect4"><a href="/connect4/">Connect4</a></h2>
+<p class="app-tagline">Four in a row, wherever you are</p>
+<p>Play Connect Four with anyone, wherever they are. Choose who goes first, start a game and send your friend the code: there's nothing to sign up for. Discs drop and bounce into place, the winning four light up, and a running score keeps track over rematches. Turn on video or chat while you play, and recolor the board and discs to taste. Moves travel directly between your two browsers, and you can install it on your phone like a native app.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, WebRTC data and media channels (PeerJS) with a TURN relay fallback, CSS container units and the Web Animations API for the board, an installable offline web app (service worker), localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/connect4/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/connect4" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/words/"><img class="app-shot" src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="words"><a href="/words/">Words</a></h2>
