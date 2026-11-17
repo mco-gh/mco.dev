@@ -19,3 +19,6 @@
 [submodule "static/riffle"]
 	path = static/riffle
 	url = https://github.com/mco-gh/riffle.git
+[submodule "static/connect4"]
+	path = static/connect4
+	url = https://github.com/mco-gh/connect4.git
