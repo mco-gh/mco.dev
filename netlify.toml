@@ -20,3 +20,14 @@ command = "hugo -b $DEPLOY_PRIME_URL"
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.56.3"
 
+
+# Connect4 was renamed Four.
+[[redirects]]
+from = "/connect4/*"
+to = "/four/:splat"
+status = 301
+
+[[redirects]]
+from = "/connect4"
+to = "/four/"
+status = 301
