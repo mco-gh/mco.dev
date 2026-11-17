@@ -18,10 +18,11 @@ const json = (body, status = 200) => new Response(JSON.stringify(body), {
 });
 
 export default async (req) => {
-  // Only hand credentials to pages on this site. Browsers set this header;
-  // it keeps other sites from quietly borrowing the relay.
+  // Only hand credentials to pages on this site, or to someone opening this URL
+  // directly ('none'). Browsers set this header; it keeps other sites from
+  // quietly borrowing the relay.
   const site = req.headers.get('sec-fetch-site');
-  if (site && site !== 'same-origin') return json({ error: 'forbidden' }, 403);
+  if (site && site !== 'same-origin' && site !== 'none') return json({ error: 'forbidden' }, 403);
 
   const keyId = process.env.CLOUDFLARE_TURN_KEY_ID;
   const token = process.env.CLOUDFLARE_TURN_API_TOKEN;
