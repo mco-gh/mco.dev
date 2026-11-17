@@ -76,6 +76,20 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
+<a href="/mm/"><img class="app-shot" src="/img/apps/mm.jpg" alt="The MM landing page, with a board of colored guesses and scoring pegs below a hidden code, a level picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="mm"><a href="/mm/">MM</a></h2>
+<p class="app-tagline">Crack the code, wherever you are</p>
+<p>A code-breaking race for two. You each hide a secret row of colored pegs, then race to crack each other's code. Every guess tells you how many pegs are the right color in the right place, and how many are the right color in the wrong place. Fewest tries wins. Pick from three levels, start a game and send your friend the code: there's nothing to sign up for. Your code never leaves your browser until the round is over, and each side's code is checked against a fingerprint at the end, so nobody can fib. Turn on video or chat while you play, and install it on your phone like a native app.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, WebRTC data and media channels (PeerJS) with a TURN relay fallback, SHA-256 commitments (Web Crypto) for fair play, an installable offline web app (service worker), sessionStorage and localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/mm/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mm" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/words/"><img class="app-shot" src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="words"><a href="/words/">Words</a></h2>
