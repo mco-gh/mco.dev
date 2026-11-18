@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="description" content="Prototype redesign of Walkies with Romi, dog walking and pet sitting in North London">
+<title>Walkies with Romi</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500..900,100&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#fff8ef; --cream-2:#fbeedd; --ink:#2b1d14; --ink-2:#5b4636; --muted:#8a7464;
+  --orange:#ff7a3d; --orange-2:#ffb48a; --green:#2f7a4f; --green-2:#cfe8c9; --pink:#ffc9d6; --sky:#cfe6ff; --yellow:#ffd66b;
+  --serif:"Fraunces",Georgia,serif; --sans:"Nunito",system-ui,sans-serif;
+  --r:28px; --shadow:0 18px 50px -18px rgba(80,40,10,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:18px;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+@media (max-width:640px){.wrap{padding:0 16px}}
+h1,h2,h3{font-family:var(--serif);font-variation-settings:"SOFT" 100;letter-spacing:-.02em;line-height:1.02;font-weight:800}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--orange)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:800;font-size:16px;text-decoration:none;border:0;cursor:pointer;transition:transform .2s cubic-bezier(.3,1.6,.5,1),box-shadow .2s}
+.btn:hover{transform:translateY(-3px) rotate(-1deg)}
+.btn-primary{background:var(--ink);color:var(--cream);box-shadow:0 6px 0 var(--orange)}
+.btn-primary:hover{box-shadow:0 9px 0 var(--orange)}
+.btn-soft{background:#fff;box-shadow:inset 0 0 0 2px var(--ink)}
+.btn-wa{background:#25d366;color:#08301a}
+
+/* let grid children shrink below their content width on small screens */
+.hero-grid>*,.mission-grid>*,.about-grid>*,.contact-grid>*,.svc>*,.steps>*,.row>*,.slots>*,.creds>*{min-width:0}
+
+/* NAV */
+nav.top{position:sticky;top:0;z-index:40;background:rgba(255,248,239,.82);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
+nav.top.scrolled{border-color:rgba(43,29,20,.08)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:74px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--serif);font-weight:800;font-size:22px}
+.brand-mark{width:40px;height:40px;border-radius:14px;background:var(--orange);display:grid;place-items:center;transform:rotate(-8deg)}
+.brand-mark svg{width:24px;height:24px;fill:#fff}
+.links{display:flex;gap:28px;font-weight:700;font-size:15px}
+.links a{text-decoration:none;color:var(--ink-2)}
+.links a:hover{color:var(--orange)}
+@media (max-width:860px){.links{display:none}nav.top .btn{padding:11px 18px;font-size:14px;white-space:nowrap}}
+@media (max-width:420px){.brand{font-size:18px;gap:8px}.brand-mark{width:34px;height:34px;border-radius:12px}.brand-mark svg{width:20px;height:20px}nav.top .btn{padding:10px 14px}.pack{padding:24px}.slots{gap:8px}}
+
+/* HERO */
+.hero{position:relative;padding:60px 0 100px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(50px,7.4vw,100px);margin:18px 0 24px}
+.hero h1 .hl{position:relative;white-space:nowrap;color:var(--orange)}
+.hero h1 .hl svg{position:absolute;left:-2%;bottom:-.12em;width:104%;height:.32em;overflow:visible}
+.hero p.lede{font-size:21px;color:var(--ink-2);max-width:520px}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.trust{display:flex;gap:10px;flex-wrap:wrap;margin-top:40px}
+.trust span{display:inline-flex;align-items:center;gap:8px;background:#fff;padding:9px 15px;border-radius:999px;font-weight:700;font-size:14px;box-shadow:0 2px 0 rgba(43,29,20,.08)}
+.trust i{font-style:normal;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:var(--green-2);color:var(--green);font-size:12px}
+
+.stage{position:relative;aspect-ratio:1/1;max-width:540px;width:100%;justify-self:end}
+.blob{position:absolute;inset:4%;background:var(--orange-2);border-radius:58% 42% 50% 50%/48% 56% 44% 52%;animation:morph 14s ease-in-out infinite}
+.blob.b2{inset:14% 0 0 18%;background:var(--green-2);animation-duration:18s;animation-direction:reverse;opacity:.9}
+@keyframes morph{50%{border-radius:42% 58% 38% 62%/58% 40% 60% 42%;transform:rotate(8deg)}}
+.stage svg.dog{position:absolute;left:6%;bottom:6%;width:78%;filter:drop-shadow(0 20px 20px rgba(80,40,10,.18))}
+.tail{transform-origin:356px 236px;animation:wag .35s ease-in-out infinite alternate}
+@keyframes wag{from{transform:rotate(-14deg)}to{transform:rotate(18deg)}}
+.ear{transform-origin:150px 120px;animation:ear 4s ease-in-out infinite}
+@keyframes ear{0%,88%,100%{transform:rotate(0)}92%{transform:rotate(-10deg)}96%{transform:rotate(4deg)}}
+.blink{animation:blink 5s infinite;transform-origin:center;transform-box:fill-box}
+@keyframes blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+.bubble{position:absolute;background:#fff;border-radius:22px;padding:14px 18px;box-shadow:var(--shadow);font-weight:800;font-size:15px;line-height:1.25;animation:float 5s ease-in-out infinite}
+.bubble small{display:block;font-weight:600;color:var(--muted);font-size:12px}
+.bubble.one{top:8%;left:0}
+.bubble.two{top:30%;right:-2%;animation-delay:-2.5s}
+.bubble .emo{font-size:26px;float:left;margin-right:10px;line-height:1}
+@keyframes float{50%{transform:translateY(-10px)}}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr}.stage{justify-self:center;max-width:440px}.hero{padding-top:30px}}
+
+/* paw trail */
+.paw{position:fixed;width:22px;height:22px;pointer-events:none;z-index:30;fill:var(--orange);opacity:.55;animation:pawfade 1.4s forwards}
+@keyframes pawfade{to{opacity:0;transform:scale(.6)}}
+
+/* WAVE DIVIDER */
+.wave{display:block;width:100%;height:60px}
+
+/* MISSION */
+.mission{background:var(--ink);color:var(--cream);padding:110px 0;position:relative}
+.mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.mission h2{font-size:clamp(40px,5.4vw,72px);margin:14px 0 22px}
+.mission h2 em{font-style:italic;color:var(--yellow);font-weight:600}
+.mission p{color:#e7d6c6;font-size:20px;max-width:520px}
+.pack{background:#3a2a1f;border-radius:var(--r);padding:34px}
+.pack h3{font-size:24px;margin-bottom:6px}
+.pack .sub{color:#c8b3a1;font-size:15px;margin-bottom:24px}
+.slots{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.slot.locked{opacity:.35;font-size:24px;border-style:dotted}
+.slot.locked:not(.on)::after{content:none}
+.slot{aspect-ratio:1;border-radius:20px;border:2.5px dashed #6b5444;display:grid;place-items:center;font-size:clamp(28px,4vw,40px);cursor:pointer;transition:.25s;background:transparent;color:var(--cream)}
+.slot.on{border-style:solid;border-color:var(--yellow);background:#4a3626;transform:rotate(-3deg)}
+.slot.on:nth-child(2){transform:rotate(2deg)}
+.slot:not(.on)::after{content:"+";font-size:30px;color:#8b7262;font-family:var(--sans)}
+.pack-msg{margin-top:20px;font-weight:700;min-height:2em;color:var(--yellow)}
+.pack-toggle{display:flex;background:#2b1d14;border-radius:999px;padding:5px;margin-bottom:22px}
+.pack-toggle button{flex:1;border:0;background:none;padding:10px;border-radius:999px;font-weight:800;cursor:pointer;color:#c8b3a1}
+.pack-toggle button[aria-pressed="true"]{background:var(--cream);color:var(--ink)}
+@media (max-width:900px){.mission-grid{grid-template-columns:1fr;gap:40px}}
+
+/* SECTIONS */
+section.s{padding:120px 0}
+.sh{text-align:center;max-width:720px;margin:0 auto 60px}
+.sh h2{font-size:clamp(40px,5.4vw,70px);margin:12px 0 16px}
+.sh p{color:var(--ink-2);font-size:20px}
+
+/* SERVICES */
+.svc{display:grid;grid-template-columns:repeat(6,1fr);gap:22px}
+.card{background:#fff;border-radius:var(--r);padding:32px;box-shadow:var(--shadow);position:relative;overflow:hidden;transition:transform .35s cubic-bezier(.3,1.5,.5,1)}
+.card:hover{transform:translateY(-6px) rotate(-.6deg)}
+.card .ico{width:66px;height:66px;border-radius:20px;display:grid;place-items:center;font-size:34px;margin-bottom:22px}
+.card h3{font-size:28px;margin-bottom:10px}
+.card p{color:var(--ink-2);font-size:16.5px}
+.card .tag{position:absolute;top:24px;right:24px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:6px 11px;border-radius:999px;background:var(--cream-2)}
+.card ul{list-style:none;margin-top:16px;display:grid;gap:8px;font-size:15.5px;font-weight:700}
+.card li::before{content:"🐾";margin-right:8px;font-size:13px}
+.c1{grid-column:span 3;background:var(--yellow)}.c1 .ico{background:#fff}
+.c2{grid-column:span 3}.c2 .ico{background:var(--sky)}
+.c3{grid-column:span 2}.c3 .ico{background:var(--green-2)}
+.c4{grid-column:span 2;background:var(--pink)}.c4 .ico{background:#fff}
+.c5{grid-column:span 2}.c5 .ico{background:var(--orange-2)}
+@media (max-width:900px){.svc{grid-template-columns:1fr}.c1,.c2,.c3,.c4,.c5{grid-column:auto}}
+
+/* AREAS */
+.areas{background:var(--green);color:#f2fbef;border-radius:44px;margin:0 16px;padding:100px 0;position:relative;overflow:hidden}
+.areas .sh p{color:#d7ecd4}
+.areas .kicker{color:var(--yellow)}
+.areas::before,.areas::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.06)}
+.areas::before{width:520px;height:520px;left:-200px;top:-160px}
+.areas::after{width:380px;height:380px;right:-120px;bottom:-140px}
+.checker{max-width:620px;margin:0 auto 40px;position:relative;z-index:1}
+.checker label{display:block;font-weight:800;margin-bottom:10px;text-align:center}
+.checker .box{display:flex;background:#fff;border-radius:999px;padding:6px;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.checker input{flex:1;min-width:0;border:0;outline:none;background:none;padding:0 20px;color:var(--ink);font-weight:700}
+.checker .res{margin-top:16px;text-align:center;font-weight:800;font-size:19px;min-height:1.6em}
+.hoods{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:900px;margin:0 auto;position:relative;z-index:1}
+.hood{padding:11px 18px;border-radius:999px;background:rgba(255,255,255,.12);font-weight:800;font-size:15px;transition:.25s;border:2px solid transparent}
+.hood.hit{background:var(--yellow);color:var(--ink);transform:scale(1.08) rotate(-2deg)}
+.hood::before{content:"📍 "}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center}
+.photo{position:relative;aspect-ratio:4/5;border-radius:200px 200px var(--r) var(--r);overflow:hidden;background:linear-gradient(160deg,var(--orange-2),var(--pink));box-shadow:var(--shadow)}
+.photo svg{position:absolute;inset:auto 0 0 0;width:100%}
+.photo .ph{position:absolute;top:44%;left:0;right:0;text-align:center;font-weight:800;color:rgba(43,29,20,.45);font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+.sticker{position:absolute;right:-18px;top:40px;background:var(--yellow);border-radius:50%;width:130px;height:130px;display:grid;place-items:center;text-align:center;font-family:var(--serif);font-weight:800;font-size:17px;line-height:1.1;transform:rotate(12deg);box-shadow:var(--shadow);z-index:2}
+.photo-wrap{position:relative}
+.about h2{font-size:clamp(40px,5vw,66px);margin:12px 0 22px}
+.about p{color:var(--ink-2);font-size:19px;margin-bottom:16px}
+.creds{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.cred{background:#fff;border-radius:20px;padding:20px;box-shadow:0 2px 0 rgba(43,29,20,.07)}
+.cred b{display:block;font-family:var(--serif);font-size:20px;margin:8px 0 2px}
+.cred span{font-size:14px;color:var(--muted);font-weight:600}
+.cred .e{font-size:28px}
+@media (max-width:900px){.about-grid{grid-template-columns:1fr;gap:50px}.photo-wrap{max-width:420px}.creds{grid-template-columns:1fr}.sticker{right:-4px;width:112px;height:112px;font-size:15px}}
+
+/* STEPS */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:s}
+.step{text-align:center;padding:10px 20px}
+.step .n{width:84px;height:84px;margin:0 auto 20px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:38px;box-shadow:var(--shadow);position:relative}
+.step .n::after{counter-increment:s;content:counter(s);position:absolute;top:-4px;right:-4px;width:30px;height:30px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800;font-size:14px;display:grid;place-items:center}
+.step h3{font-size:26px;margin-bottom:8px}
+.step p{color:var(--ink-2);font-size:16.5px}
+@media (max-width:760px){.steps{grid-template-columns:1fr}}
+
+/* CONTACT */
+.contact{background:var(--cream-2);padding:120px 0 140px;position:relative}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start}
+.contact h2{font-size:clamp(44px,6vw,80px);margin:12px 0 20px}
+.contact h2 em{font-style:italic;font-weight:600;color:var(--orange)}
+.contact .lead{color:var(--ink-2);font-size:20px;margin-bottom:30px}
+.ways{display:grid;gap:12px}
+.way{display:flex;align-items:center;gap:16px;background:#fff;border-radius:22px;padding:16px 20px;text-decoration:none;font-weight:800;transition:transform .2s}
+.way:hover{transform:translateX(6px)}
+.way i{font-style:normal;width:48px;height:48px;border-radius:16px;display:grid;place-items:center;font-size:22px;flex:none}
+.way small{display:block;font-weight:600;color:var(--muted);font-size:13px}
+.form{background:#fff;border-radius:var(--r);padding:36px;box-shadow:var(--shadow);position:relative}
+.form h3{font-size:30px;margin-bottom:6px}
+.form .sub{color:var(--muted);font-size:15px;margin-bottom:24px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.f{display:grid;gap:6px;margin-bottom:14px}
+.f label{font-weight:800;font-size:14px}
+.f input,.f select,.f textarea{border:2px solid #eadccd;border-radius:14px;padding:12px 14px;background:var(--cream);outline:none;transition:border-color .2s;width:100%}
+.f input:focus,.f select:focus,.f textarea:focus{border-color:var(--orange)}
+.pets{display:flex;gap:10px}
+.pets label{flex:1;cursor:pointer;position:relative}
+.pets input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer}
+.pets span{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;border-radius:14px;border:2px solid #eadccd;font-weight:800;transition:.2s}
+.pets input:checked+span{border-color:var(--ink);background:var(--yellow)}
+.pets input:focus-visible+span{outline:3px solid var(--orange)}
+.form .btn{width:100%;justify-content:center;margin-top:6px}
+.thanks{text-align:center;padding:40px 10px}
+.thanks .big{font-size:70px;animation:float 2s ease-in-out infinite}
+.peek{position:absolute;top:-62px;right:40px;width:120px}
+@media (max-width:900px){.contact-grid{grid-template-columns:1fr}.row{grid-template-columns:1fr}.form{padding:26px}}
+
+footer{background:var(--ink);color:#d9c7b6;padding:44px 0}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;font-size:15px}
+footer .brand{color:var(--cream)}
+
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="paw" viewBox="0 0 100 100"><ellipse cx="50" cy="66" rx="22" ry="19"/><ellipse cx="22" cy="42" rx="10" ry="13"/><ellipse cx="40" cy="24" rx="10" ry="13"/><ellipse cx="62" cy="24" rx="10" ry="13"/><ellipse cx="79" cy="42" rx="10" ry="13"/></symbol>
+</svg>
+
+<nav class="top" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top"><span class="brand-mark"><svg><use href="#paw"/></svg></span>Walkies with Romi</a>
+    <div class="links"><a href="#mission">Small packs</a><a href="#services">Services</a><a href="#areas">Areas</a><a href="#about">About Romi</a></div>
+    <a class="btn btn-primary" href="#contact">Book a hello</a>
+  </div>
+</nav>
+
+<main id="top">
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="kicker">🐾 Dog walking &amp; pet sitting · Camden</span>
+      <h1>Happy tails,<br>happy <span class="hl">humans.<svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M3 14 C 60 2, 120 4, 170 10 S 260 16, 297 6" fill="none" stroke="#ffd66b" stroke-width="9" stroke-linecap="round"/></svg></span></h1>
+      <p class="lede">Loving, reliable care for your four-legged family. Small group walks across Hampstead Heath and Primrose Hill, cosy home visits, and live-in sitting when you're away.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#contact">Book a hello →</a>
+        <a class="btn btn-soft" href="#services">See services</a>
+      </div>
+      <div class="trust">
+        <span><i>✓</i>DBS checked</span>
+        <span><i>✓</i>Fully insured</span>
+        <span><i>✓</i>Max 3 dogs per walk</span>
+        <span><i>✓</i>References available</span>
+      </div>
+    </div>
+    <div class="stage" aria-hidden="true">
+      <div class="blob"></div><div class="blob b2"></div>
+      <svg class="dog" viewBox="0 0 440 340">
+        <!-- tail -->
+        <g class="tail"><path d="M352 240 C 390 220, 410 180, 400 150" stroke="#c8662f" stroke-width="22" stroke-linecap="round" fill="none"/></g>
+        <!-- back legs -->
+        <rect x="290" y="250" width="34" height="74" rx="17" fill="#b85a28"/>
+        <rect x="128" y="256" width="34" height="68" rx="17" fill="#b85a28"/>
+        <!-- body -->
+        <ellipse cx="250" cy="236" rx="120" ry="72" fill="#e07a3f"/>
+        <ellipse cx="226" cy="262" rx="76" ry="38" fill="#ffe2c8"/>
+        <!-- front legs -->
+        <rect x="160" y="262" width="34" height="66" rx="17" fill="#e07a3f"/>
+        <rect x="320" y="258" width="34" height="70" rx="17" fill="#e07a3f"/>
+        <ellipse cx="177" cy="326" rx="24" ry="11" fill="#ffe2c8"/><ellipse cx="337" cy="326" rx="24" ry="11" fill="#ffe2c8"/>
+        <!-- collar -->
+        <path d="M120 200 Q 160 236 214 214" stroke="#2f7a4f" stroke-width="16" fill="none" stroke-linecap="round"/>
+        <circle cx="170" cy="230" r="11" fill="#ffd66b" stroke="#c99a2a" stroke-width="3"/>
+        <!-- head -->
+        <g>
+          <path class="ear" d="M108 84 C 74 80, 62 150, 92 176 C 110 160, 118 120, 128 96 Z" fill="#a8501f"/>
+          <circle cx="160" cy="132" r="74" fill="#e07a3f"/>
+          <path d="M210 70 C 250 58, 262 132, 238 162 C 222 146, 214 110, 196 88 Z" fill="#a8501f"/>
+          <ellipse cx="150" cy="170" rx="50" ry="36" fill="#ffe2c8"/>
+          <ellipse class="blink" cx="128" cy="122" rx="9" ry="11" fill="#2b1d14"/>
+          <ellipse class="blink" cx="186" cy="118" rx="9" ry="11" fill="#2b1d14"/>
+          <circle cx="131" cy="118" r="3" fill="#fff"/><circle cx="189" cy="114" r="3" fill="#fff"/>
+          <ellipse cx="152" cy="154" rx="17" ry="12" fill="#2b1d14"/>
+          <path d="M152 166 Q 152 180 138 184 M152 166 Q 152 180 166 184" stroke="#2b1d14" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M146 184 Q 152 210 160 184 Z" fill="#ff7f9b"/>
+          <ellipse cx="104" cy="150" rx="12" ry="7" fill="#ff9e8a" opacity=".6"/><ellipse cx="206" cy="146" rx="12" ry="7" fill="#ff9e8a" opacity=".6"/>
+        </g>
+      </svg>
+      <div class="bubble one"><span class="emo">🌳</span>Off to the Heath!<small>Group walk · 10am</small></div>
+      <div class="bubble two"><span class="emo">🐈</span>Cat fed &amp; cuddled<small>Home visit · done</small></div>
+    </div>
+  </div>
+</header>
+
+<!-- MISSION -->
+<section class="mission" id="mission">
+  <div class="wrap mission-grid">
+    <div class="reveal">
+      <span class="kicker" style="color:var(--yellow)">My mission</span>
+      <h2>Small packs.<br><em>Big</em> adventures.</h2>
+      <p>My mission is simple: give your beloved friend a wonderful time, and give you complete peace of mind. That's why I never walk more than three dogs at once — every pup gets proper attention, proper play, and proper sniffs.</p>
+    </div>
+    <div class="pack reveal">
+      <div class="pack-toggle" role="group" aria-label="Walk type">
+        <button aria-pressed="true" data-mode="group">Group walk</button>
+        <button aria-pressed="false" data-mode="private">Private walk</button>
+      </div>
+      <h3>Build today's pack</h3>
+      <div class="sub">Tap a spot to add a pup. Go on, try for four.</div>
+      <div class="slots" id="slots"></div>
+      <div class="pack-msg" id="packMsg" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="s" id="services">
+  <div class="wrap">
+    <div class="sh reveal">
+      <span class="kicker">Services</span>
+      <h2>Care for every kind of critter.</h2>
+      <p>Dogs, cats, and everything in between — at the park, at home, or overnight while you're away.</p>
+    </div>
+    <div class="svc">
+      <article class="card c1 reveal"><span class="tag">Most loved</span><div class="ico">🐕</div><h3>Group walks</h3><p>Social adventures with a maximum of three dogs, so everyone gets plenty of attention.</p><ul><li>Max 3 dogs</li><li>Heath &amp; park routes</li></ul></article>
+      <article class="card c2 reveal"><div class="ico">🦮</div><h3>Private walks</h3><p>One-to-one time for pups who prefer their own company, are in training, or just love being the centre of attention.</p><ul><li>Just your dog</li><li>Your pace, your route</li></ul></article>
+      <article class="card c3 reveal"><div class="ico">🏡</div><h3>Dog sitting</h3><p>Home comforts while you're away, with live-in care available if required.</p></article>
+      <article class="card c4 reveal"><div class="ico">🐈</div><h3>Cat care</h3><p>Feeding, play and fuss — or a live-in sitter so your cat never misses you.</p></article>
+      <article class="card c5 reveal"><div class="ico">💊</div><h3>Home visits</h3><p>Bathroom breaks, medication, feeding and company. Get in touch to enquire.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section class="areas" id="areas">
+  <div class="wrap">
+    <div class="sh reveal">
+      <span class="kicker">Where I walk</span>
+      <h2>Your local, North London.</h2>
+      <p>Based in Camden and happy to help across the neighbourhoods nearby.</p>
+    </div>
+    <div class="checker reveal">
+      <label for="area">Do you cover my area?</label>
+      <div class="box"><input id="area" placeholder="Type your neighbourhood, e.g. Kentish Town" autocomplete="off"><button class="btn btn-primary" id="areaBtn" type="button">Sniff it out</button></div>
+      <div class="res" id="areaRes" aria-live="polite"></div>
+    </div>
+    <div class="hoods reveal" id="hoods"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="s" id="about">
+  <div class="wrap about-grid">
+    <div class="photo-wrap reveal">
+      <div class="sticker">Treats<br>always<br>in pocket</div>
+      <div class="photo" role="img" aria-label="Placeholder for a photo of Romi with dogs">
+        <div class="ph">Photo of Romi<br>&amp; friends</div>
+        <svg viewBox="0 0 400 200" aria-hidden="true"><path d="M0 120 Q 100 70 200 110 T 400 100 V200 H0Z" fill="#2f7a4f"/><path d="M0 150 Q 120 110 240 150 T 400 140 V200 H0Z" fill="#3f9563"/></svg>
+      </div>
+    </div>
+    <div class="about reveal">
+      <span class="kicker">About Romi</span>
+      <h2>Hi, I'm Romi. Your pet's new favourite person.</h2>
+      <p>I'm an experienced cat and dog walker and sitter, and I look after my four-legged clients as if they were my own.</p>
+      <p>I live in Camden, so I know every park, path and puddle nearby — and which corners have the best smells.</p>
+      <div class="creds">
+        <div class="cred"><span class="e">🛡️</span><b>DBS checked</b><span>For your peace of mind</span></div>
+        <div class="cred"><span class="e">📋</span><b>Fully insured</b><span>Every walk, every visit</span></div>
+        <div class="cred"><span class="e">💌</span><b>References</b><span>Happily provided</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="s" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh reveal"><span class="kicker">How it works</span><h2>Three steps to walkies.</h2></div>
+    <div class="steps">
+      <div class="step reveal"><div class="n">👋</div><h3>Say hello</h3><p>Drop me a WhatsApp, call or email with a little about your pet.</p></div>
+      <div class="step reveal"><div class="n">🤝</div><h3>Meet &amp; sniff</h3><p>We meet so your pet can get to know me, and I can learn their quirks.</p></div>
+      <div class="step reveal"><div class="n">🎾</div><h3>Walkies!</h3><p>Relax knowing your best friend is having the best day.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <span class="kicker">Contact</span>
+      <h2>Let's go for <em>walkies.</em></h2>
+      <p class="lead">Tell me about your dog or cat and what you need. I'll get back to you quickly.</p>
+      <div class="ways">
+        <a class="way" href="https://wa.me/447809114766" target="_blank" rel="noopener"><i style="background:#d6f7e2">💬</i><div>WhatsApp<small>Quickest way to reach me</small></div></a>
+        <a class="way" href="tel:+447809114766"><i style="background:var(--sky)">📞</i><div>07809 114766<small>Call or text</small></div></a>
+        <a class="way" href="mailto:walkieswithromi@gmail.com"><i style="background:var(--pink)">✉️</i><div>walkieswithromi@gmail.com<small>Email</small></div></a>
+      </div>
+    </div>
+    <div class="form reveal" id="formCard">
+      <svg class="peek" viewBox="0 0 120 70" aria-hidden="true"><path d="M18 70 L22 18 L44 40 Z" fill="#3b3b3b"/><path d="M102 70 L98 18 L76 40 Z" fill="#3b3b3b"/><ellipse cx="60" cy="70" rx="46" ry="38" fill="#4a4a4a"/><ellipse class="blink" cx="44" cy="58" rx="7" ry="9" fill="#c6e86b"/><ellipse class="blink" cx="76" cy="58" rx="7" ry="9" fill="#c6e86b"/><ellipse cx="44" cy="59" rx="2.2" ry="7" fill="#1a1a1a"/><ellipse cx="76" cy="59" rx="2.2" ry="7" fill="#1a1a1a"/><path d="M28 30 L26 24 M92 30 L94 24" stroke="#ff9ab0" stroke-width="5" stroke-linecap="round"/></svg>
+      <form id="enquiry">
+        <h3>Send an enquiry</h3>
+        <div class="sub">Takes about a minute. No commitment.</div>
+        <div class="f"><label>I have a…</label>
+          <div class="pets">
+            <label><input type="radio" name="pet" value="dog" checked><span>🐶 Dog</span></label>
+            <label><input type="radio" name="pet" value="cat"><span>🐱 Cat</span></label>
+            <label><input type="radio" name="pet" value="both"><span>🐾 Both</span></label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="f"><label for="nm">Your name</label><input id="nm" required placeholder="Jane"></div>
+          <div class="f"><label for="pn">Pet's name</label><input id="pn" required placeholder="Biscuit"></div>
+        </div>
+        <div class="row">
+          <div class="f"><label for="sv">Service</label><select id="sv"><option>Group walk</option><option>Private walk</option><option>Dog sitting</option><option>Cat care</option><option>Home visit</option><option>Not sure yet</option></select></div>
+          <div class="f"><label for="ar">Area</label><select id="ar"></select></div>
+        </div>
+        <div class="f"><label for="em">Email or phone</label><input id="em" required placeholder="So I can reply"></div>
+        <div class="f"><label for="ms">Anything I should know?</label><textarea id="ms" rows="3" placeholder="Loves squirrels, scared of bicycles…"></textarea></div>
+        <button class="btn btn-primary" type="submit">Send enquiry 🐾</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#top"><span class="brand-mark"><svg><use href="#paw"/></svg></span>Walkies with Romi</a>
+    <span>Loving &amp; reliable pet sitting in North London · DBS checked · Fully insured</span>
+  </div>
+</footer>
+
+<script>
+const $=s=>document.querySelector(s);
+const AREAS=["Hampstead","Belsize Park","Kentish Town","Primrose Hill","Camden Town","Gospel Oak","South End Green","Highgate","St John's Wood","Crouch End"];
+
+// nav
+addEventListener("scroll",()=>$("#nav").classList.toggle("scrolled",scrollY>10),{passive:true});
+
+// paw trail in hero
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+let last=0,side=1;
+$("#hero").addEventListener("pointermove",e=>{
+  if(reduce||e.pointerType!=="mouse")return;
+  const now=performance.now();if(now-last<110)return;last=now;side*=-1;
+  const p=document.createElementNS("http://www.w3.org/2000/svg","svg");
+  p.setAttribute("class","paw");p.innerHTML='<use href="#paw"/>';
+  const ang=Math.atan2(e.movementY,e.movementX)*180/Math.PI+90;
+  p.style.left=(e.clientX-11+side*8)+"px";p.style.top=(e.clientY-11)+"px";p.style.rotate=ang+"deg";
+  document.body.appendChild(p);setTimeout(()=>p.remove(),1400);
+});
+
+// pack builder
+const PUPS=["🐕","🐩","🦮","🐕‍🦺"];
+let mode="group",pack=[false,false,false];
+function renderPack(msg){
+  const n=mode==="private"?1:3;
+  $("#slots").innerHTML=[0,1,2,3].map(i=>i<n
+    ?`<button class="slot ${pack[i]?"on":""}" data-i="${i}" aria-label="${pack[i]?"Remove pup":"Add a pup"}">${pack[i]?PUPS[i]:""}</button>`
+    :`<button class="slot locked" data-locked aria-label="No more room">🔒</button>`).join("");
+  const count=pack.slice(0,n).filter(Boolean).length;
+  $("#packMsg").textContent=msg||(mode==="private"?(count?"Just the two of us. Undivided attention 💛":"One dog, one walker, all the attention."):count===3?"Pack's full! Three is the magic number.":count?`${count} of 3 — room for ${3-count} more friend${3-count>1?"s":""}.`:"Up to three pups per walk.");
+}
+$("#slots").addEventListener("click",e=>{const s=e.target.closest("button.slot");if(!s)return;
+  if(s.dataset.locked!==undefined){renderPack(mode==="private"?"Private means private — just your pup. 🐾":"Sorry, no fourth pup — that's the promise. 🐾");return}
+  const i=+s.dataset.i;pack[i]=!pack[i];renderPack()});
+document.querySelectorAll(".pack-toggle button").forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll(".pack-toggle button").forEach(x=>x.setAttribute("aria-pressed",x===b));pack=[false,false,false];renderPack()});
+renderPack();
+
+// areas
+$("#hoods").innerHTML=AREAS.map(a=>`<span class="hood" data-a="${a}">${a}</span>`).join("");
+$("#ar").innerHTML=AREAS.map(a=>`<option>${a}</option>`).join("")+"<option>Somewhere else</option>";
+const norm=s=>s.toLowerCase().replace(/[^a-z]/g,"").replace(/^st(?!r)/,"saint");
+function checkArea(){
+  const v=$("#area").value.trim();
+  document.querySelectorAll(".hood").forEach(h=>h.classList.remove("hit"));
+  if(!v){$("#areaRes").textContent="";return}
+  const hit=AREAS.find(a=>norm(a).includes(norm(v))||norm(v).includes(norm(a)));
+  if(hit){document.querySelector(`.hood[data-a="${hit}"]`).classList.add("hit");$("#areaRes").textContent=`Yes! I walk in ${hit}. 🎉`}
+  else $("#areaRes").textContent="Not on my usual patch — but drop me a line and I'll see what I can do.";
+}
+$("#areaBtn").onclick=checkArea;
+$("#area").addEventListener("input",()=>{if($("#area").value.trim().length>=3)checkArea();else{$("#areaRes").textContent="";document.querySelectorAll(".hood").forEach(h=>h.classList.remove("hit"))}});
+$("#area").addEventListener("keydown",e=>{if(e.key==="Enter")checkArea()});
+
+// form
+$("#enquiry").addEventListener("submit",e=>{e.preventDefault();
+  const pet=$("#pn").value||"your pet";
+  $("#enquiry").outerHTML=`<div class="thanks"><div class="big">🐶</div><h3>Woof, thank you!</h3><p style="color:var(--ink-2);margin-top:8px">Romi will be in touch about ${pet.replace(/[<>&]/g,"")} soon.</p><p style="color:var(--muted);font-size:13px;margin-top:20px">Prototype — this form isn't connected yet.</p></div>`;
+});
+
+// reveal
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
