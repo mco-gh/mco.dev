@@ -12,11 +12,16 @@ These are small, free web apps I've built. They run entirely in your browser: th
 
 <style>
 /* The theme sets 1rem = 10px. */
-/* The top margin spaces the first card from the intro; between cards it collapses into the 4.8rem below. */
-.app-card { margin: 3.2rem 0 4.8rem; border: 1px solid #e3e7ea; border-radius: 18px; background: #fff; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.06), 0 1px 3px rgba(0,0,0,.04); }
+/* The cards flow into as many columns as fit: one on phones, two or three on wider windows.
+   The theme's post column is only 750px wide, so the grid widens past it (up to 1200px),
+   staying centred on the column; the 4rem leaves room for a scrollbar at the window edges. */
+.app-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 34rem), 1fr)); gap: 3.2rem; align-items: stretch; margin: 3.2rem 0 4.8rem; }
+@media (min-width: 800px) { .app-grid { inline-size: min(calc(100vw - 4rem), 120rem); margin-inline-start: 50%; translate: -50% 0; } }
+/* Each card is a column, so the buttons line up along the bottom of every card in a row. */
+.app-card { display: flex; flex-direction: column; margin: 0; border: 1px solid #e3e7ea; border-radius: 18px; background: #fff; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.06), 0 1px 3px rgba(0,0,0,.04); }
 .app-card > a { display: block; border-bottom: 1px solid #e3e7ea; }
 .app-card .app-shot { display: block; width: 100%; height: auto; }
-.app-card-body { padding: 2.4rem 2.8rem 2.8rem; }
+.app-card-body { flex: 1; display: flex; flex-direction: column; padding: 2.4rem 2.8rem 2.8rem; }
 .app-card h2 { margin: 0; font-size: 2.6rem; line-height: 1.3; }
 .app-card h2 a, .app-card h2 a:visited { color: #349ef3; }
 /* Scoped under .post .post-content to outrank the theme's paragraph spacing. */
@@ -24,14 +29,25 @@ These are small, free web apps I've built. They run entirely in your browser: th
 .post .post-content .app-card .app-card-body > p.app-tagline { margin: .4rem 0 1.6rem; font-family: "Open Sans", sans-serif; font-size: 1.7rem; font-weight: 600; letter-spacing: -.01em; color: #909ba2; line-height: 1.5; }
 .app-tech { margin: 0 0 2.4rem; padding: 1.4rem 1.8rem; border-left: 4px solid #349ef3; border-radius: 8px; background: #f4f8fb; font-size: 1.4rem; line-height: 1.75; }
 .app-tech strong { color: #4a4a4a; }
-.app-actions { display: flex; flex-wrap: wrap; gap: 1rem; padding-top: 2.4rem; border-top: 1px solid #e3e7ea; }
+.app-actions { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: auto; padding-top: 2.4rem; border-top: 1px solid #e3e7ea; }
 .app-card a.app-btn, .app-card a.app-btn:visited { display: inline-flex; align-items: center; gap: .6rem; min-height: 44px; padding: 0 2rem; border: 2px solid #349ef3; border-radius: 8px; font-family: "Open Sans", sans-serif; font-size: 1.5rem; font-weight: 700; line-height: 1; text-decoration: none; transition: background-color .15s, color .15s; }
 .app-card a.app-btn-primary, .app-card a.app-btn-primary:visited { background: #349ef3; color: #fff; }
 .app-card a.app-btn-primary:hover { background: #1f86d8; border-color: #1f86d8; color: #fff; text-decoration: none; }
 .app-card a.app-btn-secondary, .app-card a.app-btn-secondary:visited { background: #fff; color: #349ef3; }
 .app-card a.app-btn-secondary:hover { background: #eef6fe; color: #1f86d8; text-decoration: none; }
 @media (max-width: 500px) { .app-card-body { padding: 2rem 1.8rem 2.2rem; } .app-card h2 { font-size: 2.2rem; } }
+/* Side by side (from about 750px), the cards are narrower: slightly smaller type and padding keep them from getting tall. */
+@media (min-width: 750px) {
+  .app-card-body { padding: 2rem 2.2rem 2.4rem; }
+  .app-card h2 { font-size: 2.3rem; }
+  .post .post-content .app-card .app-card-body > p { margin-bottom: 1.6rem; font-size: 1.5rem; line-height: 1.6; }
+  .post .post-content .app-card .app-card-body > p.app-tagline { margin-bottom: 1.2rem; font-size: 1.5rem; }
+  .app-tech { margin-bottom: 2rem; padding: 1.1rem 1.4rem; font-size: 1.3rem; line-height: 1.6; }
+  .app-actions { padding-top: 2rem; }
+}
 </style>
+
+<div class="app-grid">
 
 <div class="app-card">
 <a href="/words/"><img class="app-shot" src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy"></a>
@@ -143,4 +159,6 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/bookshelf" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
+</div>
+
 </div>
