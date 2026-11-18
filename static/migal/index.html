@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="description" content="Migal — Migali Bridault, sculptrice. Portfolio.">
+<title>Migal — Migali Bridault</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plaster:#efebe4; --plaster-2:#e6e0d6; --stone:#cfc6b8; --char:#1d1b19; --char-2:#46413b; --muted:#8a8278;
+  --terra:#b0532f; --bronze:#9a6a36;
+  --serif:"Cormorant Garamond",Georgia,serif; --sans:"Manrope",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--plaster);color:var(--char);font-family:var(--sans);font-weight:400;font-size:16px;line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+.wrap{max-width:1320px;margin:0 auto;padding:0 40px}
+@media (max-width:700px){.wrap{padding:0 16px}}
+.label{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);font-weight:500}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:90;opacity:.35;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .45 0 0 0 0 .4 0 0 0 .18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* NAV */
+header.top{position:fixed;inset:0 0 auto;z-index:50;mix-blend-mode:difference;color:#fff}
+.top-in{display:flex;justify-content:space-between;align-items:center;height:84px}
+.sig{font-family:var(--serif);font-style:italic;font-size:28px;text-decoration:none;letter-spacing:.01em}
+.menu{display:flex;gap:34px;align-items:center;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.menu a{text-decoration:none;opacity:.8}
+.menu a:hover{opacity:1}
+.lang{display:flex;gap:2px;border:1px solid currentColor;border-radius:999px;padding:3px}
+.lang button{padding:4px 11px;border-radius:999px;font-size:12px;letter-spacing:.1em}
+.lang button[aria-pressed="true"]{background:#fff;color:#000}
+@media (max-width:760px){.menu a{display:none}}
+
+/* HERO */
+.hero{height:100vh;min-height:640px;position:relative;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#f7f4ef,var(--plaster) 60%,var(--plaster-2))}
+.hero-name{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.hero-name h1{font-family:var(--serif);font-weight:300;font-size:clamp(120px,27vw,420px);line-height:.8;letter-spacing:-.04em;color:var(--char);display:flex}
+.hero-name h1 span{display:inline-block;opacity:0;transform:translateY(40px);animation:rise 1.4s cubic-bezier(.2,.7,.1,1) forwards}
+.hero-name h1 span:nth-child(2){animation-delay:.08s}.hero-name h1 span:nth-child(3){animation-delay:.16s}.hero-name h1 span:nth-child(4){animation-delay:.24s}.hero-name h1 span:nth-child(5){animation-delay:.32s}
+.hero-name h1 i{font-style:italic}
+@keyframes rise{to{opacity:1;transform:none}}
+.hero-form{position:relative;z-index:2;width:min(38vw,440px);aspect-ratio:3/4;margin-top:6vh;animation:fadein 2s .5s both}
+.hero-form svg{width:100%;height:100%;overflow:visible}
+@keyframes fadein{from{opacity:0;transform:scale(.96)}}
+.hero-foot{position:absolute;bottom:34px;left:0;right:0;z-index:3}
+.hero-foot .wrap{display:flex;justify-content:space-between;align-items:end;gap:20px}
+.hero-foot p{font-family:var(--serif);font-size:22px;font-style:italic;max-width:360px;line-height:1.3}
+.scroll{display:flex;flex-direction:column;align-items:center;gap:10px}
+.scroll i{width:1px;height:54px;background:linear-gradient(var(--char),transparent);animation:drip 2.2s ease-in-out infinite;transform-origin:top}
+@keyframes drip{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+@media (max-width:700px){.hero-form{width:62vw}.hero-foot p{font-size:18px}.hero-foot .label.r{display:none}}
+
+/* STATEMENT */
+.statement{padding:180px 0 160px}
+.statement blockquote{font-family:var(--serif);font-weight:300;font-size:clamp(34px,4.6vw,68px);line-height:1.12;max-width:1100px;letter-spacing:-.01em}
+.statement blockquote em{color:var(--terra)}
+.statement .by{margin-top:40px;display:flex;align-items:center;gap:16px}
+.statement .by::before{content:"";width:60px;height:1px;background:var(--char)}
+.w{display:inline-block;opacity:.12;transition:opacity .6s}
+.w.lit{opacity:1}
+
+/* WORKS */
+#oeuvres{padding:40px 0 160px}
+.works-head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:60px;border-bottom:1px solid var(--stone);padding-bottom:28px}
+.works-head h2{font-family:var(--serif);font-weight:300;font-size:clamp(60px,9vw,140px);line-height:.85;letter-spacing:-.03em}
+.works-head h2 sup{font-family:var(--sans);font-size:14px;letter-spacing:.1em;vertical-align:top;margin-left:10px;color:var(--muted)}
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.filters button{padding:9px 16px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;border-radius:999px;border:1px solid transparent;color:var(--char-2);transition:.3s}
+.filters button:hover{border-color:var(--stone)}
+.filters button[aria-pressed="true"]{background:var(--char);color:var(--plaster)}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:70px 40px}
+.work{text-align:left;display:block;transition:opacity .5s, transform .5s}
+.work.hide{display:none}
+.work .frame{position:relative;overflow:hidden;background:var(--plaster-2);aspect-ratio:var(--ar,4/5);transition:background .6s}
+.work .frame svg{position:absolute;inset:0;width:100%;height:100%;transition:transform 1.2s cubic-bezier(.2,.7,.1,1)}
+.work:hover .frame svg,.work:focus-visible .frame svg{transform:scale(1.04)}
+.work .cap{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin-top:16px}
+.work h3{font-family:var(--serif);font-weight:400;font-style:italic;font-size:24px;line-height:1.1}
+.work .meta{font-size:12px;color:var(--muted);letter-spacing:.06em;white-space:nowrap}
+.work .num{font-size:11px;color:var(--muted);letter-spacing:.2em;margin-bottom:10px;display:block}
+/* irregular, gallery-wall layout */
+.g1{grid-column:1/6}.g2{grid-column:7/13;margin-top:160px}.g3{grid-column:2/7}.g4{grid-column:8/12;margin-top:80px}
+.g5{grid-column:1/8}.g6{grid-column:9/13;margin-top:220px}
+@media (max-width:860px){.grid{gap:56px 18px}.grid .work{grid-column:auto/span 12!important;margin-top:0!important}}
+
+/* PROCESS */
+.process{background:var(--char);color:var(--plaster);padding:150px 0}
+.process .label{color:#8f877d}
+.process h2{font-family:var(--serif);font-weight:300;font-size:clamp(46px,6vw,92px);line-height:.95;letter-spacing:-.02em;margin:18px 0 80px;max-width:900px}
+.process h2 em{color:#d99a74}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:50px}
+.step{border-top:1px solid #4a443d;padding-top:28px}
+.step .n{font-family:var(--serif);font-style:italic;font-size:64px;line-height:1;color:#6c645a}
+.step h3{font-family:var(--serif);font-weight:400;font-size:32px;margin:14px 0 10px}
+.step p{color:#b9b0a4;font-size:15.5px;max-width:340px}
+@media (max-width:860px){.steps{grid-template-columns:1fr}}
+
+/* ABOUT */
+.about{padding:170px 0}
+.about-grid{display:grid;grid-template-columns:5fr 7fr;gap:90px;align-items:center}
+.portrait{aspect-ratio:3/4;position:relative;background:linear-gradient(170deg,#d9d1c4,#b8ad9c);overflow:hidden}
+.portrait svg{position:absolute;inset:0;width:100%;height:100%}
+.portrait .ph{position:absolute;left:18px;bottom:16px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(29,27,25,.55)}
+.about h2{font-family:var(--serif);font-weight:300;font-size:clamp(48px,6vw,96px);line-height:.9;letter-spacing:-.02em;margin:16px 0 34px}
+.about h2 em{font-style:italic}
+.about p{font-size:17px;color:var(--char-2);max-width:580px;margin-bottom:18px}
+.facts{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:50px;margin-top:44px;border-top:1px solid var(--stone);padding-top:28px}
+.facts b{display:block;font-family:var(--serif);font-weight:400;font-size:26px;font-style:italic}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr;gap:50px}.facts{grid-template-columns:1fr;gap:20px}}
+
+/* CONTACT */
+.contact{padding:140px 0 60px;text-align:center;border-top:1px solid var(--stone)}
+.contact h2{font-family:var(--serif);font-weight:300;font-size:clamp(40px,5vw,72px);line-height:1}
+.contact a.mail{display:inline-block;margin-top:30px;font-family:var(--serif);font-style:italic;font-size:clamp(26px,3.4vw,46px);text-decoration:none;border-bottom:1px solid var(--stone);transition:border-color .3s,color .3s}
+.contact a.mail:hover{color:var(--terra);border-color:var(--terra)}
+.contact .soc{margin-top:30px;display:flex;gap:28px;justify-content:center}
+.contact .soc a{font-size:12px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:var(--muted)}
+footer{padding:80px 0 40px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;color:var(--muted);letter-spacing:.06em}
+.bigsig{font-family:var(--serif);font-style:italic;font-weight:300;font-size:clamp(90px,22vw,340px);line-height:.8;text-align:center;color:var(--plaster-2);letter-spacing:-.04em;user-select:none;margin-top:60px;-webkit-text-stroke:1px var(--stone)}
+
+/* LIGHTBOX */
+dialog{border:0;padding:0;max-width:none;max-height:none;width:100vw;height:100dvh;background:var(--plaster);color:var(--char)}
+dialog::backdrop{background:var(--plaster)}
+dialog[open]{display:grid;grid-template-columns:1.4fr 1fr}
+.lb-art{position:relative;background:var(--plaster-2);display:grid;place-items:center;overflow:hidden}
+.lb-art svg{width:100%;height:100%}
+.lb-info{padding:110px 60px 60px;display:flex;flex-direction:column;overflow:auto}
+.lb-info .num{font-size:12px;letter-spacing:.24em;color:var(--muted)}
+.lb-info h3{font-family:var(--serif);font-weight:300;font-style:italic;font-size:clamp(44px,4.4vw,72px);line-height:1;margin:20px 0 30px}
+.lb-info dl{display:grid;grid-template-columns:auto 1fr;gap:12px 30px;font-size:14px;border-top:1px solid var(--stone);padding-top:24px}
+.lb-info dt{color:var(--muted);letter-spacing:.14em;text-transform:uppercase;font-size:11px;padding-top:3px}
+.lb-info p{font-family:var(--serif);font-size:22px;line-height:1.4;margin-top:34px;color:var(--char-2)}
+.lb-nav{margin-top:auto;padding-top:40px;display:flex;gap:10px;align-items:center}
+.lb-nav button{width:52px;height:52px;border-radius:50%;border:1px solid var(--stone);font-size:20px;transition:.3s}
+.lb-nav button:hover{background:var(--char);color:var(--plaster);border-color:var(--char)}
+.lb-nav span{margin-left:12px;font-size:12px;color:var(--muted);letter-spacing:.14em}
+.lb-close{position:fixed;top:24px;right:30px;z-index:3;font-size:12px;letter-spacing:.2em;text-transform:uppercase;padding:10px 0;display:flex;gap:10px;align-items:center}
+.lb-close::after{content:"✕";font-size:16px}
+@media (max-width:860px){dialog[open]{grid-template-columns:1fr;grid-template-rows:55vh auto;overflow:auto}.lb-info{padding:30px 20px 40px}.lb-close{top:14px;right:16px;background:var(--plaster);padding:8px 14px;border-radius:999px}}
+
+.reveal{opacity:0;transform:translateY(40px);transition:opacity 1.2s,transform 1.2s cubic-bezier(.2,.7,.1,1)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal,.hero-name h1 span{opacity:1;transform:none}.w{opacity:1}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="sig" href="#top">Migal</a>
+    <nav class="menu" aria-label="Menu">
+      <a href="#oeuvres" data-i18n="nav.works">Œuvres</a>
+      <a href="#atelier" data-i18n="nav.studio">Atelier</a>
+      <a href="#apropos" data-i18n="nav.about">À propos</a>
+      <div class="lang" role="group" aria-label="Langue / Language">
+        <button data-lang="fr" aria-pressed="true">FR</button>
+        <button data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" id="hero">
+  <div class="hero-name" aria-hidden="true"><h1><span>M</span><span>i</span><span>g</span><span>a</span><span><i>l</i></span></h1></div>
+  <div class="hero-form" id="heroForm" aria-hidden="true"></div>
+  <div class="hero-foot">
+    <div class="wrap">
+      <div><div class="label" style="margin-bottom:10px">Migali Bridault</div><p data-i18n="hero.tag">Sculpter le silence, donner forme à ce qui respire.</p></div>
+      <div class="scroll"><span class="label r" data-i18n="hero.scroll">Défiler</span><i></i></div>
+    </div>
+  </div>
+</section>
+
+<section class="statement">
+  <div class="wrap">
+    <blockquote id="quote" data-i18n-html="statement"></blockquote>
+    <div class="by label" data-i18n="statement.by">Migal, dans l'atelier</div>
+  </div>
+</section>
+
+<section id="oeuvres">
+  <div class="wrap">
+    <div class="works-head reveal">
+      <div><div class="label" data-i18n="works.kicker">Sélection 2018 — 2026</div><h2><span data-i18n="works.title">Œuvres</span><sup id="count"></sup></h2></div>
+      <div class="filters" id="filters" role="group"></div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="process" id="atelier">
+  <div class="wrap">
+    <div class="label" data-i18n="studio.kicker">L'atelier</div>
+    <h2 data-i18n-html="studio.title"></h2>
+    <div class="steps">
+      <div class="step reveal"><div class="n">i.</div><h3 data-i18n="s1.t"></h3><p data-i18n="s1.p"></p></div>
+      <div class="step reveal"><div class="n">ii.</div><h3 data-i18n="s2.t"></h3><p data-i18n="s2.p"></p></div>
+      <div class="step reveal"><div class="n">iii.</div><h3 data-i18n="s3.t"></h3><p data-i18n="s3.p"></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="apropos">
+  <div class="wrap about-grid">
+    <div class="portrait reveal" role="img" data-i18n-aria="about.photoAlt">
+      <svg viewBox="0 0 300 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><radialGradient id="pl" cx=".4" cy=".3"><stop offset="0" stop-color="#f3eee6"/><stop offset="1" stop-color="#a69a88"/></radialGradient></defs><ellipse cx="150" cy="160" rx="62" ry="78" fill="url(#pl)"/><path d="M40 400 C 50 290, 110 250, 150 250 S 250 290, 260 400Z" fill="url(#pl)"/></svg>
+      <span class="ph" data-i18n="about.ph">Portrait — photo à venir</span>
+    </div>
+    <div class="reveal">
+      <div class="label" data-i18n="about.kicker">À propos</div>
+      <h2 data-i18n-html="about.title"></h2>
+      <p data-i18n="about.p1"></p>
+      <p data-i18n="about.p2"></p>
+      <div class="facts">
+        <div><span class="label" data-i18n="f1.l">Pratique</span><b data-i18n="f1.v">Sculpture</b></div>
+        <div><span class="label" data-i18n="f2.l">Matières</span><b data-i18n="f2.v">Bronze, pierre, terre</b></div>
+        <div><span class="label" data-i18n="f3.l">Aussi</span><b data-i18n="f3.v">Dessin, peinture</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrap">
+    <div class="label" data-i18n="contact.kicker">Correspondance</div>
+    <h2 style="margin-top:16px" data-i18n="contact.title">Pour écrire à l'atelier</h2>
+    <a class="mail" href="mailto:atelier@example.com">atelier@example.com</a>
+    <div class="soc"><a href="#">Instagram</a><a href="#">Facebook</a></div>
+  </div>
+  <div class="bigsig" aria-hidden="true">Migal</div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Migali Bridault</span><span data-i18n="footer">Toutes les œuvres sont la propriété de l'artiste.</span></div></footer>
+
+<dialog id="lb" aria-labelledby="lbTitle">
+  <button class="lb-close" id="lbClose" data-i18n="lb.close">Fermer</button>
+  <div class="lb-art" id="lbArt"></div>
+  <div class="lb-info">
+    <div class="num" id="lbNum"></div>
+    <h3 id="lbTitle"></h3>
+    <dl id="lbDl"></dl>
+    <p id="lbText"></p>
+    <div class="lb-nav"><button id="lbPrev" aria-label="←">←</button><button id="lbNext" aria-label="→">→</button><span id="lbPos"></span></div>
+  </div>
+</dialog>
+
+<script>
+/* ---------- i18n ---------- */
+const I18N={
+fr:{
+ "nav.works":"Œuvres","nav.studio":"Atelier","nav.about":"À propos",
+ "hero.tag":"Sculpter le silence, donner forme à ce qui respire.","hero.scroll":"Défiler",
+ "statement":"Je cherche dans la matière ce qui <em>respire</em> encore — la courbe d'une épaule, le poids d'une pierre, l'instant où la forme se tait et laisse place à la lumière.",
+ "statement.by":"Migal, dans l'atelier",
+ "works.kicker":"Sélection 2018 — 2026","works.title":"Œuvres",
+ "cat.all":"Tout","cat.sculpture":"Sculpture","cat.drawing":"Dessin","cat.painting":"Peinture","cat.ceramic":"Céramique",
+ "studio.kicker":"L'atelier","studio.title":"Du geste à la <em>forme</em>, lentement.",
+ "s1.t":"Esquisse","s1.p":"Tout commence par le trait : des carnets remplis de corps, de plis et d'équilibres fragiles.",
+ "s2.t":"Modelage","s2.p":"La terre et le plâtre gardent la mémoire de la main. La forme se cherche, se perd, se retrouve.",
+ "s3.t":"Matière","s3.p":"Bronze, pierre ou terre cuite : chaque matière donne à l'œuvre sa voix, son poids, sa lumière.",
+ "about.kicker":"À propos","about.title":"Migali<br><em>Bridault</em>",
+ "about.p1":"Artiste française, Migal travaille la sculpture comme on écoute : avec patience, à l'affût de ce que la matière veut devenir.",
+ "about.p2":"Son travail traverse aussi le dessin, la peinture et la céramique — autant de manières de chercher la même chose : une forme juste, silencieuse et vivante.",
+ "about.ph":"Portrait — photo à venir","about.photoAlt":"Emplacement pour un portrait de l'artiste",
+ "f1.l":"Pratique","f1.v":"Sculpture","f2.l":"Matières","f2.v":"Bronze, pierre, terre","f3.l":"Aussi","f3.v":"Dessin, peinture",
+ "contact.kicker":"Correspondance","contact.title":"Pour écrire à l'atelier",
+ "footer":"Toutes les œuvres sont la propriété de l'artiste.",
+ "lb.close":"Fermer","lb.medium":"Technique","lb.year":"Année","lb.dims":"Dimensions","lb.series":"Série",
+},
+en:{
+ "nav.works":"Works","nav.studio":"Studio","nav.about":"About",
+ "hero.tag":"Sculpting silence, giving shape to what breathes.","hero.scroll":"Scroll",
+ "statement":"I look inside the material for what still <em>breathes</em> — the curve of a shoulder, the weight of a stone, the moment a form falls quiet and makes room for light.",
+ "statement.by":"Migal, in the studio",
+ "works.kicker":"Selected works 2018 — 2026","works.title":"Works",
+ "cat.all":"All","cat.sculpture":"Sculpture","cat.drawing":"Drawing","cat.painting":"Painting","cat.ceramic":"Ceramics",
+ "studio.kicker":"The studio","studio.title":"From gesture to <em>form</em>, slowly.",
+ "s1.t":"Sketch","s1.p":"It all begins with a line: notebooks full of bodies, folds and fragile balances.",
+ "s2.t":"Modelling","s2.p":"Clay and plaster hold the memory of the hand. The form is sought, lost, and found again.",
+ "s3.t":"Material","s3.p":"Bronze, stone or terracotta: each material gives the work its voice, its weight, its light.",
+ "about.kicker":"About","about.title":"Migali<br><em>Bridault</em>",
+ "about.p1":"A French artist, Migal approaches sculpture the way one listens: patiently, attentive to what the material wants to become.",
+ "about.p2":"Her work also moves through drawing, painting and ceramics — different ways of searching for the same thing: a form that is true, quiet and alive.",
+ "about.ph":"Portrait — photo to come","about.photoAlt":"Placeholder for a portrait of the artist",
+ "f1.l":"Practice","f1.v":"Sculpture","f2.l":"Materials","f2.v":"Bronze, stone, clay","f3.l":"Also","f3.v":"Drawing, painting",
+ "contact.kicker":"Correspondence","contact.title":"To write to the studio",
+ "footer":"All works are the property of the artist.",
+ "lb.close":"Close","lb.medium":"Medium","lb.year":"Year","lb.dims":"Dimensions","lb.series":"Series",
+}};
+
+/* ---------- works (placeholder pieces, drawn as SVG) ---------- */
+const WORKS=[
+ {cat:"sculpture",kind:"torso",mat:"bronze",fr:"Souffle",en:"Breath",y:2024,d:"62 × 30 × 24 cm",mfr:"Bronze patiné",men:"Patinated bronze",tfr:"Un torse sans visage, tourné vers la lumière comme on retient son souffle.",ten:"A faceless torso turned towards the light, like a held breath.",ar:"4/5"},
+ {cat:"sculpture",kind:"stack",mat:"stone",fr:"Équilibre III",en:"Balance III",y:2023,d:"88 × 34 × 30 cm",mfr:"Pierre calcaire",men:"Limestone",tfr:"Trois masses posées l'une sur l'autre, à la limite exacte de la chute.",ten:"Three masses resting on one another, at the exact edge of falling.",ar:"3/4"},
+ {cat:"drawing",kind:"lines",mat:"paper",fr:"Carnet, page 41",en:"Notebook, page 41",y:2025,d:"42 × 30 cm",mfr:"Fusain sur papier",men:"Charcoal on paper",tfr:"Une étude de dos, reprise cent fois jusqu'à ce que le trait devienne volume.",ten:"A study of a back, redrawn a hundred times until the line became volume.",ar:"1/1"},
+ {cat:"sculpture",kind:"arc",mat:"marble",fr:"L'Étreinte",en:"The Embrace",y:2022,d:"46 × 58 × 22 cm",mfr:"Marbre blanc",men:"White marble",tfr:"Deux courbes qui se cherchent et ne se touchent qu'en un seul point.",ten:"Two curves reaching for each other, touching at a single point.",ar:"5/4"},
+ {cat:"ceramic",kind:"vessel",mat:"terra",fr:"Vaisseau",en:"Vessel",y:2025,d:"38 × 24 × 24 cm",mfr:"Terre cuite enfumée",men:"Smoke-fired terracotta",tfr:"Un contenant qui ne contient que l'air et la trace des doigts.",ten:"A vessel holding nothing but air and the trace of fingers.",ar:"4/5"},
+ {cat:"sculpture",kind:"head",mat:"plaster",fr:"Tête, au repos",en:"Head, at rest",y:2021,d:"32 × 20 × 26 cm",mfr:"Plâtre",men:"Plaster",tfr:"Une tête inclinée, les yeux clos, entre le sommeil et la pensée.",ten:"A tilted head, eyes closed, somewhere between sleep and thought.",ar:"3/4"},
+ {cat:"painting",kind:"field",mat:"paint",fr:"Ocre, soir",en:"Ochre, evening",y:2024,d:"100 × 81 cm",mfr:"Huile sur toile",men:"Oil on canvas",tfr:"La couleur d'un mur d'atelier à la fin d'une longue journée.",ten:"The colour of a studio wall at the end of a long day.",ar:"4/5"},
+ {cat:"sculpture",kind:"spiral",mat:"steel",fr:"Révolution",en:"Revolution",y:2020,d:"140 × 50 × 50 cm",mfr:"Acier",men:"Steel",tfr:"Un ruban qui tourne sur lui-même et dessine l'espace qu'il traverse.",ten:"A ribbon turning on itself, drawing the space it moves through.",ar:"3/4"},
+ {cat:"drawing",kind:"figure",mat:"paper",fr:"Étude pour Souffle",en:"Study for Breath",y:2023,d:"50 × 35 cm",mfr:"Sanguine sur papier",men:"Red chalk on paper",tfr:"Le premier trait de ce qui deviendra un bronze.",ten:"The first line of what would become a bronze.",ar:"4/5"},
+ {cat:"ceramic",kind:"pebbles",mat:"ceramic",fr:"Galets",en:"Pebbles",y:2026,d:"Dimensions variables",dEn:"Dimensions variable",mfr:"Grès émaillé",men:"Glazed stoneware",tfr:"Une famille de formes douces, polies par l'eau imaginaire.",ten:"A family of soft forms, polished by imaginary water.",ar:"5/4"},
+ {cat:"sculpture",kind:"torso2",mat:"terra",fr:"Mue",en:"Moult",y:2019,d:"74 × 28 × 26 cm",mfr:"Terre cuite",men:"Terracotta",tfr:"Une forme qui semble sortir d'elle-même, comme une peau qu'on quitte.",ten:"A form that seems to emerge from itself, like a skin left behind.",ar:"3/4"},
+ {cat:"painting",kind:"field2",mat:"paint",fr:"Bleu de Prusse",en:"Prussian Blue",y:2018,d:"73 × 60 cm",mfr:"Huile et pigments",men:"Oil and pigments",tfr:"Une nuit d'hiver, peinte de mémoire.",ten:"A winter night, painted from memory.",ar:"5/6"},
+];
+const LAYOUT=["g1","g2","g3","g4","g5","g6"];
+const MAT={
+ bronze:["#e2b06e","#9a6a36","#3e2510"],stone:["#ece5d8","#bfb3a0","#7d7262"],marble:["#ffffff","#e3e0da","#a8a49c"],
+ terra:["#e59a72","#b0532f","#5a2412"],plaster:["#fbf9f5","#e1dbd0","#a59c8f"],steel:["#d7dbdf","#8b9298","#3b4045"],ceramic:["#d6e2dc","#87a39a","#3f5a52"]
+};
+function grad(id,m,cx=.35,cy=.3){const c=MAT[m];return `<radialGradient id="${id}" cx="${cx}" cy="${cy}" r=".85"><stop offset="0" stop-color="${c[0]}"/><stop offset=".55" stop-color="${c[1]}"/><stop offset="1" stop-color="${c[2]}"/></radialGradient>`}
+function plinth(y=330,w=120){return `<ellipse cx="200" cy="${y+60}" rx="${w*1.3}" ry="14" fill="#000" opacity=".08"/><rect x="${200-w/2}" y="${y}" width="${w}" height="60" fill="#e9e4dc"/><rect x="${200-w/2}" y="${y}" width="${w}" height="6" fill="#f7f4ef"/>`}
+function art(w,uid){
+  const g=`g${uid}`, k=w.kind;
+  let s="";
+  if(k==="torso"||k==="torso2"){const tilt=k==="torso"?0:-6;
+    s=`<defs>${grad(g,w.mat)}</defs>${plinth(340,90)}<g transform="rotate(${tilt} 200 220)"><path d="M200 70 C 245 70 262 100 258 130 C 290 140 300 180 286 220 C 276 262 252 290 240 340 L 160 340 C 150 296 120 262 114 222 C 102 180 112 140 142 130 C 138 100 156 70 200 70 Z" fill="url(#${g})"/><path d="M200 150 C 196 200 205 260 200 330" stroke="#000" stroke-opacity=".12" stroke-width="3" fill="none"/></g>`}
+  else if(k==="stack"){s=`<defs>${grad(g,w.mat)}</defs>${plinth(350,130)}<ellipse cx="200" cy="315" rx="88" ry="36" fill="url(#${g})"/><ellipse cx="214" cy="248" rx="64" ry="33" fill="url(#${g})" transform="rotate(-8 214 248)"/><ellipse cx="192" cy="190" rx="44" ry="27" fill="url(#${g})" transform="rotate(10 192 190)"/><ellipse cx="204" cy="146" rx="22" ry="17" fill="url(#${g})"/>`}
+  else if(k==="arc"){s=`<defs>${grad(g,w.mat,.3,.25)}</defs>${plinth(300,170)}<path d="M80 300 C 80 160 170 120 200 190 C 216 228 190 270 160 300 Z" fill="url(#${g})"/><path d="M320 300 C 330 170 250 110 206 170 C 194 190 214 250 250 300 Z" fill="url(#${g})"/>`}
+  else if(k==="vessel"){s=`<defs>${grad(g,w.mat)}</defs>${plinth(340,110)}<path d="M170 80 C 160 120 110 160 110 240 C 110 300 150 340 200 340 C 250 340 290 300 290 240 C 290 160 240 120 230 80 Z" fill="url(#${g})"/><ellipse cx="200" cy="80" rx="30" ry="8" fill="#3a1a0c" opacity=".7"/><path d="M118 220 C 160 236 240 236 284 220" stroke="#000" stroke-opacity=".1" stroke-width="2" fill="none"/>`}
+  else if(k==="head"){s=`<defs>${grad(g,w.mat,.4,.35)}</defs>${plinth(340,80)}<rect x="185" y="270" width="30" height="70" fill="url(#${g})"/><g transform="rotate(-14 200 180)"><ellipse cx="200" cy="180" rx="72" ry="96" fill="url(#${g})"/><path d="M168 172 q 14 8 26 0 M212 170 q 14 8 26 0" stroke="#000" stroke-opacity=".25" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M200 180 q -6 26 4 34" stroke="#000" stroke-opacity=".15" stroke-width="2.5" fill="none"/></g>`}
+  else if(k==="spiral"){s=`<defs>${grad(g,w.mat,.5,.2)}</defs>${plinth(360,70)}<path d="M200 360 C 120 330 110 270 200 250 C 300 230 300 170 200 150 C 110 130 120 80 200 50" stroke="url(#${g})" stroke-width="30" fill="none" stroke-linecap="round"/><path d="M200 360 C 120 330 110 270 200 250 C 300 230 300 170 200 150 C 110 130 120 80 200 50" stroke="#fff" stroke-opacity=".35" stroke-width="4" fill="none" transform="translate(-6 -4)"/>`}
+  else if(k==="pebbles"){s=`<defs>${grad(g,w.mat)}</defs><ellipse cx="200" cy="330" rx="170" ry="14" fill="#000" opacity=".07"/><ellipse cx="120" cy="290" rx="62" ry="40" fill="url(#${g})"/><ellipse cx="226" cy="300" rx="44" ry="28" fill="url(#${g})"/><ellipse cx="300" cy="284" rx="56" ry="46" fill="url(#${g})"/><ellipse cx="190" cy="250" rx="32" ry="22" fill="url(#${g})"/>`}
+  else if(k==="lines"||k==="figure"){const col=k==="lines"?"#2a2723":"#a8462b";let p="";
+    for(let i=0;i<14;i++){const o=i*2.2;p+=`<path d="M${150+o} ${70+o/2} C ${110+o} 140, ${130-o} 220, ${150+o} 330 M${250-o} ${70+o/2} C ${290-o} 150, ${270+o} 230, ${250-o} 330" stroke="${col}" stroke-opacity="${.08+i*.03}" stroke-width="1.2" fill="none"/>`}
+    p+=`<path d="M200 90 C 196 160 206 240 198 320" stroke="${col}" stroke-opacity=".5" stroke-width="1.4" fill="none"/><ellipse cx="200" cy="60" rx="24" ry="30" stroke="${col}" stroke-opacity=".4" fill="none"/>`;
+    s=`<rect x="50" y="20" width="300" height="360" fill="#faf7f1"/>${p}`}
+  else if(k==="field"||k==="field2"){const [a,b,c]=k==="field"?["#c98a3e","#a8582c","#e7c48a"]:["#1f3550","#16253a","#3c5f86"];
+    s=`<defs><filter id="r${uid}"><feTurbulence baseFrequency=".02 .4" numOctaves="2" seed="${uid}"/><feDisplacementMap in="SourceGraphic" scale="10"/></filter></defs><rect x="60" y="30" width="280" height="340" fill="${b}"/><g filter="url(#r${uid})"><rect x="76" y="48" width="248" height="190" fill="${a}"/><rect x="76" y="254" width="248" height="98" fill="${c}" opacity=".85"/></g>`}
+  return `<svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet" aria-hidden="true">${s}</svg>`;
+}
+
+/* ---------- state ---------- */
+const $=s=>document.querySelector(s);
+let lang="fr";
+try{const s=localStorage.getItem("migal-lang");if(s==="fr"||s==="en")lang=s}catch(e){}
+let cat="all", visible=[];
+const t=k=>I18N[lang][k]??k;
+
+function applyLang(){
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-i18n]").forEach(el=>el.textContent=t(el.dataset.i18n));
+  document.querySelectorAll("[data-i18n-html]").forEach(el=>el.innerHTML=t(el.dataset.i18nHtml));
+  document.querySelectorAll("[data-i18n-aria]").forEach(el=>el.setAttribute("aria-label",t(el.dataset.i18nAria)));
+  document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===lang));
+  document.title=lang==="fr"?"Migal — Migali Bridault, sculptrice":"Migal — Migali Bridault, sculptor";
+  splitQuote();renderFilters();renderGrid();
+  if($("#lb").open)showLb(lbI);
+}
+document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{lang=b.dataset.lang;try{localStorage.setItem("migal-lang",lang)}catch(e){};applyLang()});
+
+/* statement words light up as you scroll */
+function splitQuote(){
+  const q=$("#quote");
+  const walk=n=>{[...n.childNodes].forEach(c=>{if(c.nodeType===3){const f=document.createDocumentFragment();c.textContent.split(/(\s+)/).forEach(w=>{if(!w.trim()){f.append(w)}else{const s=document.createElement("span");s.className="w";s.textContent=w;f.append(s)}});c.replaceWith(f)}else walk(c)})};
+  walk(q);lightQuote();
+}
+function lightQuote(){
+  const ws=document.querySelectorAll("#quote .w");if(!ws.length)return;
+  const r=$("#quote").getBoundingClientRect();
+  const p=Math.min(1,Math.max(0,(innerHeight*.85-r.top)/(r.height+innerHeight*.35)));
+  const n=Math.round(p*ws.length);ws.forEach((w,i)=>w.classList.toggle("lit",i<n));
+}
+
+/* filters + grid */
+const CATS=["all","sculpture","drawing","painting","ceramic"];
+function renderFilters(){
+  $("#filters").setAttribute("aria-label",lang==="fr"?"Filtrer les œuvres":"Filter works");
+  $("#filters").innerHTML=CATS.map(c=>`<button data-c="${c}" aria-pressed="${c===cat}">${t("cat."+c)}</button>`).join("");
+}
+$("#filters").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;cat=b.dataset.c;renderFilters();renderGrid()});
+function renderGrid(){
+  visible=WORKS.map((w,i)=>i).filter(i=>cat==="all"||WORKS[i].cat===cat);
+  $("#count").textContent=String(visible.length).padStart(2,"0");
+  $("#grid").innerHTML=visible.map((i,j)=>{const w=WORKS[i];return `<button class="work reveal ${LAYOUT[j%6]}" data-i="${i}" style="--ar:${w.ar}">
+    <span class="num">${String(i+1).padStart(2,"0")} — ${t("cat."+w.cat)}</span>
+    <div class="frame">${art(w,i)}</div>
+    <div class="cap"><h3>${w[lang]}</h3><span class="meta">${lang==="fr"?w.mfr:w.men}, ${w.y}</span></div></button>`}).join("");
+  document.querySelectorAll("#grid .reveal").forEach(el=>io.observe(el));
+}
+$("#grid").addEventListener("click",e=>{const b=e.target.closest(".work");if(b)openLb(+b.dataset.i)});
+
+/* lightbox */
+const lb=$("#lb");let lbI=0;
+function showLb(i){
+  lbI=i;const w=WORKS[i];
+  $("#lbArt").innerHTML=art(w,"lb");
+  $("#lbNum").textContent=`${String(i+1).padStart(2,"0")} / ${String(WORKS.length).padStart(2,"0")} — ${t("cat."+w.cat)}`;
+  $("#lbTitle").textContent=w[lang];
+  $("#lbDl").innerHTML=`<dt>${t("lb.medium")}</dt><dd>${lang==="fr"?w.mfr:w.men}</dd><dt>${t("lb.year")}</dt><dd>${w.y}</dd><dt>${t("lb.dims")}</dt><dd>${lang==="en"&&w.dEn?w.dEn:w.d}</dd>`;
+  $("#lbText").textContent=lang==="fr"?w.tfr:w.ten;
+  const pos=visible.indexOf(i);$("#lbPos").textContent=`${pos+1} / ${visible.length}`;
+  $("#lbClose").textContent=t("lb.close");
+}
+function openLb(i){showLb(i);lb.showModal()}
+const step=d=>{const pos=visible.indexOf(lbI);showLb(visible[(pos+d+visible.length)%visible.length])};
+$("#lbPrev").onclick=()=>step(-1);$("#lbNext").onclick=()=>step(1);$("#lbClose").onclick=()=>lb.close();
+lb.addEventListener("keydown",e=>{if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1)});
+
+/* hero: a living form lit by the cursor */
+(function(){
+  const f=$("#heroForm");
+  const A="M200 40 C 270 40 300 110 290 170 C 282 220 320 260 310 330 C 300 410 250 470 200 470 C 150 470 96 420 92 340 C 88 270 120 230 112 170 C 104 110 130 40 200 40 Z";
+  const B="M200 50 C 262 34 316 100 300 168 C 290 214 330 270 312 340 C 296 404 246 476 196 466 C 140 456 92 410 96 344 C 100 280 110 236 104 178 C 98 112 140 64 200 50 Z";
+  const C="M206 36 C 280 52 296 120 284 176 C 274 226 312 252 306 324 C 298 400 254 480 202 474 C 146 468 100 424 88 350 C 78 284 126 232 118 172 C 110 112 140 24 206 36 Z";
+  f.innerHTML=`<svg viewBox="0 0 400 560"><defs>
+    <radialGradient id="hl" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#fffdf9"/><stop offset=".45" stop-color="#e3dccf"/><stop offset="1" stop-color="#8f8576"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter></defs>
+    <ellipse cx="200" cy="540" rx="150" ry="16" fill="#000" opacity=".12" filter="url(#soft)"/>
+    <rect x="130" y="470" width="140" height="70" fill="#e4ded4"/><rect x="130" y="470" width="140" height="5" fill="#f7f4ef"/>
+    <path fill="url(#hl)" d="${A}"><animate attributeName="d" dur="16s" repeatCount="indefinite" values="${A};${B};${C};${A}" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1"/></path>
+    <path d="M200 120 C 186 200 214 300 196 420" stroke="#000" stroke-opacity=".08" stroke-width="3" fill="none"/>
+  </svg>`;
+  const g=f.querySelector("#hl");
+  if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  $("#hero").addEventListener("pointermove",e=>{const r=f.getBoundingClientRect();
+    const x=Math.min(1,Math.max(0,(e.clientX-r.left)/r.width)),y=Math.min(1,Math.max(0,(e.clientY-r.top)/r.height));
+    g.setAttribute("cx",x.toFixed(3));g.setAttribute("cy",y.toFixed(3));});
+})();
+
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+addEventListener("scroll",lightQuote,{passive:true});
+applyLang();
+</script>
+</body>
+</html>
