@@ -34,6 +34,20 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </style>
 
 <div class="app-card">
+<a href="/words/"><img class="app-shot" src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="words"><a href="/words/">Words</a></h2>
+<p class="app-tagline">Daily flashcards for the words you'll use most</p>
+<p>Learn the most common words in English, French, Spanish, German or Japanese in just a few minutes a day. Words is a flashcard app with spaced repetition: each day it mixes a few new words with the ones you're due to review, and it explains them in the language of your choice. It works offline and can be installed on your phone like a native app.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, an installable offline web app (service worker), the browser's speech synthesis for pronunciation, localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/words/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/words" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/chess/"><img class="app-shot" src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="chess"><a href="/chess/">Chess</a></h2>
@@ -85,20 +99,6 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/mm/"><span aria-hidden="true">🚀</span>Live app</a>
 <a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mm" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
-</div>
-</div>
-</div>
-
-<div class="app-card">
-<a href="/words/"><img class="app-shot" src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy"></a>
-<div class="app-card-body">
-<h2 id="words"><a href="/words/">Words</a></h2>
-<p class="app-tagline">Daily flashcards for the words you'll use most</p>
-<p>Learn the most common words in English, French, Spanish, German or Japanese in just a few minutes a day. Words is a flashcard app with spaced repetition: each day it mixes a few new words with the ones you're due to review, and it explains them in the language of your choice. It works offline and can be installed on your phone like a native app.</p>
-<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, an installable offline web app (service worker), the browser's speech synthesis for pronunciation, localStorage</div>
-<div class="app-actions">
-<a class="app-btn app-btn-primary" href="/words/"><span aria-hidden="true">🚀</span>Live app</a>
-<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/words" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>
