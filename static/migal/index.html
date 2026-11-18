@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<meta name="description" content="Migal — Migali Bridault, sculptrice. Portfolio.">
-<title>Migal — Migali Bridault</title>
+<meta name="description" content="Migal — Magali Bridault, sculptrice. Portfolio.">
+<title>Migal — Magali Bridault</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -173,7 +173,7 @@ dialog[open]{display:grid;grid-template-columns:1.4fr 1fr}
   <div class="hero-form" id="heroForm" aria-hidden="true"></div>
   <div class="hero-foot">
     <div class="wrap">
-      <div><div class="label" style="margin-bottom:10px">Migali Bridault</div><p data-i18n="hero.tag">Sculpter le silence, donner forme à ce qui respire.</p></div>
+      <div><div class="label" style="margin-bottom:10px">Magali Bridault</div><p data-i18n="hero.tag">Sculpter le silence, donner forme à ce qui respire.</p></div>
       <div class="scroll"><span class="label r" data-i18n="hero.scroll">Défiler</span><i></i></div>
     </div>
   </div>
@@ -239,7 +239,7 @@ dialog[open]{display:grid;grid-template-columns:1.4fr 1fr}
 </section>
 </main>
 
-<footer><div class="wrap"><span>© 2026 Migali Bridault</span><span data-i18n="footer">Toutes les œuvres sont la propriété de l'artiste.</span></div></footer>
+<footer><div class="wrap"><span>© 2026 Magali Bridault</span><span data-i18n="footer">Toutes les œuvres sont la propriété de l'artiste.</span></div></footer>
 
 <dialog id="lb" aria-labelledby="lbTitle">
   <button class="lb-close" id="lbClose" data-i18n="lb.close">Fermer</button>
@@ -267,7 +267,7 @@ fr:{
  "s1.t":"Esquisse","s1.p":"Tout commence par le trait : des carnets remplis de corps, de plis et d'équilibres fragiles.",
  "s2.t":"Modelage","s2.p":"La terre et le plâtre gardent la mémoire de la main. La forme se cherche, se perd, se retrouve.",
  "s3.t":"Matière","s3.p":"Bronze, pierre ou terre cuite : chaque matière donne à l'œuvre sa voix, son poids, sa lumière.",
- "about.kicker":"À propos","about.title":"Migali<br><em>Bridault</em>",
+ "about.kicker":"À propos","about.title":"Magali<br><em>Bridault</em>",
  "about.p1":"Artiste française, Migal travaille la sculpture comme on écoute : avec patience, à l'affût de ce que la matière veut devenir.",
  "about.p2":"Son travail traverse aussi le dessin, la peinture et la céramique — autant de manières de chercher la même chose : une forme juste, silencieuse et vivante.",
  "about.ph":"Portrait — photo à venir","about.photoAlt":"Emplacement pour un portrait de l'artiste",
@@ -287,7 +287,7 @@ en:{
  "s1.t":"Sketch","s1.p":"It all begins with a line: notebooks full of bodies, folds and fragile balances.",
  "s2.t":"Modelling","s2.p":"Clay and plaster hold the memory of the hand. The form is sought, lost, and found again.",
  "s3.t":"Material","s3.p":"Bronze, stone or terracotta: each material gives the work its voice, its weight, its light.",
- "about.kicker":"About","about.title":"Migali<br><em>Bridault</em>",
+ "about.kicker":"About","about.title":"Magali<br><em>Bridault</em>",
  "about.p1":"A French artist, Migal approaches sculpture the way one listens: patiently, attentive to what the material wants to become.",
  "about.p2":"Her work also moves through drawing, painting and ceramics — different ways of searching for the same thing: a form that is true, quiet and alive.",
  "about.ph":"Portrait — photo to come","about.photoAlt":"Placeholder for a portrait of the artist",
@@ -352,7 +352,7 @@ function applyLang(){
   document.querySelectorAll("[data-i18n-html]").forEach(el=>el.innerHTML=t(el.dataset.i18nHtml));
   document.querySelectorAll("[data-i18n-aria]").forEach(el=>el.setAttribute("aria-label",t(el.dataset.i18nAria)));
   document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===lang));
-  document.title=lang==="fr"?"Migal — Migali Bridault, sculptrice":"Migal — Migali Bridault, sculptor";
+  document.title=lang==="fr"?"Migal — Magali Bridault, sculptrice":"Migal — Magali Bridault, sculptor";
   splitQuote();renderFilters();renderGrid();
   if($("#lb").open)showLb(lbI);
 }
