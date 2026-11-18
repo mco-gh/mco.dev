@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="description" content="Prototype redesign of London Music Tours">
+<title>London Music Tours</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0f0d0c; --ink-2:#1a1715; --ink-3:#26211e;
+  --paper:#f4ecdf; --paper-dim:#b9ae9f; --muted:#857a6d;
+  --hot:#ff4a1c; --gold:#f2b632; --teal:#2bb3a3; --plum:#8a3ffc; --rose:#ff6fa5;
+  --line:rgba(244,236,223,.12);
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --serif:"Instrument Serif",Georgia,serif;
+  --mono:"DM Mono",ui-monospace,monospace;
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--paper);font-family:var(--display);font-size:17px;line-height:1.55;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+@media (max-width:640px){.wrap{padding:0 16px}}
+em.s{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--paper-dim)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;transition:transform .2s,background .2s,color .2s}
+.btn-hot{background:var(--hot);color:#fff}
+.btn-hot:hover{transform:translateY(-2px);background:#ff6a43}
+.btn-ghost{border:1px solid var(--line);color:var(--paper)}
+.btn-ghost:hover{border-color:var(--paper)}
+/* grain */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* NAV */
+header.nav{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .3s,backdrop-filter .3s}
+header.nav.scrolled{background:rgba(15,13,12,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em;text-decoration:none;font-size:18px}
+.logo-disc{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle,var(--hot) 0 22%,#111 23% 26%,#222 27% 100%);box-shadow:inset 0 0 0 1px #333;animation:spin 3s linear infinite}
+.nav-links{display:flex;gap:30px;font-size:15px}
+.nav-links a{text-decoration:none;color:var(--paper-dim);transition:color .2s}
+.nav-links a:hover{color:var(--paper)}
+@media (max-width:860px){.nav-links{display:none}.nav .btn{padding:10px 16px}}
+
+/* HERO */
+.hero{min-height:100vh;display:grid;align-items:center;position:relative;padding:120px 0 80px;overflow:hidden}
+.hero::after{content:"";position:absolute;width:900px;height:900px;right:-300px;top:-200px;background:radial-gradient(circle,rgba(255,74,28,.28),transparent 60%);filter:blur(20px);pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;position:relative;z-index:1}
+.hero h1{font-size:clamp(52px,8.6vw,128px);line-height:.88;letter-spacing:-.045em;font-weight:800;margin:22px 0 28px}
+.hero h1 em.s{color:var(--gold);font-size:1.05em}
+.hero h1 .out{-webkit-text-stroke:2px var(--paper);color:transparent}
+.hero p.lede{font-size:20px;max-width:520px;color:var(--paper-dim)}
+.hero-cta{display:flex;gap:14px;margin-top:36px;flex-wrap:wrap}
+.hero-meta{display:flex;gap:34px;margin-top:54px;flex-wrap:wrap}
+.hero-meta div{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.hero-meta b{display:block;font-family:var(--display);font-size:30px;color:var(--paper);letter-spacing:-.02em;text-transform:none}
+.stars{color:var(--gold)}
+
+.deck{position:relative;aspect-ratio:1;max-width:520px;width:100%;justify-self:end}
+.sleeve{position:absolute;inset:0 18% 0 0;border-radius:6px;background:
+  radial-gradient(circle at 30% 30%,rgba(255,255,255,.12),transparent 50%),
+  repeating-linear-gradient(90deg,var(--hot) 0 14%,var(--gold) 14% 28%,var(--teal) 28% 42%,var(--plum) 42% 56%,var(--rose) 56% 70%,#111 70% 100%);
+  box-shadow:0 40px 80px rgba(0,0,0,.6);z-index:2;display:flex;flex-direction:column;justify-content:space-between;padding:28px;overflow:hidden}
+.sleeve::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.55))}
+.sleeve span{position:relative;z-index:1;font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#111;background:var(--paper);align-self:flex-start;padding:4px 8px}
+.sleeve strong{position:relative;z-index:1;font-size:clamp(28px,3.6vw,46px);line-height:.9;letter-spacing:-.03em;color:var(--paper)}
+.vinyl{position:absolute;top:4%;bottom:4%;right:0;aspect-ratio:1;border-radius:50%;z-index:1;
+  background:radial-gradient(circle,var(--hot) 0 15%,var(--paper) 15.4% 16%,var(--hot) 16.4% 30%,#0b0b0b 30.5% 31.5%,transparent 32%),
+  repeating-radial-gradient(circle,#141414 0 2px,#1d1d1d 2px 3px);
+  box-shadow:0 30px 60px rgba(0,0,0,.6),inset 0 0 0 6px #0a0a0a;animation:spin 6s linear infinite}
+.vinyl::before{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 20deg,transparent 0 12%,rgba(255,255,255,.09) 16%,transparent 22% 62%,rgba(255,255,255,.06) 66%,transparent 72%)}
+.vinyl::after{content:"";position:absolute;left:50%;top:50%;width:3.2%;height:3.2%;transform:translate(-50%,-50%);border-radius:50%;background:var(--ink)}
+.vinyl .lbl{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--mono);font-size:10px;letter-spacing:.3em;color:#fff;text-transform:uppercase}
+.vinyl .lbl svg{width:30%;height:30%}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr}.deck{justify-self:center;max-width:400px;margin-top:20px}}
+
+/* MARQUEE */
+.marquee{border-block:1px solid var(--line);overflow:hidden;background:var(--ink-2)}
+.marquee-track{display:flex;gap:56px;padding:22px 0;width:max-content;animation:scroll 60s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.quote{display:flex;align-items:center;gap:16px;white-space:nowrap;font-family:var(--serif);font-size:26px;font-style:italic}
+.quote small{font-family:var(--mono);font-style:normal;font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.quote::before{content:"✺";color:var(--hot);font-style:normal;font-size:18px}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* SECTION HEAD */
+section{padding:120px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:54px;flex-wrap:wrap}
+.sh h2{font-size:clamp(40px,6vw,84px);line-height:.92;letter-spacing:-.04em;font-weight:800;margin-top:14px}
+.sh h2 em.s{color:var(--hot)}
+.sh p{max-width:400px;color:var(--paper-dim)}
+
+/* TOURS / CRATE */
+.crate-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:34px}
+.chip{padding:9px 16px;border-radius:999px;border:1px solid var(--line);font-size:14px;color:var(--paper-dim);transition:.2s}
+.chip:hover{color:var(--paper);border-color:var(--paper-dim)}
+.chip[aria-pressed="true"]{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.crate{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:34px 26px}
+.album{cursor:pointer;text-align:left;display:block;width:100%}
+.album .cover-wrap{position:relative;aspect-ratio:1;margin-bottom:16px}
+.album .disc{position:absolute;inset:4%;border-radius:50%;background:radial-gradient(circle,var(--a) 0 16%,#0b0b0b 16.5% 17.5%,transparent 18%),repeating-radial-gradient(circle,#141414 0 2px,#1e1e1e 2px 3px);transition:transform .5s cubic-bezier(.2,.8,.2,1);box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.album:hover .disc,.album:focus-visible .disc{transform:translateX(26%) rotate(140deg)}
+.cover{position:absolute;inset:0;border-radius:4px;overflow:hidden;z-index:1;padding:18px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 18px 40px rgba(0,0,0,.45);transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.album:hover .cover{transform:translateX(-4%) rotate(-1.5deg)}
+.cover .t{font-weight:800;font-size:27px;line-height:.92;letter-spacing:-.03em;position:relative;z-index:1}
+.cover .n{font-family:var(--mono);font-size:11px;letter-spacing:.18em;position:relative;z-index:1;display:flex;justify-content:space-between}
+.tag-new{background:var(--hot);color:#fff;padding:3px 7px;border-radius:3px}
+/* cover art styles */
+.art-sun{background:repeating-conic-gradient(from 0deg at 50% 110%,var(--a) 0 6deg,var(--b) 6deg 12deg);color:var(--c)}
+.art-stripe{background:linear-gradient(var(--b),var(--b)) 0 0/100% 100%,var(--b);background:repeating-linear-gradient(-35deg,var(--a) 0 22px,var(--b) 22px 44px);color:var(--c)}
+.art-dots{background:radial-gradient(circle,var(--a) 34%,transparent 36%) 0 0/34px 34px,var(--b);color:var(--c)}
+.art-rings{background:repeating-radial-gradient(circle at 75% 80%,var(--a) 0 16px,var(--b) 16px 32px);color:var(--c)}
+.art-split{background:linear-gradient(135deg,var(--a) 50%,var(--b) 50%);color:var(--c)}
+.art-check{background:conic-gradient(var(--a) 25%,var(--b) 0 50%,var(--a) 0 75%,var(--b) 0) 0 0/50px 50px;color:var(--c)}
+.cover.art-check .t,.cover.art-dots .t,.cover.art-rings .t,.cover.art-sun .t{background:var(--b);align-self:flex-start;padding:6px 8px 4px;margin:-6px -8px}
+.album h3{font-size:19px;letter-spacing:-.01em;line-height:1.2}
+.album .meta{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:6px;letter-spacing:.04em}
+.album .meta b{color:var(--gold);font-weight:500}
+
+/* LISTINGS */
+#dates{background:var(--paper);color:var(--ink)}
+#dates .eyebrow{color:var(--muted)}
+#dates .sh p{color:#5a5047}
+#dates .sh h2 em.s{color:var(--hot)}
+.months{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin-bottom:10px;scrollbar-width:none}
+.months button{flex:none;padding:10px 18px;border-radius:999px;font-weight:600;font-size:14px;border:1.5px solid rgba(15,13,12,.15)}
+.months button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.gig{display:grid;grid-template-columns:96px 1fr auto auto;gap:24px;align-items:center;padding:22px 4px;border-bottom:1.5px solid rgba(15,13,12,.12);transition:background .2s,padding .2s}
+.gig:hover{background:rgba(255,74,28,.07);padding-inline:14px}
+.gig .d{line-height:1;font-weight:800}
+.gig .d small{display:block;font-family:var(--mono);font-weight:500;font-size:12px;letter-spacing:.14em;color:#7a6f63;text-transform:uppercase;margin-bottom:6px}
+.gig .d span{font-size:46px;letter-spacing:-.04em}
+.gig h4{font-size:22px;letter-spacing:-.02em;line-height:1.15}
+.gig .sub{font-family:var(--mono);font-size:12.5px;color:#6f655a;margin-top:6px;display:flex;gap:14px;flex-wrap:wrap}
+.pill{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;border-radius:4px;white-space:nowrap}
+.pill.walk{background:#e3d8c6}
+.pill.zoom{background:#cfe9e5;color:#0b5a51}
+.pill.new{background:var(--hot);color:#fff}
+.pill.special{background:var(--gold);color:var(--ink)}
+.gig .btn{padding:11px 18px;font-size:14px;background:var(--ink);color:var(--paper)}
+.gig .btn:hover{background:var(--hot)}
+.gig .tags{display:flex;gap:6px}
+.empty{padding:50px 0;font-family:var(--serif);font-style:italic;font-size:28px;color:#6f655a}
+@media (max-width:760px){
+  .gig{grid-template-columns:64px 1fr;gap:6px 16px}
+  .gig .d span{font-size:34px}
+  .gig .tags{grid-column:2}
+  .gig .btn{grid-column:2;justify-self:start;margin-top:8px}
+}
+
+/* GUIDE */
+.guide-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
+.portrait{aspect-ratio:4/5;border-radius:var(--r);position:relative;overflow:hidden;background:
+  linear-gradient(180deg,transparent 50%,rgba(0,0,0,.6)),
+  radial-gradient(circle at 50% 38%,#e9b38f 0 13%,transparent 13.5%),
+  radial-gradient(ellipse at 50% 92%,#2c2c2c 0 34%,transparent 34.5%),
+  radial-gradient(circle at 50% 38%,var(--gold),var(--hot) 70%)}
+.portrait .ph{position:absolute;left:18px;bottom:18px;right:18px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;display:flex;justify-content:space-between}
+.portrait .sticker{position:absolute;top:22px;right:22px;width:118px;height:118px;border-radius:50%;background:var(--paper);color:var(--ink);display:grid;place-items:center;text-align:center;font-weight:800;line-height:1;font-size:15px;transform:rotate(12deg);box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.portrait .sticker em{font-family:var(--serif);font-weight:400;font-size:13px;display:block;margin-top:4px}
+.guide h2{font-size:clamp(40px,5.4vw,74px);line-height:.92;letter-spacing:-.04em;font-weight:800;margin:14px 0 26px}
+.guide h2 em.s{color:var(--gold)}
+.guide p{color:var(--paper-dim);font-size:19px;margin-bottom:18px;max-width:560px}
+.awards{display:grid;gap:12px;margin-top:34px}
+.award{display:flex;gap:16px;align-items:center;padding:16px 18px;border:1px solid var(--line);border-radius:14px}
+.award i{font-style:normal;width:40px;height:40px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--ink-3);color:var(--gold);font-size:18px}
+.award b{display:block;font-size:16px}
+.award small{font-family:var(--mono);color:var(--muted);font-size:12px}
+@media (max-width:900px){.guide-grid{grid-template-columns:1fr;gap:40px}.portrait{max-width:440px}}
+
+/* PRIVATE + GIFT */
+.duo{display:grid;grid-template-columns:1.3fr 1fr;gap:22px}
+.panel{border-radius:24px;padding:46px;position:relative;overflow:hidden;min-height:400px;display:flex;flex-direction:column;justify-content:space-between}
+.panel h3{font-size:clamp(34px,4vw,54px);line-height:.95;letter-spacing:-.035em;font-weight:800;margin:14px 0 18px}
+.panel p{max-width:440px;font-size:18px}
+.p-private{background:var(--hot);color:#fff}
+.p-private .eyebrow{color:rgba(255,255,255,.75)}
+.p-private::after{content:"";position:absolute;right:-120px;bottom:-120px;width:360px;height:360px;border-radius:50%;background:repeating-radial-gradient(circle,rgba(0,0,0,.18) 0 2px,transparent 2px 9px)}
+.p-private .btn{background:var(--ink);color:#fff;align-self:flex-start;position:relative;z-index:1}
+.p-private ul{list-style:none;display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;position:relative;z-index:1}
+.p-private li{font-family:var(--mono);font-size:12px;padding:6px 11px;border:1px solid rgba(255,255,255,.4);border-radius:999px}
+.ticket{background:var(--gold);color:var(--ink);border-radius:24px;padding:0;display:grid;grid-template-rows:1fr auto;--notch:22px;
+  -webkit-mask:radial-gradient(circle var(--notch) at 0 72%,transparent 98%,#000) left/51% 100% no-repeat,radial-gradient(circle var(--notch) at 100% 72%,transparent 98%,#000) right/51% 100% no-repeat;
+  mask:radial-gradient(circle var(--notch) at 0 72%,transparent 98%,#000) left/51% 100% no-repeat,radial-gradient(circle var(--notch) at 100% 72%,transparent 98%,#000) right/51% 100% no-repeat}
+.ticket .top{padding:46px 46px 30px}
+.ticket .eyebrow{color:rgba(15,13,12,.6)}
+.ticket .stub{border-top:2px dashed rgba(15,13,12,.35);padding:22px 46px 30px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.ticket .stub code{font-family:var(--mono);font-size:13px;letter-spacing:.2em}
+.ticket .btn{background:var(--ink);color:var(--paper)}
+@media (max-width:900px){.duo{grid-template-columns:1fr}.panel,.ticket .top{padding:32px}.ticket .stub{padding:22px 32px 28px}}
+
+/* CLUB */
+.club{background:linear-gradient(120deg,#1d1238,#0f0d0c 60%);border-block:1px solid var(--line)}
+.club-in{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center}
+.club h2{font-size:clamp(34px,4.6vw,60px);line-height:.95;letter-spacing:-.035em;font-weight:800;margin:14px 0 16px}
+.club h2 em.s{color:#b48bff}
+.club p{color:var(--paper-dim);max-width:600px}
+.eq{display:flex;gap:6px;align-items:flex-end;height:120px}
+.eq i{width:14px;border-radius:3px;background:linear-gradient(var(--rose),var(--plum));animation:eq 1.1s ease-in-out infinite alternate}
+.eq i:nth-child(2){animation-delay:-.3s}.eq i:nth-child(3){animation-delay:-.7s}.eq i:nth-child(4){animation-delay:-.1s}.eq i:nth-child(5){animation-delay:-.5s}.eq i:nth-child(6){animation-delay:-.9s}.eq i:nth-child(7){animation-delay:-.2s}.eq i:nth-child(8){animation-delay:-.6s}
+@keyframes eq{0%{height:12%}100%{height:100%}}
+@media (max-width:760px){.club-in{grid-template-columns:1fr}.eq{height:60px}}
+
+/* NEWSLETTER + FOOTER */
+.news{text-align:center}
+.news h2{font-size:clamp(44px,7vw,100px);line-height:.9;letter-spacing:-.045em;font-weight:800;margin:16px auto 22px;max-width:900px}
+.news h2 em.s{color:var(--gold)}
+.news p{color:var(--paper-dim);max-width:520px;margin:0 auto 34px}
+.news form{display:flex;max-width:520px;margin:0 auto;border:1px solid var(--line);border-radius:999px;padding:6px;background:var(--ink-2)}
+.news input{flex:1;min-width:0;background:none;border:0;color:var(--paper);font:inherit;padding:0 18px;outline:none}
+.news input::placeholder{color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:50px 0 120px}
+.foot{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:center}
+.foot nav{display:flex;gap:24px;flex-wrap:wrap;font-size:14px}
+.foot nav a{text-decoration:none;color:var(--paper-dim)}
+.foot nav a:hover{color:var(--paper)}
+.foot small{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+/* NOW PLAYING BAR */
+.np{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:60;display:flex;align-items:center;gap:14px;padding:10px 10px 10px 12px;border-radius:999px;background:rgba(26,23,21,.88);backdrop-filter:blur(16px);border:1px solid var(--line);box-shadow:0 20px 50px rgba(0,0,0,.5);width:min(560px,calc(100% - 32px))}
+.np .mini{width:40px;height:40px;flex:none;border-radius:50%;background:radial-gradient(circle,var(--hot) 0 18%,#0b0b0b 19% 22%,transparent 23%),repeating-radial-gradient(circle,#141414 0 1.5px,#222 1.5px 3px);animation:spin 3s linear infinite}
+.np .txt{flex:1;min-width:0;line-height:1.2}
+.np .txt small{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--hot)}
+.np .txt b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:15px;transition:opacity .3s}
+.np .txt span{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.np .btn{padding:10px 16px;font-size:14px;flex:none}
+
+/* MODAL */
+dialog{margin:auto;border:0;border-radius:24px;background:var(--paper);color:var(--ink);width:min(480px,calc(100% - 32px));padding:0;overflow:hidden}
+dialog::backdrop{background:rgba(10,8,7,.7);backdrop-filter:blur(6px)}
+.m-head{padding:28px 28px 22px;background:var(--ink);color:var(--paper);position:relative}
+.m-head h3{font-size:28px;line-height:1;letter-spacing:-.03em;margin:10px 0 8px}
+.m-head .eyebrow{color:var(--hot)}
+.m-head p{font-family:var(--mono);font-size:13px;color:var(--paper-dim)}
+.m-close{position:absolute;top:16px;right:16px;width:34px;height:34px;border-radius:50%;background:var(--ink-3);font-size:18px}
+.m-body{padding:24px 28px 28px;display:grid;gap:18px}
+.qty{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border:1.5px solid rgba(15,13,12,.12);border-radius:14px}
+.qty .ctrl{display:flex;align-items:center;gap:14px;font-weight:800;font-size:20px}
+.qty .ctrl button{width:36px;height:36px;border-radius:50%;background:var(--ink);color:var(--paper);font-size:18px}
+.m-note{font-family:var(--mono);font-size:12px;color:#7a6f63;text-align:center}
+dialog .btn-hot{justify-content:center}
+
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s,transform .8s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top"><span class="logo-disc" aria-hidden="true"></span>London Music Tours</a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#tours">Tours</a><a href="#dates">Dates</a><a href="#guide">Your guide</a><a href="#private">Private &amp; gifts</a><a href="#club">Music club</a>
+    </nav>
+    <a class="btn btn-hot" href="#dates">Book a tour</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Walking tours · Private tours · Since the needle dropped</div>
+      <h1>Step in time.<br><span class="out">Walk</span> the <em class="s">songs</em><br>of London.</h1>
+      <p class="lede">Two-hour walks through the streets, studios, clubs and corners where rock'n'roll history was written — led by a musician who knows every B-side.</p>
+      <div class="hero-cta">
+        <a class="btn btn-hot" href="#dates">See upcoming dates →</a>
+        <a class="btn btn-ghost" href="#tours">Browse the tours</a>
+      </div>
+      <div class="hero-meta">
+        <div><b><span class="stars">★★★★★</span></b>Google &amp; Tripadvisor</div>
+        <div><b>15+</b>Themed tours</div>
+        <div><b>All music</b>All over London</div>
+      </div>
+    </div>
+    <div class="deck" aria-hidden="true">
+      <div class="vinyl"><div class="lbl"><svg viewBox="0 0 100 100"><defs><path id="c" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs><text font-size="11" fill="#fff" letter-spacing="3" font-family="DM Mono"><textPath href="#c">SIDE A · LONDON · 45 RPM · SIDE A · LONDON ·</textPath></text></svg></div></div>
+      <div class="sleeve"><span>LMT · LP 001</span><strong>The Greatest<br>Hits of<br>London</strong></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS MARQUEE -->
+<div class="marquee" aria-label="Reviews">
+  <div class="marquee-track" id="marquee"></div>
+</div>
+
+<!-- TOURS -->
+<section id="tours">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="eyebrow">Dig through the crate</div><h2>Pick your<br><em class="s">record.</em></h2></div>
+      <p>Every tour is its own album — a theme, a scene, a set of streets. Hover a sleeve to pull the record out.</p>
+    </div>
+    <div class="crate-filters" role="group" aria-label="Filter tours" id="crateFilters"></div>
+    <div class="crate" id="crate"></div>
+  </div>
+</section>
+
+<!-- DATES -->
+<section id="dates">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="eyebrow">Tour dates 2026 / 27</div><h2>The <em class="s">setlist.</em></h2></div>
+      <p>Walking tours last about two hours. Virtual tours run live on Zoom for about an hour and a quarter.</p>
+    </div>
+    <div class="months" id="months" role="group" aria-label="Month"></div>
+    <div id="gigs"></div>
+  </div>
+</section>
+
+<!-- GUIDE -->
+<section id="guide">
+  <div class="wrap guide-grid">
+    <div class="portrait reveal" role="img" aria-label="Placeholder for a photo of Adam, your guide">
+      <div class="sticker"><div>Tourism<br>Superstar<em>finalist ’22</em></div></div>
+      <div class="ph"><span>Photo: Adam on tour</span><span>◉ REC</span></div>
+    </div>
+    <div class="guide reveal">
+      <div class="eyebrow">Meet your guide</div>
+      <h2>Hi, I'm Adam.<br>Let's go <em class="s">places.</em></h2>
+      <p>I'm a London guide, music historian and working musician. I've spent years digging into the stories behind the records — who played where, who lived upstairs, and which pub saw it all happen.</p>
+      <p>Come with questions. Leave with a playlist, a head full of stories, and a whole new map of the city.</p>
+      <div class="awards">
+        <div class="award"><i>★</i><div><b>Visit England Tourism Superstar</b><small>Finalist · 2022</small></div></div>
+        <div class="award"><i>✦</i><div><b>Tripadvisor Travellers' Choice</b><small>With London Walks · 2023</small></div></div>
+        <div class="award"><i>◆</i><div><b>Westminster Guide Lecturer Association</b><small>Distinction · 2019</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRIVATE + GIFT -->
+<section id="private" style="padding-top:0">
+  <div class="wrap duo">
+    <div class="panel p-private reveal">
+      <div>
+        <div class="eyebrow">Private tours</div>
+        <h3>Your band.<br>Your setlist.<br>Your date.</h3>
+        <p>Birthdays, families, school groups, superfans and corporate away-days. Pick any tour — or tell me your favourite artist and we'll build one around them.</p>
+        <ul><li>Any day</li><li>Any group size</li><li>Custom themes</li><li>Virtual option</li></ul>
+      </div>
+      <a class="btn" href="#" data-enquire>Plan a private tour →</a>
+    </div>
+    <div class="ticket reveal">
+      <div class="top">
+        <div class="eyebrow">Gift cards</div>
+        <h3 style="font-size:clamp(34px,4vw,54px);line-height:.95;letter-spacing:-.035em;font-weight:800;margin:14px 0 18px">Admit one<br>music lover.</h3>
+        <p style="font-size:18px">The perfect present for the person who already owns every record. Redeemable on any public or private tour.</p>
+      </div>
+      <div class="stub"><code>Nº 000451 · ADMIT ONE</code><a class="btn" href="#" data-gift>Buy a gift card</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- CLUB -->
+<section id="club" class="club">
+  <div class="wrap club-in reveal">
+    <div>
+      <div class="eyebrow">Live on Zoom · Monthly · 7.30pm</div>
+      <h2>The Monday Night<br>Music History <em class="s">Club.</em></h2>
+      <p>One evening a month, one big theme — 50 years of punk, Bowie at 80, hits of the Blitz, music and the natural world. Join live from your sofa, wherever you are in the world.</p>
+      <div style="margin-top:28px"><a class="btn btn-hot" href="#dates" data-filter-zoom>See club dates</a></div>
+    </div>
+    <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="news">
+  <div class="wrap reveal">
+    <div class="eyebrow">The mailing list</div>
+    <h2>Be first in the queue<br>for the <em class="s">new releases.</em></h2>
+    <p>New tours, extra dates and the odd playlist. No spam — just the good stuff.</p>
+    <form onsubmit="event.preventDefault();this.innerHTML='<p style=&quot;margin:10px auto;color:var(--gold)&quot;>You’re on the list. ✺</p>'">
+      <input type="email" placeholder="you@example.com" aria-label="Email address" required>
+      <button class="btn btn-hot" type="submit">Sign me up</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <a class="logo" href="#top"><span class="logo-disc" aria-hidden="true"></span>London Music Tours</a>
+    <nav aria-label="Footer"><a href="#tours">Tours</a><a href="#dates">Calendar</a><a href="#guide">About</a><a href="#">Reviews</a><a href="#">Gallery</a><a href="#">FAQ</a><a href="#">Blog</a><a href="#">Contact</a></nav>
+    <small>Instagram · Facebook · YouTube · WhatsApp</small>
+  </div>
+</footer>
+
+<!-- NOW PLAYING -->
+<div class="np" id="np">
+  <div class="mini" aria-hidden="true"></div>
+  <div class="txt"><small>Next on tour</small><b id="npTitle">—</b><span id="npWhen">—</span></div>
+  <button class="btn btn-hot" id="npBook">Book</button>
+</div>
+
+<dialog id="modal" aria-labelledby="mTitle">
+  <div class="m-head">
+    <button class="m-close" aria-label="Close" onclick="modal.close()">×</button>
+    <div class="eyebrow" id="mEyebrow">Book a tour</div>
+    <h3 id="mTitle">Tour</h3>
+    <p id="mWhen"></p>
+  </div>
+  <div class="m-body">
+    <div class="qty"><div><b>Tickets</b><div class="m-note" style="text-align:left">Per person</div></div>
+      <div class="ctrl"><button aria-label="Fewer" onclick="q(-1)">−</button><span id="qn">2</span><button aria-label="More" onclick="q(1)">+</button></div></div>
+    <a class="btn btn-hot" href="#" onclick="event.preventDefault();this.textContent='Prototype only — checkout goes here ✺'">Continue to checkout →</a>
+    <div class="m-note">Prototype · booking and payment will be wired up later</div>
+  </div>
+</dialog>
+
+<script>
+const TOURS = [
+  {id:"rrl", t:"Rock'n'Roll London", short:"Rock'n'Roll<br>London", kind:"walk", era:"60s", blurb:"The flagship walk: Soho, Denmark Street and the West End haunts of the British invasion.", art:"sun", a:"#ff4a1c", b:"#f2b632", c:"#0f0d0c"},
+  {id:"rrc", t:"Rock'n'Roll Chelsea", short:"Rock'n'Roll<br>Chelsea", kind:"walk", era:"60s", blurb:"Boutiques, boho flats and the King's Road scene that dressed a generation.", art:"stripe", a:"#ff6fa5", b:"#1a1715", c:"#f4ecdf"},
+  {id:"s60", t:"London in the Swinging 60s", short:"Swinging<br>Sixties", kind:"walk", era:"60s", blurb:"Mods, models and Carnaby Street — the decade London became the coolest city on earth.", art:"check", a:"#f4ecdf", b:"#0f0d0c", c:"#f4ecdf"},
+  {id:"ba1", t:"Beatles Anthology 1 · 1961–1965", short:"Beatles<br>Anthology 1", kind:"walk", era:"60s", blurb:"From first London gigs to Beatlemania — the early years, street by street.", art:"rings", a:"#2bb3a3", b:"#0f3f3a", c:"#f4ecdf"},
+  {id:"ba2", t:"Beatles Anthology 2 · 1965–1970", short:"Beatles<br>Anthology 2", kind:"walk", era:"60s", blurb:"Studios, the Apple years and the long and winding road to the end of the band.", art:"split", a:"#8a3ffc", b:"#ff6fa5", c:"#fff"},
+  {id:"dyl", t:"A Complete Unknown — Bob Dylan in 60s London", short:"A Complete<br>Unknown", kind:"walk", era:"60s", blurb:"Folk clubs, coffee bars and the young Dylan's first trips to London.", art:"dots", a:"#f2b632", b:"#5a3a12", c:"#f4ecdf"},
+  {id:"bow", t:"David Bowie in 60s Soho", short:"Bowie in<br>60s Soho", kind:"walk", era:"60s", special:"Bowie at 80", blurb:"Before Ziggy: the mod kid from Brixton chasing stardom through Soho.", art:"split", a:"#ff4a1c", b:"#2b9bf4", c:"#fff"},
+  {id:"kin", t:"The Kinks in North London", short:"The Kinks<br>N. London", kind:"walk", era:"60s", blurb:"Muswell Hill, the Davies brothers and Waterloo Sunset at 60.", art:"stripe", a:"#f2b632", b:"#b3261e", c:"#fff"},
+  {id:"rs", t:"The Rolling Stones in 60s Soho", short:"Stones in<br>60s Soho", kind:"walk", era:"60s", blurb:"Blues clubs, back rooms and the band that made rock'n'roll dangerous.", art:"sun", a:"#b3261e", b:"#0f0d0c", c:"#f4ecdf"},
+  {id:"who", t:"Maximum R&B: The Who's London", short:"Maximum<br>R&amp;B", kind:"walk", era:"60s", isNew:true, blurb:"World premiere: the mod-est, loudest band in town and the venues they shook.", art:"rings", a:"#1d4ed8", b:"#f4ecdf", c:"#b3261e"},
+  {id:"sta", t:"Musical Statues", short:"Musical<br>Statues", kind:"walk", era:"all", blurb:"Bronze and stone: the musicians London has put on a pedestal — and why.", art:"check", a:"#857a6d", b:"#26211e", c:"#f4ecdf"},
+  {id:"npg", t:"Face The Music — National Portrait Gallery", short:"Face The<br>Music", kind:"walk", era:"all", isNew:true, blurb:"A music-themed tour of the faces on the walls of the National Portrait Gallery.", art:"dots", a:"#ff6fa5", b:"#3d1030", c:"#fff"},
+  {id:"rec", t:"The Great West End Record Store Crawl", short:"Record<br>Store Crawl", kind:"walk", era:"all", blurb:"Crate-digging through the West End's best record shops, old and new.", art:"rings", a:"#0f0d0c", b:"#f2b632", c:"#0f0d0c"},
+  {id:"xms", t:"The Christmas Music Singalong Tour", short:"Christmas<br>Singalong", kind:"walk", era:"all", special:"Seasonal", blurb:"Festive hits, the stories behind them, and yes — you'll be singing.", art:"stripe", a:"#b3261e", b:"#f4ecdf", c:"#0f5132"},
+  {id:"clb", t:"The Monday Night Music History Club", short:"Monday<br>Night Club", kind:"zoom", era:"all", blurb:"A monthly live themed talk on Zoom. Join from anywhere in the world.", art:"sun", a:"#8a3ffc", b:"#1d1238", c:"#f4ecdf"},
+];
+const T = Object.fromEntries(TOURS.map(x=>[x.id,x]));
+
+const DATES = [
+  ["2026-11-19","14:00","rrc"],["2026-11-20","14:00","rrl"],["2026-11-26","14:00","sta"],
+  ["2026-11-27","18:00","npg"],["2026-11-29","14:00","s60"],["2026-11-30","19:30","clb","50 Years of Punk in London"],
+  ["2026-12-04","10:45","dyl","Extra date for Dylan at the Royal Festival Hall"],["2026-12-04","14:00","rrl"],["2026-12-13","14:00","xms"],["2026-12-18","14:00","rrl"],
+  ["2027-01-02","10:45","s60"],["2027-01-04","19:30","clb","Bowie at 80"],["2027-01-08","10:45","bow"],["2027-01-09","10:45","bow"],["2027-01-15","14:00","rrl"],["2027-01-25","19:30","clb","Hits of the Blitz"],["2027-01-29","14:00","rrl"],
+  ["2027-03-11","10:45","s60"],["2027-03-12","14:00","rrl"],["2027-03-20","10:00","ba1"],["2027-03-21","10:45","kin"],["2027-03-26","14:00","rrl"],["2027-03-27","10:00","ba2"],["2027-03-30","19:30","clb","A Great, Big Musical Pub Crawl"],
+  ["2027-04-01","10:45","s60"],["2027-04-03","10:00","who","World premiere"],["2027-04-08","14:00","sta"],["2027-04-09","14:00","rrl"],["2027-04-10","10:00","ba1"],["2027-04-17","10:00","ba2"],["2027-04-23","14:00","rrl"],["2027-04-24","10:00","rec"],["2027-04-26","19:30","clb","Music & The Natural World"],
+  ["2027-05-05","14:00","kin","Waterloo Sunset at 60"],["2027-05-07","14:00","rrl"],["2027-05-13","10:45","s60"],["2027-05-14","10:00","ba1"],["2027-05-20","14:00","rrc"],["2027-05-21","14:00","rrl"],["2027-05-24","18:30","dyl"],["2027-05-28","10:00","ba2"],
+].map(([d,time,id,note])=>({date:new Date(d+"T12:00"),time,tour:T[id],note}));
+
+const REVIEWS = [
+  ["One of the coolest things we did in London","Rich G · Google"],
+  ["Like hanging out with an old friend who loves the Stones as much as I do","Lisa V · Google"],
+  ["Not only extremely knowledgeable but also a great entertainer","Dasith · Tripadvisor"],
+  ["Clear, knowledgeable, entertaining and funny","Fiona S · Tripadvisor"],
+  ["An UNFORGETTABLE experience","Ali I · Google"],
+  ["More knowledge than you can handle","Scott K · Google"],
+  ["You'll love this tour!","Amy I · Google"],
+];
+
+const $ = s=>document.querySelector(s);
+const fmtDay = d=>d.toLocaleDateString("en-GB",{weekday:"short"});
+const fmtMonth = d=>d.toLocaleDateString("en-GB",{month:"long",year:"numeric"});
+const fmtTime = t=>{const [h,m]=t.split(":").map(Number);return `${h%12||12}${m?"."+String(m).padStart(2,"0"):""}${h<12?"am":"pm"}`};
+
+// marquee
+$("#marquee").innerHTML = [...REVIEWS,...REVIEWS].map(([q,w])=>`<div class="quote">“${q}” <small>${w}</small></div>`).join("");
+
+// crate
+const filters = [["all","All tours"],["60s","The 60s"],["beat","Beatles"],["new","New releases"],["zoom","Virtual"]];
+let crateFilter="all";
+function nextDate(id){return DATES.find(x=>x.tour.id===id)}
+function renderCrate(){
+  $("#crateFilters").innerHTML = filters.map(([k,l])=>`<button class="chip" aria-pressed="${k===crateFilter}" data-k="${k}">${l}</button>`).join("");
+  const list = TOURS.filter(x=>crateFilter==="all"||(crateFilter==="60s"&&x.era==="60s")||(crateFilter==="beat"&&/^ba/.test(x.id))||(crateFilter==="new"&&x.isNew)||(crateFilter==="zoom"&&x.kind==="zoom"));
+  $("#crate").innerHTML = list.map((x,i)=>{
+    const n = nextDate(x.id);
+    return `<button class="album" data-id="${x.id}" style="--a:${x.a};--b:${x.b};--c:${x.c}">
+      <div class="cover-wrap"><div class="disc"></div>
+        <div class="cover art-${x.art}"><div class="n"><span>LMT ${String(TOURS.indexOf(x)+1).padStart(3,"0")}</span>${x.isNew?'<span class="tag-new">NEW</span>':x.kind==="zoom"?'<span class="tag-new" style="background:#8a3ffc">ZOOM</span>':""}</div><div class="t">${x.short}</div></div>
+      </div>
+      <h3>${x.t}</h3>
+      <div class="meta">${x.kind==="zoom"?"Live on Zoom · 1h15":"Walking · approx 2 hrs"}${n?` · Next <b>${n.date.getDate()} ${n.date.toLocaleDateString("en-GB",{month:"short"})}</b>`:""}</div>
+    </button>`}).join("");
+}
+$("#crateFilters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;crateFilter=b.dataset.k;renderCrate()});
+$("#crate").addEventListener("click",e=>{const a=e.target.closest(".album");if(!a)return;const n=nextDate(a.dataset.id);if(n)openBooking(n);else openBooking({tour:T[a.dataset.id]})});
+renderCrate();
+
+// listings
+const monthKeys=[...new Set(DATES.map(x=>fmtMonth(x.date)))];
+let month="upcoming";
+function renderMonths(){
+  $("#months").innerHTML = [["upcoming","Next up"],...monthKeys.map(m=>[m,m.slice(0,3)+" ’"+m.slice(-2)])].map(([k,l])=>`<button aria-pressed="${k===month}" data-m="${k}">${l}</button>`).join("");
+}
+let zoomOnly=false;
+function renderGigs(){
+  let list = month==="upcoming"?DATES.slice(0,8):DATES.filter(x=>fmtMonth(x.date)===month);
+  if(zoomOnly) list = DATES.filter(x=>x.tour.kind==="zoom");
+  $("#gigs").innerHTML = list.length?list.map((x,i)=>{
+    const idx=DATES.indexOf(x);
+    const tags=[x.tour.kind==="zoom"?'<span class="pill zoom">Zoom</span>':'<span class="pill walk">Walk</span>'];
+    if(x.tour.isNew)tags.push('<span class="pill new">New</span>');
+    if(x.tour.special)tags.push(`<span class="pill special">${x.tour.special}</span>`);
+    return `<div class="gig">
+      <div class="d"><small>${fmtDay(x.date)} · ${x.date.toLocaleDateString("en-GB",{month:"short"})}</small><span>${String(x.date.getDate()).padStart(2,"0")}</span></div>
+      <div><h4>${x.tour.kind==="zoom"&&x.note?x.note:x.tour.t}</h4><div class="sub"><span>${fmtTime(x.time)}</span><span>${x.tour.kind==="zoom"?"Monday Night Music History Club":x.note||"Approx 2 hrs · Central London"}</span></div></div>
+      <div class="tags">${tags.join("")}</div>
+      <button class="btn" data-i="${idx}">Get tickets</button>
+    </div>`}).join(""):`<div class="empty">No tours scheduled — check back soon.</div>`;
+}
+$("#months").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;month=b.dataset.m;zoomOnly=false;renderMonths();renderGigs()});
+$("#gigs").addEventListener("click",e=>{const b=e.target.closest("[data-i]");if(b)openBooking(DATES[+b.dataset.i])});
+document.querySelector("[data-filter-zoom]").addEventListener("click",()=>{zoomOnly=true;month="";renderMonths();renderGigs()});
+renderMonths();renderGigs();
+
+// booking modal
+const modal=$("#modal");let qty=2;
+function q(d){qty=Math.max(1,Math.min(12,qty+d));$("#qn").textContent=qty}
+function openBooking(x){
+  $("#mEyebrow").textContent = x.tour.kind==="zoom"?"Live on Zoom":"Walking tour";
+  $("#mTitle").textContent = x.tour.kind==="zoom"&&x.note?x.note:x.tour.t;
+  $("#mWhen").textContent = x.date?`${x.date.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"})} · ${fmtTime(x.time)}`:"Dates coming soon — enquire for a private booking";
+  const go=modal.querySelector(".btn-hot");go.textContent="Continue to checkout →";
+  qty=2;$("#qn").textContent=qty;modal.showModal();
+}
+modal.addEventListener("click",e=>{if(e.target===modal)modal.close()});
+document.querySelectorAll("[data-enquire],[data-gift]").forEach(b=>b.addEventListener("click",e=>{e.preventDefault();
+  openBooking({tour:{t:b.dataset.gift!==undefined?"Gift card":"Private tour enquiry",kind:"walk"}});
+  $("#mWhen").textContent=b.dataset.gift!==undefined?"Choose a value or a specific tour":"Tell us your date, group size and favourite artists";
+}));
+
+// now playing bar
+let npI=0;
+function tickNP(){const x=DATES[npI%5];const b=$("#npTitle");b.style.opacity=0;setTimeout(()=>{b.textContent=x.tour.kind==="zoom"&&x.note?`Music Club: ${x.note}`:x.tour.t;$("#npWhen").textContent=`${fmtDay(x.date)} ${x.date.getDate()} ${x.date.toLocaleDateString("en-GB",{month:"short"})} · ${fmtTime(x.time)}`;b.style.opacity=1;$("#npBook").onclick=()=>openBooking(x)},300);npI++}
+tickNP();setInterval(tickNP,4500);
+
+// nav + reveal
+addEventListener("scroll",()=>$("#nav").classList.toggle("scrolled",scrollY>30),{passive:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
