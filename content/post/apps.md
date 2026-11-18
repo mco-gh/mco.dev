@@ -134,6 +134,20 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
+<a href="/sheet/"><img class="app-shot" src="/img/apps/sheet.jpg" alt="The Sheet landing page, with a row of colorful instrument buttons, a song search box and suggested pieces to try" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="sheet"><a href="/sheet/">Sheet</a></h2>
+<p class="app-tagline">Free sheet music for the instrument you play</p>
+<p>Pick your instrument, type the name of a song or piece, and Sheet searches IMSLP, the Mutopia Project and the Internet Archive's sheet music scans all at once. Scores written for your instrument come first, then pieces where it plays with others and pages with an arrangement for it, with every other version a click away. Mutopia's typeset editions open straight to a PDF or MIDI file, and for recent songs that are still under copyright Sheet points you to MuseScore and 8notes, where players share their own arrangements. Links are shareable, and it installs on your phone like a native app.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, a Netlify function that searches IMSLP's MediaWiki API and Mutopia's catalog and is cached at the CDN, the Internet Archive's search API called from the browser, oklch() colors derived from each instrument's hue, the URL as app state, an installable web app (service worker), localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/sheet/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/sheet" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/riffle/"><img class="app-shot" src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, GREATLY, DOUBLE and SLOPE found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="riffle"><a href="/riffle/">Riffle</a></h2>

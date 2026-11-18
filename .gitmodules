@@ -28,3 +28,6 @@
 [submodule "static/gin"]
 	path = static/gin
 	url = https://github.com/mco-gh/gin.git
+[submodule "static/sheet"]
+	path = static/sheet
+	url = https://github.com/mco-gh/sheet.git
