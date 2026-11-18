@@ -25,3 +25,6 @@
 [submodule "static/four"]
 	path = static/four
 	url = https://github.com/mco-gh/four.git
+[submodule "static/gin"]
+	path = static/gin
+	url = https://github.com/mco-gh/gin.git

@@ -120,6 +120,20 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
+<a href="/gin/"><img class="app-shot" src="/img/apps/gin.jpg" alt="The Gin landing page, with a fanned hand of cards grouped into colored melds, a choice of how many points to play to and a Start a game button" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="gin"><a href="/gin/">Gin</a></h2>
+<p class="app-tagline">Gin rummy with a friend, anywhere</p>
+<p>Play gin rummy with anyone, wherever they are. Choose how many points to play to, start a game and send your friend the code: there's nothing to sign up for. Cards fly from the stock to your hand, which sorts itself into melds, each in its own color, with your deadwood counted as you go. Knock, go gin or catch your opponent with an undercut, and the lay-offs and scoring are worked out for you. Turn on video or chat while you play, recolor the table and cards to taste, and install it on your phone like a native app. Cards travel directly between your two browsers.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, a small hand-written rules engine, WebRTC data and media channels (PeerJS) with a TURN relay fallback, CSS container units, 3D transforms and transitions for the cards, an installable offline web app (service worker), localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/gin/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/gin" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/riffle/"><img class="app-shot" src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, GREATLY, DOUBLE and SLOPE found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="riffle"><a href="/riffle/">Riffle</a></h2>
