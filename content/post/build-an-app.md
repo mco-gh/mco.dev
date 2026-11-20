@@ -125,61 +125,6 @@ price = "$200 · €200 · £200"   # shown in the dates list; Stripe charges th
   </details>
 </div>
 
-## Why now?
-
-Not long ago, building an app meant months of learning to code first. That's changed. Today's AI agents can plan a project, write the code, fix their own mistakes and put the result online, as long as someone gives them a clear idea and good direction. **That someone is you.** This course teaches you how to be a good director: how to install and use the latest AI tools, describe what you want to build, check what the AI built, and steer it toward what you had in mind.
-
-<div class="bab-three">
-  <div class="bab-tile" style="--c:var(--blue)">
-    <div class="bab-icon">🌐</div>
-    <h3>Understand the web</h3>
-    <p>Learn how web pages and web apps actually work: front end, back end and how they talk to each other.</p>
-  </div>
-  <div class="bab-tile" style="--c:var(--violet)">
-    <div class="bab-icon">🤖</div>
-    <h3>Work with AI agents</h3>
-    <p>Use AI to plan, write, test, debug and explain code, and learn which tasks it's good at and where it needs you.</p>
-  </div>
-  <div class="bab-tile" style="--c:var(--pink)">
-    <div class="bab-icon">🚀</div>
-    <h3>Ship your own app</h3>
-    <p>Plan, build and deploy a working prototype of <em>your</em> idea, then show it to the class.</p>
-  </div>
-</div>
-
-## The six weeks
-
-Each lesson has a short talk, a live demo and time to work on your own project, with a little homework between sessions to keep things moving.
-
-<ol class="bab-weeks">
-  <li style="--c:var(--blue)"><strong>Build your first web page</strong><span>How the web works. You'll make a page of your own and put it online in the first session.</span></li>
-  <li style="--c:var(--teal)"><strong>From web pages to web apps</strong><span>The building blocks of a web app: front end, back end and when you need each one.</span></li>
-  <li style="--c:var(--violet)"><strong>Plan and start your app</strong><span>Choosing AI tools, writing good prompts, and turning your idea into a project plan the AI can follow.</span></li>
-  <li style="--c:var(--pink)"><strong>Develop your app</strong><span>A practical workflow for building with AI, adding a back end, and saving your work safely on GitHub.</span></li>
-  <li style="--c:var(--orange)"><strong>Deploy your app</strong><span>Put your app on the web for real, and learn how to keep hosting and AI costs under control.</span></li>
-  <li style="--c:var(--green)"><strong>Show and tell</strong><span>Testing, debugging and next steps. Then everyone demos what they built.</span></li>
-</ol>
-
-## Is this course for you?
-
-It's for anyone who's curious and has an idea they'd like to build: a tool for a hobby, a game, something for a club or small business, or just an experiment. **You don't need any math, programming or technical background.**
-
-To be clear about what it isn't: this isn't a programming course, and you won't come out of it a professional developer. Real production apps take teams of people and years of experience. You'll build a real, working *prototype*, and you'll understand enough to keep going.
-
-<div class="bab-facts">
-  <div class="bab-fact" style="--c:var(--blue)"><b>6</b><small>weekly lessons</small></div>
-  <div class="bab-fact" style="--c:var(--violet)"><b>2 hours</b><small>live online lesson</small></div>
-  <div class="bab-fact" style="--c:var(--pink)"><b>~2 hrs</b><small>project time per week</small></div>
-  <div class="bab-fact" style="--c:var(--green)"><b style="font-size:2rem">$200 · €200 · £200</b><small>in your currency · concessions available</small></div>
-</div>
-
-## Your teacher
-
-<div class="bab-me">
-  <img src="/img/mco.png" alt="Marc Cohen">
-  <p>I'm Marc Cohen, an American software engineer based in London. I've spent over 40 years as a developer and engineering manager at Bell Labs, Lucent and Google, and I now build tools, tutorials and courses that make computing more accessible to everyone. I built the <a href="/apps">free apps on this site</a> with the same AI tools and techniques you'll learn in this course.</p>
-</div>
-
 ## Apps I've built this way
 
 Every one of these free apps was built with AI tools, using the same approach you'll learn in the course. Each one runs in your browser, so tap a card to try it.
@@ -292,6 +237,61 @@ document.querySelectorAll('.bab-carousel').forEach(function (c) {
   update();
 });
 </script>
+
+## Why now?
+
+Not long ago, building an app meant months of learning to code first. That's changed. Today's AI agents can plan a project, write the code, fix their own mistakes and put the result online, as long as someone gives them a clear idea and good direction. **That someone is you.** This course teaches you how to be a good director: how to install and use the latest AI tools, describe what you want to build, check what the AI built, and steer it toward what you had in mind.
+
+<div class="bab-three">
+  <div class="bab-tile" style="--c:var(--blue)">
+    <div class="bab-icon">🌐</div>
+    <h3>Understand the web</h3>
+    <p>Learn how web pages and web apps actually work: front end, back end and how they talk to each other.</p>
+  </div>
+  <div class="bab-tile" style="--c:var(--violet)">
+    <div class="bab-icon">🤖</div>
+    <h3>Work with AI agents</h3>
+    <p>Use AI to plan, write, test, debug and explain code, and learn which tasks it's good at and where it needs you.</p>
+  </div>
+  <div class="bab-tile" style="--c:var(--pink)">
+    <div class="bab-icon">🚀</div>
+    <h3>Ship your own app</h3>
+    <p>Plan, build and deploy a working prototype of <em>your</em> idea, then show it to the class.</p>
+  </div>
+</div>
+
+## The six weeks
+
+Each lesson has a short talk, a live demo and time to work on your own project, with a little homework between sessions to keep things moving.
+
+<ol class="bab-weeks">
+  <li style="--c:var(--blue)"><strong>Build your first web page</strong><span>How the web works. You'll make a page of your own and put it online in the first session.</span></li>
+  <li style="--c:var(--teal)"><strong>From web pages to web apps</strong><span>The building blocks of a web app: front end, back end and when you need each one.</span></li>
+  <li style="--c:var(--violet)"><strong>Plan and start your app</strong><span>Choosing AI tools, writing good prompts, and turning your idea into a project plan the AI can follow.</span></li>
+  <li style="--c:var(--pink)"><strong>Develop your app</strong><span>A practical workflow for building with AI, adding a back end, and saving your work safely on GitHub.</span></li>
+  <li style="--c:var(--orange)"><strong>Deploy your app</strong><span>Put your app on the web for real, and learn how to keep hosting and AI costs under control.</span></li>
+  <li style="--c:var(--green)"><strong>Show and tell</strong><span>Testing, debugging and next steps. Then everyone demos what they built.</span></li>
+</ol>
+
+## Is this course for you?
+
+It's for anyone who's curious and has an idea they'd like to build: a tool for a hobby, a game, something for a club or small business, or just an experiment. **You don't need any math, programming or technical background.**
+
+To be clear about what it isn't: this isn't a programming course, and you won't come out of it a professional developer. Real production apps take teams of people and years of experience. You'll build a real, working *prototype*, and you'll understand enough to keep going.
+
+<div class="bab-facts">
+  <div class="bab-fact" style="--c:var(--blue)"><b>6</b><small>weekly lessons</small></div>
+  <div class="bab-fact" style="--c:var(--violet)"><b>2 hours</b><small>live online lesson</small></div>
+  <div class="bab-fact" style="--c:var(--pink)"><b>~2 hrs</b><small>project time per week</small></div>
+  <div class="bab-fact" style="--c:var(--green)"><b style="font-size:2rem">$200 · €200 · £200</b><small>in your currency · concessions available</small></div>
+</div>
+
+## Your teacher
+
+<div class="bab-me">
+  <img src="/img/mco.png" alt="Marc Cohen">
+  <p>I'm Marc Cohen, an American software engineer based in London. I've spent over 40 years as a developer and engineering manager at Bell Labs, Lucent and Google, and I now build tools, tutorials and courses that make computing more accessible to everyone. I built the <a href="/apps">free apps on this site</a> with the same AI tools and techniques you'll learn in this course.</p>
+</div>
 
 <div class="bab-cta">
   <p><strong>Ready to build your app?</strong><br>Pick a start date that suits you and book your place.</p>
