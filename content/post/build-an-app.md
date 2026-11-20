@@ -54,6 +54,7 @@ showActions = false
 <div class="bab">
 
 <div class="bab-hero">
+  <h2>Leverage the power of AI</h2>
   <p>You have an idea for an app. You'll learn how to build a working app, live on the web, with a link you can send to anyone. No programming experience needed.</p>
   <ul class="bab-pills">
     <li>6 weeks x 2 hours</li>
