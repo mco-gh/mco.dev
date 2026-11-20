@@ -162,7 +162,7 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
-<a href="/riffle/"><img class="app-shot" src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, GREATLY, DOUBLE and SLOPE found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy"></a>
+<a href="/riffle/"><img class="app-shot" src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, CONTAIN, FALSE and UPPER found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="riffle"><a href="/riffle/">Riffle</a></h2>
 <p class="app-tagline">Three words, shuffled like cards. Pull them apart.</p>
