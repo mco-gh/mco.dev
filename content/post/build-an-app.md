@@ -133,6 +133,13 @@ Every one of these free apps was built with AI tools, using the same approach yo
   <button class="bab-arrow bab-prev" type="button" aria-label="Previous apps">‹</button>
   <ul class="bab-track" tabindex="0" aria-label="Apps built with AI">
     <li class="bab-app">
+      <a href="/quiz/" target="_blank">
+        <img src="/img/apps/quiz.jpg" alt="The Quiz landing page, with boxes to join a game with a code or to host a quiz" width="1280" height="860" loading="lazy">
+        <strong>Quiz</strong>
+        <span>Trivia night for everyone in the room</span>
+      </a>
+    </li>
+    <li class="bab-app">
       <a href="/words/" target="_blank">
         <img src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy">
         <strong>Words</strong>
@@ -207,13 +214,6 @@ Every one of these free apps was built with AI tools, using the same approach yo
         <img src="/img/apps/bookshelf.jpg" alt="The Bookshelf landing page, showing a photo of a shelf of games and puzzle books" width="1280" height="860" loading="lazy">
         <strong>Bookshelf</strong>
         <span>Turn a photo of your shelf into a clickable catalogue</span>
-      </a>
-    </li>
-    <li class="bab-app">
-      <a href="/quiz/" target="_blank">
-        <img src="/img/apps/quiz.jpg" alt="The Quiz landing page, with boxes to join a game with a code or to host a quiz" width="1280" height="860" loading="lazy">
-        <strong>Quiz</strong>
-        <span>Trivia night for everyone in the room</span>
       </a>
     </li>
   </ul>
