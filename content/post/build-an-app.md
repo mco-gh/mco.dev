@@ -6,6 +6,24 @@ url = "/build-an-app"
 comments = false
 showMeta = false
 showActions = false
+price = "$200 · €200 · £200"   # shown in the dates list; Stripe charges the buyer's local one
+
+# Upcoming offerings, listed by the "Upcoming dates" button in the banner.
+# One block per course run, in date order.
+#   start    – first lesson date (YYYY-MM-DD); the last lesson is shown 5 weeks later
+#   schedule – day, time and time zone of the weekly lesson
+#   link     – the Stripe Payment Link for this run (https://book.stripe.com/...)
+#   status   – "open", "full" (shows "Full", no button) or "soon" (shows "Coming soon")
+[[offerings]]
+  start = "2027-02-01"
+  schedule = "Mondays, 7–9pm UK time"
+  link = "https://book.stripe.com/aFa14n5Xa9f5gt99jNf3a00"
+  status = "open"
+[[offerings]]
+  start = "2027-03-15"
+  schedule = "Mondays, 7–9pm UK time"
+  link = "https://book.stripe.com/fZubJ14T64YP5OvfIbf3a01"
+  status = "open"
 +++
 
 <style>
@@ -18,6 +36,30 @@ showActions = false
 .post .post-content .bab-pills li { margin: 0; padding: .5rem 1.4rem; border-radius: 999px; background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.35); font-size: 1.5rem; font-weight: 600; }
 .bab a.bab-btn, .bab a.bab-btn:visited { display: inline-flex; align-items: center; min-height: 44px; padding: 1rem 2.4rem; line-height: 1.3; border-radius: 10px; background: #fff; color: #5b3fe0; font-family: "Open Sans", sans-serif; font-size: 1.6rem; font-weight: 700; text-decoration: none; }
 .bab a.bab-btn:hover { background: #f1edff; text-decoration: none; }
+
+/* Upcoming dates: a <details> whose summary is the banner button; the list opens inside the banner. */
+.bab-cal > summary { list-style: none; cursor: pointer; }
+.bab-cal > summary::-webkit-details-marker { display: none; }
+.bab .bab-cal > summary.bab-btn { display: inline-flex; align-items: center; gap: .6rem; min-height: 44px; padding: 1rem 2.4rem; line-height: 1.3; border-radius: 10px; background: #fff; color: #5b3fe0; font-family: "Open Sans", sans-serif; font-size: 1.6rem; font-weight: 700; }
+.bab .bab-cal > summary.bab-btn:hover { background: #f1edff; }
+.bab .bab-cal > summary.bab-btn::after { content: "▾"; margin-left: .8rem; transition: transform .2s; }
+.bab .bab-cal[open] > summary.bab-btn::after { transform: rotate(180deg); }
+.bab-cal-panel { margin-top: 1.6rem; padding: .8rem 2rem 1.6rem; border-radius: 14px; background: #fff; color: var(--ink); box-shadow: 0 6px 20px rgba(40,20,120,.18); }
+.post .post-content .bab-cal-list { list-style: none; margin: 0; padding: 0; }
+.post .post-content .bab-cal-row { display: flex; align-items: center; gap: 1.6rem; margin: 0; padding: 1.4rem 0; border-bottom: 1px solid var(--line); }
+.bab-cal-date { flex: none; width: 5.6rem; border-radius: 10px; overflow: hidden; text-align: center; border: 1px solid var(--line); font-family: "Open Sans", sans-serif; }
+.bab-cal-date span { display: block; padding: .2rem 0; background: var(--pink); color: #fff; font-size: 1.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+.bab-cal-date b { display: block; padding: .3rem 0 .4rem; font-size: 2.2rem; color: var(--ink); line-height: 1.2; }
+.bab-cal-info { flex: 1; min-width: 0; }
+.bab-cal-info strong { display: block; font-size: 1.6rem; }
+.bab-cal-info span { display: block; font-size: 1.4rem; color: var(--muted); }
+.bab-cal-sample { display: inline-block; margin-top: .3rem; padding: 0 .8rem; border-radius: 999px; background: #fff3d6; color: #9a6400; font-size: 1.2rem; font-style: normal; font-weight: 700; }
+.bab a.bab-cal-btn, .bab a.bab-cal-btn:visited { flex: none; display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.8rem; border-radius: 10px; background: #7c5cff; color: #fff; font-family: "Open Sans", sans-serif; font-size: 1.5rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.bab a.bab-cal-btn:hover { background: #5b3fe0; color: #fff; text-decoration: none; }
+.bab-cal-tag { flex: none; padding: .6rem 1.4rem; border-radius: 10px; background: #eef1f4; color: var(--muted); font-family: "Open Sans", sans-serif; font-size: 1.4rem; font-weight: 700; }
+.post .post-content .bab-cal-foot, .post .post-content .bab-cal-empty { margin: 1.4rem 0 0; font-size: 1.4rem; line-height: 1.5; color: var(--muted); max-width: none; }
+.post .post-content .bab-cal-foot a { color: #5b3fe0; }
+@media (max-width: 560px) { .post .post-content .bab-cal-row { flex-wrap: wrap; } .bab a.bab-cal-btn, .bab-cal-tag { margin-left: 7.2rem; } .bab-cal-panel { padding: .4rem 1.4rem 1.4rem; } }
 
 .bab-three { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 1.6rem; margin: 2.4rem 0 4rem; }
 .bab-tile { padding: 2.2rem 2.2rem 2rem; border-radius: 16px; border-top: 5px solid var(--c); background: color-mix(in srgb, var(--c) 7%, #fff); }
@@ -61,7 +103,10 @@ showActions = false
     <li>Live online</li>
     <li>Beginner friendly</li>
   </ul>
-  <a class="bab-btn" target="_blank" href="https://groups.google.com/g/mco-learn">Get notified about the next course →</a>
+  <details class="bab-cal" id="dates">
+    <summary class="bab-btn">📅 Upcoming dates &amp; sign up</summary>
+    {{< offerings >}}
+  </details>
 </div>
 
 ## Why now?
@@ -109,7 +154,7 @@ To be clear about what it isn't: this isn't a programming course, and you won't 
   <div class="bab-fact" style="--c:var(--blue)"><b>6</b><small>weekly lessons</small></div>
   <div class="bab-fact" style="--c:var(--violet)"><b>2 hours</b><small>live online lesson</small></div>
   <div class="bab-fact" style="--c:var(--pink)"><b>~2 hrs</b><small>project time per week</small></div>
-  <div class="bab-fact" style="--c:var(--green)"><b>$200</b><small>concessions available</small></div>
+  <div class="bab-fact" style="--c:var(--green)"><b style="font-size:2rem">$200 · €200 · £200</b><small>in your currency · concessions available</small></div>
 </div>
 
 ## Your teacher
@@ -120,8 +165,8 @@ To be clear about what it isn't: this isn't a programming course, and you won't 
 </div>
 
 <div class="bab-cta">
-  <p><strong>The next course dates will be announced soon.</strong><br>Join the mailing list to hear first. It's low traffic, and you can leave any time.</p>
-  <a class="bab-btn" target="_blank" href="https://groups.google.com/g/mco-learn">Join the mco-learn list</a>
+  <p><strong>Ready to build your app?</strong><br>Pick a time that suits you, or join the <a target="_blank" href="https://groups.google.com/g/mco-learn">mailing list</a> to hear about new dates.</p>
+  <a class="bab-btn" href="#dates" onclick="document.getElementById('dates').open = true">📅 See upcoming dates</a>
 </div>
 
 </div>

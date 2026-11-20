@@ -1,0 +1,31 @@
+{{- /* Lists the page's [[offerings]] front matter as course runs with a sign-up button each.
+       Styles live with the page (the .bab-cal rules in content/post/build-an-app.md). */ -}}
+{{- $offerings := .Page.Params.offerings -}}
+<div class="bab-cal-panel">
+{{- if $offerings }}
+  <ul class="bab-cal-list">
+  {{- range $offerings }}
+    {{- $start := time.AsTime .start }}
+    {{- $end := $start.AddDate 0 0 35 }}
+    <li class="bab-cal-row">
+      <div class="bab-cal-date" aria-hidden="true"><span>{{ $start.Format "Jan" }}</span><b>{{ $start.Format "2" }}</b></div>
+      <div class="bab-cal-info">
+        <strong>{{ .schedule }}</strong>
+        <span>{{ $start.Format "Mon 2 Jan" }} – {{ $end.Format "Mon 2 Jan 2006" }} · 6 lessons</span>
+        {{- with .sample }}<em class="bab-cal-sample">Sample date</em>{{ end }}
+      </div>
+      {{- if eq .status "full" }}
+      <span class="bab-cal-tag">Full</span>
+      {{- else if or (eq .status "soon") (not .link) }}
+      <span class="bab-cal-tag">Coming soon</span>
+      {{- else }}
+      <a class="bab-cal-btn" href="{{ .link }}" target="_blank" rel="noopener" aria-label="Sign up for the course starting {{ $start.Format "2 January 2006" }}">Sign up</a>
+      {{- end }}
+    </li>
+  {{- end }}
+  </ul>
+{{- else }}
+  <p class="bab-cal-empty">No dates are scheduled right now.</p>
+{{- end }}
+  <p class="bab-cal-foot">{{ with $.Page.Params.price }}<strong>{{ . }}</strong>, charged in your local currency. {{ end }}Payment is handled securely by Stripe. Can't make these times? <a target="_blank" href="https://groups.google.com/g/mco-learn">Join the mailing list</a> to hear about new dates.</p>
+</div>
