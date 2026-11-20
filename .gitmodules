@@ -34,3 +34,6 @@
 [submodule "static/geo"]
 	path = static/geo
 	url = https://github.com/mco-gh/geo.git
+[submodule "static/quiz"]
+	path = static/quiz
+	url = https://github.com/mco-gh/quiz.git

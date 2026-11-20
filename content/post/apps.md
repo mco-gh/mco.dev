@@ -203,4 +203,18 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 </div>
 
+<div class="app-card">
+<a href="/quiz/"><img class="app-shot" src="/img/apps/quiz.jpg" alt="The Quiz landing page, with boxes to join a game with a code or to host a quiz" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="quiz"><a href="/quiz/">Quiz</a></h2>
+<p class="app-tagline">Trivia night for everyone in the room</p>
+<p>Host a live trivia quiz for a room full of people. Pick any topic and Claude writes the questions, with an optional second pass that double-checks every answer. Players join from their phones with a code or a QR code. The big screen shows each question, how everyone voted and an animated leaderboard, with confetti for the winners. Play together in real time, or let everyone go at their own pace. Your quizzes are saved in your browser, and you can export them to share. It works in English, French, Spanish and German. A peer-to-peer successor to my earlier Quizaic app, with no server at all.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, WebRTC data channels via PeerJS (the host's browser runs the game), Anthropic's Claude API (Claude Opus 5.5 with structured output) called from the browser with your key, view transitions, an installable offline web app (service worker), localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/quiz/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/quiz" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
 </div>
