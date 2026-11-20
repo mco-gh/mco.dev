@@ -87,6 +87,22 @@ price = "$200 · €200 · £200"   # shown in the dates list; Stripe charges th
 .post .post-content .bab-me p { margin: 0; font-size: 1.6rem; line-height: 1.65; }
 @media (max-width: 560px) { .bab-hero { padding: 3.2rem 2.2rem; } .post .post-content .bab-hero h2 { font-size: 3rem; } .bab-me { flex-direction: column; text-align: center; } .post .post-content .bab-weeks > li { padding-left: 7.4rem; } }
 
+/* Apps carousel: a scroll-snapping row of cards with arrow buttons on wider screens. */
+.bab-carousel { position: relative; margin: 2.4rem 0 1.2rem; }
+.post .post-content .bab-track { display: flex; gap: 1.6rem; margin: 0; padding: .4rem .2rem 1.6rem; list-style: none; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 .2rem; overscroll-behavior-x: contain; scrollbar-width: thin; }
+.post .post-content .bab-app { flex: 0 0 min(80%, 26rem); margin: 0; scroll-snap-align: start; }
+.bab-app a, .bab-app a:visited { display: flex; flex-direction: column; height: 100%; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: #fff; color: var(--ink); text-decoration: none; box-shadow: 0 4px 14px rgba(0,0,0,.06); transition: transform .15s, box-shadow .15s; }
+.bab-app a:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(124,92,255,.18); text-decoration: none; }
+.post .post-content .bab-app img { display: block; width: 100%; height: auto; aspect-ratio: 1280 / 860; object-fit: cover; margin: 0; border-bottom: 1px solid var(--line); }
+.bab-app strong { display: block; padding: 1.4rem 1.6rem 0; font-family: "Open Sans", sans-serif; font-size: 1.9rem; color: #349ef3; }
+.bab-app span { display: block; padding: .4rem 1.6rem 1.8rem; font-size: 1.45rem; line-height: 1.5; color: var(--muted); }
+.bab-arrow { position: absolute; top: 38%; z-index: 1; width: 4.4rem; height: 4.4rem; border: 1px solid var(--line); border-radius: 50%; background: #fff; color: #5b3fe0; font-size: 2.8rem; line-height: 1; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+.bab-arrow:hover { background: #f1edff; }
+.bab-arrow:disabled { opacity: 0; pointer-events: none; }
+.bab-prev { left: -1.6rem; } .bab-next { right: -1.6rem; }
+@media (max-width: 800px) { .bab-arrow { display: none; } }
+.post .post-content .bab-all { margin: 0 0 4rem; font-size: 1.6rem; font-weight: 700; }
+
 .bab-cta { margin: 4rem 0 2rem; padding: 3.2rem; border-radius: 18px; text-align: center; background: linear-gradient(125deg, #e8f3fe, #f1edff 60%, #fde8f1); }
 .post .post-content .bab-cta p { margin: 0 0 2rem; font-size: 1.8rem; color: var(--ink); }
 .bab-cta a.bab-btn, .bab-cta a.bab-btn:visited { background: #7c5cff; color: #fff; }
@@ -163,6 +179,119 @@ To be clear about what it isn't: this isn't a programming course, and you won't 
   <img src="/img/mco.png" alt="Marc Cohen">
   <p>I'm Marc Cohen, an American software engineer based in London. I've spent over 40 years as a developer and engineering manager at Bell Labs, Lucent and Google, and I now build tools, tutorials and courses that make computing more accessible to everyone. I built the <a href="/apps">free apps on this site</a> with the same AI tools and techniques you'll learn in this course.</p>
 </div>
+
+## Apps I've built this way
+
+Every one of these free apps was built with AI tools, using the same approach you'll learn in the course. Each one runs in your browser, so tap a card to try it.
+
+<div class="bab-carousel">
+  <button class="bab-arrow bab-prev" type="button" aria-label="Previous apps">‹</button>
+  <ul class="bab-track" tabindex="0" aria-label="Apps built with AI">
+    <li class="bab-app">
+      <a href="/words/" target="_blank">
+        <img src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy">
+        <strong>Words</strong>
+        <span>Daily flashcards for the words you'll use most</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/geo/" target="_blank">
+        <img src="/img/apps/geo.jpg" alt="The Geo landing page, showing a map flashcard with France highlighted and the prompt Name this country" width="1280" height="860" loading="lazy">
+        <strong>Geo</strong>
+        <span>Know your way around the world</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/chess/" target="_blank">
+        <img src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>Chess</strong>
+        <span>Your move, wherever you are</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/bg/" target="_blank">
+        <img src="/img/apps/bg.jpg" alt="The BG landing page, with a colorful backgammon board, a color picker and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>BG</strong>
+        <span>Backgammon with a friend, anywhere</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/four/" target="_blank">
+        <img src="/img/apps/four.jpg" alt="The Four landing page, with a blue board of red and yellow discs mid-game, a choice of who goes first and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>Four</strong>
+        <span>Four in a row, wherever you are</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/mm/" target="_blank">
+        <img src="/img/apps/mm.jpg" alt="The MM landing page, with a board of colored guesses and scoring pegs below a hidden code, a level picker and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>MM</strong>
+        <span>Crack the code, wherever you are</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/gin/" target="_blank">
+        <img src="/img/apps/gin.jpg" alt="The Gin landing page, with a fanned hand of cards grouped into colored melds, a choice of how many points to play to and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>Gin</strong>
+        <span>Gin rummy with a friend, anywhere</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/sheet/" target="_blank">
+        <img src="/img/apps/sheet.jpg" alt="The Sheet landing page, with a row of colorful instrument buttons, a song search box and suggested pieces to try" width="1280" height="860" loading="lazy">
+        <strong>Sheet</strong>
+        <span>Free sheet music for the instrument you play</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/riffle/" target="_blank">
+        <img src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, CONTAIN, FALSE and UPPER found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy">
+        <strong>Riffle</strong>
+        <span>Three words, shuffled like cards. Pull them apart.</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/talk/" target="_blank">
+        <img src="/img/apps/talk.jpg" alt="The Talk landing page, with a language picker and a Start a call button" width="1280" height="860" loading="lazy">
+        <strong>Talk</strong>
+        <span>Video calls that translate your voice as you speak</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/bookshelf/" target="_blank">
+        <img src="/img/apps/bookshelf.jpg" alt="The Bookshelf landing page, showing a photo of a shelf of games and puzzle books" width="1280" height="860" loading="lazy">
+        <strong>Bookshelf</strong>
+        <span>Turn a photo of your shelf into a clickable catalogue</span>
+      </a>
+    </li>
+    <li class="bab-app">
+      <a href="/quiz/" target="_blank">
+        <img src="/img/apps/quiz.jpg" alt="The Quiz landing page, with boxes to join a game with a code or to host a quiz" width="1280" height="860" loading="lazy">
+        <strong>Quiz</strong>
+        <span>Trivia night for everyone in the room</span>
+      </a>
+    </li>
+  </ul>
+  <button class="bab-arrow bab-next" type="button" aria-label="More apps">›</button>
+</div>
+<p class="bab-all"><a href="/apps">See all the apps →</a></p>
+
+<script>
+document.querySelectorAll('.bab-carousel').forEach(function (c) {
+  var track = c.querySelector('.bab-track');
+  var prev = c.querySelector('.bab-prev'), next = c.querySelector('.bab-next');
+  function step(dir) { track.scrollBy({ left: dir * track.clientWidth * 0.9, behavior: 'smooth' }); }
+  function update() {
+    prev.disabled = track.scrollLeft < 4;
+    next.disabled = track.scrollLeft + track.clientWidth > track.scrollWidth - 4;
+  }
+  prev.addEventListener('click', function () { step(-1); });
+  next.addEventListener('click', function () { step(1); });
+  track.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+});
+</script>
 
 <div class="bab-cta">
   <p><strong>Ready to build your app?</strong><br>Pick a start date that suits you and book your place.</p>
