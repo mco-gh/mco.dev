@@ -165,7 +165,7 @@ To be clear about what it isn't: this isn't a programming course, and you won't 
 </div>
 
 <div class="bab-cta">
-  <p><strong>Ready to build your app?</strong><br>Pick a time that suits you, or join the <a target="_blank" href="https://groups.google.com/g/mco-learn">mailing list</a> to hear about new dates.</p>
+  <p><strong>Ready to build your app?</strong><br>Pick a start date that suits you and book your place.</p>
   <a class="bab-btn" href="#dates" onclick="document.getElementById('dates').open = true">📅 See upcoming dates</a>
 </div>
 
