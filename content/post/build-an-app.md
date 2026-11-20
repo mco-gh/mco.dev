@@ -54,20 +54,19 @@ showActions = false
 <div class="bab">
 
 <div class="bab-hero">
-  <h2>From idea to app in six weeks</h2>
-  <p>You have an idea for an app. In six weeks, you'll have a working version of it, live on the web, with a link you can send to anyone. No programming experience needed.</p>
+  <h2>Learn how to harness the power of AI in six weeks</h2>
+  <p>You have an idea for an app. You'll learn how to build a working app, live on the web, with a link you can send to anyone. No programming experience needed.</p>
   <ul class="bab-pills">
-    <li>6 weeks</li>
+    <li>6 weeks x 2 hours</li>
     <li>Live online</li>
     <li>Beginner friendly</li>
-    <li>Nothing to install</li>
   </ul>
   <a class="bab-btn" target="_blank" href="https://groups.google.com/g/mco-learn">Get notified about the next course →</a>
 </div>
 
 ## Why now?
 
-Not long ago, building an app meant months of learning to code first. That's changed. Today's AI agents can plan a project, write the code, fix their own mistakes and put the result online, as long as someone gives them a clear idea and good direction. **That someone is you.** This course teaches you how to be a good director: how to describe what you want, check what the AI built, and steer it toward what you had in mind.
+Not long ago, building an app meant months of learning to code first. That's changed. Today's AI agents can plan a project, write the code, fix their own mistakes and put the result online, as long as someone gives them a clear idea and good direction. **That someone is you.** This course teaches you how to be a good director: how to install and use the latest AI tools, describe what you want to build, check what the AI built, and steer it toward what you had in mind.
 
 <div class="bab-three">
   <div class="bab-tile" style="--c:var(--blue)">
@@ -100,29 +99,17 @@ Each lesson has a short talk, a live demo and time to work on your own project, 
   <li style="--c:var(--green)"><strong>Show and tell</strong><span>Testing, debugging and next steps. Then everyone demos what they built.</span></li>
 </ol>
 
-<div class="bab-new">
-
-<h3 style="margin-top:0">✨ What's new in this edition</h3>
-
-I first taught this course at City Lit in London. AI tools have improved a lot since then, so the course has been updated to match:
-
-- **Agents, not just autocomplete.** Today's coding agents work through a whole project step by step, not one snippet at a time. You'll learn to plan and review that work.
-- **More of the job.** AI now helps with testing, debugging and documentation as well as writing code, and the course covers all of it.
-- **AI inside your app.** An optional path for adding AI features to the app itself, done safely and without surprise bills.
-
-</div>
-
 ## Is this course for you?
 
-It's for anyone who's curious and has an idea they'd like to build: a tool for a hobby, a game, something for a club or small business, or just an experiment. **You don't need any math, programming or technical background.** Everything runs in your web browser, so you don't have to install anything.
+It's for anyone who's curious and has an idea they'd like to build: a tool for a hobby, a game, something for a club or small business, or just an experiment. **You don't need any math, programming or technical background.**
 
 To be clear about what it isn't: this isn't a programming course, and you won't come out of it a professional developer. Real production apps take teams of people and years of experience. You'll build a real, working *prototype*, and you'll understand enough to keep going.
 
 <div class="bab-facts">
   <div class="bab-fact" style="--c:var(--blue)"><b>6</b><small>weekly lessons</small></div>
-  <div class="bab-fact" style="--c:var(--violet)"><b>90 min</b><small>live online lesson</small></div>
+  <div class="bab-fact" style="--c:var(--violet)"><b>2 hours</b><small>live online lesson</small></div>
   <div class="bab-fact" style="--c:var(--pink)"><b>~2 hrs</b><small>project time per week</small></div>
-  <div class="bab-fact" style="--c:var(--green)"><b>$100</b><small>concessions available</small></div>
+  <div class="bab-fact" style="--c:var(--green)"><b>$200</b><small>concessions available</small></div>
 </div>
 
 ## Your teacher
