@@ -57,7 +57,7 @@ price = "$200 · €200 · £200"   # shown in the dates list; Stripe charges th
 .bab a.bab-cal-btn, .bab a.bab-cal-btn:visited { flex: none; display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.8rem; border-radius: 10px; background: #7c5cff; color: #fff; font-family: "Open Sans", sans-serif; font-size: 1.5rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
 .bab a.bab-cal-btn:hover { background: #5b3fe0; color: #fff; text-decoration: none; }
 .bab-cal-tag { flex: none; padding: .6rem 1.4rem; border-radius: 10px; background: #eef1f4; color: var(--muted); font-family: "Open Sans", sans-serif; font-size: 1.4rem; font-weight: 700; }
-.post .post-content .bab-cal-foot, .post .post-content .bab-cal-empty { margin: 1.4rem 0 0; font-size: 1.4rem; line-height: 1.5; color: var(--muted); max-width: none; }
+.post .post-content .bab-hero p.bab-cal-foot, .post .post-content .bab-hero p.bab-cal-empty { margin: 1.4rem 0 0; font-size: 1.4rem; line-height: 1.5; color: var(--muted); max-width: none; }
 .post .post-content .bab-cal-foot a { color: #5b3fe0; }
 @media (max-width: 560px) { .post .post-content .bab-cal-row { flex-wrap: wrap; } .bab a.bab-cal-btn, .bab-cal-tag { margin-left: 7.2rem; } .bab-cal-panel { padding: .4rem 1.4rem 1.4rem; } }
 
