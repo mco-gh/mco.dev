@@ -64,6 +64,20 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
+<a href="/geo/"><img class="app-shot" src="/img/apps/geo.jpg" alt="The Geo landing page, showing a map flashcard with France highlighted and the prompt Name this country" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="geo"><a href="/geo/">Geo</a></h2>
+<p class="app-tagline">Know your way around the world</p>
+<p>Learn the world's countries and capitals, oceans, seas and lakes, islands, mountain ranges, deserts and regions in a few minutes a day. Each card shows a small globe with one place highlighted; name it, then flip the card to check, with the capital marked on the map. Geo is a sibling of Words, with the same spaced repetition: each day it mixes a few new places with the ones you're due to review, starting with the famous ones. Choose which topics to study, browse all 580 places on the map, and use it offline or install it on your phone like a native app.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, maps drawn as inline SVG with d3-geo (an orthographic globe turned and zoomed to each place), public-domain Natural Earth map data, an installable offline web app (service worker), localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/geo/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/geo" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/chess/"><img class="app-shot" src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="chess"><a href="/chess/">Chess</a></h2>

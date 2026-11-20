@@ -31,3 +31,6 @@
 [submodule "static/sheet"]
 	path = static/sheet
 	url = https://github.com/mco-gh/sheet.git
+[submodule "static/geo"]
+	path = static/geo
+	url = https://github.com/mco-gh/geo.git
