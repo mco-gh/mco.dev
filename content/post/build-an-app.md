@@ -175,9 +175,9 @@ Every one of these free apps was built with AI tools, using the same approach yo
       </a>
     </li>
     <li class="bab-app">
-      <a href="/mm/" target="_blank">
-        <img src="/img/apps/mm.jpg" alt="The MM landing page, with a board of colored guesses and scoring pegs below a hidden code, a level picker and a Start a game button" width="1280" height="860" loading="lazy">
-        <strong>MM</strong>
+      <a href="/code/" target="_blank">
+        <img src="/img/apps/code.jpg" alt="The Code landing page, with a board of colored guesses and scoring pegs below a hidden code, a level picker and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>Code</strong>
         <span>Crack the code, wherever you are</span>
       </a>
     </li>

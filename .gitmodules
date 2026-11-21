@@ -19,9 +19,9 @@
 [submodule "static/riffle"]
 	path = static/riffle
 	url = https://github.com/mco-gh/riffle.git
-[submodule "static/mm"]
-	path = static/mm
-	url = https://github.com/mco-gh/mm.git
+[submodule "static/code"]
+	path = static/code
+	url = https://github.com/mco-gh/code.git
 [submodule "static/four"]
 	path = static/four
 	url = https://github.com/mco-gh/four.git
