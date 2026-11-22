@@ -1,13 +1,14 @@
 +++
 categories = ["One Great Thing", "Random"]
 tags = ["Apps"]
-title = "13 Apps in 7 Days"
+title = "14 Apps in 7 Days"
+aliases = ["/13-apps-in-7-days/"]   # the post went live under its first title
 date = "2026-11-22"
 coverImage = "/img/apps-cover.jpg"
 draft = false
 +++
 
-Using Claude Code, I've built thirteen apps in the past week. AI coding has crossed a threshold.
+Using Claude Code, I've built fourteen apps in the past week. AI coding has crossed a threshold.
 
 <!--more-->
 
