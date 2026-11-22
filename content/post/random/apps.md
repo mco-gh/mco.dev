@@ -14,7 +14,7 @@ Using Claude Code, I've built fourteen apps in the past week. AI coding has cros
 
 I've been writing software for over forty years and teaching people how to build their own apps with AI for the past three years. The progress has been astounding, but the last few months are something new. Working with these tools isn't like having a faster programmer at your side. It's like having a team of world-class programmers, and anyone can put that team to work.
 
-Lately, I've been learning how to get the most out of Claude Code, and I've produced the following catalog of apps:
+Here are the 14 apps I've produced:
 
 {{< apps-carousel >}}
 
