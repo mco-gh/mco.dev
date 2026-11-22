@@ -96,11 +96,25 @@ These are small, free web apps I've built. They run entirely in your browser: th
 <div class="app-card-body">
 <h2 id="chess"><a href="/chess/">Chess</a></h2>
 <p class="app-tagline">Your move, wherever you are</p>
-<p>Play chess with anyone, wherever they are. Pick white or black, start a game and send your friend the code: there's nothing to sign up for. Tap or drag the pieces and they glide across the board, with every legal move marked for you. Add a chess clock with your own time and increment if you like, turn on video or chat while you play, and recolor the board and pieces to taste. Moves travel directly between your two browsers. No friend around? Play the computer, from Beginner up through Elo ratings to full-strength Stockfish.</p>
+<p>Play chess with anyone, wherever they are. Pick white or black, start a game and send your friend the code: there's nothing to sign up for. Tap or drag the pieces and they glide across the board, with every legal move marked for you. Add a chess clock with your own time and increment if you like, turn on video or chat while you play, and recolor the board and pieces to taste. Moves travel directly between your two browsers. No friend around? Play the computer, from Beginner up through Elo ratings to full-strength Stockfish. When a game ends, open it in Analyze for a move-by-move post-mortem.</p>
 <div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, a small hand-written rules engine, Stockfish 19 (WebAssembly, in a Web Worker), WebRTC data and media channels (PeerJS), inline SVG pieces with CSS transitions, localStorage</div>
 <div class="app-actions">
 <a class="app-btn app-btn-primary" href="/chess/"><span aria-hidden="true">🚀</span>Live app</a>
 <a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/chess" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
+<a href="/analyze/"><img class="app-shot" src="/img/apps/analyze.jpg" alt="Analyze reviewing Morphy's Opera Game, with an evaluation bar, a great-move badge on the board, accuracy for each player and the engine's top lines" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="analyze"><a href="/analyze/">Analyze</a></h2>
+<p class="app-tagline">Every chess move, explained</p>
+<p>A free chess game review, right in your browser. Paste a game from Lichess, Chess.com or anywhere else (PGN, a list of moves or a FEN), or open one straight from Chess when it ends, and step through it with Stockfish. An evaluation bar and graph show who was winning at every moment, every move is graded from great to blunder with the better move drawn on the board, and each player gets an accuracy score. The engine keeps thinking about whatever position you're on, and you can move the pieces to try your own ideas.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, Stockfish 19 (WebAssembly) in two Web Workers (one reviews the game, one analyzes the current position), a hand-written PGN, FEN and SAN parser, Lichess-style winning-chance and accuracy formulas, inline SVG board and graph, an installable offline web app (service worker), localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/analyze/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/analyze" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
 </div>
 </div>
 </div>

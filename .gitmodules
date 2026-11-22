@@ -37,3 +37,6 @@
 [submodule "static/quiz"]
 	path = static/quiz
 	url = https://github.com/mco-gh/quiz.git
+[submodule "static/analyze"]
+	path = static/analyze
+	url = https://github.com/mco-gh/analyze.git
