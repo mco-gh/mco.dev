@@ -1,0 +1,136 @@
+{{- /* A scrolling carousel of the apps, used by build-an-app.md and the "13 Apps in 7 Days" post.
+       Add new apps here so every page that shows the carousel stays in step. Self-contained:
+       styles and script travel with it. Use it in a page as apps-carousel in shortcode brackets. */ -}}
+<style>
+/* Apps carousel: a scroll-snapping row of cards with arrow buttons on wider screens. The theme sets 1rem = 10px. */
+.ac-carousel { position: relative; margin: 2.4rem 0 1.2rem; }
+.post .post-content .ac-track { display: flex; gap: 1.6rem; margin: 0; padding: .4rem .2rem 1.6rem; list-style: none; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 .2rem; overscroll-behavior-x: contain; scrollbar-width: thin; }
+.post .post-content .ac-app { flex: 0 0 min(80%, 26rem); margin: 0; scroll-snap-align: start; }
+.ac-app a, .ac-app a:visited { display: flex; flex-direction: column; height: 100%; border: 1px solid #e3e7ea; border-radius: 16px; overflow: hidden; background: #fff; color: #2f3a44; text-decoration: none; box-shadow: 0 4px 14px rgba(0,0,0,.06); transition: transform .15s, box-shadow .15s; }
+.ac-app a:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(124,92,255,.18); text-decoration: none; }
+.post .post-content .ac-app img { display: block; width: 100%; height: auto; aspect-ratio: 1280 / 860; object-fit: cover; margin: 0; border-bottom: 1px solid #e3e7ea; }
+.ac-app strong { display: block; padding: 1.4rem 1.6rem 0; font-family: "Open Sans", sans-serif; font-size: 1.9rem; color: #349ef3; }
+.ac-app span { display: block; padding: .4rem 1.6rem 1.8rem; font-size: 1.45rem; line-height: 1.5; color: #6b7780; }
+.ac-arrow { position: absolute; top: 38%; z-index: 1; width: 4.4rem; height: 4.4rem; border: 1px solid #e3e7ea; border-radius: 50%; background: #fff; color: #5b3fe0; font-size: 2.8rem; line-height: 1; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+.ac-arrow:hover { background: #f1edff; }
+.ac-arrow:disabled { opacity: 0; pointer-events: none; }
+.ac-prev { left: -1.6rem; } .ac-next { right: -1.6rem; }
+@media (max-width: 800px) { .ac-arrow { display: none; } }
+.post .post-content .ac-all { margin: 0 0 4rem; font-size: 1.6rem; font-weight: 700; }
+</style>
+<div class="ac-carousel">
+  <button class="ac-arrow ac-prev" type="button" aria-label="Previous apps">‹</button>
+  <ul class="ac-track" tabindex="0" aria-label="Apps built with AI">
+    <li class="ac-app">
+      <a href="/quiz/" target="_blank">
+        <img src="/img/apps/quiz.jpg" alt="The Quiz landing page, with boxes to join a game with a code or to host a quiz" width="1280" height="860" loading="lazy">
+        <strong>Quiz</strong>
+        <span>Trivia night for everyone in the room</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/words/" target="_blank">
+        <img src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy">
+        <strong>Words</strong>
+        <span>Daily flashcards for the words you'll use most</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/geo/" target="_blank">
+        <img src="/img/apps/geo.jpg" alt="The Geo landing page, showing a map flashcard with France highlighted and the prompt Name this country" width="1280" height="860" loading="lazy">
+        <strong>Geo</strong>
+        <span>Know your way around the world</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/chess/" target="_blank">
+        <img src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>Chess</strong>
+        <span>Your move, wherever you are</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/analyze/" target="_blank">
+        <img src="/img/apps/analyze.jpg" alt="Analyze reviewing Morphy's Opera Game, with an evaluation bar, a great-move badge on the board, accuracy for each player and the engine's top lines" width="1280" height="860" loading="lazy">
+        <strong>Analyze</strong>
+        <span>Every chess move, explained</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/bg/" target="_blank">
+        <img src="/img/apps/bg.jpg" alt="The BG landing page, with a colorful backgammon board, a color picker and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>BG</strong>
+        <span>Backgammon with a friend, anywhere</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/four/" target="_blank">
+        <img src="/img/apps/four.jpg" alt="The Four landing page, with a blue board of red and yellow discs mid-game, a choice of who goes first and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>Four</strong>
+        <span>Four in a row, wherever you are</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/code/" target="_blank">
+        <img src="/img/apps/code.jpg" alt="The Code landing page, with a board of colored guesses and scoring pegs below a hidden code, a level picker and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>Code</strong>
+        <span>Crack the code, wherever you are</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/gin/" target="_blank">
+        <img src="/img/apps/gin.jpg" alt="The Gin landing page, with a fanned hand of cards grouped into colored melds, a choice of how many points to play to and a Start a game button" width="1280" height="860" loading="lazy">
+        <strong>Gin</strong>
+        <span>Gin rummy with a friend, anywhere</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/sheet/" target="_blank">
+        <img src="/img/apps/sheet.jpg" alt="The Sheet landing page, with a row of colorful instrument buttons, a song search box and suggested pieces to try" width="1280" height="860" loading="lazy">
+        <strong>Sheet</strong>
+        <span>Free sheet music for the instrument you play</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/riffle/" target="_blank">
+        <img src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, CONTAIN, FALSE and UPPER found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy">
+        <strong>Riffle</strong>
+        <span>Three words, shuffled like cards. Pull them apart.</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/talk/" target="_blank">
+        <img src="/img/apps/talk.jpg" alt="The Talk landing page, with a language picker and a Start a call button" width="1280" height="860" loading="lazy">
+        <strong>Talk</strong>
+        <span>Video calls that translate your voice as you speak</span>
+      </a>
+    </li>
+    <li class="ac-app">
+      <a href="/bookshelf/" target="_blank">
+        <img src="/img/apps/bookshelf.jpg" alt="The Bookshelf landing page, showing a photo of a shelf of games and puzzle books" width="1280" height="860" loading="lazy">
+        <strong>Bookshelf</strong>
+        <span>Turn a photo of your shelf into a clickable catalogue</span>
+      </a>
+    </li>
+  </ul>
+  <button class="ac-arrow ac-next" type="button" aria-label="More apps">›</button>
+</div>
+<p class="ac-all"><a href="/apps">See all the apps →</a></p>
+
+<script>
+document.querySelectorAll('.ac-carousel:not([data-ready])').forEach(function (c) {
+  c.dataset.ready = '1';
+  var track = c.querySelector('.ac-track');
+  var prev = c.querySelector('.ac-prev'), next = c.querySelector('.ac-next');
+  function step(dir) { track.scrollBy({ left: dir * track.clientWidth * 0.9, behavior: 'smooth' }); }
+  function update() {
+    prev.disabled = track.scrollLeft < 4;
+    next.disabled = track.scrollLeft + track.clientWidth > track.scrollWidth - 4;
+  }
+  prev.addEventListener('click', function () { step(-1); });
+  next.addEventListener('click', function () { step(1); });
+  track.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+});
+</script>
