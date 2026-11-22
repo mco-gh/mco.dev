@@ -161,6 +161,13 @@ Every one of these free apps was built with AI tools, using the same approach yo
       </a>
     </li>
     <li class="bab-app">
+      <a href="/analyze/" target="_blank">
+        <img src="/img/apps/analyze.jpg" alt="Analyze reviewing Morphy's Opera Game, with an evaluation bar, a great-move badge on the board, accuracy for each player and the engine's top lines" width="1280" height="860" loading="lazy">
+        <strong>Analyze</strong>
+        <span>Every chess move, explained</span>
+      </a>
+    </li>
+    <li class="bab-app">
       <a href="/bg/" target="_blank">
         <img src="/img/apps/bg.jpg" alt="The BG landing page, with a colorful backgammon board, a color picker and a Start a game button" width="1280" height="860" loading="lazy">
         <strong>BG</strong>
