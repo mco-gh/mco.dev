@@ -40,3 +40,6 @@
 [submodule "static/analyze"]
 	path = static/analyze
 	url = https://github.com/mco-gh/analyze.git
+[submodule "static/fb"]
+	path = static/fb
+	url = https://github.com/mco-gh/fb.git

@@ -231,4 +231,18 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 </div>
 
+<div class="app-card">
+<a href="/fb/"><img class="app-shot" src="/img/apps/fb.jpg" alt="The Fringe Benefits landing page, with genre chips, trip dates and a slider for watching demo sales" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="fb"><a href="/fb/">Fringe Benefits</a></h2>
+<p class="app-tagline">The Fringe shows everyone's booking</p>
+<p>Find the Edinburgh Festival Fringe shows that are selling out fastest. Pick the genres you like and the days you're there, and Fringe Benefits gives every show a heat score from how much of its run has sold out, how far ahead, how recently, whether it has added dates and whether the act has moved to a bigger room. It tells you which shows to book now, while there are still seats on your dates. This is a prototype: it runs on a made-up Fringe with simulated sales, and a slider lets you watch it sell out from June to the last night.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, a demand simulation in Node for the demo data, the Edinburgh Festivals Listings API (signed with HMAC-SHA1) for real listings, localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/fb/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/fb" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
 </div>
