@@ -43,3 +43,6 @@
 [submodule "static/fb"]
 	path = static/fb
 	url = https://github.com/mco-gh/fb.git
+[submodule "static/modelage"]
+	path = static/modelage
+	url = https://github.com/mco-gh/modelage.git

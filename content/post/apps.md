@@ -245,4 +245,18 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 </div>
 
+<div class="app-card">
+<a href="/modelage/"><img class="app-shot" src="/img/apps/modelage.jpg" alt="The Modelage landing page in French, with a box for describing a sculpture, idea chips and a choice of clay" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="modelage"><a href="/modelage/">Modelage</a></h2>
+<p class="app-tagline">From lump of clay to finished sculpture</p>
+<p>A studio aid for sculpture students. Describe a sculpture, or show a reference image, and Modelage imagines the finished piece in clay, then works backwards to the stages of its making: the first rough mass, the blocked-in structure, the details emerging, and the finished work. Play the stages as a slideshow or export them as a PDF. It's in French by default, with English one tap away. Images are made by OpenAI's GPT Image (or Google's Gemini) with your own API key.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, OpenAI's GPT Image 2.6 Sunburst image generation and editing API (or Gemini 3 Pro Image) called from the browser with your key, jsPDF, IndexedDB</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/modelage/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/modelage" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
 </div>
