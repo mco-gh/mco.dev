@@ -46,3 +46,6 @@
 [submodule "static/modelage"]
 	path = static/modelage
 	url = https://github.com/mco-gh/modelage.git
+[submodule "static/frets"]
+	path = static/frets
+	url = https://github.com/mco-gh/frets.git

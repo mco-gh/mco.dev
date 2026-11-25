@@ -92,6 +92,20 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
+<a href="/frets/"><img class="app-shot" src="/img/apps/frets.jpg" alt="The Frets landing page, showing an electric guitar fretboard flashcard with one note highlighted, the prompt Name this note, and note keys from C to B" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="frets"><a href="/frets/">Frets</a></h2>
+<p class="app-tagline">Know your way around the neck</p>
+<p>Learn the name of every note on the guitar fretboard in a few minutes a day. Each card shows an electric guitar neck with one spot highlighted; tap the note you think it is, then flip the card to hear it played and see everywhere else on the neck with the same pitch. Frets is a sibling of Words and Geo, with the same spaced repetition: it starts with the open strings and works up the neck. Choose how many frets your guitar has, whether to include sharps and flats, which strings to study, and a rosewood, ebony or maple fretboard. See the whole neck at once, colored by how well you know each note, and use it offline or install it on your phone like a native app.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, fretboards drawn as inline SVG (with a wood-grain filter), notes synthesized in the browser with the Web Audio API (Karplus–Strong plucked strings), an installable offline web app (service worker), localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/frets/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/frets" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/chess/"><img class="app-shot" src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="chess"><a href="/chess/">Chess</a></h2>
