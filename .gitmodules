@@ -49,3 +49,6 @@
 [submodule "static/frets"]
 	path = static/frets
 	url = https://github.com/mco-gh/frets.git
+[submodule "static/mpsg"]
+	path = static/mpsg
+	url = https://github.com/mco-gh/mpsg.git

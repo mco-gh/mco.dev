@@ -106,6 +106,20 @@ These are small, free web apps I've built. They run entirely in your browser: th
 </div>
 
 <div class="app-card">
+<a href="/mpsg/"><img class="app-shot" src="/img/apps/mpsg.jpg" alt="The Medical Physics Study Guide Today page, with a countdown to the exam, today's flashcards, practice questions and a high-yield fact of the day" width="1280" height="860" loading="lazy"></a>
+<div class="app-card-body">
+<h2 id="mpsg"><a href="/mpsg/">Medical Physics Study Guide</a></h2>
+<p class="app-tagline">Get ready for your medical physics boards</p>
+<p>A study guide for medical physics students preparing for their qualifying exams, covering radiation physics, dosimetry, radiobiology, radiation protection, imaging, nuclear medicine, external beam therapy and brachytherapy. Learn 257 flashcards with the same spaced repetition as Words, Geo and Frets, then test yourself on over 100 exam-style questions with worked explanations: a quick ten, a drill on one topic, a timed mock exam, or the ones you missed. High-yield notes, a formula sheet and a nuclide table are a search away. Set your exam date for a countdown and a pace check, and follow your streak, activity and mastery by topic. Use it offline or install it on your phone like a native app.</p>
+<div class="app-tech"><strong>Tech stack:</strong> HTML, CSS and JavaScript modules with no build step, an installable offline web app (service worker), localStorage</div>
+<div class="app-actions">
+<a class="app-btn app-btn-primary" href="/mpsg/"><span aria-hidden="true">🚀</span>Live app</a>
+<a class="app-btn app-btn-secondary" href="https://github.com/mco-gh/mpsg" target="_blank" rel="noopener"><span aria-hidden="true">💻</span>Source code</a>
+</div>
+</div>
+</div>
+
+<div class="app-card">
 <a href="/chess/"><img class="app-shot" src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy"></a>
 <div class="app-card-body">
 <h2 id="chess"><a href="/chess/">Chess</a></h2>
