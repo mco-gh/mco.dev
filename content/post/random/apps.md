@@ -16,7 +16,7 @@ I've been writing software for over forty years and teaching people how to build
 
 Here are the 14 apps I've produced:
 
-{{< apps-carousel >}}
+{{< apps-carousel skip="frets modelage" >}}
 
 What took me by surprise was how often Claude Code would check its own work, find problems, and fix them before I even saw them. More than once, I remembered something I'd forgotten to ask for, only to find it had already been done.
 

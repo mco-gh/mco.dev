@@ -1,6 +1,9 @@
 {{- /* A scrolling carousel of the apps, used by build-an-app.md and the "14 Apps in 7 Days" post.
-       Add new apps here so every page that shows the carousel stays in step. Self-contained:
-       styles and script travel with it. Use it in a page as apps-carousel in shortcode brackets. */ -}}
+       The cards mirror the Apps page (content/post/apps.md), in the same order: when an app is
+       added there, add its card here too. Self-contained: styles and script travel with it.
+       Use it in a page as apps-carousel in shortcode brackets. To leave apps out, pass their
+       Apps-page ids: apps-carousel skip="frets modelage". */ -}}
+{{- $skip := split (default "" (.Get "skip")) " " -}}
 <style>
 /* Apps carousel: a scroll-snapping row of cards with arrow buttons on wider screens. The theme sets 1rem = 10px. */
 .ac-carousel { position: relative; margin: 2.4rem 0 1.2rem; }
@@ -21,6 +24,7 @@
 <div class="ac-carousel">
   <button class="ac-arrow ac-prev" type="button" aria-label="Previous apps">‹</button>
   <ul class="ac-track" tabindex="0" aria-label="Apps built with AI">
+    {{- if not (in $skip "quiz") }}
     <li class="ac-app">
       <a href="/quiz/" target="_blank">
         <img src="/img/apps/quiz.jpg" alt="The Quiz landing page, with boxes to join a game with a code or to host a quiz" width="1280" height="860" loading="lazy">
@@ -28,6 +32,8 @@
         <span>Trivia night for everyone in the room</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "words") }}
     <li class="ac-app">
       <a href="/words/" target="_blank">
         <img src="/img/apps/words.jpg" alt="The Words landing page, showing a flashcard for the word 'ball'" width="1280" height="860" loading="lazy">
@@ -35,6 +41,8 @@
         <span>Daily flashcards for the words you'll use most</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "geo") }}
     <li class="ac-app">
       <a href="/geo/" target="_blank">
         <img src="/img/apps/geo.jpg" alt="The Geo landing page, showing a map flashcard with France highlighted and the prompt Name this country" width="1280" height="860" loading="lazy">
@@ -42,6 +50,17 @@
         <span>Know your way around the world</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "frets") }}
+    <li class="ac-app">
+      <a href="/frets/" target="_blank">
+        <img src="/img/apps/frets.jpg" alt="The Frets landing page, showing an electric guitar fretboard flashcard with one note highlighted, the prompt Name this note, and note keys from C to B" width="1280" height="860" loading="lazy">
+        <strong>Frets</strong>
+        <span>Know your way around the neck</span>
+      </a>
+    </li>
+    {{- end }}
+    {{- if not (in $skip "chess") }}
     <li class="ac-app">
       <a href="/chess/" target="_blank">
         <img src="/img/apps/chess.jpg" alt="The Chess landing page, with a colorful chess board mid-game, a color picker and a Start a game button" width="1280" height="860" loading="lazy">
@@ -49,6 +68,8 @@
         <span>Your move, wherever you are</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "analyze") }}
     <li class="ac-app">
       <a href="/analyze/" target="_blank">
         <img src="/img/apps/analyze.jpg" alt="Analyze reviewing Morphy's Opera Game, with an evaluation bar, a great-move badge on the board, accuracy for each player and the engine's top lines" width="1280" height="860" loading="lazy">
@@ -56,6 +77,8 @@
         <span>Every chess move, explained</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "bg") }}
     <li class="ac-app">
       <a href="/bg/" target="_blank">
         <img src="/img/apps/bg.jpg" alt="The BG landing page, with a colorful backgammon board, a color picker and a Start a game button" width="1280" height="860" loading="lazy">
@@ -63,6 +86,8 @@
         <span>Backgammon with a friend, anywhere</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "four") }}
     <li class="ac-app">
       <a href="/four/" target="_blank">
         <img src="/img/apps/four.jpg" alt="The Four landing page, with a blue board of red and yellow discs mid-game, a choice of who goes first and a Start a game button" width="1280" height="860" loading="lazy">
@@ -70,6 +95,8 @@
         <span>Four in a row, wherever you are</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "code") }}
     <li class="ac-app">
       <a href="/code/" target="_blank">
         <img src="/img/apps/code.jpg" alt="The Code landing page, with a board of colored guesses and scoring pegs below a hidden code, a level picker and a Start a game button" width="1280" height="860" loading="lazy">
@@ -77,6 +104,8 @@
         <span>Crack the code, wherever you are</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "gin") }}
     <li class="ac-app">
       <a href="/gin/" target="_blank">
         <img src="/img/apps/gin.jpg" alt="The Gin landing page, with a fanned hand of cards grouped into colored melds, a choice of how many points to play to and a Start a game button" width="1280" height="860" loading="lazy">
@@ -84,6 +113,8 @@
         <span>Gin rummy with a friend, anywhere</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "sheet") }}
     <li class="ac-app">
       <a href="/sheet/" target="_blank">
         <img src="/img/apps/sheet.jpg" alt="The Sheet landing page, with a row of colorful instrument buttons, a song search box and suggested pieces to try" width="1280" height="860" loading="lazy">
@@ -91,6 +122,8 @@
         <span>Free sheet music for the instrument you play</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "riffle") }}
     <li class="ac-app">
       <a href="/riffle/" target="_blank">
         <img src="/img/apps/riffle.jpg" alt="A solved Riffle puzzle: the letter strip coloured by word, CONTAIN, FALSE and UPPER found, and a Perfect riffle result with a colour barcode to share" width="1280" height="860" loading="lazy">
@@ -98,6 +131,8 @@
         <span>Three words, shuffled like cards. Pull them apart.</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "talk") }}
     <li class="ac-app">
       <a href="/talk/" target="_blank">
         <img src="/img/apps/talk.jpg" alt="The Talk landing page, with a language picker and a Start a call button" width="1280" height="860" loading="lazy">
@@ -105,6 +140,8 @@
         <span>Video calls that translate your voice as you speak</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "bookshelf") }}
     <li class="ac-app">
       <a href="/bookshelf/" target="_blank">
         <img src="/img/apps/bookshelf.jpg" alt="The Bookshelf landing page, showing a photo of a shelf of games and puzzle books" width="1280" height="860" loading="lazy">
@@ -112,6 +149,8 @@
         <span>Turn a photo of your shelf into a clickable catalogue</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "fb") }}
     <li class="ac-app">
       <a href="/fb/" target="_blank">
         <img src="/img/apps/fb.jpg" alt="The Fringe Benefits landing page, with genre chips, trip dates and a slider for watching demo sales" width="1280" height="860" loading="lazy">
@@ -119,6 +158,16 @@
         <span>The Fringe shows everyone's booking</span>
       </a>
     </li>
+    {{- end }}
+    {{- if not (in $skip "modelage") }}
+    <li class="ac-app">
+      <a href="/modelage/" target="_blank">
+        <img src="/img/apps/modelage.jpg" alt="The Modelage landing page in French, with a box for describing a sculpture, idea chips and a choice of clay" width="1280" height="860" loading="lazy">
+        <strong>Modelage</strong>
+        <span>From lump of clay to finished sculpture</span>
+      </a>
+    </li>
+    {{- end }}
   </ul>
   <button class="ac-arrow ac-next" type="button" aria-label="More apps">›</button>
 </div>
