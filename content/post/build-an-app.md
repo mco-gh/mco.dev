@@ -1,13 +1,16 @@
 +++
 description = "A six-week, hands-on course: go from an idea to a working web app you can share, with AI agents doing the heavy lifting."
-tags = ["education"]
 title = "Build an App with AI"
 url = "/build-an-app"
 comments = false
-draft = true
 showMeta = false
 showActions = false
 price = "$200 · €200 · £200"   # shown in the dates list; Stripe charges the buyer's local one
+
+# Published at /build-an-app but unlisted: kept out of the home page, tag and
+# archive lists, the RSS feed and the sitemap. Only people with the link find it.
+[build]
+  list = "never"
 
 # Upcoming offerings, listed by the "Upcoming dates" button in the banner.
 # One block per course run, in date order.
