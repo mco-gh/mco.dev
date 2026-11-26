@@ -1,15 +1,16 @@
 +++
 description = "A six-week, hands-on course: go from an idea to a working web app you can share, with AI agents doing the heavy lifting."
 title = "Build an App with AI"
-url = "/build-an-app"
+url = "/build"
 comments = false
 showMeta = false
 showActions = false
 price = "$200 · €200 · £200"   # shown in the dates list; Stripe charges the buyer's local one
 
-# Published at /build-an-app but unlisted: kept out of the home page, tag and
+# Published at /build but unlisted: kept out of the home page, tag and
 # archive lists, the RSS feed and the sitemap. Only people with the link find it.
-[build]
+# "_build" (not "build"): Netlify builds the site with Hugo 0.69, which only knows this name.
+[_build]
   list = "never"
 
 # Upcoming offerings, listed by the "Upcoming dates" button in the banner.

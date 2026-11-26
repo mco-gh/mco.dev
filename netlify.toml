@@ -21,6 +21,20 @@ command = "hugo -b $DEPLOY_PRIME_URL"
 HUGO_VERSION = "0.56.3"
 
 
+# The course page moved from /build-an-app to /build (Stripe's sold-out
+# messages still point at the old address).
+[[redirects]]
+from = "/build-an-app/*"
+to = "/build/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/build-an-app"
+to = "/build/"
+status = 301
+force = true
+
 # Connect4 was renamed Four.
 [[redirects]]
 from = "/connect4/*"
